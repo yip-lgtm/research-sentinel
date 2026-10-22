@@ -83,6 +83,11 @@ def esc(s) -> str:
     return html.escape(str(s), quote=False)
 
 
+def esc_url(u: str) -> str:
+    """URL 入面嘅 & 必須 escape 成 &amp;，否則 HTML 驗證器會當成壞 markup。"""
+    return html.escape(str(u), quote=True)
+
+
 def md_to_html(md: str) -> str:
     """極簡 markdown → HTML。支援表格、標題、粗體、斜體、連結、程式碼、清單、引用。
 
@@ -109,10 +114,10 @@ def md_to_html(md: str) -> str:
 
         t = re.sub(r"`([^`]+)`", stash, t)
         t = esc(t)
-        t = re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)", r'<a href="\2" target="_blank" rel="noopener">\1</a>', t)
+        t = re.sub(r"\[([^\]]+)\]\((https?://[^\s)]+)\)", lambda m: '<a href="%s" target="_blank" rel="noopener">%s</a>' % (esc_url(m.group(2)), m.group(1)), t)
         t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
         t = re.sub(r"(?<!\*)\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", t)
-        t = re.sub(r"(?<![\w/])(https?://[^\s<>\"')]+)", r'<a href="\1" target="_blank" rel="noopener">\1</a>', t)
+        t = re.sub(r"(?<![\w/])(https?://[^\s<>\"')]+)", lambda m: '<a href="%s" target="_blank" rel="noopener">%s</a>' % (esc_url(m.group(1)), m.group(1)), t)
         for idx, c in enumerate(codes):
             t = t.replace(f"\x00CODE{idx}\x00", f"<code>{esc(c)}</code>")
         return t
@@ -196,6 +201,9 @@ def md_to_html(md: str) -> str:
     return "\n".join(out)
 
 
+BUILD_STAMP = "—"
+
+
 def page(title: str, body: str, nav_active: str = "") -> str:
     nav_items = [("home", "研究"), ("reports", "報告"), ("knowledge", "知識庫")]
     nav = ""
@@ -243,6 +251,26 @@ def parse_report_meta(text: str) -> dict:
     return meta
 
 
+def report_body_md(text: str) -> str:
+    """報告頁模板已經渲染 kicker/h1/lead/meta，正文唔應該重複標題區。
+
+    規則：從第一個 `### ` 小節開始；如果冇，就剝走最前面嘅 `#` 標題行同分隔線。
+    """
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if line.strip().startswith("### "):
+            return "\n".join(lines[i:]).strip()
+    # fallback：剝走開頭連續嘅標題行 / 分隔線 / 空行
+    i = 0
+    while i < len(lines):
+        s = lines[i].strip()
+        if s == "" or s.startswith("#") or re.match(r"^(-{3,}|\*{3,})$", s):
+            i += 1
+            continue
+        break
+    return "\n".join(lines[i:]).strip()
+
+
 def report_slug(path: Path) -> str:
     return path.stem
 
@@ -277,7 +305,7 @@ def build_index(reports: list, topics: list, state: dict) -> str:
         else:
             tag = '<span class="tag warn">未評</span>'
         stamp = r["stamp"]
-        cards.append(f"""<a class="card" href="/R&D/reports/{esc(stamp)}.html">
+        cards.append(f"""<a class="card" href="/R&amp;D/reports/{esc(stamp)}.html">
   <div class="row"><h2>{esc(r['title_zh'] or stamp)}</h2>{tag}</div>
   <p class="meta">{esc(stamp)} UTC · {r['cjk']} 中文字 · {r['bytes']} bytes · {r['sources']} 來源</p>
   <p class="lead">{esc(r['title_en'])}</p>
@@ -311,7 +339,7 @@ def build_index(reports: list, topics: list, state: dict) -> str:
 <p class="kicker">最新報告 / LATEST</p>
 {''.join(cards[:6])}
 
-<p style="margin-top:24px"><a href="/R&D/reports/" style="font-size:14px;color:#7fb0ff;text-decoration:none">睇全部 {len(reports)} 份報告 →</a></p>
+<p style="margin-top:24px"><a href="/R&amp;D/reports/" style="font-size:14px;color:#7fb0ff;text-decoration:none">睇全部 {len(reports)} 份報告 →</a></p>
 
 <div class="rule"></div>
 
@@ -319,14 +347,14 @@ def build_index(reports: list, topics: list, state: dict) -> str:
 <div class="chips">
 {''.join(topic_chips)}
 </div>
-<p style="margin-top:24px"><a href="/R&D/knowledge/" style="font-size:14px;color:#7fb0ff;text-decoration:none">打開知識庫 →</a></p>
+<p style="margin-top:24px"><a href="/R&amp;D/knowledge/" style="font-size:14px;color:#7fb0ff;text-decoration:none">打開知識庫 →</a></p>
 
 <div class="rule"></div>
 
 <p class="kicker">覆蓋登記 / TOPIC REGISTRY</p>
 {topics_body}
 
-<p class="meta" style="margin-top:30px">最後更新：{time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} · 自動建置，勿手改</p>"""
+<p class="meta" style="margin-top:30px">最後更新：{esc(BUILD_STAMP)} UTC · 自動建置，勿手改</p>"""
     return page("科研哨兵 · R&D", body, nav_active="home")
 
 
@@ -342,8 +370,8 @@ def build_report_page(r: dict) -> str:
 <div class="rule"></div>
 {r['html']}
 <div class="rule"></div>
-<p><a href="/R&D/reports/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回報告索引</a></p>
-<p class="meta" style="margin-top:30px">自動建置於 {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} · 來源：research-sentinel/reports/{esc(stamp)}.md</p>"""
+<p><a href="/R&amp;D/reports/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回報告索引</a></p>
+<p class="meta" style="margin-top:30px">自動建置於 {esc(stamp)} UTC · 來源：research-sentinel/reports/{esc(stamp)}.md</p>"""
     return page(f"{meta['title_zh'] or stamp} · 科研哨兵", body, nav_active="reports")
 
 
@@ -352,7 +380,7 @@ def build_reports_index(reports: list) -> str:
     for r in reports:
         g = r["gate"]
         tag = '<span class="tag ok">通過</span>' if g.get("pass") else ('<span class="tag bad">未過閘</span>' if g.get("fails") else '<span class="tag warn">未評</span>')
-        cards.append(f"""<a class="card" href="/R&D/reports/{esc(r['stamp'])}.html">
+        cards.append(f"""<a class="card" href="/R&amp;D/reports/{esc(r['stamp'])}.html">
   <div class="row"><h2>{esc(r['title_zh'] or r['stamp'])}</h2>{tag}</div>
   <p class="meta">{esc(r['stamp'])} UTC · {r['cjk']} 中文字 · {r['bytes']} bytes · {r['sources']} 來源</p>
   <p class="lead">{esc(r['title_en'])}</p>
@@ -363,14 +391,14 @@ def build_reports_index(reports: list) -> str:
 <div class="rule"></div>
 {''.join(cards) if cards else '<p class="lead">未有報告。</p>'}
 <div class="rule"></div>
-<p><a href="/R&D/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回首頁</a></p>"""
+<p><a href="/R&amp;D/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回首頁</a></p>"""
     return page("報告索引 · 科研哨兵", body, nav_active="reports")
 
 
 def build_knowledge_index(sections: list) -> str:
     cards = []
     for s in sections:
-        cards.append(f"""<a class="card" href="/R&D/knowledge/{esc(s['slug'])}.html">
+        cards.append(f"""<a class="card" href="/R&amp;D/knowledge/{esc(s['slug'])}.html">
   <div class="row"><h2>{esc(s['title'])}</h2><span class="tag">{esc(s['bytes'])} B</span></div>
   <p class="meta">{esc(s['h2'])} 個小節</p>
   <p class="lead">{esc(s['desc'])}</p>
@@ -381,7 +409,7 @@ def build_knowledge_index(sections: list) -> str:
 <div class="rule"></div>
 {''.join(cards) if cards else '<p class="lead">未有章節。</p>'}
 <div class="rule"></div>
-<p><a href="/R&D/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回首頁</a></p>"""
+<p><a href="/R&amp;D/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回首頁</a></p>"""
     return page("知識庫 · 科研哨兵", body, nav_active="knowledge")
 
 
@@ -392,8 +420,8 @@ def build_knowledge_page(s: dict) -> str:
 <div class="rule"></div>
 {s['html']}
 <div class="rule"></div>
-<p><a href="/R&D/knowledge/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回知識庫</a></p>
-<p class="meta" style="margin-top:30px">自動建置於 {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} · 來源：research-sentinel/knowledge/sections/{esc(s['slug'])}.md</p>"""
+<p><a href="/R&amp;D/knowledge/" style="font-size:14px;color:#7fb0ff;text-decoration:none">← 返回知識庫</a></p>
+<p class="meta" style="margin-top:30px">自動建置於 {esc(BUILD_STAMP)} UTC · 來源：research-sentinel/knowledge/sections/{esc(s['slug'])}.md</p>"""
     return page(f"{s['title']} · 知識庫", body, nav_active="knowledge")
 
 
@@ -406,6 +434,9 @@ def collect_reports(index: dict) -> list:
         stamp = path.stem
         meta = parse_report_meta(text)
         g = index.get("reports", {}).get(stamp, {})
+        if "pass" not in g and "gate_pass" in g:
+            g = dict(g)
+            g["pass"] = bool(g["gate_pass"])
         cjk = sum(1 for ch in text if "\u4e00" <= ch <= "\u9fff")
         srcs = len(re.findall(r"https?://", text))
         reports.append({
@@ -417,7 +448,7 @@ def collect_reports(index: dict) -> list:
             "cjk": cjk,
             "bytes": len(text.encode("utf-8")),
             "sources": srcs,
-            "html": md_to_html(text),
+            "html": md_to_html(report_body_md(text)),
         })
     reports.sort(key=lambda r: r["stamp"], reverse=True)
     return reports
@@ -476,6 +507,8 @@ def main() -> int:
 
     reports = collect_reports(index)
     sections = collect_sections()
+    global BUILD_STAMP
+    BUILD_STAMP = reports[0]["stamp"] if reports else "—"
 
     changed = []
 
@@ -504,7 +537,7 @@ def main() -> int:
 
     # feed.json（機器可讀）
     feed = {
-        "generated_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "generated_utc": BUILD_STAMP,
         "reports": [
             {
                 "stamp": r["stamp"],

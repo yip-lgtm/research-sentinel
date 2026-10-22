@@ -5,11 +5,34 @@
       "title": "工程教育路徑總覽",
       "domain": "教育體系",
       "status": "building",
-      "coverage": 0.2,
-      "last_report": null,
-      "notes": "基礎建設階段，優先完成"
+      "coverage": 0.62,
+      "last_report": "2026-10-22-14",
+      "notes": "中學基礎→副學位→學士各分支→碩博→地區差異→專業認證。學士三分支(03a)與研究生層級(04)已實質填充；尚缺 05 地區差異、06 專業認證專章、02 副學位。"
+    },
+    {
+      "id": "edu-bachelor-branches",
+      "title": "學士三大分支（Civil/Mechanical/Electrical）學分制度",
+      "domain": "教育體系",
+      "status": "substantially_covered",
+      "coverage": 0.78,
+      "last_report": "2026-10-22-14",
+      "notes": "HKU 240 credits 三分支對比＋MIT Course 1-ENG/2/6-5 units 對比已完成。缺口：認證專述、就業數據、lab 時數比、MIT track 完整清單。"
+    },
+    {
+      "id": "edu-graduate-levels",
+      "title": "碩士／博士層級（英美港三地）",
+      "domain": "教育體系",
+      "status": "substantially_covered",
+      "coverage": 0.75,
+      "last_report": "2026-10-22-14",
+      "notes": "Cambridge Taught/Research 官方分類與逐課程 PhD 銜接條款（核心發現：MPhil 名稱≠研究型）；HKU/HKUST 時長與試用期；Stanford MS/PhD；Engineering Council CEng/IEng 與 Washington Accord。缺口：PolyU 受阻、CUHK 時長、Imperial 年限、gradsch 404、統計數字。"
     }
   ],
-  "domains_covered": {},
-  "updated_utc": "2026-10-22T12:22:31Z"
+  "domains_covered": {
+    "education_system_hk": 0.6,
+    "education_system_uk": 0.7,
+    "education_system_us": 0.5,
+    "professional_accreditation": 0.45
+  },
+  "updated_utc": "2026-10-22T14:18:00Z"
 }

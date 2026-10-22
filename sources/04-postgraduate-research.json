@@ -1,0 +1,208 @@
+{
+  "section": "04",
+  "title": "碩士／博士：研究生教育層級（Postgraduate / Research Degrees）",
+  "sources": [
+    {
+      "org": "GOV.UK",
+      "title": "What qualification levels mean — list of qualification levels",
+      "date": "未標示",
+      "url": "https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels",
+      "supports": "Level 7 = integrated master's (MEng) 與 master's (MA/MSc)；Level 8 = doctorate (PhD/DPhil)"
+    },
+    {
+      "org": "QAA",
+      "title": "Characteristics statements",
+      "date": "未標示",
+      "url": "https://www.qaa.ac.uk/the-quality-code/characteristics-statements",
+      "supports": "Master's degrees sit at Levels 7 and 11, doctoral qualifications at Levels 8 and 12"
+    },
+    {
+      "org": "Cambridge",
+      "title": "Postgraduate Course Directory",
+      "date": "未標示（2026-10-22 擷取）",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory",
+      "supports": "Taught/Research 篩選（Research 169／Taught 188）、Course Level（Doctoral 117／Master's 221）、工程課程逐列標籤與長度"
+    },
+    {
+      "org": "Cambridge",
+      "title": "MPhil in Advanced Chemical Engineering",
+      "date": "未標示",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace",
+      "supports": "11 months FT、Study Mode Taught、十門 taught modules＋3-8 月研究專題論文、cannot be counted as one year of a PhD"
+    },
+    {
+      "org": "Cambridge",
+      "title": "MPhil in Engineering",
+      "date": "未標示",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg",
+      "supports": "12 months FT／24 months PT、Study Mode Research、course of research、PhD 需 pass"
+    },
+    {
+      "org": "Cambridge",
+      "title": "MPhil in Electrical and Electronic Engineering",
+      "date": "未標示",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpeee",
+      "supports": "10 months FT、Study Mode Taught、PhD continuation 需 70 percent"
+    },
+    {
+      "org": "Cambridge",
+      "title": "MPhil in Energy Technologies",
+      "date": "未標示",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmet",
+      "supports": "11 months FT、Study Mode Taught、prepare students for potential future PhD research、70 percent 門檻"
+    },
+    {
+      "org": "Cambridge",
+      "title": "MPhil in Chemical Engineering and Biotechnology",
+      "date": "未標示",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempceb",
+      "supports": "12 months FT／2 years PT、Study Mode Research、thesis and oral examination、does not convert to a PhD"
+    },
+    {
+      "org": "Cambridge",
+      "title": "PhD in Engineering",
+      "date": "未標示",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg",
+      "supports": "3-4 years full-time / 4-7 years part-time"
+    },
+    {
+      "org": "MIT",
+      "title": "Master of Engineering (Course 6-P) degree chart",
+      "date": "未標示",
+      "url": "https://catalog.mit.edu/degree-charts/master-electrical-engineering-computer-science-course-6-p/",
+      "supports": "MEng 須搭配 6-3/6-4/6-5；6.THM 24＋6.9830 Internship 1＋48＋18＝91 units"
+    },
+    {
+      "org": "MIT",
+      "title": "Electrical Engineering with Computing (SB, Course 6-5) degree chart",
+      "date": "未標示",
+      "url": "https://catalog.mit.edu/degree-charts/electrical-engineering-computer-science-course-6-5/",
+      "supports": "與 6-P 的對照（見 03a 章）"
+    },
+    {
+      "org": "Stanford",
+      "title": "EE — MS admissions",
+      "date": "未標示",
+      "url": "https://ee.stanford.edu/admissions/ms",
+      "supports": "MS 需 45 units of study、no thesis requirement、terminal degree"
+    },
+    {
+      "org": "Stanford",
+      "title": "EE — PhD admissions",
+      "date": "未標示",
+      "url": "https://ee.stanford.edu/admissions/phd",
+      "supports": "master's degree is not required；5-7 years"
+    },
+    {
+      "org": "香港大學",
+      "title": "MPhil / PhD Programme Structure",
+      "date": "未標示",
+      "url": "https://engg.hku.hk/Admissions/PhD-MPhil/Programme-Structure",
+      "supports": "MPhil 24/36 個月、PhD 三年制 36/54、四年制 48/72、2025-09 後試用期變動"
+    },
+    {
+      "org": "香港大學",
+      "title": "MSc(Eng) Programme Structure and Duration",
+      "date": "未標示",
+      "url": "https://engg.hku.hk/Teaching-Learning/MSc/Programme-Structure-Duration",
+      "supports": "FT 1 年／max 2；PT 2 年／max 3"
+    },
+    {
+      "org": "香港大學",
+      "title": "MSc(Eng) Fees",
+      "date": "2026-27 入學",
+      "url": "https://engg.hku.hk/Teaching-Learning/MSc/Fees",
+      "supports": "本地 HK$250,000／非本地 HK$375,000；HKIE 無 MSc 認證政策、建議 project 選項"
+    },
+    {
+      "org": "香港科技大學",
+      "title": "SENG — MPhil / PhD Programs",
+      "date": "未標示",
+      "url": "https://seng.hkust.edu.hk/academics/research-postgraduate/mphil-phd-programs",
+      "supports": "MPhil 2 年、PhD 4 年（有相關研究型碩士 3 年）、非全日制 6 年、thesis defense"
+    },
+    {
+      "org": "香港中文大學",
+      "title": "Graduate School — Engineering programme listing",
+      "date": "未標示",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering",
+      "supports": "工程課程層級查詢入口（細節未取得）"
+    },
+    {
+      "org": "Engineering Council",
+      "title": "Chartered Engineer (CEng)",
+      "date": "未標示",
+      "url": "https://www.engc.org.uk/professional-registration/our-professional-titles/chartered-engineer-ceng/",
+      "supports": "CEng 路徑：認可榮譽學士＋認可 Masters/EngD 或 further learning"
+    },
+    {
+      "org": "Engineering Council",
+      "title": "Incorporated Engineer (IEng)",
+      "date": "未標示",
+      "url": "https://www.engc.org.uk/professional-registration/our-professional-titles/incorporated-engineer-ieng/",
+      "supports": "IEng 路徑：認可榮譽學士學位、Integrated MEng 納入同一途徑"
+    },
+    {
+      "org": "Engineering Council",
+      "title": "Washington Accord",
+      "date": "未標示",
+      "url": "https://www.engc.org.uk/international-recognition/international-accords/washington-accord/",
+      "supports": "公約目的、適用英國四地範圍、Masters level 銜接條款"
+    },
+    {
+      "org": "Engineering Council",
+      "title": "Higher Education Providers",
+      "date": "未標示",
+      "url": "https://www.engc.org.uk/education-and-skills/higher-education-programmes/higher-education-providers/",
+      "supports": "開辦受認證課程須申請 accredited status"
+    },
+    {
+      "org": "Imperial College London",
+      "title": "Advanced Mechanical Engineering (MSc, taught)",
+      "date": "2027 入學",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2027/advanced-mechanical-engineering/",
+      "supports": "taught MSc 課程存在（年限未取得）"
+    },
+    {
+      "org": "Imperial College London",
+      "title": "Mechanical Engineering (MEng, undergraduate integrated)",
+      "date": "2027 入學",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/mechanical-engineering/",
+      "supports": "integrated MEng 課程存在（年限未取得）"
+    },
+    {
+      "org": "Imperial College London",
+      "title": "PhD application — choose course",
+      "date": "未標示",
+      "url": "https://www.imperial.ac.uk/study/apply/postgraduate-doctoral/application-process/choose-course/phd/",
+      "supports": "PhD 與 MPhil-to-PhD 銜接路徑說明頁"
+    }
+  ],
+  "gaps": [
+    "PolyU 受阻（連線逾時）",
+    "CUHK 逐課程時長條款未取得",
+    "Imperial 年限與 integrated 原文未取得",
+    "gradsch.hku.hk 404",
+    "三地研究生統計數字全缺",
+    "HKU MSc(Eng) 專題選項課程代號與學分未取得",
+    "Engineering Council IEng 頁未完整擷取",
+    "HKIE 正式認可學位名單與 MIT ABET 名單對照未取得"
+  ],
+  "subtopics_covered": [
+    "英國資歷級別框架 Level 7/8",
+    "integrated master's 與授課型碩士的結構差異",
+    "Cambridge Taught/Research 官方分類",
+    "逐課程 PhD 銜接條款",
+    "三地碩士→博士銜接對照",
+    "Engineering Council CEng/IEng 路徑",
+    "Washington Accord 互認機制",
+    "MIT MEng 學分結構",
+    "Stanford MS/PhD 分界",
+    "HKU MPhil/PhD/MSc 時長與試用期"
+  ],
+  "subtopics_missing": [
+    "博士後與學術職業路徑的細節",
+    "獎學金與經費數據",
+    "PolyU 與 CUHK 完整覆蓋"
+  ]
+}

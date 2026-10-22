@@ -1,8 +1,81 @@
 {
   "section": "03a",
   "title": "學士三大分支：Civil / Mechanical / Electrical（工程學士）",
-  "sources": [],
-  "gaps": [],
-  "subtopics_covered": [],
-  "subtopics_missing": []
+  "sources": [
+    {
+      "org": "香港大學",
+      "title": "BEng in Electrical Engineering — Syllabus（適用 2025-2026 學年起）",
+      "date": "2025-2026 學年版",
+      "url": "https://engg.hku.hk/",
+      "supports": "240 credits、UG5 54、Engineering Core 42、Discipline Core 72（Intro 36＋Adv 36）、Elective 48＋12、Capstone 12、ELEC3841 實習 0 credit、三個 Focus、Elective MSc courses 條款"
+    },
+    {
+      "org": "香港大學",
+      "title": "BEng in Computer Engineering — Syllabus（適用 2026-2027 學年起）",
+      "date": "2026-2027 學年版",
+      "url": "https://engg.hku.hk/",
+      "supports": "同系另一分支 Discipline Core 78（36＋42）、Discipline Elective 30"
+    },
+    {
+      "org": "MIT",
+      "title": "Electrical Engineering with Computing (SB, Course 6-5) degree chart",
+      "date": "未標示",
+      "url": "https://catalog.mit.edu/degree-charts/electrical-engineering-computer-science-course-6-5/",
+      "supports": "GIR 17 科、Laboratory 12 units、Units in Major 174-186、超出 GIR 186-195、Fundamentals 與 System Design Centers、CI-M 與 PLAB 要求"
+    },
+    {
+      "org": "MIT",
+      "title": "Master of Engineering (Course 6-P) degree chart",
+      "date": "未標示",
+      "url": "https://catalog.mit.edu/degree-charts/master-electrical-engineering-computer-science-course-6-p/",
+      "supports": "MEng 須搭配或同時取得 6-3/6-4/6-5；6.THM 24＋6.9830 1＋48＋18＝91 units"
+    },
+    {
+      "org": "香港大學",
+      "title": "BEng in Civil Engineering — Syllabus",
+      "date": "未標示",
+      "url": "https://engg.hku.hk/",
+      "supports": "Civil 學分區塊、必修課清單、CIVL4101/CIVL4102 Capstone、CIVL2114 實習 ≥4 星期、三個 Focus"
+    },
+    {
+      "org": "香港大學",
+      "title": "BEng in Mechanical Engineering — Syllabus",
+      "date": "未標示",
+      "url": "https://engg.hku.hk/",
+      "supports": "Mechanical 學分區塊與 suggested study plan、MECH4429 Integrated capstone experience、MECH3432 Industrial training ≥6 星期"
+    },
+    {
+      "org": "MIT",
+      "title": "Civil and Environmental Engineering (SB, Course 1-ENG) degree chart",
+      "date": "未標示",
+      "url": "https://catalog.mit.edu/degree-charts/civil-and-environmental-engineering-course-1-eng/",
+      "supports": "Course 1-ENG 的 GIR、180 units、lab 與 1.101/1.013 設計課"
+    },
+    {
+      "org": "MIT",
+      "title": "Mechanical Engineering (SB, Course 2) degree chart",
+      "date": "未標示",
+      "url": "https://catalog.mit.edu/degree-charts/mechanical-engineering-course-2/",
+      "supports": "Course 2 的 GIR、track 選修、capstone 四選一、2.THU 條款"
+    }
+  ],
+  "gaps": [
+    "認證狀態未核實（HKU 電機與 MIT 6-5 頁面正文未載明 ABET/HKIE 聲明）",
+    "實驗課時數比例未核實",
+    "MIT 6-5 完整 track 清單未取得",
+    "HKU 電機 Groups A-E/J/I 完整課表未取得",
+    "畢業後去向數據無一手來源"
+  ],
+  "subtopics_covered": [
+    "學分區塊配比",
+    "核心必修課清單",
+    "選修與 Focus 機制",
+    "實驗與設計課",
+    "畢業專題與實習",
+    "學位名稱與銜接"
+  ],
+  "subtopics_missing": [
+    "認證章節專述",
+    "就業與進修數據"
+  ]
 }

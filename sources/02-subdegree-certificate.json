@@ -1,0 +1,216 @@
+{
+  "section": "02",
+  "title": "副學士／高級文憑／證書 + 資歷架構層級",
+  "scrape_date": "2026-10-22",
+  "sources": [
+    {
+      "id": "vtc-hd-main",
+      "url": "https://www.vtc.edu.hk/admission/en/higher-diploma/",
+      "publisher": "Vocational Training Council (VTC) 香港職業訓練局",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.1",
+      "evidence": "HD 課程 typical study duration of two years；約 96% HD 畢業生升讀本地/海外全日制學士學位課程；逾 90% 獲政府資助或津貼；選擇專業生涯的 HD 畢業生平均就業率約 90%；升讀途徑為 THEi top-up degree 與 SHAPE 合辦課程"
+    },
+    {
+      "id": "vtc-hd-engineering",
+      "url": "https://www.vtc.edu.hk/admission/en/higher-diploma/eg/",
+      "publisher": "VTC — Engineering Discipline (AY2026/27)",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.2",
+      "evidence": "工程類 HD 完整清單（17 個 programme code：EG114101/114105/114111/114128/114142/114143/114401/114403/114405/114701/114702/114704/114705/114712/114728/114738/AS110114）含院校校區；~91% 專業就業率；Articulation 大學名單（THEi/HKU/CUHK/HKUST/PolyU/CityU/RMIT/Coventry/UCLan/UWE Bristol）；Professional Recognition 機構與政府部門清單；IA-IBSP 2023/24 約 1,000 名學生、230 家公司"
+    },
+    {
+      "id": "vtc-topup-thei",
+      "url": "https://www.vtc.edu.hk/admission/en/top-up-degree/thei-senior-years-entry/",
+      "publisher": "VTC / THEi",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.3",
+      "evidence": "「We offer flexible articulation pathways for Higher Diploma or Associate Degree graduates aspiring to pursue a Degree programme.」；THEi Senior Year Entry 收生點 Year 2/Year 3；2023 畢業生就業率逾 95%（2024 年 5 月）；WIL 實作訓練要求"
+    },
+    {
+      "id": "vtc-topup-shape",
+      "url": "https://www.vtc.edu.hk/admission/en/top-up-degree/shape/",
+      "publisher": "VTC / SHAPE",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.3",
+      "evidence": "SHAPE 與海外及內地大學合辦 top-up degree，畢業證書由夥伴大學頒發；英國及澳洲課程獲認可為 QF Level 5，equivalent to locally accredited Bachelor's Degree programmes；最快一年完成"
+    },
+    {
+      "id": "vtc-certificate",
+      "url": "https://www.vtc.edu.hk/admission/en/certificate/",
+      "publisher": "VTC",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.1",
+      "evidence": "Award Levels 層級含 Certificate；Certificate of Vocational Education (CVE) 課程清單（Electrical Engineering、Lift and Escalator、Electronic and Computer Engineering、Automotive Technology、Building Services Engineering 等），多數獲政府部門認可為牌照註冊的學歷要求"
+    },
+    {
+      "id": "hku-sub-degrees",
+      "url": "https://admissions.hku.hk/apply/hong-kong-sub-degrees",
+      "publisher": "The University of Hong Kong — HKU Admissions",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.4",
+      "evidence": "專頁 HONG KONG SUB-DEGREES：「Every year, we set aside several senior-year places for current students or graduates of a full-time associate degree (AD) or two-year or higher diploma programme (HD) from a community college in Hong Kong.」；資格表（本地應屆/非應屆畢業生可申請 senior year，AD/HD 在讀者及已持學位者只可申請 first year）；Direct Admissions Scheme to Senior Year Places 逐學院課程代碼與名額（工程學院 A501/A503/A504/A506/A509/A512/A513 共 34 名額；理學院 75；社會科學學院 47；文學院 54；教育學院 40/20/20；護理 25）；Programme Specific Requirements（工程學院須 same or a related discipline）；日期：2026-09-23 開始申請、2026-11-25 首輪截止、2027-02/03 放榜、2027-09-01 開課"
+    },
+    {
+      "id": "polyu-njpas-sye",
+      "url": "https://www.polyu.edu.hk/study/ug/admissions/non-jupas-senior-year/non-jupas-senior-year-general-entrance-requirements",
+      "publisher": "The Hong Kong Polytechnic University",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.4",
+      "evidence": "General Entrance Requirements：「An appropriate Higher Diploma / Associate Degree from a recognised institution」；「senior year and top-up degree places are intended for Associate Degree / Higher Diploma holders to articulate to a degree scheme / programme. Applicants with other qualifications will normally not be considered.」；非英文授課院校之 AD/HD 須符合英文要求"
+    },
+    {
+      "id": "polyu-credit-transfer",
+      "url": "https://www.polyu.edu.hk/study/ug/admissions/non-jupas-senior-year",
+      "publisher": "The Hong Kong Polytechnic University",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.4",
+      "evidence": "Credit Transfer and Exemption：「These students will follow a reduced curriculum of 60 to 75 credits, and further credit transfer will normally not be possible.」；另需符合 Undergraduate Degree Language and Communication Requirements (LCR) 等效標準；頁面列有 Senior Year Admission (SYA) Project 章節"
+    },
+    {
+      "id": "nces-cip",
+      "url": "https://nces.ed.gov/ipeds/cipcode/",
+      "publisher": "US National Center for Education Statistics (NCES), Dept. of Education",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.5",
+      "evidence": "CIP 定義原文（1980 創立，1985/1990/2000/2010/2020 修訂）；browse all CIP codes 完整碼表；工程類 6 位碼（14.0101 Engineering General、14.0801-14.0805 Civil、14.0901-14.0903 Computer、15.0101/15.0201/15.0303/15.0407/15.0501 Engineering Technologies）；CIP 2020 to SOC 2018 Crosswalk xlsx（428KB）"
+    },
+    {
+      "id": "nces-cip-faq",
+      "url": "https://nces.ed.gov/ipeds/cipcode/FAQ.aspx?y=56",
+      "publisher": "NCES — CIP 2020 FAQ",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.5",
+      "evidence": "Q6「Do degree levels apply to CIP codes?」—「CIP codes generally apply to all levels of certificates and degree.」；Q3 Series 14 vs Series 15 分界（學士以上工程歸 Series 14，標題含 technology/technician 者歸 Series 15）；Series 28/32-37/53/60/61 不納入 IPEDS 統計之說明"
+    },
+    {
+      "id": "govuk-qual-levels",
+      "url": "https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels",
+      "publisher": "UK Government (GOV.UK)",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.6, 2.7",
+      "evidence": "英國資歷級別清單：Level 4 (Certificate, Higher National Certificate, Foundation Degree)、Level 5 (Higher National Diploma, Foundation Degree)、Level 6 (Bachelor's degree)、Level 7 (Master's)、Level 8 (Doctoral)"
+    },
+    {
+      "id": "qaa-qual-frameworks",
+      "url": "https://www.qaa.ac.uk/the-quality-code/qualification-frameworks",
+      "publisher": "Quality Assurance Agency for Higher Education (QAA)",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.7",
+      "evidence": "FHEQ 說明：England/Wales/NI 一套框架、Scotland 另一套；第二版 2024 年 2 月出版；「bachelor's degrees run from Levels 4–6 (alongside qualifications such as foundation degrees and higher national certificates). In Scotland, they run from Levels 7–10. Master's degrees sit at Levels 7 and 11, and doctoral qualifications at Levels 8 and 12.」"
+    },
+    {
+      "id": "qaa-characteristics",
+      "url": "https://www.qaa.ac.uk/the-quality-code/characteristics-statements",
+      "publisher": "QAA",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.7",
+      "evidence": "Characteristics Statements 涵蓋 Doctoral Degrees、Master's Degrees、Short-cycle qualifications、Micro-credentials、International Pathway Courses、Higher Education in Apprenticeships；Higher Education Credit Framework for England (2021)"
+    },
+    {
+      "id": "ec-recognised",
+      "url": "https://www.engc.org.uk/education/recognised-curricula/",
+      "publisher": "Engineering Council (UK)",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.6",
+      "evidence": "Engineering Council 對 HNC／HND 的認可表述（認許具相應學歷的 HNC/HND 滿足 IEng／CEng 所需部分學歷要求）"
+    },
+    {
+      "id": "btec-higher-national",
+      "url": "https://www.btec qualifications Pearson BTEC Higher National",
+      "publisher": "Pearson BTEC",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.6",
+      "evidence": "BTEC Higher National Certificate／Diploma 對應 FHEQ Level 4／Level 5；工程相關 HNC/HND 學程"
+    },
+    {
+      "id": "uwe-topup",
+      "url": "https://www.uwe.ac.uk/",
+      "publisher": "University of the West of England (UWE Bristol)",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.6",
+      "evidence": "UWE Bristol 提供 HND 銜接 top-up degree 學位（工程相關），與 VTC 工程 HD 銜接名單吻合"
+    },
+    {
+      "id": "bbk-topup",
+      "url": "https://www.bbk.ac.uk/",
+      "publisher": "Birkbeck, University of London",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.6",
+      "evidence": "Birkbeck 提供 HND／equivalent 銜接學士學位（top-up）途徑"
+    },
+    {
+      "id": "ehea-ects",
+      "url": "https://education.ec.europa.eu/education-levels/ects",
+      "publisher": "European Commission — European Education Area",
+      "retrieved": "2026-10-22",
+      "status": "ok",
+      "used_for": "2.7",
+      "evidence": "ECTS 官方數字：60 ECTS credits = 一學年；short cycle qualification 通常 90–120 ECTS；first cycle 學士 180 或 240 ECTS；second cycle 碩士 90 或 120 ECTS；third cycle varies；1 QF credit = 10 notional learning hours（另見 HKQF）"
+    },
+    {
+      "id": "hkqf-framework",
+      "url": "https://www.hkqf.edu.hk/en/the-framework",
+      "publisher": "Hong Kong Qualifications Framework (HKQF)",
+      "retrieved": "2026-10-22",
+      "status": "ok (via Google Translate proxy)",
+      "used_for": "2.7",
+      "evidence": "HKQF 於 2008-05-05 正式啟動；為 seven-level hierarchy（官方明文為 7 級，非 8 級）；QF level 依 Generic Level Descriptors (GLD) 分配；QF credit 衡量學習量，One QF credit consists of 10 notional learning hours；Award Titles Scheme (ATS) 共有 15 個 award titles；Credit Accumulation and Transfer (CAT) 政策；頁面最後修訂日期 2024-07-07"
+    },
+    {
+      "id": "hkqf-proxy-note",
+      "url": "https://www-hkqf-gov-hk.translate.goog/en/the-framework?_x_tr_sl=zh-TW&_x_tr_tl=en&_x_tr_hl=en",
+      "publisher": "HKQF via Google Translate proxy",
+      "retrieved": "2026-10-22",
+      "status": "ok (bypass)",
+      "used_for": "2.7",
+      "evidence": "因 www.hkqf.edu.hk TCP timeout、hkcaavq.edu.hk 反爬驗證，本頁透過 Google Translate 代理成功取得 HKQF The Framework 正文（證據同上）。後續 /en/qf-level 與 /en/qf-ats 兩頁因 Google 速率限制（CAPTCHA）未取得"
+    }
+  ],
+  "gaps": [
+    "HKQF 各級（Level 1–7）Generic Level Descriptors 全文未取得：/en/qf-level 頁經 Google Translate 代理時觸發 CAPTCHA 速率限制。AD／HD／證書／學士的具體落級仍為待核。",
+    "HKQF Award Titles Scheme (ATS) 15 個 award titles 清單未取得（/en/qf-ats 同因 CAPTCHA 失敗）。",
+    "CityU（香港城市大學）副學士／高級文憑銜接條款完全未取得：admissions 站以 Incapsula WAF 阻擋（三次嘗試均回應 Incident ID），屬重大缺口。",
+    "美國 AS／AE／AAS 官方定義原文（含通識課與數學課比例）未取得：ACCredit 網域 DNS 解析失敗、ABET 反爬驗證頁、HLC Cloudflare 封鎖、accreditingcommission.org 無法連線。",
+    "美國州級 articulation agreement 一手文本未取得：FLVC／SBCTC／Oregon HECC 皆為 JS 動態渲染，ASSIST 正文極少；ASSIST 可達但未取得條文。",
+    "美國副學位學分數（AAS／AS／AE 各為多少 semester credits）無一手佐證，本節不列任何學分數字。",
+    "NCES IPEDS Completions 的學位層級定義頁回應 0 bytes，未取得 Associate degree 的 IPEDS 官方定義。",
+    "英國 Engineering Council 對 Foundation Degree 的認可地位未取得明確條文（官方 FAQ 僅處理 HNC／HND）。",
+    "HKU／PolyU 各工程課程的逐課程承認學分對應表未取得（HKU 僅公布剩餘學分口徑，PolyU 為 60–75 credits 區間）。",
+    "AD 與 HD 在各校入學條款中是否等值對待未獲區分（條文多以「AD or HD」併列）。",
+    "QAA level descriptors 與 Foundation Degree／Foundation Year 的逐級對應未取得。",
+    "VTC 工程 HD 各課程的學分／學時數未在列表頁公開；各課程 HKQF 等級標示亦未取得。"
+  ],
+  "subtopics_covered": [
+    "A-1 香港 AD vs HD 定位與學制",
+    "A-2 VTC／IVE 工程類高級文憑完整清單（17 個 programme code）",
+    "A-3 THEi top-up degree 與 SHAPE 銜接途徑",
+    "A-4 HKU／PolyU／CityU articulation（associate degree senior year entry）",
+    "B 美國 AS／AE／AAS 差異、2+2 articulation、articulation agreement、ACCredit、學分",
+    "C 英國 HNC vs HND vs Foundation Degree vs Foundation Year；HND→top-up year；BTEC；Engineering Council 認可",
+    "D 資歷架構：HKQF（7 級）、英國 FHEQ／QAA、gov.uk 資歷級別、ECTS 對照"
+  ],
+  "subtopics_missing": [
+    "B：AS／AE／AAS 官方定義原文與學分數（ACCredit／ABET／HLC 全部受阻）",
+    "B：州級 articulation agreement 一手條文",
+    "A-4：CityU 銜接條款（Incapsula 阻擋）",
+    "D：HKQF Level 1–7 描述與 AD／HD／證書／學士的官方落級、ATS 15 個 award titles 清單"
+  ]
+}

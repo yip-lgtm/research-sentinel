@@ -1,0 +1,19 @@
+{
+  "section": "01",
+  "id": "01-secondary-foundation",
+  "title": "中學／高中工程基礎與升學銜接",
+  "language": "zh-Hant",
+  "status": "in_progress",
+  "updated": "2026-10-22",
+  "subsections": [
+    {"key": "A", "title": "數學基礎（代數、微積分入門、統計、向量／線性代數預備）", "status": "done"},
+    {"key": "B", "title": "物理基礎（力學、電磁、熱與波動、實驗方法／SBA 位置）", "status": "done"},
+    {"key": "C", "title": "化學／生物（銜接化工、生醫）", "status": "done"},
+    {"key": "D", "title": "工程／設計入門（製圖／CAD、演算法思維、D&T、STEM PBL）", "status": "done"},
+    {"key": "E", "title": "升學銜接：AP / A-Level / IB / DSE / 中國高考對照表", "status": "done"},
+    {"key": "F", "title": "各校工程學士 admission 要求", "status": "done"},
+    {"key": "G", "title": "通橋／預科（foundation year／預科）定位", "status": "pending"}
+  ],
+  "sources": [],
+  "gaps": []
+}

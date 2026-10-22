@@ -27,10 +27,22 @@
 - NUE 與氮來源結構：共生固氮佔比越高 NUE 越高；合成肥佔比越高 NUE 越低。
 
 ### 1.2 口徑差異原因（為何數字不同）
-- 待填
+| # | 口徑差異原因 | 具體說明 | 可核查來源 |
+|---|---|---|---|
+| 1 | **NUE 定義不同（Y/F vs 其他）** | Lassaletta 2014 用 Y/F（收穫蛋白質含氮 kgN/ha/yr ÷ 合成肥+糞肥+生物固氮+沉降總 N 投入）；而 Zhang 2015、Chen 2014 等使用 AE-NUE（作物吸氮 ÷ 施氮）或 partial factor productivity（PFP = 產量 ÷ N 投入，不計固氮與沉降）。分母是否含固氮/沉降會讓同一國家數字差 10–20 個百分點。 | Lassaletta 2014 ERL: https://iopscience.iop.org/article/10.1088/1748-9326/9/10/105011 ；Chen 2014 Nature: https://www.nature.com/articles/nature13609 |
+| 2 | **時間粒度不同（年度 vs 季節 vs 單季試驗）** | Lassaletta 為 1961–2019 國家年度序列；Chen 2014 為中國 153 個 site-year 單季；Zhang 2017 為 2005–2015 縣級推廣累積（37.7M ha）。單季試驗通常排除前茬殘留 N 與土壤累積，NUE 偏低且波動更大。 | 同上 |
+| 3 | **是否計入生物固氮與沉降** | Lassaletta 分母含共生固氮與大氣沉降（type I 國家固氮比重大 → NUE 被稀釋）；若只算合成肥分母（如 ISU 的 lb N/bu grain 0.83），則數字明顯較高。 | Lassaletta 2014；ISU/INI: https://www.agronext.iastate.edu/soilfertility/info/The%20Iowa%20Nitrogen%20Initiative.pdf |
+| 4 | **作物與產量定義** | Chen 2014 中國以稻穀/麥粒/玉米粒的**穀物產量**計；Zhang 2017 以「產品」（Mg）計反應性 N 損失（kg N/Mg）。同一 N 投入在不同產量基準下 NUE 不同。 | Chen 2014；Zhang 2017: https://www.nature.com/articles/nature25770 |
+| 5 | **「optimum」的經濟 vs 農藝定義** | AONR（最大產量）與 EONR（最大淨利）不同：Purdue 166 trials 中 Indiana 各區 AONR 211–254 lb N/ac，而 EONR 在 $0.75–1.00/lb N 下為 159–210 lb N/ac（差 20–30%）。引用「最佳氮率」時未說明是 AONR 或 EONR，會造成 20–30% 差距。 | Purdue Nitrogen Management Update (PDF)：https://www.extension.purdue.edu/extmedia/AY/AY-203-W.pdf （本檔 §6.1 完整抄錄 Tables 2–4） |
+| 6 | **氮價與玉米價情境不同** | EONR 隨 N 價與玉米價變動：Purdue Table 2 中，N 價由 $0.60 → $1.65/lb N（+175%），$5.00 玉米價下 EONR 由 200 → 143 lb N/ac（−28.5%）；玉米價由 $4.50 → $7.50（+67%）在 $1.00/lb N 下 EONR 由 184 → 197（+7%）。 | 同上 |
+| 7 | **試驗設計：示範 strip vs 隨機化多處理** | Iowa Nitrogen Initiative 每試驗 5 處理 × 5 重複 × 25 plots（0.25–0.33 ac），用混合效應 quadratic-plateau 模型（MLRA 與輪作為固定效果、各試驗為隨機效果）估計，與 MRTN 逐試驗線性/quadratic 擬合不同 → EONR 估計有系統差異。 | Iowa Nitrogen Initiative (Agronext): https://www.agronext.iastate.edu/soilfertility/info/The%20Iowa%20Nitrogen%20Initiative.pdf |
+| 8 | **土壤/氣候條件差異** | INI 2023 結果顯示 EONR 呈東→西梯度（由降雨梯度驅動）：Northwest Iowa 平均 182±50 lb N/ac，Des Moines Lobe 203±28 lb N/ac；同期全州平均 190 lb N/ac、範圍 100–337 lb N/ac。 | 同上 |
+| 9 | **N2O 排放係數的測量邊界** | 只計 direct（IPCC 2019 default 1.0% of N input）vs 加 indirect（leaching 0.011、NH3 volatilization 0.006 等）會讓同一措施降幅從 ~10% 變成 ~30–40%。 | IPCC 2019 Refinement Ch.4.5: https://www.ipcc-nggip.iges.or.jp/public/gp/bgp/4_5_N2O_Agricultural_Soils.pdf （§5.1） |
 
 ### 本節缺口
-- 待填
+- 上游 §1.1 的 Zhang 2015 (Nature 528:51-59) 仍只有摘要，具體表格數字未取得（paywall）。
+- Sela et al. 2018 的出刊與數字仍待核實。
+- IFA/FAO/World Bank 的 NUE 官方序列未直接抓取。
 
 ---
 

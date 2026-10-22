@@ -53,6 +53,15 @@
       "coverage": 0.5,
       "last_report": "2026-10-22-19",
       "notes": "LC3-50 配方、碳鋁酸鹽機制、IEA 2DS 熟料因子 0.65→0.60 累計省 29 億噸 CO2、法國 Saint-Pierre-la-Cour 50 萬噸/yr、迦納 CBI 閃速爐 40 萬噸/yr、EN 197-5 規範。缺口：未披露實際替代率、LC3-50 與 LC3-100 強度差異、亞洲水泥廠數據。"
+    },
+    {
+      "id": "amr-burden-age-divergence",
+      "title": "抗藥性死亡負擔的年齡分化與治理槓桿",
+      "domain": "公共衛生／抗藥性／環境工程",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-20",
+      "notes": "GRAM 2024 年齡兩端分化（兒童減逾半、70歲以上增逾八成）、WHO 管線 97 在研/2 新類別、丹麥黃卡實測、污水 ARG 去除率 88.4%。缺口：WHONET 一手數據、丹麥黃卡前後抗藥性率對照、污水 ARG 臨床劑量—反應研究。"
     }
   ],
   "domains_covered": {
@@ -62,7 +71,9 @@
     "professional_accreditation": 0.45,
     "energy_affordability": 0.58,
     "occupational_safety_heat": 0.55,
-    "low_carbon_cement": 0.5
+    "low_carbon_cement": 0.5,
+    "amr_burden": 0.45,
+    "wastewater_arg": 0.35
   },
-  "updated_utc": "2026-10-22T19:55:00Z"
+  "updated_utc": "2026-10-22T20:07:00Z"
 }

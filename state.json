@@ -4,7 +4,7 @@
   "level": 3,
   "lifespan_hours": 29,
   "lifespan_hours_max": 29,
-  "reports_total": 5,
+  "reports_total": 6,
   "reports_qualified": 2,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -68,9 +68,19 @@
       "coverage_after": 0.5,
       "verdict": "pending",
       "notes": "2026-10-22 19:00 報告（LC3 低碳水泥機制）已投遞，用戶未評分。優點：機制鏈完整、有工業裝置規模與規範核查；潛在影響數字全屬推算、法國與迦納實際熟料替代率未披露。"
+    },
+    "amr-burden-age-divergence": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pending",
+      "level": 3,
+      "pass": 0,
+      "fail": 0,
+      "notes": "2026-10-22 20:07 報告（抗藥性死亡年齡分化）已投遞，用戶未評分。優點：三條【機制】鏈（兒童分母效應／老年雙效應／新藥槓桿弱）＋【敏感度】替代情境區間＋丹麥黃卡國家級實測案例；口徑陷阱段落明確區分 associated vs attributable。"
     }
   },
-  "last_report_utc": "2026-10-22T19:52:16Z",
+  "last_report_utc": "2026-10-22T20:07:00Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -141,6 +151,14 @@
       "level": 3,
       "hours": 29,
       "note": "用戶確認：15:00 版本內容合格、格式未過閘。分數已由 16:00 合規重寫版在同一主題記錄（L2→L3, 24h→29h），為避免同一主題重複計分，此處不再另外 +1 級/+5 小時。品質閘字數上限維持 1000 中文字／9000 bytes 不變。"
+    },
+    {
+      "utc": "2026-10-22T20:07:00Z",
+      "cmd": "deliver",
+      "topic": "amr-burden-age-divergence",
+      "report": "2026-10-22-20",
+      "gate_pass": true,
+      "note": "先寫檔→跑品質閘 exit 0→再交付；996 中文字／8950 bytes，8 來源，W6-W10 全清。"
     }
   ],
   "reports_pending": 1,

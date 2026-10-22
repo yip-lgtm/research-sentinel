@@ -14,6 +14,7 @@
 | **Lassaletta et al. 2014, Environ. Res. Lett. 9 105011**（註：題目給的「Nature Geoscience」有誤；此篇發表於 ERL，另有 Nature 期刊相關文獻為 Zhang 2015） | 聚合／國家（Y/F，Y=收穫蛋白質含氮 kgN/ha/yr；F=合成肥+糞肥+生物固氮+沉降 總 N 投入） | 全球：1961 年 **68%** → 1980 年 **45%** → 近 30 年穩定在 **47%**；結論句「目前只有 47% 的活性氮被轉成收穫產品，相較 1960 年代初的 68%，同期合成氮肥投入增加 9 倍」 | 1961–1980 明顯下降，之後 30 年持平 ~47% | https://iopscience.iop.org/article/10.1088/1748-9326/9/10/105011 （DOI 10.1088/1748-9326/9/10/105011） |
 | **Zhang et al. 2015, Nature 528:51-59**（Perspective「Managing nitrogen for sustainable development」） | 歷史 NUE + 區域/作物目標 | 待補（受 paywall，僅取得摘要） | 摘要載：提出 2050 年需求下按區域與作物類型的 N 目標 | https://www.nature.com/articles/nature15743 |
 | **Chen et al. 2014, Nature 514:486-489**（"Producing more grain with lower environmental costs"，中國） | 中國 153 個 site-year 田間試驗（水稻/小麥/玉米） | 不直接給 NUE%，但給基準產量與處理後產量（見 §4.1） | — | https://www.nature.com/articles/nature13609 |
+| **Zhang et al. 2017, Nature 553:61-64**（"Pursuing sustainable productivity with millions of smallholder farmers"，CHINA） | 大規模推廣示範（2005–2015，452 縣，20.9M 農民，37.7M ha 累積） | 處理後：反應性 N 損失 **4.5–4.7 kg N/Mg** 產品 vs 未處理 **6.0–6.4 kg N/Mg** | 產量 +10.8–11.5%；施氮 **−14.7~−18.1%**（省 1.2 Mt N）；經濟效益 US$12.2 billion | GHG：處理後 玉米 328 / 水稻 812 / 小麥 434 kg CO2e/Mg vs 未處理 422 / 941 / 549 kg CO2e/Mg | https://www.nature.com/articles/nature25770 |
 | Sela et al. 2018（題目稱 Nat Commun，待核實到底刊） | 待填 | 待填 | 待填 | 待填 |
 | 其他（IFA/FAO/World Bank） | 待填 | 待填 | 待填 | 待填 |
 
@@ -90,20 +91,32 @@
 ## 5. 外部效益量化
 
 ### 5.1 N2O
-- 農業 N2O 佔 anthropogenic N2O 比例：待填
-- 每噸 N 的 N2O 排放因子：待填
-- 來源：待填
+- **農業 N2O 佔 anthropogenic N2O 比例：74%**（近十年）—「Agricultural production (due to the use of nitrogen fertilizers and animal manure) contributed **74% of the total anthropogenic N2O emissions** in the last decade.」來源：Global Carbon Project, *Global Nitrous Oxide Budget 2024* (June 2024) briefing。https://www.globalcarbonproject.org/nitrousoxidebudget/24/files/NitrousOxideBudget2024_MediaHighlights.pdf
+- 過去四十年 anthropogenic N2O 排放增加 **40%（每年 +3 Mt N2O）**；大氣 N2O 濃度 2022 年達 **336 ppb**，比工业化前高 **25%**；N2O 的 100 年 GWP = **273× CO2**；anthropogenic N2O 佔溫室氣體有效輻射強迫的 **6.4%**，造成約 **0.1°C** 增溫。來源同上。
+- Top-5 anthropogenic N2O 排放國（2020）：中國 16.7%、印度 10.9%、美國 5.7%、巴西 5.3%、俄羅斯 4.6%。人均 kg N2O：美國 1.7、中國 1.3、印度 0.8。來源同上。
+- 中國 anthropogenic N2O 近五年下降，原因是 **NUE 提升**（「China's anthropogenic N2O emissions have been declining for the past five years owing to increased nitrogen use efficiency」）；EU 因直接肥料與糞肥施用減少而減排 31%。來源同上。
+- 全球年化學氮肥用量四十年增加 **47.3 Mt N/yr**（1980→2020）。來源同上。
+- IPCC 2019 預設排放因子（direct N2O-N，% N input）：direct **1.0%**（溫帶土壤 0.3–1.0）；leaching/volatile indirect：NO3 leaching 0.011、NH3 volatilization 0.006、deposited NH3 0.006、direct deposition 0.006、leached N₂O 0.004。來源：IPCC 2019 Refinement, *N2O: Direct Emissions from Agricultural Soils*, Chapter 4.5. https://www.ipcc-nggip.iges.or.jp/public/gp/bgp/4_5_N2O_Agricultural_Soils.pdf
+- 合成 N 肥（N 投入 100 kg N/ha）的 N2O 直接排放 ≈ **1.0 kg N2O-N/ha**（= 1.0%）；換算成 N2O 分子量 ≈ **1.28 kg N2O/ha**（×44/28），即每 **kg N 投入 ≈ 1.28 g N2O**（僅 direct）；加上 indirect 後 IPCC 總係數 (direct+indirect) 在高降雨區可達 **~2%**（約 2.56 g N2O / kg N）。
+- **機制（為什麼會這樣）**：N2O 來自土壤中硝化（NH₄⁺→NO₂⁻）與脫硝（NO₂⁻→N₂O）中間步驟的副產物，屬於「氮越多、土壤過濕越多，N₂O 越多」的非線性關係；Zhang et al. 2017 Extended Data Fig.2 直接以指數模型擬合 N₂O–N 與施氮速率的關係（玉米 n=417、水稻 n=740、小麥 n=395），與 IPCC 模型對照。
 
 ### 5.2 硝酸鹽與飲用水／健康
-- Colorado Well Water Study：待填
-- Iowa nitrate-cancer incidence：待填
-- 新生兒高鐵血症（blue baby syndrome）：待填
+- EPA MCL：硝酸鹽 **10 mg/L（as NO₃-N）**，為保護嬰兒 methemoglobinemia（Blue Baby Syndrome）而設；WHO guideline 亦為 50 mg/L NO₃（=11.3 mg/L NO₃-N）。來源：Iowa Environmental Health & Safety Research Center, *Nitrate & Health* Fact Sheet (Sept 2024)。https://ehsrc.public-health.uiowa.edu/wp-content/uploads/2024/09/Nitrate-Environmental-Health-and-Cancer-Fact-Sheet.pdf
+- APHA 1951 調查（Walton 1951）：美國 **>270 例**嬰兒 methemoglobinemia 報告，其中 214 例有飲用水硝酸鹽數據；**NO₃-N < 10 mg/L 未觀察到病例**。來源：Lack 1998, *Drinking-Water Nitrate, Methemoglobinemia, and Global Burden of Disease: A Discussion*, Environ Health Perspect 106(12). https://pmc.ncbi.nlm.nih.gov/articles/PMC1247562/
+- **重要反證（機制）**：Lack (WHO) 1998 指出，以 >50 mg/L NO₃ 為暴露基準，**無法辨識出飲用水硝酸鹽濃度與 methemoglobinemia 的暴露反應關係**；硝酸鹽可能是複雜病因中的「共同因子 (co-factor)」之一；因此「以硝酸鹽水準連結疾病率」在方法上不成立。原始 1945 年 Comly 報告僅 2 例。
+- IARC 已將食物與水中硝酸鹽分類為 **"probably carcinogenic to humans" (Group 2A)**（IARC Monographs Vol. 94, 2006）。
+- **Iowa 地區性量化**：Iowa 研究顯示飲用水硝酸鹽暴露與**大腸癌**（colorectal cancer）有「一致 (consistent) 的關聯」，且部分研究檢視暴露量達 MCL 一半（5 mg/L）以上；低於 MCL 仍見正相關的癌別包含**甲狀腺、卵巢、腎臟**。來源同上（引 Iowa Environmental Council 2024 與 Brender et al. 2013, EHP 121(9):1083–1089）。
+- **Iowa 出生缺陷**：Brender et al. 2013（National Birth Defects Prevention Study）— 孕期硝酸鹽攝入與**脊柱裂 (spina bifida)、肢體缺失 (limb deficiencies)、唇顎裂 (cleft palate)** 風險增加相關。來源同上。
+- 私人井風險：Iowa 私人井不強制檢測硝酸鹽；淺井（<50 ft）風險不成比例地高；2019 年 EWG 資料顯示 Iowa 私人井硝酸鹽與細菌污染情形。來源同上。
 
 ### 5.3 氨對 PM2.5 的貢獻
-- 待填
+- 待補（§5.3 缺口）
 
 ### 本節缺口
-- 待填
+- §5.3 氨→PM2.5 量化尚未取得一手來源（僅有二手搜尋結果）。
+- 每噸 N 的 N2O 排放因子需以 IPCC 2019 原文表格逐項核對，目前只取得章節 PDF 網址，具體係數值未逐一從表 4.2 抄錄。
+- 缺「每噸 N 施用 = US$ 的 N2O 社會成本」官方數字（尚未取得 EPA/GWP×social cost of carbon 的官方 $/tCO2e）。
+- 缺 Iowa 硝酸鹽與癌症的具體相對風險數值（RR/OR），目前只有定性「consistent association」敘述。
 
 ---
 

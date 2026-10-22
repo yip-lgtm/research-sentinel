@@ -38,7 +38,17 @@
         "W4 段落「來源依據」中文字數 0 偏少"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-22-20": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-22_20-20-02.md",
+      "bytes": 8950,
+      "cjk": 996,
+      "sources": 8,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-22T19:39:01Z"
+  "updated_utc": "2026-10-22T20:22:30Z"
 }

@@ -535,6 +535,15 @@ def main() -> int:
         if write_if_changed(p, build_knowledge_page(s)):
             changed.append(str(p))
 
+    # 清 stale 頁面：reports/*.html 對應唔返任何 .md 就刪（測試報告殘留）
+    rep_dir = OUT / "reports"
+    if rep_dir.is_dir():
+        live = {f"{r['stamp']}.html" for r in reports} | {"index.html"}
+        for old in rep_dir.glob("*.html"):
+            if old.name not in live:
+                old.unlink()
+                changed.append(f"{old} (removed stale)")
+
     # feed.json（機器可讀）
     feed = {
         "generated_utc": BUILD_STAMP,

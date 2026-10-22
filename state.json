@@ -4,10 +4,10 @@
   "level": 1,
   "lifespan_hours": 19,
   "lifespan_hours_max": 24,
-  "reports_total": 1,
+  "reports_total": 2,
   "reports_qualified": 0,
   "reports_full_score": 0,
-  "reports_rejected": 1,
+  "reports_rejected": 2,
   "phase": "foundation",
   "foundation_deadline_utc": "2026-10-22T14:22:31Z",
   "scoring": {
@@ -40,9 +40,18 @@
       "notes": "14:00 報告（03a+04 章）被用戶評為 Fail。品質不足原因見下：報告篇幅 10.4KB／171 行，遠超 100–1000 字上限；兩個章節混在同一份報告導致焦點分散；主 agent 未逐條複核 subagent 的 25 條來源（原敘述聲稱已 grep 複核，但 state 與來源 JSON 未能交叉驗證）；缺少與人類福祉的連結，僅為體系描述。",
       "fail": 1,
       "pass": 0
+    },
+    "energy-retail-price-affordability": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "16:00 報告已過品質閘（783 中文字／4484 bytes／3 來源），待用戶評分。"
     }
   },
-  "last_report_utc": "2026-10-22T14:22:00Z",
+  "last_report_utc": "2026-10-22T16:05:00Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -62,6 +71,14 @@
       "topic": "edu-graduate-levels",
       "level": 1,
       "hours": 19
+    },
+    {
+      "utc": "2026-10-22T16:05:00Z",
+      "cmd": "deliver",
+      "topic": "energy-retail-price-affordability",
+      "report": "2026-10-22-16",
+      "gate_pass": true,
+      "note": "15:00 那份（28KB／2444 中文字）判 FAIL 並重寫；本份為合規重寫版"
     }
   ]
 }

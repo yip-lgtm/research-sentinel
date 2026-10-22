@@ -26,13 +26,23 @@
       "coverage": 0.75,
       "last_report": "2026-10-22-14",
       "notes": "Cambridge Taught/Research 官方分類與逐課程 PhD 銜接條款（核心發現：MPhil 名稱≠研究型）；HKU/HKUST 時長與試用期；Stanford MS/PhD；Engineering Council CEng/IEng 與 Washington Accord。缺口：PolyU 受阻、CUHK 時長、Imperial 年限、gradsch 404、統計數字。"
+    },
+    {
+      "id": "energy-retail-price-affordability",
+      "title": "電力零售價格與家庭負擔",
+      "domain": "能源／公共福祉",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-16",
+      "notes": "LBNL 2026 零售電價 + Brattle VPP 負擔能力 + NREL 儲能成本預測三來源已交叉驗證。缺口：燃氣機組實際退役案例、EIA 零售節省量化、VPP 實測數據、州級差異（HI/CA/東岸）。"
     }
   ],
   "domains_covered": {
     "education_system_hk": 0.6,
     "education_system_uk": 0.7,
     "education_system_us": 0.5,
-    "professional_accreditation": 0.45
+    "professional_accreditation": 0.45,
+    "energy_affordability": 0.45
   },
-  "updated_utc": "2026-10-22T14:18:00Z"
+  "updated_utc": "2026-10-22T16:05:00Z"
 }

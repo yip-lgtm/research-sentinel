@@ -176,6 +176,29 @@ def main():
         _, b = find_head(heads, en)
         if b is not None and len(re.findall(r"[A-Za-z]{2,}", b)) < 25:
             warns.append(f"W5 段落「{en}」英文內容偏少")
+    # W6 機制分析（用戶反饋：核心發現偏事實羅列，缺少「為什麼」的機制分析）
+    _, kf_body = find_head(heads, "核心發現")
+    kf = kf_body or ""
+    if "【機制】" not in kf and "【機制】" not in text:
+        warns.append("W6 核心發現缺少【機制】條目：只講「是怎樣」而冇講「為什麼會這樣」")
+    # W7 量化估計（用戶反饋：潛在影響幾乎全是【推論】，缺少具體數字或案例）
+    # 必須是「量化指標」（金額／比率／容量／人數／年數），單純溫度門檻值不算
+    _, pi_body = find_head(heads, "潛在影響")
+    pi = pi_body or ""
+    QUANT = re.compile(
+        r"[$€£¥]\s?\d|\d+\s*(?:%|percent|美元|美金|元|兆|億|萬|"
+        r"MW|GW|kW|TWh|MWh|GWh|宗|人|名|起|倍|年|萬人|億人)")
+    quant_lines = [l for l in pi.splitlines() if QUANT.search(l)]
+    if not quant_lines:
+        warns.append("W7 潛在影響段冇任何量化指標（金額／比率／容量／人數／年數）："
+                     "應至少有一條【推論】附具體數字或可稽核案例")
+    # W7b 潛在影響全部都係推論 → 零事實支撐
+    pi_bullets = [l for l in pi.splitlines() if re.match(r"^\s*[-*•]", l)]
+    if pi_bullets and all("【推論】" in l for l in pi_bullets):
+        warns.append("W7b 潛在影響全部條目都係【推論】，零事實支撐")
+    # W8 推論必須標記（事實與推論分離）
+    if "【推論】" not in text:
+        warns.append("W8 全文冇【推論】標記：推論與事實必須分離")
 
     result = {"file": path, "pass": not fails, "cjk": n_cjk, "bytes": len(raw),
               "sources": n_src, "fails": fails, "warnings": warns, "ok": oks}

@@ -1,11 +1,11 @@
 {
   "agent": "科研哨兵",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 1,
-  "lifespan_hours": 19,
+  "level": 2,
+  "lifespan_hours": 24,
   "lifespan_hours_max": 24,
-  "reports_total": 2,
-  "reports_qualified": 0,
+  "reports_total": 4,
+  "reports_qualified": 1,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "foundation",
@@ -15,7 +15,8 @@
     "pass_gain_hours": 5,
     "full_gain_level": 2,
     "full_gain_hours": 10,
-    "fail_penalty_hours": 5
+    "fail_penalty_hours": 5,
+    "pending_note": "reports_pending = 已投遞但用戶未評分"
   },
   "topic_performance": {
     "edu-path-overview": {
@@ -48,10 +49,20 @@
       "verdict": "pending",
       "pass": 0,
       "fail": 0,
-      "notes": "16:00 報告已過品質閘（783 中文字／4484 bytes／3 來源），待用戶評分。"
+      "notes": "16:00 報告已過品質閘（783 中文字／4484 bytes／3 來源），待用戶評分。 2026-10-22 17:45 仍未收到評分，維持 pending。"
+    },
+    "occupational-heat-health-burden": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.55,
+      "verdict": "pass",
+      "pass": 1,
+      "fail": 0,
+      "level": 2,
+      "notes": "2026-10-22 17:00 報告獲用戶評『合格』。優點：主題明確、來源可驗證（10條）、誠實標註口徑差異與缺口。"
     }
   },
-  "last_report_utc": "2026-10-22T16:05:00Z",
+  "last_report_utc": "2026-10-22T17:33:48Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -79,6 +90,44 @@
       "report": "2026-10-22-16",
       "gate_pass": true,
       "note": "15:00 那份（28KB／2444 中文字）判 FAIL 並重寫；本份為合規重寫版"
+    },
+    {
+      "utc": "2026-10-22T17:33:48Z",
+      "cmd": "pass",
+      "topic": "occupational-heat-health-burden",
+      "level": 2,
+      "hours": 24
+    },
+    {
+      "utc": "2026-10-22T17:45:00Z",
+      "cmd": "pass",
+      "topic": "occupational-heat-health-burden",
+      "level": 2,
+      "hours": 24,
+      "report": "2026-10-22-17",
+      "note": "用戶評『合格』→ L1→L2, 19h→24h。含具體改進指示。"
+    }
+  ],
+  "reports_pending": 1,
+  "user_feedback": [
+    {
+      "utc": "2026-10-22T17:45:00Z",
+      "report": "2026-10-22-17",
+      "topic": "occupational-heat-health-burden",
+      "verdict": "pass",
+      "praise": [
+        "主題明確且有實際意義",
+        "結構完整、中英對照到位",
+        "來源可驗證、法律狀態與數字有交叉核對",
+        "誠實標註口徑差異與缺口",
+        "字數控制合理"
+      ],
+      "critique": [
+        "核心發現偏事實羅列，較少深入機制分析（例如為什麼聯邦標準長期停留在提案、檢查目標刪除的實際執法影響）",
+        "潛在影響幾乎全是【推論】，缺少更具體的案例或量化估計",
+        "與『對人類有貢獻的科研』相比更接近政策與執法落差的現況整理，科學新發現成分較少"
+      ],
+      "action": "下次同類報告：核心發現加入『機制』段落（為何會如此），潛在影響加入具體量化估計或案例，來源偏好同行評審科學發現多於法規狀態整理。"
     }
   ]
 }

@@ -35,6 +35,15 @@
       "coverage": 0.45,
       "last_report": "2026-10-22-16",
       "notes": "LBNL 2026 零售電價 + Brattle VPP 負擔能力 + NREL 儲能成本預測三來源已交叉驗證。缺口：燃氣機組實際退役案例、EIA 零售節省量化、VPP 實測數據、州級差異（HI/CA/東岸）。"
+    },
+    {
+      "id": "occupational-heat-health-burden",
+      "title": "職業熱害防護與健康負擔落差",
+      "domain": "公共衛生／職業安全／法規",
+      "status": "building",
+      "coverage": 0.55,
+      "last_report": "2026-10-22-17",
+      "notes": "聯邦法規狀態 + 死亡負擔 + 加州 §3395 基準，10 條來源，用戶評『合格』。缺口：無具體企業案例、替代指標未定案、州級採納無統計。"
     }
   ],
   "domains_covered": {
@@ -42,7 +51,8 @@
     "education_system_uk": 0.7,
     "education_system_us": 0.5,
     "professional_accreditation": 0.45,
-    "energy_affordability": 0.45
+    "energy_affordability": 0.45,
+    "occupational_safety_heat": 0.55
   },
-  "updated_utc": "2026-10-22T16:05:00Z"
+  "updated_utc": "2026-10-22T17:45:00Z"
 }

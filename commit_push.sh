@@ -5,6 +5,11 @@
 #   - 不互動（git 絕不要求輸入密碼）
 #   - push 失敗最多重試 2 次
 #   - 輸出保持簡短（一行狀態 + 錯誤摘要），避免污染 agent context
+#
+# BUGFIX: 舊版用 `git diff --quiet` 判斷有無改動 ——
+#   untracked 新檔案（例如新報告 reports/*.md）在兩個 diff 裡都係乾淨的，
+#   導致 "nothing to commit" 而永遠唔會 commit 新檔。
+#   現改用 `git status --porcelain` 偵測任何工作區變動（含 untracked）。
 set -uo pipefail
 
 export GIT_TERMINAL_PROMPT=0
@@ -15,12 +20,15 @@ REPO="/root/.hermes/sentinel"
 MSG="${1:-chore: sentinel auto commit}"
 cd "$REPO" || { echo "PUSH_FAIL: cd $REPO failed"; exit 1; }
 
-if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null; then
+if [ -n "$(git status --porcelain)" ]; then
   git add -A || { echo "PUSH_FAIL: git add failed"; exit 1; }
-  git commit -q -m "$MSG" || { echo "PUSH_FAIL: git commit failed"; exit 1; }
-  echo "COMMITTED: $MSG"
+  if git diff --cached --quiet; then
+    echo "COMMITTED: nothing staged (no changes)"
+  else
+    git commit -q -m "$MSG" || { echo "PUSH_FAIL: git commit failed"; exit 1; }
+    echo "COMMITTED: $MSG"
+  fi
 else
-  # 仍然提交空 commit 以記錄本次運作痕跡（狀態檔 / topics.json 有變動時會自然觸發）
   echo "COMMITTED: nothing to commit (no changes)"
 fi
 

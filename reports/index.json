@@ -1,0 +1,20 @@
+{
+  "reports": {
+    "2026-10-22-15": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-22_15-32-20.md",
+      "bytes": 28225,
+      "cjk": 2444,
+      "sources": 3,
+      "gate_pass": false,
+      "fails": [
+        "H1 結構: missing English heading 「Topic」; missing English heading 「Key Findings」; missing English heading 「Potential Impact」; missing English heading 「Sources」; missing English heading 「Commentary」",
+        "H3 中文字數 2444 超過上限 1000",
+        "H5 全文 28225 bytes 超過 9000",
+        "H8 缺少『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
+      ],
+      "warnings": [],
+      "archived_by": "finalize.py"
+    }
+  },
+  "updated_utc": "2026-10-22T15:56:28Z"
+}

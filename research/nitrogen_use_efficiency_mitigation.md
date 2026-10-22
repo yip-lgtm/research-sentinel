@@ -11,11 +11,19 @@
 
 | 研究 | 口徑 | NUE 數字 | 趨勢 | 來源 URL |
 |---|---|---|---|---|
-| Zhang et al. 2015 Nature (Global nitrogen yield) | 作物/國家 | 待填 | 待填 | 待填 |
-| Lassaletta et al. 2014 Nat Geosci (25-y trend) | 作物/國家 | 待填 | 待填 | 待填 |
-| Chen et al. 2014 Nature (China) | 作物/國家 | 待填 | 待填 | 待填 |
-| Sela et al. 2018 Nat Commun (global NUE) | 聚合 | 待填 | 待填 | 待填 |
+| **Lassaletta et al. 2014, Environ. Res. Lett. 9 105011**（註：題目給的「Nature Geoscience」有誤；此篇發表於 ERL，另有 Nature 期刊相關文獻為 Zhang 2015） | 聚合／國家（Y/F，Y=收穫蛋白質含氮 kgN/ha/yr；F=合成肥+糞肥+生物固氮+沉降 總 N 投入） | 全球：1961 年 **68%** → 1980 年 **45%** → 近 30 年穩定在 **47%**；結論句「目前只有 47% 的活性氮被轉成收穫產品，相較 1960 年代初的 68%，同期合成氮肥投入增加 9 倍」 | 1961–1980 明顯下降，之後 30 年持平 ~47% | https://iopscience.iop.org/article/10.1088/1748-9326/9/10/105011 （DOI 10.1088/1748-9326/9/10/105011） |
+| **Zhang et al. 2015, Nature 528:51-59**（Perspective「Managing nitrogen for sustainable development」） | 歷史 NUE + 區域/作物目標 | 待補（受 paywall，僅取得摘要） | 摘要載：提出 2050 年需求下按區域與作物類型的 N 目標 | https://www.nature.com/articles/nature15743 |
+| **Chen et al. 2014, Nature 514:486-489**（"Producing more grain with lower environmental costs"，中國） | 中國 153 個 site-year 田間試驗（水稻/小麥/玉米） | 不直接給 NUE%，但給基準產量與處理後產量（見 §4.1） | — | https://www.nature.com/articles/nature13609 |
+| Sela et al. 2018（題目稱 Nat Commun，待核實到底刊） | 待填 | 待填 | 待填 | 待填 |
 | 其他（IFA/FAO/World Bank） | 待填 | 待填 | 待填 | 待填 |
+
+### 1.1a Lassaletta 2014 的具體分類與理論曲線（機制）
+- 四種國家軌跡：**type I**（中國、埃及、印度）：施肥持續增加、產量反應逐漸下降 → NUE 規律下降；**type II**（美國、巴西、孟加拉）：1980 年代前後 Ymax 換軌、NUE 穩定或上升；**type III**（法國、荷蘭、希臘等歐洲）：1960–75 增產增肥，1980 年後減肥不減產 → NUE 上升（荷蘭施氮量回到 1960 年代水準但產量翻倍，與歐盟環保管制直接相關）；**type IV**：見原文。
+- 產量函數（fitted yield curve）：**Y = Ymax·F/(F+Ymax)**（Michaelis–Menten 型超曲線，擬合優於負指數 Y = Ymax[1−exp(−F/Ymax)]）。此即「邊際效益遞減」的量化證據（見 §6.3）。Ymax 同時代表飽和產量與達到 0.5 倍飽和產量所需施肥量。
+- 全球 Ymax 由 ~70 kgN/ha/yr（1961–80）提升到 ~110 kgN/ha/yr（1980s 換軌後）。
+- N 限制程度指標 (Ymax−Y)/Ymax：北美、澳洲、多數歐洲、許多撒哈拉以南國家 >0.75（表示還有增產空間）；中國、印度、巴基斯坦、中美與北非多數國家 <0.3（單純加 N 無益）。
+- N 盈餘（損失潛力）：歐洲、中東、美國、中美、印度、中國多數 >50 kgN/ha/yr；撒哈拉以南、獨立國家聯盟、澳洲多數平均 <25 kgN/ha/yr。高盈餘 → 低 NUE。
+- NUE 與氮來源結構：共生固氮佔比越高 NUE 越高；合成肥佔比越高 NUE 越低。
 
 ### 1.2 口徑差異原因（為何數字不同）
 - 待填

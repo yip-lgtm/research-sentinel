@@ -30,6 +30,7 @@ JOB_ID = "a1d898e84805"
 REPORTS = REPO / "reports"
 INDEX = REPORTS / "index.json"
 GATE = REPO / "quality_gate.py"
+PUBLISH = REPO / "publish_site.py"
 
 
 def log(msg: str) -> None:
@@ -152,6 +153,16 @@ def main() -> None:
     msg = f"chore: sentinel sync {time.strftime('%Y-%m-%d %H:%M', time.gmtime())} UTC"
     res = sync_git(msg)
     log(f"finalize: git -> {res}")
+
+    # 靜態站發佈：有新報告就 build + push 上 GitHub Pages
+    if PUBLISH.exists():
+        pr = run([sys.executable, str(PUBLISH)], cwd=str(REPO), timeout=300)
+        out = (pr.stdout or "").strip().replace("\n", " | ")
+        log(f"finalize: publish_site -> rc={pr.returncode} {out[:300]}")
+        if pr.returncode != 0:
+            log(f"finalize: publish_site 錯誤 {(pr.stderr or '')[:200]}")
+    else:
+        log("finalize: publish_site.py 唔存在，靜態站未更新")
 
 
 if __name__ == "__main__":

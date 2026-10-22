@@ -54,7 +54,19 @@
         "W7b 潛在影響全部條目都係【推論】，零事實支撐"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-22-19": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-22_19-38-55.md",
+      "bytes": 7964,
+      "cjk": 612,
+      "sources": 9,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W4 段落「來源依據」中文字數 0 偏少"
+      ],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-22T18:50:53Z"
+  "updated_utc": "2026-10-22T19:39:01Z"
 }

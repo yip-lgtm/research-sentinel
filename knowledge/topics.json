@@ -1,0 +1,15 @@
+{
+  "topics": [
+    {
+      "id": "edu-path-overview",
+      "title": "工程教育路徑總覽",
+      "domain": "教育體系",
+      "status": "building",
+      "coverage": 0.2,
+      "last_report": null,
+      "notes": "基礎建設階段，優先完成"
+    }
+  ],
+  "domains_covered": {},
+  "updated_utc": "2026-10-22T12:22:31Z"
+}

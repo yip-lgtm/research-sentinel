@@ -1,0 +1,23 @@
+{
+  "agent": "科研哨兵",
+  "created_utc": "2026-10-22T12:22:31Z",
+  "level": 1,
+  "lifespan_hours": 24,
+  "lifespan_hours_max": 24,
+  "reports_total": 0,
+  "reports_qualified": 0,
+  "reports_full_score": 0,
+  "reports_rejected": 0,
+  "phase": "foundation",
+  "foundation_deadline_utc": "2026-10-22T14:22:31Z",
+  "scoring": {
+    "pass_gain_level": 1,
+    "pass_gain_hours": 5,
+    "full_gain_level": 2,
+    "full_gain_hours": 10,
+    "fail_penalty_hours": 5
+  },
+  "topic_performance": {},
+  "last_report_utc": null,
+  "history": []
+}

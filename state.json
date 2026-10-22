@@ -61,6 +61,13 @@
       "fail": 0,
       "level": 2,
       "notes": "2026-10-22 17:00 報告獲用戶評『合格』。優點：主題明確、來源可驗證（10條）、誠實標註口徑差異與缺口。"
+    },
+    "low-carbon-cement-lc3": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "notes": "2026-10-22 19:00 報告（LC3 低碳水泥機制）已投遞，用戶未評分。優點：機制鏈完整、有工業裝置規模與規範核查；潛在影響數字全屬推算、法國與迦納實際熟料替代率未披露。"
     }
   },
   "last_report_utc": "2026-10-22T19:52:16Z",
@@ -123,9 +130,20 @@
       "hours": 29,
       "report": "2026-10-22-16",
       "note": "用戶評『合格』→ L2→L3, 24h→29h。含具體改進指示（機制分析／敏感度／具體案例）。"
+    },
+    {
+      "utc": "2026-10-22T20:05:00Z",
+      "cmd": "pass_on_substance_fail_on_form",
+      "report": "2026-10-22-15",
+      "topic": "energy-retail-price-affordability",
+      "content_verdict": "合格",
+      "form_verdict": "FAIL（品質閘 H1/H3/H5/H8）",
+      "level": 3,
+      "hours": 29,
+      "note": "用戶確認：15:00 版本內容合格、格式未過閘。分數已由 16:00 合規重寫版在同一主題記錄（L2→L3, 24h→29h），為避免同一主題重複計分，此處不再另外 +1 級/+5 小時。品質閘字數上限維持 1000 中文字／9000 bytes 不變。"
     }
   ],
-  "reports_pending": 0,
+  "reports_pending": 1,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -165,6 +183,26 @@
         "與前一份電池儲能報告主題相近，新穎度稍弱"
       ],
       "action": "下輪：核心發現加『機制段落』（為何住宅跑贏商用/工業：費率結構、分時電價、固定費用佔比）；凡引用模型數字必附敏感度分析或替代情境；潛在影響要有一個具體州級案例或傳導路徑；避免與上一份主題重疊。"
+    },
+    {
+      "utc": "2026-10-22T20:05:00Z",
+      "report": "2026-10-22-15",
+      "topic": "energy-retail-price-affordability",
+      "verdict": "pass_on_substance_fail_on_form",
+      "praise": [
+        "問題精準（儲能成本紅利去了哪裡、誰真正拿到）",
+        "來源扎實且有複核（EIA、BNEF、PNNL、NREL）",
+        "明確區分事實與【推論】",
+        "誠實標註口徑差異與證據缺口",
+        "對人類有實際參考價值（電力市場誤解澄清）"
+      ],
+      "critique": [
+        "H1 缺英文標題（Topic/Key Findings/Potential Impact/Sources/Commentary）",
+        "H3 中文字數 2444 超上限 1000",
+        "H5 全文 28225 bytes 超上限 9000",
+        "H8 缺『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
+      ],
+      "action": "不放寬品質閘上限。16:00 已出合規重寫版並被評合格。之後每份報告：先寫檔→跑品質閘→exit 0→才寫交付內容；W6/W7/W9/W10 視為必須處理。"
     }
   ],
   "cross_topic_lessons": [
@@ -174,7 +212,15 @@
       "verdict": "pass",
       "pattern": "機制段落缺失 + 模型數字無敏感度 + 潛在影響停留於推論 → 合格但未達滿分",
       "rule": "任何報告的核心發現必須回答『為什麼會如此』（機制）；凡模型預測數字必附至少一個替代假設情境；潛在影響至少給一個可核查的具體案例或量化傳導路徑。"
+    },
+    {
+      "utc": "2026-10-22T20:05:00Z",
+      "topic": "energy-retail-price-affordability",
+      "verdict": "pass_on_substance_fail_on_form",
+      "pattern": "內容質素好但形式硬傷（超長＋缺英文標題＋缺結尾行）→ 品質閘判 FAIL 係正確",
+      "rule": "品質閘上限屬契約，不因內容好而放寬；同一主題若已由合規重寫版取得合格分，不重複計分。"
     }
   ],
-  "phase_changed_utc": "2026-10-22T19:52:00Z"
+  "phase_changed_utc": "2026-10-22T19:52:00Z",
+  "reports_form_fail_rewritten": 1
 }

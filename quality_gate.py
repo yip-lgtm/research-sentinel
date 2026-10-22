@@ -199,6 +199,18 @@ def main():
     # W8 推論必須標記（事實與推論分離）
     if "【推論】" not in text:
         warns.append("W8 全文冇【推論】標記：推論與事實必須分離")
+    # W9 敏感度分析（用戶反饋：VPP 的 56 美元節省完全依賴 Brattle 模型假設，缺乏敏感度分析）
+    # 凡核心發現提到模型／預測／情景數字，必須附一個替代情境或敏感度說明
+    MODEL_NUM = re.compile(r"模型|預測|估算|推算|情景|假設|scenario|model|projection|estimate")
+    SENS = re.compile(r"【敏感度】|【情境】|【替代假設】|【替代情境】|敏感度|替代情境|替代假設|上下限|若假設|假設若|區間")
+    if MODEL_NUM.search(kf) and not SENS.search(kf):
+        warns.append("W9 核心發現提到模型／預測數字但冇敏感度或替代情境："
+                     "須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動")
+    # W10 具體案例（用戶反饋：潛在影響缺少更具體的傳導路徑或州級案例）
+    CASE = re.compile(r"案例|州|省|城市|某市|實測|示範|試點|現場|實地|個案|示範區")
+    if not CASE.search(pi):
+        warns.append("W10 潛在影響冇任何具體案例（州／城市／示範／實測）："
+                     "須至少給一個可核查的具體傳導路徑或案例")
 
     result = {"file": path, "pass": not fails, "cjk": n_cjk, "bytes": len(raw),
               "sources": n_src, "fails": fails, "warnings": warns, "ok": oks}

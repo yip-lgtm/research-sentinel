@@ -32,9 +32,9 @@
       "title": "電力零售價格與家庭負擔",
       "domain": "能源／公共福祉",
       "status": "building",
-      "coverage": 0.45,
+      "coverage": 0.58,
       "last_report": "2026-10-22-16",
-      "notes": "LBNL 2026 零售電價 + Brattle VPP 負擔能力 + NREL 儲能成本預測三來源已交叉驗證。缺口：燃氣機組實際退役案例、EIA 零售節省量化、VPP 實測數據、州級差異（HI/CA/東岸）。"
+      "notes": "LBNL 2026 零售電價 + Brattle VPP 負擔能力 + NREL 儲能成本預測三來源已交叉驗證；2026-10-22 19:52 用戶評『合格』。缺口：Brattle VPP 模型假設（75美元/kW-年、10→35GW、峰值減4%）無敏感度分析、住宅漲幅跑贏商用/工業的機制未拆解、州級案例缺、燃氣機組退役實例缺、VPP 實測缺。"
     },
     {
       "id": "occupational-heat-health-burden",
@@ -44,6 +44,15 @@
       "coverage": 0.55,
       "last_report": "2026-10-22-17",
       "notes": "聯邦法規狀態 + 死亡負擔 + 加州 §3395 基準，10 條來源，用戶評『合格』。缺口：無具體企業案例、替代指標未定案、州級採納無統計。"
+    },
+    {
+      "id": "low-carbon-cement-lc3",
+      "title": "熟料減半低碳水泥（煅燒黏土—石灰石協同）",
+      "domain": "材料／低碳工業",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-22-19",
+      "notes": "LC3-50 配方、碳鋁酸鹽機制、IEA 2DS 熟料因子 0.65→0.60 累計省 29 億噸 CO2、法國 Saint-Pierre-la-Cour 50 萬噸/yr、迦納 CBI 閃速爐 40 萬噸/yr、EN 197-5 規範。缺口：未披露實際替代率、LC3-50 與 LC3-100 強度差異、亞洲水泥廠數據。"
     }
   ],
   "domains_covered": {
@@ -51,8 +60,9 @@
     "education_system_uk": 0.7,
     "education_system_us": 0.5,
     "professional_accreditation": 0.45,
-    "energy_affordability": 0.45,
-    "occupational_safety_heat": 0.55
+    "energy_affordability": 0.58,
+    "occupational_safety_heat": 0.55,
+    "low_carbon_cement": 0.5
   },
-  "updated_utc": "2026-10-22T17:45:00Z"
+  "updated_utc": "2026-10-22T19:55:00Z"
 }

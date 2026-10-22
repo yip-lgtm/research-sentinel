@@ -94,6 +94,26 @@ def push_unpushed() -> None:
         log(f"ERR push: {e}")
 
 
+def run_finalizer() -> None:
+    """跑確定性 finalizer：把最新 cron Response 存檔、跑品質閘、commit+push。
+
+    唔依賴 LLM，即使 cron 個 agent 撞工具上限中斷，呢層照樣補返持久化同 push。
+    """
+    script = REPO / "finalize.py"
+    if not script.exists():
+        return
+    try:
+        r = subprocess.run([sys.executable, str(script)],
+                           capture_output=True, text=True, timeout=180)
+        out = (r.stdout or "").strip().replace("\n", " | ")
+        if out:
+            log("FINALIZE: " + out[:400])
+        if r.stderr:
+            log("FINALIZE_ERR: " + r.stderr.strip().replace("\n", " | ")[:300])
+    except Exception as e:
+        log(f"ERR finalize: {e}")
+
+
 def main() -> None:
     if not gateway_alive():
         log("WARN: gateway process not found (supervisord should restart it)")
@@ -111,6 +131,7 @@ def main() -> None:
         else:
             fix_job(job)
     push_unpushed()
+    run_finalizer()
 
 
 if __name__ == "__main__":

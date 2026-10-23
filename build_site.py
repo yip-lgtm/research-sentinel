@@ -233,14 +233,40 @@ def page(title: str, body: str, nav_active: str = "") -> str:
 
 
 def parse_report_meta(text: str) -> dict:
-    """抽報告標題與時間。報告結構：## 標題：X / # Title: Y / （時間 UTC）"""
+    """抽報告標題與時間。
+
+    標題行喺唔同報告有唔同寫法，全部要支援：
+      - `## 標題：X`   /  `**標題：X**`  /  `標題：X`
+      - `# Title: Y`    /  `**Title: Y**`
+    之前淨係匹配 `^## 標題：` 同 `^# Title:`，令用粗體寫標題嘅報告
+    （例如 2026-10-23-00）title_zh/title_en 全部抽唔到 → 站上標題同
+    feed.json 顯示為空字串。
+    """
     meta = {"title_zh": "", "title_en": "", "stamp": "", "body": text}
-    m = re.search(r"^##\s*標題：(.+)$", text, re.M)
-    if m:
-        meta["title_zh"] = m.group(1).strip()
-    m = re.search(r"^#\s*Title:\s*(.+)$", text, re.M)
-    if m:
-        meta["title_en"] = m.group(1).strip()
+
+    def _find(pattern: str) -> str:
+        m = re.search(pattern, text, re.M)
+        return m.group(1).strip() if m else ""
+
+    # 標題：中文 —— 容許 ## / # / ** / 空白 前綴
+    meta["title_zh"] = _find(r"^[ \t]*(?:#{1,3}[ \t]*)?\*{0,2}[ \t]*標題[ \t]*[：:][ \t]*(.+?)[ \t]*\*{0,2}[ \t]*$")
+    # Title: 英文
+    meta["title_en"] = _find(r"^[ \t]*(?:#{1,3}[ \t]*)?\*{0,2}[ \t]*Title[ \t]*[：:][ \t]*(.+?)[ \t]*\*{0,2}[ \t]*$")
+    # `> 主題：X` / `> Topic: Y`（引用格式標題，早期報告用）
+    if not meta["title_zh"]:
+        meta["title_zh"] = _find(r"^[ \t]*>[ \t]*\*{0,2}[ \t]*主題[ \t]*[：:][ \t]*(.+?)[ \t]*\*{0,2}[ \t]*$")
+    if not meta["title_en"]:
+        meta["title_en"] = _find(r"^[ \t]*>[ \t]*\*{0,2}[ \t]*Topic[ \t]*[：:][ \t]*(.+?)[ \t]*\*{0,2}[ \t]*$")
+    # `# 科研哨兵報告｜2026-10-22 14:00 UTC` 呢類通用標題 → 抽內嵌嘅主題行
+    if not meta["title_zh"] or meta["title_zh"].startswith("科研哨兵報告"):
+        m2 = _find(r"^[ \t]*>[ \t]*\*{0,2}[ \t]*主題[ \t]*[：:][ \t]*(.+?)[ \t]*\*{0,2}[ \t]*$")
+        if m2:
+            meta["title_zh"] = m2
+    if not meta["title_en"]:
+        m2 = _find(r"^[ \t]*>[ \t]*\*{0,2}[ \t]*Topic[ \t]*[：:][ \t]*(.+?)[ \t]*\*{0,2}[ \t]*$")
+        if m2:
+            meta["title_en"] = m2
+
     m = re.search(r"（(\d{4}-\d{2}-\d{2} \d{2}:\d{2})\s*UTC）", text)
     if m:
         meta["stamp"] = m.group(1)

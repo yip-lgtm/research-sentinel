@@ -166,11 +166,20 @@ def main() -> None:
                     "archived_by": "finalize.py",
                     "reverified_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 }
-                if old.get("gate_pass") != new_entry["gate_pass"] or old.get("fails") != new_entry["fails"]:
-                    log(f"finalize: 重驗 {stamp} 品質閘 -> {'PASS' if gate.get('pass') else 'FAIL'}"
-                        + ("" if gate.get("pass") else f" {gate.get('fails')}"))
+                # 索引任何時候都要反映當前檔案實況（bytes/cjk 會因人手修正而變）
+                if old.get("gate_pass") != new_entry["gate_pass"] or \
+                   old.get("fails") != new_entry["fails"] or \
+                   old.get("bytes") != new_entry["bytes"] or \
+                   old.get("cjk") != new_entry["cjk"]:
+                    reason = []
+                    if old.get("gate_pass") != new_entry["gate_pass"] or old.get("fails") != new_entry["fails"]:
+                        reason.append(f"品質閘 -> {'PASS' if gate.get('pass') else 'FAIL'}"
+                                      + ("" if gate.get("pass") else f" {gate.get('fails')}"))
+                    if old.get("bytes") != new_entry["bytes"]:
+                        reason.append(f"bytes {old.get('bytes')} -> {new_entry['bytes']}")
                     idx["reports"][stamp] = new_entry
                     save_index(idx)
+                    log(f"finalize: 重驗 {stamp} — {'；'.join(reason)}")
 
     msg = f"chore: sentinel sync {time.strftime('%Y-%m-%d %H:%M', time.gmtime())} UTC"
     res = sync_git(msg)

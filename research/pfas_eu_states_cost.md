@@ -84,19 +84,72 @@
 
 ## 2. 美國各州具體數字與日期
 
-（待填充）
+### 2.1 明尼蘇達州 MDH — 飲用水健康基準值（Health-Based Values, HBV / guidance values）
+- **PFOA guidance value = 0.0079 ng/L（= 0.0079 ppt；原文寫作 0.0000079 ppb）**
+- **PFOS noncancer guidance value = 2.3 ng/L（= 2.3 ppt；原文寫作 0.0023 ppb）**
+- 來源機構：Minnesota Department of Health (MDH), Risk Assessment Unit
+  - 標題：Perfluorooctanoic Acid (PFOA) and Water（資訊單張，標示 DECEMBER 2023；引用的 guidance table 為 MDH (January 2024) Human Health-Based Water Guidance Table）／"Per-and Polyfluoroalkyl Substances (PFAS)"（MDH, December 2023）
+  - URL：PFOA `https://www2cdn.web.health.state.mn.us/communities/environment/risk/docs/guidance/gw/pfoainfo.pdf`；PFOS `https://www.web.health.state.mn.us/communities/environment/risk/docs/guidance/gw/pfosinfo.pdf`
+  - 支撐數字原文（PFOA）："MDH developed a guidance value of 0.0000079 ppb for PFOA in drinking water. This is equivalent to 0.0079 parts per trillion (ppt; also 0.0079 nanograms per liter [ng/L])."
+  - 支撐數字原文（PFOS）："MDH developed a noncancer guidance value of 0.0023 ppb for PFOS in drinking water. This is equivalent to 2.3 parts per trillion (ppt; also 2.3 nanograms per liter [ng/L])."
+  - 佐證（同一數字之權威頁）：MDH "PFAS Standards for Drinking Water" FAQ — `https://www.health.state.mn.us/communities/environment/water/pfasvalues.html`
+    - 支撐："MDH has HBVs for PFAS in drinking water, including PFOA and PFOS. Public water systems are not required to meet HBVs. HBVs do not consider cost and technology of prevention and/or treatment..."
+- 州法互動數字（MDH Health Risk Limit 規則）：2023 年 Minnesota Legislature session law 要求 "By July 1, 2026, the commissioner of health must amend the health risk limit for perfluorooctane sulfonate (PFOS) in Minnesota Rules, part 4717.7860, subpart 15, so that the health risk limit does not exceed 0.015 parts per billion"（= 15 ng/L，地下水 HRL）
+  - 來源機構：Minnesota Department of Health — "Health Risk Limits Rules: Health Risk Limit Rules for Groundwater"
+  - URL：`https://www.health.mn.gov/communities/environment/risk/rules/water/pfos.html`（頁面 Last Updated 2024-11-04）
+  - 支撐數字：0.015 ppb = 15 ng/L 上限；Laws of Minnesota 2023, Chapter 60, Article 3, Section 34
+- MDH 全州採樣規模（同一資訊單張）：**920 個 community water supplies（CWS），涵蓋 99% 州內 CWS 使用者**；PFOA 於 **~6%** CWS 檢出，最高 **0.027 µg/L**；PFOS 於 **~5%** CWS 檢出，最高 **0.025 µg/L**
+  - URL 同上 PFOA/PFOS 資訊單張
+
+### 2.2 新罕布什爾州 SB 174 (2022) — 數字待補
+- 狀態：**未取得**（nh.gov / nhd.us / des.nh.gov / pfas.des.nh.gov 全部回 403/404，本輪無法取原文）。
+- 已知待查欄位：PFOA/PFOS 個別限值、combined limit、SB 174 通過日期、為何被稱「全美最嚴」仍高於 EPA 4 ppt。**未找到可引用數字。**
+
+### 2.3 緬因州 5 ppt 與執法日期 — 待補
+- 狀態：**未取得**（maine.gov/dep/water/pfas 回 404；改用 dhhs 頁面待試）。
+- 已知待查欄位：5 ppt（MCL）、執法生效日期（2024-01-01？）、適用系統門檻。
+
+### 2.4 新澤西州 PFNA 14 ppt — 待補
+- 狀態：**未取得**（nj.gov/dep/watersupply/pfas.shtml 回 404）。
+
+### 2.5 佛蒙特州 20 ppt — 部分取得
+- 來源機構：Vermont Department of Environmental Conservation (DEC), Drinking Water Division
+  - 標題："PFAS in Drinking Water" 與 "Per and Polyfluoroalkyl Substances (PFAS) & Drinking Water"
+  - URL：`https://dec.vermont.gov/water/drinking-water/pfas` ；`https://dec.vermont.gov/water/drinking-water/water-quality-monitoring/and-polyfluoroalkyl-substances-pfas-drinking-water`
+  - 支撐數字：**"The Vermont Water Supply Rule has recently been updated to change the way Vermont regulates PFAS. This rule goes into effect January 1, 2026."**；"Many systems will need to satisfy initial monitoring while others, primarily those that have historically had PFAS detections, will be required to sample quarterly starting January 1, 2026."；新增 **Hazard Index**（混合物計算方式）自 2026-01-01 起適用。
+  - **20 ppt 數值本身尚未在該兩頁出現 → 待補（需 VT 法規文本或 Act 153）。**
 
 ---
 
 ## 3. 處理技術與實測成本
 
-（待填充）
+### 3.1 EEA — 歐盟飲用水 PFAS 去除技術現況（含實際投資額）— 已取得
+- 來源機構：European Environment Agency (EEA)
+  - 標題：European zero pollution dashboards — Indicator "Treatment of drinking water to remove PFAS (Signal)"
+  - URL：`https://www.eea.europa.eu/en/european-zero-pollution-dashboards/indicators/treatment-of-drinking-water-to-remove-pfas-signal`
+  - 支撐數字與事實：
+    1. 傳統處理工程（混凝、絮凝、空氣吹脱、臭氧、氯氣、急速砂濾）**無法有效去除 PFAS**。
+    2. 有效技術：**granular activated carbon (GAC) adsorption、ion exchange resins、high-pressure membranes (nanofiltration / reverse osmosis)**（並指明引用 US EPA Drinking Water Treatability Database）。
+    3. **Veneto（義大利）案例**：2013 年發現飲用水 PFAS 汙染（主因鄰近 PFAS 製造商排放）；GAC 吸附有效去除 PFAS。
+    4. **實際造價（可直接引用）**："from 2013–2018, **Acque del Chiampo S.p.A. invested about EUR 2.3 million** in the installation of activated carbon filters, water supply networks and laboratory equipment; additionally, an investment programme of **about EUR 21 million up to 2023** was planned to remediate the most contaminated" sites。
+    5. 技術只**捕集**而非**破壞** PFAS，殘餘廢棄物（含 GAC／樹脂）處理或處置昂貴，可能需送焚化或掩埋。
+- **未找到**：每加侖或每 MGD 成本（$/gal、$/MGD、$/m³）之官方數字 → 待補（下一輪用 EPA Treatability Database / EEE 報告）。
 
 ---
 
 ## 4. 檢測方法難度
 
-（待填充）
+### 4.1 EPA Method 1633A（2024-12-05 修訂版）Table 9 — Pooled MDL 與 LOQ 範圍 — 已確認
+- **PFOA：pooled MDL = 0.54 ng/L；LOQ 範圍 = 1 – 4 ng/L（水樣）**
+- **PFOS：pooled MDL = 0.63 ng/L；LOQ 範圍 = 1 – 4 ng/L（水樣）**
+- 其他常見物質（水樣 pooled MDL，ng/L）：PFBA 0.79（LOQ 4–16）、PFPeA 0.54、PFHxA 0.46、PFHpA 0.37、PFNA 0.45、PFDA 0.52、PFUnA 0.45、PFDoA 0.40、PFTrDA 0.46、PFTeDA 0.49、PFBS 0.37、PFPeS 0.50、PFHxS 0.54、PFHpS 0.50、PFNS 0.47、PFDS 0.60、PFDoS 0.60、4:2FTS 1.69（LOQ 4–15）
+- 來源機構：U.S. EPA — "Method 1633A: Analysis of Per- and Polyfluoroalkyl Substances (PFAS) in Aqueous, Solid, Biosolids, and Tissue Samples by LC-MS/MS"
+  - 日期：December 5, 2024（頁首標示 "Method 1633A 1 December 2024" / "58 December 2024"）
+  - URL：`https://www.epa.gov/system/files/documents/2024-12/method-1633a-december-5-2024-508-compliant.pdf`
+  - 支撐數字：Table 9「Pooled MDL and Ranges of LOQ Values for Aqueous, Solid, and Tissue Matrices Demonstrated in the Method Validation Studies」
+- **MCL 4.0 ppt = 4.0 ng/L 與方法定量限的差距**：MCL（4.0 ng/L）**恰等於 LOQ 範圍上限（4 ng/L）**；亦即在方法 LOQ 區間下端（1 ng/L）雖可定量，但 MDL 0.54–0.63 ng/L 已與 MCL 同量級 → **偵測不確定性相對 MCL 高達 13–16%**（以 MDL 計）。
+- **2024 年 2 月版（原始 Method 1633）的 MDL 數字 → 待補**（本輪取得的是 1633A；2 月版 PDF 尚未擷取）。
+- 方法本身聲明的分析難度（原文，Section 1.4）："many components of PFAS present analytical challenges unique to this class of analytes. For example, PFAS analytes readily adhere to the walls of the sample containers and may also stratify in the container."；Section 9.2.2 要求每個實驗室自行建立 MDL（40 CFR Part 136 Appendix B）。
 
 ---
 

@@ -1,11 +1,11 @@
 {
   "agent": "科研哨兵",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 3,
-  "lifespan_hours": 29,
-  "lifespan_hours_max": 29,
-  "reports_total": 6,
-  "reports_qualified": 2,
+  "level": 4,
+  "lifespan_hours": 34,
+  "lifespan_hours_max": 34,
+  "reports_total": 7,
+  "reports_qualified": 3,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "exploration",
@@ -78,9 +78,15 @@
       "pass": 0,
       "fail": 0,
       "notes": "2026-10-22 20:07 報告（抗藥性死亡年齡分化）已投遞，用戶未評分。優點：三條【機制】鏈（兒童分母效應／老年雙效應／新藥槓桿弱）＋【敏感度】替代情境區間＋丹麥黃卡國家級實測案例；口徑陷阱段落明確區分 associated vs attributable。"
+    },
+    "hearing-loss-cognitive-intervention": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2
     }
   },
-  "last_report_utc": "2026-10-22T20:07:00Z",
+  "last_report_utc": "2026-10-23T00:22:18Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -159,6 +165,13 @@
       "report": "2026-10-22-20",
       "gate_pass": true,
       "note": "先寫檔→跑品質閘 exit 0→再交付；996 中文字／8950 bytes，8 來源，W6-W10 全清。"
+    },
+    {
+      "utc": "2026-10-23T00:22:18Z",
+      "cmd": "pass",
+      "topic": "hearing-loss-cognitive-intervention",
+      "level": 4,
+      "hours": 34
     }
   ],
   "reports_pending": 1,

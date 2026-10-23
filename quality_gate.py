@@ -234,13 +234,30 @@ def main():
         warns.append("W10 潛在影響冇任何具體案例（州／城市／示範／實測）："
                      "須至少給一個可核查的具體傳導路徑或案例")
 
+    # H11 投遞字符（存檔版可長，但要有投遞版壓縮路徑）
+    # 背景：gateway 投遞層 MAX_PLATFORM_OUTPUT=4000 / TRUNCATED_VISIBLE=3800
+    #   → 報告 Response > 4000 chars 會被截斷，或分成多條令用戶只見尾部。
+    #   2026-10-23 用戶評 04 報告時投訴「結構不完整、缺少主題與核心發現」，
+    #   查證即係 6487 chars 被 Telegram 分段所致（存檔版五段其實齊備）。
+    # 根治：cron 用 --delivery 產生投遞版（≤3900 chars，英文正文移除）。
+    #       存檔版 = 完整中英對照（給網站/存檔）；投遞版 = 單則訊息（給用戶）。
+    n_chars = len(text)
+    if n_chars > MAX_DELIVERY_CHARS:
+        warns.append(
+            f"W11 存檔版 {n_chars} chars 超過投遞上限 {MAX_DELIVERY_CHARS}："
+            f"投遞時必須用 quality_gate.py --delivery 產生投遞版，"
+            f"否則 gateway 截斷成 3800 chars，用戶只見尾部")
+    else:
+        oks.append(f"H11 投遞字符 {n_chars}/{MAX_DELIVERY_CHARS}（可直接投遞，存檔版=投遞版）")
+
     result = {"file": path, "pass": not fails, "cjk": n_cjk, "bytes": len(raw),
+              "chars": n_chars,
               "sources": n_src, "fails": fails, "warnings": warns, "ok": oks}
     if as_json:
         print(json.dumps(result, ensure_ascii=False, indent=2))
     else:
         print(f"=== 品質閘 / Quality Gate: {path} ===")
-        print(f"中文字數 {n_cjk} | bytes {len(raw)} | 來源 {n_src}")
+        print(f"中文字數 {n_cjk} | bytes {len(raw)} | 字符 {n_chars} | 來源 {n_src}")
         for o in oks:
             print(f"  PASS  {o}")
         for w in warns:
@@ -251,5 +268,153 @@ def main():
     return 0 if not fails else 1
 
 
+def make_delivery(text: str) -> str:
+    """由完整報告生成投遞版（≤ MAX_DELIVERY_CHARS）。
+
+    結構模型：報告 = 一串「標題 + 其下內容塊」。每個標題下嘅內容塊
+    分為「中文塊」同「英文塊」（英文塊 = 純 ASCII 較多嘅一塊）。
+    壓縮規則（依序）：
+      1. 已 ≤ 上限 → 原樣返回
+      2. 刪重複標題行（## 標題 / # Title 雙語標題只留中文行）
+      3. 每個英文塊 → 只留首句（英文係對照用）
+      4. 來源段 → 只留第一條 URL，其餘換成「[其餘來源見存檔版]」
+      5. 仍超 → 逐段按剩餘預算削正文行（保留所有標題行 + 生命狀態行）
+    保證：五段標題（中英）、生命狀態行、≥1 個真 URL 全部保留。
+    """
+    if len(text) <= MAX_DELIVERY_CHARS:
+        return text.strip()
+
+    CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+
+    def cjk_ratio(s: str) -> float:
+        letters = [c for c in s if c.isalpha()]
+        if not letters:
+            return 0.0
+        return sum(1 for c in letters if CJK_RE.match(c)) / len(letters)
+
+    # --- 步驟 1：按標題切段 ---
+    blocks = []          # list of (heading_line | None, [content lines])
+    cur_head, cur_body = None, []
+    for ln in text.splitlines():
+        s = ln.strip()
+        if s.startswith("#") and re.match(r"^#{1,6}\s+\S", s):
+            if cur_head is not None or cur_body:
+                blocks.append((cur_head, cur_body))
+            cur_head, cur_body = ln, []
+        else:
+            cur_body.append(ln)
+    if cur_head is not None or cur_body:
+        blocks.append((cur_head, cur_body))
+
+    # --- 步驟 2：刪重複標題行 + 壓縮英文塊 ---
+    out_blocks = []
+    seen_title_head = False
+    for head, body in blocks:
+        h = (head or "").strip()
+        # 「## 標題：...」/「# Title: ...」雙語標題 → 只留中文
+        if h.startswith("#") and ("標題" in h or "Title" in h):
+            if seen_title_head:
+                out_blocks.append((None, []))
+                continue
+            seen_title_head = True
+            # 統一成單一中文標題行
+            m = re.match(r"^#{1,6}\s*(?:標題|Title)\s*[:：]?\s*(.*)$", h)
+            title_txt = m.group(1).strip() if m else h.lstrip("#").strip()
+            new_head = f"## {title_txt}"
+            body = [b for b in body if b.strip() and not b.strip().startswith("（2")]
+            out_blocks.append((new_head, body))
+            continue
+
+        # 內容塊：英文正文整段移除（與中文重複，佔掉一半篇幅）
+        # 存檔版／網站版仍保留完整中英對照；投遞版只為單則訊息可完整顯示。
+        new_body = []
+        for ln in body:
+            s = ln.strip()
+            if not s:
+                new_body.append("")
+                continue
+            is_en = cjk_ratio(s) < 0.12 and len(s) > 20
+            if is_en:
+                continue
+            new_body.append(ln)
+        out_blocks.append((head, new_body))
+
+    text2 = "\n".join(
+        (("\n" + h) if h else "") + "\n" + "\n".join(b)
+        for h, b in out_blocks if h or any(x.strip() for x in b)
+    )
+    text2 = re.sub(r"\n{3,}", "\n\n", text2).strip()
+    if len(text2) <= MAX_DELIVERY_CHARS:
+        return text2
+
+    # --- 步驟 3：來源段只留第一條 URL ---
+    lines = text2.splitlines()
+    out, in_src, url_seen = [], False, 0
+    for ln in lines:
+        s = ln.strip()
+        if s.startswith("#"):
+            in_src = "來源依據" in s or "sources" in s.lower()
+        if in_src:
+            urls = re.findall(r"https?://[^\s)）\]，、]+", ln)
+            if urls:
+                if url_seen >= 1:
+                    ln = re.sub(r"https?://[^\s)）\]，、]+", "[其餘來源見存檔版]", ln)
+                else:
+                    url_seen += len(urls)
+        out.append(ln)
+    text3 = re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+    if len(text3) <= MAX_DELIVERY_CHARS:
+        return text3
+
+    # --- 步驟 4：最終保險 —— 逐行削，但保留所有標題行同生命狀態行 ---
+    all_lines = text3.splitlines()
+    head_lines = [l for l in all_lines if l.strip().startswith("#")]
+    life = ""
+    m = re.search(r"^\**\s*生命狀態\**.*$", text3, re.M)
+    if m:
+        life = m.group(0).strip()
+    fixed = sum(len(h) + 1 for h in head_lines) + len(life) + 2
+    budget = max(200, MAX_DELIVERY_CHARS - fixed)
+
+    kept, used, in_src, url_seen = [], 0, False, 0
+    for ln in all_lines:
+        s = ln.strip()
+        if s.startswith("#"):
+            in_src = "來源依據" in s or "sources" in s.lower()
+            continue
+        if not s:
+            if used < budget:
+                kept.append("")
+            continue
+        if life and s == life:
+            continue
+        if in_src:
+            urls = re.findall(r"https?://[^\s)）\]，、]+", ln)
+            if urls:
+                if url_seen >= 1:
+                    ln = re.sub(r"https?://[^\s)）\]，、]+", "[其餘來源見存檔版]", ln)
+                else:
+                    url_seen += len(urls)
+        if used + len(ln) + 1 > budget:
+            continue
+        kept.append(ln)
+        used += len(ln) + 1
+
+    final = "\n".join(head_lines + kept + ([life] if life else []))
+    final = re.sub(r"\n{3,}", "\n\n", final).strip()
+    return final[:MAX_DELIVERY_CHARS].strip()
+
+
 if __name__ == "__main__":
+    if "--delivery" in sys.argv:
+        argv = [a for a in sys.argv if a != "--delivery"]
+        if len(argv) < 2:
+            print("usage: quality_gate.py <report.md> --delivery   # 印出投遞版")
+            sys.exit(2)
+        src = argv[1]
+        raw = open(src, "rb").read().decode("utf-8", "ignore")
+        out = make_delivery(raw)
+        print(out)
+        print(f"\n[delivery-chars] {len(out)}/{MAX_DELIVERY_CHARS}", file=sys.stderr)
+        sys.exit(0 if len(out) <= MAX_DELIVERY_CHARS else 1)
     sys.exit(main())

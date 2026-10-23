@@ -7,7 +7,10 @@
 
 ## 0. 研究範圍與方法
 
-（待填）
+【事實】本檔所有數字均來自 2026-10-23 實際抓取之頁面（見第 10 節來源清單）。無法抓取者記入第 9 節缺口，未以記憶填補。
+
+【事實】EASA 於其官方 GNSS 專頁說明其資料來源與方法：監測以 ADS-B 廣播之 Navigation Integrity Category（NIC，0=差、11=好，NIC 11 代表位置誤差 ≤7.5 m，NIC 0 代表位置不確定度 >20 海里）為指標；jamming 演算法以 NIC=7 為「好/壞」分界，以當日 NIC 異常機之比例計算 FIR 暴露度，再以 7 日與 30 日兩個視窗平均以顯示持續性；spoofing 則以兩點間速度異常（違反物理定律）判定。資料來源標示為「ads-b data and reports」。
+來源：EASA, "Global Navigation Satellite System (GNSS) Outages and Alterations", https://www.easa.europa.eu/en/domains/air-operations/global-navigation-satellite-system-outages-and-alterations （頁面快照日期 14/10/2026）
 
 ---
 

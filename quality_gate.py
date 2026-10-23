@@ -334,7 +334,10 @@ def make_delivery(text: str) -> str:
                 new_body.append("")
                 continue
             is_en = cjk_ratio(s) < 0.12 and len(s) > 20
-            if is_en:
+            # URL 行係純 ASCII，會被當成「英文段」刪走 → 導致投遞版冇任何真 URL。
+            # 含 URL 嘅行一律保留。
+            has_url = bool(re.search(r"https?://", s))
+            if is_en and not has_url:
                 continue
             new_body.append(ln)
         out_blocks.append((head, new_body))

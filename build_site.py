@@ -456,10 +456,13 @@ def collect_reports(index: dict) -> list:
     for path in sorted(REPORTS.glob("*.md")):
         if path.name == "index.md":
             continue
-        text = path.read_text(errors="ignore")
         stamp = path.stem
-        meta = parse_report_meta(text)
         g = index.get("reports", {}).get(stamp, {})
+        # 未過品質閘嘅草稿唔上架（archived / gate_pass=False）
+        if g.get("archived") or (g and g.get("gate_pass") is False):
+            continue
+        text = path.read_text(errors="ignore")
+        meta = parse_report_meta(text)
         if "pass" not in g and "gate_pass" in g:
             g = dict(g)
             g["pass"] = bool(g["gate_pass"])

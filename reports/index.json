@@ -12,8 +12,14 @@
         "H5 全文 28225 bytes 超過 9000",
         "H8 缺少『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
       ],
-      "warnings": [],
-      "archived_by": "finalize.py"
+      "warnings": [
+        "W6 核心發現缺少【機制】條目：只講「是怎樣」而冇講「為什麼會這樣」",
+        "W9 核心發現提到模型／預測數字但冇敏感度或替代情境：須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動",
+        "W11 存檔版 22317 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
+      "archived_by": "finalize.py",
+      "archived": true,
+      "archive_reason": "早期草稿，未過品質閘（結構/字數），不作為正式報告上架"
     },
     "2026-10-22-17": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-22_17-28-20.md",
@@ -23,7 +29,11 @@
       "gate_pass": true,
       "fails": [],
       "warnings": [
-        "W4 段落「來源依據」中文字數 27 偏少"
+        "W4 段落「來源依據」中文字數 27 偏少",
+        "W6 核心發現缺少【機制】條目：只講「是怎樣」而冇講「為什麼會這樣」",
+        "W7b 潛在影響全部條目都係【推論】，零事實支撐",
+        "W9 核心發現提到模型／預測數字但冇敏感度或替代情境：須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動",
+        "W11 存檔版 6201 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
     },
@@ -35,7 +45,8 @@
       "gate_pass": true,
       "fails": [],
       "warnings": [
-        "W4 段落「來源依據」中文字數 0 偏少"
+        "W4 段落「來源依據」中文字數 0 偏少",
+        "W11 存檔版 6456 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
     },
@@ -46,31 +57,33 @@
       "sources": 8,
       "gate_pass": true,
       "fails": [],
-      "warnings": [],
+      "warnings": [
+        "W11 存檔版 6594 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
       "archived_by": "finalize.py"
     },
     "2026-10-22-21": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-22_21-33-31.md",
-      "bytes": 10234,
-      "cjk": 923,
+      "bytes": 8957,
+      "cjk": 832,
       "sources": 7,
-      "gate_pass": false,
-      "fails": [
-        "H5 全文 10234 bytes 超過 9000"
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W11 存檔版 6886 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "warnings": [],
       "archived_by": "finalize.py"
     },
     "2026-10-22-22": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-22_22-31-39.md",
-      "bytes": 10116,
-      "cjk": 991,
+      "bytes": 8972,
+      "cjk": 981,
       "sources": 6,
-      "gate_pass": false,
-      "fails": [
-        "H5 全文 10116 bytes 超過 9000"
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W11 存檔版 6487 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "warnings": [],
       "archived_by": "finalize.py"
     },
     "2026-10-23-00": {
@@ -81,20 +94,21 @@
       "gate_pass": true,
       "fails": [],
       "warnings": [
-        "W4 段落「來源依據」中文字數 1 偏少"
+        "W4 段落「來源依據」中文字數 1 偏少",
+        "W11 存檔版 5585 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
     },
     "2026-10-23-01": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_01-45-23.md",
-      "bytes": 5508,
-      "cjk": 564,
-      "sources": 0,
-      "gate_pass": false,
-      "fails": [
-        "H6 來源依據不足：0 條列項、2 個 URL，最少 2 個獨立來源"
+      "bytes": 5575,
+      "cjk": 571,
+      "sources": 2,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W11 存檔版 4245 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "warnings": [],
       "archived_by": "finalize.py"
     },
     "2026-10-23-02": {
@@ -104,7 +118,9 @@
       "sources": 10,
       "gate_pass": true,
       "fails": [],
-      "warnings": [],
+      "warnings": [
+        "W11 存檔版 6656 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
       "archived_by": "finalize.py",
       "reverified_utc": "2026-10-23T02:34:02Z"
     },
@@ -115,20 +131,22 @@
       "sources": 7,
       "gate_pass": true,
       "fails": [],
-      "warnings": [],
+      "warnings": [
+        "W11 存檔版 6487 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
       "archived_by": "finalize.py",
       "reverified_utc": "2026-10-23T04:54:59Z"
     },
     "2026-10-23-06": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_06-50-39.md",
-      "bytes": 9567,
-      "cjk": 853,
+      "bytes": 7937,
+      "cjk": 635,
       "sources": 7,
-      "gate_pass": false,
-      "fails": [
-        "H5 全文 9567 bytes 超過 9000"
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W11 存檔版 6250 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "warnings": [],
       "archived_by": "finalize.py"
     },
     "2026-10-23-08": {
@@ -139,21 +157,21 @@
       "gate_pass": true,
       "fails": [],
       "warnings": [
-        "W4 段落「來源依據」中文字數 18 偏少"
+        "W4 段落「來源依據」中文字數 18 偏少",
+        "W11 存檔版 5927 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
     },
     "2026-10-23-09": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_09-50-07.md",
-      "bytes": 9096,
+      "bytes": 8682,
       "cjk": 870,
       "sources": 5,
-      "gate_pass": false,
-      "fails": [
-        "H5 全文 9096 bytes 超過 9000"
-      ],
+      "gate_pass": true,
+      "fails": [],
       "warnings": [
-        "W4 段落「來源依據」中文字數 0 偏少"
+        "W4 段落「來源依據」中文字數 0 偏少",
+        "W11 存檔版 6568 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
     },
@@ -164,19 +182,21 @@
       "sources": 6,
       "gate_pass": true,
       "fails": [],
-      "warnings": [],
+      "warnings": [
+        "W11 存檔版 5134 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
       "archived_by": "finalize.py"
     },
     "2026-10-23-11": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_11-43-28.md",
-      "bytes": 9673,
-      "cjk": 908,
+      "bytes": 8414,
+      "cjk": 798,
       "sources": 7,
-      "gate_pass": false,
-      "fails": [
-        "H5 全文 9673 bytes 超過 9000"
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W11 存檔版 6411 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "warnings": [],
       "archived_by": "finalize.py"
     },
     "2026-10-23-13": {
@@ -186,7 +206,9 @@
       "sources": 3,
       "gate_pass": true,
       "fails": [],
-      "warnings": [],
+      "warnings": [
+        "W11 存檔版 4011 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
       "archived_by": "finalize.py"
     },
     "2026-10-23-14": {
@@ -217,7 +239,47 @@
         "W10 潛在影響冇任何具體案例（州／城市／示範／實測）：須至少給一個可核查的具體傳導路徑或案例"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-22-14": {
+      "bytes": 10396,
+      "cjk": 1576,
+      "sources": 0,
+      "gate_pass": false,
+      "fails": [
+        "H1 結構: 缺少中文段落標題「主題」; missing English heading 「Topic」; 缺少中文段落標題「核心發現」; missing English heading 「Key Findings」; 缺少中文段落標題「潛在影響」; missing English heading 「Potential Impact」; 缺少中文段落標題「來源依據」; missing English heading 「Sources」; missing English heading 「Commentary」",
+        "H2 佔位符殘留: ['填充中']",
+        "H3 中文字數 1576 超過上限 1000",
+        "H5 全文 10396 bytes 超過 9000",
+        "H6 來源依據不足：0 條列項、0 個 URL，最少 2 個獨立來源",
+        "H7 主題段屬內部施工敘述: 詞=['本期完成', '知識庫'] 組合=['知識庫+填充', '本期+完成']",
+        "H8 缺少『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
+      ],
+      "warnings": [
+        "W1 施工式標題: ['0. 本期摘要 / Executive Summary']",
+        "W2 施工式敘述: ['共新增', '本期完成']",
+        "W3 標題數 13 偏多（> 12），應收斂為五段",
+        "W6 核心發現缺少【機制】條目：只講「是怎樣」而冇講「為什麼會這樣」",
+        "W7 潛在影響段冇任何量化指標（金額／比率／容量／人數／年數）：應至少有一條【推論】附具體數字或可稽核案例",
+        "W10 潛在影響冇任何具體案例（州／城市／示範／實測）：須至少給一個可核查的具體傳導路徑或案例",
+        "W11 存檔版 6446 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
+      "archived": true,
+      "archive_reason": "早期草稿，未過品質閘（結構/字數），不作為正式報告上架"
+    },
+    "2026-10-22-16": {
+      "bytes": 4499,
+      "cjk": 783,
+      "sources": 3,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W4 段落「來源依據」中文字數 12 偏少",
+        "W5 段落「Potential Impact」英文內容偏少",
+        "W5 段落「Commentary」英文內容偏少",
+        "W6 核心發現缺少【機制】條目：只講「是怎樣」而冇講「為什麼會這樣」",
+        "W9 核心發現提到模型／預測數字但冇敏感度或替代情境：須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動"
+      ]
     }
   },
-  "updated_utc": "2026-10-23T16:36:49Z"
+  "updated_utc": "2026-10-23T17:00:00Z"
 }

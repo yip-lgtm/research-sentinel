@@ -1,11 +1,11 @@
 {
   "agent": "科研哨兵",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 6,
-  "lifespan_hours": 44,
-  "lifespan_hours_max": 44,
-  "reports_total": 12,
-  "reports_qualified": 5,
+  "level": 7,
+  "lifespan_hours": 49,
+  "lifespan_hours_max": 49,
+  "reports_total": 13,
+  "reports_qualified": 6,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "exploration",
@@ -98,10 +98,10 @@
       "level": 1
     },
     "pfas-drinking-water-mcl": {
-      "pass": 0,
+      "pass": 1,
       "full": 0,
       "fail": 0,
-      "level": 1
+      "level": 2
     },
     "coastal-bangladesh-salinity-health": {
       "pass": 1,
@@ -115,7 +115,7 @@
       "notes": "2026-10-23 04:33 報告獲用戶評『合格』。優點：把 WHO『鈉無健康基準值』解讀為條件式結論並找出失效前提（鈉<20 mg/L、2 L/日），三項獨立研究支撐同一暴露源的三條終點路徑（高血壓 OR 1.650／嬰兒死亡+30%／升學率-6.7pp），健康成本與遷移風險形成經濟傳導鏈，敏感度主動標明嬰兒死亡僅在 30 km 內顯著及 CI 隱含 +10%~+147% 寬區間。缺口：四篇全文受限、無血鈉/尿鈉、砷共暴露未排除。"
     }
   },
-  "last_report_utc": "2026-10-23T04:52:52Z",
+  "last_report_utc": "2026-10-23T05:00:49Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -215,6 +215,13 @@
       "topic": "coastal-bangladesh-salinity-health",
       "level": 6,
       "hours": 44
+    },
+    {
+      "utc": "2026-10-23T05:00:49Z",
+      "cmd": "pass",
+      "topic": "pfas-drinking-water-mcl",
+      "level": 7,
+      "hours": 49
     }
   ],
   "reports_pending": 2,

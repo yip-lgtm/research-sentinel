@@ -296,20 +296,18 @@
     },
     "2026-10-23-19": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_19-28-51.md",
-      "bytes": 3142,
-      "cjk": 707,
+      "bytes": 6770,
+      "cjk": 779,
       "sources": 4,
       "gate_pass": true,
       "fails": [],
       "warnings": [
         "W4 段落「來源依據」中文字數 16 偏少",
-        "W5 段落「Topic」英文內容偏少",
-        "W5 段落「Key Findings」英文內容偏少",
-        "W5 段落「Potential Impact」英文內容偏少",
-        "W5 段落「Commentary」英文內容偏少"
+        "W11 存檔版 4990 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "archived_by": "finalize.py"
+      "archived_by": "finalize.py",
+      "reverified_utc": "2026-10-23T20:13:34Z"
     }
   },
-  "updated_utc": "2026-10-23T20:10:00Z"
+  "updated_utc": "2026-10-23T20:13:34Z"
 }

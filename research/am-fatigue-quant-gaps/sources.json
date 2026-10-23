@@ -1,18 +1,8 @@
 {
   "section": "am-fatigue-quant-gaps",
-  "title": "金屬積層製造疲勞量化缺口：as-built/machined Ra、孔隙率門檻、Basquin 斜率 m、NASA HCF knockdown factor %",
+  "title": "AM fatigue quantitative gaps: Ti-6Al-4V Ra values, porosity thresholds, Basquin slope m, NASA Lambert IN718 HCF knockdown factor",
   "sources": [],
-  "gaps": [
-    "SLM/LPBF Ti-6Al-4V as-built Ra vs machined Ra 實測數值、疲勞極限、build orientation 影響 %：填充中",
-    "AM 金屬孔隙率 % 門檻與疲勞強度量化關係：填充中",
-    "SLM Ti-6Al-4V 實測 Basquin S–N 斜率 m：填充中",
-    "NASA Lambert (NTRS 20040086747) HCF knockdown factor %（RT/800°F/1200°F）：填充中"
-  ],
+  "gaps": [],
   "subtopics_covered": [],
-  "subtopics_missing": [
-    "Ra 數值",
-    "孔隙率門檻",
-    "S–N 斜率 m",
-    "knockdown factor %"
-  ]
+  "subtopics_missing": ["Ra values (as-built vs machined) for SLM Ti-6Al-4V", "porosity percentage threshold vs fatigue strength", "Basquin slope m for SLM Ti-6Al-4V", "NASA Lambert SLM-IN718 HCF knockdown factor percentages"]
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""科研哨兵 — 靜態站發佈器（把 reports/ + knowledge/ 推上 GitHub Pages）
+"""人性化練習哨兵 — 靜態站發佈器（把 reports/ + knowledge/ 推上 GitHub Pages）
 
 流程：
   1. build_site.py → 生成 gh-pages/R&D/ 靜態站（決定性輸出，冇變動唔會產生 diff）

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""科研哨兵 評分 / 壽命管理
+"""人性化練習哨兵 評分 / 壽命管理
 
 用法:
   python3 score.py pass   [主題]   # 合格: +1 級, +5 小時

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""科研哨兵 — 確定性 finalizer（不依賴 LLM）
+"""人性化練習哨兵 — 確定性 finalizer（不依賴 LLM）
 
 存在的理由：每小時 cron 個 LLM 步驟有工具呼叫上限。撞上限時佢會停喺
 「研究完成、但未存檔、未過品質閘、未 commit」嘅狀態，於是：

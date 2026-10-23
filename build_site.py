@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""科研哨兵 — 靜態站建置器（GitHub Pages）
+"""人性化練習哨兵 — 靜態站建置器（GitHub Pages）
 
 由 sentinel repo 的 reports/ + knowledge/ 生成 yip-lgtm.github.io/R&D/ 靜態站：
   R&D/index.html              — 報告索引（最新在前）
@@ -350,7 +350,8 @@ def build_index(reports: list, topics: list, state: dict) -> str:
     topics_body = md_to_html("```json\n" + topics_json + "\n```")
 
     body = f"""<p class="kicker">RESEARCH &amp; DEVELOPMENT</p>
-<h1>科研哨兵</h1>
+<h1>科研哨兵 · R&D</h1>
+<p class="sub">人性化練習哨兵 — 每小時一次判斷與表達的練習</p>
 <p class="lead">每小時一份可追溯的科研報告。主題涵蓋工程、能源、健康暴露、公共政策與基礎設施。<br>All findings are traceable to primary sources.</p>
 
 <div class="chips" style="margin-top:20px">

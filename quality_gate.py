@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""科研哨兵 報告品質閘 (Report Quality Gate)
+"""人性化練習哨兵 報告品質閘 (Report Quality Gate)
 
 用法:
   python3 quality_gate.py <report.md>          # 檢查；exit 0 = 通過, 1 = 不通過

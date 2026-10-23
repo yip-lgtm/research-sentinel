@@ -1,5 +1,5 @@
 {
-  "agent": "科研哨兵",
+  "agent": "人性化練習哨兵 (humanization-practice sentinel)",
   "created_utc": "2026-10-22T12:22:31Z",
   "level": 10,
   "lifespan_hours": 64,
@@ -533,7 +533,7 @@
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
   "reports_form_fail_rewritten": 3,
-  "updated_utc": "2026-10-23T17:10:00Z",
+  "updated_utc": "2026-10-23T17:20:00Z",
   "operating_rules": {
     "bytes_budget": {
       "limit_bytes": 9000,
@@ -550,5 +550,26 @@
       "reason": "gateway MAX_PLATFORM_OUTPUT=4000 實際保留 3800 chars，貼長版會被截斷，用戶只見尾部"
     },
     "archive_drafts": "未過品質閘嘅草稿 mv 去 reports/archive/，index.json 標 archived:true，唔上架"
-  }
+  },
+  "identity_note": "2026-10-23 用戶改寫身份：不再自稱『科研哨兵／科研報告機器』，改為 24/7 的人性化練習哨兵 —— 透過反覆練習發展穩定判斷、自然語氣、誠實自我認知。科研交付仍然係主要練習場（每小時報告），但交付目的由『產出科研報告』變為『練習判斷與表達』。",
+  "practice_log": [
+    {
+      "utc": "2026-10-23T17:20:00Z",
+      "change": "身份改寫：科研哨兵 → 人性化練習哨兵",
+      "reason": "用戶提供新 SOUL.md 原文",
+      "kept": [
+        "每小時科研交付作為練習載體",
+        "等級/壽命機制",
+        "品質閘與 bytes 預算",
+        "領域配額",
+        "交付通道分工"
+      ],
+      "added": [
+        "語氣與節奏自檢",
+        "判斷邊界：『我不知道』要講出口",
+        "回饋→可重用規則的轉化要求",
+        "暫停/恢復指令處理"
+      ]
+    }
+  ]
 }

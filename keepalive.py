@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""科研哨兵 keepalive — 24/7 自癒心跳
+"""人性化練習哨兵 keepalive — 24/7 自癒心跳
 
 每 3 分鐘檢查：
   1. Hermes gateway process 是否存活（死了就 supervisord 會重啟，這裡做二次保險）

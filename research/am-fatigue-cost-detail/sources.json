@@ -1,0 +1,13 @@
+{
+  "section": "am-fatigue-cost-detail",
+  "title": "AM 金屬積層製造的成本與檢測量化數字（AM vs 傳統製程成本對比、工業 CT 檢測時間/成本、後處理成本占比、法規資格鑑定成本負擔）",
+  "sources": [],
+  "gaps": [],
+  "subtopics_covered": [],
+  "subtopics_missing": [
+    "AM 件 vs 機加工/鑄造件的每件或每公斤成本對比數字（含轉折點件數門檻 X/Y 原文數字）",
+    "工業 CT 檢測 AM 金屬件的掃描時間（分鐘/件）與報價（USD/件）與體素解析度",
+    "HIP 每 cycle / 每小時成本、AM 後加工去除表面層工時、熱處理成本占比",
+    "NASA-STD-6030 疲勞試驗件數要求轉化的每材料/製程組合資格鑑定成本"
+  ]
+}

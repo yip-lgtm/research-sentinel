@@ -64,6 +64,24 @@
       "supports": "Canonical landing page for the EirGrid data centre policy document suite.",
       "verified": true,
       "load_status": "HTTP 200"
+    },
+    {
+      "org": "EirGrid and SONI",
+      "title": "All-Island Resource Adequacy Assessment 2025-2034 (AIRAA 2025-2034)",
+      "date": "2025",
+      "url": "https://www.eirgrid.ie/sites/default/files/publications/AIRAA-2025-2034.pdf",
+      "supports": "Ireland has ~2000 MVA of demand capacity contracted to data centres and other new technology loads at transmission level, plus ~a further 300 MVA contracted at 110 kV distribution level (ESB). Current demand forecast considers sixteen data centre projects at transmission level and five at 110 kV. Table 4.2: 2023 demand 867 MVA; growth 2023-2034 Low 422 MVA -> 1289 MVA; Median 813 MVA -> 1680 MVA; High 1200 MVA -> 2067 MVA. Ireland median TER: 37.73 TWh (2025) -> 49.52 TWh (2034), +45% vs 2023; data centres & new tech loads 27% of TER (2025) -> 31% (2034), 29% by 2030. Peak demand: 6133 MW (2025) -> 7124 MW (2034); data centres & new tech loads 19% of peak (2025) -> 24% (2034). Data centre & NTL growth is 68% of the growth forecast in 2025 and 46% of growth in 2030. 'As of the freeze date for this study, there have been no new data centres contracted that meet the CRU Direction.' Data centres modelled with flat demand profile across the day, gradual ramp through the year.",
+      "verified": true,
+      "load_status": "HTTP 200, PDF 168 pages (24.7 MB), 27 pages mentioning data centres, text extracted"
+    },
+    {
+      "org": "EirGrid and SONI",
+      "title": "All-Island Resource Adequacy Assessment 2025-2034 (landing page)",
+      "date": "2025",
+      "url": "https://www.eirgrid.ie/all-island-resource-adequacy-assessment-2025-2034",
+      "supports": "Canonical landing page linking to the AIRAA 2025-2034 PDF.",
+      "verified": true,
+      "load_status": "HTTP 200"
     }
   ],
   "unverified_or_unavailable": [

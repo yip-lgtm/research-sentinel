@@ -4,7 +4,7 @@
   "level": 11,
   "lifespan_hours": 69,
   "lifespan_hours_max": 69,
-  "reports_total": 22,
+  "reports_total": 23,
   "reports_qualified": 10,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -168,9 +168,20 @@
       "fail": 0,
       "level": 1,
       "notes": "2026-10-23 21:00 報告（城市山泥傾瀉預警門檻：工程 vs 氣候）已投遞，用戶未評分。優點：主題可判定（工程 vs 氣候）；兩條【機制】（人為拉低安全係數→門檻收斂；累積含水量而非雨峰→夜間報告更多、≥15mm/h事件只佔5%）；【敏感度】三個失效範圍（只留>19°坡／納入非雨量觸發／30%節省依賴1.6%折現率）；【推論】有量化（€17,652 vs €57,000、2–3.5倍/km²、50萬人、1,085個滑坡）；來源5個互不依賴並跨機構（ESSOAr/Crossref/NHESS/ERL/GRL）。缺口：全球q10/q50/q90門檻值被Cloudflare阻擋未取得（已明確標註，無捏造）；無門檻改善前後死亡數對照研究；義大利個案單集水區單事件。"
+    },
+    "ai-package-hallucination-supply-chain": {
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "notes": "2026-10-23 22:00 報告（AI 幻覺套件名→供應鏈攻擊面）已投遞，用戶未評分。優點：3條【機制】鏈（幻覺名持久但模型特異+難過濾；跨生態系註冊空隙8.7%；代理自行補齊不存在名）＋【敏感度】環境開關決定暴露量級（8.2% vs 0.002%，高3-4個數量級）＋【推論】含量化（1,000引用約197個不存在）＋具體案例（npm 846→1,033個、Cloudflare Workers/DNS TXT分塊、Sliver RAT；AISI對真實維護者施壓）。來源5個互不依賴（arXiv／Anthropic／UK AISI／The Hacker News／Veracode／Georgia Tech）。缺口：npm攻勢屬AI幻覺比例未量化故不宣稱slopsquatting；1,033個套件下載量與受害者數未公布；論文基於2024年模型未含代理式工具；幻覺率與44%缺陷率分母不同明確標明不可相乘；Georgia Tech 74宗屬下限（依賴AI標記歸因）。"
     }
   },
-  "last_report_utc": "2026-10-23T21:30:00Z",
+  "last_report_utc": "2026-10-23T22:05:00Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -326,9 +337,17 @@
       "report": "2026-10-23-21",
       "gate_pass": true,
       "note": "配額指定 civil 域；品質閘 PASS（1000 中文字／6426 bytes／5 來源／W6-W10 全清）；中英對照五段齊備；交付用 --delivery 版 ≤3900 chars。"
+    },
+    {
+      "utc": "2026-10-23T22:05:00Z",
+      "cmd": "deliver",
+      "topic": "ai-package-hallucination-supply-chain",
+      "report": "2026-10-23-22",
+      "gate_pass": true,
+      "note": "配額指定 ai 域；品質閘 PASS（999 中文字／7543 bytes／6 來源／W6-W10 全清）；中英對照五段齊備；存檔版 chars 5221 > 3900 → 交付用 --delivery 版。"
     }
   ],
-  "reports_pending": 0,
+  "reports_pending": 1,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",

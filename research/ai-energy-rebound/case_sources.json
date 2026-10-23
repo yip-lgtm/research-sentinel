@@ -1,0 +1,106 @@
+{
+  "case_study": "Ireland — CRU Large Energy Users (Data Centre) Connection Policy CRU/2025236 + EirGrid Data Centre policy suite (May 2026)",
+  "theme": "Jevons / rebound: per-unit efficiency gains in AI compute do NOT reduce total data-centre electricity demand; grid-level demand is driven by build-out volume, not per-query efficiency.",
+  "sources": [
+    {
+      "org": "Commission for Regulation of Utilities (CRU), Ireland",
+      "title": "The CRU Publishes its Decision on New Electricity Connection Policy for Data Centres",
+      "date": "2025-12-12",
+      "url": "https://www.cru.ie/en-ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/",
+      "supports": "Data centres grew from 5% of national electricity demand in 2015 to 22% in 2024. EirGrid forecast: data centre electricity demand 9.4 TWh (2025) -> 14.6 TWh (2034); 22% of national demand (2024) -> 31% by 2034. Doubling relative to 2023 figures.",
+      "verified": true,
+      "load_status": "HTTP 200, text extracted from live page"
+    },
+    {
+      "org": "Commission for Regulation of Utilities (CRU), Ireland",
+      "title": "CRU/2025236 Large Energy User connection policy decision paper",
+      "date": "2025-12-12",
+      "url": "https://cruie-live-96ca64acab2247eca8a850a7e54b-5b34f62.divio-media.com/documents/CRU2025236_Large_Energy_User_connection_policy_decision_paper.pdf",
+      "supports": "Total electricity demand grew 30% over past 10 years while data centre demand grew over 460%. Data centre share rose from circa 5% (2015) to circa 22% (2024). 2023->2024 data centre consumption grew 633 GWh = ~150,000 Irish households (avg 4,200 kWh/yr). Since 2015 data centre consumption grew 5,731 GWh = 1.36 million households. Market intelligence exercise: potential for 'in the order of 5.8GW additional demand capacity' for the data centre sector in Ireland in the medium term. Supersedes Direction CRU/21/124. 80% renewable electricity requirement with 6-year glide path. 10 MVA threshold for 100% MIC-matched dispatchable onsite/proximate generation or storage. Worked example: 30 MVA data centre needs 34.8 MW installed dispatchable generation (derating 0.863), 210 GWh/yr at 80% utilisation, 168 GWh renewable requirement, 54.9 MW onshore wind installed (35% CF), leaving 26.9 MW de-rated / 31.2 MW nameplate gas turbine.",
+      "verified": true,
+      "load_status": "HTTP 200, PDF 134 pages, full text extracted"
+    },
+    {
+      "org": "Commission for Regulation of Utilities (CRU), Ireland",
+      "title": "New Electricity Connection Policy for Data Centres (proposed decision)",
+      "date": "2025-02-18",
+      "url": "https://www.cru.ie/en-ie/about-us/news/new-electricity-connection-policy-for-data-centre/",
+      "supports": "Proposes onsite/local generation+storage matching requested data centre demand capacity; stepwise build-up; dispatchable participation in electricity market; annual renewable/emissions reporting by data centres to System Operators; constrained/unconstrained locational mapping. Electricity demand from data centres grew from 5% of national electricity demand in 2015 to 21% in 2023.",
+      "verified": true,
+      "load_status": "HTTP 200, text extracted from live page"
+    },
+    {
+      "org": "EirGrid",
+      "title": "Data Centre Constrained Area Overview",
+      "date": "2026-05 (Version per May 2026 document set)",
+      "url": "https://www.eirgrid.ie/sites/default/files/publications/Data-Centre-Constrained-Area-Overview-May-2026.pdf",
+      "supports": "All-Ireland peak demand approximately 7.5 GW. Ireland has 2 GW of contracted data centres, mostly greater Dublin — nearly a third of entire Irish demand once fully connected. EirGrid Market Intelligence Exercise (requested by CRU, ref CRU/2025/04): continued interest in further 6 GW of data centre demand in Ireland; if all materialised it would DOUBLE the current system peak. Greater Dublin region considered fully constrained (short circuit levels). Shaping Our Electricity Future Roadmap V1.1 (2023): 300 MW additional data centre demand outside greater Dublin; EirGrid desktop assessment: 50-100 MW per site at Galway/Limerick/Cork 220 kV nodes, total 150-300 MW. c.20% increase in electricity demand over last ten years. Fault ride-through: data centres rapidly reducing demand causes whole-system frequency deviation; 'The oscillating demand characteristics of Artificial Intelligence data centres could also pose a risk to the stability of the Irish system.'",
+      "verified": true,
+      "load_status": "HTTP 200, PDF 12 pages, full text extracted"
+    },
+    {
+      "org": "EirGrid",
+      "title": "Data Centre Connection Offer Process and Policy, Version 3 (DCCOPP V3, IOO-CC-001-R3)",
+      "date": "2026-05-20",
+      "url": "https://www.eirgrid.ie/sites/default/files/publications/Data-Centre-Connection-Offer-Process-and-Policy-V3-May-2026.pdf",
+      "supports": "Implements CRU/2025236 for all new data centre connection applications >=1 MVA received on or after 2025-12-12. Data centre with MIC >= 10 MVA must provide dispatchable onsite/proximate generation or storage equal to 100% of MIC (derated). 80% renewable requirement assessed in Year 7 (6-year glide path); failure to meet allows EirGrid to reduce MIC or terminate the Connection Agreement. A data centre application CANNOT progress if it is in a constrained area. 30 MVA example requires ~34.8 MW dispatchable generation. EirGrid requires up to 18 calendar months to process Nominated Generation applications.",
+      "verified": true,
+      "load_status": "HTTP 200, PDF 31 pages, full text extracted"
+    },
+    {
+      "org": "EirGrid",
+      "title": "Data Centre Technical Assessment",
+      "date": "2026-05",
+      "url": "https://www.eirgrid.ie/sites/default/files/publications/Data-Centre-Technical-Assessment-May-2026.pdf",
+      "supports": "Renewable matching / curtailment mechanics used to test whether a proposed data centre's renewable project can actually be dispatched at the times the data centre needs it (8760-hour matching, capacity factor assumptions).",
+      "verified": true,
+      "load_status": "HTTP 200, PDF 16 pages, full text extracted (figures present, no headline GW figure)"
+    },
+    {
+      "org": "EirGrid",
+      "title": "Data Centre Consultation (landing page for the May 2026 data centre document suite)",
+      "date": "2026-05",
+      "url": "https://www.eirgrid.ie/data-centre-consultation",
+      "supports": "Canonical landing page for the EirGrid data centre policy document suite.",
+      "verified": true,
+      "load_status": "HTTP 200"
+    }
+  ],
+  "unverified_or_unavailable": [
+    {
+      "item": "DSCC (Datacentre Services and Connectivity Centre) 2022 report 'Data Centre Infrastructure and Energy Use in Ireland'",
+      "status": "unavailable",
+      "note": "Not retrieved in this session. www.dscc.ie / dscc.ie not fetched successfully; not confirmed to be reachable from this environment."
+    },
+    {
+      "item": "EirGrid/CRU monetary cost of grid reinforcement for data centres (EUR millions) or cost per MW of connection",
+      "status": "not found",
+      "note": "No explicit EUR figure for reinforcement cost or cost-per-MW was located in CRU/2025236 or the three EirGrid May-2026 PDFs. EirGrid states 2 GW was contracted 'without significant network reinforcements'. No euro figure confirmed."
+    },
+    {
+      "item": "Exact number of live data centre connection applications / queue volume in GW (EirGrid published queue)",
+      "status": "not found as an exact published figure",
+      "note": "Available primary-source figures are the 5.8 GW market-intelligence 'potential additional demand capacity' (CRU/2025236) and the 6 GW 'continued interest' (EirGrid Market Intelligence Exercise). These are pipeline/interest figures from a market-sounding exercise, NOT a count of live queued applications. The '6 GW' and '5.8 GW' figures are related but distinct; do not conflate."
+    },
+    {
+      "item": "IEA (iea.org) Ireland data centre figures",
+      "status": "blocked (HTTP 403 Cloudflare)",
+      "note": "Not attempted per instructions."
+    },
+    {
+      "item": "Singapore IMDA Green Data Centre Roadmap (Jan 2024) primary figures",
+      "status": "not reached in this session",
+      "note": "Ireland case study completed and verified first; Singapore work not performed. Any Singapore numbers must not be asserted without loading imda.gov.sg."
+    },
+    {
+      "item": "EirGrid '27% of Irish demand by 2030' statement",
+      "status": "not located as written",
+      "note": "CRU/2025236 gives 22% (2024) -> 31% (2034). The '27% by 2030' figure was not confirmed from a primary source in this session."
+    },
+    {
+      "item": "Google Datacenter Efficiency campus PUE table (Singapore 1.12, Dublin 1.08 etc.)",
+      "status": "verified in a sibling file by another subagent, not re-verified here",
+      "note": "See verified_core.md F7 in the same research directory (loaded HTTP 200 by the main agent)."
+    }
+  ]
+}

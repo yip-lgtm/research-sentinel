@@ -40,6 +40,14 @@ MIN_CJK = 100
 MAX_BYTES = 9000
 MAX_HEADINGS = 12
 
+# H11 投遞字符上限（單則 Telegram 訊息必須完整顯示）
+# 背景：gateway 投遞層 MAX_PLATFORM_OUTPUT=4000 / TRUNCATED_VISIBLE=3800
+#   → 報告 Response > 4000 chars 會被截斷，或分成多條令用戶只見尾部。
+#   2026-10-23 用戶評 04 報告時投訴「結構不完整、缺少主題與核心發現」，
+#   查證即係 6624 chars 被 Telegram 分段所致（存檔版五段其實齊備）。
+# 根治：報告本身控制在單則訊息內 → 存檔版 = 投遞版，永遠一致。
+MAX_DELIVERY_CHARS = 3900
+
 
 def cjk_count(s):
     return len(CJK.findall(s))

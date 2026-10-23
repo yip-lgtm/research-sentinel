@@ -1,0 +1,13 @@
+{
+  "topic": "PFAS drinking water limits: EU/state comparison, treatment cost, analytical difficulty",
+  "compiled": "2026-10-23",
+  "notes": "Every fact must carry institution, title, date, full URL, and the specific number it supports. Items not found are explicitly marked as NOT FOUND.",
+  "sections": {
+    "eu": {"status": "pending", "facts": []},
+    "us_states": {"status": "pending", "facts": []},
+    "treatment_cost": {"status": "pending", "facts": []},
+    "analytical": {"status": "pending", "facts": []},
+    "science": {"status": "pending", "facts": []}
+  },
+  "sources": []
+}

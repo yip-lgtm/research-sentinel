@@ -1,0 +1,16 @@
+{
+  "topic": "US EPA PFAS National Primary Drinking Water Regulation (2024-04-26) and its toxicological basis",
+  "status": "in_progress",
+  "compiled": "2026-10-23",
+  "sections": {
+    "1_final_rule_mcl": {"status": "pending", "facts": []},
+    "2_2021_sra_csf": {"status": "pending", "facts": []},
+    "3_2016_sra_csf": {"status": "pending", "facts": []},
+    "4_2017_interim_rfd": {"status": "pending", "facts": []},
+    "5_economic_analysis": {"status": "pending", "facts": []},
+    "6_2025_2026_proposals": {"status": "pending", "facts": []},
+    "7_gao_review": {"status": "pending", "facts": []},
+    "8_serum_background_exposure": {"status": "pending", "facts": []}
+  },
+  "sources": []
+}

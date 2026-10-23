@@ -84,7 +84,19 @@
         "W4 段落「來源依據」中文字數 1 偏少"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-23-01": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_01-45-23.md",
+      "bytes": 5508,
+      "cjk": 564,
+      "sources": 0,
+      "gate_pass": false,
+      "fails": [
+        "H6 來源依據不足：0 條列項、2 個 URL，最少 2 個獨立來源"
+      ],
+      "warnings": [],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-23T00:09:03Z"
+  "updated_utc": "2026-10-23T01:45:44Z"
 }

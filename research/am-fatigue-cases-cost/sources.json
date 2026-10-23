@@ -1,8 +1,18 @@
 {
   "section": "am-fatigue-cases-cost",
-  "title": "金屬積層製造（AM）疲勞：具體落地案例與成本數字",
+  "title": "AM 疲勞：具體落地案例與成本數字（醫療 510(k)、航太陳述、成本表、安全／經濟傳導案例）",
   "sources": [],
   "gaps": [],
   "subtopics_covered": [],
-  "subtopics_missing": []
+  "subtopics_missing": [
+    "醫療植入物 510(k) AM/patient-specific 個案數與 K 編號",
+    "AM vs 機加工植入物疲勞強度數字（MPa/%）",
+    "NASA/EASA 官方 AM 疲勞數據缺口原文陳述",
+    "AM 疲勞裂紋失效官方記錄",
+    "Ti-6Al-4V / 316L 粉末每公斤價格",
+    "AM vs 機加工/鑄造件成本對比",
+    "工業 CT 檢測成本或時間",
+    "AM 批量轉折點件數門檻",
+    "具名 AM 疲勞失效安全／經濟傳導案例"
+  ]
 }

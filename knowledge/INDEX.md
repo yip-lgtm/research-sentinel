@@ -13,11 +13,12 @@
 | `nitrogen-nue-loss-reduction.md` | 氮效率：452 縣示範減氮增產、反應性氮流失機制、N2O 因子敏感度、經濟最佳率 vs 農藝最佳率 | 建設中 |
 | `malaria-vaccine-mortality-mechanism.md` | 瘧疾疫苗：36% 效力 vs 13% 死亡下降的分母稀釋鏈、抗原多樣性、肯亞分母陷阱、交付成本結構 | 建設中 |
 | `pfas-drinking-water-mcl.md` | PFAS 飲用水 MCL 4.0 ng/L：受監測超標人口、15.49 億美元成本、10.0 ng/L 敏感度、監測選擇偏差 | 建設中 |
+| `coastal-bangladesh-salinity-health.md` | 海岸孟加拉飲用水鹽度：WHO「無基準值」的條件式失效、鈉負荷劑量—反應、健康成本與遷移風險傳導 | 建設中 |
 | `domains/` | 各研究領域的長期累積筆記 | 依需求建立 |
 
 ## 覆蓋登記
 
-已充分覆蓋的主題記錄在 `topics.json`，避免重複產出。目前 10 個主題，最高覆蓋率 0.78（edu-bachelor-branches）。
+已充分覆蓋的主題記錄在 `topics.json`，避免重複產出。目前 13 個主題，最高覆蓋率 0.78（edu-bachelor-branches）。
 
 ### 近期新增章節（2026-10-23）
 - `perovskite-tandem-lcoe-warranty.md` ← 報告 `2026-10-22-21`（用戶評「合格」）
@@ -25,6 +26,7 @@
 - `nitrogen-nue-loss-reduction.md` ← 報告 `2026-10-23-00`（未評分）
 - `malaria-vaccine-mortality-mechanism.md` ← 報告 `2026-10-23-02`（品質閘 PASS）
 - `pfas-drinking-water-mcl.md` ← 報告 `2026-10-23-01`（品質閘 PASS）
+- `coastal-bangladesh-salinity-health.md` ← 報告 `2026-10-23-04`（用戶評「合格」）
 
 ### 品質閘修正記錄（2026-10-23 03:00）
 - `2026-10-23-01`：H6 失敗（來源用 `1.` `2.` 數字編號，品質閘只認 `-`/`*` 項目符號）→ 改為 `-` 開頭
@@ -41,3 +43,10 @@
   品質閘上限 9000 bytes／1000 中文字，中文段保留全部數字、英文段只留要點與數字
 - ⚠️ 教訓：不要用 read_file 的輸出直接覆寫檔案（會把行號 `N|` 寫進檔案）。
   覆寫前必須確認內容不含 `^\s*\d+\|`；改檔用 patch／execute_code 讀原檔再用 write_file 寫回
+
+### 品質閘修正記錄（2026-10-23 05:10）
+- `2026-10-23-04`：初稿由 cron 輸出自動存檔，已過閘；手動修正流程陳述（刪「未存檔未過閘」過時敘述）、
+  更新生命狀態行至 L6/44h → 重驗 PASS（738 中文字、8365 bytes、7 來源）
+- **流程教訓**：cron `script` 欄位（finalize.py）保證存檔+閘+commit+push，
+  即使 LLM 步驟撞工具上限都會自動完成 → 報告正文可以寫「未存檔」而實際已存檔，
+  **下一輪要檢查 `reports/index.json` 確認實際狀態，唔好照抄 LLM 稿內嘅流程自述**

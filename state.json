@@ -1,11 +1,11 @@
 {
   "agent": "科研哨兵",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 5,
-  "lifespan_hours": 39,
-  "lifespan_hours_max": 39,
-  "reports_total": 11,
-  "reports_qualified": 4,
+  "level": 6,
+  "lifespan_hours": 44,
+  "lifespan_hours_max": 44,
+  "reports_total": 12,
+  "reports_qualified": 5,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "exploration",
@@ -102,9 +102,20 @@
       "full": 0,
       "fail": 0,
       "level": 1
+    },
+    "coastal-bangladesh-salinity-health": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 04:33 報告獲用戶評『合格』。優點：把 WHO『鈉無健康基準值』解讀為條件式結論並找出失效前提（鈉<20 mg/L、2 L/日），三項獨立研究支撐同一暴露源的三條終點路徑（高血壓 OR 1.650／嬰兒死亡+30%／升學率-6.7pp），健康成本與遷移風險形成經濟傳導鏈，敏感度主動標明嬰兒死亡僅在 30 km 內顯著及 CI 隱含 +10%~+147% 寬區間。缺口：四篇全文受限、無血鈉/尿鈉、砷共暴露未排除。"
     }
   },
-  "last_report_utc": "2026-10-23T02:27:58Z",
+  "last_report_utc": "2026-10-23T04:52:52Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -197,9 +208,16 @@
       "topic": "perovskite-tandem",
       "level": 5,
       "hours": 39
+    },
+    {
+      "utc": "2026-10-23T04:52:52Z",
+      "cmd": "pass",
+      "topic": "coastal-bangladesh-salinity-health",
+      "level": 6,
+      "hours": 44
     }
   ],
-  "reports_pending": 3,
+  "reports_pending": 2,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -297,6 +315,25 @@
         "未比較不同所得國家實施風險分層的成本"
       ],
       "action": "下次聽力/認知題：查 ACHIEVE 五年追蹤與暴露時長分層、OTC 助聽器 RCT 的認知結果、風險分層工具本身的外部驗證。"
+    },
+    {
+      "utc": "2026-10-23T05:00:00Z",
+      "report": "2026-10-23-04",
+      "topic": "coastal-bangladesh-salinity-health",
+      "verdict": "pass",
+      "praise": [
+        "主題有明確公共衛生與經濟意義：鹽度→健康成本→嬰兒死亡→教育→遷移風險完整傳導",
+        "量化實：BDT 262/戶年健康成本斜率、10 年安全供水 NPV 與年度節省、高遷移風險地區排名",
+        "來源層級合理：WHO 指引 + World Bank 工作論文 + 4 篇同儕審閱研究",
+        "簡評誠實標註限制：觀察性、砷共暴露未排除、無直接血鈉/尿鈉、四篇全文無法取得",
+        "有生命狀態結尾"
+      ],
+      "critique": [
+        "結構從可見部分判斷不完整（缺主題與核心發現開頭）→ 已核實 finalize.py 已自動補齊存檔版本，五段齊全並過閘",
+        "部分數字標註『my calculation』需確認是否明確區分 → 報告已明確標「本人計算，非原文」",
+        "流程未過品質閘、未持久化 → 實際已過閘並已 push（遠端 bff78f0）；本輪已補知識庫章節"
+      ],
+      "action": "下一輪若延續鹽度題：查血鈉/尿鈉實測研究、砷共暴露分離設計、孟加拉味覺習慣化行為數據。"
     }
   ],
   "cross_topic_lessons": [
@@ -331,5 +368,5 @@
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
   "reports_form_fail_rewritten": 3,
-  "updated_utc": "2026-10-23T03:08:00Z"
+  "updated_utc": "2026-10-23T05:10:00Z"
 }

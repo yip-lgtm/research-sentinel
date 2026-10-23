@@ -293,7 +293,23 @@
         "W5 段落「Commentary」英文內容偏少"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-23-19": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_19-28-51.md",
+      "bytes": 3142,
+      "cjk": 707,
+      "sources": 4,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W4 段落「來源依據」中文字數 16 偏少",
+        "W5 段落「Topic」英文內容偏少",
+        "W5 段落「Key Findings」英文內容偏少",
+        "W5 段落「Potential Impact」英文內容偏少",
+        "W5 段落「Commentary」英文內容偏少"
+      ],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-23T17:46:10Z"
+  "updated_utc": "2026-10-23T19:31:26Z"
 }

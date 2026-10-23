@@ -48,15 +48,59 @@ def log(msg: str) -> None:
     print(f"{time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())} {msg}", flush=True)
 
 
-def run(cmd, cwd=None, timeout=180):
+def run(cmd, cwd=None, timeout=180, env=None):
     try:
-        return subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, timeout=timeout)
+        return subprocess.run(cmd, cwd=cwd, capture_output=True, text=True,
+                              timeout=timeout, env=env)
     except Exception as exc:  # noqa: BLE001
         return subprocess.CompletedProcess(cmd, 1, "", str(exc))
 
 
+GIT_ENV = {
+    # 1) 冇 user.name/user.email → `git rebase` 喺 pick 階段 fatal，
+    #    留低 "interactive rebase in progress" 爛狀態，之後所有 push 被拒。
+    "GIT_AUTHOR_NAME": "research-sentinel",
+    "GIT_AUTHOR_EMAIL": "sentinel@local",
+    "GIT_COMMITTER_NAME": "research-sentinel",
+    "GIT_COMMITTER_EMAIL": "sentinel@local",
+    # 2) 非互動環境冇 editor → rebase 停喺要你改 commit message 嗰步。
+    "GIT_EDITOR": "true",
+    "GIT_SEQUENCE_EDITOR": "true",
+}
+
+
 def git(*args, timeout=180):
-    return run(["git", *args], cwd=str(PAGES_REPO), timeout=timeout)
+    env = dict(os.environ)
+    env.update(GIT_ENV)
+    return run(["git", *args], cwd=str(PAGES_REPO), timeout=timeout, env=env)
+
+
+def ensure_repo_usable() -> str:
+    """修爛嘅 git 狀態。
+
+    歷史教訓：20:09 嗰次 `git pull --rebase` 因為缺 user.email + 缺 editor
+    卡死喺 "interactive rebase in progress"，之後每次 publish 都 commit 落
+    detached HEAD，push 全部被 non-fast-forward 拒絕 → 線上站停咗 4 個鐘。
+
+    呢度做防護：偵測到 rebase 中途就 abort 佢，並把 HEAD 拉返去 main。
+    """
+    gitdir = PAGES_REPO / ".git"
+    for d in ("rebase-merge", "rebase-apply"):
+        if (gitdir / d).is_dir():
+            log(f"publish_site: 偵測到爛 rebase 狀態 ({d})，自動 abort")
+            git("rebase", "--abort")
+            # abort 之後可能仍然 detached HEAD → 拉返 main
+            head = git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
+            if head != "main":
+                log(f"publish_site: HEAD 係 '{head}'，checkout main")
+                git("checkout", "main")
+                git("reset", "--hard", "origin/main")
+    # 分支追唔上 remote → 直接同步（用 merge backend，避免 interactive rebase）
+    br = git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
+    if br != "main":
+        git("checkout", "main")
+    git("-c", "rebase.backend=merge", "fetch", "origin", "main", timeout=240)
+    return "repo-ok"
 
 
 def main() -> int:
@@ -66,6 +110,12 @@ def main() -> int:
     if not BUILD.exists():
         log("publish_site: SKIP — build_site.py 唔存在")
         return 0
+
+    # 0) 先確保 git 狀態健康（rebase 殘留 / detached HEAD）
+    try:
+        ensure_repo_usable()
+    except Exception as exc:  # noqa: BLE001
+        log(f"publish_site: ensure_repo_usable 警告: {exc}")
 
     # 1) build
     r = run([sys.executable, str(BUILD)], cwd=str(REPO), timeout=180)
@@ -105,7 +155,9 @@ def main() -> int:
     log(f"publish_site: committed -> {msg}")
 
     # rebase 先 push（gh-pages 有其他 workflow 同時寫入）
-    rb = git("pull", "--rebase", "--autostash", "origin", "main", timeout=240)
+    # 用 merge backend + 明確 autostash，避免落 interactive rebase（需要 editor）。
+    rb = git("-c", "rebase.backend=merge", "-c", "rebase.autoStash=true",
+             "pull", "--rebase", "origin", "main", timeout=240)
     if rb.returncode != 0:
         log(f"publish_site: rebase 警告（照試 push）: {(rb.stderr or rb.stdout or '')[:200]}")
 
@@ -117,7 +169,8 @@ def main() -> int:
             return 0
         log(f"publish_site: push 第 {attempt} 次失敗: {(p.stderr or '')[:200]}")
         time.sleep(5)
-        git("pull", "--rebase", "--autostash", "origin", "main", timeout=240)
+        git("-c", "rebase.backend=merge", "-c", "rebase.autoStash=true",
+            "pull", "--rebase", "origin", "main", timeout=240)
 
     log("publish_site: PUSH_FAIL — 連續 3 次 push 失敗")
     return 1

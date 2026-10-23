@@ -1,8 +1,76 @@
 {
   "section": "am-fatigue-mechanism",
-  "title": "金屬積層製造（AM）零件疲勞機制：粗糙度、孔隙率、HIP 與後處理的量化研究筆記",
-  "sources": [],
-  "gaps": [],
-  "subtopics_covered": [],
-  "subtopics_missing": []
+  "title": "金屬積層製造件疲勞壽命機制：表面粗糙度、近表面孔隙與殘餘應力",
+  "sources": [
+    {
+      "org": "Beretta S., Romano S. (Politecnico di Milano) / International Journal of Fatigue",
+      "title": "A comparison of fatigue strength sensitivity to defects for materials manufactured by AM or traditional processes",
+      "date": "2017",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2016.06.008",
+      "supports": "AM 與傳統製程疲勞數據可統一繪於 Kitagawa–Takahashi 圖且趨勢相近；machined+stress-relieved 的 AM 件疲勞極限與傳統相近或更佳；Ti-6Al-4V 等效非危害缺陷 √area₀≈200 µm、AlSi10Mg≈700 µm；Murakami 1/3 斜率適用 Ti 80–600 µm / Al 200–800 µm；近表面孔隙直徑 80–100 µm、深 200–250 µm，等效 √area 630–790 µm，原文明言近表面孔隙比內部體積缺陷危害大得多；HIP 可閉合孔隙並消除殘餘應力；表面缺陷消除後 shot peening 不再改善疲勞"
+    },
+    {
+      "org": "Lambert D.M. (NASA-MSFC Marshall / Jacobs ESSSA)",
+      "title": "Evaluation of the Effect of Surface Finish on High-Cycle Fatigue of SLM-IN718",
+      "date": "2017 (NASA conference paper)",
+      "url": "https://ntrs.nasa.gov/citations/20040086747",
+      "supports": "以 low-stress ground 試件與 as-built 表面試件的同壽命最大應力比估算 SLM Inconel 718 高週期疲勞 knockdown factor；試件來自多家供應商各自 best practice；測試 RT/800/1000/1200 °F，1000 °F 因變異過大排除"
+    },
+    {
+      "org": "Nur M.I., Soni M., Awd M., Walther F. (TU Dortmund) / Materials",
+      "title": "Comparison of Various Intrinsic Defect Criteria to Plot Kitagawa-Takahashi Diagrams in Additively Manufactured AlSi10Mg",
+      "date": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10532796/",
+      "supports": "直接以 AM 疲勞資料建立 KT 圖並比較不同 intrinsic defect criteria（√area 等）的適用性"
+    },
+    {
+      "org": "Jiao Z., Zhang L., Huang S. et al. (Beijing Institute of Aeronautical Materials) / Materials",
+      "title": "Tensile and High Cycle Fatigue Performance at Room and Elevated Temperatures of Laser Powder Bed Fusion Manufactured Hastelloy X",
+      "date": "2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11123334/",
+      "supports": "L-PBF Hastelloy X 在室溫與高溫之拉伸與高週期疲勞表現（鎳基高溫合金 HCF 條件對照）"
+    },
+    {
+      "org": "Frankiewicz M., Karoluk M., Dziedzic R. et al. (Wroclaw University of Science and Technology) / Materials",
+      "title": "Static and Fatigue Properties of Rhenium-Alloyed Inconel 718 Produced by Powder Bed Fusion Additive Manufacturing",
+      "date": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11820652/",
+      "supports": "PBF 製造 Re 合金化 Inconel 718 之靜態與疲勞性能"
+    },
+    {
+      "org": "Balachandramurthi A.R., Moverare J., Mahade S., Pederson R. (University West / Linköping) / Materials",
+      "title": "Additive Manufacturing of Alloy 718 via Electron Beam Melting: Effect of Post-Treatment on the Microstructure and the Mechanical Properties",
+      "date": "2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6337144/",
+      "supports": "EBM Inconel 718 後處理對微結構與機械（含疲勞）性能之影響"
+    },
+    {
+      "org": "Benedetti M., Fontanari V., Bandini M., Zanini F., Carmignato S. (Univ. of Trento / Padova) / Procedia Structural Integrity",
+      "title": "Low- and high-cycle fatigue resistance of Ti-6Al-4V ELI additively manufactured via Selective Laser Melting: Mean stress and defect sensitivity",
+      "date": "2020",
+      "url": "https://doi.org/10.1016/j.prostr.2020.09.046",
+      "supports": "SLM Ti-6Al-4V ELI 試件經低溫去應力處理，並量測殘餘應力、顯微硬度、CT 孔隙與斷口分析"
+    }
+  ],
+  "gaps": [
+    "as-built Ra/Sa 與 machined Ra/Sa 的一手量化數值未取得",
+    "孔隙率百分比門檻（多少 % 孔隙開始主導疲勞失效）未取得：已讀來源均以缺陷絕對尺寸／√area（µm）表述",
+    "Mar-M 247 的 AM vs machined 疲勞數據未取得",
+    "NASA Lambert 報告中 knockdown factor 具體百分比未取得（僅讀到文字層）",
+    "SLM Ti-6Al-4V 實測 S–N 斜率 m 未取得",
+    "題目指定式 σ_w = 1.58 HV + 0.1025·(√area)^(1/2) 無一手文獻依據；標準式為 Murakami–Endo"
+  ],
+  "subtopics_covered": [
+    "KT 圖與 √area 門檻",
+    "近表面孔隙 vs 內部缺陷層級",
+    "HIP／shot peening／machining 之回收幅度",
+    "殘餘應力對 σ_w 的垂直平移"
+  ],
+  "subtopics_missing": [
+    "Ra 數值表",
+    "孔隙率 % 門檻",
+    "S–N 斜率",
+    "Mar-M 247",
+    "machining allowance 量化回收"
+  ]
 }

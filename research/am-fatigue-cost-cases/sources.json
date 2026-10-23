@@ -1,0 +1,57 @@
+{
+  "section": "am-fatigue-cost-cases",
+  "title": "AM 疲勞的制度門檻與落地代價：NASA-STD-6030 與 ASTM F3301",
+  "sources": [
+    {
+      "org": "NASA Office of the Chief Engineer",
+      "title": "NASA-STD-6030 Baseline, Additive Manufacturing Requirements for Spaceflight Systems (standard page)",
+      "date": "2021-04-21",
+      "url": "https://standards.nasa.gov/standard/NASA/NASA-STD-6030",
+      "supports": "NASA AM 標準為 ACTIVE，範圍涵蓋載人／非載人／發射載具／登陸器 AM 製 flight hardware"
+    },
+    {
+      "org": "NASA Office of the Chief Engineer (full PDF, 190 pp.)",
+      "title": "NASA-STD-6030 Baseline: Additive Manufacturing Requirements for Spaceflight Systems",
+      "date": "2021-04-21",
+      "url": "https://standards.nasa.gov/sites/default/files/standards/NASA/Baseline/0/2021-04-21_nasa-std-6030-approveddocx.pdf",
+      "supports": "疲勞極限定義為 ≥10⁷ cycles 且明言 AM 材料不視為具有無限壽命之 endurance limit；Table 2 規定高週期疲勞 as-built 表面循環應力範圍 ≤60% fatigue limit、加工表面 ≤80%；AMR-79 規定以 ASTM E466/E606 建立應力壽命／應變壽命曲線、每條件 ≥10 件且至少 4 件落在疲勞極限應力 ±10% 內、cycle counts ≥10⁸ 的 Class A/B 零件須以疲勞試驗數據實質支撐"
+    },
+    {
+      "org": "ASTM International",
+      "title": "ASTM F3301-18A: Standard for Additive Manufacturing - Post Processing Methods - Standard Specification for Thermal Post-Processing Metal Parts Made Via Powder Bed Fusion",
+      "date": "2018-08-22",
+      "url": "https://www.astm.org/f3301-18a.html",
+      "supports": "F3301 規定 PBF 金屬件熱後處理要求，涵蓋鈦合金、UNS N07718、UNS N06625、316L、AlSi10Mg，並適用於用於產生零件材料性質設計資料之試片，適用零件明列醫療植入物、航空件、發電與油氣 critical parts"
+    },
+    {
+      "org": "NASA NTRS",
+      "title": "IN718 Additive Manufacturing Properties and Influences (NTRS record)",
+      "date": "未標示",
+      "url": "https://ntrs.nasa.gov/citations/20150016245",
+      "supports": "NASA 體系存在 Inconel 718 AM 性能與影響因素之研究記錄（尚未讀全文，不引用其數字）"
+    }
+  ],
+  "gaps": [
+    "FAA 與 ESA 的 AM 認證路徑條文未取得",
+    "AMS 7014 / 7015（SAE Aerospace Materials Specification）全文需購，未取得",
+    "ISO/ASTM 52921、52907 官方頁受阻（iso.org 403）",
+    "醫療植入物 FDA 510(k) 個案數、臨床追蹤、列印件 vs 機加工件疲勞比較數字未取得",
+    "GE/Boeing/Airbus/SpaceX 之具名 AM 應用件數量與日期未取得",
+    "AM 鋼構橋樑節點案例與 EN 1993-1-9 疲勞細節類別原文未取得",
+    "所有成本數字（粉末 $/kg、HIP $/cycle、工業 CT $/件、批量轉折門檻）未取得",
+    "S–N 斜率 m 與壽命倍數換算所需數字未取得"
+  ],
+  "subtopics_covered": [
+    "NASA-STD-6030 疲勞極限定義與 endurance limit 陳述",
+    "Table 2 as-built 60% / 加工面 80% 門檻",
+    "AMR-79 疲勞試驗件數與 ≥10⁸ cycles 數據要求",
+    "ASTM F3301-18A 範圍與適用零件"
+  ],
+  "subtopics_missing": [
+    "FAA/ESA 條文",
+    "AMS 7014/7015",
+    "醫療與航空具名案例數字",
+    "成本與檢測價格",
+    "土木與能源案例"
+  ]
+}

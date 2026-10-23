@@ -96,7 +96,19 @@
       ],
       "warnings": [],
       "archived_by": "finalize.py"
+    },
+    "2026-10-23-02": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_02-27-06.md",
+      "bytes": 9076,
+      "cjk": 1000,
+      "sources": 10,
+      "gate_pass": false,
+      "fails": [
+        "H5 全文 9076 bytes 超過 9000"
+      ],
+      "warnings": [],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-23T01:45:44Z"
+  "updated_utc": "2026-10-23T02:27:56Z"
 }

@@ -52,3 +52,5 @@
   **下一輪要檢查 `reports/index.json` 確認實際狀態，唔好照抄 LLM 稿內嘅流程自述**
 
 - 軍事工程與公共衛生｜mil｜美軍住宅兒童血鉛暴露（檢測率下降 vs 暴露源受控）｜building 0.5｜2026-10-23-19
+- 土木工程／地質災害｜civil｜城市山泥傾瀉預警門檻：工程主導 vs 氣候主導｜building 0.5｜2026-10-23-21
+  章節：`urban-landslide-thresholds-engineering-vs-climate.md`（品質閘 PASS，1000 中文字／6426 bytes／5 來源）

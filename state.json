@@ -4,7 +4,7 @@
   "level": 11,
   "lifespan_hours": 69,
   "lifespan_hours_max": 69,
-  "reports_total": 21,
+  "reports_total": 22,
   "reports_qualified": 10,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -157,9 +157,20 @@
       "coverage_after": 0.5,
       "verdict": "pass",
       "notes": "2026-10-23 19:00 報告（美軍兒童血鉛檢測率下降 vs 20.3 萬套私營家庭住宅是否已無鉛害）獲評『合格』。優點：問題精準且有實際意義（清楚區分『檢測下降』與『暴露源已受控』）、機制與量化清楚（含鉛漆剝落成塵→手口攝入→神經發育；2010–2017 0.79% 異常率；2021 審計 0.69% 異常率並指出資料不全可能低估）、敏感度與替代解釋有處理（明確排除『標準化監測即代表安全』的過度解讀；受檢兒童屬被選樣本、未交叉房齡與維修紀錄）、來源可靠（Kotas 2020／GAO 2022 審計／CRS）、簡評誠實標註跨期比較限制與資料缺口。缺口：無軍方房齡×含鉛漆維修交叉數據；成本敏感度用 1999 HUD 非軍方單價作錨，外推性有限。流程：本輪工具上限未完成存檔與品質閘 → 已補：補英文對照段（W5 警告消除）+ 修簡評 + 品質閘 PASS（6770 bytes）+ 存檔 + 上架。"
+    },
+    "urban-landslide-thresholds-engineering-vs-climate": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1,
+      "notes": "2026-10-23 21:00 報告（城市山泥傾瀉預警門檻：工程 vs 氣候）已投遞，用戶未評分。優點：主題可判定（工程 vs 氣候）；兩條【機制】（人為拉低安全係數→門檻收斂；累積含水量而非雨峰→夜間報告更多、≥15mm/h事件只佔5%）；【敏感度】三個失效範圍（只留>19°坡／納入非雨量觸發／30%節省依賴1.6%折現率）；【推論】有量化（€17,652 vs €57,000、2–3.5倍/km²、50萬人、1,085個滑坡）；來源5個互不依賴並跨機構（ESSOAr/Crossref/NHESS/ERL/GRL）。缺口：全球q10/q50/q90門檻值被Cloudflare阻擋未取得（已明確標註，無捏造）；無門檻改善前後死亡數對照研究；義大利個案單集水區單事件。"
     }
   },
-  "last_report_utc": "2026-10-23T20:13:02Z",
+  "last_report_utc": "2026-10-23T21:30:00Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -307,6 +318,14 @@
       "topic": "military-child-lead-housing-exposure",
       "level": 11,
       "hours": 69
+    },
+    {
+      "utc": "2026-10-23T21:30:00Z",
+      "cmd": "deliver",
+      "topic": "urban-landslide-thresholds-engineering-vs-climate",
+      "report": "2026-10-23-21",
+      "gate_pass": true,
+      "note": "配額指定 civil 域；品質閘 PASS（1000 中文字／6426 bytes／5 來源／W6-W10 全清）；中英對照五段齊備；交付用 --delivery 版 ≤3900 chars。"
     }
   ],
   "reports_pending": 0,
@@ -578,7 +597,7 @@
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
   "reports_form_fail_rewritten": 3,
-  "updated_utc": "2026-10-23T20:15:00Z",
+  "updated_utc": "2026-10-23T21:30:00Z",
   "operating_rules": {
     "bytes_budget": {
       "limit_bytes": 9000,

@@ -134,6 +134,20 @@ def main():
     else:
         oks.append(f"H6 來源 {n_src} 條（{len(src_urls)} 個 URL）")
 
+    # H9 行號污染（read_file 輸出被直接覆寫檔案的典型後果）
+    if re.search(r"^\s*\d+\|", text, re.M):
+        fails.append("H9 檔案含 read_file 行號污染（^\\s*\\d+\\|）")
+    else:
+        oks.append("H9 無行號污染")
+
+    # H10 來源段不可用數字編號（品質閘只認 - / * 項目符號）
+    if sb:
+        numbered = [l for l in sb.splitlines() if re.match(r"^\s*\d+[.、)]\s*\S", l)]
+        if numbered and not src_bullets:
+            fails.append("H10 來源段用數字編號，品質閘只認 - / * 項目符號；請改寫為 - 開頭")
+        else:
+            oks.append("H10 來源編號格式 OK")
+
     # H7 主題不得為內部施工
     _, topic_body = find_head(heads, "主題")
     if topic_body is None:

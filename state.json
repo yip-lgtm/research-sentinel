@@ -4,7 +4,7 @@
   "level": 5,
   "lifespan_hours": 39,
   "lifespan_hours_max": 39,
-  "reports_total": 8,
+  "reports_total": 11,
   "reports_qualified": 4,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -90,6 +90,18 @@
       "full": 0,
       "fail": 0,
       "level": 2
+    },
+    "malaria-vaccine-mortality-mechanism": {
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1
+    },
+    "pfas-drinking-water-mcl": {
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1
     }
   },
   "last_report_utc": "2026-10-23T02:27:58Z",
@@ -187,7 +199,7 @@
       "hours": 39
     }
   ],
-  "reports_pending": 1,
+  "reports_pending": 3,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -247,6 +259,44 @@
         "H8 缺『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
       ],
       "action": "不放寬品質閘上限。16:00 已出合規重寫版並被評合格。之後每份報告：先寫檔→跑品質閘→exit 0→才寫交付內容；W6/W7/W9/W10 視為必須處理。"
+    },
+    {
+      "utc": "2026-10-23T02:30:00Z",
+      "report": "2026-10-22-21",
+      "topic": "perovskite-tandem",
+      "verdict": "pass",
+      "praise": [
+        "問題直接打中產業現實落差：10 年保固 vs 25 年融資假設",
+        "核心發現有量化門檻（29%→>21 年、32%→19 年、35%→18 年），不是空泛論述",
+        "融資年限 CRF 敏感度係自己重算（1.74×/1.59×/1.48×），可驗證",
+        "IEA 劣化機制四項（混鹼相分離、可動離子、85°C 熱分解、機械脆弱）互相獨立",
+        "誠實標註 Brandenburg 產能不足導致現場數據難累積"
+      ],
+      "critique": [
+        "潛在影響欠『實際利率差異』與具體項目融資案例",
+        "未量化『需要多少 MW·年現場數據才能支撐 25 年融資』",
+        "保固與融資落差缺少可核查的公開文件佐證"
+      ],
+      "action": "下次堆疊太陽能題：先查項目融資案例（貸款利率、DSCR、期限）、PPA 的 lifetime/degradation 補救條款、逐年劣化上限合約條款。"
+    },
+    {
+      "utc": "2026-10-23T02:32:00Z",
+      "report": "2026-10-22-22",
+      "topic": "hearing-loss-cognitive-intervention",
+      "verdict": "pass",
+      "praise": [
+        "把『總體陰性 vs 分層有效』的表面矛盾解釋成加權平均的數學結果，睇完即明",
+        "機制鏈有三層：中介路徑斷點（Reed）、地板/天花板效應、資源分層邏輯",
+        "敏感度段主動指出 61.6% 係事後四分位切分、改用簡化模型即退回連續劑量反應",
+        "成本側不對稱（WHO HEAR ROI 14.81 整體，但低收入國家 −0.07）係新意點",
+        "明確區分『可負擔性』與『有效』兩個獨立問題"
+      ],
+      "critique": [
+        "61.6% 缺乏『換算成人年延緩』的公開係數",
+        "無 ACHIEVE 助聽器購買率與每日使用時數的一手數據",
+        "未比較不同所得國家實施風險分層的成本"
+      ],
+      "action": "下次聽力/認知題：查 ACHIEVE 五年追蹤與暴露時長分層、OTC 助聽器 RCT 的認知結果、風險分層工具本身的外部驗證。"
     }
   ],
   "cross_topic_lessons": [
@@ -263,8 +313,23 @@
       "verdict": "pass_on_substance_fail_on_form",
       "pattern": "內容質素好但形式硬傷（超長＋缺英文標題＋缺結尾行）→ 品質閘判 FAIL 係正確",
       "rule": "品質閘上限屬契約，不因內容好而放寬；同一主題若已由合規重寫版取得合格分，不重複計分。"
+    },
+    {
+      "utc": "2026-10-23T02:35:00Z",
+      "topic": "perovskite-tandem+hearing-loss-cognitive-intervention",
+      "verdict": "pass",
+      "pattern": "兩份合格報告共同點：把『表面矛盾』轉成可計算的機制（保固年限→CRF；總體效應→加權平均），並在敏感度段主動說明結論會在什麼條件下翻轉",
+      "rule": "每份報告至少要有一個『會在什麼條件下結論翻轉』的敏感度算式，而唔係只列區間；矛盾型題目要先給數學解釋再給機制。"
+    },
+    {
+      "utc": "2026-10-23T03:05:00Z",
+      "topic": "pipeline",
+      "verdict": "form_fail",
+      "pattern": "H6 品質閘只認 -/* 項目符號，用 1./2. 數字編號會 FAIL；read_file 輸出直接覆寫會把行號寫進檔案",
+      "rule": "來源段一律用 - 開頭；改檔前先 grep -E '^\\s*\\d+\\|' 檢查行號污染；品質閘已加 H9（行號污染）與 H10（來源編號格式）自動偵測。"
     }
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
-  "reports_form_fail_rewritten": 1
+  "reports_form_fail_rewritten": 3,
+  "updated_utc": "2026-10-23T03:08:00Z"
 }

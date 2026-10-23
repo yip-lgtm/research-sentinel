@@ -89,6 +89,24 @@
       "coverage": 0.45,
       "last_report": "2026-10-23-00",
       "notes": "Cui et al. Nature 2018：452 縣、2,090 萬農民、3,770 萬公頃，產量升 10.8–11.5% 施氮降 14.7–18.1%，省氮 120 萬噸/122 億美元；機制是反應性氮流失由 6.0–6.4 降至 4.5–4.7 kg N/t 穀物；N2O 因子敏感度（IPCC 1.0% vs 1.6%）只改幅度不改方向；經濟最佳率低於農藝最佳率（Indiana 263 試驗，1.65 美元→143 磅/英畝）。缺口：選戶偏誤、匹配對照重算、Lassaletta 2014 全文。"
+    },
+    {
+      "id": "malaria-vaccine-mortality-mechanism",
+      "title": "瘧疾疫苗：36% 效力 vs 13% 兒童死亡下降的機制落差",
+      "domain": "公共衛生／疫苗／全球衛生",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-02",
+      "notes": "RTS,S 三期加強劑組臨床效力 36.3%、重症 32.2%，無加強劑組跌至 28.3%/重症 1.1%（CI 跨零）；NEJM 配對等位 50.3% vs 不配對 33.4%（當地配對 <10%）；R21 打保守 NANP+載體升至 75%/68%；三國四年叢集隨機全因死亡減 13%（前兩年重症入院減 32% 而全因死亡僅減 9%）＝分母稀釋；肯亞分母陷阱（服務人次 96% vs 人口 78%）；R21 2.99 美元，經濟成本為財務 3–5 倍。缺口：未取得 2026 Lancet 全文、加強劑覆蓋率劑量反應。"
+    },
+    {
+      "id": "pfas-drinking-water-mcl",
+      "title": "PFAS 飲用水 MCL：受監測人口與成本量級",
+      "domain": "公共衛生／水務／化學暴露",
+      "status": "building",
+      "coverage": 0.4,
+      "last_report": "2026-10-23-01",
+      "notes": "EPA 2024-04-26 最終規則：PFOA/PFOS MCL 4.0 ng/L、MCLG 為零、2029 合規；20 州非目標監測 1,260 套 PFOS（1,250 萬人）／1,577 套 PFOA（1,440 萬人）超標，不可相加；全國年化成本期望 15.49 億美元（14.36–16.72 億）；門檻升至 10.0 ng/L 後系統減至 491/612 套但人口仍有 530 萬/600 萬。缺口：無疾病負擔量化、監測覆蓋率未量化、成本模型分項明細。"
     }
   ],
   "domains_covered": {
@@ -103,7 +121,9 @@
     "wastewater_arg": 0.35,
     "hearing_cognition": 0.55,
     "perovskite_tandem_pv": 0.5,
-    "nitrogen_use_efficiency": 0.45
+    "nitrogen_use_efficiency": 0.45,
+    "malaria_vaccine": 0.5,
+    "pfas_water": 0.4
   },
-  "updated_utc": "2026-10-23T02:45:00Z"
+  "updated_utc": "2026-10-23T03:02:00Z"
 }

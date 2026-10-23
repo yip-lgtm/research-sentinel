@@ -11,6 +11,8 @@
 | `perovskite-tandem-lcoe-warranty.md` | 鈣鈦礦—矽堆疊：LCOE 門檻（29%→>21 年、32%→19 年）、CRF 融資年限敏感度、IEA 劣化機制、Oxford PV 保固落差 | 建設中 |
 | `hearing-cognition-risk-stratified.md` | 助聽干預：ACHIEVE 總體陰性 vs 風險分層 61.6% 有效、中介路徑斷點、WHO HEAR ROI 所得梯度 | 建設中 |
 | `nitrogen-nue-loss-reduction.md` | 氮效率：452 縣示範減氮增產、反應性氮流失機制、N2O 因子敏感度、經濟最佳率 vs 農藝最佳率 | 建設中 |
+| `malaria-vaccine-mortality-mechanism.md` | 瘧疾疫苗：36% 效力 vs 13% 死亡下降的分母稀釋鏈、抗原多樣性、肯亞分母陷阱、交付成本結構 | 建設中 |
+| `pfas-drinking-water-mcl.md` | PFAS 飲用水 MCL 4.0 ng/L：受監測超標人口、15.49 億美元成本、10.0 ng/L 敏感度、監測選擇偏差 | 建設中 |
 | `domains/` | 各研究領域的長期累積筆記 | 依需求建立 |
 
 ## 覆蓋登記
@@ -21,6 +23,13 @@
 - `perovskite-tandem-lcoe-warranty.md` ← 報告 `2026-10-22-21`（用戶評「合格」）
 - `hearing-cognition-risk-stratified.md` ← 報告 `2026-10-22-22`（用戶評「合格」）
 - `nitrogen-nue-loss-reduction.md` ← 報告 `2026-10-23-00`（未評分）
+- `malaria-vaccine-mortality-mechanism.md` ← 報告 `2026-10-23-02`（品質閘 PASS）
+- `pfas-drinking-water-mcl.md` ← 報告 `2026-10-23-01`（品質閘 PASS）
+
+### 品質閘修正記錄（2026-10-23 03:00）
+- `2026-10-23-01`：H6 失敗（來源用 `1.` `2.` 數字編號，品質閘只認 `-`/`*` 項目符號）→ 改為 `-` 開頭
+- `2026-10-23-02`：H5 失敗（9076 bytes > 9000）→ 精簡英文段落至 8998 bytes
+- 教訓：報告結尾只留一行 `生命狀態：…`（中英雙寫會多佔約 40 bytes 且無增益）
 
 ## 原則
 

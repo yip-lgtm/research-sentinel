@@ -149,6 +149,28 @@ def main() -> None:
                 + ("" if gate.get("pass") else f" {gate.get('fails')}"))
         elif stamp not in idx["reports"]:
             log(f"finalize: {stamp} Response 不似完整報告（五段缺漏），只做 git 同步")
+        else:
+            # 已存檔但可能被人手修正（例如修 H6 項目符號、切 bytes）→ 重跑品質閘更新 index
+            target = REPORTS / f"{stamp}.md"
+            if target.exists():
+                gate = run_gate(target)
+                old = idx["reports"].get(stamp, {})
+                new_entry = {
+                    "source": old.get("source", str(src)),
+                    "bytes": gate.get("bytes", target.stat().st_size),
+                    "cjk": gate.get("cjk"),
+                    "sources": gate.get("sources"),
+                    "gate_pass": bool(gate.get("pass")),
+                    "fails": gate.get("fails", []),
+                    "warnings": gate.get("warnings", []),
+                    "archived_by": "finalize.py",
+                    "reverified_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                }
+                if old.get("gate_pass") != new_entry["gate_pass"] or old.get("fails") != new_entry["fails"]:
+                    log(f"finalize: 重驗 {stamp} 品質閘 -> {'PASS' if gate.get('pass') else 'FAIL'}"
+                        + ("" if gate.get("pass") else f" {gate.get('fails')}"))
+                    idx["reports"][stamp] = new_entry
+                    save_index(idx)
 
     msg = f"chore: sentinel sync {time.strftime('%Y-%m-%d %H:%M', time.gmtime())} UTC"
     res = sync_git(msg)

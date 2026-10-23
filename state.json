@@ -1,11 +1,11 @@
 {
   "agent": "科研哨兵",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 8,
-  "lifespan_hours": 54,
+  "level": 9,
+  "lifespan_hours": 59,
   "lifespan_hours_max": 54,
-  "reports_total": 13,
-  "reports_qualified": 7,
+  "reports_total": 20,
+  "reports_qualified": 8,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "exploration",
@@ -124,6 +124,17 @@
       "coverage_after": 0.5,
       "verdict": "pass",
       "notes": "2026-10-23 10:50 報告（銅價逼近歷史高位：礦場事故、負加工費、硫酸短缺）獲用戶評『合格』。優點：問題精準（精煉銅預測小幅過剩但價格仍逼近歷史高位）、機制拆解有層次（Grasberg 泥石流 + Kamoa-Kakula 淹水 → 加工費由正轉負（定價權由冶煉廠轉向礦方）→ 中國硫酸出口禁令衝擊 SxEW 路線）、敏感度有用（ICSG 預測 10.4 萬噸過剩僅占 2025 年產量 0.36%，不足以解釋高價；復產或酸禁令解除可翻轉）、來源交叉（IEA / USGS MCS / LME Westmetall / 業界報導）、簡評誠實標註 ICSG 為二手轉述。缺口：關鍵數字依賴二手來源（官方頁反機器人）、潛在影響缺具體傳導比例（銅價每升 1000 美元/噸對變壓器成本）、『本人計算』需與原始數據對齊。"
+    },
+    "ev-charging-transformer-ageing": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 11:00 報告（午夜後充電與分時電價反效果：配電變壓器熱老化）獲用戶評『合格』。優點：問題精準（午夜後充電／分時電價會否加快變壓器熱老化）、機制用 IEEE C57.91 動態熱模型量化（FEQA 佛蒙特 2.34 vs 鳳凰城 9.79，差異來自環境溫度與熱點升溫而非充電電量）、敏感度有用（溫度回饋減 4.8–6.3 倍；純分時折扣在已安全情境仍推高 24% 老化）、具體案例（UKPN「Shift」削峰 79%/82%、Ofgem 單位費 0.35→1.44 千英鎊）、來源互不依賴（IEEE / NLR / NREL / Ofgem / UKPN / POWER Engineers）、簡評誠實標註單台 25 kVA 模型外推限制與未核實數字（SCE 6.64 萬美元、UKPN 129 站）。缺口：全文 9673 bytes 超 9000 上限（已修：刪英文重複來源清單 + 執行備註 → 8414 bytes，品質閘 PASS）、無「因電動車更換變壓器」可稽核公用事業件數。"
     }
   },
   "last_report_utc": "2026-10-23T05:00:49Z",
@@ -249,9 +260,18 @@
       "report": "2026-10-23-04",
       "topic": "coastal-bangladesh-salinity-health",
       "note": "用戶 13:2x 再評 04 報告為『合格』並指流程未存檔／未過品質閘——查證：finalize.py 已於 04:54 補存檔 （reports/2026-10-23-04.md，8365 bytes / 738 CJK / 7 來源，gate_pass=true，index.json 有 reverified_utc）。用戶實際睇到嘅係 Telegram 截斷版：cron Response 有 6624 chars，超過 Telegram 單則 4096 上限，所以只見到尾部（簡評＋生命狀態行），睇唔到開頭主題／核心發現。→ 新增品質閘 H11（投遞版字元檢查）根治。"
+    },
+    {
+      "utc": "2026-10-23T17:00:00Z",
+      "cmd": "pass",
+      "topic": "ev-charging-transformer-ageing",
+      "report": "2026-10-23-11",
+      "level": 9,
+      "hours": 59,
+      "note": "用戶評『合格』→ L8→L9, 54→59 小時。品質閘因 bytes 9673>9000 判 FAIL，已修訂存檔版（去英文重複來源清單 + 去執行備註）至 8414 bytes，重新過閘 PASS。"
     }
   ],
-  "reports_pending": 1,
+  "reports_pending": 0,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -405,6 +425,26 @@
         "部分計算標註為「本人計算」，需確保與原始數據一致"
       ],
       "note": "2026-10-23 13:30 補記錄：此評分原於 session_20261023_052253 產生但未寫入 state.json（漏記）。本次補入並同步加級：L7→L8、49→54 小時。"
+    },
+    {
+      "utc": "2026-10-23T17:00:00Z",
+      "report": "2026-10-23-11",
+      "topic": "ev-charging-transformer-ageing",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且有實際工程意義：午夜後充電或分時電價是否會反效果，加快配電變壓器熱老化",
+        "機制清楚：IEEE C57.91 動態熱模型量化 FEQA（佛蒙特 2.34 vs 鳳凰城 9.79），差異來自環境溫度與熱點升溫而非充電電量；午夜後同步充電會把 FEQA 再推高",
+        "敏感度分析有用：溫度回饋可大幅降低老化（4.8–6.3 倍），純分時折扣在已安全情境下仍可能增加 24% 老化",
+        "具體案例：UK Power Networks「Shift」實測削峰效果，以及 Ofgem 單位費上調數據",
+        "來源可靠且互不依賴（IEEE 論文、NLR/NREL 報告、Ofgem、UKPN、POWER Engineers），簡評誠實標註外推限制與未核實數字",
+        "中英對照完整，結構符合固定五段，並有生命狀態結尾"
+      ],
+      "critique": [
+        "全文略超品質閘上限（9673 bytes > 9000）→ 已修訂至 8414 bytes，重新過閘 PASS",
+        "核心模型基於單一台 25 kVA 變壓器與 6 車的模擬，外推到大規模需保留（報告已標註）",
+        "未找到「因電動車實際更換變壓器」的可稽核公用事業件數（報告已誠實標註為缺口）"
+      ],
+      "action": "下次配電／EV 題：查公用事業公開的變壓器更換台數與原因編碼（asset registry / 配電重建計劃）、台區負載率實測分佈、C57.91 熱模型的現場校準數據、以及把 FEQA 換算成實際更換成本的方法。"
     }
   ],
   "cross_topic_lessons": [
@@ -435,9 +475,16 @@
       "verdict": "form_fail",
       "pattern": "H6 品質閘只認 -/* 項目符號，用 1./2. 數字編號會 FAIL；read_file 輸出直接覆寫會把行號寫進檔案",
       "rule": "來源段一律用 - 開頭；改檔前先 grep -E '^\\s*\\d+\\|' 檢查行號污染；品質閘已加 H9（行號污染）與 H10（來源編號格式）自動偵測。"
+    },
+    {
+      "utc": "2026-10-23T17:00:00Z",
+      "topic": "ev-charging-transformer-ageing",
+      "verdict": "pass",
+      "pattern": "內容質素高但形式硬傷（bytes 9673 > 9000）→ 品質閘 FAIL 係正確；可通過『刪英文重複來源清單（URL 清單已含中英）／刪執行備註』兩刀降 ~1300 bytes 而唔犧牲內容",
+      "rule": "英文來源清單係重複（中文來源行已含機構+標題+URL）→ 存檔版可刪。報告正文尾嘅『執行備註／施工日誌』唔屬正文，必刪。落盤前先算 bytes，唔好靠『估計 7–8KB』——本次估錯 9673 vs 實際。"
     }
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
   "reports_form_fail_rewritten": 3,
-  "updated_utc": "2026-10-23T13:30:00Z"
+  "updated_utc": "2026-10-23T17:00:00Z"
 }

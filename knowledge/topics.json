@@ -269,6 +269,16 @@
    "last_report": "2026-10-24-07",
    "notes": "METR 兩輪 RCT（16 人 246 任務 +19% 耗時，CI +2%~+39%；2026-02 重做 57 人 800+ 任務 -18%/-4%，CI 含零）vs Cui 等人《Management Science》三場現場實驗（微軟／埃森哲／匿名百強，4,867 人，完成任務 +26.08%，SE 10.3%）。量度對象不同（耗時 vs 任務數）故可同時成立。缺口：Cui 分企業效果與 CI、其採用率與感知落差量化、同批人可比成本數據。",
    "domain_code": "ai"
+  },
+  {
+   "id": "metalworking-fluid-mist-oel-gap",
+   "title": "金屬切削液油霧：暴露限值落差與工程控制",
+   "domain": "機械工程／職業衛生",
+   "status": "building",
+   "coverage": 0.5,
+   "last_report": "2026-10-24-12",
+   "notes": "OSHA 5 mg/m³（僅 straight oil）vs NIOSH 0.5 mg/m³ MWF REL、ACGIH TLV 明文排除 MWF 的 10 倍落差；NIOSH 因子實驗（不切金屬亦生霧、轉速 2 次方/3.5 次方）；HP 劑量—反應 4%/19%/34%（30 例）；控制降幅 80%/87%/約一半；407 人皮膚炎 PR 2.59、哮喘 PR 2.10 即使低於 REL；密西根 86 件通報、755 人訪談僅 1 家超標但 20% 有症狀；英國調查細菌 109,000 CFU/ml、內毒素 8,039 EU/ml。缺口：OSHA 專項執法金額／NEP 引用數、MWF 專屬 ACGIH TLV 原文、MOF 發病率、LEV 捕集風速權威值、霧化產生率 mg/s、供液壓力—霧量關係。",
+   "domain_code": "mech"
   }
  ],
  "domains_covered": {
@@ -297,9 +307,10 @@
   "city_landslide_alert_thresholds": 0.5,
   "ai_hallucinated_package_attack_surface": 0.5,
   "rcm_field_durability_gap": 0.5,
-  "deicing_salt_bridge_safety": 0.5
+  "deicing_salt_bridge_safety": 0.5,
+  "mech_metalworking_fluid_mist": 0.5
  },
- "updated_utc": "2026-10-24T07:08:00Z",
+ "updated_utc": "2026-10-24T12:00:00Z",
  "quota": {
   "core_domains": [
    "ai",

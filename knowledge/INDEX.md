@@ -63,3 +63,8 @@
 - AI 工程｜ai-dev-productivity-rct-divergence｜building 0.5｜2026-10-24-07
   章節：`ai-dev-productivity-rct-divergence.md`（品質閘 PASS，912 中文字／8512 bytes／4 來源）
   METR 兩輪 RCT 與 Cui 等人《Management Science》三場現場實驗的量度分歧（耗時 vs 任務數）
+
+- 機械工程｜mech｜metalworking-fluid-mist-oel-gap｜金屬切削液油霧：暴露限值落差與工程控制｜building 0.5｜2026-10-24-12
+  章節：`metalworking-fluid-mist-oel-gap.md`（品質閘 PASS，997 中文字／8896 bytes／8 來源）
+  OSHA 5 mg/m³（僅 straight oil）vs NIOSH 0.5 mg/m³ 的 10 倍落差；霧由流體＋刀具運動生成（轉速 2 與 3.5 次方）；
+  HP 劑量—反應 4%/19%/34%；控制降幅 80%/87%；低於 REL 仍有皮膚炎 PR 2.59、工作相關哮喘 PR 2.10

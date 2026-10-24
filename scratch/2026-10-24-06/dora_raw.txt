@@ -6409,4 +6409,1111 @@ organizations are complex
 systems and improving one node,
 like accelerating code generation,
 will not improve performance
-unl
+unless the adjacent components
+evolve in parallel. The DORA
+AI Capabilities Model provides
+insight into what organization-
+level interventions will amplify AI
+benefits.
+For example, a working group
+might discover that while AI tools
+are capable of providing valuable
+suggestions, they frequently
+generate responses that miss
+critical context, such as team
+conventions, architectural history,
+or past incidents.
+That’s probably unsurprising for
+many organizations, since such
+information is often buried in
+disparate systems and informal
+knowledge channels.
+In response, the group might
+recommend exposing internal
+documentation, decision records,
+and historical tickets to AI models
+in a structured, secure way. They
+could propose building workflows
+that automatically tag and surface
+85
+v. 2025.2
+The AI mirror
+“Cultural transformation is just as critical as tooling. Success required not
+only introducing automation and metrics, but also aligning teams around
+shared goals and ownership.”
+this context during development
+or review, reducing the time
+developers spend searching and
+improving the quality of AI output.
+Alternatively, the working group
+might explore how AI could
+be used to identify outdated
+documentation, summarize long
+project discussions, and detect
+inconsistencies between what
+systems are doing and what
+documentation claims they do.
+Doing so can help turn fragmented
+knowledge into a structured,
+actionable asset.
+Beyond process changes, these
+working groups can also surface
+the need for new skills and roles.
+As developers delegate more work
+to AI tools, tasks like verification,
+orchestration, and workflow
+design become more central.
+Organizations will need to define
+what those roles look like, how
+to support them, and how to
+align incentives accordingly.
+This includes providing targeted
+training beyond tools on how
+AI can change the nature of
+development work.
+None of these changes happen
+automatically, or all at once. They
+require intention, ownership, and
+sustained support. However, what
+they don’t require is perfection
+from the outset.
+When organizations start small,
+invest with purpose, and create
+shared accountability across roles,
+they can build momentum. Step
+by step, capability by capability,
+transformation takes root.
+86
+v. 2025.2
+The AI mirror
+AI as mirror and multiplier
+AI has the potential to reshape
+how software is built, but it does
+not change organizational systems
+on its own. What it does do, often
+very quickly, is reflect how those
+systems actually operate.
+In well-aligned organizations,
+AI amplifies flow. In fragmented
+ones, it exposes pain points.
+Teams that have strong practices,
+flexible workflows, and shared
+context often see immediate
+benefits.
+Teams that rely on brittle
+processes and implicit knowledge
+may find those gaps more visible
+than ever.
+This is why AI functions both
+as a mirror and a multiplier. It
+shines a light on what’s working,
+accelerating what’s already in
+motion, but it also surfaces what
+needs to change.
+For organizations ready to look,
+the reflection AI offers becomes
+a roadmap. As we have seen with
+other transformations in the past,
+organizations willing to treat AI
+adoption as an opportunity to
+evolve how work gets done will
+be the ones that benefit most—
+both from the tools, and from
+the transformation they make
+possible.
+1.
+The W. Edwards Deming Institute. https://deming.org
+2.
+“Theory of constraints.” https://en.wikipedia.org/wiki/Theory_of_constraints
+3.
+DORA AI Capabilities Model
+4.
+Ibid.
+5.
+“Transformational leadership.” https://dora.dev/capabilities/transformational-leadership
+6.
+“Continuous AI.” https://githubnext.com/projects/continuous-ai
+87
+v. 2025.2
+AI:A skill development
+threat—and opportunity
+When it comes to skill development, software is
+similar to other occupations. Expertise should
+flow from senior staff to juniors, and ideally fresh
+perspectives and skills should bubble up.
+Senior developers do more than review pull requests;
+they teach juniors how to think architecturally. Pair
+programming isn’t just about catching bugs; it’s
+about transmitting tacit knowledge that’s hard to
+document. At its best, the three-generation model—
+junior, mid-level, senior—helps developers gain skills
+from joint problem-solving, not formal training.
+We need to investigate the effects of AI deployment
+on this taken-for-granted process. I have spent
+my career studying intelligent automation and skill,
+and have shown across more than 31 occupations
+that default use of intelligent automation changes
+traditional apprenticeship models, leaving fewer
+opportunities for novices to engage in the hands-on
+work essential for their development.
+Experts can self-serve, so they do. A few juniors
+manage to learn despite this participation barrier,
+but most struggle. I’ve studied nothing but AI use in
+complex task performance since 2023, most recently
+in software engineering, and this pattern is likewise
+evident in my early findings.
+But there are interesting exceptions, and far more
+understanding is needed. Like other groundbreaking
+technologies in the past, from the printing press
+and personal computer to the Internet, AI is being
+developed and deployed at unprecedented speed.
+And we don’t know how human capabilities will adapt
+to these changes.
+Instead, many are focused on measuring AI-related
+productivity. We track adoption rates, lines of code
+generated, pull requests merged. Not metrics
+indicative of skill development like linguistic or
+stylistic diversity over time.
+The best organizations will jointly optimize
+for productivity and skills development
+among their employees. In fact, in some of my
+research, great productivity was only achieved
+by insisting on simultaneous skill development.
+Measuring and driving for both is the path to
+sustainable performance.
+AI is an integral part of the future of software
+development—and that includes skill development.
+For example, we can use AI to parse developer–AI
+interactions, link this to version control interactions,
+and then to skill and key work outcomes.
+That wasn’t cost-effective before, but API costs
+for labeling are falling rapidly. With AI we can get
+the insight we need to refactor the work and offer
+guidance to developers on how they can keep their
+learning edge—and help others do the same.
+Default AI usage patterns are delivering
+breakthrough productivity and blocking skill
+development for most devs. To keep our innovative
+edge—both individually and collectively—we need
+to use AI itself to measure skill development and
+productivity simultaneously.
+The AI mirror
+Matt Beane, Ph.D.
+Associate Professor at the University of
+California, Santa Barbara, Digital Fellow
+at Stanford and MIT, and CEO/Cofounder
+of SkillBench
+88
+v. 2025.2
+Metrics
+frameworks
+Metrics frameworks
+Sarah D’Angelo, Ph.D.
+User Experience Researcher, Google
+Ambar Murillo
+User Experience Researcher, Google AI &
+Infrastructure
+Sarah Inman, Ph.D.
+User Experience Researcher, Google
+Kevin M. Storer, Ph.D.
+User Experience Researcher, Google Cloud
+89
+v. 2025.2
+Measuring software development
+can help drive impactful change.
+However, it’s a complex task, and
+getting started can be daunting as
+it involves understanding what you
+should measure, and determining
+what you can measure.
+The most important part is
+that you want to drive change
+in your organization through
+measurement. To do so, we
+recommend that you use
+frameworks to guide your
+measurement strategy.
+A framework breaks down a broad
+topic (for example, developer
+experience) into distinct concepts
+that can be measured (such as
+speed or satisfaction).
+When industry and academia
+talk about measuring aspects
+of software development, they
+often reference frameworks
+such as SPACE,1 DevEx,2 HEART,3
+and DORA’s software delivery
+metrics.4 Choosing a framework
+to measure software development
+can be a difficult and confusing
+step, but it doesn’t have to be.
+Choosing measurementframeworks
+tofit your organizational goals
+The first step is to define what
+goals and decisions measurement
+will inform, because frameworks
+differ in their overarching goals.
+For example, common frameworks
+in software development
+focus on measuring developer
+experience, product excellence,
+and organizational effectiveness.
+Each of these overarching
+goals take a slightly different
+lens to understanding software
+development (see Figure 52).
+Metrics frameworks
+Figure 52: Types of frameworks typically applied to measuring software development
+Types of frameworks typically applied to measuring software development
+90
+v. 2025.2
+To determine which framework is
+the best fit for your organization’s
+goals, it can be helpful to think
+of frameworks as the “why”
+behind measurement. They help
+you define why you’re trying to
+measure and guide the actions
+you take based on your findings.
+Frameworks provide a lens
+through which to view your
+data, ensuring your efforts are
+aligned with your organizational
+goals. To decide on a framework,
+you can consider: Why now?
+Did something change that is
+motivating a desire to measure?
+How will you act on your
+insights? Are there decisions or
+improvements you can enable
+with measurement?
+Now, the “what” you’ll measure
+is the actual metrics, the key
+concepts that contribute to the
+overarching framework, such as
+a velocity or adoption metric.
+Generally, there are two different
+approaches to data collection you
+can take. This is the “how” of your
+data collection which will help you
+arrive at your metrics.
+Self-reported data involves
+collecting information directly
+from developers about their
+experiences. This can be achieved
+through approaches such as:
+• Surveys use questions to gather
+opinions, satisfaction levels, and
+perceptions on various aspects
+of work.
+• Interviews and focus groups
+use one-on-one and group
+discussions to go deeper into
+specific experiences and topics.
+• Diary studies collect in situ
+data about activities, thoughts,
+and experiences.
+The strength of self-reported data
+is in its ability to capture subjective
+experiences and concepts that
+are difficult to quantify through
+automated means, such as
+satisfaction, well-being, or
+perceived effectiveness. A key
+advantage of self-reported data
+is that it doesn’t typically require
+extensive instrumentation or deep
+observability into developers’
+toolchains.
+However, self-reported data does
+present challenges in terms of
+standardization, comparability
+across teams, and scalability
+for large organizations. Its
+inherent subjectivity means that
+interpretations can vary, and it
+may be more susceptible to biases
+(including recall bias and social
+desirability bias).
+Logs-based measures are
+collected automatically from the
+tools and systems developers use.
+These can include metric types
+such as:
+• Quantity, to count specific
+artifacts. For example, the
+number of commits or number
+of users.
+• Time-based, to record how
+much time is spent on a given
+activity. For example, the time
+spent coding or reviewing.
+• Frequency, measuring the
+rate over a specific window
+of time. For example, monthly
+deployments, or weekly
+PRs per developer.
+The primary benefit of logs-based
+measures is their ability to provide
+continuously measured and
+standardized data at scale. They
+offer a detailed view of activities
+and outputs.
+However, they require sufficient
+observability into the developer
+toolchain, meaning the necessary
+integrations and data collection
+mechanisms must be in place,
+which can create a higher barrier
+to entry.
+It is also a common misconception
+that logs-based metrics are
+objective. Instrumentation
+approaches vary, errors can create
+inaccuracies, and interpretation is
+subject to bias.
+A framework will provide you
+with the concepts you want to
+measure, but ultimately what
+you implement depends on your
+resourcing, and what data you
+have access to. Do you have
+the visibility into your toolchain
+for logs-based approaches,
+or a research team to enable
+self-reported data collection?
+It’s important to recognize that
+not all organizations have the
+same resourcing and ability to
+implement metrics in the ways
+that might be recommended by a
+particular framework.
+Metrics frameworks
+91
+v. 2025.2
+Even with organizational
+limitations, frameworks are a
+guide, a lens to help you better
+understand complex behavior—
+but they can not fully capture it.
+They’re intended to get you closer
+to the truth, but you shouldn’t
+expect to measure everything.
+When considering how
+frameworks and metrics relate,
+it’s helpful to think of metrics as
+ingredients, and frameworks as
+the recipe that is made with the
+ingredients. Some core ingredients
+can be rearranged in different
+ways to make different recipes
+(the frameworks), while others are
+unique to a specific recipe.
+The meals will all taste different
+but some of the underlying
+ingredients are shared, and in
+many cases you don’t need to
+have all of the ingredients to make
+a meal that tastes good.
+While frameworks differ because
+they are intended to drive
+different outcomes, some of their
+underlying metrics overlap. The
+diagram below illustrates some
+of the metrics that comprise
+frameworks and how they often
+overlap. For example, productivity
+metrics (such as code commits or
+pull requests) may be measured
+by all three frameworks.
+An organization might use these
+metrics to gauge the impact of a
+new team structure (organizational
+effectiveness), evaluate the
+effectiveness of a developer
+tool (product excellence), and
+understand developer workload
+(developer experience).
+In contrast, some metrics are
+more specialized. Developer well-
+being, often a key component of
+developer experience frameworks,
+is not typically a primary metric
+within organizational effectiveness
+or product excellence frameworks.
+Choosing to use a single
+framework can help provide focus
+to the actions you take, and it is a
+good way to start. However, you’re
+not limited to one framework.
+As goals and abilities to
+measure change, using multiple
+frameworks can help create
+complementary analytical results,5
+resulting in a stronger whole than
+its parts. What matters is that
+you’re measuring as a way to hold
+yourself and your organization
+accountable to your goals, and
+that you are positioned to act on
+what you measure.
+Figure 53: Examples of metrics that apply to different frameworks
+Metrics frameworks
+Examples of metrics that apply to different frameworks
+92
+v. 2025.2
+You might be wondering, does
+the introduction of AI into
+development workflows change
+everything? Do the same
+frameworks apply or do we need
+new frameworks? When there is
+a technological disruption, it may
+seem necessary to completely
+overhaul your metrics collection
+strategy. We recommend careful
+consideration of what actually
+needs to be changed, especially
+when considering the impact of AI.
+Adapting your goals to better
+understand how AI is impacting
+developer experience may
+require updating only a few
+metrics, allowing you to retain
+consistent measures overall.
+Instead of throwing out the
+entire framework, you can
+use existing measures as a
+baseline to help identify how
+a paradigm shift is changing
+the developer experience. For
+example, you may need to add
+metrics on the acceptance
+rates of AI suggestions, model
+quality, or trust, while keeping
+existing measures of developer
+experience, such as perceived
+productivity and time spent
+reviewing code.
+As we see more substantial
+advances in AI, who is doing
+development tasks—and what
+those are—will change. So,
+measurement may have to adapt
+to include different user profiles
+and capture changing workflows,
+but the core goals behind why
+you are measuring developer
+experience likely haven’t changed.
+The point here is that if your
+overarching goal is the same,
+you don’t need to change your
+framework; you can expand
+your measurements to adapt to
+changes in technology.
+Even if your goals do change,
+it does not necessarily result in
+starting a measurement program
+from scratch. Since metrics
+can contribute to different
+frameworks, you often can react
+quickly and rearrange the metrics
+in the service of new or additional
+frameworks. For example,
+understanding the impact of AI-
+powered developer tools on the
+code that is being produced is
+likely a new goal that organizations
+have not faced before. This is
+particularly challenging because
+we are trying to measure
+something as it is changing.
+A common question organizations
+are facing is the impact of AI on
+code quality.6 As we see AI used to
+increase developer velocity, there
+is a particular concern that we are
+compromising quality for speed.
+These increases in developer
+velocity in the short term can
+seem positive; however, they may
+have negative impacts on velocity
+in the long term if quality is low.
+To address these concerns, your
+goal might be to ensure the
+code quality at your organization
+remains high while you drive
+adoption of AI-powered tooling.
+This goal involves aspects from
+each of the types of frameworks
+discussed and likely includes
+metrics you are already capturing
+(such as code quality, tool
+adoption, or perceived velocity).
+So, you can continue to use your
+existing metrics while introducing
+new ones. For example, combining
+DORA’s software delivery metrics
+with a product excellence
+framework such as HEART. can be
+an effective way to understand
+how developers are experiencing
+new AI-powered tools and the
+impact on software delivery.7
+Applying measurementframeworks
+in the age ofAI
+Metrics frameworks
+93
+v. 2025.2
+Measuring software development
+is a complex and ongoing
+process. While many frameworks
+and measurement approaches
+are available, you must be
+positioned to act on what you
+measure. A critical aspect of
+ensuring effective action can
+be taken is aligning with your
+organization’s goals and getting
+leadership sponsorship for your
+measurement efforts.
+Being intentional about the
+framework and measurements
+you choose can help set you up
+for long-term success. In the spirit
+of adopting a framework to meet
+a specific goal, you can consider
+how you might act on this
+information following the PDCA
+framework:
+• Plan: figure out your goals,
+choose a framework, and get
+leadership support
+• Do: get some baseline
+measures, do something
+differently
+• Check: measure again to see
+how you’re progressing towards
+your goals
+• Adjust: use your findings to
+change the approach moving
+forward
+We are not here to recommend
+one framework over others.
+Determining the appropriate
+framework based on your goals
+can help guide what you measure
+and how you take action. Choose
+the framework that resonates with
+your organization. If it speaks to
+you and spurs your organization
+into action, it’s the right framework
+for right now.
+While the frameworks provide a
+guiding structure, many of the
+underlying measures are the
+same. This means that measures
+you implement today can often be
+adapted and utilized as your needs
+and goals evolve, or change.
+Metrics frameworks
+1.
+“The SPACE of Developer Productivity: There’s more to it than you think.” https://queue.acm.org/detail.cfm?id=3454124
+2.
+“DevEx: What Actually Drives Productivity: The developer-centric approach to measuring and improving productivity.”
+https://queue.acm.org/detail.cfm?id=3595878
+3.
+“Measuring the User Experience on a Large Scale: User-Centered Metrics for Web Applications.”
+https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications
+4.
+“DORA’s software delivery metrics: the four keys.” https://dora.dev/guides/dora-metrics-four-keys
+5.
+“Unlocking product success by combining DORA and H.E.A.R.T.”
+https://cloud.google.com/transform/unlocking-product-success-by-combining-dora-and-heart
+6.
+“Measuring AI code assistants and agents.” https://getdx.com/research/measuring-ai-code-assistants-and-agents
+7.
+“Unlocking product success by combining DORA and H.E.A.R.T.”
+https://cloud.google.com/transform/unlocking-product-success-by-combining-dora-and-heart
+94
+v. 2025.2
+Final thoughts:
+From insight to action
+Final thoughts
+This year, we introduced the
+inaugural DORA AI Capabilities
+Model, a significant evolution of
+our research. As organizations
+navigate the complexities of AI
+adoption, this model provides a
+data-backed framework to guide
+their journey. It highlights seven
+critical capabilities that, when
+cultivated, amplify the positive
+impacts of AI on important
+organizational outcomes.
+These capabilities are:
+• A clear and communicated AI
+stance
+• Healthy data ecosystems
+• AI-accessible internal data
+• Strong version control practices
+For over a decade, DORA has been a trusted partner in the software
+development community, providing research and insights to help
+teams improve. As the industry rapidly evolves with the adoption of
+new technologies like AI and platform engineering, our commitment
+remains the same: to investigate and share the practices that foster
+high-performing teams.
+• Working in small batches
+• A user-centric focus
+• Quality internal platforms
+This model is our first iteration,
+and we consider it a starting
+point for an ongoing conversation
+with the DORA community and
+organizations embracing AI-
+assisted software development.
+We are eager to learn from your
+experiences as you apply these
+insights and look forward to
+validating and refining the model
+in our future research.
+This year’s research reveals a
+critical insight: We’re still in the
+nascent stages of AI-assisted
+software development, a
+period of rapid technological
+and practical evolution where
+early standardization would
+be premature. Our findings
+show that simply deploying
+AI tools is not a panacea for
+transformation. In fact, AI’s impact
+on team performance is strikingly
+dependent on a crucial factor: a
+user-centric focus.
+We found with a high degree
+of certainty that when teams
+adopt a user-centric focus,
+the positive influence of AI on
+their performance is amplified.
+Conversely, in the absence of a
+user-centric focus, AI adoption
+can have a negative impact on
+team performance.
+This finding underscores a vital
+message for all organizations:
+Investing in and cultivating a
+deep understanding of your end
+users is not just beneficial, it’s
+a prerequisite for success with
+AI. Without a user at the center
+of your strategy, AI adoption is
+unlikely to help, and may even
+hinder, your team’s performance.
+DORAAICapabilities
+Model
+Focus on
+the user
+Nathen Harvey
+DORA Lead, Google Cloud
+95
+v. 2025.2
+Final thoughts
+The findings in this year’s report
+are complex, and at times may
+even appear contradictory. This
+reflects the reality of a field in flux.
+We encourage you to treat our
+findings not as rigid prescriptions,
+but as hypotheses for your own
+experiments.
+Here are some ways you can put
+this research into practice:
+• Run experiments in your
+organization: Use DORA’s
+findings to formulate
+hypotheses and test them on
+your teams. This will allow you to
+learn more about your specific
+operational context and identify
+the most impactful areas for
+improvement.
+Thank you for engaging with
+our research. We invite you to
+continue the journey with us.
+Share your experiences, learn from
+your peers, and find inspiration by
+joining the DORA community at
+https://dora.community.
+• Conduct internal surveys: Take
+inspiration from the questions
+used in this year’s survey1 to
+design your own. Tailor them
+with more nuanced questions
+that are directly relevant to your
+teams and projects.
+• Embrace the holistic
+experience: Remember that
+improving a single feature won’t
+fix a flawed platform. Treat your
+internal platforms as products,
+focusing on the entire developer
+journey from feedback loops to
+automation.
+• Share what you learn: As you
+conduct your own experiments
+and gather insights, disseminate
+that knowledge throughout
+your organization. This can be
+through formal reports, informal
+communities of practice, or
+casual conversations. The goal is
+to foster a culture of continuous
+learning.
+The greatest risk in this evolving
+landscape isn’t falling behind,
+but rather investing heavily in
+chaotic activity that fails to deliver
+meaningful results. Choose the
+frameworks and approaches that
+resonate with your organization
+and spur you to action.
+Putting research into practice:Your
+turn to experiment
+Join the conversation
+1.
+“DORA Research: 2025 Survey questions.” https://dora.dev/research/2025/questions
+96
+v. 2025.2
+Acknowledgements
+DORA Report team
+Matt Beane, Ph.D.
+James Brookbank
+Kim Castillo
+Sarah D’Angelo, Ph.D.
+Derek DeBellis
+Rob Edwards
+Edward Fraser
+Benjamin Good
+Nathen Harvey
+Sarah Inman, Ph.D.
+Eirini Kalliamvakou, Ph.D.
+Gene Kim
+Eric Maxwell
+Ambar Murillo
+Allison Park
+Daniel Rock, Ph.D.
+Kevin M. Storer, Ph.D.
+Daniella Villalba, Ph.D.
+Steve Yegge
+Jessie Young
+The DORA research is a testament
+to the power of a passionate and
+collaborative global community.
+We are immensely grateful to
+the thousands of researchers,
+experts, practitioners, leaders,
+and transformation agents who so
+generously share their knowledge
+and experiences. This report is
+a direct result of that collective
+effort. Our thanks also go to you,
+the reader. We hope these findings
+will empower you and your teams
+to drive meaningful change and
+continuous improvement within
+your organizations.
+Research partners
+The 2025 DORA Report is
+presented by Google Cloud and
+IT Revolution in collaboration with
+the following research partners.
+Sponsors
+The 2025 DORA Report was
+supported by the following
+sponsors. Learn more about these
+sponsors on the DORA website.1
+Research partners
+Presented by
+Platinum sponsors
+Gold sponsors
+Silver sponsors
+Acknowledgements
+97
+v. 2025.2
+Editor
+Seth Rosenblatt
+Accuracy Matters2
+DORA Community guides
+Dhruv Agarwal
+Lisa Crispin
+Steve Fenton
+Denali Lumma
+Betsalel (Saul) Williamson
+Advisors and experts in the
+field
+Ameer Abbas
+Colette Alexander
+Christy Barrett
+Sander Bogdan
+Kevin Borders
+Adam Brown
+Michele Chubirka
+Andrew Davis
+Jerome Simms
+Dustin Smith
+Dave Stanke
+Laura Tacho
+Adrienne Braganza Tacke
+Finn Toner
+Cedric Yao
+Members of the DORA community
+Research and design partners
+Apparent:3 DORA branding
+Human After All:4 DORA report
+design
+Prolific:5 Research infrastructure
+support
+User Research International:6
+Research infrastructure support
+Blanca Delgado
+Thomas De Meo
+Nicole Forsgren, Ph.D.
+Vivian Hu
+Jez Humble
+Michelle Irvine
+Ben Jose
+Deepti Kamat
+Amanda Lewis
+Mike Long
+Steve McGhee
+Rebecca Murphey
+Jacek Ostrowski
+Justin Reock
+Willy Rouvre
+Ryan J. Salva
+Harini Sampath
+Dadisi Sanyika
+Robin Savinar
+Sean Sedlock
+1.
+“DORA 2025 Sponsors.” https://dora.dev/research/2025/sponsors
+2.
+“Accuracy Matters.” https://accuracymatters.co.uk
+3.
+“We Are Apparent.” https://apparent.com.au
+4.
+“Human After All: Clarity through creativity.” https://www.humanafterall.studio
+5.
+“Prolific | Easily collect high-quality data from real people.” https://www.prolific.com
+6.
+“User Research for Product Development | User Research International.” https://www.uriux.com
+Acknowledgements 98
+v. 2025.2
+Authors
+Derek DeBellis
+Derek DeBellis has been leading
+DORA’s research program since
+2022, now happily co-leading
+alongside Dr. Kevin M. Storer.
+He is driven by a central question:
+What helps people work happily
+and effectively together? This
+question motivates his work
+at DORA and his independent
+research into power dynamics,
+learning architectures, and belief
+propagation.
+When he’s not analyzing data,
+Derek can be found trail running
+(twisting his ankles) in the
+Colorado Rockies, reading Kafka
+and Borges, or recording music.
+Nathen Harvey
+Nathen Harvey leads Google
+Cloud’s DORA team, using its
+research to help organizations
+improve software delivery speed,
+stability, and efficiency.
+He focuses on enhancing
+developer experience and is
+dedicated to fostering technical
+communities like the DORA
+Community, which provides
+opportunities to learn and
+collaborate.
+Kevin M. Storer
+Dr. Kevin M. Storer leads
+ethnographic research for Google
+Cloud’s DORA team.
+His work focuses on
+understanding how organizations
+can best adapt their software
+development practices in
+response to recent advancements
+in gen AI, especially as it is
+used in coding.
+Authors
+99
+v. 2025.2
+Matt Beane, Ph.D.
+Matt Beane is an Associate
+Professor in Technology
+Management at the University
+of California, Santa Barbara,
+Digital Fellow at Stanford and
+MIT, and CEO/Cofounder of
+SkillBench, a firm that helps
+companies boost productivity
+and skills through gen AI use.
+He has studied the deployment
+of intelligent technologies since
+2011. He is author of The Skill
+Code: How to Save Human Ability
+in an Age of Intelligent Machines
+(HarperCollins, 2024).
+Rob Edwards
+Rob Edwards is a Lead for
+Software Delivery and Developer
+Experience at Google Cloud.
+He partners with customers to
+help their engineering teams build
+and ship software more smoothly
+and reliably.
+He works from the belief that the
+best technical solutions come
+from people working together
+toward a shared goal, making
+technology a tool for business
+success.
+Edward Fraser
+Edward Fraser is a graduate
+student at UC Berkeley’s School
+of Information, exploring how
+human–computer interaction
+and emerging technologies can
+create more intuitive, empowering
+experiences.
+Drawing on professional
+experience in design and product
+management, his recent work
+spans an eye-tracking study
+of developers using AI coding
+assistants, UX research for
+enterprise AI tools, and the design
+of an educational platform for
+incarcerated learners.
+Authors 100
+v. 2025.2
+Eirini Kalliamvakou
+Dr. Eirini Kalliamvakou is a Staff
+Researcher turned Research
+Advisor to GitHub’s CEO. Eirini’s
+focus is on understanding
+developers’ needs, motivations,
+and behavior.
+Her work informs evaluations,
+innovation strategy, and
+storytelling at GitHub, and her
+award-winning research on
+AI tools and DevEx is shaping
+industry practice and community
+influence.
+Gene Kim
+Gene Kim is an award-winning
+researcher and author. He has
+been studying high-performing
+technology organizations since
+1999.
+His books have sold over 1 million
+copies—he is a WSJ bestselling
+author of The Unicorn Project, and
+co-author of The Phoenix Project,
+The DevOps Handbook, and two
+Shingo Publication Award-winning
+books, Accelerate and Wiring the
+Winning Organization.
+In 2025, he won the Philip Crosby
+Medal from the American Society
+for Quality (ASQ). His latest book,
+Vibe Coding, is co-authored with
+Steve Yegge (coming October
+2025).
+Authors
+Benjamin Good
+Benjamin Good is a Cloud
+Solutions Architect at Google.
+He is passionate about improving
+software delivery practices
+through cloud technologies and
+automation.
+As a Solutions Architect he gets
+to help Google Cloud customers
+solve their problems by providing
+architectural guidance, publication
+of technical guides, and open
+source contributions. Prior to
+joining Google, Ben ran cloud
+operations for several companies
+in the Denver/Boulder area,
+implementing building platforms
+along the way.
+Authors
+101
+v. 2025.2
+Sarah Inman
+Sarah Inman is a Senior
+UX Researcher on Google’s
+Chrome team.
+Daniella Villalba, Ph.D.
+Daniella Villalba is a Senior UX
+Researcher on Google Cloud.
+Her research focuses on
+understanding developers.
+Eric Maxwell
+With a career that began in the
+trenches of software engineering,
+Eric Maxwell has always been
+driven by a passion for automation
+and a strong empathy for fellow
+practitioners. This foundational
+experience is the cornerstone
+of his work today as the leader
+of Google’s 10x Technology
+consulting practice.
+Eric advises top global companies
+on how to deliver value faster by
+transforming their organizations
+through strategic improvements in
+technology, process, and culture.
+He contributes his expertise to the
+renowned DORA team. Before his
+time at Google, Eric was at Chef
+Software, where he honed his skills
+in infrastructure automation and
+whipping up awesome.
+Authors
+Sarah D’Angelo, Ph.D.
+Sarah D’Angelo is a Senior Staff
+UX Researcher on Google’s
+Core Labs team.
+Ambar Murillo
+Ambar Murillo is a Staff UX
+Researcher on Google’s AI
+& Infrastructure team.
+102
+v. 2025.2
+Demographics and
+firmographics
+The DORA research program has been researching the
+capabilities, practices, and measures of high-performing,
+technology-driven organizations for over a decade. In
+that time, we’ve heard from roughly 45,000 professionals
+working in organizations of every size and across many
+different industries.
+This year, nearly 5,000 working professionals from a variety
+of industries around the world shared their experiences
+to help grow our understanding of how AI is changing the
+field of software development and the conditions in which

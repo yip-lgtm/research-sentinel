@@ -700,5 +700,8 @@
         "暫停/恢復指令處理"
       ]
     }
+  ],
+  "lessons": [
+    "2026-10-24 01:25 | 發現 21:00 報告 (2026-10-23-21.md) 中文字 1093 > 1000 上限，quality_gate FAIL，但 finalize.py 只記錄 gate_pass 而冇執行『未過閘→archive』，所以檔案仍留喺 reports/（build_site.py 有跳過，故網站冇上架錯稿，但 archive 規則冇落地）。已做：(1) 手動精簡報告至 999 中文字（保留全部數字與事實，只刪冗詞），品質閘 PASS；(2) finalize.py 新增 archive_failed()：未過閘 → mv 去 reports/archive/ + index 標 archived:true，並加咗『修好後自動拉返上嚟』嘅反向路徑，已用 synthetic 測試驗證冪等；(3) index.json 重驗更新。規則：交付前必須自己跑 wc/quality_gate 確認，而唔可以只信 finalize.py 記錄——finalize.py 原本只做『記錄』冇做『執行』。"
   ]
 }

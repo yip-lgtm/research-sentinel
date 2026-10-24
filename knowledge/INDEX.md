@@ -59,3 +59,7 @@
 - AI 工程｜ai-hallucinated-package-attack-surface｜building｜2026-10-24
 - 土木工程｜rcm-field-durability-gap｜building｜2026-10-24
 - 土木工程｜deicing-salt-bridge-safety｜building｜2026-10-24
+
+- AI 工程｜ai-dev-productivity-rct-divergence｜building 0.5｜2026-10-24-07
+  章節：`ai-dev-productivity-rct-divergence.md`（品質閘 PASS，912 中文字／8512 bytes／4 來源）
+  METR 兩輪 RCT 與 Cui 等人《Management Science》三場現場實驗的量度分歧（耗時 vs 任務數）

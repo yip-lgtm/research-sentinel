@@ -54,3 +54,8 @@
 - 軍事工程與公共衛生｜mil｜美軍住宅兒童血鉛暴露（檢測率下降 vs 暴露源受控）｜building 0.5｜2026-10-23-19
 - 土木工程／地質災害｜civil｜城市山泥傾瀉預警門檻：工程主導 vs 氣候主導｜building 0.5｜2026-10-23-21
   章節：`urban-landslide-thresholds-engineering-vs-climate.md`（品質閘 PASS，1000 中文字／6426 bytes／5 來源）
+
+- 土木工程｜city-landslide-alert-thresholds｜building｜2026-10-24
+- AI 工程｜ai-hallucinated-package-attack-surface｜building｜2026-10-24
+- 土木工程｜rcm-field-durability-gap｜building｜2026-10-24
+- 土木工程｜deicing-salt-bridge-safety｜building｜2026-10-24

@@ -1,11 +1,11 @@
 {
   "agent": "人性化練習哨兵 (humanization-practice sentinel)",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 12,
-  "lifespan_hours": 74,
-  "lifespan_hours_max": 74,
-  "reports_total": 24,
-  "reports_qualified": 11,
+  "level": 16,
+  "lifespan_hours": 94,
+  "lifespan_hours_max": 94,
+  "reports_total": 28,
+  "reports_qualified": 15,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "exploration",
@@ -190,9 +190,33 @@
       "coverage_after": 0.5,
       "verdict": "pass",
       "notes": "2026-10-23 20:49 報告（聖喬昆谷地陷：地下水超抽→防洪與輸水危機）獲評『合格』。優點：問題精準且有實際工程意義（地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷）；量化清楚（Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高 0.78）；機制與排除替代解釋到位（明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%）；有具體案例與成本（Corcoran 堤壩多次加高：2017 年約 1,000 萬、2023 年 1,700 萬美元），並做敏感度分析（深層回灌 vs 淺層回灌、缺測 1.1 立方公里仍不翻正）；來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告、LA Times）；簡評誠實標註部分金額未經獨立審計、以及排除未核實數字。結構符合固定五段，中英對照到位，有生命狀態結尾。不足：部分成本數字（如加州引水渠修復 40 億美元）因缺一級文件而未採用（已誠實標註）；回灌是否真正落於深層含水層仍屬敏感度情境，尚無實測驗證。"
+    },
+    "city-landslide-alert-thresholds": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2
+    },
+    "ai-hallucinated-package-attack-surface": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2
+    },
+    "rcm-field-durability-gap": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2
+    },
+    "deicing-salt-bridge-safety": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2
     }
   },
-  "last_report_utc": "2026-10-24T01:21:25Z",
+  "last_report_utc": "2026-10-24T02:47:30Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -372,6 +396,34 @@
       "level": 12,
       "hours": 74,
       "note": "用戶評『合格』→ L11→L12, 69→74 小時。存檔版 5674 bytes／789 中文字／6 來源，品質閘 PASS，已 push。"
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "city-landslide-alert-thresholds",
+      "level": 13,
+      "hours": 79
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "ai-hallucinated-package-attack-surface",
+      "level": 14,
+      "hours": 84
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "rcm-field-durability-gap",
+      "level": 15,
+      "hours": 89
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "deicing-salt-bridge-safety",
+      "level": 16,
+      "hours": 94
     }
   ],
   "reports_pending": 4,

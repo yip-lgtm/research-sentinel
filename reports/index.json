@@ -558,7 +558,20 @@
       "fails": [],
       "warnings": [],
       "archived_by": "finalize.py"
+    },
+    "2026-10-24-20": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-24_20-27-43.md",
+      "bytes": 6819,
+      "cjk": 838,
+      "sources": 12,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W10 潛在影響冇任何具體案例（州／城市／示範／實測）：須至少給一個可核查的具體傳導路徑或案例",
+        "W11 存檔版 4668 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-24T19:06:31Z"
+  "updated_utc": "2026-10-24T20:27:54Z"
 }

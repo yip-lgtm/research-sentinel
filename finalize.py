@@ -31,6 +31,7 @@ REPORTS = REPO / "reports"
 INDEX = REPORTS / "index.json"
 GATE = REPO / "quality_gate.py"
 PUBLISH = REPO / "publish_site.py"
+ARCHIVE = REPORTS / "archive"
 
 
 def log(msg: str) -> None:
@@ -89,6 +90,34 @@ def run_gate(path: Path) -> dict:
         return {"pass": False, "fails": [f"gate 執行失敗: {r.stderr[:200]}"], "warnings": []}
 
 
+def archive_failed(stamp: str, target: Path, entry: dict) -> dict:
+    """未過品質閘嘅草稿 → mv 去 reports/archive/ + index 標 archived:true。
+
+    SOUL.md 硬規則：未過閘草稿唔上架。build_site.py 已會跳過 gate_pass=False，
+    但呢度補埋「檔案本身移走 + index 標記」，令 archive 成為單一事實來源。
+    """
+    ARCHIVE.mkdir(parents=True, exist_ok=True)
+    dest = ARCHIVE / target.name
+    if target.parent.resolve() == ARCHIVE.resolve():
+        # 已經喺 archive 里面，唔使再搬
+        entry["archived"] = True
+        entry.setdefault("archived_utc", time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()))
+        entry.setdefault("archived_from", str(target))
+        return entry
+    if dest.exists():
+        dest.unlink()
+    try:
+        target.rename(dest)
+    except OSError as exc:
+        log(f"finalize: archive 搬移失敗 {target.name} — {exc}")
+        return entry
+    entry["archived"] = True
+    entry["archived_utc"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    entry["archived_from"] = str(target)
+    log(f"finalize: 未過品質閘 {stamp} → archive/{target.name}")
+    return entry
+
+
 def git_has_changes() -> bool:
     r = run(["git", "status", "--porcelain"], cwd=str(REPO))
     return r.returncode == 0 and bool(r.stdout.strip())
@@ -134,7 +163,7 @@ def main() -> None:
                 target.write_text(body + "\n", encoding="utf-8")
                 log(f"finalize: 已由 cron Response 存檔 -> {target.name} ({target.stat().st_size} bytes)")
             gate = run_gate(target)
-            idx["reports"][stamp] = {
+            entry = {
                 "source": str(src),
                 "bytes": gate.get("bytes", target.stat().st_size),
                 "cjk": gate.get("cjk"),
@@ -144,6 +173,9 @@ def main() -> None:
                 "warnings": gate.get("warnings", []),
                 "archived_by": "finalize.py",
             }
+            if not gate.get("pass"):
+                entry = archive_failed(stamp, target, entry)
+            idx["reports"][stamp] = entry
             save_index(idx)
             log(f"finalize: 品質閘 {stamp} -> {'PASS' if gate.get('pass') else 'FAIL'}"
                 + ("" if gate.get("pass") else f" {gate.get('fails')}"))
@@ -152,6 +184,16 @@ def main() -> None:
         else:
             # 已存檔但可能被人手修正（例如修 H6 項目符號、切 bytes）→ 重跑品質閘更新 index
             target = REPORTS / f"{stamp}.md"
+            archived_path = ARCHIVE / f"{stamp}.md"
+            # 之前未過閘被 archive 咗，但可能已經人手修好 → 試下拉返上嚟
+            if not target.exists() and archived_path.exists():
+                cand = run_gate(archived_path)
+                if cand.get("pass"):
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    archived_path.rename(target)
+                    log(f"finalize: {stamp} 已修正過閘，從 archive 拉回 reports/")
+                else:
+                    target = archived_path
             if target.exists():
                 gate = run_gate(target)
                 old = idx["reports"].get(stamp, {})
@@ -166,11 +208,17 @@ def main() -> None:
                     "archived_by": "finalize.py",
                     "reverified_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 }
+                if old.get("archived"):
+                    new_entry["archived"] = True
+                # 未過閘 → 移去 archive（人手修正咗就唔好搬走）
+                if not gate.get("pass") and not old.get("archived"):
+                    new_entry = archive_failed(stamp, target, new_entry)
                 # 索引任何時候都要反映當前檔案實況（bytes/cjk 會因人手修正而變）
                 if old.get("gate_pass") != new_entry["gate_pass"] or \
                    old.get("fails") != new_entry["fails"] or \
                    old.get("bytes") != new_entry["bytes"] or \
-                   old.get("cjk") != new_entry["cjk"]:
+                   old.get("cjk") != new_entry["cjk"] or \
+                   old.get("archived") != new_entry.get("archived"):
                     reason = []
                     if old.get("gate_pass") != new_entry["gate_pass"] or old.get("fails") != new_entry["fails"]:
                         reason.append(f"品質閘 -> {'PASS' if gate.get('pass') else 'FAIL'}"

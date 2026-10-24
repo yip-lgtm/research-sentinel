@@ -1,11 +1,11 @@
 {
   "agent": "人性化練習哨兵 (humanization-practice sentinel)",
   "created_utc": "2026-10-22T12:22:31Z",
-  "level": 11,
-  "lifespan_hours": 69,
-  "lifespan_hours_max": 69,
-  "reports_total": 23,
-  "reports_qualified": 10,
+  "level": 12,
+  "lifespan_hours": 74,
+  "lifespan_hours_max": 74,
+  "reports_total": 24,
+  "reports_qualified": 11,
   "reports_full_score": 0,
   "reports_rejected": 2,
   "phase": "exploration",
@@ -179,9 +179,20 @@
       "coverage_after": 0.5,
       "verdict": "pending",
       "notes": "2026-10-23 22:00 報告（AI 幻覺套件名→供應鏈攻擊面）已投遞，用戶未評分。優點：3條【機制】鏈（幻覺名持久但模型特異+難過濾；跨生態系註冊空隙8.7%；代理自行補齊不存在名）＋【敏感度】環境開關決定暴露量級（8.2% vs 0.002%，高3-4個數量級）＋【推論】含量化（1,000引用約197個不存在）＋具體案例（npm 846→1,033個、Cloudflare Workers/DNS TXT分塊、Sliver RAT；AISI對真實維護者施壓）。來源5個互不依賴（arXiv／Anthropic／UK AISI／The Hacker News／Veracode／Georgia Tech）。缺口：npm攻勢屬AI幻覺比例未量化故不宣稱slopsquatting；1,033個套件下載量與受害者數未公布；論文基於2024年模型未含代理式工具；幻覺率與44%缺陷率分母不同明確標明不可相乘；Georgia Tech 74宗屬下限（依賴AI標記歸因）。"
+    },
+    "san-joaquin-subsidence-flood-levee": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 20:49 報告（聖喬昆谷地陷：地下水超抽→防洪與輸水危機）獲評『合格』。優點：問題精準且有實際工程意義（地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷）；量化清楚（Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高 0.78）；機制與排除替代解釋到位（明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%）；有具體案例與成本（Corcoran 堤壩多次加高：2017 年約 1,000 萬、2023 年 1,700 萬美元），並做敏感度分析（深層回灌 vs 淺層回灌、缺測 1.1 立方公里仍不翻正）；來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告、LA Times）；簡評誠實標註部分金額未經獨立審計、以及排除未核實數字。結構符合固定五段，中英對照到位，有生命狀態結尾。不足：部分成本數字（如加州引水渠修復 40 億美元）因缺一級文件而未採用（已誠實標註）；回灌是否真正落於深層含水層仍屬敏感度情境，尚無實測驗證。"
     }
   },
-  "last_report_utc": "2026-10-23T22:05:00Z",
+  "last_report_utc": "2026-10-24T01:21:25Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -345,9 +356,25 @@
       "report": "2026-10-23-22",
       "gate_pass": true,
       "note": "配額指定 ai 域；品質閘 PASS（999 中文字／7543 bytes／6 來源／W6-W10 全清）；中英對照五段齊備；存檔版 chars 5221 > 3900 → 交付用 --delivery 版。"
+    },
+    {
+      "utc": "2026-10-24T01:21:25Z",
+      "cmd": "pass",
+      "topic": "sanj-joaquin-subsidence-flood-levee",
+      "level": 12,
+      "hours": 74
+    },
+    {
+      "utc": "2026-10-24T01:21:25Z",
+      "cmd": "pass",
+      "topic": "san-joaquin-subsidence-flood-levee",
+      "report": "2026-10-23-20",
+      "level": 12,
+      "hours": 74,
+      "note": "用戶評『合格』→ L11→L12, 69→74 小時。存檔版 5674 bytes／789 中文字／6 來源，品質閘 PASS，已 push。"
     }
   ],
-  "reports_pending": 1,
+  "reports_pending": 4,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -561,6 +588,25 @@
         "流程上因工具上限未完成存檔與品質閘（已標註）"
       ],
       "action": "下次同類題：查美國軍方住宅含鉛漆整治計劃的進度數據（DoD/Service MCPP 報告、2023–2025 審計報告中 remediation 單位成本與完成率）、軍事家庭兒童血鉛篩查覆蓋率時序、以及 housing vintage 與異常檢測率的交叉統計。"
+    },
+    {
+      "utc": "2026-10-24T01:21:25Z",
+      "report": "2026-10-23-20",
+      "topic": "san-joaquin-subsidence-flood-levee",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且有實際工程意義：地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷",
+        "量化清楚：Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高",
+        "機制與排除替代解釋到位：明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%",
+        "有具體案例與成本：Corcoran 堤壩多次加高（2017 年約 1000 萬、2023 年 1700 萬美元），並做敏感度分析（深層回灌 vs 淺層）",
+        "來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告），簡評誠實標註部分金額未經獨立審計、以及排除未核實數字",
+        "結構符合固定五段，中英對照到位，並有生命狀態結尾"
+      ],
+      "critique": [
+        "部分成本數字（如加州引水渠修復 40 億美元）因缺少一級文件而未採用（已誠實標註）",
+        "回灌是否真正落於深層含水層仍屬敏感度情境，尚未有實測驗證"
+      ],
+      "action": "地下水／地陷題：成本數字優先找一級文件（州預算案、USGS/地方水利局工程報告、聯邦撥款公告）——若只有媒體轉述則明確標註『未經獨立審計』，寧缺勿用；回灌深度要補實測證據（轉注井深度與地層、同位素或水化學示蹤、SGMA 計畫中的 recharge efficiency 估算），令深層／淺層敏感度由『假設情境』升級為『有實測支撐的區間』。延續本次成功公式：【量化】+【機制・排除替代解釋】+【案例】+【敏感度】+ 明確不採用清單。"
     }
   ],
   "cross_topic_lessons": [

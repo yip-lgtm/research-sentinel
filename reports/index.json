@@ -403,7 +403,21 @@
         "W9 核心發現提到模型／預測數字但冇敏感度或替代情境：須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-24-05": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-24_05-47-00.md",
+      "bytes": 6328,
+      "cjk": 719,
+      "sources": 8,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W5 段落「Topic」英文內容偏少",
+        "W10 潛在影響冇任何具體案例（州／城市／示範／實測）：須至少給一個可核查的具體傳導路徑或案例",
+        "W11 存檔版 4609 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+      ],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-24T04:30:37Z"
+  "updated_utc": "2026-10-24T05:48:49Z"
 }

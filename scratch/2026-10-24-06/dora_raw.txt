@@ -7517,3 +7517,1636 @@ This year, nearly 5,000 working professionals from a variety
 of industries around the world shared their experiences
 to help grow our understanding of how AI is changing the
 field of software development and the conditions in which
+organizations can continue to thrive in this new paradigm.
+In this chapter, we share a bit more about our respondents,
+their identities, their geographies, and their role in software
+development.
+We thank each of you for sharing your insights with us!
+Survey respondent
+demographics
+This year, a total of 4,867
+respondents answered our
+survey,1 across a range of
+demographics, locations, and
+industries.
+Demographics and firmographics
+103
+v. 2025.2
+Individual
+Distribution of respondents age
+Distribution of respondents gender
+Age
+We asked respondents their
+age, as an open-text response.
+Our sample had a median age
+of 41.
+Gender
+We asked survey respondents
+to report their gender. 62.8% of
+respondents identified as men,
+19.2% as women, 1.1% identified
+as non-binary, 0.5% chose to
+self-describe, and 2.1% declined
+to answer.
+Demographics and firmographics
+0
+200
+400
+600
+800
+20 40 60 80
+Respondent age
+Number
+of
+respondents
+Dashed line indicates median age.
+Distribution of Respondent Age
+Median age = 41
+62.8%
+1.1%
+0.5%
+2.1%
+19.2%
+Or, in your own words
+Non-Binary
+Prefer not to say
+Woman
+Man
+20% 40% 60%
+Percentage of respondents
+Survey question: 'Which of the following describe you, if any?'
+Distribution of Respondent Gender
+Proportion of respondents who selected each option.
+Figure 54: Distribution of respondents age
+Figure 55: Distribution of respondents gender
+104
+v. 2025.2
+Distribution of self-reported disabilities
+Distribution of respondents role
+Disability
+We identified disability along six
+dimensions that follow guidance
+from the Washington Group
+Short Set.2 This is the sixth year
+we have asked about disability.
+Roles
+We include a large number of
+roles in our survey to capture
+the numerous ways that
+someone might be involved
+in software development.
+The most highly represented
+roles in our data are full-stack
+developers, engineering
+managers, and back-end
+developers.
+Demographics and firmographics
+1.3%
+1.3%
+1.0%
+1.0%
+2.2%
+2.8%
+91.5%
+I am unable to / find it difficult to type
+I am unable to / find it difficult to walk
+or stand without assistance
+I am deaf / hard of hearing
+I am blind / have difficulty seeing
+In your own words
+Prefer not to say
+None of the above apply to me
+0 25% 50% 75%
+Percentage of respondents
+Survey question: 'Which of the following describes you, if any?'
+Distribution of Self-Reported Disabilities
+Proportion of respondents who selected each option.
+0.9%
+9.3%
+0.3%
+1.7%
+2.3%
+2.9%
+3.6%
+2.4%
+0.8%
+0.8%
+0.9%
+5.1%
+0.4%
+1.6%
+0.5%
+0.6%
+5.6%
+9.3%
+3.3%
+15.0%
+0.5%
+0.2%
+0.3%
+0.8%
+7.2%
+0.9%
+2.8%
+4.0%
+0.1%
+3.2%
+1.9%
+0.4%
+0.4%
+1.2%
+4.2%
+1.7%
+0.2%
+2.6%
+Prompt Engineer
+Student
+Hardware Engineer
+Blockchain
+Marketing professional
+Scientist
+Sales professional
+Developer Advocate
+Game or graphics developer
+Educator
+Embedded applications or devices developer
+Mobile developer
+Designer
+Database administrator
+Prefer not to answer
+Desktop or enterprise applications developer
+Academic researcher
+Security professional
+Developer Experience
+Site Reliability Engineer
+Business analyst
+Research & Development role
+Cloud infrastructure engineer
+Data scientist or machine learning specialist
+System administrator
+Product manager
+Data Engineer
+QA or test developer
+Front-end developer
+Data analyst
+Project manager
+Senior Executive
+DevOps specialist
+Engineer
+Other (please specify)
+Back-end developer
+Engineering manager
+Full-stack developer
+0 4% 8% 12%
+Percentage of respondents
+Distribution of Respondent Roles
+Survey question: 'Which of the following describes your current job...?'
+Figure 56: Distribution of self-reported disabilities
+Figure 57: Distribution of respondents role
+105
+v. 2025.2
+Distribution of respondents role experience
+Distribution of respondents team tenure
+Role experience
+We asked survey respondents
+to report their years of
+experience in their role or
+similar positions. Respondents
+had a median of six years of
+experience working in their role.
+Team experience
+We asked survey respondents
+to report their years of
+experience in their current team.
+Respondents had a median
+of three years of experience
+working on their team.
+Demographics and firmographics
+0
+250
+500
+750
+0 10 20 30
+Years in current or similar role
+Number
+of
+respondents
+Distribution of Respondent Role Experience
+Dashed line indicates median years of experience.
+Median experience in role = 6 years
+0
+500
+1000
+1500
+0 10 20 30
+Years on current team
+Number
+of
+respondents
+Distribution of Respondent Team Tenure
+Dashed line indicates median years on team.
+Median experience on team = 3 years
+Figure 58: Distribution of respondents role experience
+Figure 59: Distribution of respondents team tenure
+106
+v. 2025.2
+Distribution of time spent in office
+Programming language usage
+Where they work
+We asked respondents
+approximately what percentage
+of their last five days were spent
+working in an office. Despite
+broader initiatives to return
+workers to physical office
+spaces, 800 of our respondents
+worked their most recent five
+days fully remotely. The median
+time spent in an office over
+the last five days was 50%,
+suggesting a hybrid model is
+most common.
+Coding language
+We asked respondents which
+programming languages
+they used most frequently at
+work, supporting up to three
+top choices. Almost half of
+respondents are using Python
+at work, while about one-third
+are using each of JavaScript
+and SQL.
+Demographics and firmographics
+0
+200
+400
+600
+800
+0% 25% 50% 75% 100%
+Percentage of time spent in the office
+Number
+of
+respondents
+Distribution of Time Spent in Office
+Dashed line indicates median percentage. Color indicates remote vs. in-office.
+0.8%
+6.2%
+20.0%
+23.6%
+33.4%
+3.3%
+0.2%
+6.4%
+6.5%
+47.5%
+2.9%
+1.8%
+32.0%
+1.5%
+20.1%
+7.8%
+16.7%
+3.9%
+18.5%
+14.5%
+1.2%
+5.9%
+Lua
+Assembly
+Dart
+Swift
+Rust
+Ruby
+Kotlin
+C
+Go
+HashiCorp Configuration Language (HCL)
+PHP
+PowerShell
+Other (please specify)
+C++
+C#
+Bash/Shell (all shells)
+HTML/CSS
+TypeScript
+Java
+SQL
+JavaScript
+Python
+0 10% 20% 30% 40%
+Percentage of respondents
+Survey question: 'Which are the top 3 programming languages that you use at work?'
+Programming Language Usage
+Proportion of respondents who selected each language.
+Figure 60: Distribution of time spent in office
+Figure 61: Programming language usage
+107
+v. 2025.2
+Distribution of respondent industries
+Distribution of organization sizes
+Industry
+We asked survey respondents
+to identify the industry sector
+in which their organization
+primarily operates, across 12
+categories. Excluding “Other”
+responses, the most common
+sectors in which respondents
+worked were Technology,
+Financial Services, and Retail/
+Consumer/E-commerce. This
+matched our top three 2024
+industry demographics.
+Size
+We asked survey respondents
+to identify the number of
+employees at their organization,
+using nine buckets. The
+organizations in which
+respondents worked most
+commonly had 10,001 or more
+employees (22.4%), 51 to 200
+employees (16.2%), and 1,001 to
+5,000 employees (14.5%).
+Organization
+Demographics and firmographics
+3.4%
+2.6%
+13.6%
+4.5%
+5.8%
+5.4%
+2.4%
+3.1%
+1.3%
+9.7%
+7.2%
+38.0%
+3.1%
+Non-profit
+Insurance
+Energy
+Media & Entertainment
+Telecommunications
+Education
+Government
+Industrials & Manufacturing
+Healthcare & Pharmaceuticals
+Retail / Consumer / e-Commerce
+Other (please specify)
+Financial Services
+Technology
+0 10% 20% 30%
+Percentage of respondents
+Distribution of Respondent Industries
+Survey question: 'What industry is the company you work for in?'
+5.3%
+22.4%
+14.5%
+10.2%
+12.2%
+8.7%
+8.8%
+16.2%
+1.6%
+Self-employed
+1 - 10 employees
+11 - 50 employees
+51 - 200 employees
+201 - 500 employees
+501 - 1000 employees
+1001 - 5000 employees
+5001 - 10,000 employees
+10,001 + employees
+0% 5% 10% 15% 20%
+Percentage of respondents
+Distribution of Organization Sizes
+Survey question: 'Approximately how many people are employed by the organization...?'
+Figure 62: Distribution of respondents industries
+Figure 63: Distribution of organization sizes
+108
+v. 2025.2
+Active integration of AI into end-user service
+Impact of primary service unavailability
+AI-infused services and
+applications
+We asked respondents to
+indicate whether they agreed
+that their application or service
+was actively adding AI-powered
+experiences across the last
+three months. A roughly equal
+number of respondents agreed
+and disagreed, with more than
+a quarter strongly disagreeing
+that their application was
+adding AI-powered experiences
+in this timeline.
+Application criticality
+We asked respondents to
+indicate the criticality of their
+application to their employer
+by indicating what level of
+impact the unavailability of
+that application would have
+for the organization’s ability
+to achieve its goals and serve
+its customers. More than half
+of our respondents felt the
+unavailability of their application
+would have “a great deal” of
+impact on the company.
+Service
+Demographics and firmographics
+16.9%
+9.4%
+6.9%
+20.9%
+6.1%
+14.1%
+25.8%
+Strongly disagree
+Mostly disagree
+Somewhat disagree
+Neither agree nor disagree
+Somewhat agree
+Mostly agree
+Strongly agree
+0% 5% 10% 15% 20% 25%
+Percentage of respondents
+Active integration of AI into end-user Services
+51.8%
+6.2%
+23.9%
+16.7%
+1.3%
+None at all
+A little
+A moderate amount
+A lot
+A great deal
+0 10% 20% 30% 40% 50%
+Percentage of respondents
+Impact of Primary Service Unavailability
+Question: '...what level of impact would the unavailability
+of this application/service have...?'
+Figure 64: Active integration of AI into end-user service
+Figure 65: Impact of primary service unavailability
+109
+v. 2025.2
+Distribution of primary service or application age
+Primary service end-user characteristics
+Service age
+We asked participants to
+indicate approximately how
+many years the primary
+application or service they work
+on has existed. Our respondents’
+applications had a median age
+of eight years.
+Service users
+We asked participants to
+indicate characteristics of their
+applications’ primary end users.
+A majority of respondents
+were developing business
+applications, with a roughly
+even number developing for
+internal and external audiences.
+Demographics and firmographics
+0
+200
+400
+600
+0 10 20 30
+Service age (years)
+Number
+of
+respondents
+Distribution of Primary Service or Application Age
+Dashed line equals median
+Median service age = 8 years
+56.8%
+51.2%
+32.7%
+52.9%
+Consumers (people who use it
+for personal reasons)
+External (people from outside
+of my own organization)
+Business (people who use it for
+business reasons)
+Internal (people from within
+my own organization)
+0 10% 20% 30% 40% 50%
+Percentage of respondents
+Survey question: 'What are some of the characteristics of the primary end users...?'
+Primary Service End-User Characteristics
+Proportion of respondents who selected each characteristic.
+Figure 66: Distribution of primary service or application age
+Figure 67: Primary service end-user characteristics
+110
+v. 2025.2
+This year, we had respondents from more than 100 countries. Our largest number
+of respondents were located in the U.S., followed by the UK, and India.
+Country
+Country
+USA Japan Malaysia Peru Uruguay Madagascar
+UK New Zealand Romania Serbia Viet Nam Morocco
+India Switzerland Estonia Slovakia Andorra Nicaragua
+Germany Hungary Slovenia Thailand Armenia Panama
+Canada Belgium Indonesia Ukraine Bahamas Paraguay
+Netherlands Denmark United Arab
+Emirates
+Afghanistan Bahrain Republic of Moldova
+Australia Norway Bulgaria Ecuador Belarus Somalia
+France Ireland Croatia El Salvador Bolivia Sri Lanka
+Portugal Chile Costa Rica Jordan Burkina Faso The former Yugoslav
+Republic of
+Macedonia
+Poland Philippines Nigeria Kenya Democratic
+Republic of the
+Congo
+Tunisia
+Mexico Greece Russian Federation Lithuania Ethiopia Uganda
+Sweden Israel Turkey Malta Grenada Yemen
+Spain Singapore Bangladesh South Korea Hong Kong (S.A.R.) Zambia
+NA Finland China Algeria Iceland
+Georgia Austria Costa Rica Cyprus Iran
+Italy Czech Republic Egypt Côte d’Ivoire Kazakhstan
+South Africa Argentina Latvia Dominican Republic Lebanon
+Brazil Colombia Pakistan Guatemala Luxembourg
+Demographics and firmographics
+Color intensity indicates the number of survey respondents from each country, with darker shades representing a higher volume of participants.
+29% U.S.
+6% Canada
+2% Mexico
+14% UK
+1% Ireland
+2% France
+7% India
+1% Japan
+3% Australia
+2% Sweden
+6% Germany
+4% Netherlands
+1% Italy
+2% Poland
+1% Georgia
+2% Portugal
+2% Spain
+1% South Africa
+1% Brazil
+111
+v. 2025.2
+The sole inclusion criterion
+for our interviews is that
+participants are involved in some
+way in professional software
+development. Our screener
+collects no information about
+participants’ demographics
+outside of those required to
+confirm their job, location, and
+language eligibility. In total, we
+interviewed 78 participants who
+met these criteria.
+When asked about their
+responsibilities, 70 interview
+participants indicated that
+they personally write or modify
+source code, 37 indicated that
+they manage software delivery
+pipelines and/or development
+infrastructure, 15 indicated that
+they make purchasing decisions
+about development products and
+services, 12 indicated that they
+define and update organizational
+policies about technology use,
+and two indicated that their work
+related to software development
+only in some other way.
+Although these responsibilities
+suggest their roles were
+typically multifaceted, we asked
+participants how they would best
+describe their work from the
+following options: “I am a software
+developer”, “I administrate
+software development
+infrastructures”, “I manage
+people who develop software”,
+“I set policies about software
+development for my organization”,
+“I make purchasing decisions
+about products and services
+used in software development”,
+“My work is not at all related to
+software development”, “My work
+is related to software development
+in a way that is not listed here”.
+Interview participant demographics
+1.
+Not every respondent was part of each analysis because of survey conditionality or missingness.
+2.
+“WG Short Set on Functioning (WG-SS).” https://www.washingtongroup-disability.com/question-sets/wg-short-set-on-functioning-wg-ss/
+67 interviewees described
+themselves as primarily software
+developers, seven described
+themselves as primarily managers
+of software developers, one
+indicated being primarily an
+administrator of software
+development infrastructures,
+and three indicated their work
+primarily relates to software
+development in some other way.
+76 interviewees were located
+in the U.S., one was located in
+Mexico, and one was located in
+Trinidad and Tobago. That the
+vast majority of participants
+were located in the U.S. was not
+surprising, given the interviewer’s
+language fluency and scheduling
+limitations.
+Demographics and firmographics 112
+v. 2025.2
+Methodology
+Question selection
+We think about the following aspects when considering whether to
+include a question in a survey:
+Is this question…
+• Established so we can connect our work to previous efforts?
+• Capturing an outcome the industry wants to accomplish (for
+example, high team performance)?
+• Capturing a capability the industry is considering investing
+resources into (for example, AI)?
+• Capturing a capability we believe will help people accomplish
+their goals (for example, quality documentation)?
+• Something that helps us evaluate the representativeness of our
+sample (for example, role or gender)?
+• Something that helps us block biasing pathways (for example,
+coding language or role)?
+• Something that is possible to answer with at least a decent
+degree of accuracy for the vast majority of respondents?
+We address the literature, engage with the DORA community, conduct
+cognitive interviews, run parallel qualitative research, work with subject
+matter experts, and hold team workshops to inform our decision as to
+whether to include a question in our survey.
+A methodology is supposed to be like a recipe that will
+help you replicate our work and determine if the way
+our data was generated and analyzed is likely to return
+valuable information. Although we don’t have the space
+to go into the exact details, hopefully this is a great
+starting point for those considerations.
+Survey experience
+We take great care to improve the
+usability of the survey. We conduct
+cognitive interviews and usability
+tests to make sure that the survey
+hits certain specification points:
+• Time needed to complete
+survey should, on average, be
+low
+• Comprehension of the
+questionnaire should be high
+• Effortfulness should be
+reasonably low, which is a
+huge challenge given the
+technical nature of the
+concepts
+Survey development
+Methodology
+Derek DeBellis
+Quantitative User Experience Researcher,
+Google Cloud
+Kevin M. Storer, Ph.D.
+User Experience Researcher, Google Cloud
+113
+v. 2025.2
+Localizations
+People around the world have responded to our survey every year.
+This year we worked to make the survey more accessible to a larger
+audience by localizing the survey into English, Español, Français,
+Português,日本語, and 简体中文.
+Data collection
+Collect survey responses
+We use multiple channels to recruit. These channels fall into two
+categories: organic and panel.
+The organic approach is to use all the social means at our disposal to
+let people know that there is a survey that we want them to take. We
+create blog posts. We use email campaigns. We post on social media,
+and we ask people in the community to do the same (that is, snowball
+sampling).
+We use the panel approach to supplement the organic channel. Here
+we try to recruit people who are traditionally underrepresented in the
+broader technical community and try to get adequate responses from
+certain industries and organization types.
+In short, this is where we get some control over our recruitment—
+control we don’t have with the organic approach. The panel approach
+also allows us to simply make sure that we get enough respondents,
+because we never know if the organic approach is going to yield the
+responses necessary to do the types of analyses we do. This year we
+had sufficient organic responses to run our analysis and the panel
+helped round out our group of participants.
+Survey flow
+This year we had a lot of questions
+we wanted to ask, but not enough
+time to ask them. Our options
+were…
+• Make an extremely long
+survey
+• Choose a subset of areas
+to focus on
+• Randomly assign people
+to different topics
+We didn’t want to give up on any
+of our interests, so we chose to
+randomly assign participants to
+one of four separate flows. There
+was a lot of overlap among the
+four different flows, but each flow
+dove deeply in a different space.
+Here are the four different
+pathways:
+• AI
+• Platform engineering
+• Sociocognitive aspects
+• AI capabilities
+Methodology 114
+v. 2025.2
+Last year we introduced the use
+of in-depth, semi-structured
+interviews to supplement our
+annual survey with qualitative
+data that can triangulate,
+contextualize, and clarify our
+quantitative findings.
+This year, we significantly
+expanded the role of qualitative
+data in our research design
+by interviewing development
+professionals on a continuous
+basis from July 2024–July 2025.
+In addition to using these insights
+to clarify findings from our survey
+design, we also used qualitative
+data to generate new hypotheses
+to test as part of our survey,
+This section outlines our analytical
+method, which is heavily steeped
+in the works of Statistical
+Rethinking and Regression and
+Other Stories.1,2 We could attach
+a footnote from one of those to
+each sentence. We walk through
+our entire workflow with a
+simplified example so you can
+determine the appropriate level
+of trust to put into our results
+and replicate our approach. The
+2024 DORA Report explored the
+theoretical principles behind
+our analysis in the Methodology
+section. This year, we focus on
+the practical application: how we
+conducted our analysis.
+Interviews
+Statistical analysis
+especially as related to emerging
+practices in AI-assisted and AI-
+driven development paradigms.
+The interview guides used
+throughout this process were
+designed to touch on a range
+of foundational topics in the
+domain of AI use in software
+development, while affording
+flexibility to probe topics of
+interest raised by participants
+as they emerged. Interview
+sessions were designed to last
+approximately 90 minutes each,
+and were conducted remotely.
+To do so, we are going to go
+through a simulated, simplified,
+and idealized example. We’re
+going to smooth over or even
+skip some of the complexity. This
+guide is a high-level overview;
+some aspects of a full analysis
+are discussed lightly or not at
+all to maintain focus on the core
+workflow. Here are the core
+variables in this toy analysis:
+1. individual_experience
+= how much experience
+someone has in this type of role
+(manifest variable)
+2. resources = resources (for
+example, tools) available to do
+work (manifest variable)
+In total, we interviewed 78
+participants who were confirmed
+to be professionally involved in
+software development through
+a screener survey and phone
+screen. All interviews were video-
+and audio-recorded. All interviews
+were transcribed using automated
+software. Quotations appearing in
+the final publication of this report
+were revisited and transcribed
+manually prior to inclusion. Words
+added or altered in participant
+quotations by the authors of this
+report are indicated by brackets
+([]) and words removed are
+indicated by ellipses (...). Edits
+were made only in cases where
+required for clarity or anonymity.
+3. stability = does the
+organization have stable
+priorities (manifest variable)
+4. individual_effectiveness_
+score = a factor made up of
+four indicators
+5. ai_adoption = a factor made
+of three indicators
+6. If you finish this little section,
+hopefully you have a better
+sense of whether to trust us,
+a desire to replicate this work,
+and a couple of new statistics
+tricks.
+Methodology
+115
+v. 2025.2
+All statistical models contain
+causal assumptions; our
+approach is to make them
+explicit. Correlation may not imply
+causation, but how you think
+about causation will impact your
+correlations. We codify our theory
+about how the world works in a
+directed acyclic graph (DAG).3
+This DAG is our map of
+the causal landscape, built
+from prior research, qualitative
+work, and domain expertise.
+By visualizing our assumptions,
+we make them transparent and
+debatable, which is a cornerstone
+of rigorous science.4
+For this example, our extremely
+simplified DAG hypothesizes
+that individual_experience,
+resources,5 and stability
+are common causes of both
+ai_adoption and individual_
+effectiveness.
+Step 1: Defining our causal theory (the DAG)
+# Load necessary libraries
+library(dagitty)
+library(ggdag)
+library(lavaan)
+library(tidyverse)
+library(brms)
+library(tidybayes)
+library(ggplot2)
+library(emmeans)
+library(performance)
+library(semPlot)
+# Define the causal relationships in our simplified DAG
+simple_dag <- dagitty('dag {
+ai_adoption [exposure]
+individual_effectiveness [outcome]
+individual_experience [adjusted]
+resources [adjusted]
+stability [adjusted]
+individual_experience -> ai_adoption; resources -> ai_adoption;
+stability -> ai_adoption
+ai_adoption -> individual_effectiveness
+individual_experience -> individual_effectiveness; resources ->
+individual_effectiveness; stability -> individual_effectiveness
+}')
+# Plot the DAG to visualize our theory
+ggdag(simple_dag, text = FALSE, use_labels = "name") + theme_dag_
+blank()
+Methodology 116
+v. 2025.2
+Generating fake data from
+our causal theory
+Let’s use the causal structure
+defined in our DAG to simulate a
+dataset for this example. This is
+fake data.
+Creating data from a known
+causal structure gives us a
+perfect “ground truth.” This is
+incredibly helpful because it allows
+us to stress-test our methods.
+If our analysis can’t recover the
+correct answer from this clean,
+perfectly known data, it certainly
+can’t be trusted with messy,
+real-world data.
+However, this is also a
+simplification. Real data contains
+complexities like non-linear
+relationships, measurement error,
+unknown causal structures, and
+missing values that we exclude
+from this simplified example.
+# Define the model with specific path coefficients to generate data
+model_specification <- "
+# -- Measurement Model --
+ai_adoption_factor =~ 0.8*use + 0.7*reliance + 0.6*trust
+individual_effectiveness_factor =~ 0.8*effective +
+0.7*productivity + 0.7*impactful + 0.6*flow
+# -- Structural Model (Paths based on the DAG) --
+ai_adoption_factor ~ 0.4*individual_experience + 0.3*resources +
+0.2*stability
+individual_effectiveness_factor ~ 0.3*ai_adoption_factor +
+0.3*individual_experience + 0.2*resources + 0.15*stability"
+set.seed(2025)
+simulated_data <- simulateData(model_specification, sample.nobs =
+500)
+#get a sense of the data
+summary(simulated_data)
+glimpse(simulated_data)
+This output diagram visualizes
+our theory. Our focus is
+ai_adoption’s impact on
+individual_effectiveness,
+but to properly estimate that, we
+need to understand the broader
+context. The DAG identifies
+several key confounders—factors
+that influence both our cause and
+our effect. These are:
+individual_experience (with
+role)
+resources (required to do role
+are available)
+stability (priority stability)
+We’ll let the DAG explicitly identify
+them later.
+Methodology
+resources
+individual_effectiveness
+individual_experience
+ai_adoption
+stability
+117
+v. 2025.2
+Before testing our causal or
+structural theory, we must ensure
+our measurement tools are sound
+using a confirmatory factor
+analysis (CFA).6 This step validates
+that our survey items reliably
+measure their intended latent
+constructs (Kline, 2015).
+We evaluate the model by
+checking for good global fit,
+strong local factor loadings,
+and no major points of strain
+via modification indices.
+Step 2: Evaluating the measurement model (CFA)
+# Define the measurement-only portion of our model
+measurement_model <- "
+ai_adoption_factor =~ use + reliance + trust
+individual_effectiveness_factor =~ effective + productivity +
+impactful + flow
+"
+# Fit the CFA model to our simulated data
+cfa_fit <- cfa(measurement_model, data = simulated_data)
+# Review the fit indices, loadings, and modification indices
+summary(cfa_fit, fit.measures = TRUE, standardized = TRUE)
+modificationindices(cfa_fit, sort = TRUE, minimum.value = 10)
+Methodology
+This is some of the output for that model.
+> summary(cfa_fit, fit.measures = TRUE,
+standardized = TRUE)
+lavaan 0.6-19 ended normally after 34 iterations
+Estimator ML
+Optimization method NLMINB
+Number of model parameters 15
+Number of observations 500
+Model Test User Model:
+Test statistic 7.579
+Degrees of freedom 13
+P-value (Chi-square) 0.870
+Model Test Baseline Model:
+Test statistic 651.579
+Degrees of freedom 21
+P-value 0.000
+User Model versus Baseline Model:
+Comparative Fit Index (CFI) 1.000
+Tucker-Lewis Index (TLI) 1.014
+Loglikelihood and Information Criteria:
+Loglikelihood user model (H0) -5515.401
+Loglikelihood unrestricted model (H1)
+-5511.612
+Akaike (AIC) 11060.803
+Bayesian (BIC) 11124.022
+Sample-size adjusted Bayesian (SABIC)
+11076.411
+Root Mean Square Error of Approximation:
+RMSEA 0.000
+90 Percent confidence interval - lower 0.000
+90 Percent confidence interval - upper 0.023
+P-value H_0: RMSEA <= 0.050 0.999
+P-value H_0: RMSEA >= 0.080 0.000
+Standardized Root Mean Square Residual:
+SRMR 0.017
+118
+v. 2025.2
+How to interpret the CFA
+output
+The lavaan7 output provides a rich
+set of diagnostics. Here’s how to
+interpret the key sections using
+your results.
+1. The chi-square test (χ2). This is
+the test of perfect fit. It tests the
+null hypothesis that the model fits
+the data exactly.
+Your result: Test statistic = 7.579,
+df = 13, P-value = 0.870
+Guideline: We hope for a
+non-significant result (p > .05).
+Interpretation: The p-value
+is very high (0.870), meaning
+we cannot reject the null
+hypothesis. The test indicates
+that our model’s structure is
+statistically indistinguishable
+from a perfect fit.8
+Warning: This is the traditional,
+formal statistical test of model
+fit. However, with very large
+samples like DORA’s, this test is
+overly sensitive and almost always
+indicates a “poor fit” even when
+the model is excellent. Because of
+this, we use it as a reference but
+rely more heavily on the practical
+indices below.
+2. Incremental fit indices (CFI
+& TLI). These indices compare
+our model’s fit to a “worst-case”
+baseline model where no variables
+are related.
+Your result:
+CFI = 1.000, TLI = 1.014
+Guideline: We check for values
+> 0.90 (acceptable) and > 0.95
+(excellent).
+Interpretation: The values are at
+or above the theoretical maximum
+of 1.0. This signals a perfect fit
+relative to the baseline model.
+(Note: TLI can sometimes exceed
+1.0 in well-fitting models.)
+3. Absolute error indices
+(RMSEA & SRMR). These indices
+measure the “badness-of-fit”
+or the average error between
+the model’s predictions and the
+actual data.
+Your RMSEA result:
+RMSEA = 0.000 with a 90% CI
+of [0.000, 0.023]
+Guideline: We check for a point
+estimate < 0.08 (acceptable)
+and < 0.06 (excellent).
+Interpretation:
+Your RMSEA is zero, with the entire
+confidence interval falling well
+below the threshold for excellent
+fit. This suggests there is virtually
+no error of approximation.
+Your SRMR result:
+SRMR = 0.017
+Guideline:
+We check for a value < 0.08.
+Interpretation: The value is
+extremely low, indicating that the
+average standardized difference
+between the observed and
+predicted correlations is tiny.
+4. Factor loadings and
+modification indices (output
+not shown). Use the standardized
+factor loadings to inspect if the
+loadings are substantial and similar
+from within the factor.9 Use the
+modification indices to locate
+areas of local strain in your model.
+High modification indices indicate
+areas of potential misspecification.
+In this example, across the board,
+every single fit index points to
+a model that fits the data near-
+perfectly. This is exactly what
+we hope to see in this specific
+scenario. Because we generated
+the data directly from this
+model’s specifications, a perfect
+fit confirms that our analytical
+method is working correctly and
+can recover a known structure.
+However, it’s crucial to note that
+seeing results this flawless with
+real-world survey data would
+be highly unusual and almost
+worrisome. Such a perfect fit
+in a real analysis might suggest
+that the model is too simple
+for the data’s complexity or, in
+some cases, that the model has
+been “overfit” through extensive
+tweaking.
+Methodology
+119
+v. 2025.2
+With validated measures, we use structural
+equation modeling (SEM) to perform a holistic
+fit test of our entire causal theory. The purpose
+of SEM is to compare the covariance structure
+implied by our DAG to the covariance structure
+observed in our data.
+A good model is one where the theory’s predictions
+closely match reality. We are evaluating how well our
+theoretical model aligns with the observations.
+Step 3: Testing and evaluating the model structure (SEM)
+#Define our theoretical model
+# Define the model with specific path
+coefficients to generate data
+structural_model <- "
+# -- Measurement Model --
+ai_adoption_factor =~ use + reliance + trust
+individual_effectiveness_factor =~ effective +
+productivity + impactful + flow
+# -- Structural Model (Paths based on the DAG)
+--
+ai_adoption_factor ~ individual_experience +
+resources + stability
+individual_effectiveness_factor ~ ai_adoption_
+factor + individual_experience + resources +
+stability
+"
+# Fit the full SEM to the data to estimate the
+path coefficients
+sem_fit <- sem(model_specification, data =
+simulated_data)
+# Run a full summary to get fit measures,
+loadings, and path coefficients
+sem_summary <- summary(sem_fit, standardized =
+TRUE, rsquare = TRUE)
+sem_summary
+Methodology
+# Inspect specific areas of local fit
+residuals(sem_fit, type = "standardized")
+modificationindices(sem_fit, sort. = TRUE,
+minimum.value = 10)
+# --- Generate a Minimal, Monochrome SEM Path
+Diagram ---
+semPaths(sem_fit,
+# --- Core Content ---
+what = "std", # IMPORTANT: Show
+standardized coefficients on paths
+whatLabels = "est", # Show the estimate
+value (the coefficient)
+# --- Layout & Sizing ---
+layout = "tree2", # A clean hierarchical
+layout
+rotation = 2, # Rotates the layout for
+better viewing (often top-to-bottom)
+sizeMan = 8, # Size of manifest
+variables (squares)
+sizeLat = 10, # Size of latent
+variables (circles)
+edge.label.cex = 0.8, # Font size for the
+path coefficients
+nCharNodes = 0, # Ensures full variable
+names are displayed
+# --- Minimalist Aesthetics ---
+style = "ram", # A clean drawing style
+from the RAM specification
+residuals = FALSE, # HIDE residual
+variances to reduce clutter
+intercepts = FALSE, # HIDE intercepts for
+simplicity
+# --- Monochrome Theme ---
+color = "white", # Fill color for all
+shapes
+edge.color = "black", # Color for all
+arrows
+border.color = "black", # Border color for
+shapes
+border.width = 1.5, # Thickness of the
+borders
+label.color = "black" # Color of the text
+on the arrows
+)
+120
+v. 2025.2
+How we evaluate the SEM
+Judging if the model is “good”
+requires a holistic check of several
+indicators. We group these into
+two categories:
+1. Global fit: The 30,000-foot
+view.9 These indices tell you
+how well the model as a whole
+reproduces the data.
+The chi-square test (χ2): This is
+the test of perfect fit. It tests the
+null hypothesis that the model fits
+the data exactly.
+CFI & TLI: The comparative fit
+index and Tucker-Lewis index
+measure how much better our
+model is than a “worst-case”
+model. We check for values > 0.90
+(acceptable) or > 0.95 (excellent).
+RMSEA: The root mean square
+error of approximation is a
+“badness-of-fit” index measuring
+the average model error. We check
+for values < 0.08 (acceptable) or <
+0.06 (excellent).
+2. Local fit: Checking under the
+hood. These diagnostics help us
+find specific points of strain within
+the model.
+Factor loadings: In the
+standardized output, we check
+for high, significant loadings
+(ideally > 0.50) for the items on
+their respective latent factors. This
+confirms our measurement model
+is strong.
+Standardized residuals: These
+show the error for each individual
+relationship in the model. We
+check for an absence of large
+values (for example, no absolute
+values > 2.58), which would indicate
+a specific relationship is poorly
+predicted by our theory.
+Modification indices: These
+“what-if” statistics tell us where the
+model is under the most strain. We
+check for large values to diagnose
+problems (like a survey item
+measuring two concepts at once),
+but we avoid blindly modifying
+our model based on them without
+strong theoretical justification.
+A good model is one that has
+acceptable global fit, strong factor
+loadings, and no major signs of
+local strain. It’s this constellation of
+evidence that gives us confidence
+in the model’s structure.
+0.67
+0.85
+1.00
+0.33
+0.23
+0.12
+0.27
+0.17
+0.88
+0.92
+0.17 0.98
+0.16
+1.00
+trust
+reliance
+use
+resources
+stability
+individual_experience
+ai_adoption_factor
+individual_effectiveness
+_factor
+productivity
+impactful
+effective
+flow
+Methodology
+121
+v. 2025.2
+Methodology
+Testing the theoretical model’s implications
+Our DAG also generates a set of testable predictions
+known as “implied conditional independencies.”
+These are focused on the circumstances in which
+these variables are not related. Think of this as
+testing a theoretical model’s alibis. If they hold up,
+you have more reason to believe it.
+When we run
+`impliedConditionalIndependencies(simple_dag)’,
+we notice:
+These statements are a core prediction of our causal
+model, stating that a person’s individual experience,
+their available resources, and their team’s stability
+are all independent of one another. In other words,
+knowing the level of available resources for a
+team provides no information about an individual’s
+experience on that team or the team’s overall
+stability.
+We first check this informally by examining the
+covariances in the original model. They’re all near 0,
+so we have some pretty good evidence.
+We can also try a more formal test, where we build
+these implications in our structural equation model.
+We would do this by constraining those parameters
+to 0. In our last model, we asked the model to
+estimate those parameters, as we believed they were
+free to be whatever they wanted to be. Now, we’re
+saying they’re zero.
+The key result comes from the anova() function,
+which performs a formal Chi-squared difference test.
+This provides a formal comparison between your
+original model (sem_fit) and the more restrictive
+model (constrained_fit) where you forced the
+covariances to be zero. The key question is: “Did
+forcing those relationships to be zero significantly
+harm the model’s fit?”
+# check in the "Covariances" section of this
+output
+summary(sem_fit, standardized = TRUE)
+# --- Formally Test the Implied Conditional
+Independencies ---
+#get the implied conditional independencies
+impliedConditionalIndependencies(simple_dag)
+#we can just inspect the covariances
+sem_summary$pe %>% filter(op == "~~",
+lhs %in% c("individual_experience",
+"resources",
+"stability"))
+# 1. Define a new, constrained model string
+constrained_model_string <- "
+# -- Measurement Model --
+ai_adoption_factor =~ use + reliance + trust
+individual_effectiveness_factor =~ effective +
+productivity + impactful + flow
+# -- Structural Model (Paths based on the DAG)
+--
+ai_adoption_factor ~ individual_experience +
+resources + stability
+individual_effectiveness_factor ~ ai_adoption_
+factor + individual_experience + resources +
+stability
+# --- NEW CONSTRAINTS ---
+# We now explicitly force the covariances to
+zero based on the DAG's implication
+individual_experience ~~ 0*resources
+individual_experience ~~ 0*stability
+resources ~~ 0*stability
+"
+# 2. Fit the constrained model
+constrained_fit <- sem(constrained_model_string,
+data = simulated_data)
+# 3. Compare the original model (sem_fit) to the
+constrained model
+# A non-significant p-value means the constraints
+are supported by the data.
+anova(sem_fit, constrained_fit)
+ind_ _||_ rsrc
+ind_ _||_ stbl
+rsrc _||_ stbl
+122
+v. 2025.2
+Df AIC BIC Chisq Chisq diff RMSEA Df diff Pr(>Chisq)
+sem_fit 28 10952 11040 21.454
+constrained_fit 31 15319 15420 24.980 3.5267 0.018739 3 0.3173
+The results suggest that
+restricting or constraining those
+three covariances to zero did not
+significantly hurt the model.
+Chisq diff (Chi-squared
+difference):
+This is the raw measure of how
+much worse the fit got when you
+added the constraints.
+Your result:
+3.5267. By itself, this number is
+hard to interpret.
+Df diff (Difference in degrees
+of freedom):
+This shows how many constraints
+you added.
+Your result:
+3. This is correct, as you forced
+three covariances to zero.
+Pr(>Chisq) (The P-value):
+This is the most important number.
+It tells you the probability of
+seeing a Chisq diff of 3.5267 or
+larger if the constraints were
+actually true in the population.
+After gaining confidence in our
+DAG’s structure, we turn to our
+main question. We use our DAG
+to identify the correct adjustment
+set and then fit a Bayesian model.
+While our framework is causal, we
+interpret our results as principled
+comparisons, acknowledging the
+limitations of observational data
+(Gelman et al., 2020).
+Step 4: Estimating comparisons with a Bayesian model
+Setting priors
+Our approach of testing a
+predictor across numerous
+outcomes creates a multiple
+comparisons challenge. To
+address this, we implement a
+consistent, skeptical Bayesian
+prior for our predictor in every
+model.10 This acts as a principled
+defense against being fooled by
+randomness. By setting a skeptical
+prior (student_t(3, 0, 0.5)),11 we
+formally build in the belief that the
+true effect is likely small, which
+tames the false positive rate.12
+Determining the adjustment
+set
+DAG will let you know what
+variables to include, and perhaps
+more importantly, what variables
+not to include, in your model. If
+your DAG is correct, the inclusion
+of these variables should prevent
+biasing pathways from biasing
+your estimate of AI adoptions
+(exposure) impact on individual
+effectiveness (outcome).
+Methodology
+Your result:
+0.3173.
+In short, the implications held up
+and the constrained model is the
+more parsimonious approach.
+123
+v. 2025.2
+# Identify adjustment set
+adjustmentSets(simple_dag, exposure = "ai_
+adoption", outcome = "individual_effectiveness")
+# Prepare data
+model_data <- simulated_data %>%
+mutate(
+ai_adoption_score = rowMeans(select(., use,
+reliance, trust)),
+individual_effectiveness_score =
+rowMeans(select(., effective, productivity,
+impactful, flow))
+) %>%
+mutate(across(c(ai_adoption_score, individual_
+experience, resources, stability), scale))
+# Define priors
+priors <- c(prior(student_t(3, 0, 0.5), class
+= "b"), prior(student_t(3, 0, 2.5), class =
+"Intercept"), prior(exponential(1), class =
+"sigma"))
+Methodology
+# Fit models
+baseline_model <- brm(formula = individual_
+effectiveness_score ~ individual_experience +
+resources + stability, data = model_data, family
+= gaussian(), prior = priors, chains = 4, iter
+= 4000, warmup = 2000, seed = 2025, silent = 2,
+refresh = 0)
+full_model <- brm(formula = individual_
+effectiveness_score ~ ai_adoption_score +
+individual_experience + resources + stability,
+data = model_data, family = gaussian(), prior =
+priors, chains = 4, iter = 4000, warmup = 2000,
+seed = 2025, silent = 2, refresh = 0)
+# Compare models with LOO
+# loo_compare <- loo(baseline_model, full_model)
+# print(loo_compare)
+#coefficient summaries with 89% credibility
+intervals
+posterior_summary(full_model, probs = c(1-
+.11/2,.11/2))
+#type s error (approximately a pvalue)
+1 - mean(as.matrix(full_model)[,"b_ai_adoption_
+score"] >0)
+Estimate Est.Error Q94.5 Q5.5
+b_ai_adoption_score 0.199 0.041 0.265 0.134
+We believe a single metric is
+never enough to understand a
+model. Instead, we evaluate the
+evidence through four key lenses,
+embracing the uncertainty in our
+data as a source of knowledge.
+1. Does predictive accuracy
+improve? (The LOO result)
+Yes. The LOO comparison shows a
+clear preference for the full_model
+(elpd_diff = 10.7, se_diff = 5.2).13
+This is our first piece of evidence:
+including ai_adoption_score
+creates a model that is expected
+to make better predictions on new
+data. It’s not just statistical noise;
+it’s a predictively useful variable.
+2. Is the effect consistently on one side of zero? (Type S error)
+Yes. Checking at the posterior summary for b_ai_adoption_score:
+The 89% credible interval (from Q5.5 to Q94.5) for the AI adoption
+coefficient is [0.13, 0.26]. The entire interval is well above zero. This
+means there is a very low probability of a Type S (Sign) error. We can be
+highly confident that the relationship is positive.
+124
+v. 2025.2
+3. Do we have a good sense of the
+effect’s size? (Type M Error)
+Yes. The model provides a clear
+sense of the magnitude. Our
+best estimate is a 0.20 standard
+deviation increase in effectiveness
+for every one standard deviation
+increase in AI adoption. The
+credible interval [0.13, 0.26]
+gives us a plausible range for
+this effect. It’s not a huge effect,
+but it’s not trivial either, and the
+estimate is reasonably precise.
+This clarity helps us avoid a Type
+M (Magnitude) error by preventing
+us from overstating the effect’s
+importance.
+4. Does this align with our
+theory?
+Yes. Our initial DAG hypothesized
+a direct, positive causal path
+from AI adoption to individual
+effectiveness. All the statistical
+evidence we’ve gathered—from
+the SEM’s structural validation
+to the LOO comparison and
+the final posterior estimate—is
+consistent with this theoretical
+claim. The data supports the
+story we started with.
+Synthesis
+By combining these four
+perspectives, we move beyond a
+simple “Is it significant?” mindset.
+The evidence converges to show
+that the relationship between
+AI adoption and effectiveness is
+predictively useful, directionally
+stable, modest but clearly
+estimated in magnitude, and
+theoretically sound. This approach
+helps us avoid “getting jerked
+around by noise patterns that
+happen to exceed the statistical
+significance threshold.”14
+Fitting a model is not the end.
+We perform a series of rigorous
+diagnostic checks to ensure the
+results are reliable.16 This includes
+checking for MCMC convergence
+(hatR < 1.01, high ESS), running
+posterior predictive checks to
+ensure the model can reproduce
+the observed data, and checking
+model assumptions via residual
+analysis (Gelman et al., 2013). This
+topic is worth a chapter in itself.
+We are simply going to share some
+important diagnostic checks to
+consider. These are worth knowing
+because their applicability is
+widespread, from basic models
+to advanced ones. The basic
+categories are:
+Step 5: Diagnosing the model for trustworthiness15
+Computational health:
+We first ensure the model’s
+algorithm ran correctly and
+produced stable estimates. This is
+a technical check for the model’s
+computational engine, ensuring its
+results are reliable (for example,
+checking that the R^ statistic is
+less than 1.01).
+Predictive alignment:
+We then check if the model’s
+predictions align with the real-
+world data we started with. We
+use the model 

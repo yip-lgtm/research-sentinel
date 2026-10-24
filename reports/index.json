@@ -348,7 +348,23 @@
         "W11 存檔版 5221 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-24-00": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-24_00-02-31.md",
+      "bytes": 3520,
+      "cjk": 599,
+      "sources": 5,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W4 段落「來源依據」中文字數 21 偏少",
+        "W5 段落「Topic」英文內容偏少",
+        "W5 段落「Key Findings」英文內容偏少",
+        "W5 段落「Potential Impact」英文內容偏少",
+        "W5 段落「Commentary」英文內容偏少"
+      ],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-23T22:26:18Z"
+  "updated_utc": "2026-10-24T00:02:33Z"
 }

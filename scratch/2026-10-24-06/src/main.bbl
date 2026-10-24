@@ -1,0 +1,270 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Maslej et~al.(2025)Maslej, Fattorini, Perrault, Gil, Parli, Kariuki, Capstick, Reuel, Brynjolfsson, Etchemendy, Ligett, Lyons, Manyika, Niebles, Shoham, Wald, Walsh, Hamrah, Santarlasci, Lotufo, Rome, Shi, and Oak]{maslej2025aiindex}
+Nestor Maslej, Loredana Fattorini, Raymond Perrault, Yolanda Gil, Vanessa Parli, Njenga Kariuki, Emily Capstick, Anka Reuel, Erik Brynjolfsson, John Etchemendy, Katrina Ligett, Terah Lyons, James Manyika, Juan~Carlos Niebles, Yoav Shoham, Russell Wald, Tobi Walsh, Armin Hamrah, Lapo Santarlasci, Julia~Betts Lotufo, Alexandra Rome, Andrew Shi, and Sukrut Oak.
+\newblock Artificial intelligence index report 2025, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.07139}.
+
+\bibitem[Kwa et~al.(2025)Kwa, West, Becker, Deng, Garcia, Hasin, Jawhar, Kinniment, Rush, Arx, Bloom, Broadley, Du, Goodrich, Jurkovic, Miles, Nix, Lin, Parikh, Rein, Sato, Wijk, Ziegler, Barnes, and Chan]{kwa2025measuringai}
+Thomas Kwa, Ben West, Joel Becker, Amy Deng, Katharyn Garcia, Max Hasin, Sami Jawhar, Megan Kinniment, Nate Rush, Sydney~Von Arx, Ryan Bloom, Thomas Broadley, Haoxing Du, Brian Goodrich, Nikola Jurkovic, Luke~Harold Miles, Seraphina Nix, Tao Lin, Neev Parikh, David Rein, Lucas Jun~Koba Sato, Hjalmar Wijk, Daniel~M. Ziegler, Elizabeth Barnes, and Lawrence Chan.
+\newblock Measuring ai ability to complete long tasks, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.14499}.
+
+\bibitem[Wijk et~al.(2025)Wijk, Lin, Becker, Jawhar, Parikh, Broadley, Chan, Chen, Clymer, Dhyani, Ericheva, Garcia, Goodrich, Jurkovic, Karnofsky, Kinniment, Lajko, Nix, Sato, Saunders, Taran, West, and Barnes]{wijk2025rebenchevaluatingfrontierai}
+Hjalmar Wijk, Tao Lin, Joel Becker, Sami Jawhar, Neev Parikh, Thomas Broadley, Lawrence Chan, Michael Chen, Josh Clymer, Jai Dhyani, Elena Ericheva, Katharyn Garcia, Brian Goodrich, Nikola Jurkovic, Holden Karnofsky, Megan Kinniment, Aron Lajko, Seraphina Nix, Lucas Sato, William Saunders, Maksym Taran, Ben West, and Elizabeth Barnes.
+\newblock Re-bench: Evaluating frontier ai r\&d capabilities of language model agents against human experts, 2025.
+\newblock URL \url{https://arxiv.org/abs/2411.15114}.
+
+\bibitem[Chan et~al.(2025)Chan, Chowdhury, Jaffe, Aung, Sherburn, Mays, Starace, Liu, Maksin, Patwardhan, Weng, and Madry]{chan2025mlebenchevaluatingmachinelearning}
+Jun~Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng, and Aleksander Madry.
+\newblock Mle-bench: Evaluating machine learning agents on machine learning engineering, 2025.
+\newblock URL \url{https://arxiv.org/abs/2410.07095}.
+
+\bibitem[Starace et~al.(2025)Starace, Jaffe, Sherburn, Aung, Chan, Maksin, Dias, Mays, Kinsella, Thompson, Heidecke, Glaese, and Patwardhan]{starace2025paperbenchevaluatingaisability}
+Giulio Starace, Oliver Jaffe, Dane Sherburn, James Aung, Jun~Shern Chan, Leon Maksin, Rachel Dias, Evan Mays, Benjamin Kinsella, Wyatt Thompson, Johannes Heidecke, Amelia Glaese, and Tejal Patwardhan.
+\newblock Paperbench: Evaluating ai's ability to replicate ai research, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.01848}.
+
+\bibitem[Quan et~al.(2025)Quan, Yang, Yu, Zheng, Liu, Yang, Ren, Gao, Miao, Feng, Wang, Yang, Cui, Fan, Zhang, Hui, and Lin]{quan2025codeelobenchmarkingcompetitionlevelcode}
+Shanghaoran Quan, Jiaxi Yang, Bowen Yu, Bo~Zheng, Dayiheng Liu, An~Yang, Xuancheng Ren, Bofei Gao, Yibo Miao, Yunlong Feng, Zekun Wang, Jian Yang, Zeyu Cui, Yang Fan, Yichang Zhang, Binyuan Hui, and Junyang Lin.
+\newblock Codeelo: Benchmarking competition-level code generation of llms with human-comparable elo ratings, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.01257}.
+
+\bibitem[Miserendino et~al.(2025)Miserendino, Wang, Patwardhan, and Heidecke]{miserendino2025swe}
+Samuel Miserendino, Michele Wang, Tejal Patwardhan, and Johannes Heidecke.
+\newblock Swe-lancer: Can frontier llms earn \$1 million from real-world freelance software engineering?, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.12115}.
+
+\bibitem[Rein et~al.(2023)Rein, Hou, Stickland, Petty, Pang, Dirani, Michael, and Bowman]{rein2023}
+David Rein, Betty~Li Hou, Asa~Cooper Stickland, Jackson Petty, Richard~Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel~R. Bowman.
+\newblock Gpqa: A graduate-level google-proof q\&a benchmark, 2023.
+\newblock URL \url{https://arxiv.org/abs/2311.12022}.
+
+\bibitem[Rein et~al.(2025)Rein, Becker, Deng, Nix, Canal, O'Connel, Arnott, Bloom, Broadley, Garcia, Goodrich, Hasin, Jawhar, Kinniment, Kwa, Lajko, Rush, Sato, Arx, West, Chan, and Barnes]{rein2025hcasthumancalibratedautonomysoftware}
+David Rein, Joel Becker, Amy Deng, Seraphina Nix, Chris Canal, Daniel O'Connel, Pip Arnott, Ryan Bloom, Thomas Broadley, Katharyn Garcia, Brian Goodrich, Max Hasin, Sami Jawhar, Megan Kinniment, Thomas Kwa, Aron Lajko, Nate Rush, Lucas Jun~Koba Sato, Sydney~Von Arx, Ben West, Lawrence Chan, and Elizabeth Barnes.
+\newblock Hcast: Human-calibrated autonomy software tasks, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.17354}.
+
+\bibitem[Peng et~al.(2023)Peng, Kalliamvakou, Cihon, and Demirer]{peng2023impactaideveloperproductivity}
+Sida Peng, Eirini Kalliamvakou, Peter Cihon, and Mert Demirer.
+\newblock The impact of ai on developer productivity: Evidence from github copilot, 2023.
+\newblock URL \url{https://arxiv.org/abs/2302.06590}.
+
+\bibitem[Paradis et~al.(2024)Paradis, Grey, Madison, Nam, Macvean, Meimand, Zhang, Ferrari-Church, and Chandra]{paradis2024doesaiimpactdevelopment}
+Elise Paradis, Kate Grey, Quinn Madison, Daye Nam, Andrew Macvean, Vahid Meimand, Nan Zhang, Ben Ferrari-Church, and Satish Chandra.
+\newblock How much does ai impact development speed? an enterprise-based randomized controlled trial, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.12944}.
+
+\bibitem[Raji et~al.(2021)Raji, Bender, Paullada, Denton, and Hanna]{raji2021everythinginthewholewideworldbenchmark}
+Inioluwa~Deborah Raji, Emily~M. Bender, Amandalynne Paullada, Emily Denton, and Alex Hanna.
+\newblock {AI} and the everything in the whole wide world benchmark.
+\newblock \emph{CoRR}, abs/2111.15366, 2021.
+\newblock URL \url{https://arxiv.org/abs/2111.15366}.
+
+\bibitem[Biderman et~al.(2024)Biderman, Schoelkopf, Sutawika, Gao, Tow, Abbasi, Aji, Ammanamanchi, Black, Clive, DiPofi, Etxaniz, Fattori, Forde, Foster, Hsu, Jaiswal, Lee, Li, Lovering, Muennighoff, Pavlick, Phang, Skowron, Tan, Tang, Wang, Winata, Yvon, and Zou]{biderman2024lessonstrenchesreproducibleevaluation}
+Stella Biderman, Hailey Schoelkopf, Lintang Sutawika, Leo Gao, Jonathan Tow, Baber Abbasi, Alham~Fikri Aji, Pawan~Sasanka Ammanamanchi, Sidney Black, Jordan Clive, Anthony DiPofi, Julen Etxaniz, Benjamin Fattori, Jessica~Zosa Forde, Charles Foster, Jeffrey Hsu, Mimansa Jaiswal, Wilson~Y. Lee, Haonan Li, Charles Lovering, Niklas Muennighoff, Ellie Pavlick, Jason Phang, Aviya Skowron, Samson Tan, Xiangru Tang, Kevin~A. Wang, Genta~Indra Winata, François Yvon, and Andy Zou.
+\newblock Lessons from the trenches on reproducible evaluation of language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.14782}.
+
+\bibitem[Davis(2023)]{davis2023benchmarksautomatedcommonsensereasoning}
+Ernest Davis.
+\newblock Benchmarks for automated commonsense reasoning: A survey, 2023.
+\newblock URL \url{https://arxiv.org/abs/2302.04752}.
+
+\bibitem[Gambacorta et~al.(2024)Gambacorta, Qiu, Shan, and Rees]{gambacorta2024generative}
+Leonardo Gambacorta, Han Qiu, Shuo Shan, and Daniel~M Rees.
+\newblock \emph{Generative AI and labour productivity: a field experiment on coding}, volume 1208.
+\newblock Bank for International Settlements, Monetary and Economic Department, 2024.
+
+\bibitem[Yeverechyahu et~al.(2025)Yeverechyahu, Mayya, and Oestreicher-Singer]{yeverechyahu2025impactllmopensource}
+Doron Yeverechyahu, Raveesh Mayya, and Gal Oestreicher-Singer.
+\newblock The impact of large language models on open-source innovation: Evidence from github copilot, 2025.
+\newblock URL \url{https://ssrn.com/abstract=4684662}.
+
+\bibitem[Cui et~al.(2025)Cui, Demirer, Jaffe, Musolff, Peng, and Salz]{cui2025effectsgenerativeai}
+Zheyuan Cui, Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, and Tobias Salz.
+\newblock The effects of generative ai on high-skilled work: Evidence from three field experiments with software developers, June 2025.
+\newblock URL \url{https://ssrn.com/abstract=4945566}.
+
+\bibitem[Weber et~al.(2024)Weber, Brandmaier, Schmidt, and Mayer]{10.1145/3661145}
+Thomas Weber, Maximilian Brandmaier, Albrecht Schmidt, and Sven Mayer.
+\newblock Significant productivity gains through programming with large language models.
+\newblock \emph{Proc. ACM Hum.-Comput. Interact.}, 8\penalty0 (EICS), June 2024.
+\newblock \doi{10.1145/3661145}.
+\newblock URL \url{https://doi.org/10.1145/3661145}.
+
+\bibitem[OpenAI(2025)]{openai2025o3o4mini}
+OpenAI.
+\newblock {OpenAI o3 and o4-mini System Card}.
+\newblock \url{https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf}, 2025.
+\newblock [Accessed 23-06-2025].
+
+\bibitem[Anthropic(2025)]{anthropic2025claude4}
+Anthropic.
+\newblock {Anthropic Claude 4 System Card}.
+\newblock \url{https://www-cdn.anthropic.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf}, 2025.
+\newblock [Accessed 23-06-2025].
+
+\bibitem[Agrawal et~al.(2019{\natexlab{a}})Agrawal, Gans, and Goldfarb]{AmbiguousLaborMarket}
+Ajay Agrawal, Joshua~S. Gans, and Avi Goldfarb.
+\newblock Artificial intelligence: The ambiguous labor market impact of automating prediction.
+\newblock \emph{Journal of Economic Perspectives}, 33\penalty0 (2):\penalty0 31–50, May 2019{\natexlab{a}}.
+\newblock \doi{10.1257/jep.33.2.31}.
+\newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/jep.33.2.31}.
+
+\bibitem[Brynjolfsson et~al.(2025)Brynjolfsson, Li, and Raymond]{brynjolfsson2023generativeaiatwork}
+Erik Brynjolfsson, Danielle Li, and Lindsey Raymond.
+\newblock Generative ai at work*.
+\newblock \emph{The Quarterly Journal of Economics}, 140\penalty0 (2):\penalty0 889--942, 02 2025.
+\newblock ISSN 0033-5533.
+\newblock \doi{10.1093/qje/qjae044}.
+\newblock URL \url{https://doi.org/10.1093/qje/qjae044}.
+
+\bibitem[Noy and Zhang(2023)]{noy2023experimental}
+Shakked Noy and Whitney Zhang.
+\newblock Experimental evidence on the productivity effects of generative artificial intelligence.
+\newblock \emph{Science}, 381\penalty0 (6654):\penalty0 187--192, 2023.
+\newblock \doi{10.1126/science.adh2586}.
+\newblock URL \url{https://www.science.org/doi/abs/10.1126/science.adh2586}.
+
+\bibitem[Choi and Schwarcz(2025)]{choi2024ai}
+Jonathan~H. Choi and Daniel Schwarcz.
+\newblock Ai assistance in legal analysis: An empirical study.
+\newblock \emph{Journal of Legal Education}, 73\penalty0 (2), 2025.
+\newblock URL \url{https://jle.aals.org/home/vol73/iss2/5/}.
+
+\bibitem[Anthropic(2024)]{anthropic2024claude3}
+Anthropic.
+\newblock Responsible scaling policy evaluations report – claude 3 opus.
+\newblock Technical report, Anthropic, 2024.
+\newblock URL \url{https://cdn.sanity.io/files/4zrzovbb/website/210523b8e11b09c704c5e185fd362fe9e648d457.pdf}.
+\newblock Accessed June 2025.
+
+\bibitem[Mouton et~al.(2024)Mouton, Lucas, and Guest]{mouton2024operational}
+C.~Mouton, Caleb Lucas, and Ella Guest.
+\newblock The operational risks of ai in large-scale biological attacks.
+\newblock Research report, RAND Corporation, Santa Monica, 2024.
+\newblock URL \url{https://www.rand.org/content/dam/rand/pubs/research_reports/RRA2900/RRA2977-2/RAND_RRA2977-2.pdf}.
+
+\bibitem[Grattafiori et~al.(2024)]{grattafiori2024llama3herdmodels}
+Aaron Grattafiori et~al.
+\newblock The llama 3 herd of models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.21783}.
+
+\bibitem[Patwardhan et~al.(2024)Patwardhan, Liu, Markov, Chowdhury, Leet, Cone, Maltbie, Huizinga, Wainwright, Jackson, Adler, Casagrande, and Madry]{patwardhan2024earlywarning}
+Tejal Patwardhan, Kevin Liu, Todor Markov, Neil Chowdhury, Dillon Leet, Natalie Cone, Caitlin Maltbie, Joost Huizinga, Carroll Wainwright, Shawn~(Froggi) Jackson, Steven Adler, Rocco Casagrande, and Aleksander Madry.
+\newblock Building an early warning system for {LLM}-aided biological threat creation.
+\newblock \url{https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/}, January 2024.
+\newblock Accessed: 2025-06-25.
+
+\bibitem[Leibowich et~al.(2024)Leibowich, Jurkovic, and Davidson]{leibowich2024advancedai}
+Jared Leibowich, Nikola Jurkovic, and Tom Davidson.
+\newblock Could advanced ai accelerate the pace of ai progress? interviews with ai researchers, 2024.
+\newblock URL \url{https://ssrn.com/abstract=5115692}.
+
+\bibitem[Erdil and Besiroglu(2024)]{erdil2024explosivegrowthaiautomation}
+Ege Erdil and Tamay Besiroglu.
+\newblock Explosive growth from ai automation: A review of the arguments, 2024.
+\newblock URL \url{https://arxiv.org/abs/2309.11690}.
+
+\bibitem[Erdil et~al.(2025)Erdil, Potlogea, Besiroglu, Roldan, Ho, Sevilla, Barnett, Vrzla, and Sandler]{erdil2025gateintegratedassessmentmodel}
+Ege Erdil, Andrei Potlogea, Tamay Besiroglu, Edu Roldan, Anson Ho, Jaime Sevilla, Matthew Barnett, Matej Vrzla, and Robert Sandler.
+\newblock Gate: An integrated assessment model for ai automation, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.04941}.
+
+\bibitem[Davidson(2023)]{davidson2023compute}
+Tom Davidson.
+\newblock What a compute-centric framework says about takeoff speeds.
+\newblock \url{https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/}, June 2023.
+\newblock Open Philanthropy. Accessed: 2025-06-25.
+
+\bibitem[Acemoglu(2024)]{acemoglu2024simplemacroeconomics}
+Daron Acemoglu.
+\newblock The simple macroeconomics of ai.
+\newblock \emph{Economic Policy}, 40\penalty0 (121):\penalty0 13--58, 08 2024.
+\newblock ISSN 0266-4658.
+\newblock \doi{10.1093/epolic/eiae042}.
+\newblock URL \url{https://doi.org/10.1093/epolic/eiae042}.
+
+\bibitem[Agrawal et~al.(2019{\natexlab{b}})Agrawal, Gans, and Goldfarb]{agrawal2018economicpolicyforai}
+Ajay Agrawal, Joshua Gans, and Avi Goldfarb.
+\newblock Economic policy for artificial intelligence.
+\newblock \emph{Innovation Policy and the Economy}, 19:\penalty0 139--159, 2019{\natexlab{b}}.
+\newblock \doi{10.1086/699935}.
+\newblock URL \url{https://doi.org/10.1086/699935}.
+
+\bibitem[Furman and Seamans(2018)]{furman2018aiandeconomy}
+Jason Furman and Robert Seamans.
+\newblock \emph{AI and the Economy}, pages 161--191.
+\newblock University of Chicago Press, May 2018.
+\newblock \doi{10.1086/699936}.
+\newblock URL \url{http://www.nber.org/chapters/c14099}.
+
+\bibitem[DellaVigna et~al.(2020)DellaVigna, Otis, and Vivalt]{PilotinganElicitation}
+Stefano DellaVigna, Nicholas Otis, and Eva Vivalt.
+\newblock Forecasting the results of experiments: Piloting an elicitation strategy.
+\newblock \emph{AEA Papers and Proceedings}, 110:\penalty0 75–79, May 2020.
+\newblock \doi{10.1257/pandp.20201080}.
+\newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/pandp.20201080}.
+
+\bibitem[Gneiting and Raftery(2007)]{Gneiting01032007}
+Tilmann Gneiting and Adrian~E Raftery.
+\newblock Strictly proper scoring rules, prediction, and estimation.
+\newblock \emph{Journal of the American Statistical Association}, 102\penalty0 (477):\penalty0 359--378, 2007.
+\newblock \doi{10.1198/016214506000001437}.
+\newblock URL \url{https://doi.org/10.1198/016214506000001437}.
+
+\bibitem[Jimenez et~al.(2024)Jimenez, Yang, Wettig, Yao, Pei, Press, and Narasimhan]{jimenez2024swebench}
+Carlos~E Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik~R Narasimhan.
+\newblock {SWE}-bench: Can language models resolve real-world github issues?
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=VTF8yNQM66}.
+
+\bibitem[Liu et~al.(2023)Liu, Lin, Hewitt, Paranjape, Bevilacqua, Petroni, and Liang]{liu2023lostmiddlelanguagemodels}
+Nelson~F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang.
+\newblock Lost in the middle: How language models use long contexts, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.03172}.
+
+\bibitem[Snell et~al.(2024)Snell, Lee, Xu, and Kumar]{snell2024scalingllmtesttimecompute}
+Charlie Snell, Jaehoon Lee, Kelvin Xu, and Aviral Kumar.
+\newblock Scaling llm test-time compute optimally can be more effective than scaling model parameters, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.03314}.
+
+\bibitem[Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery, and Zhou]{wang2023selfconsistencyimproveschainthought}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou.
+\newblock Self-consistency improves chain of thought reasoning in language models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2203.11171}.
+
+\bibitem[Abadie et~al.(2022)Abadie, Athey, Imbens, and Wooldridge]{10.1093/qje/qjac038}
+Alberto Abadie, Susan Athey, Guido~W Imbens, and Jeffrey~M Wooldridge.
+\newblock When should you adjust standard errors for clustering?*.
+\newblock \emph{The Quarterly Journal of Economics}, 138\penalty0 (1):\penalty0 1--35, 10 2022.
+\newblock ISSN 0033-5533.
+\newblock \doi{10.1093/qje/qjac038}.
+\newblock URL \url{https://doi.org/10.1093/qje/qjac038}.
+
+\bibitem[Colin~Cameron and Miller(2015)]{ColinCameron317}
+A.~Colin~Cameron and Douglas~L. Miller.
+\newblock A practitioner{\textquoteright}s guide to cluster-robust inference.
+\newblock \emph{Journal of Human Resources}, 50\penalty0 (2):\penalty0 317--372, 2015.
+\newblock ISSN 0022-166X.
+\newblock \doi{10.3368/jhr.50.2.317}.
+\newblock URL \url{https://jhr.uwpress.org/content/50/2/317}.
+
+\bibitem[Bell and Mccaffrey(2002)]{articlebell}
+R.M. Bell and Daniel Mccaffrey.
+\newblock Bias reduction in standard errors for linear regression with multi-stage samples.
+\newblock \emph{Survey Methodology}, 28:\penalty0 169--181, 01 2002.
+
+\bibitem[{Stack Overflow}(2024)]{stackoverflow2024}
+{Stack Overflow}.
+\newblock 2024 developer survey: Technology - integrated development environment, 2024.
+\newblock URL \url{https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment}.
+\newblock Accessed: June 26, 2025.
+
+\end{thebibliography}

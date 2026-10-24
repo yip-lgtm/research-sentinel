@@ -1,5 +1,55 @@
 {
-  "sources": [],
+  "sources": [
+    {
+      "org": "U.S. GAO",
+      "title": "PERCHLORATE: A System to Track Sampling and Cleanup Results Is Needed (GAO-05-462)",
+      "date": "2005-05",
+      "url": "https://www.gao.gov/products/gao-05-462",
+      "supports": "395 個檢出場址全美清單與最高濃度（附錄 II）；110/395 場址源於國防太空活動；3,722 個公共供水系統中 153 個（4%）檢出；249 場址 ≤18 ppb、271 場址 <24.5 ppb；11 場址 >500,000 ppb；Edwards AFB 160,000 ppb 地下水、Jet Propulsion Lab 2,100,000 ppb 土壤；MA Military Reservation (Camp Edwards) 134,000 ppb 土壤/500 ppb 地下水；Indian Head 480,000 ppb 土壤/276,000 ppb 地下水；Aberdeen PG 15,000 ppb 土壤/3,500 ppb 地下水；EPA 官員估計約 1,000 萬人可能經飲用水暴露"
+    },
+    {
+      "org": "U.S. GAO",
+      "title": "DOD Operational Ranges: More Reliable Cleanup Cost Estimates and a Proactive Approach to Identifying Contamination Are Needed (GAO-04-601)",
+      "date": "2004-05-28",
+      "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-04-601/html/GAOREPORTS-GAO-04-601.htm",
+      "supports": "DoD 整治成本估計 160 億～1,650 億美元（$16B–$165B），GAO 判定該估計「questionable」；2004-04 DoD 對 36 個基地 UCMR 抽樣，33 個未檢出或 <4 ppb，僅 3 個空軍基地檢出 4–46 ppb；Edwards 160,000 ppb、Holloman 16,000 ppb、Aberdeen 24 ppb、Redstone 約 19,000 ppb、White Sands 21,000 ppb、China Lake 560 ppb、Indian Head >1,000 ppb；White Sands 廢棄火箭發射場最高 25,000 ppb；Aberdeen 市政井 1.2–5 ppb 污染"
+    },
+    {
+      "org": "U.S. EPA / DoD ESTCP",
+      "title": "Cost and Performance Report: Perchlorate Removal, Destruction and Field Monitoring Demonstration",
+      "date": "2008",
+      "url": "https://www.frtr.gov/costperformance/pdf/rem_perchlorate_ESTCP_2008.pdf",
+      "supports": "WBA 離子交換處理成本：飲用水 2,000 gpm 系統單位 O&M $85.77/AF、處理總成本 $90/AF；地下水整治 $84.70/AF、$95/AF；10,000 gpm 系統 O&M 降至 $69.54/AF（整治）、$78.46/AF（飲水）；對比 SBA-ISEP $341/AF、SBA La Puente $234/AF、SBA Castaic Lake $190/AF；10,000 gpm 資本 $9.65M（整治）/$9.00M（飲水）；1 AF = 325,851 加侖"
+    },
+    {
+      "org": "U.S. EPA",
+      "title": "Perchlorate in Drinking Water (Safe Drinking Water Act)",
+      "date": "2026-01 (page updated; rule signed 2026-01-02)",
+      "url": "https://www.epa.gov/sdwa/perchlorate-drinking-water",
+      "supports": "擬議 MCLG 20 µg/L、擬議 MCL 20/40/80 µg/L；最終規則須 2027-05-21 前簽署；2026 監測可能牽涉逾 66,000 個供水系統；EPA 預估約 0.1% 受管制系統可能超標；BAT 為離子交換/生物處理/逆滲透；2005 RfD 0.0007 mg/kg-day"
+    },
+    {
+      "org": "U.S. EPA / CLU-IN",
+      "title": "Perchlorate: Policy and Guidance",
+      "date": "2022-03 (updated)",
+      "url": "https://www.clu-in.org/contaminantfocus/default2.focus/sec/Perchlorate/cat/Policy_and_Guidance/",
+      "supports": "2008 EPA Interim Drinking Water Health Advisory 15 µg/L；2017 tapwater RSL 14 µg/L、Superfund PRG 15 µg/L；2022 土壤 RSL 住宅 55 mg/kg、工業 820 mg/kg；MA 2006 MCL 2 µg/L、CA 2007 MCL 6 µg/L；EPA 2005 RfD 對應 DWEL 24.5 µg/L；2008/2005/2009 CCL 與 UCMR 1999 監測"
+    },
+    {
+      "org": "U.S. EPA (Federal Register)",
+      "title": "National Primary Drinking Water Regulation for Perchlorate (Proposed Rule, 91 FR 398)",
+      "date": "2026-01-06",
+      "url": "https://www.federalregister.gov/documents/2026/01/06/2026-00021/national-primary-drinking-water-regulation-for-perchlorate",
+      "supports": "Docket EPA-HQ-OW-2024-0592、RIN 2040-AG-67；MCLG 20 µg/L 與 MCL 20/40/80 µg/L 擬議值；對全國約 66,000 個供水系統的監測要求；依 NRDC v. Regan 重新啟動管制"
+    },
+    {
+      "org": "U.S. Army National Guard / JBCC IAGWSP (Mass National Guard)",
+      "title": "Impact Area Groundwater Study Program 2024 Fact Sheet",
+      "date": "2024",
+      "url": "https://www.jbcc-iagwsp.org/community/facts/2024_IAGWSP_FactSheet.pdf",
+      "supports": "Camp Edwards 主要地下水污染物為 RDX 與過氯酸鹽；清理標準 RDX 0.6 ppb、過氯酸鹽 2 ppb（麻州 MCL）；1.4 萬口監測井、700+ 位置、10 萬+ 樣本；每日處理 380 萬加侖地下水、截至 2024-10 累計處理逾 180 億加侖；UXO 清除傳統工法每英畝 100 萬美元、MetalMapper 節省最多 70%；DA1 開挖 28,000 噸污染土壤熱脫附"
+    }
+  ],
   "gaps": [],
   "key_numbers": {}
 }

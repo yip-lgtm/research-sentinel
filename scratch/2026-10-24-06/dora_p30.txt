@@ -1,0 +1,70 @@
+Individual productivity                    Perceived     impact
+                                           Perceived impact        on individual
+                                                               on individual            productivity
+                                                                                productivity
+                                           Respondents’      assessment
+                                           Respondents' assessment           of how
+                                                                   of how AI affects    AIproductivity
+                                                                                     their affects their productivity
+More than 80% of this year’s
+                                                                Extremely increased          13%
+survey respondents report a
+                                                               Moderately increased          31%
+perception that AI has increased
+
+
+
+
+                                           Perceived impact
+their productivity. Although                                       Slightly increased        41%
+
+more than 40% report that                                                 No impact          9%
+
+their productivity has increased                                  Slightly decreased         3%
+only “slightly,” fewer than 10%                               Moderately decreased           1%
+of respondents perceive AI                                      Extremely decreased          1%
+contributing to any decrease in                                                         0%         10%                20%             30%                40%
+their productivity.                                                                                            Percentage of respondents
+                                                                                                                            Error bars show the 89% credible interval.
+                                       Error bars show the 89% credible interval.
+                                       Figure 24: Perceived impact on individual productivity
+
+
+
+
+Code quality                              Perceived impact on code quality
+                                          Perceived impact on code quality
+                                          Respondents’
+                                          Respondents'      assessment
+                                                       assessment            of how
+                                                                  of how AI affects    AIcode
+                                                                                    their affects
+                                                                                              qualitytheir code quality
+
+In addition to perceiving positive
+                                                               Extremely improved            7%
+impacts on their productivity,
+a majority (59%) of survey                                    Moderately improved            21%
+                                       Perceived impact
+
+
+
+
+respondents also observe that AI                                 Slightly improved           31%
+
+has positively impacted their code                                      No impact            30%
+quality. 31% perceive this increase                              Slightly worsened           7%
+to be only “slight” and another                               Moderately worsened            2%
+30% observe neither positive nor
+                                                               Extremely worsened            1%
+negative impacts. However, just
+                                                                                   0%                    10%                  20%                       30%
+10% of respondents perceive any
+                                                                                                           Percentage of respondents
+negative impacts on their code
+                                       Error bars show the 89% credible interval.                                             Error bars show the 89% credible interval.
+quality as a result of AI use.         Figure 25: Perceived impact on code quality
+
+
+
+

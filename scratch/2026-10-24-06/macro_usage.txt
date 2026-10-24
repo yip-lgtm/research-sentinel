@@ -1,0 +1,4 @@
+489:        $\bullet$ \PctReviewingAIOutputAIAllowed\% of time spent reviewing/cleaning AI outputs \\
+578:        $\bullet$ Developers spend \PctWaitingOnAIAIAllowed \% of time waiting on AI generations 
+875:Quantitatively, on the subset of \NumLoomVideosFilteredAIAllowed\ issues with valid labeled screen recordings, we find that when AI is allowed, developers spend approximately \PctReviewingAIOutputAIAllowed\% of their time reviewing and cleaning AI generated outputs when working with AI.
+1024:Quantitatively, on the subset of \NumLoomVideosFilteredAIAllowed\ issues with valid labeled screen recordings, we find that when AI is allowed, developers spend approximately \PctWaitingOnAIAIAllowed\% of their time waiting on AI generated outputs when working with AI. This percentage is small, but non-trivial.

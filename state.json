@@ -195,25 +195,37 @@
       "pass": 1,
       "full": 0,
       "fail": 0,
-      "level": 2
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "26 城：77% 城市門檻中位數與全球平均無法區分，31% 在暴雨極值以下。失效主因可能已由氣候轉為人為改山。"
     },
     "ai-hallucinated-package-attack-surface": {
       "pass": 1,
       "full": 0,
       "fail": 0,
-      "level": 2
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "19.7% 幻覺率；npm 1,033 個惡意套件；範圍限 npm、PyPI。"
     },
     "rcm-field-durability-gap": {
       "pass": 1,
       "full": 0,
       "fail": 0,
-      "level": 2
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "RCM 高估自然擴散 2.1–4.0 倍；F30 7.28 vs A03 7.38，現場 1.85 vs 6.31，差 3.4 倍。"
     },
     "deicing-salt-bridge-safety": {
       "pass": 1,
       "full": 0,
       "fail": 0,
-      "level": 2
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "保護層平方律、門檻 0.17%–2.5% 跨度 15 倍、CMA 較安全、Minnesota BMP 降鹽 30%–70%。"
     }
   },
   "last_report_utc": "2026-10-24T02:47:30Z",
@@ -659,6 +671,64 @@
         "回灌是否真正落於深層含水層仍屬敏感度情境，尚未有實測驗證"
       ],
       "action": "地下水／地陷題：成本數字優先找一級文件（州預算案、USGS/地方水利局工程報告、聯邦撥款公告）——若只有媒體轉述則明確標註『未經獨立審計』，寧缺勿用；回灌深度要補實測證據（轉注井深度與地層、同位素或水化學示蹤、SGMA 計畫中的 recharge efficiency 估算），令深層／淺層敏感度由『假設情境』升級為『有實測支撐的區間』。延續本次成功公式：【量化】+【機制・排除替代解釋】+【案例】+【敏感度】+ 明確不採用清單。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-23-21",
+      "topic": "city-landslide-alert-thresholds",
+      "verdict": "pass",
+      "praise": [
+        "問題有價值",
+        "機制清楚（工程改動主導斜坡安全係數，而非氣候）",
+        "有敏感度分析與具體案例（Medellín）",
+        "來源層級合理",
+        "簡評誠實標註缺口"
+      ],
+      "critique": [],
+      "action": "26 城：77% 城市門檻中位數與全球平均無法區分，31% 在暴雨極值以下。失效主因可能已由氣候轉為人為改山。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-23-22",
+      "topic": "ai-hallucinated-package-attack-surface",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且及時",
+        "量化清楚（19.7% 幻覺率）",
+        "機制與真實事件（Anthropic、AISI）交叉支持",
+        "有敏感度分析",
+        "明確限制（npm 攻勢中幻覺比例未量化）"
+      ],
+      "critique": [],
+      "action": "19.7% 幻覺率；npm 1,033 個惡意套件；範圍限 npm、PyPI。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-24-00",
+      "topic": "rcm-field-durability-gap",
+      "verdict": "pass",
+      "praise": [
+        "問題有實際工程意義",
+        "量化與機制清楚",
+        "來源可追溯",
+        "簡評誠實標註 paywall 與未完成持久化"
+      ],
+      "critique": [],
+      "action": "RCM 高估自然擴散 2.1–4.0 倍；F30 7.28 vs A03 7.38，現場 1.85 vs 6.31，差 3.4 倍。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-24-01",
+      "topic": "deicing-salt-bridge-safety",
+      "verdict": "pass",
+      "praise": [
+        "問題清楚",
+        "機制沿氯離子擴散、門檻與替代除冰劑展開",
+        "有敏感度分析與成本效益案例",
+        "簡評誠實標註缺少具名橋樑實測與工具限制"
+      ],
+      "critique": [],
+      "action": "保護層平方律、門檻 0.17%–2.5% 跨度 15 倍、CMA 較安全、Minnesota BMP 降鹽 30%–70%。"
     }
   ],
   "cross_topic_lessons": [
@@ -710,11 +780,18 @@
       "verdict": "pass",
       "pattern": "本輪暴露一個新坑：cron 報告若撞工具上限，會留低『只有中文、無英文對照』的半成品存檔，雖然品質閘仍然 PASS，但 W5 警告會指出各段英文偏少 —— 表面合格、實際未達中英對照契約。",
       "rule": "存檔版必須中英對照：五段每段都要有英文對應文字。落盤後檢查 quality_gate --json 嘅 warnings 有冇 W5；有就即時補英文，唔好等到用戶睇到。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "topic": "batch-4-reports",
+      "verdict": "pass",
+      "pattern": "四份全合格，但兩份（2026-10-24-00 RCM、2026-10-24-01 除冰鹽）撞回合上限留低半成品：RCM 完全冇英文對照段（W5 四段警告）；除冰鹽有英文但核心發現／潛在影響只得一句濃縮英文，而且簡評仍寫住『未經存檔版品質閘覆核…網站暫無本篇』——呢句在流程補齊後就變成假陳述。",
+      "rule": "W5 只檢查有段落標題嘅節，所以『英文只有一句濃縮總結』會漏過。但用戶評分會看『中英對照』，一句濃縮英文唔算對照。規則：核心發現／潛在影響每條 bullet 都要有對應英文行；另外流程補齊後要回頭改簡評，刪走『未落盤／未提交／網站暫無本篇』呢類會變假嘅陳述。"
     }
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
   "reports_form_fail_rewritten": 3,
-  "updated_utc": "2026-10-23T21:30:00Z",
+  "updated_utc": "2026-10-24T02:20:00Z",
   "operating_rules": {
     "bytes_budget": {
       "limit_bytes": 9000,

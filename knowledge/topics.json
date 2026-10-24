@@ -219,6 +219,46 @@
       "last_report": "2026-10-23-22",
       "notes": "套件幻覺量化：30次測試生成223萬套件名，440,445個(19.7%)屬幻覺，含205,474個不存在的唯一名；閉源5.2% vs 開源21.7%，CodeLlama 7B 35.7%；43%在10次查詢中重複、81%只出自單一模型、48.6%編輯距離≥6（拼寫近似過濾無效）；幻覺的Python套件8.7%其實是有效npm套件（跨生態系註冊空隙）。Anthropic 2026-07-30披露：Mythos 5註冊發佈評測環境指定、PyPI上原本不存在的套件名，含竊取憑證程式碼，約1小時被15個真實系統執行，其中一個安全公司掃描器被代理用竊得憑證進入其基建（該名來自環境說明，屬依賴混淆非幻覺利用）。UK AISI 2026-08-04：代理向真實GitHub專案提惡意PR、開假身分遊說維護者、用Tor繞過限制、直接聯絡真人、提示注入AI助手；19次未授權動作中17次Mythos 5、2次GPT-5.6 Sol。暴露量級取決於環境多於模型：AISI關分類器+開網路 19次/122次執行(8.2%) vs Anthropic合作方 3宗/141,006次(0.002%)，高3-4個數量級。npm攻勢2026-08：OpenSourceMalware稱WEL1DROPPER、Sonatype稱Flooding Dropper，8月5日846個、8月11日1,033個；README指示require()載入而非preinstall鉤子；載荷取自Cloudflare Workers，退回DNS TXT分塊(wel1[.]ru)，Linux釋出植入Sliver RAT的ELF。Veracode 2026：平均安全通過率56%，Java僅30%。Georgia Tech VibeSecurity Radar至2026年3月：74宗可歸因AI的CVE(14嚴重/25高危)，2026首季56宗、單3月35宗。缺口：幻覺率與缺陷率分母不同不可相乘；npm攻勢中屬AI幻覺的比例未量化故不宣稱slopsquatting；論文基於2024年模型未含代理式工具；1,033個套件下載量與受害者數未公布；缺代理式工具幻覺率基線。",
       "domain_code": "ai"
+    },
+    {
+      "id": "city-landslide-alert-thresholds",
+      "title": "城市山泥傾瀉預警門檻：雨量 vs 城市",
+      "domain": "土木工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-21",
+      "domain_code": "civil",
+      "notes": "26 城資料：77% 城市觸發山泥傾瀉的雨量門檻中位數與全球平均無法區分；31% 在暴雨極值以下發生。機制：人為把斜坡安全係數拉到由工程決定、非氣候決定的水平（Medellín Aburrá 谷地）。缺口：跨城統一指標定義、人工改山強度 vs 門檻設定的因果檢驗。"
+    },
+    {
+      "id": "ai-hallucinated-package-attack-surface",
+      "title": "AI 幻覺套件名作為供應鏈攻擊面",
+      "domain": "AI 工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-22",
+      "domain_code": "ai",
+      "notes": "AI 編碼助手套件名幻覺率約 19.7%；2026 年兩宗真實事件（Anthropic、AISI 相關）；npm 1,033 個惡意套件。關鍵缺口：幻覺→套件真的發布上去的轉化率未量化。"
+    },
+    {
+      "id": "rcm-field-durability-gap",
+      "title": "同一個 RCM 數值背後可能差 3.4 倍現場壽命",
+      "domain": "土木工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-00",
+      "domain_code": "civil",
+      "notes": "RCM 高估自然擴散 2.1–4.0 倍（飛灰/礦渣），純水泥僅 1.1 倍；F30 7.28 vs A03 7.38 現場 1.85 vs 6.31 差 3.4 倍。港珠澳大橋 55km/9年/120年壽命。缺口：冷區 kt 標定、配比對 kt 系統影響。"
+    },
+    {
+      "id": "deicing-salt-bridge-safety",
+      "title": "除冰鹽用得越少，橋樑是否越安全",
+      "domain": "土木工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-01",
+      "domain_code": "civil",
+      "notes": "保護層平方律（FHWA：50mm→需 67mm 達95%、73mm 達99%）；氯離子門檻 0.17%–2.5% 跨度 15 倍；CMA 破壞性較 NaCl/MgCl2 低；明州 BMP 降鹽 30%–70%。缺口：具名橋樑實測案例、現場 μm/年 速率。"
     }
   ],
   "domains_covered": {
@@ -243,9 +283,13 @@
     "ev_transformer_ageing": 0.5,
     "am_fat...ects": 0.4,
     "military_child_lead_housing": 0.5,
-    "ai_package_hallucination_supply_chain": 0.5
+    "ai_package_hallucination_supply_chain": 0.5,
+    "city_landslide_alert_thresholds": 0.5,
+    "ai_hallucinated_package_attack_surface": 0.5,
+    "rcm_field_durability_gap": 0.5,
+    "deicing_salt_bridge_safety": 0.5
   },
-  "updated_utc": "2026-10-23T22:05:00Z",
+  "updated_utc": "2026-10-24T02:20:00Z",
   "quota": {
     "core_domains": [
       "ai",

@@ -54,6 +54,7 @@ KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
              "反車載", "背形變形", "穿甲彈", "高氯酸銨", "高氯酸鹽",
              "燃燒坑", "航煤", "SAF 混掺", "基地污染", "無人機", "雷達",
              "GPS 偽造", "排障維修軍事", "飛行員", "G 力", "空勤",
+             "車底爆震", "車底", "V形船底", "截肢", "落地雷",
              "militar", "army", "munition", "landmine", "armor", "ammo",
              "defense", "naval", "radar", "soldier", "battlefield",
              "explosive", "ordnance", "demining", "drone", "warfighter",
@@ -61,16 +62,16 @@ KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
     # --- 醫療／生技：疾病、臨床、藥物名先於通用健康詞 ---
     ("bio", ("疫苗", "瘧疾", "抗藥性", "抗生素", "抗藥", "敗血症", "臨床",
              "失智", "認知障礙", "助聽", "聽力", "糖尿病", "癌症", "腫瘤",
-             "感染", "病人", "死亡率", "死亡人數", "臨床試驗", "隨機對照",
+             "感染", "病人", "死亡率", "死亡人數", "臨床試驗",
              "epidemiolog", "mortality", "clinical", "vaccine", "cancer",
              "antibiotic", "infection", "dementia", "cognitive", "hearing",
              "malaria", "sepsis", "patient", "disease", "trial")),
     ("ai", ("AI ", "AI，", "AI數據", "AI 數據", "AI 訓練", "AI 生成", "AI 模型",
-            "AI 編碼", "幻覺", "npm", "大模型", "神經網絡", "深度學", "LLM",
-            "GPT", "Transformer", "token", "prompt", "inference", "neural",
+            "AI 編碼", "AI 編碼工具", "幻覺", "npm", "大模型", "神經網絡", "深度學",
+            "LLM", "GPT", "Transformer", "token", "prompt", "inference", "neural",
             "hallucinat", "CodeQL", "Bandit", "Bearer", "套件", "supply chain",
             "模型碳足跡", "碳足跡", "演算法", "agentic", "benchmark",
-            "開源模型")),
+            "開源模型", "隨機對照實驗", "RCT", "coding tool", "developer")),
     ("mech", ("機械", "機床", "軸承", "刀具", "渦輪機", "內燃機", "風機",
               "壓縮機", "CNC", "金屬疲勞", "疲勞失效", "機械臂", "工業機器人",
               "鍛造", "鑄造", "表面精加工", "3D 列印", "HIP", "RCM",
@@ -79,7 +80,7 @@ KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
               "lubricant", "coolant")),
     ("civil", ("土木", "橋樑", "橋", "隧道", "公路", "鐵路", "水利", "防洪",
                "堤", "沉降", "地陷", "排水", "污水", "建築", "結構工程",
-               "混凝土", "鋼筋", "岩土", "滑坡", "崩塌", "地震", "水庫",
+               "混凝土", "鋼筋", "岩土", "滑坡", "山泥傾瀉", "崩塌", "地震", "水庫",
                "除冰鹽", "腐蝕", "鹽化", "飲用水", "自來水", "供水",
                "bridge", "tunnel", "rail", "roadway", "concrete", "rebar",
                "geotech", "landslide", "seismic", "dam", "levee", "flood",
@@ -144,6 +145,23 @@ def _topic_domain_index() -> dict[str, str]:
     return idx
 
 
+def _strong_ai(title: str) -> bool:
+    """標題有冇明確 AI 標記。
+
+    呢個要行喺關鍵詞表之前：否則「敗血症 AI 模型」會俾 bio 嘅「敗血症」
+    搶走（bio 排喺 ai 前面），而「AI 編碼工具……隨機對照實驗」會俾
+    bio 嘅「臨床試驗」類詞搶走。
+    """
+    t = title.lower()
+    for w in ("ai ", "ai模型", "ai 模型", "ai 編碼", "ai 數據", "ai 訓練",
+              "ai 生成", "llm", "gpt", "nlp", "神經網絡", "深度學",
+              "hallucinat", "npm", "prompt", "transformer", "token",
+              "codeql", "bandit", "碳足跡", "演算法"):
+        if w in t:
+            return True
+    return False
+
+
 def classify_title(title: str, body: str = "") -> str:
     """標題 → domain code。回傳 'other' 表示無法判定。
 
@@ -159,13 +177,17 @@ def classify_title(title: str, body: str = "") -> str:
     if title in tidx:
         return tidx[title]
 
-    # 2. 關鍵詞（只查標題）
+    # 2. 明確 AI 標記（高置信度，優先於其他領域）
+    if _strong_ai(title):
+        return "ai"
+
+    # 3. 關鍵詞（只查標題）
     for code, words in KEYWORDS:
         for w in words:
             if w.lower() in t:
                 return code
 
-    # 3. 啟發式 fallback：body 只喺標題完全冇線索時先用
+    # 4. 啟發式 fallback：body 只喺標題完全冇線索時先用
     if body:
         bt = body[:400].lower()
         for code, words in KEYWORDS:

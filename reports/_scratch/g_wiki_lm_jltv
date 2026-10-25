@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Lockheed Martin JLTV - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"aa55b4ba-9af9-4d9b-855b-87cf43b89966","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lockheed_Martin_JLTV","wgTitle":"Lockheed Martin JLTV","wgCurRevisionId":1369062874,"wgRevisionId":1369062874,"wgArticleId":34563519,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","CS1: unfit URL","All articles lacking reliable references","Articles lacking reliable references from June 2016","Webarchive template wayback links","Deprecated archive template links","Wikipedia articles containing buzzwords from October 2019","Military light utility vehicles","Joint Light Tactical Vehicle","Lockheed Martin"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Lockheed_Martin_JLTV","wgRelevantArticleId":34563519,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}},"namespaces":[0,4]},"wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgPopupsFlags":0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgParsoidHtmlVersion":"2.8.0","parsermigration-parsoid":true,"wgPageAssessments":{"Military history":{"class":"C","importance":""},"Military history/Military land vehicles task force":{"class":"C","importance":""},"Military history/Military science, technology, and theory task force":{"class":"C","importance":""},"Military history/North American military history task force":{"class":"C","importance":""},"Military history/United States military history task force":{"class":"C","importance":""},"Project-independent assessment":{"class":"C","importance":""},"Trucks":{"class":"C","importance":"Low"}},"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q6665600","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgPersonalDashboardMenuVisible":false};
+RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.parsoid.styles":"ready","ext.cite.styles":"ready","mediawiki.skinning.content.parsoid":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.discordSurvey","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.quicksurveys.init","ext.readerExperiments/preferredSources"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.parsoid.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cmediawiki.skinning.content.parsoid%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.47.0-wmf.24">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/53/Lockheed_JLTV.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail_unscaled">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="750">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="Lockheed Martin JLTV - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="discord:component-embed" type="application/json" href="https://en.wikipedia.org/w/rest.php/discord/v0-internal/discord-preview?title=Lockheed+Martin+JLTV&amp;db=enwiki&amp;lang=en">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Lockheed_Martin_JLTV">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="skin--responsive skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Lockheed_Martin_JLTV rootpage-Lockheed_Martin_JLTV skin-vector-2022 action-view">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="Move Main menu to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="Hide Main menu">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/enwiki-25.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg" style="width: 8.75em; height: 1.375em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en-25.svg" width="140" height="11" style="width: 8.75em; height: 0.6875em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="none" spellcheck="false" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" data-mw-donate-attempt="top_link" class=""><span>Donate</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=Lockheed+Martin+JLTV" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=Lockheed+Martin+JLTV" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>Donate</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=Lockheed+Martin+JLTV" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>Create account</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=Lockheed+Martin+JLTV" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	data-pinned-container-id="vector-toc-pinned-container"
+	data-unpinned-container-id="vector-toc-unpinned-container"
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin" aria-label="Move Contents to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin" aria-label="Hide Contents">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Design"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Design">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>Design</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Design-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-History"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#History">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>History</span>
+			</div>
+		</a>
+		
+		<ul id="toc-History-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Variants"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Variants">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>Variants</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Variants-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>See also</span>
+			</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>References</span>
+			</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>External links</span>
+			</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="Table of Contents" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"   >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="en" dir="ltr"><span class="mw-page-title-main">Lockheed Martin JLTV</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="Add languages" aria-description="This article is only available in this language. Add the article for other languages"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Add languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q6665600#sitelinks-wikipedia" title="Add interlanguage links" class="wbc-editpage">Add links</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/Lockheed_Martin_JLTV" title="View the content page [c]" accesskey="c" class=""><span>Article</span></a>
+</li>
+<li id="ca-talk" class="mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/Talk:Lockheed_Martin_JLTV" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t" class=""><span>Talk</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/Lockheed_Martin_JLTV" class=""><span>Read</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit" title="Edit this page [e]" accesskey="e" class=""><span>Edit</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class=""><span>View history</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="Move Tools to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="Hide Tools">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/Lockheed_Martin_JLTV" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>Read</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit" title="Edit this page [e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>Edit</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>View history</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Lockheed_Martin_JLTV" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Lockheed_Martin_JLTV" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;oldid=1369062874" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Lockheed_Martin_JLTV&amp;id=1369062874&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLockheed_Martin_JLTV"><span>Get shortened URL</span></a></li><li id="parsermigration-switch-to-legacy" class="mw-list-item"><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;useparsoid=0"><span>Switch to legacy parser</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Lockheed_Martin_JLTV&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Lockheed_Martin_JLTV" hreflang="en"><span>Wikimedia Commons</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q6665600" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="Move Appearance to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="Hide Appearance">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+						<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha25" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none" about="#mwt1" typeof="mw:Transclusion" id="mwAg" data-mw='{"parts":[{"template":{"target":{"wt":"Infobox weapon\n","href":"./Template:Infobox_weapon"},"params":{"name":{"wt":"Lockheed Martin JLTV"},"image":{"wt":"[[File:Lockheed JLTV.jpg|300px|]]"},"caption":{"wt":"JLTV three variants during the Technology Development phase."},"origin":{"wt":"United States"},"type":{"wt":"light tactical vehicle&lt;ref name=\"Jane&apos;s Logistics, Support &amp; Unmanned 2015-2016 Executive Overview\">{{cite web |url=https://janes.ihs.com/CustomPages/Janes/DisplayPage.aspx?DocType=Reference&amp;ItemId=+++1508278&amp;Pubabbrev=JLSU |title= Executive Overview: Logistics Support and Unmanned |publisher= IHS Jane&apos;s Shaun C Connors &amp; Christopher F Foss  |date= 5 May 2015 |accessdate= 19 May 2015}}&lt;/ref>\n&lt;!-- Type selection -->"},"is_ranged":{"wt":""},"is_bladed":{"wt":""},"is_explosive":{"wt":""},"is_artillery":{"wt":""},"is_vehicle":{"wt":"yes"},"is_missile":{"wt":""},"is_UK":{"wt":"&lt;!-- Service history -->"},"service":{"wt":""},"used_by":{"wt":""},"wars":{"wt":"&lt;!-- Production history -->"},"designer":{"wt":"[[Lockheed Martin]]"},"design_date":{"wt":""},"manufacturer":{"wt":""},"unit_cost":{"wt":""},"production_date":{"wt":""},"number":{"wt":""},"variants":{"wt":"A:, B:, C: (original),&lt;br/>Combat Tactical Vehicle (CTV) and&lt;br />Combat Support Vehicle (CSV) (final)&lt;ref name=\"Joint Light Tactical Vehicle: A Case Study\">{{cite web |url= https://apps.dtic.mil/sti/pdfs/ADA592751.pdf |archive-url= https://web.archive.org/web/20150521090801/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA592751 |url-status= live |archive-date= May 21, 2015 |title=Joint Light Tactical Vehicle: A Case Study |date=20 Aug 2012}} Retrieved 19 May 2015&lt;/ref>\n&lt;!-- General specifications -->"},"spec_label":{"wt":""},"weight":{"wt":"{{convert|7030|kg|lb|abbr=on}}&lt;ref name=\"spec\">[http://www.armyrecognition.com/us_army_wheeled_and_armoured_vehicle_uk/jltv_lockheed_martin_joint_light_tactical_wheeled_armoured_vehicle_us_army_united_states_pictures_te.html Lockheed JLTV] - Armyrecognition.com&lt;/ref>"},"length":{"wt":""},"part_length":{"wt":""},"width":{"wt":""},"height":{"wt":""},"diameter":{"wt":""},"crew":{"wt":"&lt;!-- Vehicle specifications -->"},"armour":{"wt":"A-kit/B-kit (classified)"},"primary_armament":{"wt":"7.62mm or 12.7mm machine gun"},"secondary_armament":{"wt":"up to four M7 smoke grenade dischargers"},"engine":{"wt":"[[Cummins]] 4-cylinder diesel"},"engine_power":{"wt":""},"pw_ratio":{"wt":""},"transmission":{"wt":"[[Allison transmissions|Allison]]"},"payload_capacity":{"wt":""},"suspension":{"wt":"[[Meritor]] ProTec HMIS (air, variable ride height))"},"clearance":{"wt":""},"fuel_capacity":{"wt":""},"vehicle_range":{"wt":"{{convert|650|km|mi|abbr=on}}&lt;ref name=\"spec\"/>"},"speed":{"wt":"&apos;&apos;&apos;Forward&apos;&apos;&apos;&lt;br/>Road: {{convert|105|kph|mph|abbr=on}}&lt;ref name=\"spec\"/> &lt;br/> Off road: varies"},"guidance":{"wt":""},"steering":{"wt":""}},"i":0}}]}'>Light tactical vehicle</div><span class="mw-empty-elt" about="#mwt1"><link rel="mw:PageProp/Category" href="./Category:Articles_with_short_description"/><link rel="mw:PageProp/Category" href="./Category:Short_description_is_different_from_Wikidata"/><style data-mw-deduplicate="TemplateStyles:r1358620234" typeof="mw:Extension/templatestyles" about="#mwt2" data-mw='{"name":"templatestyles","attrs":{"src":"Module:Infobox/styles.css"},"body":{"extsrc":""}}'>@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style></span><table class="infobox vcard" style="width:25.5em;border-spacing:2px;" about="#mwt1" id="mwAw"><tbody><tr><th colspan="2" class="infobox-above hproduct" style="background-color:#C3D6EF;color:inherit;text-align:center;vertical-align:middle;font-size:110%;"><span class="fn org"> Lockheed Martin JLTV </span></th></tr><tr><td colspan="2" class="infobox-image" style="text-align:center;border-bottom:1px solid #aaa;line-height:1.5em;"><span typeof="mw:File" data-mw='{"caption":""}'><a href="https://en.wikipedia.org/wiki/File:Lockheed_JLTV.jpg" class="mw-file-description"><img resource="https://en.wikipedia.org/wiki/File:Lockheed_JLTV.jpg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Lockheed_JLTV.jpg/330px-Lockheed_JLTV.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Lockheed_JLTV.jpg/960px-Lockheed_JLTV.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="1024" data-file-height="640" data-file-type="bitmap" height="188" width="300" class="mw-file-element"/></a></span><div class="infobox-caption">JLTV three variants during the Technology Development phase.</div></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Type</th><td class="infobox-data">light tactical vehicle<sup about="#mwt5" class="mw-ref reference" id="cite_ref-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview_1-0" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"Jane&apos;s Logistics, Support &amp; Unmanned 2015-2016 Executive Overview"},"body":{"id":"mw-reference-text-cite_note-Jane&apos;s_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview-1"}}'><a href="#cite_note-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview-1" id="mwBA"><span class="mw-reflink-text" id="mwBQ"><span class="cite-bracket" id="mwBg">[</span>1<span class="cite-bracket" id="mwBw">]</span></span></a></sup></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Place<span typeof="mw:Entity"> </span>of<span typeof="mw:Entity"> </span>origin</th><td class="infobox-data">United States</td></tr><tr><th colspan="2" class="infobox-header" style="background-color:#C3D6EF;color:inherit;text-align:center;vertical-align:middle;font-size:110%;">Production history</th></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Designer</th><td class="infobox-data"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Lockheed_Martin" title="Lockheed Martin">Lockheed Martin</a></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Variants</th><td class="infobox-data">A:, B:, C: (original),<br/>Combat Tactical Vehicle (CTV) and<br/>Combat Support Vehicle (CSV) (final)<sup about="#mwt10" class="mw-ref reference" id="cite_ref-Joint_Light_Tactical_Vehicle:_A_Case_Study_2-0" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"Joint Light Tactical Vehicle: A Case Study"},"body":{"id":"mw-reference-text-cite_note-Joint_Light_Tactical_Vehicle:_A_Case_Study-2"}}'><a href="#cite_note-Joint_Light_Tactical_Vehicle:_A_Case_Study-2" id="mwCA"><span class="mw-reflink-text" id="mwCQ"><span class="cite-bracket" id="mwCg">[</span>2<span class="cite-bracket" id="mwCw">]</span></span></a></sup></td></tr><tr><th colspan="2" class="infobox-header" style="background-color:#C3D6EF;color:inherit;text-align:center;vertical-align:middle;font-size:110%;">Specifications</th></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Mass</th><td class="infobox-data">7,030<span typeof="mw:Entity"> </span>kg (15,500<span typeof="mw:Entity"> </span>lb)<sup about="#mwt13" class="mw-ref reference" id="cite_ref-spec_3-0" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"spec"},"body":{"id":"mw-reference-text-cite_note-spec-3"}}'><a href="#cite_note-spec-3" id="mwDA"><span class="mw-reflink-text" id="mwDQ"><span class="cite-bracket" id="mwDg">[</span>3<span class="cite-bracket" id="mwDw">]</span></span></a></sup></td></tr><tr><td colspan="2" class="infobox-full-data"><hr/></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Vehicle_armour" title="Vehicle armour">Armor</a></th><td class="infobox-data">A-kit/B-kit (classified)</td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em"><div style="line-height:1.25em">Main<br/>armament</div></th><td class="infobox-data">7.62mm or 12.7mm machine gun</td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em"><div style="line-height:1.25em">Secondary<br/>armament</div></th><td class="infobox-data">up to four M7 smoke grenade dischargers</td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Engine</th><td class="infobox-data"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Cummins" title="Cummins">Cummins</a> 4-cylinder diesel<span style="display:none" data-plural="0"></span></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Transmission</th><td class="infobox-data"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Allison_transmissions" title="Allison transmissions" class="mw-redirect">Allison</a></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em">Suspension</th><td class="infobox-data"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Meritor" title="Meritor">Meritor</a> ProTec HMIS (air, variable ride height))</td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em"><div style="line-height:1.25em">Operational<br/>range</div></th><td class="infobox-data">650<span typeof="mw:Entity"> </span>km (400<span typeof="mw:Entity"> </span>mi)<sup about="#mwt15" class="mw-ref reference" id="cite_ref-spec_3-1" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"spec"}}'><a href="#cite_note-spec-3" id="mwEA"><span class="mw-reflink-text" id="mwEQ"><span class="cite-bracket" id="mwEg">[</span>3<span class="cite-bracket" id="mwEw">]</span></span></a></sup></td></tr><tr><th scope="row" class="infobox-label" style="padding-right:1em"><span class="mw-empty-elt"><style data-mw-deduplicate="TemplateStyles:r1038841319" typeof="mw:Extension/templatestyles" about="#mwt17" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Tooltip/styles.css"}}'>.mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}</style></span><span class="rt-commentedText tooltip  " title="Maximum speed of vehicle or missile" about="#mwt20" typeof="mw:ExpandedAttrs" data-mw='{"attribs":[[{"txt":"title"},{"html":"&lt;span typeof=\"mw:Nowiki\" id=\"mwFA\">Maximum speed of vehicle or missile&lt;/span>"}]]}'>Maximum speed</span></th><td class="infobox-data"><b>Forward</b><br/>Road: 105<span typeof="mw:Entity"> </span>km/h (65<span typeof="mw:Entity"> </span>mph)<sup about="#mwt18" class="mw-ref reference" id="cite_ref-spec_3-2" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"spec"}}'><a href="#cite_note-spec-3" id="mwFQ"><span class="mw-reflink-text" id="mwFg"><span class="cite-bracket" id="mwFw">[</span>3<span class="cite-bracket" id="mwGA">]</span></span></a></sup> <br/> Off road: varies</td></tr></tbody></table>
+
+<p id="mwGQ">The <b id="mwGg">Lockheed Martin JLTV</b> (Joint Light Tactical Vehicle) is a prototype armor-capable vehicle that was one of six original competitors for a <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle" title="Joint Light Tactical Vehicle" id="mwGw">Joint Light Tactical Vehicle</a> that will replace the <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Humvee" title="Humvee" id="mwHA">Humvee</a>.<sup about="#mwt23" class="mw-ref reference" id="cite_ref-4" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-4"}}'><a href="#cite_note-4" id="mwHQ"><span class="mw-reflink-text" id="mwHg"><span class="cite-bracket" id="mwHw">[</span>4<span class="cite-bracket" id="mwIA">]</span></span></a></sup> The JLTV goal was to provide a family of vehicles able to perform multiple missions protected, sustained and networked mobility for personnel and payload over a full range of operations.<sup about="#mwt26" class="mw-ref reference" id="cite_ref-5" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-5"}}'><a href="#cite_note-5" id="mwIQ"><span class="mw-reflink-text" id="mwIg"><span class="cite-bracket" id="mwIw">[</span>5<span class="cite-bracket" id="mwJA">]</span></span></a></sup> Lockheed's JLTV design lost out to the <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Oshkosh_Corporation" title="Oshkosh Corporation" id="mwJQ">Oshkosh</a> <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Oshkosh_L-ATV" title="Oshkosh L-ATV" class="mw-redirect" id="mwJg">L-ATV</a> in August 2015.<sup about="#mwt27" class="mw-ref reference" id="cite_ref-armytimes25aug15_6-0" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"armytimes25aug15"},"body":{"id":"mw-reference-text-cite_note-armytimes25aug15-6"}}'><a href="#cite_note-armytimes25aug15-6" id="mwJw"><span class="mw-reflink-text" id="mwKA"><span class="cite-bracket" id="mwKQ">[</span>6<span class="cite-bracket" id="mwKg">]</span></span></a></sup></p>
+
+<meta property="mw:PageProp/toc" id="mwKw" data-mw='{"autoGenerated":true}'/></section><section data-mw-section-id="1" id="mwLA" aria-labelledby="Design"><div class="mw-heading mw-heading2"><h2 id="Design">Design</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit&amp;section=1" title="Edit section: Design"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p id="mwLQ">The Lockheed JLTV vehicles were powered by a <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Cummins" title="Cummins" id="mwLg">Cummins</a> <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Diesel_engine" title="Diesel engine" id="mwLw">diesel engine</a> coupled to an <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Allison_Transmission" title="Allison Transmission" id="mwMA">Allison Transmission</a>.  The engine was the primary source of electrical and could provide external power for dismounted users.<sup about="#mwt32" class="mw-ref reference" id="cite_ref-spec_3-3" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"spec"}}'><a href="#cite_note-spec-3" id="mwMQ"><span class="mw-reflink-text" id="mwMg"><span class="cite-bracket" id="mwMw">[</span>3<span class="cite-bracket" id="mwNA">]</span></span></a></sup><sup about="#mwt33" class="mw-ref reference" id="cite_ref-specs_7-0" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"specs"},"body":{"id":"mw-reference-text-cite_note-specs-7"}}'><a href="#cite_note-specs-7" id="mwNQ"><span class="mw-reflink-text" id="mwNg"><span class="cite-bracket" id="mwNw">[</span>7<span class="cite-bracket" id="mwOA">]</span></span></a></sup><link rel="mw:PageProp/Category" href="./Category:All_articles_lacking_reliable_references" about="#mwt28" typeof="mw:Transclusion" id="mwOQ" data-mw='{"parts":[{"template":{"target":{"wt":"Unreliable source?","href":"./Template:Unreliable_source%3F"},"params":{"reason":{"wt":"domain on WP:BLACKLIST"},"date":{"wt":"June 2016"}},"i":0}}]}'/><link rel="mw:PageProp/Category" href="./Category:Articles_lacking_reliable_references_from_June_2016" about="#mwt28"/><sup class="noprint Inline-Template " style="white-space:nowrap;" about="#mwt28" id="mwOg"><span typeof="mw:Entity">[</span><i><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources" title="Wikipedia:Reliable sources"><span title="The material near this tag may rely on an unreliable source. domain on WP:BLACKLIST (June 2016)">unreliable source?</span></a></i><span typeof="mw:Entity">]</span></sup> It could sustain top speeds exceeding <span about="#mwt29" typeof="mw:Transclusion" id="mwOw" data-mw='{"parts":[{"template":{"target":{"wt":"convert","href":"./Template:Convert"},"params":{"1":{"wt":"70"},"2":{"wt":"mph"},"3":{"wt":"km/h"},"abbr":{"wt":"on"}},"i":0}}]}'>70</span><span typeof="mw:Entity" about="#mwt29"> </span><span about="#mwt29">mph (110</span><span typeof="mw:Entity" about="#mwt29"> </span><span about="#mwt29">km/h)</span>, ford <span about="#mwt30" typeof="mw:Transclusion" id="mwPA" data-mw='{"parts":[{"template":{"target":{"wt":"convert","href":"./Template:Convert"},"params":{"1":{"wt":"60"},"2":{"wt":"in"},"3":{"wt":"m"},"abbr":{"wt":"on"}},"i":0}}]}'>60</span><span typeof="mw:Entity" about="#mwt30"> </span><span about="#mwt30">in (1.5</span><span typeof="mw:Entity" about="#mwt30"> </span><span about="#mwt30">m)</span> of salt or fresh water, and had a <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Gross_weight" title="Gross weight" class="mw-redirect" id="mwPQ">gross weight</a> of <span about="#mwt31" typeof="mw:Transclusion" id="mwPg" data-mw='{"parts":[{"template":{"target":{"wt":"convert","href":"./Template:Convert"},"params":{"1":{"wt":"24,000"},"2":{"wt":"lb"},"3":{"wt":"kg"},"abbr":{"wt":"on"}},"i":0}}]}'>24,000</span><span typeof="mw:Entity" about="#mwt31"> </span><span about="#mwt31">lb (11,000</span><span typeof="mw:Entity" about="#mwt31"> </span><span about="#mwt31">kg)</span>.<sup about="#mwt34" class="mw-ref reference" id="cite_ref-armytimes14nov10_8-0" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"armytimes14nov10"},"body":{"id":"mw-reference-text-cite_note-armytimes14nov10-8"}}'><a href="#cite_note-armytimes14nov10-8" id="mwPw"><span class="mw-reflink-text" id="mwQA"><span class="cite-bracket" id="mwQQ">[</span>8<span class="cite-bracket" id="mwQg">]</span></span></a></sup> The four-cylinder engine had a fuel efficiency of as much as 14 miles per gallon, better than some <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/SUV" title="SUV" id="mwQw">SUVs</a>.  The system did not have an <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Alternator_(automotive)" title="Alternator (automotive)" id="mwRA">alternator</a>, but instead used an in-line power generator capable of producing 24<span typeof="mw:Entity" id="mwRQ"> </span>kW of electricity, which could be scaled up to as much as 75<span typeof="mw:Entity" id="mwRg"> </span>kW.<sup about="#mwt36" class="mw-ref reference" id="cite_ref-9" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-9"}}'><a href="#cite_note-9" id="mwRw"><span class="mw-reflink-text" id="mwSA"><span class="cite-bracket" id="mwSQ">[</span>9<span class="cite-bracket" id="mwSg">]</span></span></a></sup></p>
+
+<p id="mwSw">In August 2012, <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Meritor" title="Meritor" id="mwTA">Meritor Inc.</a> announced they would be integrating their ProTec High Mobility Independent Suspension (HMIS) into the Lockheed JLTV in response to its moving on to the EMD phase of testing.  Meritor designed the ProTec Series 30 HMIS to provide enhanced off-road maneuverability and ride quality. Meritor asserted that the system underwent thorough testing, totaling over 100,000 miles of travel.<sup about="#mwt38" class="mw-ref reference" id="cite_ref-10" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-10"}}'><a href="#cite_note-10" id="mwTQ"><span class="mw-reflink-text" id="mwTg"><span class="cite-bracket" id="mwTw">[</span>10<span class="cite-bracket" id="mwUA">]</span></span></a></sup> The independent air suspension offered <span about="#mwt37" typeof="mw:Transclusion" id="mwUQ" data-mw='{"parts":[{"template":{"target":{"wt":"convert","href":"./Template:Convert"},"params":{"1":{"wt":"16"},"2":{"wt":"in"},"3":{"wt":"mm"},"abbr":{"wt":"on"}},"i":0}}]}'>16</span><span typeof="mw:Entity" about="#mwt37"> </span><span about="#mwt37">in (410</span><span typeof="mw:Entity" about="#mwt37"> </span><span about="#mwt37">mm)</span> of travel and greatly reduced crew fatigue through a smoother ride over terrain.<sup about="#mwt39" class="mw-ref reference" id="cite_ref-armytimes14nov10_8-1" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"armytimes14nov10"}}'><a href="#cite_note-armytimes14nov10-8" id="mwUg"><span class="mw-reflink-text" id="mwUw"><span class="cite-bracket" id="mwVA">[</span>8<span class="cite-bracket" id="mwVQ">]</span></span></a></sup></p>
+
+<p id="mwVg">The vehicle had an improved <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/V-hull" title="V-hull" id="mwVw">V-hull</a> to protect from underbody blasts.  It had standard armor protection and could accommodate add-on armor kits.  In October 2011, Lockheed announced their JLTV met standards for <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Improvised_explosive_device" title="Improvised explosive device" id="mwWA">IED</a>-protected vehicles in government blast tests, providing the level of protection with 40 percent less weight than currently deployed all-terrain mine-protected vehicles.<sup about="#mwt40" class="mw-ref reference" id="cite_ref-spec_3-4" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"spec"}}'><a href="#cite_note-spec-3" id="mwWQ"><span class="mw-reflink-text" id="mwWg"><span class="cite-bracket" id="mwWw">[</span>3<span class="cite-bracket" id="mwXA">]</span></span></a></sup><sup about="#mwt41" class="mw-ref reference" id="cite_ref-specs_7-1" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"specs"}}'><a href="#cite_note-specs-7" id="mwXQ"><span class="mw-reflink-text" id="mwXg"><span class="cite-bracket" id="mwXw">[</span>7<span class="cite-bracket" id="mwYA">]</span></span></a></sup> Its underbody used a modified V-hull called a "cursive W"-shaped hull that was effective in dissipating blasts forward, aft, and out to the sides.<sup about="#mwt42" class="mw-ref reference" id="cite_ref-armytimes14nov10_8-2" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"armytimes14nov10"}}'><a href="#cite_note-armytimes14nov10-8" id="mwYQ"><span class="mw-reflink-text" id="mwYg"><span class="cite-bracket" id="mwYw">[</span>8<span class="cite-bracket" id="mwZA">]</span></span></a></sup></p>
+
+<p id="mwZQ">The internal cab had been designed similar to that of a <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Cockpit" title="Cockpit" id="mwZg">cockpit</a> to make use of all available space.  It was made to be ergonomic with capabilities integrated into the dashboard to free up space for the operators to be able to perform their missions.  All vehicle variants were the same from the driver's seat forward.<sup about="#mwt43" class="mw-ref reference" id="cite_ref-armytimes14nov10_8-3" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"armytimes14nov10"}}'><a href="#cite_note-armytimes14nov10-8" id="mwZw"><span class="mw-reflink-text" id="mwaA"><span class="cite-bracket" id="mwaQ">[</span>8<span class="cite-bracket" id="mwag">]</span></span></a></sup></p>
+
+<p id="mwaw">The base vehicle had no specific armament configuration, but could be fitted with a 7.62<span typeof="mw:Entity" id="mwbA"> </span>mm or 12.7<span typeof="mw:Entity" id="mwbQ"> </span>mm machine gun.<sup about="#mwt44" class="mw-ref reference" id="cite_ref-spec_3-5" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"spec"}}'><a href="#cite_note-spec-3" id="mwbg"><span class="mw-reflink-text" id="mwbw"><span class="cite-bracket" id="mwcA">[</span>3<span class="cite-bracket" id="mwcQ">]</span></span></a></sup><sup about="#mwt45" class="mw-ref reference" id="cite_ref-specs_7-2" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"specs"}}'><a href="#cite_note-specs-7" id="mwcg"><span class="mw-reflink-text" id="mwcw"><span class="cite-bracket" id="mwdA">[</span>7<span class="cite-bracket" id="mwdQ">]</span></span></a></sup> Lockheed and <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Moog_Inc." title="Moog Inc." id="mwdg">Moog Inc.</a> joined to develop the Common Hellfire Package (CHP) to enable the firing of <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/AGM-114_Hellfire" title="AGM-114 Hellfire" id="mwdw">AGM-114 Hellfire</a> missiles from various platforms.  The CHP has been test fired from a stationary trailer-mounted pedestal that could be towed behind the Lockheed JLTV.  The vehicle also fired <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Direct_Attack_Guided_Rocket" title="Direct Attack Guided Rocket" id="mweA">Direct Attack Guided Rockets</a> from a pedestal launcher mounted in the bed.  The JLTV's ability to integrate these systems would provide troops greater firepower, with the intent being to reduce the need to call for aviation support.<sup about="#mwt47" class="mw-ref reference" id="cite_ref-11" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-11"}}'><a href="#cite_note-11" id="mweQ"><span class="mw-reflink-text" id="mweg"><span class="cite-bracket" id="mwew">[</span>11<span class="cite-bracket" id="mwfA">]</span></span></a></sup></p>
+
+<p id="mwfQ">Vehicles for the EMD phase were manufactured at <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/BAE_Systems" title="BAE Systems" id="mwfg">BAE Systems</a>' facility in <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Sealy,_Texas" title="Sealy, Texas" id="mwfw">Sealy, Texas</a>.  On 16 October 2013, Lockheed announced production would be moved to their assembly line in <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Camden,_Arkansas" title="Camden, Arkansas" id="mwgA">Camden, Arkansas</a>.  The new manufacturing complex was expected to give better production efficiency and cost reductions.  BAE remained a partner on the Lockheed Martin JLTV team, providing integrated cabs, protection solutions<link rel="mw:PageProp/Category" href="./Category:Wikipedia_articles_containing_buzzwords_from_October_2019" about="#mwt48" typeof="mw:Transclusion" id="mwgQ" data-mw='{"parts":[{"template":{"target":{"wt":"buzzword inline","href":"./Template:Buzzword_inline"},"params":{"date":{"wt":"October 2019"}},"i":0}}]}'/><sup class="noprint Inline-Template " style="white-space:nowrap;" about="#mwt48" id="mwgg"><span typeof="mw:Entity">[</span><i><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wikipedia:Use_plain_English#Buzzwords" title="Wikipedia:Use plain English"><span title="The material near this tag may use buzzwords designed solely to impress you or obscure meaning. (October 2019)">buzzword</span></a></i><span typeof="mw:Entity">]</span></sup>, and vehicle manufacturing.<sup about="#mwt50" class="mw-ref reference" id="cite_ref-12" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-12"}}'><a href="#cite_note-12" id="mwgw"><span class="mw-reflink-text" id="mwhA"><span class="cite-bracket" id="mwhQ">[</span>12<span class="cite-bracket" id="mwhg">]</span></span></a></sup> BAE's Sealy facility was shut down by June 2014.<sup about="#mwt51" class="mw-ref reference" id="cite_ref-13" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-13"}}'><a href="#cite_note-13" id="mwhw"><span class="mw-reflink-text" id="mwiA"><span class="cite-bracket" id="mwiQ">[</span>13<span class="cite-bracket" id="mwig">]</span></span></a></sup> The Lockheed JLTV passed the government's Manufacturing Readiness Assessment (MRA) from 18–19 November 2013, allowing it to be manufactured at the Camden facility.<sup about="#mwt52" class="mw-ref reference" id="cite_ref-14" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-14"}}'><a href="#cite_note-14" id="mwiw"><span class="mw-reflink-text" id="mwjA"><span class="cite-bracket" id="mwjQ">[</span>14<span class="cite-bracket" id="mwjg">]</span></span></a></sup></p>
+
+</section><section data-mw-section-id="2" id="mwjw" aria-labelledby="History"><div class="mw-heading mw-heading2"><h2 id="History">History</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit&amp;section=2" title="Edit section: History"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p id="mwkA">In October 2008, Lockheed won a 27-month contract to continue technology development in the JLTV program.  In April 2010, Lockheed delivered the first two of seven operational JLTVs and one companion trailer to the US Army and Marine Corps for the Technology Development (TD) phase testing.<sup about="#mwt53" class="mw-ref reference" id="cite_ref-specs_7-3" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"specs"}}'><a href="#cite_note-specs-7" id="mwkQ"><span class="mw-reflink-text" id="mwkg"><span class="cite-bracket" id="mwkw">[</span>7<span class="cite-bracket" id="mwlA">]</span></span></a></sup></p>
+
+<p id="mwlQ">On 23 August 2012, the JLTV program selected Lockheed and two other companies as winners of the Engineering and Manufacturing Development (EMD) phase of the program.  Lockheed won a contract to produce 22 prototype vehicles in 27 months for evaluation.<sup about="#mwt55" class="mw-ref reference" id="cite_ref-15" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-15"}}'><a href="#cite_note-15" id="mwlg"><span class="mw-reflink-text" id="mwlw"><span class="cite-bracket" id="mwmA">[</span>15<span class="cite-bracket" id="mwmQ">]</span></span></a></sup></p>
+
+<p id="mwmg">The Lockheed JLTV family underwent a design understanding review from 18–20 December 2012.  The government design review assessed all elements of the design and confirmed its overall maturity and requirements compliance.  Lockheed used a production-enhanced model, which was lighter and cheaper than the earlier <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Technology_demonstration" title="Technology demonstration" id="mwmw">technology demonstration</a> model.  By then, the Lockheed JLTV design had over 160,000 combined testing miles.  Vehicles produced for the EMD phase of the program began deliveries in spring 2013.<sup about="#mwt56" class="mw-ref reference" id="cite_ref-16" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-16"}}'><a href="#cite_note-16" id="mwnA"><span class="mw-reflink-text" id="mwnQ"><span class="cite-bracket" id="mwng">[</span>16<span class="cite-bracket" id="mwnw">]</span></span></a></sup></p>
+
+<p id="mwoA">On 21 February 2013, Lockheed demonstrated the ability of their JLTV to fire <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Hydra_70" title="Hydra 70" id="mwoQ">Hydra 70</a> rockets.  One <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Direct_Attack_Guided_Rocket" title="Direct Attack Guided Rocket" id="mwog">DAGR</a> rocket and two unguided Hydra rockets were launched from a pedestal launcher mounted on the JLTV prototype.  DAGR locked onto the laser spot two seconds after launch, flew <span about="#mwt57" typeof="mw:Transclusion" id="mwow" data-mw='{"parts":[{"template":{"target":{"wt":"convert","href":"./Template:Convert"},"params":{"1":{"wt":"5"},"2":{"wt":"km"},"3":{"wt":"mi"},"abbr":{"wt":"on"}},"i":0}}]}'>5</span><span typeof="mw:Entity" about="#mwt57"> </span><span about="#mwt57">km (3.1</span><span typeof="mw:Entity" about="#mwt57"> </span><span about="#mwt57">mi)</span> down range and impacted the target within 1 meter of the laser spot. The unguided Hydra 70 rockets were launched down the center of the range, and flew 521 and 2,600 meters.  The purpose of the test was to show the capability of the DAGR for ground combat and the ability of the JLTV to launch it.<sup about="#mwt58" class="mw-ref reference" id="cite_ref-17" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-17"}}'><a href="#cite_note-17" id="mwpA"><span class="mw-reflink-text" id="mwpQ"><span class="cite-bracket" id="mwpg">[</span>17<span class="cite-bracket" id="mwpw">]</span></span></a></sup></p>
+
+<p id="mwqA">On 26 June 2013, the last of 22 Lockheed JLTVs produced for the EMD phase rolled off the production line.  Long-term testing and evaluation was scheduled for August 22.<sup about="#mwt59" class="mw-ref reference" id="cite_ref-18" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-18"}}'><a href="#cite_note-18" id="mwqQ"><span class="mw-reflink-text" id="mwqg"><span class="cite-bracket" id="mwqw">[</span>18<span class="cite-bracket" id="mwrA">]</span></span></a></sup> On 14 August 2013, Lockheed delivered their 22 vehicles to the Army and Marine Corps.  Lockheed JLTVs went through over 160,000 combined test miles during technology development.<sup about="#mwt60" class="mw-ref reference" id="cite_ref-19" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-19"}}'><a href="#cite_note-19" id="mwrQ"><span class="mw-reflink-text" id="mwrg"><span class="cite-bracket" id="mwrw">[</span>19<span class="cite-bracket" id="mwsA">]</span></span></a></sup></p>
+
+<p id="mwsQ">On 27 August 2013, the Army and Marine Corps announced that full-scale testing of JLTV prototypes would begin the following week, with all three vendors having had 66 vehicles delivered.  Each company delivered 22 vehicles and six trailers to <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground" title="Aberdeen Proving Ground" id="mwsg">Aberdeen Proving Ground</a>, <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Maryland" title="Maryland" id="mwsw">Maryland</a>, and <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Yuma_Proving_Ground" title="Yuma Proving Ground" id="mwtA">Yuma Proving Ground</a>, <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Arizona" title="Arizona" id="mwtQ">Arizona</a>.  Previous testing had already put the vehicles through more than 400 ballistic and blast tests on armor testing samples, underbody blast testing, and more than 1,000 miles in shakedown testing.  Soldiers from the <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Army_Test_and_Evaluation_Command" title="Army Test and Evaluation Command" class="mw-redirect" id="mwtg">Army Test and Evaluation Command</a> and personnel from the Defense Department's Office of Test and Evaluation would begin to put the vehicles through realistic and rigorous field testing during 14 months of government performance testing.  Testing was to be completed by FY 2015, with a production contract to be awarded to a single vendor for nearly 55,000 vehicles.<sup about="#mwt61" class="mw-ref reference" id="cite_ref-20" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-20"}}'><a href="#cite_note-20" id="mwtw"><span class="mw-reflink-text" id="mwuA"><span class="cite-bracket" id="mwuQ">[</span>20<span class="cite-bracket" id="mwug">]</span></span></a></sup> On 3 September 2013, full-pace, full-scope JLTV testing began at Aberdeen Proving Ground, Yuma, and <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Redstone_Arsenal" title="Redstone Arsenal" id="mwuw">Redstone Arsenal</a>, <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Alabama" title="Alabama" id="mwvA">Alabama</a>.  The program was on track despite sequestration.  One vendor was to be selected by July 2015.<sup about="#mwt62" class="mw-ref reference" id="cite_ref-21" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-21"}}'><a href="#cite_note-21" id="mwvQ"><span class="mw-reflink-text" id="mwvg"><span class="cite-bracket" id="mwvw">[</span>21<span class="cite-bracket" id="mwwA">]</span></span></a></sup></p>
+
+<p id="mwwQ">On 21 April 2014, Lockheed announced that their JLTV entry had surpassed 100,000 miles in government testing.<sup about="#mwt63" class="mw-ref reference" id="cite_ref-22" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-22"}}'><a href="#cite_note-22" id="mwwg"><span class="mw-reflink-text" id="mwww"><span class="cite-bracket" id="mwxA">[</span>22<span class="cite-bracket" id="mwxQ">]</span></span></a></sup></p>
+
+<p id="mwxg"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Oshkosh_Corporation" title="Oshkosh Corporation" id="mwxw">Oshkosh's</a> <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Oshkosh_L-ATV" title="Oshkosh L-ATV" class="mw-redirect" id="mwyA">L-ATV</a> was selected as the winner of the JLTV program on 25 August 2015, and was awarded a $6.75 billion low rate initial base contract with eight options to procure the first 16,901 vehicles for both the Army and Marines.<sup about="#mwt64" class="mw-ref reference" id="cite_ref-armytimes25aug15_6-1" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"armytimes25aug15"}}'><a href="#cite_note-armytimes25aug15-6" id="mwyQ"><span class="mw-reflink-text" id="mwyg"><span class="cite-bracket" id="mwyw">[</span>6<span class="cite-bracket" id="mwzA">]</span></span></a></sup><sup about="#mwt67" class="mw-ref reference" id="cite_ref-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview_1-1" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{"name":"Jane&apos;s Logistics, Support &amp; Unmanned 2015-2016 Executive Overview"},"body":{"html":"&lt;link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1333433106\" about=\"#mwt65\" typeof=\"mw:Extension/templatestyles mw:Transclusion\" id=\"mwzQ\" data-mw=&apos;{\"name\":\"templatestyles\",\"attrs\":{\"src\":\"Module:Citation/CS1/styles.css\"},\"body\":{\"extsrc\":\"\"},\"parts\":[{\"template\":{\"target\":{\"wt\":\"cite web \",\"href\":\"./Template:Cite_web\"},\"params\":{\"url\":{\"wt\":\"https://janes.ihs.com/CustomPages/Janes/DisplayPage.aspx?DocType=Reference&amp;amp;ItemId=+++1508278&amp;amp;Pubabbrev=JLSU\"},\"title\":{\"wt\":\"Executive Overview: Logistics Support and Unmanned\"},\"publisher\":{\"wt\":\"IHS Jane&amp;apos;s Shaun C Connors &amp;amp; Christopher F Foss\"},\"date\":{\"wt\":\"5 May 2015\"},\"accessdate\":{\"wt\":\"19 May 2015\"}},\"i\":0}}]}&apos;/>&lt;cite class=\"citation web cs1\" about=\"#mwt65\">&lt;a rel=\"mw:ExtLink nofollow\" href=\"https://janes.ihs.com/CustomPages/Janes/DisplayPage.aspx?DocType=Reference&amp;amp;ItemId=+++1508278&amp;amp;Pubabbrev=JLSU\" class=\"external text\">\"Executive Overview: Logistics Support and Unmanned\"&lt;/a>. IHS Jane&apos;s Shaun C Connors &amp;amp; Christopher F Foss. 5 May 2015&lt;span class=\"reference-accessdate\">. Retrieved &lt;span class=\"nowrap\">19 May&lt;/span> 2015&lt;/span>.&lt;/cite>&lt;span title=\"ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.genre=unknown&amp;amp;rft.btitle=Executive+Overview%3A+Logistics+Support+and+Unmanned&amp;amp;rft.pub=IHS+Jane%27s+Shaun+C+Connors+%26+Christopher+F+Foss&amp;amp;rft.date=2015-05-05&amp;amp;rft_id=https%3A%2F%2Fjanes.ihs.com%2FCustomPages%2FJanes%2FDisplayPage.aspx%3FDocType%3DReference%26ItemId%3D%2B%2B%2B1508278%26Pubabbrev%3DJLSU&amp;amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALockheed+Martin+JLTV\" class=\"Z3988\" about=\"#mwt65\" id=\"mwzg\">&lt;/span>"}}'><a href="#cite_note-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview-1" id="mwzw"><span class="mw-reflink-text" id="mw0A"><span class="cite-bracket" id="mw0Q">[</span>1<span class="cite-bracket" id="mw0g">]</span></span></a></sup> Based on accounts from those involved in the JLTV program, Lockheed lost not because of the technical merit or design of its vehicle, but because it was the only contractor that had not demonstrated the ability to build tens of thousands of trucks on a production line.<sup about="#mwt69" class="mw-ref reference" id="cite_ref-23" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-23"}}'><a href="#cite_note-23" id="mw0w"><span class="mw-reflink-text" id="mw1A"><span class="cite-bracket" id="mw1Q">[</span>23<span class="cite-bracket" id="mw1g">]</span></span></a></sup> Lockheed's JLTV also demonstrated 1,271 "Mean Miles Between Operational Mission Failure" in a Limited User Test (LUT), compared to 2,968 miles for the Humvee and 7,051 for the winning L-ATV.<sup about="#mwt71" class="mw-ref reference" id="cite_ref-24" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-24"}}'><a href="#cite_note-24" id="mw1w"><span class="mw-reflink-text" id="mw2A"><span class="cite-bracket" id="mw2Q">[</span>24<span class="cite-bracket" id="mw2g">]</span></span></a></sup> On 8 September it was disclosed that Lockheed Martin would protest the award to Oshkosh, the same day that AM General decided not to file a protest.<sup about="#mwt74" class="mw-ref reference" id="cite_ref-25" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-25"}}'><a href="#cite_note-25" id="mw2w"><span class="mw-reflink-text" id="mw3A"><span class="cite-bracket" id="mw3Q">[</span>25<span class="cite-bracket" id="mw3g">]</span></span></a></sup> On 15 December 2015, the <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Government_Accountability_Office" title="Government Accountability Office" class="mw-redirect" id="mw3w">Government Accountability Office</a> (GAO) dismissed Lockheed's protest as Lockheed also filed a claim with the US Court of Federal Claims.<sup about="#mwt75" class="mw-ref reference" id="cite_ref-26" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-26"}}'><a href="#cite_note-26" id="mw4A"><span class="mw-reflink-text" id="mw4Q"><span class="cite-bracket" id="mw4g">[</span>26<span class="cite-bracket" id="mw4w">]</span></span></a></sup> Lockheed then attempted to file a preliminary injunction with the U.S. Court of <a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Federal_Claims" title="Federal Claims" class="mw-redirect" id="mw5A">Federal Claims</a> on 17 December,<sup about="#mwt76" class="mw-ref reference" id="cite_ref-27" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-27"}}'><a href="#cite_note-27" id="mw5Q"><span class="mw-reflink-text" id="mw5g"><span class="cite-bracket" id="mw5w">[</span>27<span class="cite-bracket" id="mw6A">]</span></span></a></sup> but announced they had withdrawn their protest on 17 February 2016.<sup about="#mwt78" class="mw-ref reference" id="cite_ref-28" rel="dc:references" typeof="mw:Extension/ref" data-mw='{"name":"ref","attrs":{},"body":{"id":"mw-reference-text-cite_note-28"}}'><a href="#cite_note-28" id="mw6Q"><span class="mw-reflink-text" id="mw6g"><span class="cite-bracket" id="mw6w">[</span>28<span class="cite-bracket" id="mw7A">]</span></span></a></sup></p>
+
+</section><section data-mw-section-id="3" id="mw7Q" aria-labelledby="Variants"><div class="mw-heading mw-heading2"><h2 id="Variants">Variants</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit&amp;section=3" title="Edit section: Variants"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p id="mw7g"><b id="mw7w">Original</b></p>
+<ul id="mw8A"><li id="mw8Q">Category A - General purpose mobility, logistics support</li>
+<li id="mw8g">Category B - Infantry carrier, command and control</li>
+<li id="mw8w">Category C - Utility</li></ul>
+
+<p id="mw9A"><b id="mw9Q">Final</b></p>
+<ul id="mw9g"><li id="mw9w">Combat Tactical Vehicle (CTV)</li>
+<li id="mw-A">Combat Support Vehicle (CSV)</li></ul>
+
+</section><section data-mw-section-id="4" id="mw-Q" aria-labelledby="See_also"><div class="mw-heading mw-heading2"><h2 id="See_also">See also</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit&amp;section=4" title="Edit section: See also"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul id="mw-g"><li id="mw-w"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle" title="Joint Light Tactical Vehicle" id="mw_A">Joint Light Tactical Vehicle</a></li>
+<li id="mw_Q"><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Oshkosh_L-ATV" title="Oshkosh L-ATV" class="mw-redirect" id="mw_g">Oshkosh L-ATV</a></li></ul>
+
+</section><section data-mw-section-id="5" id="mw_w" aria-labelledby="References"><div class="mw-heading mw-heading2"><h2 id="References">References</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit&amp;section=5" title="Edit section: References"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<span class="mw-empty-elt" about="#mwt79" typeof="mw:Transclusion" id="mwAQA" data-mw='{"parts":[{"template":{"target":{"wt":"Reflist","href":"./Template:Reflist"},"params":{},"i":0}}]}'><style data-mw-deduplicate="TemplateStyles:r1327269900" typeof="mw:Extension/templatestyles" about="#mwt80" data-mw='{"name":"templatestyles","attrs":{"src":"Reflist/styles.css"}}'>.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}body.skin-vector-2022 .mw-parser-output .reflist-columns-2{column-width:27em}body.skin-vector-2022 .mw-parser-output .reflist-columns-3{column-width:22.5em}.mw-parser-output .references[data-mw-group=upper-alpha]{list-style-type:upper-alpha}.mw-parser-output .references[data-mw-group=upper-roman]{list-style-type:upper-roman}.mw-parser-output .references[data-mw-group=lower-alpha]{list-style-type:lower-alpha}.mw-parser-output .references[data-mw-group=lower-greek]{list-style-type:lower-greek}.mw-parser-output .references[data-mw-group=lower-roman]{list-style-type:lower-roman}.mw-parser-output div.reflist-liststyle-upper-alpha .references{list-style-type:upper-alpha}.mw-parser-output div.reflist-liststyle-upper-roman .references{list-style-type:upper-roman}.mw-parser-output div.reflist-liststyle-lower-alpha .references{list-style-type:lower-alpha}.mw-parser-output div.reflist-liststyle-lower-greek .references{list-style-type:lower-greek}.mw-parser-output div.reflist-liststyle-lower-roman .references{list-style-type:lower-roman}</style></span><div about="#mwt79" id="mwAQE">
+<div class="mw-references-wrap mw-references-columns" typeof="mw:Extension/references" about="#mwt81" id="mwAQI" data-mw='{"name":"references","attrs":{"group":"","responsive":"1"},"body":{"extsrc":""}}'><ol class="mw-references references" id="mwAQM"><li about="#cite_note-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview-1" id="cite_note-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview-1" data-mw-footnote-number="1"><span rel="mw:referencedBy" class="mw-cite-backlink" id="mwAQQ"><a href="#cite_ref-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview_1-0" id="mwAQU"><span class="mw-linkback-text" id="mwAQY">1</span></a> <a href="#cite_ref-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview_1-1" id="mwAQc"><span class="mw-linkback-text" id="mwAQg">2</span></a></span> <span id="mw-reference-text-cite_note-Jane's_Logistics,_Support_&amp;_Unmanned_2015-2016_Executive_Overview-1" class="mw-reference-text reference-text"><style data-mw-deduplicate="TemplateStyles:r1333433106" typeof="mw:Extension/templatestyles" about="#mwt4" id="mwAQk" data-mw='{"name":"templatestyles","attrs":{"src":"Module:Citation/CS1/styles.css"},"body":{"extsrc":""}}'>.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class="citation web cs1" id="mwAQo"><a rel="mw:ExtLink nofollow" href="https://janes.ihs.com/CustomPages/Janes/DisplayPage.aspx?DocType=Reference&amp;ItemId=+++1508278&amp;Pubabbrev=JLSU" class="external text" id="mwAQs">"Executive Overview: Logistics Support and Unmanned"</a>. IHS Jane's Shaun C Connors &amp; Christopher F Foss. 5 May 2015<span class="reference-accessdate" id="mwAQw">. Retrieved <span class="nowrap" id="mwAQ0">19 May</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Executive+Overview%3A+Logistics+Support+and+Unmanned&amp;rft.pub=IHS+Jane%27s+Shaun+C+Connors+%26+Christopher+F+Foss&amp;rft.date=2015-05-05&amp;rft_id=https%3A%2F%2Fjanes.ihs.com%2FCustomPages%2FJanes%2FDisplayPage.aspx%3FDocType%3DReference%26ItemId%3D%2B%2B%2B1508278%26Pubabbrev%3DJLSU&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALockheed+Martin+JLTV" class="Z3988" id="mwAQ4"></span></span></li>
+<li about="#cite_note-Joint_Light_Tactical_Vehicle:_A_Case_Study-2" id="cite_note-Joint_Light_Tactical_Vehicle:_A_Case_Study-2" data-mw-footnote-number="2"><span class="mw-cite-backlink" id="mwAQ8"><a href="#cite_ref-Joint_Light_Tactical_Vehicle:_A_Case_Study_2-0" rel="mw:referencedBy" id="mwARA"><span class="mw-linkback-text" id="mwARE">↑</span></a></span> <span id="mw-reference-text-cite_note-Joint_Light_Tactical_Vehicle:_A_Case_Study-2" class="mw-reference-text reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" about="#mwt9" typeof="mw:Extension/templatestyles" id="mwARI" data-mw='{"name":"templatestyles","attrs":{"src":"Module:Citation/CS1/styles.css"},"body":{"extsrc":""}}'/><cite class="citation web cs1" id="mwARM"><a rel="mw:ExtLink nofollow" href="https://apps.dtic.mil/sti/pdfs/ADA592751.pdf" class="external text" id="mwARQ">"Joint Light Tactical Vehicle: A Case Study"</a> <span class="cs1-format" id="mwARU">(PDF)</span>. 20 Aug 2012. <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20150521090801/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA592751" class="external text" id="mwARY">Archived</a> from the original on May 21, 2015.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Joint+Light+Tactical+Vehicle%3A+A+Case+Study&amp;rft.date=2012-08-20&amp;rft_id=https%3A%2F%2Fapps.dtic.mil%2Fsti%2Fpdfs%2FADA592751.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALockheed+Martin+JLTV" class="Z3988" id="mwARc"></span> Retrieved 19 May 2015</span></li>
+<li about="#cite_note-spec-3" id="cite_note-spec-3" data-mw-footnote-number="3"><span rel="mw:referencedBy" class="mw-cite-backlink" id="mwARg"><a href="#cite_ref-spec_3-0" id="mwARk"><span class="mw-linkback-text" id="mwARo">1</span></a> <a href="#cite_ref-spec_3-1" id="mwARs"><span class="mw-linkback-text" id="mwARw">2</span></a> <a href="#cite_ref-spec_3-2" id="mwAR0"><span class="mw-linkback-text" id="mwAR4">3</span></a> <a href="#cite_ref-spec_3-3" id="mwAR8"><span class="mw-linkback-text" id="mwASA">4</span></a> <a href="#cite_ref-spec_3-4" id="mwASE"><span class="mw-linkback-text" id="mwASI">5</span></a> <a href="#cite_ref-spec_3-5" id="mwASM"><span class="mw-linkback-text" id="mwASQ">6</span></a></span> <span id="mw-reference-text-cite_note-spec-3" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.armyrecognition.com/us_army_wheeled_and_armoured_vehicle_uk/jltv_lockheed_martin_joint_light_tactical_wheeled_armoured_vehicle_us_army_united_states_pictures_te.html" class="external text" id="mwASU">Lockheed JLTV</a> - Armyrecognition.com</span></li>
+<li about="#cite_note-4" id="cite_note-4" data-mw-footnote-number="4"><span class="mw-cite-backlink" id="mwASY"><a href="#cite_ref-4" rel="mw:referencedBy" id="mwASc"><span class="mw-linkback-text" id="mwASg">↑</span></a></span> <span id="mw-reference-text-cite_note-4" class="mw-reference-text reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" about="#mwt21" typeof="mw:Extension/templatestyles mw:Transclusion" id="mwASk" data-mw='{"name":"templatestyles","attrs":{"src":"Module:Citation/CS1/styles.css"},"body":{"extsrc":""},"parts":[{"template":{"target":{"wt":"Cite web ","href":"./Template:Cite_web"},"params":{"url":{"wt":"http://defensetech.org/2010/06/04/first-look-joint-light-tactical-vehicle-jltv/"},"title":{"wt":"First Look: Joint Light Tactical Vehicle (JLTV) &amp;#124; Defense Tech"},"access-date":{"wt":"2012-02-09"},"archive-url":{"wt":"https://web.archive.org/web/20151004081148/http://defensetech.org/2010/06/04/first-look-joint-light-tactical-vehicle-jltv/"},"archive-date":{"wt":"2015-10-04"},"url-status":{"wt":"usurped"}},"i":0}}]}'/><cite class="citation web cs1 cs1-prop-unfit" about="#mwt21" id="mwASo"><a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20151004081148/http://defensetech.org/2010/06/04/first-look-joint-light-tactical-vehicle-jltv/" class="external text" id="mwASs">"First Look: Joint Light Tactical Vehicle (JLTV) <span typeof="mw:Entity" id="mwASw">|</span> Defense Tech"</a>. Archived from the original on 2015-10-04<span class="reference-accessdate" id="mwAS0">. Retrieved <span class="nowrap" id="mwAS4">2012-02-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=First+Look%3A+Joint+Light+Tactical+Vehicle+%28JLTV%29+%26%23124%3B+Defense+Tech&amp;rft_id=http%3A%2F%2Fdefensetech.org%2F2010%2F06%2F04%2Ffirst-look-joint-light-tactical-vehicle-jltv%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALockheed+Martin+JLTV" class="Z3988" about="#mwt21" id="mwAS8"></span><link rel="mw:PageProp/Category" href="./Category:CS1:_unfit_URL" about="#mwt21" id="mwATA"/></span></li>
+<li about="#cite_note-5" id="cite_note-5" data-mw-footnote-number="5"><span class="mw-cite-backlink" id="mwATE"><a href="#cite_ref-5" rel="mw:referencedBy" id="mwATI"><span class="mw-linkback-text" id="mwATM">↑</span></a></span> <span id="mw-reference-text-cite_note-5" class="mw-reference-text reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" about="#mwt24" typeof="mw:Extension/templatestyles mw:Transclusion" id="mwATQ" data-mw='{"name":"templatestyles","attrs":{"src":"Module:Citation/CS1/styles.css"},"body":{"extsrc":""},"parts":[{"template":{"target":{"wt":"cite web ","href":"./Template:Cite_web"},"params":{"url":{"wt":"http://www.lockheedmartin.com/us/products/jltv.html"},"title":{"wt":"Lockheed Martin · Joint Light Tactical Vehicle (JLTV)"},"accessdate":{"wt":"2012-02-01"},"url-status":{"wt":"dead"},"archiveurl":{"wt":"https://web.archive.org/web/20120124023201/http://www.lockheedmartin.com/us/products/jltv.html"},"archivedate":{"wt":"2012-01-24"}},"i":0}}]}'/><cite class="citation web cs1" about="#mwt24" id="mwATU"><a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20120124023201/http://www.lockheedmartin.com/us/products/jltv.html" class="external text" id="mwATY">"Lockheed Martin · Joint Light Tactical Vehicle (JLTV)"</a>. Archived from <a rel="mw:ExtLink nofollow" href="http://www.lockheedmartin.com/us/products/jltv.html" class="external text" id="mwATc">the original</a> on 2012-01-24<span class="reference-accessdate" id="mwATg">. Retrieved <span class="nowrap" id="mwATk">2012-02-01</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Lockheed+Martin+%C2%B7+Joint+Light+Tactical+Vehicle+%28JLTV%29&amp;rft_id=http%3A%2F%2Fwww.lockheedmartin.com%2Fus%2Fproducts%2Fjltv.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALockheed+Martin+JLTV" class="Z3988" about="#mwt24" id="mwATo"></span></span></li>
+<li about="#cite_note-armytimes25aug15-6" id="cite_note-armytimes25aug15-6" data-mw-footnote-number="6"><span rel="mw:referencedBy" class="mw-cite-backlink" id="mwATs"><a href="#cite_ref-armytimes25aug15_6-0" id="mwATw"><span class="mw-linkback-text" id="mwAT0">1</span></a> <a href="#cite_ref-armytimes25aug15_6-1" id="mwAT4"><span class="mw-linkback-text" id="mwAT8">2</span></a></span> <span id="mw-reference-text-cite_note-armytimes25aug15-6" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.armytimes.com/story/defense/policy-budget/industry/2015/08/25/oshkosh-wins-jltv-award/32278319/" class="external text" id="mwAUA">Oshkosh Wins JLTV Award</a><span typeof="mw:Entity" id="mwAUE"> </span>– Armytimes.com, 25 August 2015</span></li>
+<li about="#cite_note-specs-7" id="cite_note-specs-7" data-mw-footnote-number="7"><span rel="mw:referencedBy" class="mw-cite-backlink" id="mwAUI"><a href="#cite_ref-specs_7-0" id="mwAUM"><span class="mw-linkback-text" id="mwAUQ">1</span></a> <a href="#cite_ref-specs_7-1" id="mwAUU"><span class="mw-linkback-text" id="mwAUY">2</span></a> <a href="#cite_ref-specs_7-2" id="mwAUc"><span class="mw-linkback-text" id="mwAUg">3</span></a> <a href="#cite_ref-specs_7-3" id="mwAUk"><span class="mw-linkback-text" id="mwAUo">4</span></a></span> <span id="mw-reference-text-cite_note-specs-7" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="https://www.army-technology.com/projects/lockheed-martin-joint-light-tactical-vehicle-jltv/" class="external text" data-mw-original-href="http://www.army-technology.com/projects/lockheed-martin-joint-light-tactical-vehicle-jltv/" id="mwAUs">Lockheed JLTV</a> - Army-Technology.com</span></li>
+<li about="#cite_note-armytimes14nov10-8" id="cite_note-armytimes14nov10-8" data-mw-footnote-number="8"><span rel="mw:referencedBy" class="mw-cite-backlink" id="mwAUw"><a href="#cite_ref-armytimes14nov10_8-0" id="mwAU0"><span class="mw-linkback-text" id="mwAU4">1</span></a> <a href="#cite_ref-armytimes14nov10_8-1" id="mwAU8"><span class="mw-linkback-text" id="mwAVA">2</span></a> <a href="#cite_ref-armytimes14nov10_8-2" id="mwAVE"><span class="mw-linkback-text" id="mwAVI">3</span></a> <a href="#cite_ref-armytimes14nov10_8-3" id="mwAVM"><span class="mw-linkback-text" id="mwAVQ">4</span></a></span> <span id="mw-reference-text-cite_note-armytimes14nov10-8" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.armytimes.com/article/20101114/NEWS/11140314/3D-camo-pattern-new-wheels-armor-tap" class="external text" id="mwAVU">3D camo pattern, new wheels, armor on tap</a> - Armytimes.com, 14 November 2010</span></li>
+<li about="#cite_note-9" id="cite_note-9" data-mw-footnote-number="9"><span class="mw-cite-backlink" id="mwAVY"><a href="#cite_ref-9" rel="mw:referencedBy" id="mwAVc"><span class="mw-linkback-text" id="mwAVg">↑</span></a></span> <span id="mw-reference-text-cite_note-9" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.dodbuzz.com/2014/09/25/army-to-start-next-jltv-competition-this-fall/" class="external text" id="mwAVk">Army to Start Next JLTV Competition This Fall</a> <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20140929174939/http://www.dodbuzz.com/2014/09/25/army-to-start-next-jltv-competition-this-fall/" about="#mwt35" typeof="mw:Transclusion" class="external text" id="mwAVo" data-mw='{"parts":[{"template":{"target":{"wt":"Webarchive","href":"./Template:Webarchive"},"params":{"url":{"wt":"https://web.archive.org/web/20140929174939/http://www.dodbuzz.com/2014/09/25/army-to-start-next-jltv-competition-this-fall/"},"date":{"wt":"2014-09-29"}},"i":0}}]}'>Archived</a><span about="#mwt35" id="mwAVs"> 2014-09-29 at the </span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wayback_Machine" title="Wayback Machine" about="#mwt35" id="mwAVw">Wayback Machine</a><link rel="mw:PageProp/Category" href="./Category:Webarchive_template_wayback_links" about="#mwt35" id="mwAV0"/> - DoDBuzz.com, 25 September 2014</span></li>
+<li about="#cite_note-10" id="cite_note-10" data-mw-footnote-number="10"><span class="mw-cite-backlink" id="mwAV4"><a href="#cite_ref-10" rel="mw:referencedBy" id="mwAV8"><span class="mw-linkback-text" id="mwAWA">↑</span></a></span> <span id="mw-reference-text-cite_note-10" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.prnewswire.com/news-releases/meritor-defense-supports-lockheed-martin-with-protec-suspension-for-jltv-development-contract-167596885.html" class="external text" id="mwAWE">Meritor Defense Supports Lockheed Martin with Protec Suspension for JLTV Development Contract</a> - Prnewswire.com, August 27, 2012</span></li>
+<li about="#cite_note-11" id="cite_note-11" data-mw-footnote-number="11"><span class="mw-cite-backlink" id="mwAWI"><a href="#cite_ref-11" rel="mw:referencedBy" id="mwAWM"><span class="mw-linkback-text" id="mwAWQ">↑</span></a></span> <span id="mw-reference-text-cite_note-11" class="mw-reference-text reference-text"><span style="text-decoration: underline dashed #ccc;" about="#mwt46" typeof="mw:Transclusion" id="mwAWU" data-mw='{"parts":[{"template":{"target":{"wt":"Deprecated archive","href":"./Template:Deprecated_archive"},"params":{"url":{"wt":"https://archive.today/20131026164138/http://www.defensenews.com/apps/pbcs.dll/article?AID=2013310220027"},"title":{"wt":"Lockheed, Moog Develop JLTV-Towed Hellfire Launcher"}},"i":0}}]}'>Lockheed, Moog Develop JLTV-Towed Hellfire Launcher</span><sup about="#mwt46" id="mwAWY"><span typeof="mw:Entity" id="mwAWc">[</span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wikipedia:ATODAY" title="Wikipedia:ATODAY" class="mw-redirect" id="mwAWg">link removed</a><span typeof="mw:Entity" id="mwAWk">]</span></sup><link rel="mw:PageProp/Category" href="./Category:Deprecated_archive_template_links" about="#mwt46" id="mwAWo"/> - Defensenews.com, 22 October 2013</span></li>
+<li about="#cite_note-12" id="cite_note-12" data-mw-footnote-number="12"><span class="mw-cite-backlink" id="mwAWs"><a href="#cite_ref-12" rel="mw:referencedBy" id="mwAWw"><span class="mw-linkback-text" id="mwAW0">↑</span></a></span> <span id="mw-reference-text-cite_note-12" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.armyrecognition.com/october_2013_defense_industry_military_news_uk/lockheed_martin_to_build_joint_light_tactical_vehicle_at_award-winning_facility_in_camden_arkansas_.html" class="external text" id="mwAW4">Lockheed Martin to build Joint Light Tactical Vehicle at Award-Winning facility in Camden, Arkansas</a> <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20131017045544/http://www.armyrecognition.com/october_2013_defense_industry_military_news_uk/lockheed_martin_to_build_joint_light_tactical_vehicle_at_award-winning_facility_in_camden_arkansas_.html" about="#mwt49" typeof="mw:Transclusion" class="external text" id="mwAW8" data-mw='{"parts":[{"template":{"target":{"wt":"webarchive","href":"./Template:Webarchive"},"params":{"url":{"wt":"https://web.archive.org/web/20131017045544/http://www.armyrecognition.com/october_2013_defense_industry_military_news_uk/lockheed_martin_to_build_joint_light_tactical_vehicle_at_award-winning_facility_in_camden_arkansas_.html"},"date":{"wt":"2013-10-17"}},"i":0}}]}'>Archived</a><span about="#mwt49" id="mwAXA"> 2013-10-17 at the </span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wayback_Machine" title="Wayback Machine" about="#mwt49" id="mwAXE">Wayback Machine</a><link rel="mw:PageProp/Category" href="./Category:Webarchive_template_wayback_links" about="#mwt49" id="mwAXI"/> - Armyrecognition.com, 16 October 2013</span></li>
+<li about="#cite_note-13" id="cite_note-13" data-mw-footnote-number="13"><span class="mw-cite-backlink" id="mwAXM"><a href="#cite_ref-13" rel="mw:referencedBy" id="mwAXQ"><span class="mw-linkback-text" id="mwAXU">↑</span></a></span> <span id="mw-reference-text-cite_note-13" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="https://webarchive.loc.gov/all/20131025110446/http://www.defensenews.com/article/20131015/DEFREG02/310150022/BAE%2DShutters%2DTexas%2DFactory%2DJLTV%2DProduction%2DMoved" class="external text" id="mwAXY">BAE Shutters Texas Factory, JLTV Production Moved</a> - Defensenews.com, 15 October 2013</span></li>
+<li about="#cite_note-14" id="cite_note-14" data-mw-footnote-number="14"><span class="mw-cite-backlink" id="mwAXc"><a href="#cite_ref-14" rel="mw:referencedBy" id="mwAXg"><span class="mw-linkback-text" id="mwAXk">↑</span></a></span> <span id="mw-reference-text-cite_note-14" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.armyrecognition.com/december_2013_defense_industry_military_news_uk/lockheed_martin_jltv_vehicle_successfully_completes_u.s._manufacturing_readiness_assessment_1212131.html" class="external text" id="mwAXo">Lockheed Martin JLTV vehicle successfully completes U.S. Manufacturing Readiness Assessment</a> - Armyrecognition.com, 12 December 2013</span></li>
+<li about="#cite_note-15" id="cite_note-15" data-mw-footnote-number="15"><span class="mw-cite-backlink" id="mwAXs"><a href="#cite_ref-15" rel="mw:referencedBy" id="mwAXw"><span class="mw-linkback-text" id="mwAX0">↑</span></a></span> <span id="mw-reference-text-cite_note-15" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.dodbuzz.com/2012/08/23/army-and-marine-corps-pick-jltv-winners/" class="external text" id="mwAX4">Army and Marine Corps pick JLTV winners</a> <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20140227182006/http://www.dodbuzz.com/2012/08/23/army-and-marine-corps-pick-jltv-winners/" about="#mwt54" typeof="mw:Transclusion" class="external text" id="mwAX8" data-mw='{"parts":[{"template":{"target":{"wt":"Webarchive","href":"./Template:Webarchive"},"params":{"url":{"wt":"https://web.archive.org/web/20140227182006/http://www.dodbuzz.com/2012/08/23/army-and-marine-corps-pick-jltv-winners/"},"date":{"wt":"2014-02-27"}},"i":0}}]}'>Archived</a><span about="#mwt54" id="mwAYA"> 2014-02-27 at the </span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wayback_Machine" title="Wayback Machine" about="#mwt54" id="mwAYE">Wayback Machine</a><link rel="mw:PageProp/Category" href="./Category:Webarchive_template_wayback_links" about="#mwt54" id="mwAYI"/> - DoDBuzz.com, August 23, 2012</span></li>
+<li about="#cite_note-16" id="cite_note-16" data-mw-footnote-number="16"><span class="mw-cite-backlink" id="mwAYM"><a href="#cite_ref-16" rel="mw:referencedBy" id="mwAYQ"><span class="mw-linkback-text" id="mwAYU">↑</span></a></span> <span id="mw-reference-text-cite_note-16" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.lockheedmartin.com/us/news/press-releases/2013/january/mfc-011713-LM-jltv-undergoes-successful.html" class="external text" id="mwAYY">Lockheed Martin JLTV Undergoes Successful Design Review</a> - Lockheed press release, January 17, 2013</span></li>
+<li about="#cite_note-17" id="cite_note-17" data-mw-footnote-number="17"><span class="mw-cite-backlink" id="mwAYc"><a href="#cite_ref-17" rel="mw:referencedBy" id="mwAYg"><span class="mw-linkback-text" id="mwAYk">↑</span></a></span> <span id="mw-reference-text-cite_note-17" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.lockheedmartin.com/us/news/press-releases/2013/february/LM-Demonstrates-DAGR-Missile.html" class="external text" id="mwAYo">Lockheed Martin Demonstrates DAGR Missile Ground Vehicle Launch Capability from JLTV</a> - Lockheed press release, February 21, 2013</span></li>
+<li about="#cite_note-18" id="cite_note-18" data-mw-footnote-number="18"><span class="mw-cite-backlink" id="mwAYs"><a href="#cite_ref-18" rel="mw:referencedBy" id="mwAYw"><span class="mw-linkback-text" id="mwAY0">↑</span></a></span> <span id="mw-reference-text-cite_note-18" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://lockheedmartin.com/us/news/press-releases/2013/june/mfc-06-26-13-lm-final-JLTV-development-vehicle-rolls-off.html" class="external text" id="mwAY4">Lockheed Martin’s Final JLTV Development Vehicle Rolls off Assembly Line</a> - Lockheed press release, 26 June 2013</span></li>
+<li about="#cite_note-19" id="cite_note-19" data-mw-footnote-number="19"><span class="mw-cite-backlink" id="mwAY8"><a href="#cite_ref-19" rel="mw:referencedBy" id="mwAZA"><span class="mw-linkback-text" id="mwAZE">↑</span></a></span> <span id="mw-reference-text-cite_note-19" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://lockheedmartin.com/us/news/press-releases/2013/august/mfc-081413-lm-delivers.html" class="external text" id="mwAZI">Lockheed Martin Delivers 22 JLTV Development Vehicles to U.S. Army and Marines</a> - Lockheed press release, 14 August 2013</span></li>
+<li about="#cite_note-20" id="cite_note-20" data-mw-footnote-number="20"><span class="mw-cite-backlink" id="mwAZM"><a href="#cite_ref-20" rel="mw:referencedBy" id="mwAZQ"><span class="mw-linkback-text" id="mwAZU">↑</span></a></span> <span id="mw-reference-text-cite_note-20" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="https://www.army.mil/article/110066/Army__Marine_Corps_take_delivery_of_JLTVs_for_user_testing/" class="external text" id="mwAZY">Army, Marine Corps take delivery of JLTVs for user testing</a> - Army.mil, 27 August 2013</span></li>
+<li about="#cite_note-21" id="cite_note-21" data-mw-footnote-number="21"><span class="mw-cite-backlink" id="mwAZc"><a href="#cite_ref-21" rel="mw:referencedBy" id="mwAZg"><span class="mw-linkback-text" id="mwAZk">↑</span></a></span> <span id="mw-reference-text-cite_note-21" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="https://www.army.mil/article/110710/JLTV_testing_begins__program_on_schedule__budget/" class="external text" id="mwAZo">JLTV testing begins, program on schedule, budget</a> - Army.mil, 5 September 2013</span></li>
+<li about="#cite_note-22" id="cite_note-22" data-mw-footnote-number="22"><span class="mw-cite-backlink" id="mwAZs"><a href="#cite_ref-22" rel="mw:referencedBy" id="mwAZw"><span class="mw-linkback-text" id="mwAZ0">↑</span></a></span> <span id="mw-reference-text-cite_note-22" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.upi.com/Business_News/Security-Industry/2014/04/21/Lockheeds-JLTV-offering-surpasses-100k-miles-in-testing/3991398109591/?spt=sec&amp;or=bn" class="external text" id="mwAZ4">Lockheed's JLTV offering surpasses 100k miles in testing</a> - UPI.com, 21 April 2014</span></li>
+<li about="#cite_note-23" id="cite_note-23" data-mw-footnote-number="23"><span class="mw-cite-backlink" id="mwAZ8"><a href="#cite_ref-23" rel="mw:referencedBy" id="mwAaA"><span class="mw-linkback-text" id="mwAaE">↑</span></a></span> <span id="mw-reference-text-cite_note-23" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.nationaldefensemagazine.org/archive/2015/November/Pages/LockheedInvestsinGroundCombatVehicles.aspx" class="external text" id="mwAaI">Lockheed Invests in Ground Combat Vehicles</a> <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20151024092414/http://www.nationaldefensemagazine.org/archive/2015/November/Pages/LockheedInvestsinGroundCombatVehicles.aspx" about="#mwt68" typeof="mw:Transclusion" class="external text" id="mwAaM" data-mw='{"parts":[{"template":{"target":{"wt":"Webarchive","href":"./Template:Webarchive"},"params":{"url":{"wt":"https://web.archive.org/web/20151024092414/http://www.nationaldefensemagazine.org/archive/2015/November/Pages/LockheedInvestsinGroundCombatVehicles.aspx"},"date":{"wt":"2015-10-24"}},"i":0}}]}'>Archived</a><span about="#mwt68" id="mwAaQ"> 2015-10-24 at the </span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wayback_Machine" title="Wayback Machine" about="#mwt68" id="mwAaU">Wayback Machine</a><link rel="mw:PageProp/Category" href="./Category:Webarchive_template_wayback_links" about="#mwt68" id="mwAaY"/> - Nationaldefensemagazine.org, November 2015</span></li>
+<li about="#cite_note-24" id="cite_note-24" data-mw-footnote-number="24"><span class="mw-cite-backlink" id="mwAac"><a href="#cite_ref-24" rel="mw:referencedBy" id="mwAag"><span class="mw-linkback-text" id="mwAak">↑</span></a></span> <span id="mw-reference-text-cite_note-24" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.militarytimes.com/story/defense/land/vehicles/2016/02/02/dod-weapons-tester-dote-report-sheds-light-jltv-competition/79703534/" class="external text" id="mwAao">DoD Weapons Tester Report Sheds Light on JLTV Competition</a> <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20161026174442/http://www.militarytimes.com/story/defense/land/vehicles/2016/02/02/dod-weapons-tester-dote-report-sheds-light-jltv-competition/79703534/" about="#mwt70" typeof="mw:Transclusion" class="external text" id="mwAas" data-mw='{"parts":[{"template":{"target":{"wt":"Webarchive","href":"./Template:Webarchive"},"params":{"url":{"wt":"https://web.archive.org/web/20161026174442/http://www.militarytimes.com/story/defense/land/vehicles/2016/02/02/dod-weapons-tester-dote-report-sheds-light-jltv-competition/79703534/"},"date":{"wt":"2016-10-26"}},"i":0}}]}'>Archived</a><span about="#mwt70" id="mwAaw"> 2016-10-26 at the </span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wayback_Machine" title="Wayback Machine" about="#mwt70" id="mwAa0">Wayback Machine</a><link rel="mw:PageProp/Category" href="./Category:Webarchive_template_wayback_links" about="#mwt70" id="mwAa4"/> - Militarytimes.com, 2 February 2016</span></li>
+<li about="#cite_note-25" id="cite_note-25" data-mw-footnote-number="25"><span class="mw-cite-backlink" id="mwAa8"><a href="#cite_ref-25" rel="mw:referencedBy" id="mwAbA"><span class="mw-linkback-text" id="mwAbE">↑</span></a></span> <span id="mw-reference-text-cite_note-25" class="mw-reference-text reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" about="#mwt72" typeof="mw:Extension/templatestyles mw:Transclusion" id="mwAbI" data-mw='{"name":"templatestyles","attrs":{"src":"Module:Citation/CS1/styles.css"},"body":{"extsrc":""},"parts":[{"template":{"target":{"wt":"cite web ","href":"./Template:Cite_web"},"params":{"url":{"wt":"http://www.defensenews.com/story/defense/land/vehicles/2015/09/08/lockheed-martin-jltv-protest-army-oshkosh/71893762/"},"title":{"wt":"Lockheed Martin Protests JLTV contract award to Oshkosh"},"date":{"wt":"8 September 2015"},"accessdate":{"wt":"9 September 2015"}},"i":0}}]}'/><cite class="citation web cs1" about="#mwt72" id="mwAbM"><a rel="mw:ExtLink nofollow" href="http://www.defensenews.com/story/defense/land/vehicles/2015/09/08/lockheed-martin-jltv-protest-army-oshkosh/71893762/" class="external text" id="mwAbQ">"Lockheed Martin Protests JLTV contract award to Oshkosh"</a>. 8 September 2015<span class="reference-accessdate" id="mwAbU">. Retrieved <span class="nowrap" id="mwAbY">9 September</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Lockheed+Martin+Protests+JLTV+contract+award+to+Oshkosh&amp;rft.date=2015-09-08&amp;rft_id=http%3A%2F%2Fwww.defensenews.com%2Fstory%2Fdefense%2Fland%2Fvehicles%2F2015%2F09%2F08%2Flockheed-martin-jltv-protest-army-oshkosh%2F71893762%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALockheed+Martin+JLTV" class="Z3988" about="#mwt72" id="mwAbc"></span></span></li>
+<li about="#cite_note-26" id="cite_note-26" data-mw-footnote-number="26"><span class="mw-cite-backlink" id="mwAbg"><a href="#cite_ref-26" rel="mw:referencedBy" id="mwAbk"><span class="mw-linkback-text" id="mwAbo">↑</span></a></span> <span id="mw-reference-text-cite_note-26" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.militarytimes.com/story/breaking-news/2015/12/15/gao-dismisses-lockheed-jltv-protest-cites-pending-litigation/77369220/" class="external text" id="mwAbs">GAO Dismisses Lockheed JLTV Protest, Cites Pending Litigation</a> - Militarytimes.com, 15 December 2015</span></li>
+<li about="#cite_note-27" id="cite_note-27" data-mw-footnote-number="27"><span class="mw-cite-backlink" id="mwAbw"><a href="#cite_ref-27" rel="mw:referencedBy" id="mwAb0"><span class="mw-linkback-text" id="mwAb4">↑</span></a></span> <span id="mw-reference-text-cite_note-27" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.defensenews.com/story/defense/land/army/2015/12/18/lockheed-files-injunction-stop-work-jltv/77586604/" class="external text" id="mwAb8">Lockheed Files Injunction To Stop Work On JLTV</a> - Defensenews.com, 18 December 2015</span></li>
+<li about="#cite_note-28" id="cite_note-28" data-mw-footnote-number="28"><span class="mw-cite-backlink" id="mwAcA"><a href="#cite_ref-28" rel="mw:referencedBy" id="mwAcE"><span class="mw-linkback-text" id="mwAcI">↑</span></a></span> <span id="mw-reference-text-cite_note-28" class="mw-reference-text reference-text"><a rel="mw:ExtLink nofollow" href="http://www.dodbuzz.com/2016/02/17/lockheed-withdraws-protest-of-armys-jltv-award/" class="external text" id="mwAcM">Lockheed Withdraws Protest of Army’s JLTV Award</a> <a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20160219094651/http://www.dodbuzz.com/2016/02/17/lockheed-withdraws-protest-of-armys-jltv-award/" about="#mwt77" typeof="mw:Transclusion" class="external text" id="mwAcQ" data-mw='{"parts":[{"template":{"target":{"wt":"Webarchive","href":"./Template:Webarchive"},"params":{"url":{"wt":"https://web.archive.org/web/20160219094651/http://www.dodbuzz.com/2016/02/17/lockheed-withdraws-protest-of-armys-jltv-award/"},"date":{"wt":"2016-02-19"}},"i":0}}]}'>Archived</a><span about="#mwt77" id="mwAcU"> 2016-02-19 at the </span><a rel="mw:WikiLink" href="https://en.wikipedia.org/wiki/Wayback_Machine" title="Wayback Machine" about="#mwt77" id="mwAcY">Wayback Machine</a><link rel="mw:PageProp/Category" href="./Category:Webarchive_template_wayback_links" about="#mwt77" id="mwAcc"/> - DoDBuzz.com, 17 February 2016</span></li>
+</ol></div></div>
+
+</section><section data-mw-section-id="6" id="mwAcg" aria-labelledby="External_links"><div class="mw-heading mw-heading2"><h2 id="External_links">External links</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lockheed_Martin_JLTV&amp;action=edit&amp;section=6" title="Edit section: External links"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul id="mwAck"><li id="mwAco"><a rel="mw:ExtLink nofollow" href="https://web.archive.org/web/20120124023201/http://www.lockheedmartin.com/us/products/jltv.html" class="external text" id="mwAcs">Lockheed Martin JLTV</a></li></ul>
+
+<link rel="mw:PageProp/Category" href="./Category:Military_light_utility_vehicles" id="mwAcw"/>
+<link rel="mw:PageProp/Category" href="./Category:Joint_Light_Tactical_Vehicle" id="mwAc0"/>
+<link rel="mw:PageProp/Category" href="./Category:Lockheed_Martin" id="mwAc4"/></section>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐6cd7594557‐hnxsm
+Cached time: 20261007102918
+Cache expiry: 2592000
+Cache expiry source: Module:Citation/CS1 (os.date(%Y))
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc, use‐parsoid]
+CPU time usage: 0.372 seconds
+Real time usage: 0.439 seconds
+Preprocessor visited node count: 1906/1000000
+Revision size: 19827/2097152 bytes
+Post‐expand include size: 32971/2097152 bytes
+Template argument size: 3927/2097152 bytes
+Highest expansion depth: 21/100
+Expensive parser function count: 3/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 17736/5000000 bytes
+Lua time usage: 0.095/10.000 seconds
+Lua memory usage: 7899781/52428800 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  337.968      1 -total
+ 36.95%  124.875      1 Template:Infobox_weapon
+ 20.04%   67.728      6 Template:Main_other
+ 16.38%   55.366      1 Template:Infobox
+ 15.28%   51.631      6 Template:Cite_web
+ 15.03%   50.792      1 Template:Short_description
+  5.75%   19.420      8 Template:Convert
+  5.33%   17.998      2 Template:Fix
+  4.97%   16.781      1 Template:Unreliable_source?
+  4.64%   15.668      2 Template:Pagetype
+-->
+
+<!-- Render ID f3899465-c239-11f1-b388-79c5a7e6881a -->
+
+<!-- Saved in parser cache with key enwiki:parsoid-pcache:34563519:|#|:idhash:useParsoid=1 and timestamp 20261007102918 and revision id 1369062874. Rendering was triggered because: page_view
+ -->
+
+<!-- Parsoid 0.24.0.0-alpha25 -->
+</div><!--
+Post‐processing cache key enwiki:postproc‐parsoid‐pcache:34563519:|#|:idhash:injectTOC=0!postproc=1!skin=vector‐2022!useParsoid=1!visibleLinks=single, generated at 20261007132741
+--><noscript><img src="https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Lockheed_Martin_JLTV&amp;oldid=1369062874">https://en.wikipedia.org/w/index.php?title=Lockheed_Martin_JLTV&amp;oldid=1369062874</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Military_light_utility_vehicles" title="Category:Military light utility vehicles">Military light utility vehicles</a></li><li><a href="/wiki/Category:Joint_Light_Tactical_Vehicle" title="Category:Joint Light Tactical Vehicle">Joint Light Tactical Vehicle</a></li><li><a href="/wiki/Category:Lockheed_Martin" title="Category:Lockheed Martin">Lockheed Martin</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:CS1:_unfit_URL" title="Category:CS1: unfit URL">CS1: unfit URL</a></li><li><a href="/wiki/Category:All_articles_lacking_reliable_references" title="Category:All articles lacking reliable references">All articles lacking reliable references</a></li><li><a href="/wiki/Category:Articles_lacking_reliable_references_from_June_2016" title="Category:Articles lacking reliable references from June 2016">Articles lacking reliable references from June 2016</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Deprecated_archive_template_links" title="Category:Deprecated archive template links">Deprecated archive template links</a></li><li><a href="/wiki/Category:Wikipedia_articles_containing_buzzwords_from_October_2019" title="Category:Wikipedia articles containing buzzwords from October 2019">Wikipedia articles containing buzzwords from October 2019</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer" >
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 12 August 2026, at 17:35<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-renderedwith">Page was rendered with <a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid" class="extiw" title="mw:Special:MyLanguage/Parsoid">Parsoid</a>.</li>
+	<li id="footer-info-copyright">Text is available under the <a href="/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" title="Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License">Creative Commons Attribution-ShareAlike 4.0 License</a>;
+additional terms may apply. By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" class="extiw" title="foundation:Special:MyLanguage/Policy:Terms of Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy" class="extiw" title="foundation:Special:MyLanguage/Policy:Privacy policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a rel="nofollow" class="external text" href="https://wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">Legal &amp; safety contacts</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.wikipedia.org/w/index.php?title=Lockheed_Martin_JLTV&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>Search</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="Search Wikipedia">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="Contents" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"   >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="en" dir="ltr"><span class="mw-page-title-main">Lockheed Martin JLTV</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>Add languages</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>Add topic</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.skinning.content.parsoid\".\n[1.47] Skins already provide these styles. Do not add this module.");mw.config.set({"wgHostname":"mw-web.eqiad.main-dccb7c848-s76gd","wgBackendResponseTime":149,"wgPageParseReport":{"limitreport":{"cputime":"0.372","walltime":"0.439","ppvisitednodes":{"value":1906,"limit":1000000},"revisionsize":{"value":19827,"limit":2097152},"postexpandincludesize":{"value":32971,"limit":2097152},"templateargumentsize":{"value":3927,"limit":2097152},"expansiondepth":{"value":21,"limit":100},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":17736,"limit":5000000},"entityaccesscount":{"value":0,"limit":500},"timingprofile":["100.00%  337.968      1 -total"," 36.95%  124.875      1 Template:Infobox_weapon"," 20.04%   67.728      6 Template:Main_other"," 16.38%   55.366      1 Template:Infobox"," 15.28%   51.631      6 Template:Cite_web"," 15.03%   50.792      1 Template:Short_description","  5.75%   19.420      8 Template:Convert","  5.33%   17.998      2 Template:Fix","  4.97%   16.781      1 Template:Unreliable_source?","  4.64%   15.668      2 Template:Pagetype"]},"scribunto":{"limitreport-timeusage":{"value":"0.095","limit":"10.000"},"limitreport-memusage":{"value":7899781,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-6cd7594557-hnxsm","timestamp":"20261007102918","ttl":2592000,"transientcontent":false,"expiry-source":"Module:Citation/CS1 (os.date(%Y))"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Lockheed Martin JLTV","url":"https:\/\/en.wikipedia.org\/wiki\/Lockheed_Martin_JLTV","sameAs":"http:\/\/www.wikidata.org\/entity\/Q6665600","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q6665600","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2012-02-01T04:59:33Z","dateModified":"2026-08-12T17:35:17Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/53\/Lockheed_JLTV.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original","headline":"type of light tactical vehicle"}</script>
+</body>
+</html>

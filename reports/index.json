@@ -704,7 +704,23 @@
       "archived": true,
       "archived_utc": "2026-10-25T08:21:17Z",
       "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-08.md"
+    },
+    "2026-10-25-10": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_10-15-13.md",
+      "bytes": 3233,
+      "cjk": 662,
+      "sources": 5,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [
+        "W4 段落「來源依據」中文字數 16 偏少",
+        "W5 段落「Topic」英文內容偏少",
+        "W5 段落「Key Findings」英文內容偏少",
+        "W5 段落「Potential Impact」英文內容偏少",
+        "W5 段落「Commentary」英文內容偏少"
+      ],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-25T08:21:17Z"
+  "updated_utc": "2026-10-25T10:15:33Z"
 }

@@ -784,7 +784,17 @@
       "archived": true,
       "archived_utc": "2026-10-25T16:37:38Z",
       "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-16.md"
+    },
+    "2026-10-25-17": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_17-38-32.md",
+      "bytes": 5688,
+      "cjk": 873,
+      "sources": 8,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-25T16:37:38Z"
+  "updated_utc": "2026-10-25T17:40:48Z"
 }

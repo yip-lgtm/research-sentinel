@@ -1,0 +1,366 @@
+                               DEPUTY SECRETARY OF DEFENSE
+                                     1010 DEFENSE PENTAGON
+                                    WASHINGTON , DC 20301-1010
+                                                                                                  AUG O8 2024
+
+
+
+MEMORANDUM FOR SENIOR PENTAGON LEADERSHIP
+               COMMANDERS OF THE COMBATANT COMMANDS
+               DEFENSE AGENCY AND DOD FIELD ACTIVITY DIRECTORS
+
+SUBJECT: Department of Defense Requirements for Managing Brain Health Risks from Blast
+         Overpressure
+
+        The Department is committed to advancing combat readiness while reducing risks
+associated with blast overpressure (BOP) 1, in accordance with my June 8, 2022 memorandum,
+"Department of Defense Warfighter Brain Health Initiative - Strategy and Action Plan." This
+memorandum rescinds Assistant Secretary of Defense for Readiness Memorandum, "Interim
+Guidance for Managing Brain Health Risk from Blast Overpressure," November 4, 2022, and
+establishes DoD requirements and direction for the management of health risks to DoD
+personnel from exposures to BOP. This policy is not meant to preclude or unreasonably restrict
+commanders from conducting mission-essential weapons training. Rather, this policy establishes
+requirements for practical risk management actions to mitigate and track BOP exposures across
+the DoD. In furtherance of that intent, I direct the heads ofDoD Components to begin
+implementing these requirements immediately and develop Component BOP risk management
+policies to maximize the readiness and health of the force in accordance with this memorandum.
+
+         Experiences by DoD personnel in training and operational environments demonstrate
+possible adverse effects on brain health and cognitive performance (e.g., headache, decreased
+reaction time, attention difficulty, memory loss) resulting from acute (e.g., single or short-term)
+and chronic (e.g., repetitive or continuous) exposure to BOP. Brain health effects from BOP
+exposures are not yet fully understood, but adverse health and cognitive performance impacts
+have been reported from acute exposures to BOP above 4 pounds per square inch (psi)2. An
+interim BOP exposure safety guideline of 4 psi will be used as a threshold to require initiation of
+appropriate risk management actions until further research is complete, defining brain health
+impacts from BOP exposure. Weapons systems known to produce BOP exposures exceeding
+4 psi include breaching charges, shoulder fired weapons, 0.50 caliber rifles/guns, and indirect
+fires (see Attachment 1).
+
+
+
+
+1
+  BOP is defined as the sudden onset of a pressure wave, above normal atmospheric pressure, which occurs from
+blast (e.g., explosions and weapons firing events). The pressure wave is caused by the energy released during
+explosions and weapons firing.
+2
+  Four psi was identified as a health-based safety guideline informed by evolving medical science. This level is
+different from those anticipated temporary exposure levels developed to protect the public from accidental
+explosives mishaps in munitions storage and transport that consider mishap probability as detailed in Defense
+Explosives Safety Regulation 6055 .09, "Defense Explosives Safety," January 13, 20 I 9. Additional details regarding
+the derivation of 4 psi are available in "Interim Recommendation for Blast Overpressure Exposure Safety for Brain
+Health," located at: https://denix.osd .mil/auth/soh/programs/bop/
+To manage brain health risks of BOP exposures, heads of DoD Components will:
+
+•   Ensure all new Active and Reserve Component accessions undergo cognitive
+    assessments as part of the entry process by December 31 , 2024. In addition,
+    accelerate already mandated requirements to execute baseline cognitive assessments
+    for currently serving high-risk Active Duty Service members by the end of FY 2025,
+    and address the remaining Active and Reserve Component Service members, with the
+    exception of the IRR, as soon as possible.
+
+•   Implement procedures and standards for training and operations that incorporate BOP
+    risk management to minimize the risk of brain injury, including at a minimum:
+
+    -   Stand-off distances for personnel involved in training (e.g., instructors, range
+        safety officers) in accordance with Attachment 2. Modifications may be made in
+        situations where increasing stand-off distance inadvertently introduces a safety
+        risk (e.g., recruit training activities). The "DoD Blast Overpressure Reference
+        and Information Guide" may be used as a resource to support implementation
+        efforts, located at Health.mil/BrainHealthRisk
+
+    -   Stand-off distances for non-training audiences that maximize distance from the
+        weapons system to the greatest extent possible.
+
+    -   Personal protective equipment for firers, trainers, and other personnel at an
+        increased risk of BOP exposure.
+
+•   Minimize the number of personnel in the vicinity of BOP generating events
+    (i.e., personnel who are not directly involved in the training or executing tasks
+    associated with the training event) to minimize unnecessary exposure.
+
+•   Integrate BOP risk management within the weapons system acquisition lifecycle,
+    including leveraging technology to reassess BOP hazards for legacy weapons systems
+    that are anticipated to produce BOP exceeding 4 psi. Include warnings and cautions
+    in weapon system technical publications (e.g., maintenance/operator manuals,
+    maintenance/operator training) to mitigate BOP hazards that cannot be eliminated
+    through design.
+
+•   Ensure compliance with safety warnings and restrictions in weapons systems
+    technical and operators' manuals.
+
+•   Integrate simulations into training strategies to reduce BOP exposure, when
+    appropriate, and not expend excess rounds once training standards are achieved.
+
+•   Identify and track all personnel who are potentially exposed to BOP in the Defense
+    Occupational and Environmental Health Readiness System-Industrial Hygiene
+    (DOEHRS-IH), prioritizing those personnel who possess an occupational specialty
+
+
+
+                                          2
+           that, by nature of operational activities, regularly places them at increased risk of
+           BOP exposures. See Attachment 3 for prioritized occupational specialties.
+
+       •   Prioritize efforts to collect BOP exposure data consistent with applicable DoD
+           guidance. The Under Secretary of Defense for Personnel and Readiness shall
+           promulgate occupational exposure assessment data collection protocol for blast
+           overpressure hazards in accordance with the established DoD issuance process.
+
+       •   Establish and implement internal recordkeeping processes and procedures in advance
+           of full DOEHRS-IH (BOP Module) functionality for managing BOP exposure sensor
+           data. The Under Secretary of Defense for Personnel and Readiness will determine
+           and communicate when full functionality is achieved.
+
+       •   Train and educate personnel potentially exposed to BOP hazards on the potential
+           adverse health and performance effects, including cognitive impairments, and risk
+           management actions to protect themselves.
+
+       •   Establish procedures to ensure personnel recognize BOP symptoms, report exposures
+           to their command, and seek an evaluation from their medical provider if experiencing
+           symptoms.
+
+       •   Establish procedures to track and maintain oversight of BOP exposure risk
+           management actions, including processes to request, and provide justification in
+           writing for, any exceptions to the policies in this memorandum. When military
+           requirements render compliance with this policy infeasible or inappropriate, apply
+           risk management procedures in accordance with DoD Instruction 6055 .01 , "DoD
+           Safety and Occupational Health (SOH) Program," as appropriate.
+
+        The Under Secretary of Defense for Personnel and Readiness is authorized to provide
+additional guidance to implement the direction in this memorandum.
+
+       Questions concerning this policy should be directed to the Office of the Assistant
+Secretary of Defense for Readiness.
+
+
+
+
+Attachments:
+As stated
+
+
+
+
+                                                 3
+                                          ATTACHMENT 1
+
+         Common Weapons Systems Associated with BOP Exposure (Non-Exhaustive)
+
+ Category of Weapon
+                                                           Weapon System
+       Svstem
+                          Door: Net Explosive Weight (NEW) of .23 pounds (lbs) of Trinitrotoluene (TNT),
+Breaching Explosives      slider - .30 lbs TNT
+                          Wall: NEW of 10.0 lbs - 14.0 lbs
+                          M3 , Multi-role Anti-Armor or Anti-personnel Weapon System (MAA WS)
+Shoulder Mounted          Ml36 , Light Anti-Tank Weapon(AT4)
+                          M72, Light Anti-Armor Weapon (LAW)
+                          M 107, Sniper rifle
+                          M2A I, Machine gun
+0.50 Caliber Gun/ Rifle
+                          MK 15, Sniper rifle
+                          GAU 21 , Machine gun
+                          Howitzers (all platforms) - 105 mm , 155 mm
+Indirect Fire System
+                          Mortars (all platforms) - 120 mm, 81 mm, 60 mm
+                                                      ATTACHMENT 2
+
+           Recommended Minimum Stand-off Distances for Characterized Weapon Systems
+                                   (Applies to Stationary, Land-Based, Open Terrain)
+                                                             •,.   -
+                                                                                                   Minimum Standoff
+                                                                                                   Distance from Blast
+    Category of Weapon System                                Weapon System
+                                          i
+                                                                                                          Source
+                                                                                                 (radial distance in feet)
+                                                                 Water Door
+    Breaching Exp losives                                                                                     13
+                                                Charge 0.1 1 lb N .E. W. (Exterior Breaching)
+                                                M3 Mu lti -role Anti-armor Anti-personnel
+                                                        Weapon System (MMWS)                                  16
+                                              Ammunition/Round Type: A557/84 mm HEAT TP 552
+
+    1                                         Ml 36AI Anti -tank 4 Confi ned Space (AT4CS)
+        Shoulder Mounted                                                                                      10
+                                              Ammunition/Round Type: 84mm AT4CS-RS TP 552
+
+
+                                                  M72 Light Anti-Armor Weapon (LAW)
+                                                                                                              10
+                                                   Ammunition/Round Type: 66 mm HEAT
+
+                                                             MI 07 Sniper Rifle
+                                               Ammunition/Round Type: A557/0.50 BMG - M33                     7
+                                                        Ball with Propellant: WC 860
+                                                      M2A I Heavy Machine gun
+    0.50 Caliber Gun/Rifle                                  (Trailer-mounted)                                 7
+                                                  Ammunition/Round Type: 0.50 cal MS API
+
+                                                            MK 15 Sniper Rifle
+                                                                                                              7
+                                                  Ammuniti on/Round Type: 0.50 cal M33 Ball
+
+                                                              M777 155 mm                         2
+                                                                                                      Measurement < 4 psi
+                                              Ammunition/Round Type: 2M23 l charges ("2LIMA")
+                                                      Ml09 A6/A7 155 mm Paladin                   2
+    Indirect Fire System (Howitzers)                                                                  Measurement < 4 psi
+                                                  Ammunition/Round Type: 66 mm HEAT
+                                                               Ml 19 105 mm
+                                                                                                  2
+                                              Ammunition/Round Type: MI projectile, I05 mm HE         Measurement < 4 psi
+                                                       M67 orooellant svstem charge 6
+                                                                M224 60 mm
+                                               Ammunition/Round Type: MI061 (B29) HE mortar                   3
+                                                        cartridge, 2 propell ing charges
+                                                               M252 81 mm
+    3
+        Indirect Fire Systems (Mortars)          Ammunition/Round Type: M889A2 HE mortar                      7
+                                                     cartridge, M223 propelling charge
+                                                           Ml20/121 120 mm
+                                              Ammunition/Round Type: M933 HE mortar cartridge,                13
+                                                          M230 propelling charge
+Notes:
+1
+  Posterior stand-off distances for shou lder mounted weapon systems will follow estab li shed, operational
+requirements for safe back blast area.
+2
+  Based on traditional firing team positioning, measurements are below(<) 4 psi ; therefore, maximize stand-off
+distances to the greatest extent possible, while balancing training and safety requirements.
+3
+  When firing indirect fire system (mortars), mortar teams will assume a posture that is as close to the ground as
+possible, maximizing space below the muzzle of the tube.
+                                                ATTACHMENT 3
+
+            Occupational Specialties at Increased Risk of Blast Overpressure Exposure
+
+*Occupational     Personnel Description                                         Service
+Specialty
+13A               Field Artillery Officer                                       Army
+138               Cannon Crewmember                                             Army
+13M               MLRS/HIMARS Crewmember                                        Army
+118               Infantryman                                                   Army
+IIA               Infantry Officer                                              Anny
+128               Combat Engineer                                               Anny
+190               Cavalry Scout                                                 Army
+12 Series         Engineers Branch                                              Anny
+128               Combat Engineer                                               Anny
+31 Series         Military Police Branch                                        Army
+3 1B(SRT)         Military Police (Special Reaction Team)                       Army
+3 18/ DA          Military Police (Special Reaction Team)                       Anny
+74 Series         Chemical Corps                                                Army
+18 Series         Special Operations Forces Operators                           Army
+89 Series         Explosives Ordnance                                           Army
+IIH               Rescue Pilot                                                  Air Force
+19ZXA             Special Tactics Officer (STO)                                 Air Force
+130               Combat Rescue Officer (CRO)                                   Air Force
+13L               Air Liaison Officer (ALO)                                     Air Force
+31P               Security Forces                                               Air Force
+32EXH             Civil Engineering (assigned to EOD)                           Air Force
+3E2XX             Pavements and Construction Equipment Specialists              Air Force
+38E               Engineering                                                   Air Force
+3E8               Explosive Ordnance Disposal (EOD)                             Air Force
+3P                Security Forces                                               Air Force
+3P0               Security Forces                                               Air Force
+311               Rifleman                                                      Marine
+3 17              Scout Sniper                                                  Marine
+33 1              Machine Gunner                                                Marine
+35 1              Infantry Assault Marine                                       Marine
+352               Anti-Tank Missile Gunner                                      Marine
+302               Infantry Officer (LtCol to 2ndLt)                             Marine
+303               Light-Armored Reconnaissance (LAR) Officer                    Marine
+306               Infantry Weapons Officer (Ill)                                Marine
+370               Special Operations Officer                                    Marine
+802               Field Artillery Officer (I)                                   Marine
+930               Range Officer (Ill)                                           Marine
+1302              Combat Engineer Officer (I)                                   Marine
+1802              Tank Officer (I)                                              Marine
+*Occupational   Personnel Description                                               Service
+Specialty
+1803            Assault Amphibious Vehicle (AA V) Officer (I)                       Marine
+2305            Explosive Ordnance Disposal Officer (II/Ill)                        Marine
+313             Light Armored Reconnaissance Marine                                 Marine
+1834            Amphibious Combat Vehicle (ACV) Crewmember                          Marine
+1371            Combat Engineer                                                     Marine
+1834            Amphibious Combat Vehicle (ACV) Crewmember                          Marine
+1371            Combat Engineer                                                     Marine
+6199            Enlisted Aircrew/Aerial Observer/Gunner                             Marine
+8024            Combatant Diver Marine                                              Marine
+2336            Explosive Ordnance Disposal (EOD) Technician                        Marine
+811             Field Artillery Cannoneer                                           Marine
+351             Field Artillery Cannoneer                                           Marine
+367             Light Armored Reconnaissance Master Gunner                          Marine
+7212            Low Altitude Air Defense (LAAD) Gunner                              Marine
+1867            MI A I Tank Master Gunner                                           Marine
+8071            Special Operations Capability Specialist (SOCS)                     Marine
+6177            Weapons and Tactics Crew Chief Instructor                           Marine
+P0IA            Chief Master-At-Arms (CMAA)                                         Navy
+P03A            Harbor Security Patrol Leader                                       Navy
+P04A            Harbor Security Boat Training Supervisor (HSB TRASUP)               Navy
+PI0A            Nuclear Weapons Security Specialist (NWSS)                          Navy
+PIIA            Physical Security Specialist (PSS)                                  Navy
+V020            Fire Controlman (FC) Combined "A" School (BL-I)                     Navy
+V020            Fire Controlman (FC) Combined "A" School (BL-I)                     Navy
+V030            Gunner's Mate (GM) Combined "A" School (BL- I)                      Navy
+V031            Gunner's Mate (GM) Combined "A" School (BL-0)                       Navy
+V0IA            ACB-12GCSMK 160MODs 14-16/EOSS MK20MOD0FC                           Navy
+V02A            Close-In Weapon System (CIWS) Phalanx Block I B Baseline 2          Navy
+                Technician
+Vl5C            FCGM                                                                Navy
+VISA            CIWS MK-15 BLOCK 11-14 Technician                                   Navy
+Vl9A            Phalanx Close-In Weapon System MK 15 MOD 11-14, 21, 22, and 25-28   Navy
+                Technician
+wooo            Mineman (MN) Apprentice Technical Training (BL- I)                  Navy
+717B            Small Arms Marksmanship Instructor                                  Navy
+718B            Crew Served Weapons (CSW) Instructor                                Navy
+726A            UDT/SEAL Candidate                                                  Navy
+758B            Salvage/Construction Demolition Diver                               Navy
+775B            Maritime Security                                                   Navy
+779B            25mm Machine Gun System (MGS) MK 38 MOD Gun Weapon System           Navy
+                (GWS) Technician
+787A            Naval Special Warfare Small Arms Organizational Level Maintenance   Navy
+800G            Individual Augmentation (IA) Support Assignment-Basic Combat Unit   Navy
+                Member
+
+
+
+                                                     2
+ *Occupational   Personnel Description                                                       Service
+ Specialty
+ 803G            Individual Augmentation (IA) Support Assignment-Counter Rocket              Navy
+                 Artillery and Mortar (C-RAM)
+ 804G            Expeditionary Force -Combat Skill                                           Navy
+ 810G            Maritime Expeditionary Security Force (MESF) Coxswain                       Navy
+ 811G            Maritime Expeditionary Security Force (MESF) Operator                       Navy
+ 819G            Individual Augmentation (IA) Support Assignment Military Transition         Navy
+                 Team/ Iraq Assistance Group
+ 820G            GWOT IA/ ILO Combat Training (NIACT)-Deployed                               Navy
+ 837A            Naval Special Warfare (Combat Support)                                      Navy
+ 853A            Force Protection Boat Coxswain                                              Navy
+ 854A            Naval Special Warfare (Combat Service Support)                              Navy
+ 1130            Unrestricted Line Officer billet requiring Special Warfare (SEAL)           Navy
+                 qualification
+ 1140            Unrestricted Line Officer billet requiring Explosive Ordnance Disposal      Navy
+                 (EOD) Warfare Qualification
+ 1180            Unrestricted Line Officer billet for a student in training for Special      Navy
+                 Warfare qualification
+ 1190            Unrestricted Line Officer billet for an officer in training for Explosive   Navy
+                 Ordnance Disposal (EOD) qualification
+ 5100            Staff Corps Officer billet requiring Civil Engineering specialty            Navy
+ 7150            Warrant Officer (Line) billet requiring supervision in Special Warfare      Navy
+                 Technician specialty
+ 7170            Warrant Officer (Line) billet requiring supervis ion in Naval Special       Navy
+                 Warfare Combatant-Craft Crewman
+ 7200            Warrant Officer (Line) billet requiring specialty of a Diving Office        Navy
+ 7480            Warrant Officer (Line) billet requiring supervision in Explosive            Navy
+                 Ordnance Disposal Technician specialty
+*Including civilian equivalent occupational specialties.
+
+
+
+
+                                                      3
+

@@ -162,6 +162,16 @@ def md_to_html(md: str) -> str:
             i += 1
             continue
 
+        # 裸標題段（用戶 2026-10-25 滿分格式）：「主題 / Topic」無 # 前綴
+        bare = re.match(
+            r"^(主題|核心發現|潛在影響|來源依據|簡評)\s*/\s*([A-Za-z][A-Za-z\s]*)$",
+            stripped)
+        if bare:
+            close_list()
+            out.append(f"<h3>{inline(stripped)}</h3>")
+            i += 1
+            continue
+
         # hr
         if re.match(r"^(-{3,}|\*{3,})$", stripped):
             close_list()
@@ -285,6 +295,12 @@ def report_body_md(text: str) -> str:
     lines = text.split("\n")
     for i, line in enumerate(lines):
         if line.strip().startswith("### "):
+            return "\n".join(lines[i:]).strip()
+    # 裸標題格式（用戶 2026-10-25 滿分樣本）：第一個「主題 / Topic」行開始就係正文
+    bare = re.compile(
+        r"^(主題|核心發現|潛在影響|來源依據|簡評)\s*/\s*[A-Za-z][A-Za-z\s]*$")
+    for i, line in enumerate(lines):
+        if bare.match(line.strip()):
             return "\n".join(lines[i:]).strip()
     # fallback：剝走開頭連續嘅標題行 / 分隔線 / 空行
     i = 0

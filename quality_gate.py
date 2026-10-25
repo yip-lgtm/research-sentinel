@@ -53,6 +53,13 @@ def cjk_count(s):
     return len(CJK.findall(s))
 
 
+# 裸標題格式（用戶 2026-10-25 滿分示例）：段標題唔帶 # ，寫成「主題 / Topic」
+# 2026-10-25 用戶貼出滿分基準樣本，五段標題全部係裸標題。若閘只認 markdown 標題，
+# 照樣本寫嘅新報告會被判「缺少中文段落標題」→ 誤判為不合格 → 被 finalize 歸檔。
+BARE_SECTION = re.compile(
+    r"^(主題|核心發現|潛在影響|來源依據|簡評)\s*/\s*([A-Za-z][A-Za-z\s]*)$")
+
+
 def parse(text):
     heads = {}
     order = []
@@ -61,6 +68,12 @@ def parse(text):
         m = re.match(r"^\s{0,3}#{1,6}\s+(.*\S)\s*$", ln)
         if m:
             cur = m.group(1).strip()
+            heads.setdefault(cur, [])
+            order.append(cur)
+            continue
+        bare = BARE_SECTION.match(ln.strip())
+        if bare:
+            cur = ln.strip()
             heads.setdefault(cur, [])
             order.append(cur)
             continue
@@ -189,12 +202,20 @@ def main():
     if len(order) > MAX_HEADINGS:
         warns.append(f"W3 標題數 {len(order)} 偏多（> {MAX_HEADINGS}），應收斂為五段")
     # W4 每段最小內容量
+    # 來源段例外：條列項係引用（多為英文 + URL），中文字數對佢冇意義
     for zh, en in REQUIRED:
+        if zh == "來源依據":
+            continue
         _, b = find_head(heads, zh)
         if b is not None and cjk_count(b) < 30:
             warns.append(f"W4 段落「{zh}」中文字數 {cjk_count(b)} 偏少")
     # W5 英文段長度
+    # 裸標題格式（用戶 2026-10-25 滿分樣本）：中英並列喺同一個標題行，
+    # 段內只有中文正文 → 英文詞數自然少，唔算缺陷（標題已提供中英對照）。
+    bare_mode = any(BARE_SECTION.match(h) for h in heads)
     for zh, en in REQUIRED:
+        if bare_mode:
+            break
         _, b = find_head(heads, en)
         if b is not None and len(re.findall(r"[A-Za-z]{2,}", b)) < 25:
             warns.append(f"W5 段落「{en}」英文內容偏少")

@@ -834,7 +834,26 @@
       "archived": true,
       "archived_utc": "2026-10-25T21:41:26Z",
       "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-21.md"
+    },
+    "2026-10-25-22": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_22-28-59.md",
+      "bytes": 2705,
+      "cjk": 589,
+      "sources": 0,
+      "gate_pass": false,
+      "fails": [
+        "H1 結構: missing English heading 「Key Findings」; missing English heading 「Potential Impact」",
+        "H6 來源依據不足：0 條列項、2 個 URL，最少 2 個獨立來源",
+        "H10 來源段用數字編號，品質閘只認 - / * 項目符號；請改寫為 - 開頭"
+      ],
+      "warnings": [
+        "W10 潛在影響冇任何具體案例（州／城市／示範／實測）：須至少給一個可核查的具體傳導路徑或案例"
+      ],
+      "archived_by": "finalize.py",
+      "archived": true,
+      "archived_utc": "2026-10-25T22:29:34Z",
+      "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-22.md"
     }
   },
-  "updated_utc": "2026-10-25T21:41:26Z"
+  "updated_utc": "2026-10-25T22:29:34Z"
 }

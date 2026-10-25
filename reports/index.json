@@ -853,7 +853,24 @@
       "archived": true,
       "archived_utc": "2026-10-25T22:29:34Z",
       "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-22.md"
+    },
+    "2026-10-25-23": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_23-58-52.md",
+      "bytes": 4608,
+      "cjk": 781,
+      "sources": 0,
+      "gate_pass": false,
+      "fails": [
+        "H1 結構: missing English heading 「Commentary」",
+        "H6 來源依據不足：0 條列項、4 個 URL，最少 2 個獨立來源",
+        "H10 來源段用數字編號，品質閘只認 - / * 項目符號；請改寫為 - 開頭"
+      ],
+      "warnings": [],
+      "archived_by": "finalize.py",
+      "archived": true,
+      "archived_utc": "2026-10-25T23:59:47Z",
+      "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-23.md"
     }
   },
-  "updated_utc": "2026-10-25T22:29:34Z"
+  "updated_utc": "2026-10-25T23:59:47Z"
 }

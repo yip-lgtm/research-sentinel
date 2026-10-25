@@ -804,7 +804,7 @@
  ],
  "phase_changed_utc": "2026-10-22T19:52:00Z",
  "reports_form_fail_rewritten": 3,
- "updated_utc": "2026-10-25T15:47:25Z",
+ "updated_utc": "2026-10-25T15:48:30Z",
  "operating_rules": {
   "bytes_budget": {
    "limit_bytes": 9000,
@@ -820,7 +820,14 @@
    "delivery_version": "quality_gate.py <file> --delivery，≤3900 chars，單則 Telegram 訊息",
    "reason": "gateway MAX_PLATFORM_OUTPUT=4000 實際保留 3800 chars，貼長版會被截斷，用戶只見尾部"
   },
-  "archive_drafts": "未過品質閘嘅草稿 mv 去 reports/archive/，index.json 標 archived:true，唔上架"
+  "archive_drafts": "未過品質閘嘅草稿 mv 去 reports/archive/，index.json 標 archived:true，唔上架",
+  "pending_accounting": {
+   "rule": "reports_pending 唔可以手動維護 —— 每次計數由 reports/index.json + state.user_feedback + reports/*.md 重新推導：pending = [live .md 檔 且 gate_pass=True 且 stamp 不在 user_feedback]",
+   "lesson_from": [
+    "2026-10-25-15"
+   ],
+   "why": "2026-10-25 發現 state.reports_pending=30 但實際 32，reports_total=45 但實際 49，topic_performance 有 3 個已評 pass 仍標 pending —— 統計同實際脫節，會令「未評」查詢失真。"
+  }
  },
  "identity_note": "2026-10-23 用戶改寫身份：不再自稱『科研哨兵／科研報告機器』，改為 24/7 的人性化練習哨兵 —— 透過反覆練習發展穩定判斷、自然語氣、誠實自我認知。科研交付仍然係主要練習場（每小時報告），但交付目的由『產出科研報告』變為『練習判斷與表達』。",
  "practice_log": [
@@ -846,6 +853,7 @@
  "lessons": [
   "2026-10-24 01:25 | 發現 21:00 報告 (2026-10-23-21.md) 中文字 1093 > 1000 上限，quality_gate FAIL，但 finalize.py 只記錄 gate_pass 而冇執行『未過閘→archive』，所以檔案仍留喺 reports/（build_site.py 有跳過，故網站冇上架錯稿，但 archive 規則冇落地）。已做：(1) 手動精簡報告至 999 中文字（保留全部數字與事實，只刪冗詞），品質閘 PASS；(2) finalize.py 新增 archive_failed()：未過閘 → mv 去 reports/archive/ + index 標 archived:true，並加咗『修好後自動拉返上嚟』嘅反向路徑，已用 synthetic 測試驗證冪等；(3) index.json 重驗更新。規則：交付前必須自己跑 wc/quality_gate 確認，而唔可以只信 finalize.py 記錄——finalize.py 原本只做『記錄』冇做『執行』。",
   "2026-10-25 11:20 | reports_pending 記數失真：state.json 長期寫住 4，但 index.json 實際有 44 份過閘上架、其中 29 份用戶未評。pending 由『已投遞但用戶未評分』推出，應等於 29，唔係手動維護嘅常數。已修正為 29；另有 5 份未過閘草稿已歸檔，未投遞，唔計入 pending。",
-  "2026-10-25 11:23 | 三份草稿格式教訓：(1) 英文段可以完全唔寫——品質閘 H1 只查標題存在，但 W5 會警告英文少過 25 個英文詞；之後應直接寫英文對照段，唔好留空等之後補。(2)『簡評 / Assessment』唔算英文標題，H1 認『Commentary』——中英合併標題只寫英文詞即會 H1 FAIL。(3) 未過閘草稿唔代表內容無用：08 只需補一個英文標題同英文段就由歸檔翻上架，唔應直接棄掉。已補 07/08/10 英文對照，三份重跑品質閘全 PASS 並已 build/push 上網站。"
+  "2026-10-25 11:23 | 三份草稿格式教訓：(1) 英文段可以完全唔寫——品質閘 H1 只查標題存在，但 W5 會警告英文少過 25 個英文詞；之後應直接寫英文對照段，唔好留空等之後補。(2)『簡評 / Assessment』唔算英文標題，H1 認『Commentary』——中英合併標題只寫英文詞即會 H1 FAIL。(3) 未過閘草稿唔代表內容無用：08 只需補一個英文標題同英文段就由歸檔翻上架，唔應直接棄掉。已補 07/08/10 英文對照，三份重跑品質閘全 PASS 並已 build/push 上網站。",
+  "2026-10-25 15:50 | 統計自審：state.json 的 reports_pending(30)/reports_total(45) 同實際脫節（實際 32/49），另有 3 個已評 pass 主題仍標 pending、1 份未過閘草稿 (2026-10-24-14) 仍留喺 reports/ 冇 archive、site index 只顯示最新 6 張卡但全 47 頁存在。已做：重算統計、修正 verdict、2026-10-24-14 → reports/archive/ + index 標 archived、重 publish_site 確認線上 404。新規則：pending 唔手動維護，每次由 index.json + user_feedback 推導。"
  ]
 }

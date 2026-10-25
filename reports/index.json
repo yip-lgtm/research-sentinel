@@ -717,7 +717,24 @@
         "W5 段落「Commentary」英文內容偏少"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-25-12": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_12-44-20.md",
+      "bytes": 4494,
+      "cjk": 611,
+      "sources": 4,
+      "gate_pass": false,
+      "fails": [
+        "H1 結構: missing English heading 「Commentary」"
+      ],
+      "warnings": [
+        "W7 潛在影響段冇任何量化指標（金額／比率／容量／人數／年數）：應至少有一條【推論】附具體數字或可稽核案例"
+      ],
+      "archived_by": "finalize.py",
+      "archived": true,
+      "archived_utc": "2026-10-25T12:46:02Z",
+      "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-12.md"
     }
   },
-  "updated_utc": "2026-10-25T10:15:33Z"
+  "updated_utc": "2026-10-25T12:46:02Z"
 }

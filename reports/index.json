@@ -672,8 +672,8 @@
     },
     "2026-10-25-07": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_07-57-30.md",
-      "bytes": 4609,
-      "cjk": 854,
+      "bytes": 8947,
+      "cjk": 846,
       "sources": 5,
       "gate_pass": true,
       "fails": [],
@@ -688,27 +688,24 @@
     },
     "2026-10-25-08": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_08-20-12.md",
-      "bytes": 4996,
-      "cjk": 572,
+      "bytes": 5289,
+      "cjk": 512,
       "sources": 6,
-      "gate_pass": false,
-      "fails": [
-        "H1 結構: missing English heading 「Commentary」"
-      ],
+      "gate_pass": true,
+      "fails": [],
       "warnings": [
         "W4 段落「主題」中文字數 25 偏少",
         "W4 段落「來源依據」中文字數 0 偏少",
-        "W5 段落「Topic」英文內容偏少"
+        "W5 段落「Topic」英文內容偏少",
+        "W11 存檔版 4081 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
-      "archived_by": "finalize.py",
-      "archived": true,
-      "archived_utc": "2026-10-25T08:21:17Z",
-      "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-08.md"
+      "rewritten_from_draft": true,
+      "rewrite_note": "原草稿缺英文 Commentary 標題（簡評 / Assessment）致 H1 FAIL，已補英文對照並重跑品質閘 PASS，重新上架"
     },
     "2026-10-25-10": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_10-15-13.md",
-      "bytes": 3233,
-      "cjk": 662,
+      "bytes": 6221,
+      "cjk": 638,
       "sources": 5,
       "gate_pass": true,
       "fails": [],

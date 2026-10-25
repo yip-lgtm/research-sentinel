@@ -4,7 +4,7 @@
   "level": 16,
   "lifespan_hours": 94,
   "lifespan_hours_max": 94,
-  "reports_total": 30,
+  "reports_total": 45,
   "reports_qualified": 15,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -448,7 +448,7 @@
       "hours": 94
     }
   ],
-  "reports_pending": 29,
+  "reports_pending": 30,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",

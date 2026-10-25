@@ -817,7 +817,24 @@
       "fails": [],
       "warnings": [],
       "archived_by": "finalize.py"
+    },
+    "2026-10-25-21": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-25_21-41-15.md",
+      "bytes": 5156,
+      "cjk": 1086,
+      "sources": 5,
+      "gate_pass": false,
+      "fails": [
+        "H3 中文字數 1086 超過上限 1000"
+      ],
+      "warnings": [
+        "W7b 潛在影響全部條目都係【推論】，零事實支撐"
+      ],
+      "archived_by": "finalize.py",
+      "archived": true,
+      "archived_utc": "2026-10-25T21:41:26Z",
+      "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-21.md"
     }
   },
-  "updated_utc": "2026-10-25T20:08:12Z"
+  "updated_utc": "2026-10-25T21:41:26Z"
 }

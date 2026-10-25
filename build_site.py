@@ -280,6 +280,32 @@ def parse_report_meta(text: str) -> dict:
     m = re.search(r"（(\d{4}-\d{2}-\d{2} \d{2}:\d{2})\s*UTC）", text)
     if m:
         meta["stamp"] = m.group(1)
+
+    # 新格式（用戶 2026-10-25 滿分樣本）：`### 主題 / Topic` 標題行
+    # 之下第一行係中文主題、第二行係英文主題。之前完全唔支援呢個格式，
+    # 令網站卡片／報告頁標題回落成時間戳。
+    # 用行式解析（唔用 regex + re.S），因為粵語中文標題可能內含
+    # 4 字母以上嘅拉丁縮寫（INVICTA、MRI…），唔可以用「有冇英文」嚟判斷語言。
+    if not meta["title_zh"] or not meta["title_en"]:
+        lines = text.split("\n")
+        for i, ln in enumerate(lines):
+            s = ln.strip()
+            if not re.match(r"^(?:#{1,3}[ \t]*)?主題[ \t]*/[ \t]*Topic[ \t]*$", s):
+                continue
+            rest = [x.strip() for x in lines[i + 1:] if x.strip() != ""]
+            if not rest:
+                break
+            zh_line = rest[0]
+            en_line = rest[1] if len(rest) > 1 else ""
+            has_cjk = re.search(r"[\u4e00-\u9fff]", zh_line)
+            has_latin = re.search(r"[A-Za-z]{4,}", en_line)
+            if has_cjk and not meta["title_zh"]:
+                meta["title_zh"] = zh_line
+            if has_latin and not re.search(r"[\u4e00-\u9fff]", en_line):
+                meta["title_en"] = en_line
+            if meta["title_zh"] and meta["title_en"]:
+                break
+
     if not meta["title_zh"]:
         m = re.search(r"^#\s+(.+)$", text, re.M)
         if m:

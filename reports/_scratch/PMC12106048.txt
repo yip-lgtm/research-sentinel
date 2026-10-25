@@ -1,0 +1,511 @@
+
+ Impact of prior exposures on biomarkers of blast during military tactical training - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know 
+ Here's how you know 
+ Official websites use .gov 
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS 
+ A lock (
+ ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in 
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+ Search PMC Full-Text Archive 
+ Search in PMC 
+ Journal List
+ User Guide
+ PERMALINK
+ Copy 
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health.
+ Learn more:
+ PMC Disclaimer 
+ |
+ PMC Copyright Notice
+ Front Neurol 
+. 2025 May 13;16:1589742. doi: 10.3389/fneur.2025.1589742 
+ Search in PMC 
+ Search in PubMed 
+ View in NLM Catalog 
+ Add to search 
+ Impact of prior exposures on biomarkers of blast during military tactical training
+ Zhaoyu Wang 
+ Zhaoyu Wang 
+ 1 James J. Peters VA Medical Center, Bronx, NY, United States
+ 2 Icahn School of Medicine at Mount Sinai, New York, NY, United States
+ Find articles by Zhaoyu Wang 
+ 1, 2 , Shengnan Sun 
+ Shengnan Sun 
+ 1 James J. Peters VA Medical Center, Bronx, NY, United States
+ 2 Icahn School of Medicine at Mount Sinai, New York, NY, United States
+ Find articles by Shengnan Sun 
+ 1, 2 , Qingkun Liu 
+ Qingkun Liu 
+ 1 James J. Peters VA Medical Center, Bronx, NY, United States
+ 2 Icahn School of Medicine at Mount Sinai, New York, NY, United States
+ Find articles by Qingkun Liu 
+ 1, 2 , Alis Askar Kranfli 
+ Alis Askar Kranfli 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD, United States
+ Find articles by Alis Askar Kranfli 
+ 3 , Jeffrey Nemes 
+ Jeffrey Nemes 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD, United States
+ Find articles by Jeffrey Nemes 
+ 3 , Molly Sullan 
+ Molly Sullan 
+ 4 Department of Physical Medicine and Rehabilitation, University of Colorado – Anschutz Medical Campus, Aurora, CO, United States
+ 5 Rocky Mountain Regional VA Medical Center, Aurora, CO, United States
+ Find articles by Molly Sullan 
+ 4, 5 , Andrew Hoisington 
+ Andrew Hoisington 
+ 4 Department of Physical Medicine and Rehabilitation, University of Colorado – Anschutz Medical Campus, Aurora, CO, United States
+ 5 Rocky Mountain Regional VA Medical Center, Aurora, CO, United States
+ 6 Air Force Institute of Technology, Wright-Patterson Airforce Base, OH, United States
+ Find articles by Andrew Hoisington 
+ 4, 5, 6 , Lisa A Brenner 
+ Lisa A Brenner 
+ 4 Department of Physical Medicine and Rehabilitation, University of Colorado – Anschutz Medical Campus, Aurora, CO, United States
+ 5 Rocky Mountain Regional VA Medical Center, Aurora, CO, United States
+ Find articles by Lisa A Brenner 
+ 4, 5 , Maciej Skotak 
+ Maciej Skotak 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD, United States
+ Find articles by Maciej Skotak 
+ 3 , Christina R LaValle 
+ Christina R LaValle 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD, United States
+ Find articles by Christina R LaValle 
+ 3 , Yongchao Ge 
+ Yongchao Ge 
+ 2 Icahn School of Medicine at Mount Sinai, New York, NY, United States
+ Find articles by Yongchao Ge 
+ 2 , Walter Carr 
+ Walter Carr 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD, United States
+ Find articles by Walter Carr 
+ 3 , Fatemeh Haghighi 
+ Fatemeh Haghighi 
+ 1 James J. Peters VA Medical Center, Bronx, NY, United States
+ 2 Icahn School of Medicine at Mount Sinai, New York, NY, United States
+ Find articles by Fatemeh Haghighi 
+ 1, 2, * 
+ Author information 
+ Article notes 
+ Copyright and License information 
+ 1 James J. Peters VA Medical Center, Bronx, NY, United States
+ 2 Icahn School of Medicine at Mount Sinai, New York, NY, United States
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD, United States
+ 4 Department of Physical Medicine and Rehabilitation, University of Colorado – Anschutz Medical Campus, Aurora, CO, United States
+ 5 Rocky Mountain Regional VA Medical Center, Aurora, CO, United States
+ 6 Air Force Institute of Technology, Wright-Patterson Airforce Base, OH, United States
+ Edited by: Giuseppe Lazzarino, University of Catania, Italy
+ Reviewed by: Anandakumar Shunmugavel, Case Western Reserve University, United States
+ Daniel Trone, Naval Health Research Center, United States
+ ✉ *Correspondence: Fatemeh Haghighi, fatemeh.haghighi@mssm.edu 
+ Received 2025 Mar 19; Accepted 2025 Apr 23; Collection date 2025.
+ Copyright © 2025 Wang, Sun, Liu, Kranfli, Nemes, Sullan, Hoisington, Brenner, Skotak, LaValle, Ge, Carr and Haghighi.
+ This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+ PMC Copyright notice 
+ PMCID: PMC12106048  PMID: 40433620 
+ Abstract
+ Introduction
+ Blast injuries and subclinical effects are of significant concern among those Service Members (SMs) participating in military operations and tactical trainings. Studies of SMs repeatedly exposed during training find concussion-like symptomology with transient decrements in neurocognitive performance, and alterations in blood biomarkers. How prior mild TBI (mTBI) history interacts with low-level blast (LLB) exposure, however, remains unexplored, which we investigate in the present study, to identify interindividual biomarker changes from LLB exposures influenced by prior history of mTBI.
+ Methods
+ Gene transcript and amyloid-beta (Aβ40 and Aβ42) protein levels were assayed using timeseries blood specimens collected at pre-blast, post-blast (within ~1 h), and follow-up-blast (~16 h) after LLB exposure for 30 SMs (age 30.3 ± 7.5) via RNA-seq and Single Molecule Array (SIMOA). Statistical models with timepoint and mTBI status interaction adjusted for age were used, and p -values adjusted for multiple testing.
+ Results
+ We found enrichment of genes involved in blood brain barrier, inflammatory, and immune responses associated with blast exposure, with significant elevated expression of target genes among SMs with mTBI history. Levels of Aβ40 and Aβ42 did not differ pre-blast vs. post/follow-up-blast LLB exposure when comparing SMs by prior mTBI history. Aβ40 and Aβ42 levels were significantly decreased in response to blast at the follow-up (~16 h) LLB exposure timepoint, concomitant with elevated expression of genes involved in amyloid-beta regulation and clearance in SMs with mTBI.
+ Conclusion
+ Findings show inter-individual differences in biomarker levels following exposures to blast that may be attributed to prior mTBI history.
+ Keywords: blast overpressure, mTBI, gene expression, biomarker, breacher, amyloid beta
+ Introduction
+ Injuries from exposure to explosive blasts rose dramatically during Operation Iraqi Freedom and Operation Enduring Freedom (OIF/OEF) due to the increased use of improvised explosive devices (IEDs) in military settings. It has been estimated that 10–20% of returning OIF/OEF Veterans have sustained a traumatic brain injury (TBI) ( 1 ), with many of these Veterans having symptoms suggestive of the residual effects of mild TBIs (mTBIs; persistent post concussive symptoms [PPCS]) that may not have been recognized prior to separation from service ( 2 ). Blast injuries and blast-related mTBIs are marked by their lack of immediate physiological or neurological symptoms, as well as a lack of detectable lesions in traditional neuroimaging screens ( 3 ). Given the lack of persistent symptomology from sub-concussive events available for diagnoses and proper treatment modalities at condition onset, sub-concussive injuries typically remain undiagnosed. Exposure to blast is associated with various disruptions in brain connectivity and deficits in cognitive functioning, including reduced white matter microstructural integrity ( 4 ), and decreases in neuronal activity ( 5 ), as well as cortical thinning in frontal lobe regions and worse symptom reporting associated with reductions in executive functioning and cognitive performance ( 6 , 7 ). Undetected, these effects from blast can lead to the potential for symptoms to worsen over time, wherein undiagnosed sub-concussive injuries can result in short-term problems with operational readiness, and evolving conditions in the long-term including cognitive impairment, post-traumatic stress disorder (PTSD), depression, and suicidal behavior.
+ In the past decade, neuroimaging studies have revealed structural and functional brain changes associated with blast exposures ( 4 , 8 – 24 ) that are supported by findings with blood biomarkers that have begun to provide insight into the underlying pathophysiological mechanisms of blast-related TBI. Notably the mechanisms and dynamic course of neuronal, axonal, and astroglial damage, supported by findings of increased blood serum levels of associated protein biomarkers such as Ubiquitin carboxy-terminal hydrolase L1 (UCHL1), neurofilament light chain (NfL) and total tau, and S100 calcium-binding protein B (S100-B) and Glial fibrillary acidic protein (GFAP) ( 25 – 28 ). Investigations of these biomarkers in context of blast exposures indicate that many, such as UCHL1 and GFAP, peak sharply in the hours following blast exposure, while others, including NfL and total tau, accumulate gradually and remain elevated for weeks following injury ( 29 – 32 ). Other CNS-based biomarkers linked to repetitive blast exposure include amyloid-beta (Aβ) proteins implicated in the etiology of neurodegenerative diseases such as Alzheimer’s disease. Findings from both animal ( 33 ) and human ( 34 ) studies indicate increased clearance and lower circulating levels of Aβ-40, −42, and precursor proteins ( 35 ) in the days initially following blast exposure. Whereas long-term, blast exposure has been associated with an increase in the accumulation of these same proteins in both brain ( 36 ) and peripheral blood ( 37 ). Exposure to blast has also been found to result in increased levels of inflammatory biomarkers acutely following exposure ( 32 , 38 ) as well as chronically in the absence of acute exposures in individuals with long-term histories of blast ( 29 , 39 , 40 ). Additionally, longitudinal studies using timeseries data collected during military tactical training operations have shown that blast exposure is capable of inducing transcriptional and regulatory changes in military breachers ( 32 , 35 , 41 , 42 ).
+ Despite such findings showing biomarker alterations in those with acute and chronic blast exposures, lacking are studies that explore the relationship between them by investigating inter-individual differences in biomarker response to blast exposures that may be driven by the individual’s prior lifetime exposures, such as prior history of TBI. In fact, studies of sports injuries have shown that history and frequency of sub-concussive injuries are associated with elevation of neurotrauma and inflammatory biomarkers ( 43 – 45 ). Blood biomarker data from these studies differentiate athletes with prior histories of sub-concussive injury from control athletes acutely post-injury, revealing that athletes with prior histories of sub-concussive injury exhibit greater levels of NfL, S100β ( 43 ), MCP-1 and MCP-4 ( 45 ). These findings underscore the need to also better understand and characterize changes in blast associated biomarker response that may be impacted by the individuals’ TBI history. In the present study we set out to investigate whether changes in gene transcripts and CNS-related biomarkers associated with blast exposures during tactical training are influenced by prior exposure load (i.e., prior history of mTBI). We hypothesize that prior history of mTBI will impact responsivity to blast as measured by differential transcriptional regulatory and CNS-related blood biomarker responses pre-versus post-blast exposures using serially collected blood samples during training.
+ Methods
+ Human Subjects : All subjects consented to participate in the study and the human use protocol for interaction with the subjects was approved by the Institutional Review Board (IRB) of the Walter Reed Army Institute of Research (WRAIR, Silver Spring, MD; FYSA: WRAIR #2304) and chains of command prior to data collection. The procedures were followed in accordance with the ethical standards of the IRB, Army Regulation 70–25, and the Helsinki Declaration.
+ Exposure and sample characteristics : Data were collected at three timepoints from a single military training site, where 30 male subjects participated in a routine training course using explosives in the demolition of a concrete wall. As an observational study, the field team followed guidelines of minimal interference with daily activities of the hosting unit. We followed the pre-approved timeline which was consulted with and approved by the command of the host unit. The training took place at a military site as part of military breaching course. The details of the heavy wall breaching were previously reported ( 46 , 47 ). Briefly, the subjects wear standard personal protective equipment (PPE) for this type of training: (1) helmet, (2) body armor, (3) eye protection, and (4) double hearing protection. The subjects were arranged in a “stack,” a line of 5–7 subjects hiding behind a ballistic blanket and positioned at 45° from the charge. The breaching exercises were conducted on walls constructed on-site using reinforced concrete-filled cinderblock or chain link fence using 10.0 and 15.0 lb. TNT equivalent charges, respectively. The overpressure associated with the charge detonations was captured using BlackBox Biometrics (B3) Blast Gauge® wearable sensors mounted on the shoulders and helmet. The average peak overpressure and impulse values were 5.0 ± 1.4 psi and 11.3 ± 1.3 psi·ms (concrete), and 6.2 ± 1.5 psi and 12.4 ± 1.4 psi·ms (fence). This was a breaching course in a single day, and there were no other activities.
+ While in the field training setting, in addition to demographic information in the intake form we ascertained self-report data regarding “head injury” history through the items: “Head injury, concussion or loss of consciousness,” and “your most significant head injury.” The second instance also solicits injury cause, and resulting effects on consciousness, memory, mood, sleep, all ascertained in free response narrative format. SMs approximate self-reported number of career blast exposure events prior to engagement in training were also ascertained. All participants met military physical requirement standards and were fit for duty. Finally, blood samples were collected serially at pre-blast (morning 7:30 AM to 9:00 AM), post-blast (afternoon 4:30 PM to 5:30 PM) on the training day, and at follow-up blast the next day (morning 7:30 AM to 9:00 AM) and stored in −80°C for downstream experiments. On average the post blast time point corresponds to 1 h, and follow-up to 16 h following exposures to blast during training.
+ Biomarker Assays : Details on blood collection, RNA isolation, and RNA sequencing for samples and data used in the present study have been provided previously ( 48 ). Similarly, quantification of the Aβ40 and Aβ42 levels for the data presented have been previously described ( 49 ) as digital immunoassays performed using the Simoa HD-1 (Quanterix Corporation, Lexington, MA).
+ Data and statistical analyses : All statistical and data analyses were performed using R 4.3.0 ( 50 ).
+ Analysis of RNA sequencing Data : We used voom function from R package limma to transform raw count data to logCPM matrix by computing observation-level weights based on estimated mean–variance relation. We first examined the difference in gene expression at baseline pre-blast exposure by using a linear model to compare SMs with mTBI vs. without mTBI history. Second, we examined the effect of prior mTBI history on gene expression response after blast using a design matrix that consisted of intercept, timepoint (pre-blast vs. post-blast or follow-up blast), its interaction with TBI, and subject ID. Lowly expressed genes [average logCPM ≤ 1 across all timepoints] were filtered out. The logCPM matrix was then used in an interaction model with the design matrix described above using lmFit function from R package limma. Genes with significant interaction term after adjusting for multiple testing by applying Benjamini-Hochberg adjustment were reported.
+ Analysis of CNS-related biomarkers : Biomarkers with >20% lowly expressed analytes below detectable range across all samples and timepoints were excluded, consequently resulting in exclusion of Tau. The remaining biomarkers, i.e., Aβ40 and Aβ42 were graphed for all participants and also separately by mTBI status and time points and inspected for outliers and inconsistent values. Outliers, defined as values outside 1.5 times the interquartile range above the 3 rd and below the 1 st quartiles, were winsorized - censored to the nearest non-outlier value to avoid deleting several observations from the analysis ( 51 ). For these biomarkers we: (1) assessed prior to engagement in tactical training at the pre-blast timepoint differences in biomarker levels between SMs with vs. without history of mTBI using linear models; (2) assessed the impact of blast on biomarker levels across all participants at post and follow-up blast exposure time points using linear mixed-effects models with timepoint as main effect, and subject ID as random intercept; and (3) assessed whether the impact of blast on biomarker levels at post and follow-up blast exposure timepoints differed by prior history of mTBI using linear mixed-effects models with timepoint and mTBI status both as main effects and interaction, and participant ID as random intercept. Age was adjusted in all the models as a covariate. Bonferroni corrected p -values were reported.
+ Gene set enrichment analysis : Genes identified with significant time by mTBI status interactions from the interaction models for pre vs. post and pre vs. follow-up separately were included in gene enrichment analyses using enrichr ( 52 ). We focused specifically on the Gene Ontology: Biological Process Database (GO:BP), used R package enrichplot package ( 52 ) for data visualization.
+ Results
+ Serially collected biospecimen data allowed for tracking potential transcriptional regulatory changes associated with operational blast exposure from military trainees participating in an explosive breaching course (see Table 1 for participant demographic information). Participants ( n  = 30) with available blood specimen’s assayed in the present study, comprised of male SMs with average age 30.2 ± 7.4 years with 83.3% serving in the military occupational specialty (MOS) of Combat Engineer (MOS 12B). Also, prior to engagement in tactical training self-reported total number of blast exposures was recorded ranging from 2 to 60,790, as well as mTBI with 60% of participants reporting a prior history of mTBI ( Table 1 ). No association between history of mTBI and education or MOS were observed ( Table 1 ). SMs with mTBI vs. without mTBI history did not differ significantly in age but did differ significantly by years of military service ( Table 1 ), showing that those with prior history of mTBI had longer duration of service in the military. There was also no significant difference in self-reported total number of blast exposures found between SMs with prior mTBI vs. without mTBI history ( p  = 0.0.2318, t  = 1.24).
+ Table 1.
+ Demographic and military service characteristics for participants by prior mTBI status.
+ mTBI
+ No mTBI
+ Test
+ p -value
+ N
+ 18
+ 12
+ Age (Years), Mean ± SD
+ 31.61 ± 6.84
+ 27.58 ± 4.48
+ t = 1.948
+ p = 0.061
+ Duration of Service (Years), Mean ± SD
+ 10.70 ± 4.36
+ 6.33 ± 3.68
+ t = 2.920
+ p = 0.007
+ Education, N (%)
+ College
+ 14 (78%)
+ 10 (83%)
+ Chi-sq = 0.138
+ p = 0.709
+ High school
+ 4 (22%)
+ 2 (17%)
+ MOS, N (%)
+ 12B/Combat Engineer
+ 14 (78%)
+ 11 (92%)
+ Chi-sq = 1
+ p = 0.317
+ Others*
+ 4 (22%)
+ 1 (8%)
+ Total blast
+ NA
+ 1
+ 1
+ t = 1.243
+ p = 0.2318
+ 1–1,000
+ 15
+ 11
+ 1,001–10,000
+ 0
+ 0
+ 10,001–30,000
+ 1
+ 0
+ 30,000+
+ 1
+ 0
+ Open in a new tab 
+ *Military occupational specialty (MOS) others include 12H-Construction Engineer Supervisor, 19D-Calvary Scout, 11B-Infantryman and 31B-Military Police.
+ Comparison of gene transcript expression between SMs with or without mTBI at the pre-blast timepoint prior to engaging in tactical training only identified one differentially expressed gene (i.e., ACCSL ). Next, to determine how prior exposure (i.e., lifetime history of mTBI) impacts differential gene expression and CNS-related biomarker responses, we used statistical models that examined the interaction of blast exposure during training and mTBI history. Among SMs with self-reported history of mTBI when compared to those without, gene expression analyses identified 130 at post timepoint and 53 genes at follow-up timepoint with significant interactions ( p  < 0.05 adjusted for multiple testing; Supplementary Tables S1, S2, respectively). Gene set enrichment analyses identified 102 (for pre-blast vs. post-blast) and 59 (for pre-blast vs. follow-up blast) significant pathways ( p  < 0.05 adjusted for multiple testing using Benjamini and Hochberg procedure; Supplementary Tables S3, S4). Among the 102 pathways identified in the pre-blast vs. post-blast analysis, 32 (31%) were involved in immune response and 17 (17%) were involved in vascular processes ( Figure 1 ). Of the 59 pathways identified in the pre-blast vs. follow-up blast analysis 12 (20%) and 5 (8%) were involved in immune response and vascular processes respectively, and 4 (7%) were represented separately for the Aβ regulation and apoptosis pathways ( Figure 2 ). Moreover, protein expression levels of Aβ40 and Aβ42 did not differ by mTBI history at pre-blast timepoint prior to engagement in tactical training (Aβ40: b = −14.68, t 27  = −1.01, adjusted p  = 0.6455, and Aβ42: b = −0.57, t 26  = −0.60, adjusted p  = 1). Also, prior history of mTBI did not impact the responsivity of Aβ40 and Aβ42 biomarker levels after blast exposure for the post-blast compared with pre-blast timepoints (Aβ40: b = −1.99, t 56  = −0.12, adjusted p  = 1; Aβ42: b = 0.70, t 52  = 0.94, adjusted p  = 0.7045) and for the follow-up blast compared with pre-blast timepoints (Aβ40: b = −4.31, t 56  = −0.26, adjusted p  = 1; Aβ42: b = 0.85, t 52  = 1.10, adjusted p  = 0.5540). Irrespective of prior mTBI history, significant reduction in Aβ40 and Aβ42 levels were observed at the follow-up blast exposure timepoint compared with the pre-blast exposure timepoint across all SMs (Aβ40: b = −34.76, t 58  = −4.32, adjusted p  = 0.0001 and Aβ42: b = −1.52, t 54  = −4.01, adjusted p  = 0.0004). However no statistically significant change in levels of these two biomarkers was observed acutely at the post blast exposure timepoint (~1 h) compared with the pre-blast exposure timepoint (Aβ40: b = 5.64, t 58  = 0.70, adjusted p  = 0.9725; Aβ42: b = 0.64, t 54  = 1.77, adjusted p  = 0.1642; Figure 3 ).
+ Figure 1.
+ Open in a new tab 
+ Upset plots of selected GO:BP pathways enriched with genes identified from the pre-blast vs. post-blast and pre-blast vs. follow-up-blast timepoint comparisons by mTBI status interaction model. Results are depicted with different colors by 4 functional groups: (A) Pre vs. post analysis identified 32 pathways involved in immune response (orange) and 17 vascular processes (green). (B) Pre-blast vs. follow-up-blast analysis identified 12 pathways involved in immune response (orange), 5 in vascular processes (green), 4 in Aβ regulation (pink), and 4 in apoptosis (blue). Bar plots on top show the number of gene(s) unique to or shared across pathways. Dot and line plots indicate pathways with shared gene(s), shown with the bar plots above.
+ Figure 2.
+ Open in a new tab 
+ Heatmaps depicting differential gene expression among non-TBI and TBI participants for comparison of the timepoints: pre-blast vs. post-blast with enrichment of genes involved in (A) immune and (B) vascular processes, and pre-blast vs follow-up-blast with enrichment of genes involved in (C) immune, (D) vascular, (E) apoptosis, and (F) Amyloid Beta processes. Data are shown as log2 Fold change in gene expression across all comparisons.
+ Figure 3.
+ Open in a new tab 
+ Boxplots with overlaying jitter plots show the Aβ proteins’ levels across the three timepoints. (A) Aβ40 levels and (B) Aβ42 levels across the three timepoints with overlaying jitter colored by subject’s mTBI history (green: no mTBI, orange: mTBI). p -values reported came from the linear mixed effect model which assessed the changes of proteins’ level between follow-up-blast and pre-blast exposure.
+ Discussion
+ In the present study involving SMs engaged in explosive breaching training operations, we examined alterations in CNS-related biomarkers and transcriptome profiles serially during tactical training. Although levels of CNS-related biomarkers Aβ40 and Aβ42 were significantly altered in response to blast at the follow-up blast exposure (~16 h) timepoint in tactical training operations, these changes did not differ by the SMs prior history of mTBI. However, we did identify distinct transcriptional alterations associated with blast exposure in SMs with prior history of mTBI vs. those without. Gene transcripts that showed distinct transcriptional signatures were elevated in blood brain barrier (BBB), inflammatory and immune responses with those SMs endorsing prior mTBI history showing greater representation of these genes with heightened expression. Specifically, significant alterations in expression of genes involved in: (1) vascular processes (i.e., regulation of epithelial cell proliferation, epithelial cell differentiation, cell migration in sprouting angiogenesis, positive regulation of vascular endothelial growth factor receptor signaling, blood vessel endothelial cell migration, angiogenesis and epithelial cell proliferation); and (2) inflammatory processes (i.e., Toll-like receptor 2, 3 and 4 signaling, myeloid cell development, microglial activation, phagocytosis, macrophage chemotaxis, migration, granulocyte chemotaxis and immune response) were identified after exposures to blast. These findings point to the significance of inter-individual differences in biomarker response that capture pathophysiological mechanisms and processes associated with blast exposure, especially among individuals with greater vulnerability due to prior injuries, specifically mTBI.
+ Alterations of genes involved in vascular processes are consistent with findings related to BBB impairment from exposures to blast. In particular, blast shockwaves can contribute to rapid physical displacement of the blood through blood vessels from the high-pressure body cavity to the low-pressure cranial cavity, which may result in damage to the brain microvessels and the BBB ( 53 ). The BBB is a multicellular vascular structure which acts as a diffusion barrier to prevent the inflow of most compounds from blood to brain, maintaining brain homeostasis [for review, see ( 54 – 56 )]. Evidence from animal models suggest that both of these mechanisms can contribute to dysfunction or disruption of the BBB and is associated with the emergence of blast-related TBI pathology ( 57 – 60 ). Data from both in vitro and in vivo experimental models have shown a causative relationship between exposure to blast shock waves and BBB disruption, demonstrating BBB disruption from exposure to a range of controlled blast conditions, thus providing evidence that immediate disruption of BBB can occur as a consequence of exposure to blast shockwaves ( 59 , 61 , 62 ). Studies in experimental models of blast using rodents exposed to low intensity blast have shown BBB disruption and led to cerebrovascular inflammation measured longitudinally 1, 6, 24 and 48 h post-blast ( 59 ). Others have found increased levels of the proinflammatory cytokines interferon gamma (IFNγ) and monocyte chemoattractant protein-1 (MCP-1) at 4 h and at 24 h post-blast with concomitant behavioral and pathological abnormalities in rodents, showing memory impairment in a novel object recognition test and increased density of Iba-1 + activated microglia in brain regions at 2 weeks post-exposure ( 61 ). Growing evidence shows that inflammation is elevated centrally and peripherally and persists after exposure to blast and possibly worsening over time. This change is mediated, in part, by microglia.
+ Microglia, which represent 10–13% of the cells in the CNS ( 63 ), and are innate immune cells that respond rapidly following immune challenge or injury. Microglia have numerous ramified processes which rapidly respond to local chemotactic signals ( 64 ) and constantly survey the local microenvironment ( 65 ). Microglia are derived from myeloid progenitors within the yolk sac during early embryonic development with minimal turnover over lifetime ( 66 , 67 ), making them particularly susceptible to CNS injury. Microglia are functionally similar to tissue macrophages (e.g., TLR-mediated activation, scavenging, antigen presentation, clearance of misfolded proteins), which indicate a major role in immune surveillance of the brain ( 68 – 71 ). After acute CNS injury, microglial activation serves an important immune alert system, with the production of cytokines and chemokines ( 72 ), which are responsible for phagocytosis, scavenging of debris, angiogenesis, and wound healing. Additionally, microglia respond to damaged cells, other activated glia, and peripherally derived stimuli following BBB disruption. In response to acute injury, some “primed” microglia cells continue to maintain a heightened inflammatory state ( 73 , 74 ). This is important because primed microglia have a lower threshold for becoming hyper-activated ( 75 ) in response to a secondary challenge. Microglial priming potentially plays a critical role in repeated mTBI, where the initial injury is the priming event, and subsequent injuries result in exaggerated inflammatory responses.
+ In line with these prior findings, in the present study we observe among SMs with mTBI dysregulation of genes and genetic pathways involved in inflammatory and vascular processes after exposures to blast. Of note, in comparison to those with no mTBI history who engaged in breacher training, in SMs with mTBI we found elevated expression of genes THBS1 , MMP9 , and PIK3R6. The THBS1 gene encodes Thrombospondin-1 (TSP-1), a multifunctional extracellular matrix glycoprotein involved in inflammatory and angiogenic processes, and was elevated at both the post and follow-up blast exposure timepoints in SMs with mTBI history. TSP-1 (a potent anti-angiogenic agent) ( 76 ) has shown to be elevated in the brains of rodents following TBI and blood plasma from patients with TBI ( 77 ). TSP-1 levels were shown to be associated with TBI outcome and severity, delineating patients with mild, moderate, and severe TBI from healthy controls as well as worse outcomes (e.g., Glasgow Coma Scale score, cerebral hernia presence, blood glucose levels) in the 3-months following TBI ( 77 ), underscoring the potential utility of TSP-1 as a diagnostic and prognostic biomarker of brain injury. At the post-blast exposure timepoint, SMs with prior history of mTBI exhibited significant increases in expression of the gene MMP9 , a matrix metalloproteinase. Activation of matrix metalloproteinases have been associated with neuroinflammation, vascular dysregulation, BBB breakdown, white matter damage, neuronal death, and brain edema ( 78 ). In TBI animal models, increased expression of MMP-9 has been reported with concomitant disruption in the BBB ( 79 ) and in clinical studies increased expression of MMP-9 were reported in CSF of mTBI patients compared to controls within 72 h following injury, as well as in SMs engaged in heavy weapons training with repetitive exposures to blast both acutely and chronically following blast exposure ( 80 , 81 ). Furthermore, the gene PIK3R6 encodes a subunit of the Phosphoinositide 3-kinase (PI3K) gamma complex, which was also upregulated in SMs with mTBI at the follow-up blast exposure timepoint. PI3K is involved in the activation of inflammatory responses in microglial cells, in which the upregulation of PI3K pathway has been involved in TBI and neurodegenerative disorders ( 82 ). In an rodent study of TBI, inhibition of the PI3K/akt pathway contributed to reductions in neuronal autophagy and white matter injury and corresponding improvement in functional recovery, including improvement in spatial memory and sensory coordination ( 83 ). Additionally, upregulation of the PI3K gamma is associated with neuroinflammation and cognitive deficits in experimental models of Alzheimer’s disease, where inhibition of PI3K has shown to be protective, leading to symptom improvements ( 84 ).
+ In addition to genes involved in immune and vascular processes, genes regulating Aβ expression were also found to be significantly modulated at the follow-up blast exposure timepoint in SMs during tactical training. Aβ is derived from the amyloid precursor protein (APP), and as a sticky protein, Aβ clumps together and forms amyloid plaques that disrupt cell function in the brain, with such plaques being a pathological hallmark of Alzheimer’s disease. In the present study, differential gene transcript expression patterns were identified in SMs with mTBI history after blast exposure (at the follow-up blast timepoint) in genes involved in regulation of amyloid fibril formation, Aβ clearance, and cellular response to Aβ production. Notably, we found that CLU , LRP1 and LDLR genes involved in regulation of Aβ showed increased expression in SMs with prior history of mTBI at the follow-up blast exposure timepoint. The clusterin ( CLU ) gene product has been shown to facilitate reductions of Aβ levels in the CNS ( 85 ) through multiple potential mechanisms including maintaining Aβ solubility ( 86 ), preventing further aggregation of Aβ into larger oligomers or fibrils ( 87 ), regulating Aβ clearance via perivascular drainage pathways ( 88 ), and modulating CLU-Aβ phagocytosis by microglia through binding to TREM2 ( 89 ). Variants in the CLU gene have been associated with the risk for late-onset Alzheimer’s disease ( 90 ), with elevated CLU protein levels observed in blood and CSF of Alzheimer’s disease patients ( 91 , 92 ). The LRP1 gene encodes the Low-density lipoprotein receptor-related protein-1 (LRP1), a cell surface receptor that plays a key role in Aβ the metabolism and clearance both in the brain and in the periphery ( 93 , 94 ). In particular, soluble LRP1 in plasma binds to Aβ in the periphery, preventing Aβ from entry to the brain, wherein the LRP bound Aβ accumulates in the liver and can thus be cleared systemically ( 94 ). The low-density lipoprotein receptor gene ( LDLR ) is also involved in regulation of Aβ peptide in the brain, shown through preclinical studies ( 95 – 98 ). These studies have shown that LDLR overexpression enhance uptake and clearance of Aβ by astrocytes, while deletion of LDLR results in decrease in Aβ uptake, suggesting the potential of LDLR gene as a therapeutic target for Alzheimer’s disease. Remarkably, the modulation of Aβ related pathways, and specifically the genes CLU , LRP1 , and LDLR , after exposures to blast (at the follow-up blast timepoint ~16 h) aligns with the observed reduction of Aβ40 and Aβ42 proteins at the same timepoint. These findings suggest that exposures to blast may modulate Aβ protein expression, as also reported previously ( 35 ), that confer a compensatory molecular response to downregulate deleterious Aβ accumulation, especially among SMs with prior history of mTBI, who may be more primed to subsequent injuries.
+ This study has a number of limitations including a small sample size and lack of long-term longitudinal data, for both transcriptional and neurotrauma biomarkers for the breacher participants. Increased collection points several weeks or months after blast exposure training would allow for a better understanding of the dynamics and long-term effects of blast exposure on biomarker responses. The Aβ40 and Aβ42 biomarker levels in the present study are derived from serum samples, which limit the potential interpretability of clinically relevant thresholds. Although both plasma and serum have been utilized for measuring Aβ levels, comparisons of biomarker levels in the context of Alzheimer’s disease clinical research specifically have shown that some analytes, including Aβ peptides, t-tau, and multiple p-tau species present in lower levels in serum potentially attributed to loss from clot trapping ( 99 – 104 ). This poses a challenge for biomarker measurement in serum, in particular for SMs whose biomarker levels are close to the lower detection limit. Future investigations toward development of reference clinical thresholds across a wide age range within both civilian and military populations are warranted, as serum is more widely used in hospital systems, with more clinical tests using serum instead of plasma ( 105 ). Data on mTBI history is based on self-report and not clinician administered assessment and diagnosis. However, not all individuals who have sustained a TBI are identified at the time of initial injury. Specifically, in the case of mTBI, individuals typically do not present for medical care. Additionally, reliance on medical records is often insufficient because even when medical records are available, a large percentage of prior injuries do not receive recognition or medical attention. Therefore, self-report based on a validated screening method is currently considered the gold standard for obtaining information on lifetime history of exposure to TBI. Still, screening instruments vary in the extent to which their psychometrics have been established, lacking the reliability to capture all TBIs. Thus, in clinical settings, patient and family self-report play an important role in the diagnosis of TBI. Indeed, the subject’s self-report of previous head trauma is often used in both clinical practice and research as the primary approach for identifying incidence of TBI and related symptoms ( 106 , 107 ). The study also lacks representation of both sexes, for the present cohort involved only male participants, thus, findings may not be generalizable to female SMs.
+ In conclusion, findings from this study underscore the importance of multimodal biomarker investigations to identify biomarkers that capture the multi-faceted pathophysiological pathways of blast related neurotrauma for discovery of novel targets that can improve characterization of injury profiles leading to personalized treatment strategies.
+ Funding Statement
+ The author(s) declare that financial support was received for the research and/or publication of this article. Fatemeh Haghighi is a recipient of the VA CSR&D Research Career Scientist Award; CX002074, and her work is supported by CX001728, BX006069 & RX003818 at the James J. Peters VA Medical Center. Data collection was supported by W81XWH-BAA-14-1. The authors also acknowledge CDR Josh L. Duckworth and the CONQUER program (Combat and Training Queryable Exposure/Event Repository) for sharing this mission and for material support in the measurement of blast overpressure exposure.
+ Data availability statement
+ The datasets presented in this article are not readily available because such information as the site location, data collection date, date of birth, and gender, may reasonably allow for the identification of participants in the study. Requests to access the deidentified datasets (not including these variables) should be directed to the corresponding author, on the condition that institutional and ethical requirements for sharing the data are met.
+ Ethics statement
+ The studies involving humans were approved by Walter Reed Army Institute of Research Institutional Review Board. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study.
+ Author contributions
+ ZW: Conceptualization, Formal analysis, Methodology, Visualization, Writing – original draft, Writing – review & editing. SS: Conceptualization, Formal analysis, Methodology, Visualization, Writing – original draft, Writing – review & editing. QL: Conceptualization, Methodology, Writing – original draft, Writing – review & editing. AK: Investigation, Writing – review & editing. JN: Investigation, Writing – review & editing. MoS: Conceptualization, Writing – review & editing. AH: Conceptualization, Writing – review & editing. LB: Conceptualization, Writing – review & editing. MaS: Investigation, Methodology, Writing – review & editing. CL: Investigation, Methodology, Writing – review & editing. YG: Conceptualization, Methodology, Writing – original draft, Writing – review & editing. WC: Conceptualization, Funding acquisition, Investigation, Project administration, Writing – review & editing. FH: Conceptualization, Funding acquisition, Investigation, Methodology, Project administration, Resources, Writing – original draft, Writing – review & editing.
+ Conflict of interest
+ The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+ Generative AI statement
+ The author(s) declare that no Gen AI was used in the creation of this manuscript.
+ Publisher’s note
+ All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+ Author disclaimer
+ The views expressed in this material are those of the authors, and do not reflect the official policy or position of the U.S. Government or the Department of Veterans Affairs. Material has been reviewed by WRAIR. There is no objection to its presentation and/or publication. The opinions or assertions contained herein are the private views of the authors, and are not to be construed as official, or as reflecting true views of the Department of the Army or the Department of Defense. The investigators have adhered to the policies for protection of human subjects as prescribed in AR 70-25.
+ References
+ 1. Elder GA, Mitsis EM, Ahlers ST, Cristian A. Blast-induced mild traumatic brain injury. Psychiatr Clin North Am. (2010) 33:757–81. doi: 10.1016/j.psc.2010.08.001, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 2. Hoge CW, McGurk D, Thomas JL, Cox AL, Engel CC, Castro CA. Mild traumatic brain injury in U.S. soldiers returning from Iraq. N Engl J Med. (2008) 358:453–63. doi: 10.1056/NEJMoa072972, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 3. Niogi SN, Mukherjee P. Diffusion tensor imaging of mild traumatic brain injury. J Head Trauma Rehabil. (2010) 25:241–55. doi: 10.1097/HTR.0b013e3181e52c2a, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 4. Mu W, Catenaccio E, Lipton ML. Neuroimaging in blast-related mild traumatic brain injury. J Head Trauma Rehabil. (2017) 32:55–69. doi: 10.1097/HTR.0000000000000213, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 5. Meabon JS, Huber BR, Cross DJ, Richards TL, Minoshima S, Pagulayan KF, et al. Repetitive blast exposure in mice and combat veterans causes persistent cerebellar dysfunction. Sci Transl Med. (2016) 8: 321ra6. doi: 10.1126/scitranslmed.aaa9585 [ DOI ] [ PubMed ] [ Google Scholar ]
+ 6. Clark AL, Merritt VC, Bigler ED, Bangen KJ, Werhane M, Sorg SF, et al. Blast-exposed veterans with mild traumatic brain injury show greater frontal cortical thinning and poorer executive functioning. Front Neurol. (2018) 9:873. doi: 10.3389/fneur.2018.00873, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 7. Carr W, Stone JR, Walilko T, Young LA, Snook TL, Paggi ME, et al. Repeated low-level blast exposure: a descriptive human subjects study. Mil Med. (2016) 181:28–39. doi: 10.7205/MILMED-D-15-00137, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 8. Ivanov I, Fernandez C, Mitsis EM, Dickstein DL, Wong E, Tang CY, et al. Blast exposure, white matter integrity, and cognitive function in Iraq and Afghanistan combat veterans. Front Neurol. (2017) 8:127. doi: 10.3389/fneur.2017.00127, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 9. Kilgore MO, Hubbard WB. Effects of low-level blast on neurovascular health and cerebral blood flow: current findings and future opportunities in neuroimaging. Int J Mol Sci. (2024) 25:642. doi: 10.3390/ijms25010642, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 10. Stone JR, Avants BB, Tustison NJ, Wassermann EM, Gill J, Polejaeva E, et al. Functional and structural neuroimaging correlates of repetitive low-level blast exposure in career breachers. J Neurotrauma. (2020) 37:2468–81. doi: 10.1089/neu.2020.7141, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 11. Martindale SL, Rowland JA, Shura RD, Taber KH. Longitudinal changes in neuroimaging and neuropsychiatric status of post-deployment veterans: a CENC pilot study. Brain Inj. (2018) 32:1208–16. doi: 10.1080/02699052.2018.1492741, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 12. Mac Donald CL, Barber J, Andre J, Evans N, Panks C, Sun S, et al. 5-year imaging sequelae of concussive blast injury and relation to early clinical outcome. Neuroimage: Clin. (2017) 14:371–8. doi: 10.1016/j.nicl.2017.02.005, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 13. Trotter BB, Robinson ME, Milberg WP, McGlinchey RE, Salat DH. Military blast exposure, ageing and white matter integrity. Brain. (2015) 138:2278–92. doi: 10.1093/brain/awv139, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 14. Salat DH, Robinson ME, Miller DR, Clark DC, McGlinchey RE. Neuroimaging of deployment-associated traumatic brain injury (TBI) with a focus on mild TBI (mTBI) since 2009. Brain Inj. (2017) 31:1204–19. doi: 10.1080/02699052.2017.1327672, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 15. Vartanian O, Coady L, Blackler K, Fraser B, Cheung B. Neuropsychological, neurocognitive, vestibular, and neuroimaging correlates of exposure to repetitive low-level blast waves: evidence from four nonoverlapping samples of Canadian breachers. Mil Med. (2021) 186:e393–400. doi: 10.1093/milmed/usaa332, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 16. Mac Donald CL, Barber J, Andre J, Panks C, Zalewski K, Temkin N. Longitudinal neuroimaging following combat concussion: sub-acute, 1 year and 5 years post-injury. Brain commun. (2019) 1. doi: 10.1093/braincomms/fcz031, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 17. Champagne AA, Coverdale NS, Ross A, Murray C, Vallee I, Cook DJ. Characterizing changes in network connectivity following chronic head trauma in special forces military personnel: a combined resting-fMRI and DTI study. Brain Inj. (2021) 35:760–8. doi: 10.1080/02699052.2021.1906951, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 18. Bazarian JJ, Donnelly K, Peterson DR, Warner GC, Zhu T, Zhong J. The relation between posttraumatic stress disorder and mild traumatic brain injury acquired during operations enduring freedom and Iraqi freedom. J Head Trauma Rehabil. (2013) 28:1–12. doi: 10.1097/HTR.0b013e318256d3d3, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 19. Taber KH, Hurley RA, Haswell CC, Rowland JA, Hurt SD, Lamar CD, et al. White matter compromise in veterans exposed to primary blast forces. J Head Trauma Rehabil. (2015) 30:E15–25. doi: 10.1097/HTR.0000000000000030, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 20. Liu W, Yeh P-H, Nathan DE, Song C, Wu H, Bonavia GH, et al. Assessment of brain venous structure in military traumatic brain injury patients using susceptibility weighted imaging and quantitative susceptibility mapping. J Neurotrauma. (2019) 36:2213–21. doi: 10.1089/neu.2018.5970, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 21. Han K, Mac Donald CL, Johnson AM, Barnes Y, Wierzechowski L, Zonies D, et al. Disrupted modular organization of resting-state cortical functional connectivity in US military personnel following concussive ‘mild’blast-related traumatic brain injury. NeuroImage. (2014) 84:76–96. doi: 10.1016/j.neuroimage.2013.08.017, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 22. Robinson ME, McKee AC, Salat DH, Rasmusson AM, Radigan LJ, Catana C, et al. Positron emission tomography of tau in Iraq and Afghanistan veterans with blast neurotrauma. Neuroimage: Clin. (2019) 21:101651. doi: 10.1016/j.nicl.2019.101651, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 23. Zürcher NR, Loggia ML, Lawson R, Chonde DB, Izquierdo-Garcia D, Yasek JE, et al. Increased in vivo glial activation in patients with amyotrophic lateral sclerosis: assessed with [11C]-PBR28. NeuroImage: Clin. (2015) 7:409–14. doi: 10.1016/j.nicl.2015.01.009, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 24. Takahata K, Kimura Y, Sahara N, Koga S, Shimada H, Ichise M, et al. PET-detectable tau pathology correlates with long-term neuropsychiatric outcomes in patients with traumatic brain injury. Brain. (2019) 142:3265–79. doi: 10.1093/brain/awz238, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 25. Zetterberg H, Smith DH, Blennow K. Biomarkers of mild traumatic brain injury in cerebrospinal fluid and blood. Nat Rev Neurol. (2013) 9:201–10. doi: 10.1038/nrneurol.2013.9, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 26. McDonald SJ, Shultz SR, Agoston DV. The known unknowns: an overview of the state of blood-based protein biomarkers of mild traumatic brain injury. J Neurotrauma. (2021) 38:2652–66. doi: 10.1089/neu.2021.0011, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 27. Maas AI, Menon DK, Manley GT, Abrams M, Åkerlund C, Andelic N, et al. Traumatic brain injury: progress and challenges in prevention, clinical care, and research. Lancet Neurol. (2022) 21, 1004–1060. doi: 10.1016/S1474-4422(22)00309-X [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 28. Edalatfar M, Piri SM, Mehrabinejad M-M, Mousavi M-S, Meknatkhah S, Fattahi M-R, et al. Biofluid biomarkers in traumatic brain injury: a systematic scoping review. Neurocrit Care. (2021) 35:559–72. doi: 10.1007/s12028-020-01173-1, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 29. Edwards KA, Leete JJ, Smith EG, Quick A, Modica CM, Wassermann EM, et al. Elevations in tumor necrosis factor alpha and interleukin 6 from neuronal-derived extracellular vesicles in repeated low-level blast exposed personnel. Front Neurol. (2022) 13. doi: 10.3389/fneur.2022.723923, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 30. Kamimori GH, LaValle CR, Eonta SE, Carr W, Tate C, Wang KK. Longitudinal investigation of neurotrauma serum biomarkers, behavioral characterization, and brain imaging in soldiers following repeated low-level blast exposure (New Zealand Breacher study). Mil Med. (2018) 183:28–33. doi: 10.1093/milmed/usx186, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 31. Tate CM, Wang KK, Eonta S, Zhang Y, Carr W, Tortella FC, et al. Serum brain biomarker level, neurocognitive performance, and self-reported symptom changes in soldiers repeatedly exposed to low-level blast: a breacher pilot study. J Neurotrauma. (2013) 30:1620–30. doi: 10.1089/neu.2012.2683, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 32. Wang Z, Wilson CM, Mendelev N, Ge Y, Galfalvy H, Elder G, et al. Acute and chronic molecular signatures and associated symptoms of blast exposure in military breachers. J Neurotrauma. (2020) 37:1221–32. doi: 10.1089/neu.2019.6742
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 33. Abutarboush R, Reed E, Chen Y, Gu M, Watson C, Kawoos U, et al. Exposure to low-intensity blast increases clearance of brain amyloid Beta. J Neurotrauma. (2024) 41:685–704. doi: 10.1089/neu.2023.0284, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 34. Edwards KA, Leete JJ, Tschiffely AE, Moore CY, Dell KC, Statz JK, et al. Blast exposure results in tau and neurofilament light chain changes in peripheral blood. Brain Inj. (2020) 34:1213–21. doi: 10.1080/02699052.2020.1797171, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 35. Gill J, Cashion A, Osier N, Arcurio L, Motamedi V, Dell KC, et al. Moderate blast exposure alters gene expression and levels of amyloid precursor protein. Neurology. Genetics. (2017) 3:e186. doi: 10.1212/NXG.0000000000000186, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 36. Leiva-Salinas C, Singh A, Layfield E, Flors L, Patrie JT. Early brain amyloid accumulation at PET in military instructors exposed to subconcussive blast injuries. Radiology. (2023) 307:e221608. doi: 10.1148/radiol.221608, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 37. Lejbman N, Olivera A, Heinzelmann M, Feng R, Yun S, Kim H-S, et al. Active duty service members who sustain a traumatic brain injury have chronically elevated peripheral concentrations of a β 40 and lower ratios of a β 42/40. Brain Inj. (2016) 30:1436–41. doi: 10.1080/02699052.2016.1219054, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 38. Gill J, Motamedi V, Osier N, Dell K, Arcurio L, Carr W, et al. Moderate blast exposure results in increased IL-6 and TNFα in peripheral blood. Brain Behav Immun. (2017) 65:90–4. doi: 10.1016/j.bbi.2017.02.015, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 39. Pierce ME, Hayes J, Huber BR, Jeromin A, Fortier CB, Fonda JR, et al. Plasma biomarkers associated with deployment trauma and its consequences in post-9/11 era veterans: initial findings from the TRACTS longitudinal cohort. Transl Psychiatry. (2022) 12:80. doi: 10.1038/s41398-022-01853-w, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 40. Cifu DX. Clinical research findings from the long-term impact of military-relevant brain injury consortium-chronic effects of Neurotrauma consortium (LIMBIC-CENC) 2013-2021. Brain Inj. (2022) 36:587–97. doi: 10.1080/02699052.2022.2033843, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 41. Edwards KA, Motamedi V, Osier ND, Kim H-S, Yun S, Cho Y-E, et al. A moderate blast exposure results in dysregulated gene network activity related to cell death, survival, structure, and metabolism. Front Neurol. (2020) 11:91. doi: 10.3389/fneur.2020.00091, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 42. Vorn R, Edwards KA, Hentig J, Yun S, Kim H-S, Lai C, et al. A pilot study of whole-blood transcriptomic analysis to identify genes associated with repetitive low-level blast exposure in career Breachers. Biomedicine. (2022) 10:690. doi: 10.3390/biomedicines10030690, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 43. Rubin LH, Tierney R, Kawata K, Wesley L, Lee JH, Blennow K, et al. NFL blood levels are moderated by subconcussive impacts in a cohort of college football players. Brain Inj. (2019) 33:456–62. doi: 10.1080/02699052.2019.1565895, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 44. Brett BL, Savitz J, Nitta M, Espana L, Teague TK, Nelson LD, et al. Systemic inflammation moderates the association of prior concussion with hippocampal volume and episodic memory in high school and collegiate athletes. Brain Behav Immun. (2020) 89:380–8. doi: 10.1016/j.bbi.2020.07.024, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 45. Di Battista AP, Rhind SG, Richards D, Churchill N, Baker AJ, Hutchison MG. Altered blood biomarker profiles in athletes with a history of repetitive head impacts. PLoS One. (2016) 11:e0159929. doi: 10.1371/journal.pone.0159929, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 46. LaValle C, Carr W, Egnoto M, Misistia A, Salib J, Ramos A, et al. Neurocognitive performance deficits related to immediate and acute blast overpressure exposure. Front Neurol. (2019) 10:949. doi: 10.3389/fneur.2019.00949, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 47. Kamimori G, Reilly L, LaValle C, Olaghere Da Silva U. Occupational overpressure exposure of breachers and military personnel. Shock Waves. (2017) 27:837–47. doi: 10.1007/s00193-017-0738-4 [ DOI ] [ Google Scholar ]
+ 48. Liu Q, Wang Z, Sun S, Nemes J, Brenner LA, Hoisington A, et al. Association of blast exposure in military breaching with intestinal permeability blood biomarkers associated with leaky gut. Int J Mol Sci. (2024) 25:3549. doi: 10.3390/ijms25063549, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 49. Boutte AM, Thangavelu B, LaValle CR, Nemes J, Gilsdorf J, Shear DA, et al. Brain-related proteins as serum biomarkers of acute, subconcussive blast overpressure exposure: a cohort study of military personnel. PLoS One. (2019) 14:e0221036. doi: 10.1371/journal.pone.0221036, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 50. Team RC. R: a language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing; (2013). [ Google Scholar ]
+ 51. Ruppert D. Trimming and winsorization. Netherland: Wiley StatsRef: Statistics Reference Online; (2014). [ Google Scholar ]
+ 52. Yu G. Enrichplot: visualization of functional enrichment result. R package1.24.0 ed. (2024). 
+ 53. Chen Y, Huang W, Constantini S. Concepts and strategies for clinical management of blast-induced traumatic brain injury and posttraumatic stress disorder. J Neuropsychiatr Clin Neurosci. (2013) 25:103–10. doi: 10.1176/appi.neuropsych.12030058, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 54. Shetty AK, Mishra V, Kodali M. Blood brain barrier dysfunction and delayed neurological deficits in mild traumatic brain injury induced by blast shock waves. Front Cell Neurosci. (2014) 8:232. doi: 10.3389/fncel.2014.00232, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 55. Ballabh P, Braun A, Nedergaard M. The blood–brain barrier: an overview: structure, regulation, and clinical implications. Neurobiol Dis. (2004) 16:1–13. doi: 10.1016/j.nbd.2003.12.016
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 56. Obermeier B, Daneman R, Ransohoff R. Development, maintenance and disruption of the blood-brain barrier. Nat Med. (2013) 19:1584–96. doi: 10.1038/nm.3407, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 57. Säljö A, Arrhén F, Bolouri H, Mayorga M. Neuropathology and pressure in the pig brain resulting from low-impulse noise exposure. J Neurotrauma. (2008) 25:1397–406. doi: 10.1089/neu.2008.0602, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 58. Long JB, Bentley TL, Wessner KA, Cerone C, Sweeney S. Blast overpressure in rats: recreating a battlefield injury in the laboratory. J Neurotrauma. (2009) 26:827–40. doi: 10.1089/neu.2008.0748, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 59. Abdul-Muneer P, Schuetz H, Wang F, Skotak M, Jones J, Gorantla S, et al. Induction of oxidative and nitrosative damage leads to cerebrovascular inflammation in an animal model of mild traumatic brain injury induced by primary blast. Free Radic Biol Med. (2013) 60:282–91. doi: 10.1016/j.freeradbiomed.2013.02.029, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 60. Yeoh S, Bell ED, Monson K. Distribution of blood–brain barrier disruption in primary blast injury. Ann Biomed Eng. (2013) 41:2206–14. doi: 10.1007/s10439-013-0805-7, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 61. Cho HJ, Sajja VSSS, Vandevord PJ, Lee Y. Blast induces oxidative stress, inflammation, neuronal loss and subsequent short-term memory impairment in rats. Neuroscience. (2013) 253:9–20. doi: 10.1016/j.neuroscience.2013.08.037, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 62. Mishra V, Skotak M, Schuetz H, Heller A, Haorah J. Primary blast causes mild, moderate, severe and lethal TBI with increasing blast overpressures: experimental rat injury model. Sci Report. (2016) 6:26992. doi: 10.1038/srep26992 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 63. Mittelbronn M, Dietz K, Schluesener H, Meyermann R. Local distribution of microglia in the normal adult human central nervous system differs by up to one order of magnitude. Acta Neuropathol. (2001) 101:249–55. doi: 10.1007/s004010000284, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 64. Davalos D, Grutzendler J, Yang G, Kim JV, Zuo Y, Jung S, et al. ATP mediates rapid microglial response to local brain injury in vivo. Nat Neurosci. (2005) 8:752–8. doi: 10.1038/nn1472, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 65. Nimmerjahn A, Kirchhoff F, Helmchen FJS. Resting microglial cells are highly dynamic surveillants of brain parenchyma in vivo. Science. (2005) 308:1314–8. doi: 10.1126/science.1110647, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 66. Ginhoux F, Greter M, Leboeuf M, Nandi S, See P, Gokhan S, et al. Fate mapping analysis reveals that adult microglia derive from primitive macrophages. Science. (2010) 330:841–5. doi: 10.1126/science.1194637, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 67. Ajami B, Bennett JL, Krieger C, Tetzlaff W. Local self-renewal can sustain CNS microglia maintenance and function throughout adult life. Nat Neurosci. (2007) 10:1538–43. doi: 10.1038/nn2014, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 68. Sterka D, Jr, Marriott I. Characterization of nucleotide-binding oligomerization domain (NOD) protein expression in primary murine microglia. J Neuroimmunol. (2006) 179:65–75. doi: 10.1016/j.jneuroim.2006.06.009, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 69. Bsibsi M, Ravid R, Gveric D. Broad expression of toll-like receptors in the human central nervous system. J Neuropathol Exp Neurol. (2002) 61:1013–21. doi: 10.1093/jnen/61.11.1013, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 70. Tanaka T, Ueno M, Yamashita T. Engulfment of axon debris by microglia requires p38 MAPK activity. J Biol Chem. (2009) 284:21626–36. doi: 10.1074/jbc.M109.005603, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 71. Meda L, Cassatella MA, Szendrei GI, Otvos L, Baron P, Villalba M, et al. Activation of microglial cells by β-amyloid protein and interferon-γ. Nature. (1995) 374:647–50.
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 72. Roth TL, Nayak D, Atanasijevic T, Koretsky AP, Latour LL, McGavern DBJN. Transcranial amelioration of inflammation and cell death after brain injury. Nature. (2014) 505:223–8. doi: 10.1038/nature12808, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 73. Ziebell JM, Taylor SE, Cao T, Harrison JL. Rod microglia: elongation, alignment, and coupling to form trains across the somatosensory cortex after experimental diffuse brain injury. J Neuroinflammation. (2012) 9:247. doi: 10.1186/1742-2094-9-247, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 74. Smith C, Gentleman SM, Leclercq PD, Murray LS, Griffin WST, Graham DI, et al. The neuroinflammatory response in humans after traumatic brain injury. Neuropathol Appl Neurobiol. (2013) 39:654–66. doi: 10.1111/nan.12008, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 75. Norden DM, Godbout J. Neurobiology a. microglia of the aged brain: primed to be activated and resistant to regulation. Neuropathol Appl Neurobiol. (2013) 39:19–34. doi: 10.1111/j.1365-2990.2012.01306.x, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 76. Taraboletti G, Roberts D, Liotta LA, Giavazzi R. Platelet thrombospondin modulates endothelial cell adhesion, motility, and growth: a potential angiogenesis regulatory factor. J Cell Biol. (1990) 111:765–72.
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 77. Liu L, Huang R, Fan C, Chen X. Diagnostic and prognostic utility of plasma thrombospondin-1 levels in traumatic brain injury. Eur J Trauma Emerg Surg. (2024) 50:2229–37. doi: 10.1007/s00068-024-02605-9, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 78. Abdul-Muneer P, Pfister BJ, Haorah J, Chandra N. Role of matrix metalloproteinases in the pathogenesis of traumatic brain injury. Mol Neurobiol. (2016) 53:6106–23. doi: 10.1007/s12035-015-9520-8, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 79. Shigemori Y, Katayama Y, Mori T, Maeda T, Kawamata T. Matrix metalloproteinase-9 is associated with blood-brain barrier opening and brain edema formation after cortical contusion in rats. Vienna, Austria: Brain edema XIII
+Springer; (2006). [ DOI ] [ PubMed ] [ Google Scholar ]
+ 80. Grossetete M, Phelps J, Arko L, Yonas H, Rosenberg GA. Elevation of matrix metalloproteinases 3 and 9 in cerebrospinal fluid and blood in patients with severe traumatic brain injury. Neurosurgery. (2009) 65:702–8. doi: 10.1227/01.NEU.0000351768.11363.48, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 81. Agoston DV, McCullough J, Aniceto R, Lin I-H, Kamnaksh A, Eklund M, et al. Blood-based biomarkers of repetitive, subconcussive blast overpressure exposure in the training environment: a pilot study. Neurotrauma Reports. (2022) 3:479–90. doi: 10.1089/neur.2022.0029, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 82. Saponaro C, Cianciulli A, Calvello R, Dragone T, Iacobazzi F, Panaro MA. The PI3K/Akt pathway is required for LPS activation of microglial cells. Immunopharmacol Immunotoxicol. (2012) 34:858–65. doi: 10.3109/08923973.2012.665461, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 83. Liu S, Jin R, Xiao AY, Chen R, Li J, Zhong W, et al. Induction of neuronal PI3Kγ contributes to endoplasmic reticulum stress and long-term functional impairment in a murine model of traumatic brain injury. Neurotherapeutics. (2019) 16:1320–34. doi: 10.1007/s13311-019-00748-x, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 84. Wright B, King S, Suphioglu C. The importance of phosphoinositide 3-kinase in Neuroinflammation. Int J Mol Sci. (2024) 25:11638. doi: 10.3390/ijms252111638, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 85. Wojtas AM, Sens JP, Kang SS, Baker KE, Berry TJ, Kurti A, et al. Astrocyte-derived clusterin suppresses amyloid formation in vivo. Mol Neurodegener. (2020) 15:1–14. doi: 10.1186/s13024-020-00416-1, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 86. Kim Y-M, Park S, Choi SY, Oh SB, Jung M, Pack C-G, et al. Clusterin binding modulates the aggregation and neurotoxicity of amyloid-β (1–42). Mol Neurobiol. (2022) 59:6228–44. doi: 10.1007/s12035-022-02973-6, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 87. Narayan P, Orte A, Clarke RW, Bolognesi B, Hook S, Ganzinger KA, et al. The extracellular chaperone clusterin sequesters oligomeric forms of the amyloid-β1− 40 peptide. Nat Struct Mol Biol. (2012) 19:79–83. doi: 10.1038/nsmb.2191, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 88. Wojtas AM, Kang SS, Olley BM, Gatherer M, Shinohara M, Lozano PA, et al. Loss of clusterin shifts amyloid deposition to the cerebrovasculature via disruption of perivascular drainage pathways. Proc Natl Acad Sci. (2017) 114:E6962–71. doi: 10.1073/pnas.1701137114, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 89. Yeh FL, Wang Y, Tom I, Gonzalez LC, Sheng M. TREM2 binds to apolipoproteins, including APOE and CLU/APOJ, and thereby facilitates uptake of amyloid-beta by microglia. Neuron. (2016) 91:328–40. doi: 10.1016/j.neuron.2016.06.015, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 90. Giri M, Zhang M, Lü Y. Genes associated with Alzheimer’s disease: an overview and current status. Clin Interv Aging. (2016) 11:665–81. doi: 10.2147/CIA.S105769, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 91. Deming Y, Xia J, Cai Y, Lord J, Holmans P, Bertelsen S, et al. A potential endophenotype for Alzheimer’s disease: cerebrospinal fluid clusterin. Neurobiol Aging. (2016) 37:208.e1–9. doi: 10.1016/j.neurobiolaging.2015.09.009, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 92. Schrijvers EM, Koudstaal PJ, Hofman A, Breteler MM. Plasma clusterin and the risk of Alzheimer disease. JAMA. (2011) 305:1322–6. doi: 10.1001/jama.2011.381, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 93. Sagare A, Deane R, Bell RD, Johnson B, Hamm K, Pendu R, et al. Clearance of amyloid-β by circulating lipoprotein receptors. Nat Med. (2007) 13:1029–31. doi: 10.1038/nm1635, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 94. Sagare AP, Deane R, Zlokovic BV. Low-density lipoprotein receptor-related protein 1: a physiological Aβ homeostatic mechanism with multiple therapeutic opportunities. Pharmacol Ther. (2012) 136:94–105. doi: 10.1016/j.pharmthera.2012.07.008, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 95. Cao D, Fukuchi K-i, Wan H, Kim H, Li L. Lack of LDL receptor aggravates learning deficits and amyloid deposits in Alzheimer transgenic mice. Neurobiol Aging. (2006) 27:1632–43. doi: 10.1016/j.neurobiolaging.2005.09.011, PMID: 
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 96. Kim J, Castellano JM, Jiang H, Basak JM, Parsadanian M, Pham V, et al. Overexpression of low-density lipoprotein receptor in the brain markedly inhibits amyloid deposition and increases extracellular Aβ clearance. Neuron. (2009) 64:632–44. doi: 10.1016/j.neuron.2009.11.013, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 97. Katsouri L, Georgopoulos S. Lack of LDL receptor enhances amyloid deposition and decreases glial response in an Alzheimer’s disease mouse model. PLoS One. (2011) 6:e21880. doi: 10.1371/journal.pone.0021880, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 98. Basak JM, Verghese PB, Yoon H, Kim J, Holtzman DM. Low-density lipoprotein receptor represents an apolipoprotein E-independent pathway of Aβ uptake and degradation by astrocytes. J Biol Chem. (2012) 287:13959–71. doi: 10.1074/jbc.M111.288746, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 99. Verberk IM, Misdorp EO, Koelewijn J, Ball AJ, Blennow K, Dage JL, et al. Characterization of pre-analytical sample handling effects on a panel of Alzheimer’s disease–related blood-based biomarkers: results from the standardization of Alzheimer’s blood biomarkers (SABB) working group. Alzheimers Dement. (2022) 18:1484–97. doi: 10.1002/alz.12510, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 100. Ashton NJ, Suárez-Calvet M, Karikari TK, Lantero-Rodriguez J, Snellman A, Sauer M, et al. Effects of pre-analytical procedures on blood biomarkers for Alzheimer’s pathophysiology, glial activation, and neurodegeneration. Alzheimer’s & Dementia: Diagnosis, Assess Dis Monitor. (2021) 13:e12168. doi: 10.1002/dad2.12168, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 101. O’Connell GC, Alder ML, Webel AR, Moore SM. Neuro biomarker levels measured with high-sensitivity digital ELISA differ between serum and plasma. Bioanalysis. (2019) 11:2087–94. doi: 10.4155/bio-2019-0213, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 102. Kac PR, Gonzalez-Ortiz F, Simrén J, Dewit N, Vanmechelen E, Zetterberg H, et al. Diagnostic value of serum versus plasma phospho-tau for Alzheimer’s disease. Alzheimers Res Ther. (2022) 14:65. doi: 10.1186/s13195-022-01011-w, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 103. Jonaitis EM, Zetterberg H, Koscik RL, Betthauser TJ, Van Hulle CA, Hogan K, et al. Crosswalk study on blood collection-tube types for Alzheimer’s disease biomarkers. Alzheimer’s & Dementia: Diagnosis, Assess DisMonitor. (2022) 14:e12266. doi: 10.1002/dad2.12266, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 104. Gonzalez-Ortiz F, Dias A, Turton M, Magalhães R, Kac PR, Correia M, et al. Preanalytical stability of plasma/serum brain-derived tau. Alzheimers Dement. (2023) 19:4764–70. doi: 10.1002/alz.13156, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 105. Zeng X, Chen Y, Sehrawat A, Lee J, Lafferty TK, Kofler J, et al. Alzheimer blood biomarkers: practical guidelines for study design, sample collection, processing, biobanking, measurement and result reporting. Mol Neurodegener. (2024) 19:40. doi: 10.1186/s13024-024-00711-1, PMID: 
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 106. War IoMCoG, Exposures HL-TEoB . Gulf war and health: Long-term effects of blast. Washington, DC: Exposures
+National Academies Press; (2014). [ PubMed ] [ Google Scholar ]
+ 107. National Academies of Sciences E, Medicine . Evaluation of the disability determination process for traumatic brain injury in veterans. Washington, DC: National Academies Press; (2019). [ PubMed ] [ Google Scholar ]
+ Associated Data
+ This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+ Data Availability Statement
+ The datasets presented in this article are not readily available because such information as the site location, data collection date, date of birth, and gender, may reasonably allow for the identification of participants in the study. Requests to access the deidentified datasets (not including these variables) should be directed to the corresponding author, on the condition that institutional and ethical requirements for sharing the data are met.
+ Articles from Frontiers in Neurology are provided here courtesy of Frontiers Media SA 
+ ACTIONS
+ View on publisher site 
+ PDF (1.1 MB) 
+ Cite 
+ Collections 
+ Permalink 
+ PERMALINK
+ Copy 
+ RESOURCES
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+ Cite
+ Copy 
+ Download .nbib 
+ .nbib 
+ Format: 
+ AMA
+ APA
+ MLA
+ NLM
+ Add to Collections
+ Create a new collection 
+ Add to an existing collection 
+ Name your collection
+ * 
+ Choose a collection
+ Unable to load your collection due to an error
+ Please try again 
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter) 
+ NCBI on Facebook 
+ NCBI on LinkedIn 
+ NCBI on GitHub 
+ NCBI RSS feed 
+ Connect with NLM
+ NLM on X (formerly known as Twitter) 
+ NLM on Facebook 
+ NLM on YouTube 
+ National Library of Medicine
+ 8600 Rockville Pike
+ Bethesda, MD 20894 
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top 

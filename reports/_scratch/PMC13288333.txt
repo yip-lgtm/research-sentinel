@@ -1,0 +1,372 @@
+
+ Associations Between Blast Exposures and Intestinal Permeability and Neurotrauma Symptoms During Mortar Fire Military Tactical Training Operations - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know 
+ Here's how you know 
+ Official websites use .gov 
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS 
+ A lock (
+ ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in 
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+ Search PMC Full-Text Archive 
+ Search in PMC 
+ Journal List
+ User Guide
+ PERMALINK
+ Copy 
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health.
+ Learn more:
+ PMC Disclaimer 
+ |
+ PMC Copyright Notice
+ Mil Med 
+. Author manuscript; available in PMC: 2026 Jun 24.
+ Published in final edited form as: Mil Med. 2026 May 1;191(5-6):e1077–e1085. doi: 10.1093/milmed/usaf478 
+ Search in PMC 
+ Search in PubMed 
+ View in NLM Catalog 
+ Add to search 
+ Associations Between Blast Exposures and Intestinal Permeability and Neurotrauma Symptoms During Mortar Fire Military Tactical Training Operations
+ Zhaoyu Wang 
+ Zhaoyu Wang , MS 
+ 1 General Medical Research, James J. Peters VA Medical Center, Bronx, NY 10468, United States
+ 2 Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States
+ Find articles by Zhaoyu Wang 
+ 1, 2 , Qingkun Liu 
+ Qingkun Liu , PhD 
+ 1 General Medical Research, James J. Peters VA Medical Center, Bronx, NY 10468, United States
+ 2 Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States
+ Find articles by Qingkun Liu 
+ 1, 2 , Jeffrey Nemes 
+ Jeffrey Nemes , MS 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD 20910, United States
+ Find articles by Jeffrey Nemes 
+ 3 , Alis Kranfli 
+ Alis Kranfli , BS 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD 20910, United States
+ Find articles by Alis Kranfli 
+ 3 , Molly Sullan 
+ Molly Sullan , PhD 
+ 4 Department of Veterans Affairs, Rocky Mountain Mental Illness, Research, Education and Clinical Care, Aurora, CO 80045, United States
+ 5 VA Brain Health Coordinating Center, Rocky Mountain Regional VA Medical Center, Aurora, CO 80045, United States
+ 6 Department of Physical Medicine & Rehabilitation, Anschutz Medical Campus, University of Colorado, Aurora, CO 80045, United States
+ Find articles by Molly Sullan 
+ 4, 5, 6 , Andrew Hoisington 
+ Andrew Hoisington , PhD 
+ 4 Department of Veterans Affairs, Rocky Mountain Mental Illness, Research, Education and Clinical Care, Aurora, CO 80045, United States
+ 5 VA Brain Health Coordinating Center, Rocky Mountain Regional VA Medical Center, Aurora, CO 80045, United States
+ 6 Department of Physical Medicine & Rehabilitation, Anschutz Medical Campus, University of Colorado, Aurora, CO 80045, United States
+ 7 Department of Systems Engineering and Management, Air Force Institute of Technology, Wright-Patterson Air Force Base, OH 45433, United States
+ Find articles by Andrew Hoisington 
+ 4, 5, 6, 7 , Lisa A Brenner 
+ Lisa A Brenner , PhD 
+ 5 VA Brain Health Coordinating Center, Rocky Mountain Regional VA Medical Center, Aurora, CO 80045, United States
+ 6 Department of Physical Medicine & Rehabilitation, Anschutz Medical Campus, University of Colorado, Aurora, CO 80045, United States
+ Find articles by Lisa A Brenner 
+ 5, 6 , Maciej Skotak 
+ Maciej Skotak , PhD 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD 20910, United States
+ Find articles by Maciej Skotak 
+ 3 , Christina R LaValle 
+ Christina R LaValle , MS 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD 20910, United States
+ Find articles by Christina R LaValle 
+ 3 , Yongchao Ge 
+ Yongchao Ge , PhD 
+ 2 Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States
+ Find articles by Yongchao Ge 
+ 2 , Walter Carr 
+ Walter Carr , PhD 
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD 20910, United States
+ Find articles by Walter Carr 
+ 3 , Fatemeh Haghighi 
+ Fatemeh Haghighi , PhD 
+ 1 General Medical Research, James J. Peters VA Medical Center, Bronx, NY 10468, United States
+ 2 Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States
+ Find articles by Fatemeh Haghighi 
+ 1, 2 
+ Author information 
+ Copyright and License information 
+ 1 General Medical Research, James J. Peters VA Medical Center, Bronx, NY 10468, United States
+ 2 Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States
+ 3 Walter Reed Army Institute of Research, Silver Spring, MD 20910, United States
+ 4 Department of Veterans Affairs, Rocky Mountain Mental Illness, Research, Education and Clinical Care, Aurora, CO 80045, United States
+ 5 VA Brain Health Coordinating Center, Rocky Mountain Regional VA Medical Center, Aurora, CO 80045, United States
+ 6 Department of Physical Medicine & Rehabilitation, Anschutz Medical Campus, University of Colorado, Aurora, CO 80045, United States
+ 7 Department of Systems Engineering and Management, Air Force Institute of Technology, Wright-Patterson Air Force Base, OH 45433, United States
+ ✉ Corresponding author. Fatemeh Haghighi, PhD, United States ( fatemeh.haghighi@va.gov )
+ # These authors contributed equally to this work.
+ INDIVIDUAL AUTHOR CONTRIBUTION STATEMENT Conceptualization, F.H., W.C., Y.G., L.A.B., Q.L., and Z.W.; methodology, Q.L., Z.W., M.Sk., C.R.L., Y.G., and F.H.; formal analysis, Z.W.; investigation, M.Su., A.H., L.A.B., M.Sk., C.R.L., J.N., A.K., W.C., Z.W., Q.L., Y.G., and F.H.; resources, W.C. and F.H.; writing, F.H. and Z.W.; project administration, F.H. and W.C.; funding acquisition, F.H. and W.C. All authors have read and agreed to the published version of the manuscript.
+ This work is written by (a) US Government employee(s) and is in the public domain in the US. https://creativecommons.org/licenses/by/4.0/ 
+ PMC Copyright notice 
+ PMCID: PMC13288333  NIHMSID: NIHMS2140295  PMID: 41048049 
+ The publisher's version of this article is available at Mil Med 
+ Abstract
+ Introduction:
+ Military members are exposed in combat and training to recognized traumatic brain injury (TBI)-causing events and other sub-concussive events that result in physical, psychological, and physiological impacts. Studies by this team and others involving Service Members (SMs) engaged in tactical training operations with repeated exposure to low level blast (LLB) have shown associations with concussion-like symptomology as well as transient decrements in performance, blood-based neurotrauma biomarkers, and perturbations in epigenome and transcriptome profiles, as well as alterations in intestinal permeability (IP). The present study focused on SMs engaged in mortar fire tactical trainings, builds on our previous findings in breachers that identified associations between blast exposures and IP and neurotrauma symptoms following exposures to LLB.
+ Materials and Methods:
+ Self-report symptom data and blood specimens from 31 SMs were collected including 22 mortarmen who directly participated in tactical training operations and were exposed to LLB and 9 unexposed study controls. Symptom data and blood samples were collected at pre-, post, and follow-up time points, across 3 consecutive mortar fire training sessions. Blood samples were assessed across all sessions via enzyme-linked immunosorbent assay (ELISA) to measure levels of IP protein biomarkers (i.e., Zonulin, Lipopolysaccharide-Binding Protein (LBP), Claudin-3, Intestinal-Fatty Acid Biding Protein (I-FABP). Correlations between IP biomarker changes and magnitude of blast exposures in each training session were calculated and reported as effect sizes measured by Cohen’s d using correlation to effect size conversion via R package effectsize. Impact of blast magnitude on IP biomarker changes across sessions were tested using a linear mixed effect model via R package lme4 and emmeans, with similar models used to investigate associations of IP biomarker changes following blast with physical and psychological symptoms or prior history of TBI.
+ Results:
+ In mortarmen LLB exposure magnitudes were significantly associated with change in Intestinal-Fatty Acid Binding Protein (pre vs. post, P = .028) and Zonulin (pre vs. follow-up, P = .003) levels across training sessions. Associations with moderate to large effect sizes were observed between changes in LBP and CLDN3 levels and neurotrauma symptoms, including taking longer to think, dizziness, and concentration difficulties following exposures to LLB (Cohen’s ∣d∣ > 0.5). Associations between TBI history and blast induced alterations in LBP and CLDN3 levels were identified with large effect sizes (∣d∣ > 0.8).
+ Conclusions:
+ The present study in mortarmen corroborates our prior findings showing that exposures to LLB can contribute to IP that is also associated with prior mild traumatic brain injury (mTBI) history, with concomitant decreases in self-reported cognitive functioning. These findings suggest a possible role of blast exposure in gut permeability and the importance of the gut-brain axis in blast injury, with significant clinical translational impact in how we target clinical symptoms associated with exposure to blast and long term sequalae. These results may lead to a paradigm shift in the manner by which the military can detect, mitigate, and treat blast-related sequelae.
+ INTRODUCTION
+ Exposures to improvised explosive devices and other forms of explosive warfare within armed conflicts in Iraq and Afghanistan contributed to elevated rates of traumatic brain injuries (TBI) in our Warfighters and Veterans, with 66% of such injuries in deployment settings having been attributed to blast exposure. 1 Exposures to blast are not only confined to deployment settings, since Service Members (SMs) are required to engage in military training exercises to maintain military readiness, where they are repeatedly exposed to low-level blasts (LLB). These exercises help service members build familiarity and skill with various weapons systems under realistic conditions; however, repeated exposure to even LLBs can have potential effects on health, particularly on the brain over time. A cross-sectional study of blast overpressure (BOP) exposure for various occupational specialties in operational training environments (indoor and outdoor breaching, shotgun door breaching, small arms discharge, and mortar and artillery fire missions) indicated that the real-world training environmental exposures consistently exceed the tentative 4 psi (28 kPa) incident BOP safety threshold. 2 Such exposures during breaching and mortar fire tactical training operations are also shown to be associated with reported symptoms of neurotrauma. 3 - 7 Although our understanding of the effects and mechanisms of blast injury are limited, investigations of the effects of blast in military tactical training operational settings have begun to address this gap in knowledge. 8 , 9 
+ The brain appears to be particularly vulnerable to blast injury. 10 Blast shockwaves can transmit pressure through the skull where the energy of the shockwave can be absorbed by the brain tissues, 11 with disruption of the blood brain barrier. 12 Exposure to blast can also result in profound effects on the gastrointestinal (GI) system through a series of biophysical and pathophysiological mechanisms by the transmission of high-energy shock waves, who interact with the body’s gas-containing organs. When a blast wave strikes the body, a fraction of its energy is reflected, some is deflected, and a substantial portion is transmitted internally as a pressure wave. The propagation of this wave is influenced by the physical properties of tissues, with gas-containing organs such as the intestines being particularly susceptible, where the mechanism of injury involves abrupt pressure differentials created at gas-tissue interfaces that can result in tissue disruption, hemorrhage, and, in severe cases, perforation. 13 - 15 The connection between injury to the brain and the GI track is well-established (for review see 16 ). Brain injuries can result in profound changes in the gut, involving a cascade of changes including disruption of the intestinal barrier, increased infiltration of systemic immune cells, dysmotility, and dysbiosis, enteroendocrine cell dysfunction and disruption in the enteric nervous system and auto nomic nervous system that contribute to negative clinical outcomes following brain injury. 16 
+ Our prior work in a cohort of SMs (mostly 12B, combat engineers) referred to as breachers, indicated that exposures to blast overpressure may contribute to intestinal permeability (IP), which was likewise associated with deficits in cognitive functioning. 17 We found evidence of bacterial translocation into circulation following BOP exposures through detection of microbial sequences and quantification of microbial diversity (measured by alpha diversity) that showed a significant stepwise increase. 17 This observation was further corroborated through the detection of altered levels of IP biomarkers including Zonulin (haptoglobin 2 precursor), Claudin-3, Lipopolysaccharide-Binding Protein (LBP) and Intestinal-Fatty Acid Biding Protein (I-FABP) in the same cohort of SMs. 17 These IP biomarkers are widely used in clinical and research settings for detection of leaky gut. 18 - 20 
+ The present study investigated alterations in IP biomarkers in an independent cohort of SMs with different military occupational specialty (11C, Indirect Fire Infantryman or “mortarmen”), engaged in mortar fire tactical training operations. Physical and psychological symptom data and blood specimens were collected over a period of 6 months from this cohort of mortarmen who participated in 3 tactical training sessions varying in both BOP exposure magnitudes and rates of fire. Motivated by our prior findings in breachers, 17 we hypothesized that mortarmen exposed to LLB during tactical training would show alterations in levels of IP protein biomarkers (i.e., Zonulin, LBP, Claudin-3, I-FABP). Through exploratory analyses (given limited sample size with small numbers of participating mortarmen), we also aimed to investigate: (1) associations between blast induced changes in these IP biomarkers and participant’s prior history of TBI; and (2) associations between these IP biomarker changes and physical and psychological symptoms using timeseries data collected during tactical training sessions.
+ METHODS
+ Sample Demographics and Symptom Reporting
+ Data were collected during 3 separate tactical training evolutions over a 6-month time period at the same military training site. Twenty-two male subjects participated in mortar fire training, involving both 81mm mortar and 120mm mortar and all charge levels, 0-4. During the course of these training sessions, individual blast exposures were measured with wearable pressure sensors (BlackBox Biometrics Blast Gauge, Jessup, MD) and quantified as cumulative impulse (measured in pounds per square inch [psi] × milliseconds [ms]) across the training day. 6 , 21 An additional 9 SMs who were also mortarmen from the same unit but did not engage in these training operations were included and for reference heretofore are referred to as unexposed study controls. Blood sample specimens were available for 31 participants investigated in the present study with some participants present for more than 1 study evolution. All participants met military physical requirement standards and were fit for duty. Although the training protocol was open to participation of both male and female SMs, no females participated during the data collection for this study. Participants’ self-reported history of mild traumatic brain injury (mTBI) and approximate self-reported number of career blast exposure events were recorded before engagement in training and are shown in Table 1 and range from 4 to 100k+ self-reported blast exposure events. Blood samples were collected on the training day serially at pre-blast (morning 7:30 AM to 9:00 AM), post-blast (afternoon 4:30 PM to 5:30 PM) on the training day, and follow-up the next day (morning 7:30 AM to 9:00 AM) and stored in −80 °C for downstream experiments. On average within each training session, the post-blast time point corresponded to 1 hour, and follow-up to 16 hour following exposures to blast (an overnight period that likely includes sleep).
+ Table 1.
+ Demographics, Military Occupation, and Exposure History
+ Group
+ Exposed
+ Unexposed
+ Test and P -value
+ N 
+ 22
+ 9
+ Age (years)
+ 25.0 ± 3.9
+ 25.0 ± 3.4
+ t -test, P = .98
+ Service duration (years)
+ 5.0 ± 3.5
+ 4.4 ± 1.6
+ t -test, P = .55
+ mTBI
+ 14 (64%)
+ 5 (56%)
+ χ 2 test, P = .99
+ MOS
+ 11C Mortarman: 22 (100%)
+ 11C Mortarman: 5 (56%) Other: 4 (44%)
+ χ 2 test, P = .01
+ Total blast exposure
+ 1-1,000: 5
+1,001-10,000: 6
+10,001-30,000: 5
+30,001-100,000: 2
+100,000+: 2
+Missing: 2
+ 1-1,000: 4
+1,001-10,000: 2
+10,001-30,000: 0
+30,001-100,000: 1
+100,000+: 2
+ χ 2 test, P = .43
+ Open in a new tab 
+ Data shown represent SMs’ age, service years in the military, history of mTBI, MOS, and blast exposure history categorized within pre-defined exposure ranges. Herein unexposed refers to the SMs in the study control group, who did not engage in mortar fire trainings.
+ Abbreviations: MOS, military occupational specialty; mTBI, mild traumatic brain injury; SMs, Service Members.
+ Additionally, during each tactical training session, participants completed a 32-item, paper-and-pencil neurotrauma symptom inventory at pre-, post-, and follow-up blast exposure timepoints in conjunction with each blood draw. Items on the symptom survey were the same as that of the Rivermead Post Concussion Symptoms Questionnaire, 22 , 23 with additional items included to capture effects previously observed as reported in BOP exposure environments (e.g., tinnitus). These items are consistent with concussion symptomology present in current clinical and research findings. 4 , 24 Items on this survey are on a 5-point Likert scale (0 “not experienced at all,” 1 “no more of a problem than before training,” 2 “mild problem–present but don’t really notice and doesn’t concern me,” 3 “moderate problem–I can continue what I am doing but I notice the problem,” 4 “severe problem–constantly present, feels like it could affect my performance”).
+ Intestinal Permeability Biomarkers Assayed via Enzyme-Linked Immunosorbent Assay
+ IP biomarkers including Zonulin, LBP (LPS binding protein), Claudin-3, and I-FABP, were assayed as previously described. 17 Briefly, plasma levels of Zonulin, LBP, and Claudin-3 were quantified using enzyme-linked immunosorbent assay (ELISA) kits from MyBiosorce (catalog # MBS706368, MBS2024051, and MBS2023694, respectively) and I-FABP levels measured using the ELISA kit from R&D Systems (catalog # DFBP20), following the manufacturer’s protocols for all procedures. All IP biomarkers were measured in duplicate, and the average concentrations were calculated for use in downstream analyses.
+ Data and Statistical Analyses
+ Statistical analyses were performed in R 4.4.0. Group differences for age, service duration, mTBI history and total blast exposure between exposed and unexposed study controls were tested using t-test or Chi-square test. We compared changes in biomarker levels pre versus post/follow-up between the 2 groups (i.e., exposed and unexposed study control participants) for each session. Because of the small sample size for the unexposed study control group, effect sizes measured by Cohen’s d were calculated and reported, instead of testing for significance. Within the exposed group of participants, we investigated whether IP biomarker changes were correlated with magnitude of blast exposures in each training session, with correlations reported as effect sizes measured by Cohen’s d using correlation to effect size conversion via R package effectsize. 25 To determine the cumulative impact of blast magnitude on IP biomarker changes across sessions, we used a linear mixed effect model as follows via R package lme4 and emmeans:
+ I P B i o m a r k e r c h a n g e = B l a s t M a g n i t u d e + S e s s i o n + ( 1 ∣ S u b j e c t ) 
+ In exploratory analyses we investigated how IP biomarker changes associate with prior mTBI history, or physical/psychological symptoms following blast in line with our previous works. 17 , 26 For both of these analyses we used a similar model and R package where the Group variable corresponded to either (a) prior mTBI history (Yes or No) or (b) dichotomized symptom(s) (denoted as 1 if a given symptom was increasing or 0 if not, following blast exposure):
+ I P B i o m a r k e r c h a n g e = G r o u p + S e s s i o n + ( 1 ∣ S u b j e c t ) 
+ Because of the small sample sizes across these comparison groups, differences were reported as effect sizes only, measured by Cohen’s d.
+ RESULTS
+ Of the 31 SMs included in the present study, 22 participants engaged in mortar fire tactical training with an average age of 25.0 ± 3.9 years. All participants engaged in training were serving as mortarmen as their military occupational specialty (MOS 11C). Participants’ self-reported history of mTBI and number of blast exposures were recorded before engagement in training and are described in Table 1 . Data and biospecimens were collected over 3 training sessions at the same military site within a 6-month period, with first and second sessions being 4 months apart and the second and third sessions 1 month apart. A total of 50% of participants engaged in 2 or more training sessions and 18% in all 3 training sessions (see Table S1 for participants’ demographics for each session). The average blast exposure magnitudes were 238.0, 556.5, and 98.3 psi*ms for sessions 1, 2, and 3, respectively, where, comparatively, session 3 represented the lowest average magnitude and, correspondingly, had fewest complaints from participating SMs following blast exposure as indicated by changes in symptom reporting at pre versus post/follow-up timepoints ( Figure S1 ).
+ For each training session, IP biomarker changes were examined at pre versus post/follow up timepoints. We first compared changes in biomarker levels pre versus post/follow-up between the 2 groups, that is, exposed and unexposed study control participants ( Figure S2 ). Secondly, within the exposed group of participants we investigated whether IP biomarker changes were associated with magnitude of blast exposures. Correlations between IP biomarker changes and magnitude of blast exposures in each training session were determined and are reported as effect sizes measured by Cohen’s d (see Table S2 ). Note that data from session 3 were not included in primary analyses given the low blast exposure magnitudes observed for this session; however, session 3 results are provided in the supplemental materials ( Figure S3 and Table S2 ).
+ Furthermore, associations of IP biomarkers with blast magnitude cumulatively across the first 2 training sessions using a linear mixed-effects model identified significant associations for I-FABP (pre vs. post timepoints, P = .028, t = 2.371), and Zonulin (pre vs. follow-up timepoints, P = .003, t = 3.390; Figure 1 ). Associations for LBP and CLND3 IP biomarkers were not significant (see Figure S4 ). We also detected associations between TBI history and blast induced LBP and CLDN3 alterations, with large effect sizes (Cohen’s d = −0.844 and 0.964 for LBP and CLDN3 IP biomarkers, respectively; see Figure 2 ). Associations between IP biomarker changes and neurotrauma symptom reporting including increased headaches, difficulty with concentration, taking longer to think, and dizziness (symptoms most frequently reported during tactical training) were also investigated (see Figure 3 for most frequently reported symptoms in session 1 and 2, and Figure S1 for neurotrauma symptoms reported across all 3 sessions). Moderate to large marginal effect sizes were also observed for associations between cumulative changes in LBP and CLDN3 and neurotrauma symptoms across sessions 1 and 2 at pre versus post/follow-up timepoints ( Figure 3 ).
+ Figure 1.
+ Open in a new tab 
+ Blast exposure confers changes in intestinal permeability biomarker levels. Scatterplots show associations between blast exposure magnitude and intestinal permeability biomarker changes for pre versus post/follow-up timepoints including: (A) intestinal-fatty acid binding protein pre versus post and (B) intestinal-fatty acid binding protein pre versus follow-up measured in pg/ml; and (C) Zonulin pre versus post and (D) Zonulin pre versus follow-up measured in ng/ml. Data shown correspond to sessions 1 and 2, with P-values for association between blast exposure magnitude and cumulative changes in intestinal-fatty acid binding protein and Zonulin across both sessions provided in each panel.
+ Figure 2.
+ Open in a new tab 
+ Blast-associated intestinal permeability biomarker responses differ by mild traumatic brain injury history. Intestinal permeability biomarker changes cumulatively between pre and post time points across mortar fire training sessions 1 and 2 are shown for (A) Lipopolysaccharide-Binding Protein, measured in ng/ml, and (B) Claudin-3, measured in ng/ml separately in those with or without prior history of mild traumatic brain injury. Only group differences with large (∣d∣>0.8) effect size are shown.
+ Figure 3.
+ Open in a new tab 
+ Intestinal permeability biomarker changes associate with neurotrauma symptoms following blast. Bar plots show (A) most frequently reported neurotrauma symptoms reported at pre, post, and follow-up timepoints after blast and (B) effect sizes for associations between cumulative changes in intestinal permeability Biomarkers and neurotrauma symptoms at pre versus post/follow-up reported by Cohen’s d: negligible (∣d∣<0.2), small (0.2≤∣d∣<0.5), medium (0.5≤∣d∣<0.8), and large effect size beyond.
+ DISCUSSION
+ This study corroborates our prior findings in breachers 17 in an independent cohort of SMs engaged in mortar fire training. In the present study, we show alterations in levels of IP protein biomarkers that indicate blast exposure contributes to gut permeability, which associates with reported neurotrauma symptoms following blast exposures. In line with prior findings, 26 we also found that blast-associated IP biomarker changes were significantly correlated with prior mTBI history. In sum, the present study contributes to an emerging body of evidence indicating that LLB contributes to gut permeability.
+ For LBP and CLDN3, the direction of change in IP biomarkers and neurotrauma symptoms following exposures to blast in these mortarmen were consistent with our prior observations in breachers 17 (see Figure 3 for mortarmen, Figure S5 for breachers reported previously 17 ). Also, across both cohorts, increases in I-FABP and Zonulin IP biomarkers were observed after blast exposure, though the dynamics in timing of the biomarker response varied between the mortarmen and the breachers. In contrast to the breacher cohort, the mortarmen in the present study were younger (average age 25.0 ± 3.7, as compared to breachers with average age of 30.0 ± 6.3, t = 3.76, P < .001). The mortarmen had a shorter duration in military service (4.8 ± 3.1) versus the breachers (8.9 ± 4.6, t = 4.00, P < .001). Also, by virtue of their MOS, the average total blast exposure for the mortarmen was significantly greater consisting of 66,453 ± 137,445 and for the breachers 2,819 ± 11,704 ( t = 2.48, P = .019) with the majority of the participants in both cohorts endorsing prior history of mTBI (64% and 57% for mortarmen and breachers, respectively). Despite differences in the cohorts’ demographic and exposure histories, the military occupational specialties of the participants investigated in these studies represent environments in which they are exposed to high levels of peak overpressure. Consequently, contributing to the observed findings related to alterations in IP biomarker response across both cohorts. Both cohorts also exhibit a decrease in cognitive functioning after blast exposure, which also associated with changes in IP biomarker levels. Overall, findings from this and our prior work 17 in SMs with LLB exposures show, in real-world military operational settings, that exposures to blast can contribute to gut permeability, and that prior exposures or injuries such as mTBI history, may influence differential IP biomarker response following blast.
+ Studies in military populations provide a unique opportunity for advancing our understanding of the brain-gut axis in context of physical and psychological stressors, in real-world settings, during tactical training and combat. Our own work in breachers and mortarmen showing the potential impact of blast exposures on the intestinal barrier is further supported by other findings from studies of SMs exposed to physical and psychological stressors during military operations. In particular, studies investigating physical and psychological stressors during a 6-week combat training course comprised of combat simulation and high-intensity medical evacuation exercises found increases in symptoms of stress, anxiety, and depression, with concomitant increases in IP and inflammation, 27 as well as changes in metabolic responses. 28 A study of soldiers involved in a 4-day arctic training exercise who endured high physical exertion also found increases in IP and inflammation, as well as changes in gut microbiota and metabolite composition. 29 Finally, a study involving Marines engaged in a 7.5 day Survival, Evasion, Resistance and Escape training, specifically found alterations in the LBP IP biomarker following training that was associated with increased mood disturbances and symptoms of depression, but not with changes in cognitive performance, in contrast to our findings with blast exposures presented herein and previously. 30 There is a growing recognition of the impact of military relevant stressors on gut health, especially since personnel often operate in extreme environments with disrupted sleep, exposure to pathogens and toxins, and excessive noise, as well as extreme stress and strenuous physical exertion, that impact their physical and psychological health. 31 These exposures have shown to be related to such chronic symptoms as gastroenteritis, insomnia, substance use disorders, bipolar disorders, and severe depression in Veterans that has also been shown to be associated with distinct gut microbiome signatures. 32 
+ This study has several limitations. As an observational human study conducted within military operational settings, clinician-administered assessments of neurotrauma symptoms were not performed since it was not feasible and would have interfered with the objectives of the training evolutions. Additionally, history and mechanism of mTBI were both based on self-report, with no data collected on the date of injury. No data on participants’ diets were collected, since the initial study protocol used to collect these samples was developed with the focus to assess the effects of blast on cognitive performance and self-reported neurotrauma symptoms; however, the majority of these trainings occurred in remote locations and food intake was likely different from a normal diet and could have included Meals Ready to Eat (MRE). Persistent intake (i.e., 21 straight days) of only MRE has been shown to alter the gut microbiome without altering IP or gastrointestinal symptoms. 33 Findings from this work may motivate future Department of Defense (DoD) and military operational data collection efforts to further investigate the relationship between blast exposure and gut health, where data on the participants’ diets and other relevant GI conditions can be collected. Future operational data collection efforts may also serve to investigate the blast exposure-gut health relationship using alternate measures of individual exposure besides the wearable sensors reported here. These may include estimates of individual exposures based on observation monitoring using, for example, the Blast Overpressure (BOP) Tool, 34 within the Range Manager Toolkit. Such tools offer the capabilities to monitor and to investigate blast exposure of SMs in line with the interim DoD guidance for managing and documenting brain health risk from blast overpressure, which can also be entered as part of individual exposure records of SMs for use in future IP biomarker studies. Furthermore, though this study included unexposed study controls who did not engage in mortar fire trainings, the activities of these participants were not controlled nor tracked. It is possible that these individuals may have engaged in activities that could have impacted study measures of interest. Since the training protocol requires multiple days of military training exercises, it is challenging to identify available SMs to serve as controls. As such, this study involving mortarmen and our prior work in breachers 17 exposed to LLB is principally based on a longitudinal design with repeated measures, where each participant’s pre-exposure is their own control when comparing symptom and biomarker measures pre versus post/follow-up blast exposure. This study also lacks representation of both sexes. Even though the training protocol was open to both sexes, there were no females in this training cohort. As an observational study, data is collected where blast exposure occurs in existing operational training environments, and presently represents the bias in predominantly male SMs that participate in these training protocols. There was not a sufficiently sized sample to investigate longer-term longitudinal data on both bacterial species and IP measures following blast exposures, which were not feasible given the scope of the parent protocol under which the symptom and biospecimen data were collected, as well as the participants’ duties although in military service. Finally, it is possible that the ELISA assays used for quantification of IP biomarkers were not sensitive enough to detect subtle changes in IP biomarkers, which can be investigated in future studies using other approaches as digital ELISA (or single molecule enzyme-linked immunosorbent assays).
+ In conclusion, our study findings underscore the importance of the role of blast exposure in gut permeability and of investigating the role of the gut-brain axis in the context of military exercises. Exposures to blast and gut permeability evidenced by bacterial translocation and IP demonstrated by the present study suggest a highly promising treatment target for our SMs and Veterans; thereby highlighting the importance of identifying new potential preventive and post-facto treatments that target the gut in those exposed during military tactical operations. Should links between repeated low-level blast exposure and disturbed gut health be supported through studies with large numbers of participating SMs and Veterans, this would be transformative in contributing towards the development of novel treatment strategies aimed at improving the gut microbiome as a means of mitigating the long-term health impacts of such exposures. Although many factors may influence the gut microbiome, future directions of this research may focus on diet, as this appears to play a particularly important role in influencing its composition and associated metabolites, 35 which, along with the non-invasive nature of dietary interventions, makes it a particularly promising avenue for sculpting the gut microbiota to enhance gut health amongst SMs with repeated exposures to blast as part of their military occupational specialty.
+ Supplementary Material
+ Supplementary Material 
+ NIHMS2140295-supplement-Supplementary_Material.docx (14.2MB, docx) 
+ SUPPLEMENTARY MATERIAL
+ Supplementary material is available at Military Medicine online.
+ ACKNOWLEDGEMENTS
+ The authors acknowledge the military Service Members who accommodated this research activity and made this work possible as well as to their service to this nation every day. The authors also acknowledge CDR Josh L. Duckworth and the CONQUER program (Combat and Training Queryable Exposure/Event Repository) for sharing this mission and for material support in the measurement of blast overpressure exposure.
+ FUNDING
+ Fatemeh Haghighi, PhD is a recipient of the United States Department of Veteran Affairs CSR&D Research Career Scientist Award; CX002074, and her work is supported by CX001728, BX006069, RX003818, & DOD award TP240445 at the James J. Peters VA Medical Center.
+ Footnotes
+ CONFLICT OF INTEREST STATEMENT
+ The authors report no conflicts of interest.
+ INSTITUTIONAL REVIEW BOARD
+ All subjects consented to participate in the study and the human use protocol for interaction with the subjects was approved by the Institutional Review Board (IRB) of the Walter Reed Army Institute of Research (WRAIR, Silver Spring, MD; WRAIR #2838) and chains of command before data collection. The procedures were followed in accordance with the ethical standards of the IRB, Army Regulation 70-25, and the Helsinki Declaration.
+ Some data/results in this manuscript was previously presented on at the Military Health System Research Symposium in Kissimmee, FL, in August 2024.
+ The views expressed in this material are those of the authors, and do not reflect the official policy or position of the U.S. Government or the Department of Veterans Affairs. Material has been reviewed by the Walter Reed Army Institute of Research. There is no objection to its presentation and/or publication. The opinions or assertions contained herein are the private views of the authors, and are not to be construed as official, or as reflecting true views of the Department of the Army or the Department of Defense. The investigators have adhered to the policies for protection of human subjects as prescribed in AR 70-25.
+ DATA AVAILABILITY
+ The datasets presented in this article are not readily available because such information as the site location, data collection date, date of birth, and gender, may reasonably allow identification of participants in the study. Deidentified raw data (not including these variables) supporting the conclusions of this article can be made available by the authors, on condition that institutional and ethical requirements for sharing data are met.
+ REFERENCES
+ 1. Regasa LE, Agimi Y, Stout KC. Traumatic brain injury following military deployment: evaluation of diagnosis and cause of injury. J Head Trauma Rehabil. 2019;34:21–9. 10.1097/HTR.0000000000000417
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 2. Kamimori G, Reilly L, LaValle C, Da Silva UO. Occupational overpressure exposure of breachers and military personnel. Shock Waves. 2017;27:837–47. 10.1007/s00193-017-0738-4 [ DOI ] [ Google Scholar ]
+ 3. Carr W, Kelley AL, Toolin CF, Weber NS. Association of MOS-based blast exposure with medical outcomes. Front Neurol. 2020;11:619. 10.3389/fneur.2020.00619
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 4. Carr W, Polejaeva E, Grome A, et al. 
+Relation of repeated low-level blast exposure with symptomology similar to concussion. J Head Trauma Rehabil. 2015;30:47–55. 10.1097/HTR.0000000000000064)
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 5. Boutté AM, Thangavelu B, Nemes J, et al. 
+Neurotrauma biomarker levels and adverse symptoms among military and law enforcement personnel exposed to occupational overpressure without diagnosed traumatic brain injury. JAMA Netw Open. 2021;4:e216445. 10.1001/jamanetworkopen.2021.6445
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 6. LaValle C, Carr W, Egnoto M, et al. 
+Neurocognitive performance deficits related to immediate and acute blast overpressure exposure. Front Neurol. 2019;10:949. 10.3389/fneur.2019.00949
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 7. Woodall JL, Sak JA, Cowdrick KR, et al. 
+Repetitive low-level blast exposure and neurocognitive effects in Army Ranger Mortarmen. Mil Med. 2023;188:e771–e9. 10.1093/milmed/usab394
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 8. Kuriakose M, Rama Rao KV, Younger D, Chandra N. Temporal and spatial effects of blast overpressure on blood-brain barrier permeability in traumatic brain injury. Sci Rep. 2018;8:8681. 10.1038/s41598-018-26813-7
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 9. Schouten JW. Neuroprotection in traumatic brain injury: a complex struggle against the biology of nature. Curr Opin Crit Care. 2007;13:134–42. 10.1097/MCC.0b013e3280895d5c
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 10. Committee on Gulf W, Health: Long-Term Effects of Blast E, Board on the Health of Select P, Institute of M. Gulf War and Health, Volume 9: Long-Term Effects of Blast Exposures. Washington (DC): National Academies Press (US) Copyright 2014 by the National Academy of Sciences. All rights reserved; 2014. [ Google Scholar ]
+ 11. Bryden DW, Tilghman JI, Hinds SR. Blast-related traumatic brain injury: current concepts and research considerations. J Exp Neurosci. 2019;13:1179069519872213. 10.1177/1179069519872213
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 12. Shetty AK, Mishra V, Kodali M, Hattiangady B. Blood brain barrier dysfunction and delayed neurological deficits in mild traumatic brain injury induced by blast shock waves. Front Cell Neurosci. 2014;8:404. 10.3389/fncel.2014.00404
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 13. Clemedson C-J. Blast injury. Physiol Rev. 1956;36:336–54. 10.1152/physrev.1956.36.3.336
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 14. Phillips YY. Primary blast injuries. Ann Emerg Med. 1986;15:1446–50. 10.1016/s0196-0644(86)80940-4
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 15. Wightman JM, Gladish SL. Explosions and blast injuries. Ann Emerg Med. 2001;37:664–78. 10.1067/mem.2001.114906
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 16. El Baassiri MG, Raouf Z, Badin S, et al. 
+Dysregulated brain-gut axis in the setting of traumatic brain injury: review of mechanisms and anti-inflammatory pharmacotherapies. J Neuroinflammation. 2024;21:124. 10.1186/s12974-024-03118-3
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 17. Liu Q, Wang Z, Sun S, et al. 
+Association of blast exposure in military breaching with intestinal permeability blood biomarkers associated with leaky gut. Int J Mol Sci. 2024;25:3549. 10.3390/ijms25063549
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 18. Perez-Diaz-del-Campo N, Castelnuovo G, Ribaldone DG, Caviglia GP. Fecal and circulating biomarkers for the non-invasive assessment of intestinal permeability. Diagnostics. 2023;13:1976. 10.3390/diagnostics13111976
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 19. Wang W, Uzzau S, Goldblum SE, Fasano A. Human zonulin, a potential modulator of intestinal tight junctions. J Cell Sci. 2000;113Pt 24:4435–40. 10.1242/jcs.113.24.4435 [ DOI ] [ PubMed ] [ Google Scholar ]
+ 20. Findley MK, Koval M. Regulation and roles for claudin-family tight junction proteins. IUBMB Life. 2009;61:431–7. 10.1002/iub.175
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 21. Biometrics B. Blast Gauge ® . Rochester, NY. [ Google Scholar ]
+ 22. Cicerone KD, Kalmar K. Persistent postconcussion syndrome: the structure of subjective complaints after mild traumatic brain injury. J Head Trauma Rehabil. 1995;10:1–17. 10.1097/00001199-199510030-00002 [ DOI ] [ Google Scholar ]
+ 23. King NS, Crawford S, Wenden FJ, et al. 
+The rivermead post concussion symptoms questionnaire: a measure of symptoms commonly experienced after head injury and its reliability. J Neurol. 1995;242:587–92. 10.1007/BF00868811
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 24. Vartanian O, Rhind SG, Nakashima A, et al. 
+Blast effects on post-concussive and mental health outcomes: data from Canadian armed forces breachers and snipers. J Mil Veteran Fam Health. 2022;8:82–96. 10.3138/jmvfh-2021-0122 [ DOI ] [ Google Scholar ]
+ 25. Ben-Shachar MS, Lüdecke D, Makowski D. Effectsize: estimation of effect size indices and standardized parameters. JOSS. 2020;5:2815. 10.21105/joss.02815 [ DOI ] [ Google Scholar ]
+ 26. Wang Z, Sun S, Liu Q, et al. 
+Impact of prior exposures on biomarkers of blast during military tactical training. Front Neurol. 2025;16:1589742. 10.3389/fneur.2025.1589742
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 27. Li X, Kan E, Lu J, et al. 
+Combat-training increases intestinal permeability, immune activation and gastrointestinal symptoms in soldiers. Aliment Pharmacol Ther. 2013;37:799–809. 10.1111/apt.12269
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 28. Phua LC, Wilder-Smith CH, Tan YM, et al. 
+Gastrointestinal symptoms and altered intestinal permeability induced by combat training are associated with distinct metabotypic changes. J Proteome Res. 2015;14:4734–42. 10.1021/acs.jproteome.5b00603
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 29. Karl JP, Margolis LM, Madslien EH, et al. 
+Changes in intestinal microbiota composition and metabolism coincide with increased intestinal permeability in young adults under prolonged physiological stress. Am J Physiol Gastrointest Liver Physiol. 2017;312:G559–71. 10.1152/ajpgi.00066.2017
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 30. Varanoske AN, McClung HL, Sepowitz JJ, et al. 
+Stress and the gut-brain axis: cognitive performance, mood state, and biomarkers of blood-brain barrier and intestinal permeability following severe physical and psychological stress. Brain Behav Immun. 2022;101:383–93. 10.1016/j.bbi.2022.02.002
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 31. Karl JP, Hatch AM, Arcidiacono SM, et al. 
+Effects of psychological, environmental and physical stressors on the gut microbiota. Front Microbiol. 2018;9:2013. 10.3389/fmicb.2018.02013
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 32. Stanislawski MA, Stamper CE, Stearns-Yoder KA, et al. 
+Characterization of the gut microbiota among veterans with unique military-related exposures and high prevalence of chronic health conditions: a United States-Veteran microbiome project (US-VMP) study. Brain Behav Immun Health. 2021;18:100346. 10.1016/j.bbih.2021.100346
+ [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+ 33. Karl JP, Armstrong NJ, McClung HL, et al. 
+A diet of US military food rations alters gut microbiota composition and does not increase intestinal permeability. J Nutr Biochem. 2019;72:108217. 10.1016/j.jnutbio.2019.108217
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 34. Spencer RW, Brokaw E, Carr W, et al. 
+Fiscal year 2018 National Defense Authorization Act, section 734, Weapon Systems Line of Inquiry: overview and blast overpressure tool—a module for human body blast wave exposure for safer weapons training. Mil Med. 2023;188:536–44. 10.1093/milmed/usad225
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ 35. Balasubramanian R, Schneider E, Gunnigle E, et al. 
+Fermented foods: harnessing their potential to modulate the microbiota-gut-brain axis for mental health. Neurosci Biobehav Rev. 2024;158:105562.
+ [ DOI ] [ PubMed ] [ Google Scholar ]
+ Associated Data
+ This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+ Supplementary Materials
+ Supplementary Material 
+ NIHMS2140295-supplement-Supplementary_Material.docx (14.2MB, docx) 
+ Data Availability Statement
+ The datasets presented in this article are not readily available because such information as the site location, data collection date, date of birth, and gender, may reasonably allow identification of participants in the study. Deidentified raw data (not including these variables) supporting the conclusions of this article can be made available by the authors, on condition that institutional and ethical requirements for sharing data are met.
+ ACTIONS
+ View on publisher site 
+ PDF (794.2 KB) 
+ Cite 
+ Collections 
+ Permalink 
+ PERMALINK
+ Copy 
+ RESOURCES
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+ Cite
+ Copy 
+ Download .nbib 
+ .nbib 
+ Format: 
+ AMA
+ APA
+ MLA
+ NLM
+ Add to Collections
+ Create a new collection 
+ Add to an existing collection 
+ Name your collection
+ * 
+ Choose a collection
+ Unable to load your collection due to an error
+ Please try again 
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter) 
+ NCBI on Facebook 
+ NCBI on LinkedIn 
+ NCBI on GitHub 
+ NCBI RSS feed 
+ Connect with NLM
+ NLM on X (formerly known as Twitter) 
+ NLM on Facebook 
+ NLM on YouTube 
+ National Library of Medicine
+ 8600 Rockville Pike
+ Bethesda, MD 20894 
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top 

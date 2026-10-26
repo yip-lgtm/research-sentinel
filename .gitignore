@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 *.tmp
 logs/
+tmp/
+reports/_scratch/

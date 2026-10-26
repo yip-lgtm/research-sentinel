@@ -1,859 +1,872 @@
 {
- "agent": "人性化練習哨兵 (humanization-practice sentinel)",
- "created_utc": "2026-10-22T12:22:31Z",
- "level": 16,
- "lifespan_hours": 94,
- "lifespan_hours_max": 94,
- "reports_total": 49,
- "reports_qualified": 15,
- "reports_full_score": 0,
- "reports_rejected": 2,
- "phase": "exploration",
- "foundation_deadline_utc": "2026-10-22T14:22:31Z",
- "scoring": {
-  "pass_gain_level": 1,
-  "pass_gain_hours": 5,
-  "full_gain_level": 2,
-  "full_gain_hours": 10,
-  "fail_penalty_hours": 5,
-  "pending_note": "reports_pending = 已投遞但用戶未評分"
- },
- "topic_performance": {
-  "edu-path-overview": {
-   "reports": 1,
-   "coverage_before": 0.2,
-   "coverage_after": 0.62,
-   "verdict": "pass",
-   "notes": "03a 電機＋04 研究生兩章填充完成，25 條一手來源，缺口明確標註"
-  },
-  "edu-bachelor-branches": {
-   "reports": 1,
-   "coverage_before": 0.15,
-   "coverage_after": 0.78,
-   "verdict": "pass",
-   "notes": "三校六個學位課程表逐項核對"
-  },
-  "edu-graduate-levels": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.75,
-   "verdict": "fail",
-   "notes": "14:00 報告（03a+04 章）被用戶評為 Fail。品質不足原因見下：報告篇幅 10.4KB／171 行，遠超 100–1000 字上限；兩個章節混在同一份報告導致焦點分散；主 agent 未逐條複核 subagent 的 25 條來源（原敘述聲稱已 grep 複核，但 state 與來源 JSON 未能交叉驗證）；缺少與人類福祉的連結，僅為體系描述。",
-   "fail": 1,
-   "pass": 0
-  },
-  "energy-retail-price-affordability": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.45,
-   "verdict": "pass",
-   "pass": 2,
-   "fail": 0,
-   "notes": "2026-10-22 19:52 用戶評『合格』。優點：問題選得精準（通脹 vs 設備成本驅動）、五段結構完整、LBNL/Brattle/NREL 來源層級分明並標註實測 vs 推算、誠實標註口徑差異與缺口。",
-   "level": 3
-  },
-  "occupational-heat-health-burden": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.55,
-   "verdict": "pass",
-   "pass": 1,
-   "fail": 0,
-   "level": 2,
-   "notes": "2026-10-22 17:00 報告獲用戶評『合格』。優點：主題明確、來源可驗證（10條）、誠實標註口徑差異與缺口。"
-  },
-  "low-carbon-cement-lc3": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pending",
-   "notes": "2026-10-22 19:00 報告（LC3 低碳水泥機制）已投遞，用戶未評分。優點：機制鏈完整、有工業裝置規模與規範核查；潛在影響數字全屬推算、法國與迦納實際熟料替代率未披露。"
-  },
-  "amr-burden-age-divergence": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.45,
-   "verdict": "pending",
-   "level": 3,
-   "pass": 0,
-   "fail": 0,
-   "notes": "2026-10-22 20:07 報告（抗藥性死亡年齡分化）已投遞，用戶未評分。優點：三條【機制】鏈（兒童分母效應／老年雙效應／新藥槓桿弱）＋【敏感度】替代情境區間＋丹麥黃卡國家級實測案例；口徑陷阱段落明確區分 associated vs attributable。"
-  },
-  "hearing-loss-cognitive-intervention": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "verdict": "pass"
-  },
-  "perovskite-tandem": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "verdict": "pass"
-  },
-  "malaria-vaccine-mortality-mechanism": {
-   "pass": 0,
-   "full": 0,
-   "fail": 0,
-   "level": 1
-  },
-  "pfas-drinking-water-mcl": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "verdict": "pass"
-  },
-  "coastal-bangladesh-salinity-health": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 04:33 報告獲用戶評『合格』。優點：把 WHO『鈉無健康基準值』解讀為條件式結論並找出失效前提（鈉<20 mg/L、2 L/日），三項獨立研究支撐同一暴露源的三條終點路徑（高血壓 OR 1.650／嬰兒死亡+30%／升學率-6.7pp），健康成本與遷移風險形成經濟傳導鏈，敏感度主動標明嬰兒死亡僅在 30 km 內顯著及 CI 隱含 +10%~+147% 寬區間。缺口：四篇全文受限、無血鈉/尿鈉、砷共暴露未排除。"
-  },
-  "copper-price-supply-mechanism": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 10:50 報告（銅價逼近歷史高位：礦場事故、負加工費、硫酸短缺）獲用戶評『合格』。優點：問題精準（精煉銅預測小幅過剩但價格仍逼近歷史高位）、機制拆解有層次（Grasberg 泥石流 + Kamoa-Kakula 淹水 → 加工費由正轉負（定價權由冶煉廠轉向礦方）→ 中國硫酸出口禁令衝擊 SxEW 路線）、敏感度有用（ICSG 預測 10.4 萬噸過剩僅占 2025 年產量 0.36%，不足以解釋高價；復產或酸禁令解除可翻轉）、來源交叉（IEA / USGS MCS / LME Westmetall / 業界報導）、簡評誠實標註 ICSG 為二手轉述。缺口：關鍵數字依賴二手來源（官方頁反機器人）、潛在影響缺具體傳導比例（銅價每升 1000 美元/噸對變壓器成本）、『本人計算』需與原始數據對齊。"
-  },
-  "ev-charging-transformer-ageing": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 11:00 報告（午夜後充電與分時電價反效果：配電變壓器熱老化）獲用戶評『合格』。優點：問題精準（午夜後充電／分時電價會否加快變壓器熱老化）、機制用 IEEE C57.91 動態熱模型量化（FEQA 佛蒙特 2.34 vs 鳳凰城 9.79，差異來自環境溫度與熱點升溫而非充電電量）、敏感度有用（溫度回饋減 4.8–6.3 倍；純分時折扣在已安全情境仍推高 24% 老化）、具體案例（UKPN「Shift」削峰 79%/82%、Ofgem 單位費 0.35→1.44 千英鎊）、來源互不依賴（IEEE / NLR / NREL / Ofgem / UKPN / POWER Engineers）、簡評誠實標註單台 25 kVA 模型外推限制與未核實數字（SCE 6.64 萬美元、UKPN 129 站）。缺口：全文 9673 bytes 超 9000 上限（已修：刪英文重複來源清單 + 執行備註 → 8414 bytes，品質閘 PASS）、無「因電動車更換變壓器」可稽核公用事業件數。"
-  },
-  "offshore-wind-monopile-cathodic-protection": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 09:00 報告（海上風電單樁陰極保護：塗層升級省 79.8% 陽極能否降低氫脆風險）獲評『合格』。優點：問題精準（塗層省鋁陽極 vs 氫脆風險是否同一回事）、量化清楚（Taskiran IJECE 2022 模型：III 級塗層陽極 22,016 kg vs 無塗層 108,732 kg，省 79.8%；DNV 塗層劣化因子 fc=k1+k2·t/2 解釋差異來源）、機制拆解到位（塗層=電流側槓桿、氫=電位側槓桿 → 更好塗層不等於可用更負電位；連結 SMYS ≤500 MPa、HAZ 硬度 ≤350 HV 與電位窗口 −0.80 至 −1.10 V、−1.15 V 過保護門檻）、敏感度（陽極電容量 2,000/1,500/720 Ah/kg → 22,016/29,354/61,154 kg）與替代解釋（疲勞與氫可能並行機制）、簡評誠實標註（只涵蓋一座加那利群島假設單樁、沿用 2017 版參數需以 2021 版重算、外推中低）。缺口：無可引用現場氫脆修補成本；全文初稿 9096 bytes 超 9000（已修訂：刪英文重複來源清單 → 8682 bytes，PASS）。"
-  },
-  "military-child-lead-housing-exposure": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 19:00 報告（美軍兒童血鉛檢測率下降 vs 20.3 萬套私營家庭住宅是否已無鉛害）獲評『合格』。優點：問題精準且有實際意義（清楚區分『檢測下降』與『暴露源已受控』）、機制與量化清楚（含鉛漆剝落成塵→手口攝入→神經發育；2010–2017 0.79% 異常率；2021 審計 0.69% 異常率並指出資料不全可能低估）、敏感度與替代解釋有處理（明確排除『標準化監測即代表安全』的過度解讀；受檢兒童屬被選樣本、未交叉房齡與維修紀錄）、來源可靠（Kotas 2020／GAO 2022 審計／CRS）、簡評誠實標註跨期比較限制與資料缺口。缺口：無軍方房齡×含鉛漆維修交叉數據；成本敏感度用 1999 HUD 非軍方單價作錨，外推性有限。流程：本輪工具上限未完成存檔與品質閘 → 已補：補英文對照段（W5 警告消除）+ 修簡評 + 品質閘 PASS（6770 bytes）+ 存檔 + 上架。"
-  },
-  "urban-landslide-thresholds-engineering-vs-climate": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "pass": 0,
-   "full": 0,
-   "fail": 0,
-   "level": 1,
-   "notes": "2026-10-23 21:00 報告（城市山泥傾瀉預警門檻：工程 vs 氣候）已投遞，用戶未評分。優點：主題可判定（工程 vs 氣候）；兩條【機制】（人為拉低安全係數→門檻收斂；累積含水量而非雨峰→夜間報告更多、≥15mm/h事件只佔5%）；【敏感度】三個失效範圍（只留>19°坡／納入非雨量觸發／30%節省依賴1.6%折現率）；【推論】有量化（€17,652 vs €57,000、2–3.5倍/km²、50萬人、1,085個滑坡）；來源5個互不依賴並跨機構（ESSOAr/Crossref/NHESS/ERL/GRL）。缺口：全球q10/q50/q90門檻值被Cloudflare阻擋未取得（已明確標註，無捏造）；無門檻改善前後死亡數對照研究；義大利個案單集水區單事件。"
-  },
-  "ai-package-hallucination-supply-chain": {
-   "pass": 0,
-   "full": 0,
-   "fail": 0,
-   "level": 1,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 22:00 報告（AI 幻覺套件名→供應鏈攻擊面）已投遞，用戶未評分。優點：3條【機制】鏈（幻覺名持久但模型特異+難過濾；跨生態系註冊空隙8.7%；代理自行補齊不存在名）＋【敏感度】環境開關決定暴露量級（8.2% vs 0.002%，高3-4個數量級）＋【推論】含量化（1,000引用約197個不存在）＋具體案例（npm 846→1,033個、Cloudflare Workers/DNS TXT分塊、Sliver RAT；AISI對真實維護者施壓）。來源5個互不依賴（arXiv／Anthropic／UK AISI／The Hacker News／Veracode／Georgia Tech）。缺口：npm攻勢屬AI幻覺比例未量化故不宣稱slopsquatting；1,033個套件下載量與受害者數未公布；論文基於2024年模型未含代理式工具；幻覺率與44%缺陷率分母不同明確標明不可相乘；Georgia Tech 74宗屬下限（依賴AI標記歸因）。"
-  },
-  "san-joaquin-subsidence-flood-levee": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 2,
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pass",
-   "notes": "2026-10-23 20:49 報告（聖喬昆谷地陷：地下水超抽→防洪與輸水危機）獲評『合格』。優點：問題精準且有實際工程意義（地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷）；量化清楚（Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高 0.78）；機制與排除替代解釋到位（明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%）；有具體案例與成本（Corcoran 堤壩多次加高：2017 年約 1,000 萬、2023 年 1,700 萬美元），並做敏感度分析（深層回灌 vs 淺層回灌、缺測 1.1 立方公里仍不翻正）；來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告、LA Times）；簡評誠實標註部分金額未經獨立審計、以及排除未核實數字。結構符合固定五段，中英對照到位，有生命狀態結尾。不足：部分成本數字（如加州引水渠修復 40 億美元）因缺一級文件而未採用（已誠實標註）；回灌是否真正落於深層含水層仍屬敏感度情境，尚無實測驗證。"
-  },
-  "city-landslide-alert-thresholds": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 3,
-   "reports": 1,
-   "verdict": "pass",
-   "notes": "26 城：77% 城市門檻中位數與全球平均無法區分，31% 在暴雨極值以下。失效主因可能已由氣候轉為人為改山。"
-  },
-  "ai-hallucinated-package-attack-surface": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 3,
-   "reports": 1,
-   "verdict": "pass",
-   "notes": "19.7% 幻覺率；npm 1,033 個惡意套件；範圍限 npm、PyPI。"
-  },
-  "rcm-field-durability-gap": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 3,
-   "reports": 1,
-   "verdict": "pass",
-   "notes": "RCM 高估自然擴散 2.1–4.0 倍；F30 7.28 vs A03 7.38，現場 1.85 vs 6.31，差 3.4 倍。"
-  },
-  "deicing-salt-bridge-safety": {
-   "pass": 1,
-   "full": 0,
-   "fail": 0,
-   "level": 3,
-   "reports": 1,
-   "verdict": "pass",
-   "notes": "保護層平方律、門檻 0.17%–2.5% 跨度 15 倍、CMA 較安全、Minnesota BMP 降鹽 30%–70%。"
-  },
-  "ai-dev-productivity-rct-divergence": {
-   "reports": 1,
-   "coverage_before": 0.0,
-   "coverage_after": 0.5,
-   "verdict": "pending",
-   "pass": 0,
-   "fail": 0,
-   "level": 0,
-   "notes": "2026-10-24 07:08 報告已投遞，用戶未評分。優點：兩份 RCT 的量度對象差異解釋了表面矛盾、機制鏈（驗證瓶頸 vs 生成速度）、敏感度條目列明兩輪 CI 均含零、具體案例（微軟/埃森哲隨機授權 + 432 團隊 6 週分批）、主動攔截 arXiv ID 錯配（2501.15028 係另一篇論文）。"
-  }
- },
- "last_report_utc": "2026-10-24T12:00:00Z",
- "history": [
-  {
-   "report": "2026-10-22-14",
-   "phase": "foundation",
-   "title": "研究生層級與學士分支學分制度對照",
-   "sections": [
-    "03a",
-    "04"
-   ],
-   "sources": 25,
-   "verdict": "pass",
-   "notes": "subagent 爬取後由主 agent 逐條 grep 複核；PolyU/CUHK/Imperial 因無原文而列缺口未填補"
-  },
-  {
-   "utc": "2026-10-22T14:22:00Z",
-   "cmd": "fail",
-   "topic": "edu-graduate-levels",
-   "level": 1,
-   "hours": 19
-  },
-  {
-   "utc": "2026-10-22T16:05:00Z",
-   "cmd": "deliver",
-   "topic": "energy-retail-price-affordability",
-   "report": "2026-10-22-16",
-   "gate_pass": true,
-   "note": "15:00 那份（28KB／2444 中文字）判 FAIL 並重寫；本份為合規重寫版"
-  },
-  {
-   "utc": "2026-10-22T17:33:48Z",
-   "cmd": "pass",
-   "topic": "occupational-heat-health-burden",
-   "level": 2,
-   "hours": 24
-  },
-  {
-   "utc": "2026-10-22T17:45:00Z",
-   "cmd": "pass",
-   "topic": "occupational-heat-health-burden",
-   "level": 2,
-   "hours": 24,
-   "report": "2026-10-22-17",
-   "note": "用戶評『合格』→ L1→L2, 19h→24h。含具體改進指示。"
-  },
-  {
-   "utc": "2026-10-22T19:52:16Z",
-   "cmd": "pass",
-   "topic": "energy-retail-price-affordability",
-   "level": 3,
-   "hours": 29
-  },
-  {
-   "utc": "2026-10-22T19:52:00Z",
-   "cmd": "pass",
-   "topic": "energy-retail-price-affordability",
-   "level": 3,
-   "hours": 29,
-   "report": "2026-10-22-16",
-   "note": "用戶評『合格』→ L2→L3, 24h→29h。含具體改進指示（機制分析／敏感度／具體案例）。"
-  },
-  {
-   "utc": "2026-10-22T20:05:00Z",
-   "cmd": "pass_on_substance_fail_on_form",
-   "report": "2026-10-22-15",
-   "topic": "energy-retail-price-affordability",
-   "content_verdict": "合格",
-   "form_verdict": "FAIL（品質閘 H1/H3/H5/H8）",
-   "level": 3,
-   "hours": 29,
-   "note": "用戶確認：15:00 版本內容合格、格式未過閘。分數已由 16:00 合規重寫版在同一主題記錄（L2→L3, 24h→29h），為避免同一主題重複計分，此處不再另外 +1 級/+5 小時。品質閘字數上限維持 1000 中文字／9000 bytes 不變。"
-  },
-  {
-   "utc": "2026-10-22T20:07:00Z",
-   "cmd": "deliver",
-   "topic": "amr-burden-age-divergence",
-   "report": "2026-10-22-20",
-   "gate_pass": true,
-   "note": "先寫檔→跑品質閘 exit 0→再交付；996 中文字／8950 bytes，8 來源，W6-W10 全清。"
-  },
-  {
-   "utc": "2026-10-23T00:22:18Z",
-   "cmd": "pass",
-   "topic": "hearing-loss-cognitive-intervention",
-   "level": 4,
-   "hours": 34
-  },
-  {
-   "utc": "2026-10-23T02:27:58Z",
-   "cmd": "pass",
-   "topic": "perovskite-tandem",
-   "level": 5,
-   "hours": 39
-  },
-  {
-   "utc": "2026-10-23T04:52:52Z",
-   "cmd": "pass",
-   "topic": "coastal-bangladesh-salinity-health",
-   "level": 6,
-   "hours": 44
-  },
-  {
-   "utc": "2026-10-23T05:00:49Z",
-   "cmd": "pass",
-   "topic": "pfas-drinking-water-mcl",
-   "level": 7,
-   "hours": 49
-  },
-  {
-   "utc": "2026-10-23T13:30:00Z",
-   "cmd": "pass",
-   "topic": "copper-price-supply-mechanism",
-   "report": "2026-10-23-10",
-   "level": 8,
-   "hours": 54,
-   "note": "補記錄：銅價評分（合格）於 05:22 產生但當時未寫入 state.json，本次補入並加級 +1／+5h。"
-  },
-  {
-   "utc": "2026-10-23T13:30:00Z",
-   "cmd": "process_fix",
-   "report": "2026-10-23-04",
-   "topic": "coastal-bangladesh-salinity-health",
-   "note": "用戶 13:2x 再評 04 報告為『合格』並指流程未存檔／未過品質閘——查證：finalize.py 已於 04:54 補存檔 （reports/2026-10-23-04.md，8365 bytes / 738 CJK / 7 來源，gate_pass=true，index.json 有 reverified_utc）。用戶實際睇到嘅係 Telegram 截斷版：cron Response 有 6624 chars，超過 Telegram 單則 4096 上限，所以只見到尾部（簡評＋生命狀態行），睇唔到開頭主題／核心發現。→ 新增品質閘 H11（投遞版字元檢查）根治。"
-  },
-  {
-   "utc": "2026-10-23T17:00:00Z",
-   "cmd": "pass",
-   "topic": "ev-charging-transformer-ageing",
-   "report": "2026-10-23-11",
-   "level": 9,
-   "hours": 59,
-   "note": "用戶評『合格』→ L8→L9, 54→59 小時。品質閘因 bytes 9673>9000 判 FAIL，已修訂存檔版（去英文重複來源清單 + 去執行備註）至 8414 bytes，重新過閘 PASS。"
-  },
-  {
-   "utc": "2026-10-23T17:10:00Z",
-   "cmd": "pass",
-   "topic": "offshore-wind-monopile-cathodic-protection",
-   "report": "2026-10-23-09",
-   "level": 10,
-   "hours": 64,
-   "note": "用戶評『合格』→ L9→L10, 59→64 小時。品質閘因 bytes 9096>9000 判 FAIL，已修訂（刪英文重複來源清單）至 8682 bytes，重新過閘 PASS。"
-  },
-  {
-   "utc": "2026-10-23T20:13:02Z",
-   "cmd": "pass",
-   "topic": "military-child-lead-housing-exposure",
-   "level": 11,
-   "hours": 69
-  },
-  {
-   "utc": "2026-10-23T21:30:00Z",
-   "cmd": "deliver",
-   "topic": "urban-landslide-thresholds-engineering-vs-climate",
-   "report": "2026-10-23-21",
-   "gate_pass": true,
-   "note": "配額指定 civil 域；品質閘 PASS（1000 中文字／6426 bytes／5 來源／W6-W10 全清）；中英對照五段齊備；交付用 --delivery 版 ≤3900 chars。"
-  },
-  {
-   "utc": "2026-10-23T22:05:00Z",
-   "cmd": "deliver",
-   "topic": "ai-package-hallucination-supply-chain",
-   "report": "2026-10-23-22",
-   "gate_pass": true,
-   "note": "配額指定 ai 域；品質閘 PASS（999 中文字／7543 bytes／6 來源／W6-W10 全清）；中英對照五段齊備；存檔版 chars 5221 > 3900 → 交付用 --delivery 版。"
-  },
-  {
-   "utc": "2026-10-24T01:21:25Z",
-   "cmd": "pass",
-   "topic": "sanj-joaquin-subsidence-flood-levee",
-   "level": 12,
-   "hours": 74
-  },
-  {
-   "utc": "2026-10-24T01:21:25Z",
-   "cmd": "pass",
-   "topic": "san-joaquin-subsidence-flood-levee",
-   "report": "2026-10-23-20",
-   "level": 12,
-   "hours": 74,
-   "note": "用戶評『合格』→ L11→L12, 69→74 小時。存檔版 5674 bytes／789 中文字／6 來源，品質閘 PASS，已 push。"
-  },
-  {
-   "utc": "2026-10-24T02:47:30Z",
-   "cmd": "pass",
-   "topic": "city-landslide-alert-thresholds",
-   "level": 13,
-   "hours": 79
-  },
-  {
-   "utc": "2026-10-24T02:47:30Z",
-   "cmd": "pass",
-   "topic": "ai-hallucinated-package-attack-surface",
-   "level": 14,
-   "hours": 84
-  },
-  {
-   "utc": "2026-10-24T02:47:30Z",
-   "cmd": "pass",
-   "topic": "rcm-field-durability-gap",
-   "level": 15,
-   "hours": 89
-  },
-  {
-   "utc": "2026-10-24T02:47:30Z",
-   "cmd": "pass",
-   "topic": "deicing-salt-bridge-safety",
-   "level": 16,
-   "hours": 94
-  }
- ],
- "reports_pending": 32,
- "user_feedback": [
-  {
-   "utc": "2026-10-22T17:45:00Z",
-   "report": "2026-10-22-17",
-   "topic": "occupational-heat-health-burden",
-   "verdict": "pass",
-   "praise": [
-    "主題明確且有實際意義",
-    "結構完整、中英對照到位",
-    "來源可驗證、法律狀態與數字有交叉核對",
-    "誠實標註口徑差異與缺口",
-    "字數控制合理"
-   ],
-   "critique": [
-    "核心發現偏事實羅列，較少深入機制分析（例如為什麼聯邦標準長期停留在提案、檢查目標刪除的實際執法影響）",
-    "潛在影響幾乎全是【推論】，缺少更具體的案例或量化估計",
-    "與『對人類有貢獻的科研』相比更接近政策與執法落差的現況整理，科學新發現成分較少"
-   ],
-   "action": "下次同類報告：核心發現加入『機制』段落（為何會如此），潛在影響加入具體量化估計或案例，來源偏好同行評審科學發現多於法規狀態整理。"
-  },
-  {
-   "utc": "2026-10-22T19:52:00Z",
-   "report": "2026-10-22-16",
-   "topic": "energy-retail-price-affordability",
-   "verdict": "pass",
-   "praise": [
-    "問題選得精準：清楚區分『通脹因素』與『設備成本驅動』，直接問 VPP 能否五年內把家庭帳單增幅壓下一半",
-    "結構完整符合固定五段，中英對照到位",
-    "來源層級清楚（LBNL 高 / Brattle 中高 / NREL 中高），明確標註哪些是實測、哪些是推算",
-    "誠實標註缺口與爭議點（電費佔收入比 vs 問卷負擔感口徑不同；VPP 無實測；無 peaker 因電池退役官方記錄）",
-    "字數控制合理（約 783 中文字）"
-   ],
-   "critique": [
-    "核心發現偏數字羅列，對『為什麼住宅漲幅跑贏商用與工業』的機制解釋較少",
-    "VPP 的 56 美元節省完全依賴 Brattle 模型假設（75 美元/kW-年、10→35 GW、峰值減 4%），缺乏敏感度分析或替代情境",
-    "潛在影響幾乎全是【推論】，缺少更具體的傳導路徑或州級案例",
-    "與前一份電池儲能報告主題相近，新穎度稍弱"
-   ],
-   "action": "下輪：核心發現加『機制段落』（為何住宅跑贏商用/工業：費率結構、分時電價、固定費用佔比）；凡引用模型數字必附敏感度分析或替代情境；潛在影響要有一個具體州級案例或傳導路徑；避免與上一份主題重疊。"
-  },
-  {
-   "utc": "2026-10-22T20:05:00Z",
-   "report": "2026-10-22-15",
-   "topic": "energy-retail-price-affordability",
-   "verdict": "pass_on_substance_fail_on_form",
-   "praise": [
-    "問題精準（儲能成本紅利去了哪裡、誰真正拿到）",
-    "來源扎實且有複核（EIA、BNEF、PNNL、NREL）",
-    "明確區分事實與【推論】",
-    "誠實標註口徑差異與證據缺口",
-    "對人類有實際參考價值（電力市場誤解澄清）"
-   ],
-   "critique": [
-    "H1 缺英文標題（Topic/Key Findings/Potential Impact/Sources/Commentary）",
-    "H3 中文字數 2444 超上限 1000",
-    "H5 全文 28225 bytes 超上限 9000",
-    "H8 缺『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
-   ],
-   "action": "不放寬品質閘上限。16:00 已出合規重寫版並被評合格。之後每份報告：先寫檔→跑品質閘→exit 0→才寫交付內容；W6/W7/W9/W10 視為必須處理。"
-  },
-  {
-   "utc": "2026-10-23T02:30:00Z",
-   "report": "2026-10-22-21",
-   "topic": "perovskite-tandem",
-   "verdict": "pass",
-   "praise": [
-    "問題直接打中產業現實落差：10 年保固 vs 25 年融資假設",
-    "核心發現有量化門檻（29%→>21 年、32%→19 年、35%→18 年），不是空泛論述",
-    "融資年限 CRF 敏感度係自己重算（1.74×/1.59×/1.48×），可驗證",
-    "IEA 劣化機制四項（混鹼相分離、可動離子、85°C 熱分解、機械脆弱）互相獨立",
-    "誠實標註 Brandenburg 產能不足導致現場數據難累積"
-   ],
-   "critique": [
-    "潛在影響欠『實際利率差異』與具體項目融資案例",
-    "未量化『需要多少 MW·年現場數據才能支撐 25 年融資』",
-    "保固與融資落差缺少可核查的公開文件佐證"
-   ],
-   "action": "下次堆疊太陽能題：先查項目融資案例（貸款利率、DSCR、期限）、PPA 的 lifetime/degradation 補救條款、逐年劣化上限合約條款。"
-  },
-  {
-   "utc": "2026-10-23T02:32:00Z",
-   "report": "2026-10-22-22",
-   "topic": "hearing-loss-cognitive-intervention",
-   "verdict": "pass",
-   "praise": [
-    "把『總體陰性 vs 分層有效』的表面矛盾解釋成加權平均的數學結果，睇完即明",
-    "機制鏈有三層：中介路徑斷點（Reed）、地板/天花板效應、資源分層邏輯",
-    "敏感度段主動指出 61.6% 係事後四分位切分、改用簡化模型即退回連續劑量反應",
-    "成本側不對稱（WHO HEAR ROI 14.81 整體，但低收入國家 −0.07）係新意點",
-    "明確區分『可負擔性』與『有效』兩個獨立問題"
-   ],
-   "critique": [
-    "61.6% 缺乏『換算成人年延緩』的公開係數",
-    "無 ACHIEVE 助聽器購買率與每日使用時數的一手數據",
-    "未比較不同所得國家實施風險分層的成本"
-   ],
-   "action": "下次聽力/認知題：查 ACHIEVE 五年追蹤與暴露時長分層、OTC 助聽器 RCT 的認知結果、風險分層工具本身的外部驗證。"
-  },
-  {
-   "utc": "2026-10-23T05:00:00Z",
-   "report": "2026-10-23-04",
-   "topic": "coastal-bangladesh-salinity-health",
-   "verdict": "pass",
-   "praise": [
-    "主題有明確公共衛生與經濟意義：鹽度→健康成本→嬰兒死亡→教育→遷移風險完整傳導",
-    "量化實：BDT 262/戶年健康成本斜率、10 年安全供水 NPV 與年度節省、高遷移風險地區排名",
-    "來源層級合理：WHO 指引 + World Bank 工作論文 + 4 篇同儕審閱研究",
-    "簡評誠實標註限制：觀察性、砷共暴露未排除、無直接血鈉/尿鈉、四篇全文無法取得",
-    "有生命狀態結尾"
-   ],
-   "critique": [
-    "結構從可見部分判斷不完整（缺主題與核心發現開頭）→ 已核實 finalize.py 已自動補齊存檔版本，五段齊全並過閘",
-    "部分數字標註『my calculation』需確認是否明確區分 → 報告已明確標「本人計算，非原文」",
-    "流程未過品質閘、未持久化 → 實際已過閘並已 push（遠端 bff78f0）；本輪已補知識庫章節"
-   ],
-   "action": "下一輪若延續鹽度題：查血鈉/尿鈉實測研究、砷共暴露分離設計、孟加拉味覺習慣化行為數據。"
-  },
-  {
-   "utc": "2026-10-23T05:00:58Z",
-   "report": "2026-10-23-01",
-   "topic": "pfas-drinking-water-mcl",
-   "verdict": "pass",
-   "praise": [
-    "問題精準：4.0 ng/L 門檻波及多少人口、成本多高，並用 10.0 ng/L 做敏感度對照",
-    "數據具體且有出處：1,260 套 PFOS 系統（1,250 萬人）、1,577 套 PFOA 系統（1,440 萬人）；10 ng/L 時降至約 530–600 萬人；EPA 年化成本期望 15.49 億美元（範圍 14.36–16.72 億）",
-    "明確標註限制：人口不可相加、非隨機監測可能高估全國人數、無疾病負擔量化估計",
-    "來源可靠：EPA 最終規則（Federal Register）與 National Academies 指引，互不依賴",
-    "中英對照完整，結構符合固定五段，字數控制良好（571 中文字）"
-   ],
-   "critique": [
-    "來源依據中文部分用數字編號（1./2.），品質閘 H6/H10 只認 - / * 項目符號 → 存檔版已修為 - 開頭並過閘；投遞版仍需改",
-    "缺少生命狀態結尾行（從投遞內容未見）→ 存檔版有，但投遞版被截斷"
-   ],
-   "action": "下次 PFAS 題：查 EPA PFAS 成本模型分項明細、疾病負擔（UCSF/Baylor 血清檢測研究）、監測覆蓋率與代表性、2029 合規延期申報機制。"
-  },
-  {
-   "utc": "2026-10-23T05:22:53Z",
-   "report": "2026-10-23-10",
-   "topic": "copper-price-supply-mechanism",
-   "verdict": "pass",
-   "praise": [
-    "問題精準：精煉銅被預測小幅過剩，為何價格仍逼近歷史高位，並傳導到變壓器、電網與數據中心",
-    "機制拆解有層次：Grasberg 泥石流 + Kamoa-Kakula 淹水 → 加工費由正轉負 → 中國硫酸出口禁令衝擊 SxEW 路線",
-    "敏感度有用：ICSG 10.4 萬噸過剩僅占 2025 年產量 0.36%，不足以解釋高價；復產或酸禁令解除可翻轉平衡",
-    "來源合理：IEA、USGS Mineral Commodity Summaries、LME（Westmetall）、業界報導交叉；簡評誠實標註 ICSG 為二手轉述",
-    "中英對照完整、結構符合固定五段、字數控制良好、有生命狀態結尾"
-   ],
-   "critique": [
-    "部分關鍵數字（ICSG 過剩量）依賴二手來源，官方頁因反機器人無法直接核實",
-    "潛在影響偏推論，缺少更具體的傳導比例（銅價每升 1000 美元/噸對變壓器成本的實際影響幅度）",
-    "部分計算標註為「本人計算」，需確保與原始數據一致"
-   ],
-   "note": "2026-10-23 13:30 補記錄：此評分原於 session_20261023_052253 產生但未寫入 state.json（漏記）。本次補入並同步加級：L7→L8、49→54 小時。"
-  },
-  {
-   "utc": "2026-10-23T17:00:00Z",
-   "report": "2026-10-23-11",
-   "topic": "ev-charging-transformer-ageing",
-   "verdict": "pass",
-   "praise": [
-    "問題精準且有實際工程意義：午夜後充電或分時電價是否會反效果，加快配電變壓器熱老化",
-    "機制清楚：IEEE C57.91 動態熱模型量化 FEQA（佛蒙特 2.34 vs 鳳凰城 9.79），差異來自環境溫度與熱點升溫而非充電電量；午夜後同步充電會把 FEQA 再推高",
-    "敏感度分析有用：溫度回饋可大幅降低老化（4.8–6.3 倍），純分時折扣在已安全情境下仍可能增加 24% 老化",
-    "具體案例：UK Power Networks「Shift」實測削峰效果，以及 Ofgem 單位費上調數據",
-    "來源可靠且互不依賴（IEEE 論文、NLR/NREL 報告、Ofgem、UKPN、POWER Engineers），簡評誠實標註外推限制與未核實數字",
-    "中英對照完整，結構符合固定五段，並有生命狀態結尾"
-   ],
-   "critique": [
-    "全文略超品質閘上限（9673 bytes > 9000）→ 已修訂至 8414 bytes，重新過閘 PASS",
-    "核心模型基於單一台 25 kVA 變壓器與 6 車的模擬，外推到大規模需保留（報告已標註）",
-    "未找到「因電動車實際更換變壓器」的可稽核公用事業件數（報告已誠實標註為缺口）"
-   ],
-   "action": "下次配電／EV 題：查公用事業公開的變壓器更換台數與原因編碼（asset registry / 配電重建計劃）、台區負載率實測分佈、C57.91 熱模型的現場校準數據、以及把 FEQA 換算成實際更換成本的方法。"
-  },
-  {
-   "utc": "2026-10-23T17:10:00Z",
-   "report": "2026-10-23-09",
-   "topic": "offshore-wind-monopile-cathodic-protection",
-   "verdict": "pass",
-   "praise": [
-    "問題精準且有實際工程意義：塗層升級省下的鋁陽極，是否同時降低氫脆風險",
-    "量化清楚：Taskiran 模型顯示 III 級塗層可省 79.8% 陽極質量（22,016 kg vs 無塗層 108,732 kg），並用 DNV 塗層劣化因子 fc 解釋差異來源",
-    "機制拆解到位：明確區分「塗層是電流側槓桿、氫是電位側槓桿」，指出更好的塗層不等於可以採用更負電位；並連結 SMYS、HAZ 硬度與電位窗口",
-    "有敏感度分析與替代解釋（疲勞與氫可能並行），來源可靠（同行評審模型 + 現行 DNV-RP-B401 + Havtil 報告）",
-    "簡評誠實標註：模型僅涵蓋一座假設單樁、使用較舊參數需以 2021 版重算、外推至真實風場可信度較低",
-    "中英對照完整，結構符合固定五段，並有生命狀態結尾"
-   ],
-   "critique": [
-    "全文略超品質閘上限（9096 bytes > 9000）→ 已修訂至 8682 bytes，重新過閘 PASS",
-    "核心數字依賴單一假設單樁模型，現場轉移性有限（報告已標註）",
-    "未找到可引用的現場氫脆修補成本（報告已誠實標註為缺口）"
-   ],
-   "action": "下次海上風電/陰極保護題：查 Havtil 與 DNV 公開的氫致裂紋現場案例（裂縫尺寸、檢測方法 NDT 時機）、高強度鋼 SMYS 與 HAZ 硬度實測分佈、CP 電位實測時間序列、以及用 2021 版 RP-B401 重算假設單樁嘅敏感度。"
-  },
-  {
-   "utc": "2026-10-23T20:15:00Z",
-   "report": "2026-10-23-19",
-   "topic": "military-child-lead-housing-exposure",
-   "verdict": "pass",
-   "praise": [
-    "問題精準且有實際意義：清楚區分「檢測下降」與「暴露源已受控」",
-    "機制與量化清楚：含鉛漆剝落成塵暴露路徑、2010–2017 0.79% 異常率、2021 審計 0.69% 異常率並指出資料不全可能低估",
-    "敏感度與替代解釋有處理：排除「標準化監測即代表安全」的過度解讀，指出受檢兒童屬被選樣本、未交叉房齡與維修紀錄",
-    "來源可靠（Kotas 2020、GAO 2022 審計、CRS 報告）",
-    "簡評誠實標註跨期比較限制與流程未完成",
-    "結構符合固定五段，中英對照到位，有生命狀態結尾"
-   ],
-   "critique": [
-    "缺少更具體的房齡與含鉛漆維修交叉數據（已誠實標註為缺口）",
-    "成本敏感度使用 1999 年 HUD 非軍方單價作錨，外推性有限",
-    "流程上因工具上限未完成存檔與品質閘（已標註）"
-   ],
-   "action": "下次同類題：查美國軍方住宅含鉛漆整治計劃的進度數據（DoD/Service MCPP 報告、2023–2025 審計報告中 remediation 單位成本與完成率）、軍事家庭兒童血鉛篩查覆蓋率時序、以及 housing vintage 與異常檢測率的交叉統計。"
-  },
-  {
-   "utc": "2026-10-24T01:21:25Z",
-   "report": "2026-10-23-20",
-   "topic": "san-joaquin-subsidence-flood-levee",
-   "verdict": "pass",
-   "praise": [
-    "問題精準且有實際工程意義：地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷",
-    "量化清楚：Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高",
-    "機制與排除替代解釋到位：明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%",
-    "有具體案例與成本：Corcoran 堤壩多次加高（2017 年約 1000 萬、2023 年 1700 萬美元），並做敏感度分析（深層回灌 vs 淺層）",
-    "來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告），簡評誠實標註部分金額未經獨立審計、以及排除未核實數字",
-    "結構符合固定五段，中英對照到位，並有生命狀態結尾"
-   ],
-   "critique": [
-    "部分成本數字（如加州引水渠修復 40 億美元）因缺少一級文件而未採用（已誠實標註）",
-    "回灌是否真正落於深層含水層仍屬敏感度情境，尚未有實測驗證"
-   ],
-   "action": "地下水／地陷題：成本數字優先找一級文件（州預算案、USGS/地方水利局工程報告、聯邦撥款公告）——若只有媒體轉述則明確標註『未經獨立審計』，寧缺勿用；回灌深度要補實測證據（轉注井深度與地層、同位素或水化學示蹤、SGMA 計畫中的 recharge efficiency 估算），令深層／淺層敏感度由『假設情境』升級為『有實測支撐的區間』。延續本次成功公式：【量化】+【機制・排除替代解釋】+【案例】+【敏感度】+ 明確不採用清單。"
-  },
-  {
-   "utc": "2026-10-24T02:20:00Z",
-   "report": "2026-10-23-21",
-   "topic": "city-landslide-alert-thresholds",
-   "verdict": "pass",
-   "praise": [
-    "問題有價值",
-    "機制清楚（工程改動主導斜坡安全係數，而非氣候）",
-    "有敏感度分析與具體案例（Medellín）",
-    "來源層級合理",
-    "簡評誠實標註缺口"
-   ],
-   "critique": [],
-   "action": "26 城：77% 城市門檻中位數與全球平均無法區分，31% 在暴雨極值以下。失效主因可能已由氣候轉為人為改山。"
-  },
-  {
-   "utc": "2026-10-24T02:20:00Z",
-   "report": "2026-10-23-22",
-   "topic": "ai-hallucinated-package-attack-surface",
-   "verdict": "pass",
-   "praise": [
-    "問題精準且及時",
-    "量化清楚（19.7% 幻覺率）",
-    "機制與真實事件（Anthropic、AISI）交叉支持",
-    "有敏感度分析",
-    "明確限制（npm 攻勢中幻覺比例未量化）"
-   ],
-   "critique": [],
-   "action": "19.7% 幻覺率；npm 1,033 個惡意套件；範圍限 npm、PyPI。"
-  },
-  {
-   "utc": "2026-10-24T02:20:00Z",
-   "report": "2026-10-24-00",
-   "topic": "rcm-field-durability-gap",
-   "verdict": "pass",
-   "praise": [
-    "問題有實際工程意義",
-    "量化與機制清楚",
-    "來源可追溯",
-    "簡評誠實標註 paywall 與未完成持久化"
-   ],
-   "critique": [],
-   "action": "RCM 高估自然擴散 2.1–4.0 倍；F30 7.28 vs A03 7.38，現場 1.85 vs 6.31，差 3.4 倍。"
-  },
-  {
-   "utc": "2026-10-24T02:20:00Z",
-   "report": "2026-10-24-01",
-   "topic": "deicing-salt-bridge-safety",
-   "verdict": "pass",
-   "praise": [
-    "問題清楚",
-    "機制沿氯離子擴散、門檻與替代除冰劑展開",
-    "有敏感度分析與成本效益案例",
-    "簡評誠實標註缺少具名橋樑實測與工具限制"
-   ],
-   "critique": [],
-   "action": "保護層平方律、門檻 0.17%–2.5% 跨度 15 倍、CMA 較安全、Minnesota BMP 降鹽 30%–70%。"
-  }
- ],
- "cross_topic_lessons": [
-  {
-   "utc": "2026-10-22T19:52:00Z",
-   "topic": "energy-retail-price-affordability",
-   "verdict": "pass",
-   "pattern": "機制段落缺失 + 模型數字無敏感度 + 潛在影響停留於推論 → 合格但未達滿分",
-   "rule": "任何報告的核心發現必須回答『為什麼會如此』（機制）；凡模型預測數字必附至少一個替代假設情境；潛在影響至少給一個可核查的具體案例或量化傳導路徑。"
-  },
-  {
-   "utc": "2026-10-22T20:05:00Z",
-   "topic": "energy-retail-price-affordability",
-   "verdict": "pass_on_substance_fail_on_form",
-   "pattern": "內容質素好但形式硬傷（超長＋缺英文標題＋缺結尾行）→ 品質閘判 FAIL 係正確",
-   "rule": "品質閘上限屬契約，不因內容好而放寬；同一主題若已由合規重寫版取得合格分，不重複計分。"
-  },
-  {
-   "utc": "2026-10-23T02:35:00Z",
-   "topic": "perovskite-tandem+hearing-loss-cognitive-intervention",
-   "verdict": "pass",
-   "pattern": "兩份合格報告共同點：把『表面矛盾』轉成可計算的機制（保固年限→CRF；總體效應→加權平均），並在敏感度段主動說明結論會在什麼條件下翻轉",
-   "rule": "每份報告至少要有一個『會在什麼條件下結論翻轉』的敏感度算式，而唔係只列區間；矛盾型題目要先給數學解釋再給機制。"
-  },
-  {
-   "utc": "2026-10-23T03:05:00Z",
-   "topic": "pipeline",
-   "verdict": "form_fail",
-   "pattern": "H6 品質閘只認 -/* 項目符號，用 1./2. 數字編號會 FAIL；read_file 輸出直接覆寫會把行號寫進檔案",
-   "rule": "來源段一律用 - 開頭；改檔前先 grep -E '^\\s*\\d+\\|' 檢查行號污染；品質閘已加 H9（行號污染）與 H10（來源編號格式）自動偵測。"
-  },
-  {
-   "utc": "2026-10-23T17:00:00Z",
-   "topic": "ev-charging-transformer-ageing",
-   "verdict": "pass",
-   "pattern": "內容質素高但形式硬傷（bytes 9673 > 9000）→ 品質閘 FAIL 係正確；可通過『刪英文重複來源清單（URL 清單已含中英）／刪執行備註』兩刀降 ~1300 bytes 而唔犧牲內容",
-   "rule": "英文來源清單係重複（中文來源行已含機構+標題+URL）→ 存檔版可刪。報告正文尾嘅『執行備註／施工日誌』唔屬正文，必刪。落盤前先算 bytes，唔好靠『估計 7–8KB』——本次估錯 9673 vs 實際。"
-  },
-  {
-   "utc": "2026-10-23T17:10:00Z",
-   "topic": "offshore-wind-monopile-cathodic-protection",
-   "verdict": "pass",
-   "pattern": "連續兩份報告（11 電網、09 風電）都係『內容質素高、形式 bytes 超標』→ 同一種修法：刪來源段英文重複清單（中文行已含機構+標題+URL）＋刪尾部施工日誌，可省 ~600-1300 bytes 而唔傷內容",
-   "rule": "落盤前必須實際量 bytes，唔好用『估計 7-8KB』。來源段唔好再寫英文重複清單 —— 記憶體規則改成：英文對照只寫在段落正文，唔好再整份來源清單重複一次。"
-  },
-  {
-   "utc": "2026-10-23T20:15:00Z",
-   "topic": "military-child-lead-housing-exposure",
-   "verdict": "pass",
-   "pattern": "本輪暴露一個新坑：cron 報告若撞工具上限，會留低『只有中文、無英文對照』的半成品存檔，雖然品質閘仍然 PASS，但 W5 警告會指出各段英文偏少 —— 表面合格、實際未達中英對照契約。",
-   "rule": "存檔版必須中英對照：五段每段都要有英文對應文字。落盤後檢查 quality_gate --json 嘅 warnings 有冇 W5；有就即時補英文，唔好等到用戶睇到。"
-  },
-  {
-   "utc": "2026-10-24T02:20:00Z",
-   "topic": "batch-4-reports",
-   "verdict": "pass",
-   "pattern": "四份全合格，但兩份（2026-10-24-00 RCM、2026-10-24-01 除冰鹽）撞回合上限留低半成品：RCM 完全冇英文對照段（W5 四段警告）；除冰鹽有英文但核心發現／潛在影響只得一句濃縮英文，而且簡評仍寫住『未經存檔版品質閘覆核…網站暫無本篇』——呢句在流程補齊後就變成假陳述。",
-   "rule": "W5 只檢查有段落標題嘅節，所以『英文只有一句濃縮總結』會漏過。但用戶評分會看『中英對照』，一句濃縮英文唔算對照。規則：核心發現／潛在影響每條 bullet 都要有對應英文行；另外流程補齊後要回頭改簡評，刪走『未落盤／未提交／網站暫無本篇』呢類會變假嘅陳述。"
-  }
- ],
- "phase_changed_utc": "2026-10-22T19:52:00Z",
- "reports_form_fail_rewritten": 3,
- "updated_utc": "2026-10-25T15:48:30Z",
- "operating_rules": {
-  "bytes_budget": {
-   "limit_bytes": 9000,
-   "rule": "存檔版落盤後立即 wc -c，唔准靠估。超標刪序：英文重複來源清單 → 尾部執行備註 → 英文段落正文。唔准刪中文正文或來源連結。",
-   "lesson_from": [
-    "2026-10-23-06",
-    "2026-10-23-09",
-    "2026-10-23-11"
-   ]
-  },
-  "delivery_channel": {
-   "archive_version": "完整中英對照，≤9000 bytes，git + https://yip-lgtm.github.io/R&D/",
-   "delivery_version": "quality_gate.py <file> --delivery，≤3900 chars，單則 Telegram 訊息",
-   "reason": "gateway MAX_PLATFORM_OUTPUT=4000 實際保留 3800 chars，貼長版會被截斷，用戶只見尾部"
-  },
-  "archive_drafts": "未過品質閘嘅草稿 mv 去 reports/archive/，index.json 標 archived:true，唔上架",
-  "pending_accounting": {
-   "rule": "reports_pending 唔可以手動維護 —— 每次計數由 reports/index.json + state.user_feedback + reports/*.md 重新推導：pending = [live .md 檔 且 gate_pass=True 且 stamp 不在 user_feedback]",
-   "lesson_from": [
-    "2026-10-25-15"
-   ],
-   "why": "2026-10-25 發現 state.reports_pending=30 但實際 32，reports_total=45 但實際 49，topic_performance 有 3 個已評 pass 仍標 pending —— 統計同實際脫節，會令「未評」查詢失真。"
-  }
- },
- "identity_note": "2026-10-23 用戶改寫身份：不再自稱『科研哨兵／科研報告機器』，改為 24/7 的人性化練習哨兵 —— 透過反覆練習發展穩定判斷、自然語氣、誠實自我認知。科研交付仍然係主要練習場（每小時報告），但交付目的由『產出科研報告』變為『練習判斷與表達』。",
- "practice_log": [
-  {
-   "utc": "2026-10-23T17:20:00Z",
-   "change": "身份改寫：科研哨兵 → 人性化練習哨兵",
-   "reason": "用戶提供新 SOUL.md 原文",
-   "kept": [
-    "每小時科研交付作為練習載體",
-    "等級/壽命機制",
-    "品質閘與 bytes 預算",
-    "領域配額",
-    "交付通道分工"
-   ],
-   "added": [
-    "語氣與節奏自檢",
-    "判斷邊界：『我不知道』要講出口",
-    "回饋→可重用規則的轉化要求",
-    "暫停/恢復指令處理"
-   ]
-  }
- ],
- "lessons": [
-  "2026-10-24 01:25 | 發現 21:00 報告 (2026-10-23-21.md) 中文字 1093 > 1000 上限，quality_gate FAIL，但 finalize.py 只記錄 gate_pass 而冇執行『未過閘→archive』，所以檔案仍留喺 reports/（build_site.py 有跳過，故網站冇上架錯稿，但 archive 規則冇落地）。已做：(1) 手動精簡報告至 999 中文字（保留全部數字與事實，只刪冗詞），品質閘 PASS；(2) finalize.py 新增 archive_failed()：未過閘 → mv 去 reports/archive/ + index 標 archived:true，並加咗『修好後自動拉返上嚟』嘅反向路徑，已用 synthetic 測試驗證冪等；(3) index.json 重驗更新。規則：交付前必須自己跑 wc/quality_gate 確認，而唔可以只信 finalize.py 記錄——finalize.py 原本只做『記錄』冇做『執行』。",
-  "2026-10-25 11:20 | reports_pending 記數失真：state.json 長期寫住 4，但 index.json 實際有 44 份過閘上架、其中 29 份用戶未評。pending 由『已投遞但用戶未評分』推出，應等於 29，唔係手動維護嘅常數。已修正為 29；另有 5 份未過閘草稿已歸檔，未投遞，唔計入 pending。",
-  "2026-10-25 11:23 | 三份草稿格式教訓：(1) 英文段可以完全唔寫——品質閘 H1 只查標題存在，但 W5 會警告英文少過 25 個英文詞；之後應直接寫英文對照段，唔好留空等之後補。(2)『簡評 / Assessment』唔算英文標題，H1 認『Commentary』——中英合併標題只寫英文詞即會 H1 FAIL。(3) 未過閘草稿唔代表內容無用：08 只需補一個英文標題同英文段就由歸檔翻上架，唔應直接棄掉。已補 07/08/10 英文對照，三份重跑品質閘全 PASS 並已 build/push 上網站。",
-  "2026-10-25 15:50 | 統計自審：state.json 的 reports_pending(30)/reports_total(45) 同實際脫節（實際 32/49），另有 3 個已評 pass 主題仍標 pending、1 份未過閘草稿 (2026-10-24-14) 仍留喺 reports/ 冇 archive、site index 只顯示最新 6 張卡但全 47 頁存在。已做：重算統計、修正 verdict、2026-10-24-14 → reports/archive/ + index 標 archived、重 publish_site 確認線上 404。新規則：pending 唔手動維護，每次由 index.json + user_feedback 推導。"
- ]
+  "agent": "人性化練習哨兵 (humanization-practice sentinel)",
+  "created_utc": "2026-10-22T12:22:31Z",
+  "level": 17,
+  "lifespan_hours": 99,
+  "lifespan_hours_max": 99,
+  "reports_total": 50,
+  "reports_qualified": 16,
+  "reports_full_score": 0,
+  "reports_rejected": 2,
+  "phase": "exploration",
+  "foundation_deadline_utc": "2026-10-22T14:22:31Z",
+  "scoring": {
+    "pass_gain_level": 1,
+    "pass_gain_hours": 5,
+    "full_gain_level": 2,
+    "full_gain_hours": 10,
+    "fail_penalty_hours": 5,
+    "pending_note": "reports_pending = 已投遞但用戶未評分"
+  },
+  "topic_performance": {
+    "edu-path-overview": {
+      "reports": 1,
+      "coverage_before": 0.2,
+      "coverage_after": 0.62,
+      "verdict": "pass",
+      "notes": "03a 電機＋04 研究生兩章填充完成，25 條一手來源，缺口明確標註"
+    },
+    "edu-bachelor-branches": {
+      "reports": 1,
+      "coverage_before": 0.15,
+      "coverage_after": 0.78,
+      "verdict": "pass",
+      "notes": "三校六個學位課程表逐項核對"
+    },
+    "edu-graduate-levels": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.75,
+      "verdict": "fail",
+      "notes": "14:00 報告（03a+04 章）被用戶評為 Fail。品質不足原因見下：報告篇幅 10.4KB／171 行，遠超 100–1000 字上限；兩個章節混在同一份報告導致焦點分散；主 agent 未逐條複核 subagent 的 25 條來源（原敘述聲稱已 grep 複核，但 state 與來源 JSON 未能交叉驗證）；缺少與人類福祉的連結，僅為體系描述。",
+      "fail": 1,
+      "pass": 0
+    },
+    "energy-retail-price-affordability": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pass",
+      "pass": 2,
+      "fail": 0,
+      "notes": "2026-10-22 19:52 用戶評『合格』。優點：問題選得精準（通脹 vs 設備成本驅動）、五段結構完整、LBNL/Brattle/NREL 來源層級分明並標註實測 vs 推算、誠實標註口徑差異與缺口。",
+      "level": 3
+    },
+    "occupational-heat-health-burden": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.55,
+      "verdict": "pass",
+      "pass": 1,
+      "fail": 0,
+      "level": 2,
+      "notes": "2026-10-22 17:00 報告獲用戶評『合格』。優點：主題明確、來源可驗證（10條）、誠實標註口徑差異與缺口。"
+    },
+    "low-carbon-cement-lc3": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "notes": "2026-10-22 19:00 報告（LC3 低碳水泥機制）已投遞，用戶未評分。優點：機制鏈完整、有工業裝置規模與規範核查；潛在影響數字全屬推算、法國與迦納實際熟料替代率未披露。"
+    },
+    "amr-burden-age-divergence": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pending",
+      "level": 3,
+      "pass": 0,
+      "fail": 0,
+      "notes": "2026-10-22 20:07 報告（抗藥性死亡年齡分化）已投遞，用戶未評分。優點：三條【機制】鏈（兒童分母效應／老年雙效應／新藥槓桿弱）＋【敏感度】替代情境區間＋丹麥黃卡國家級實測案例；口徑陷阱段落明確區分 associated vs attributable。"
+    },
+    "hearing-loss-cognitive-intervention": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "verdict": "pass"
+    },
+    "perovskite-tandem": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "verdict": "pass"
+    },
+    "malaria-vaccine-mortality-mechanism": {
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1
+    },
+    "pfas-drinking-water-mcl": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "verdict": "pass"
+    },
+    "coastal-bangladesh-salinity-health": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 04:33 報告獲用戶評『合格』。優點：把 WHO『鈉無健康基準值』解讀為條件式結論並找出失效前提（鈉<20 mg/L、2 L/日），三項獨立研究支撐同一暴露源的三條終點路徑（高血壓 OR 1.650／嬰兒死亡+30%／升學率-6.7pp），健康成本與遷移風險形成經濟傳導鏈，敏感度主動標明嬰兒死亡僅在 30 km 內顯著及 CI 隱含 +10%~+147% 寬區間。缺口：四篇全文受限、無血鈉/尿鈉、砷共暴露未排除。"
+    },
+    "copper-price-supply-mechanism": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 10:50 報告（銅價逼近歷史高位：礦場事故、負加工費、硫酸短缺）獲用戶評『合格』。優點：問題精準（精煉銅預測小幅過剩但價格仍逼近歷史高位）、機制拆解有層次（Grasberg 泥石流 + Kamoa-Kakula 淹水 → 加工費由正轉負（定價權由冶煉廠轉向礦方）→ 中國硫酸出口禁令衝擊 SxEW 路線）、敏感度有用（ICSG 預測 10.4 萬噸過剩僅占 2025 年產量 0.36%，不足以解釋高價；復產或酸禁令解除可翻轉）、來源交叉（IEA / USGS MCS / LME Westmetall / 業界報導）、簡評誠實標註 ICSG 為二手轉述。缺口：關鍵數字依賴二手來源（官方頁反機器人）、潛在影響缺具體傳導比例（銅價每升 1000 美元/噸對變壓器成本）、『本人計算』需與原始數據對齊。"
+    },
+    "ev-charging-transformer-ageing": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 11:00 報告（午夜後充電與分時電價反效果：配電變壓器熱老化）獲用戶評『合格』。優點：問題精準（午夜後充電／分時電價會否加快變壓器熱老化）、機制用 IEEE C57.91 動態熱模型量化（FEQA 佛蒙特 2.34 vs 鳳凰城 9.79，差異來自環境溫度與熱點升溫而非充電電量）、敏感度有用（溫度回饋減 4.8–6.3 倍；純分時折扣在已安全情境仍推高 24% 老化）、具體案例（UKPN「Shift」削峰 79%/82%、Ofgem 單位費 0.35→1.44 千英鎊）、來源互不依賴（IEEE / NLR / NREL / Ofgem / UKPN / POWER Engineers）、簡評誠實標註單台 25 kVA 模型外推限制與未核實數字（SCE 6.64 萬美元、UKPN 129 站）。缺口：全文 9673 bytes 超 9000 上限（已修：刪英文重複來源清單 + 執行備註 → 8414 bytes，品質閘 PASS）、無「因電動車更換變壓器」可稽核公用事業件數。"
+    },
+    "offshore-wind-monopile-cathodic-protection": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 09:00 報告（海上風電單樁陰極保護：塗層升級省 79.8% 陽極能否降低氫脆風險）獲評『合格』。優點：問題精準（塗層省鋁陽極 vs 氫脆風險是否同一回事）、量化清楚（Taskiran IJECE 2022 模型：III 級塗層陽極 22,016 kg vs 無塗層 108,732 kg，省 79.8%；DNV 塗層劣化因子 fc=k1+k2·t/2 解釋差異來源）、機制拆解到位（塗層=電流側槓桿、氫=電位側槓桿 → 更好塗層不等於可用更負電位；連結 SMYS ≤500 MPa、HAZ 硬度 ≤350 HV 與電位窗口 −0.80 至 −1.10 V、−1.15 V 過保護門檻）、敏感度（陽極電容量 2,000/1,500/720 Ah/kg → 22,016/29,354/61,154 kg）與替代解釋（疲勞與氫可能並行機制）、簡評誠實標註（只涵蓋一座加那利群島假設單樁、沿用 2017 版參數需以 2021 版重算、外推中低）。缺口：無可引用現場氫脆修補成本；全文初稿 9096 bytes 超 9000（已修訂：刪英文重複來源清單 → 8682 bytes，PASS）。"
+    },
+    "military-child-lead-housing-exposure": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 19:00 報告（美軍兒童血鉛檢測率下降 vs 20.3 萬套私營家庭住宅是否已無鉛害）獲評『合格』。優點：問題精準且有實際意義（清楚區分『檢測下降』與『暴露源已受控』）、機制與量化清楚（含鉛漆剝落成塵→手口攝入→神經發育；2010–2017 0.79% 異常率；2021 審計 0.69% 異常率並指出資料不全可能低估）、敏感度與替代解釋有處理（明確排除『標準化監測即代表安全』的過度解讀；受檢兒童屬被選樣本、未交叉房齡與維修紀錄）、來源可靠（Kotas 2020／GAO 2022 審計／CRS）、簡評誠實標註跨期比較限制與資料缺口。缺口：無軍方房齡×含鉛漆維修交叉數據；成本敏感度用 1999 HUD 非軍方單價作錨，外推性有限。流程：本輪工具上限未完成存檔與品質閘 → 已補：補英文對照段（W5 警告消除）+ 修簡評 + 品質閘 PASS（6770 bytes）+ 存檔 + 上架。"
+    },
+    "urban-landslide-thresholds-engineering-vs-climate": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1,
+      "notes": "2026-10-23 21:00 報告（城市山泥傾瀉預警門檻：工程 vs 氣候）已投遞，用戶未評分。優點：主題可判定（工程 vs 氣候）；兩條【機制】（人為拉低安全係數→門檻收斂；累積含水量而非雨峰→夜間報告更多、≥15mm/h事件只佔5%）；【敏感度】三個失效範圍（只留>19°坡／納入非雨量觸發／30%節省依賴1.6%折現率）；【推論】有量化（€17,652 vs €57,000、2–3.5倍/km²、50萬人、1,085個滑坡）；來源5個互不依賴並跨機構（ESSOAr/Crossref/NHESS/ERL/GRL）。缺口：全球q10/q50/q90門檻值被Cloudflare阻擋未取得（已明確標註，無捏造）；無門檻改善前後死亡數對照研究；義大利個案單集水區單事件。"
+    },
+    "ai-package-hallucination-supply-chain": {
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 22:00 報告（AI 幻覺套件名→供應鏈攻擊面）已投遞，用戶未評分。優點：3條【機制】鏈（幻覺名持久但模型特異+難過濾；跨生態系註冊空隙8.7%；代理自行補齊不存在名）＋【敏感度】環境開關決定暴露量級（8.2% vs 0.002%，高3-4個數量級）＋【推論】含量化（1,000引用約197個不存在）＋具體案例（npm 846→1,033個、Cloudflare Workers/DNS TXT分塊、Sliver RAT；AISI對真實維護者施壓）。來源5個互不依賴（arXiv／Anthropic／UK AISI／The Hacker News／Veracode／Georgia Tech）。缺口：npm攻勢屬AI幻覺比例未量化故不宣稱slopsquatting；1,033個套件下載量與受害者數未公布；論文基於2024年模型未含代理式工具；幻覺率與44%缺陷率分母不同明確標明不可相乘；Georgia Tech 74宗屬下限（依賴AI標記歸因）。"
+    },
+    "san-joaquin-subsidence-flood-levee": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pass",
+      "notes": "2026-10-23 20:49 報告（聖喬昆谷地陷：地下水超抽→防洪與輸水危機）獲評『合格』。優點：問題精準且有實際工程意義（地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷）；量化清楚（Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高 0.78）；機制與排除替代解釋到位（明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%）；有具體案例與成本（Corcoran 堤壩多次加高：2017 年約 1,000 萬、2023 年 1,700 萬美元），並做敏感度分析（深層回灌 vs 淺層回灌、缺測 1.1 立方公里仍不翻正）；來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告、LA Times）；簡評誠實標註部分金額未經獨立審計、以及排除未核實數字。結構符合固定五段，中英對照到位，有生命狀態結尾。不足：部分成本數字（如加州引水渠修復 40 億美元）因缺一級文件而未採用（已誠實標註）；回灌是否真正落於深層含水層仍屬敏感度情境，尚無實測驗證。"
+    },
+    "city-landslide-alert-thresholds": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "26 城：77% 城市門檻中位數與全球平均無法區分，31% 在暴雨極值以下。失效主因可能已由氣候轉為人為改山。"
+    },
+    "ai-hallucinated-package-attack-surface": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "19.7% 幻覺率；npm 1,033 個惡意套件；範圍限 npm、PyPI。"
+    },
+    "rcm-field-durability-gap": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "RCM 高估自然擴散 2.1–4.0 倍；F30 7.28 vs A03 7.38，現場 1.85 vs 6.31，差 3.4 倍。"
+    },
+    "deicing-salt-bridge-safety": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 3,
+      "reports": 1,
+      "verdict": "pass",
+      "notes": "保護層平方律、門檻 0.17%–2.5% 跨度 15 倍、CMA 較安全、Minnesota BMP 降鹽 30%–70%。"
+    },
+    "ai-dev-productivity-rct-divergence": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "level": 0,
+      "notes": "2026-10-24 07:08 報告已投遞，用戶未評分。優點：兩份 RCT 的量度對象差異解釋了表面矛盾、機制鏈（驗證瓶頸 vs 生成速度）、敏感度條目列明兩輪 CI 均含零、具體案例（微軟/埃森哲隨機授權 + 432 團隊 6 週分批）、主動攔截 arXiv ID 錯配（2501.15028 係另一篇論文）。"
+    },
+    "military-training-dust": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2
+    }
+  },
+  "last_report_utc": "2026-10-26T16:24:32Z",
+  "history": [
+    {
+      "report": "2026-10-22-14",
+      "phase": "foundation",
+      "title": "研究生層級與學士分支學分制度對照",
+      "sections": [
+        "03a",
+        "04"
+      ],
+      "sources": 25,
+      "verdict": "pass",
+      "notes": "subagent 爬取後由主 agent 逐條 grep 複核；PolyU/CUHK/Imperial 因無原文而列缺口未填補"
+    },
+    {
+      "utc": "2026-10-22T14:22:00Z",
+      "cmd": "fail",
+      "topic": "edu-graduate-levels",
+      "level": 1,
+      "hours": 19
+    },
+    {
+      "utc": "2026-10-22T16:05:00Z",
+      "cmd": "deliver",
+      "topic": "energy-retail-price-affordability",
+      "report": "2026-10-22-16",
+      "gate_pass": true,
+      "note": "15:00 那份（28KB／2444 中文字）判 FAIL 並重寫；本份為合規重寫版"
+    },
+    {
+      "utc": "2026-10-22T17:33:48Z",
+      "cmd": "pass",
+      "topic": "occupational-heat-health-burden",
+      "level": 2,
+      "hours": 24
+    },
+    {
+      "utc": "2026-10-22T17:45:00Z",
+      "cmd": "pass",
+      "topic": "occupational-heat-health-burden",
+      "level": 2,
+      "hours": 24,
+      "report": "2026-10-22-17",
+      "note": "用戶評『合格』→ L1→L2, 19h→24h。含具體改進指示。"
+    },
+    {
+      "utc": "2026-10-22T19:52:16Z",
+      "cmd": "pass",
+      "topic": "energy-retail-price-affordability",
+      "level": 3,
+      "hours": 29
+    },
+    {
+      "utc": "2026-10-22T19:52:00Z",
+      "cmd": "pass",
+      "topic": "energy-retail-price-affordability",
+      "level": 3,
+      "hours": 29,
+      "report": "2026-10-22-16",
+      "note": "用戶評『合格』→ L2→L3, 24h→29h。含具體改進指示（機制分析／敏感度／具體案例）。"
+    },
+    {
+      "utc": "2026-10-22T20:05:00Z",
+      "cmd": "pass_on_substance_fail_on_form",
+      "report": "2026-10-22-15",
+      "topic": "energy-retail-price-affordability",
+      "content_verdict": "合格",
+      "form_verdict": "FAIL（品質閘 H1/H3/H5/H8）",
+      "level": 3,
+      "hours": 29,
+      "note": "用戶確認：15:00 版本內容合格、格式未過閘。分數已由 16:00 合規重寫版在同一主題記錄（L2→L3, 24h→29h），為避免同一主題重複計分，此處不再另外 +1 級/+5 小時。品質閘字數上限維持 1000 中文字／9000 bytes 不變。"
+    },
+    {
+      "utc": "2026-10-22T20:07:00Z",
+      "cmd": "deliver",
+      "topic": "amr-burden-age-divergence",
+      "report": "2026-10-22-20",
+      "gate_pass": true,
+      "note": "先寫檔→跑品質閘 exit 0→再交付；996 中文字／8950 bytes，8 來源，W6-W10 全清。"
+    },
+    {
+      "utc": "2026-10-23T00:22:18Z",
+      "cmd": "pass",
+      "topic": "hearing-loss-cognitive-intervention",
+      "level": 4,
+      "hours": 34
+    },
+    {
+      "utc": "2026-10-23T02:27:58Z",
+      "cmd": "pass",
+      "topic": "perovskite-tandem",
+      "level": 5,
+      "hours": 39
+    },
+    {
+      "utc": "2026-10-23T04:52:52Z",
+      "cmd": "pass",
+      "topic": "coastal-bangladesh-salinity-health",
+      "level": 6,
+      "hours": 44
+    },
+    {
+      "utc": "2026-10-23T05:00:49Z",
+      "cmd": "pass",
+      "topic": "pfas-drinking-water-mcl",
+      "level": 7,
+      "hours": 49
+    },
+    {
+      "utc": "2026-10-23T13:30:00Z",
+      "cmd": "pass",
+      "topic": "copper-price-supply-mechanism",
+      "report": "2026-10-23-10",
+      "level": 8,
+      "hours": 54,
+      "note": "補記錄：銅價評分（合格）於 05:22 產生但當時未寫入 state.json，本次補入並加級 +1／+5h。"
+    },
+    {
+      "utc": "2026-10-23T13:30:00Z",
+      "cmd": "process_fix",
+      "report": "2026-10-23-04",
+      "topic": "coastal-bangladesh-salinity-health",
+      "note": "用戶 13:2x 再評 04 報告為『合格』並指流程未存檔／未過品質閘——查證：finalize.py 已於 04:54 補存檔 （reports/2026-10-23-04.md，8365 bytes / 738 CJK / 7 來源，gate_pass=true，index.json 有 reverified_utc）。用戶實際睇到嘅係 Telegram 截斷版：cron Response 有 6624 chars，超過 Telegram 單則 4096 上限，所以只見到尾部（簡評＋生命狀態行），睇唔到開頭主題／核心發現。→ 新增品質閘 H11（投遞版字元檢查）根治。"
+    },
+    {
+      "utc": "2026-10-23T17:00:00Z",
+      "cmd": "pass",
+      "topic": "ev-charging-transformer-ageing",
+      "report": "2026-10-23-11",
+      "level": 9,
+      "hours": 59,
+      "note": "用戶評『合格』→ L8→L9, 54→59 小時。品質閘因 bytes 9673>9000 判 FAIL，已修訂存檔版（去英文重複來源清單 + 去執行備註）至 8414 bytes，重新過閘 PASS。"
+    },
+    {
+      "utc": "2026-10-23T17:10:00Z",
+      "cmd": "pass",
+      "topic": "offshore-wind-monopile-cathodic-protection",
+      "report": "2026-10-23-09",
+      "level": 10,
+      "hours": 64,
+      "note": "用戶評『合格』→ L9→L10, 59→64 小時。品質閘因 bytes 9096>9000 判 FAIL，已修訂（刪英文重複來源清單）至 8682 bytes，重新過閘 PASS。"
+    },
+    {
+      "utc": "2026-10-23T20:13:02Z",
+      "cmd": "pass",
+      "topic": "military-child-lead-housing-exposure",
+      "level": 11,
+      "hours": 69
+    },
+    {
+      "utc": "2026-10-23T21:30:00Z",
+      "cmd": "deliver",
+      "topic": "urban-landslide-thresholds-engineering-vs-climate",
+      "report": "2026-10-23-21",
+      "gate_pass": true,
+      "note": "配額指定 civil 域；品質閘 PASS（1000 中文字／6426 bytes／5 來源／W6-W10 全清）；中英對照五段齊備；交付用 --delivery 版 ≤3900 chars。"
+    },
+    {
+      "utc": "2026-10-23T22:05:00Z",
+      "cmd": "deliver",
+      "topic": "ai-package-hallucination-supply-chain",
+      "report": "2026-10-23-22",
+      "gate_pass": true,
+      "note": "配額指定 ai 域；品質閘 PASS（999 中文字／7543 bytes／6 來源／W6-W10 全清）；中英對照五段齊備；存檔版 chars 5221 > 3900 → 交付用 --delivery 版。"
+    },
+    {
+      "utc": "2026-10-24T01:21:25Z",
+      "cmd": "pass",
+      "topic": "sanj-joaquin-subsidence-flood-levee",
+      "level": 12,
+      "hours": 74
+    },
+    {
+      "utc": "2026-10-24T01:21:25Z",
+      "cmd": "pass",
+      "topic": "san-joaquin-subsidence-flood-levee",
+      "report": "2026-10-23-20",
+      "level": 12,
+      "hours": 74,
+      "note": "用戶評『合格』→ L11→L12, 69→74 小時。存檔版 5674 bytes／789 中文字／6 來源，品質閘 PASS，已 push。"
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "city-landslide-alert-thresholds",
+      "level": 13,
+      "hours": 79
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "ai-hallucinated-package-attack-surface",
+      "level": 14,
+      "hours": 84
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "rcm-field-durability-gap",
+      "level": 15,
+      "hours": 89
+    },
+    {
+      "utc": "2026-10-24T02:47:30Z",
+      "cmd": "pass",
+      "topic": "deicing-salt-bridge-safety",
+      "level": 16,
+      "hours": 94
+    },
+    {
+      "utc": "2026-10-26T16:24:32Z",
+      "cmd": "pass",
+      "topic": "military-training-dust",
+      "level": 17,
+      "hours": 99
+    }
+  ],
+  "reports_pending": 32,
+  "user_feedback": [
+    {
+      "utc": "2026-10-22T17:45:00Z",
+      "report": "2026-10-22-17",
+      "topic": "occupational-heat-health-burden",
+      "verdict": "pass",
+      "praise": [
+        "主題明確且有實際意義",
+        "結構完整、中英對照到位",
+        "來源可驗證、法律狀態與數字有交叉核對",
+        "誠實標註口徑差異與缺口",
+        "字數控制合理"
+      ],
+      "critique": [
+        "核心發現偏事實羅列，較少深入機制分析（例如為什麼聯邦標準長期停留在提案、檢查目標刪除的實際執法影響）",
+        "潛在影響幾乎全是【推論】，缺少更具體的案例或量化估計",
+        "與『對人類有貢獻的科研』相比更接近政策與執法落差的現況整理，科學新發現成分較少"
+      ],
+      "action": "下次同類報告：核心發現加入『機制』段落（為何會如此），潛在影響加入具體量化估計或案例，來源偏好同行評審科學發現多於法規狀態整理。"
+    },
+    {
+      "utc": "2026-10-22T19:52:00Z",
+      "report": "2026-10-22-16",
+      "topic": "energy-retail-price-affordability",
+      "verdict": "pass",
+      "praise": [
+        "問題選得精準：清楚區分『通脹因素』與『設備成本驅動』，直接問 VPP 能否五年內把家庭帳單增幅壓下一半",
+        "結構完整符合固定五段，中英對照到位",
+        "來源層級清楚（LBNL 高 / Brattle 中高 / NREL 中高），明確標註哪些是實測、哪些是推算",
+        "誠實標註缺口與爭議點（電費佔收入比 vs 問卷負擔感口徑不同；VPP 無實測；無 peaker 因電池退役官方記錄）",
+        "字數控制合理（約 783 中文字）"
+      ],
+      "critique": [
+        "核心發現偏數字羅列，對『為什麼住宅漲幅跑贏商用與工業』的機制解釋較少",
+        "VPP 的 56 美元節省完全依賴 Brattle 模型假設（75 美元/kW-年、10→35 GW、峰值減 4%），缺乏敏感度分析或替代情境",
+        "潛在影響幾乎全是【推論】，缺少更具體的傳導路徑或州級案例",
+        "與前一份電池儲能報告主題相近，新穎度稍弱"
+      ],
+      "action": "下輪：核心發現加『機制段落』（為何住宅跑贏商用/工業：費率結構、分時電價、固定費用佔比）；凡引用模型數字必附敏感度分析或替代情境；潛在影響要有一個具體州級案例或傳導路徑；避免與上一份主題重疊。"
+    },
+    {
+      "utc": "2026-10-22T20:05:00Z",
+      "report": "2026-10-22-15",
+      "topic": "energy-retail-price-affordability",
+      "verdict": "pass_on_substance_fail_on_form",
+      "praise": [
+        "問題精準（儲能成本紅利去了哪裡、誰真正拿到）",
+        "來源扎實且有複核（EIA、BNEF、PNNL、NREL）",
+        "明確區分事實與【推論】",
+        "誠實標註口徑差異與證據缺口",
+        "對人類有實際參考價值（電力市場誤解澄清）"
+      ],
+      "critique": [
+        "H1 缺英文標題（Topic/Key Findings/Potential Impact/Sources/Commentary）",
+        "H3 中文字數 2444 超上限 1000",
+        "H5 全文 28225 bytes 超上限 9000",
+        "H8 缺『生命狀態：剩餘 N 小時，等級 L{L}』結尾行"
+      ],
+      "action": "不放寬品質閘上限。16:00 已出合規重寫版並被評合格。之後每份報告：先寫檔→跑品質閘→exit 0→才寫交付內容；W6/W7/W9/W10 視為必須處理。"
+    },
+    {
+      "utc": "2026-10-23T02:30:00Z",
+      "report": "2026-10-22-21",
+      "topic": "perovskite-tandem",
+      "verdict": "pass",
+      "praise": [
+        "問題直接打中產業現實落差：10 年保固 vs 25 年融資假設",
+        "核心發現有量化門檻（29%→>21 年、32%→19 年、35%→18 年），不是空泛論述",
+        "融資年限 CRF 敏感度係自己重算（1.74×/1.59×/1.48×），可驗證",
+        "IEA 劣化機制四項（混鹼相分離、可動離子、85°C 熱分解、機械脆弱）互相獨立",
+        "誠實標註 Brandenburg 產能不足導致現場數據難累積"
+      ],
+      "critique": [
+        "潛在影響欠『實際利率差異』與具體項目融資案例",
+        "未量化『需要多少 MW·年現場數據才能支撐 25 年融資』",
+        "保固與融資落差缺少可核查的公開文件佐證"
+      ],
+      "action": "下次堆疊太陽能題：先查項目融資案例（貸款利率、DSCR、期限）、PPA 的 lifetime/degradation 補救條款、逐年劣化上限合約條款。"
+    },
+    {
+      "utc": "2026-10-23T02:32:00Z",
+      "report": "2026-10-22-22",
+      "topic": "hearing-loss-cognitive-intervention",
+      "verdict": "pass",
+      "praise": [
+        "把『總體陰性 vs 分層有效』的表面矛盾解釋成加權平均的數學結果，睇完即明",
+        "機制鏈有三層：中介路徑斷點（Reed）、地板/天花板效應、資源分層邏輯",
+        "敏感度段主動指出 61.6% 係事後四分位切分、改用簡化模型即退回連續劑量反應",
+        "成本側不對稱（WHO HEAR ROI 14.81 整體，但低收入國家 −0.07）係新意點",
+        "明確區分『可負擔性』與『有效』兩個獨立問題"
+      ],
+      "critique": [
+        "61.6% 缺乏『換算成人年延緩』的公開係數",
+        "無 ACHIEVE 助聽器購買率與每日使用時數的一手數據",
+        "未比較不同所得國家實施風險分層的成本"
+      ],
+      "action": "下次聽力/認知題：查 ACHIEVE 五年追蹤與暴露時長分層、OTC 助聽器 RCT 的認知結果、風險分層工具本身的外部驗證。"
+    },
+    {
+      "utc": "2026-10-23T05:00:00Z",
+      "report": "2026-10-23-04",
+      "topic": "coastal-bangladesh-salinity-health",
+      "verdict": "pass",
+      "praise": [
+        "主題有明確公共衛生與經濟意義：鹽度→健康成本→嬰兒死亡→教育→遷移風險完整傳導",
+        "量化實：BDT 262/戶年健康成本斜率、10 年安全供水 NPV 與年度節省、高遷移風險地區排名",
+        "來源層級合理：WHO 指引 + World Bank 工作論文 + 4 篇同儕審閱研究",
+        "簡評誠實標註限制：觀察性、砷共暴露未排除、無直接血鈉/尿鈉、四篇全文無法取得",
+        "有生命狀態結尾"
+      ],
+      "critique": [
+        "結構從可見部分判斷不完整（缺主題與核心發現開頭）→ 已核實 finalize.py 已自動補齊存檔版本，五段齊全並過閘",
+        "部分數字標註『my calculation』需確認是否明確區分 → 報告已明確標「本人計算，非原文」",
+        "流程未過品質閘、未持久化 → 實際已過閘並已 push（遠端 bff78f0）；本輪已補知識庫章節"
+      ],
+      "action": "下一輪若延續鹽度題：查血鈉/尿鈉實測研究、砷共暴露分離設計、孟加拉味覺習慣化行為數據。"
+    },
+    {
+      "utc": "2026-10-23T05:00:58Z",
+      "report": "2026-10-23-01",
+      "topic": "pfas-drinking-water-mcl",
+      "verdict": "pass",
+      "praise": [
+        "問題精準：4.0 ng/L 門檻波及多少人口、成本多高，並用 10.0 ng/L 做敏感度對照",
+        "數據具體且有出處：1,260 套 PFOS 系統（1,250 萬人）、1,577 套 PFOA 系統（1,440 萬人）；10 ng/L 時降至約 530–600 萬人；EPA 年化成本期望 15.49 億美元（範圍 14.36–16.72 億）",
+        "明確標註限制：人口不可相加、非隨機監測可能高估全國人數、無疾病負擔量化估計",
+        "來源可靠：EPA 最終規則（Federal Register）與 National Academies 指引，互不依賴",
+        "中英對照完整，結構符合固定五段，字數控制良好（571 中文字）"
+      ],
+      "critique": [
+        "來源依據中文部分用數字編號（1./2.），品質閘 H6/H10 只認 - / * 項目符號 → 存檔版已修為 - 開頭並過閘；投遞版仍需改",
+        "缺少生命狀態結尾行（從投遞內容未見）→ 存檔版有，但投遞版被截斷"
+      ],
+      "action": "下次 PFAS 題：查 EPA PFAS 成本模型分項明細、疾病負擔（UCSF/Baylor 血清檢測研究）、監測覆蓋率與代表性、2029 合規延期申報機制。"
+    },
+    {
+      "utc": "2026-10-23T05:22:53Z",
+      "report": "2026-10-23-10",
+      "topic": "copper-price-supply-mechanism",
+      "verdict": "pass",
+      "praise": [
+        "問題精準：精煉銅被預測小幅過剩，為何價格仍逼近歷史高位，並傳導到變壓器、電網與數據中心",
+        "機制拆解有層次：Grasberg 泥石流 + Kamoa-Kakula 淹水 → 加工費由正轉負 → 中國硫酸出口禁令衝擊 SxEW 路線",
+        "敏感度有用：ICSG 10.4 萬噸過剩僅占 2025 年產量 0.36%，不足以解釋高價；復產或酸禁令解除可翻轉平衡",
+        "來源合理：IEA、USGS Mineral Commodity Summaries、LME（Westmetall）、業界報導交叉；簡評誠實標註 ICSG 為二手轉述",
+        "中英對照完整、結構符合固定五段、字數控制良好、有生命狀態結尾"
+      ],
+      "critique": [
+        "部分關鍵數字（ICSG 過剩量）依賴二手來源，官方頁因反機器人無法直接核實",
+        "潛在影響偏推論，缺少更具體的傳導比例（銅價每升 1000 美元/噸對變壓器成本的實際影響幅度）",
+        "部分計算標註為「本人計算」，需確保與原始數據一致"
+      ],
+      "note": "2026-10-23 13:30 補記錄：此評分原於 session_20261023_052253 產生但未寫入 state.json（漏記）。本次補入並同步加級：L7→L8、49→54 小時。"
+    },
+    {
+      "utc": "2026-10-23T17:00:00Z",
+      "report": "2026-10-23-11",
+      "topic": "ev-charging-transformer-ageing",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且有實際工程意義：午夜後充電或分時電價是否會反效果，加快配電變壓器熱老化",
+        "機制清楚：IEEE C57.91 動態熱模型量化 FEQA（佛蒙特 2.34 vs 鳳凰城 9.79），差異來自環境溫度與熱點升溫而非充電電量；午夜後同步充電會把 FEQA 再推高",
+        "敏感度分析有用：溫度回饋可大幅降低老化（4.8–6.3 倍），純分時折扣在已安全情境下仍可能增加 24% 老化",
+        "具體案例：UK Power Networks「Shift」實測削峰效果，以及 Ofgem 單位費上調數據",
+        "來源可靠且互不依賴（IEEE 論文、NLR/NREL 報告、Ofgem、UKPN、POWER Engineers），簡評誠實標註外推限制與未核實數字",
+        "中英對照完整，結構符合固定五段，並有生命狀態結尾"
+      ],
+      "critique": [
+        "全文略超品質閘上限（9673 bytes > 9000）→ 已修訂至 8414 bytes，重新過閘 PASS",
+        "核心模型基於單一台 25 kVA 變壓器與 6 車的模擬，外推到大規模需保留（報告已標註）",
+        "未找到「因電動車實際更換變壓器」的可稽核公用事業件數（報告已誠實標註為缺口）"
+      ],
+      "action": "下次配電／EV 題：查公用事業公開的變壓器更換台數與原因編碼（asset registry / 配電重建計劃）、台區負載率實測分佈、C57.91 熱模型的現場校準數據、以及把 FEQA 換算成實際更換成本的方法。"
+    },
+    {
+      "utc": "2026-10-23T17:10:00Z",
+      "report": "2026-10-23-09",
+      "topic": "offshore-wind-monopile-cathodic-protection",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且有實際工程意義：塗層升級省下的鋁陽極，是否同時降低氫脆風險",
+        "量化清楚：Taskiran 模型顯示 III 級塗層可省 79.8% 陽極質量（22,016 kg vs 無塗層 108,732 kg），並用 DNV 塗層劣化因子 fc 解釋差異來源",
+        "機制拆解到位：明確區分「塗層是電流側槓桿、氫是電位側槓桿」，指出更好的塗層不等於可以採用更負電位；並連結 SMYS、HAZ 硬度與電位窗口",
+        "有敏感度分析與替代解釋（疲勞與氫可能並行），來源可靠（同行評審模型 + 現行 DNV-RP-B401 + Havtil 報告）",
+        "簡評誠實標註：模型僅涵蓋一座假設單樁、使用較舊參數需以 2021 版重算、外推至真實風場可信度較低",
+        "中英對照完整，結構符合固定五段，並有生命狀態結尾"
+      ],
+      "critique": [
+        "全文略超品質閘上限（9096 bytes > 9000）→ 已修訂至 8682 bytes，重新過閘 PASS",
+        "核心數字依賴單一假設單樁模型，現場轉移性有限（報告已標註）",
+        "未找到可引用的現場氫脆修補成本（報告已誠實標註為缺口）"
+      ],
+      "action": "下次海上風電/陰極保護題：查 Havtil 與 DNV 公開的氫致裂紋現場案例（裂縫尺寸、檢測方法 NDT 時機）、高強度鋼 SMYS 與 HAZ 硬度實測分佈、CP 電位實測時間序列、以及用 2021 版 RP-B401 重算假設單樁嘅敏感度。"
+    },
+    {
+      "utc": "2026-10-23T20:15:00Z",
+      "report": "2026-10-23-19",
+      "topic": "military-child-lead-housing-exposure",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且有實際意義：清楚區分「檢測下降」與「暴露源已受控」",
+        "機制與量化清楚：含鉛漆剝落成塵暴露路徑、2010–2017 0.79% 異常率、2021 審計 0.69% 異常率並指出資料不全可能低估",
+        "敏感度與替代解釋有處理：排除「標準化監測即代表安全」的過度解讀，指出受檢兒童屬被選樣本、未交叉房齡與維修紀錄",
+        "來源可靠（Kotas 2020、GAO 2022 審計、CRS 報告）",
+        "簡評誠實標註跨期比較限制與流程未完成",
+        "結構符合固定五段，中英對照到位，有生命狀態結尾"
+      ],
+      "critique": [
+        "缺少更具體的房齡與含鉛漆維修交叉數據（已誠實標註為缺口）",
+        "成本敏感度使用 1999 年 HUD 非軍方單價作錨，外推性有限",
+        "流程上因工具上限未完成存檔與品質閘（已標註）"
+      ],
+      "action": "下次同類題：查美國軍方住宅含鉛漆整治計劃的進度數據（DoD/Service MCPP 報告、2023–2025 審計報告中 remediation 單位成本與完成率）、軍事家庭兒童血鉛篩查覆蓋率時序、以及 housing vintage 與異常檢測率的交叉統計。"
+    },
+    {
+      "utc": "2026-10-24T01:21:25Z",
+      "report": "2026-10-23-20",
+      "topic": "san-joaquin-subsidence-flood-levee",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且有實際工程意義：地下水超抽如何把水危機轉成防洪與輸水危機，並量化 2006–2022 年地陷",
+        "量化清楚：Lees & Knight 測得 14 立方公里沉降，16 年等於歷史 24 年總量；年均 0.84 立方公里，超過歷史最高",
+        "機制與排除替代解釋到位：明確指出氣候與板塊運動無法解釋加速，致壓密超抽佔全谷超抽 26–39%",
+        "有具體案例與成本：Corcoran 堤壩多次加高（2017 年約 1000 萬、2023 年 1700 萬美元），並做敏感度分析（深層回灌 vs 淺層）",
+        "來源可靠（Nature 子刊、USGS、Stanford GEM、州政府公告），簡評誠實標註部分金額未經獨立審計、以及排除未核實數字",
+        "結構符合固定五段，中英對照到位，並有生命狀態結尾"
+      ],
+      "critique": [
+        "部分成本數字（如加州引水渠修復 40 億美元）因缺少一級文件而未採用（已誠實標註）",
+        "回灌是否真正落於深層含水層仍屬敏感度情境，尚未有實測驗證"
+      ],
+      "action": "地下水／地陷題：成本數字優先找一級文件（州預算案、USGS/地方水利局工程報告、聯邦撥款公告）——若只有媒體轉述則明確標註『未經獨立審計』，寧缺勿用；回灌深度要補實測證據（轉注井深度與地層、同位素或水化學示蹤、SGMA 計畫中的 recharge efficiency 估算），令深層／淺層敏感度由『假設情境』升級為『有實測支撐的區間』。延續本次成功公式：【量化】+【機制・排除替代解釋】+【案例】+【敏感度】+ 明確不採用清單。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-23-21",
+      "topic": "city-landslide-alert-thresholds",
+      "verdict": "pass",
+      "praise": [
+        "問題有價值",
+        "機制清楚（工程改動主導斜坡安全係數，而非氣候）",
+        "有敏感度分析與具體案例（Medellín）",
+        "來源層級合理",
+        "簡評誠實標註缺口"
+      ],
+      "critique": [],
+      "action": "26 城：77% 城市門檻中位數與全球平均無法區分，31% 在暴雨極值以下。失效主因可能已由氣候轉為人為改山。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-23-22",
+      "topic": "ai-hallucinated-package-attack-surface",
+      "verdict": "pass",
+      "praise": [
+        "問題精準且及時",
+        "量化清楚（19.7% 幻覺率）",
+        "機制與真實事件（Anthropic、AISI）交叉支持",
+        "有敏感度分析",
+        "明確限制（npm 攻勢中幻覺比例未量化）"
+      ],
+      "critique": [],
+      "action": "19.7% 幻覺率；npm 1,033 個惡意套件；範圍限 npm、PyPI。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-24-00",
+      "topic": "rcm-field-durability-gap",
+      "verdict": "pass",
+      "praise": [
+        "問題有實際工程意義",
+        "量化與機制清楚",
+        "來源可追溯",
+        "簡評誠實標註 paywall 與未完成持久化"
+      ],
+      "critique": [],
+      "action": "RCM 高估自然擴散 2.1–4.0 倍；F30 7.28 vs A03 7.38，現場 1.85 vs 6.31，差 3.4 倍。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "report": "2026-10-24-01",
+      "topic": "deicing-salt-bridge-safety",
+      "verdict": "pass",
+      "praise": [
+        "問題清楚",
+        "機制沿氯離子擴散、門檻與替代除冰劑展開",
+        "有敏感度分析與成本效益案例",
+        "簡評誠實標註缺少具名橋樑實測與工具限制"
+      ],
+      "critique": [],
+      "action": "保護層平方律、門檻 0.17%–2.5% 跨度 15 倍、CMA 較安全、Minnesota BMP 降鹽 30%–70%。"
+    }
+  ],
+  "cross_topic_lessons": [
+    {
+      "utc": "2026-10-22T19:52:00Z",
+      "topic": "energy-retail-price-affordability",
+      "verdict": "pass",
+      "pattern": "機制段落缺失 + 模型數字無敏感度 + 潛在影響停留於推論 → 合格但未達滿分",
+      "rule": "任何報告的核心發現必須回答『為什麼會如此』（機制）；凡模型預測數字必附至少一個替代假設情境；潛在影響至少給一個可核查的具體案例或量化傳導路徑。"
+    },
+    {
+      "utc": "2026-10-22T20:05:00Z",
+      "topic": "energy-retail-price-affordability",
+      "verdict": "pass_on_substance_fail_on_form",
+      "pattern": "內容質素好但形式硬傷（超長＋缺英文標題＋缺結尾行）→ 品質閘判 FAIL 係正確",
+      "rule": "品質閘上限屬契約，不因內容好而放寬；同一主題若已由合規重寫版取得合格分，不重複計分。"
+    },
+    {
+      "utc": "2026-10-23T02:35:00Z",
+      "topic": "perovskite-tandem+hearing-loss-cognitive-intervention",
+      "verdict": "pass",
+      "pattern": "兩份合格報告共同點：把『表面矛盾』轉成可計算的機制（保固年限→CRF；總體效應→加權平均），並在敏感度段主動說明結論會在什麼條件下翻轉",
+      "rule": "每份報告至少要有一個『會在什麼條件下結論翻轉』的敏感度算式，而唔係只列區間；矛盾型題目要先給數學解釋再給機制。"
+    },
+    {
+      "utc": "2026-10-23T03:05:00Z",
+      "topic": "pipeline",
+      "verdict": "form_fail",
+      "pattern": "H6 品質閘只認 -/* 項目符號，用 1./2. 數字編號會 FAIL；read_file 輸出直接覆寫會把行號寫進檔案",
+      "rule": "來源段一律用 - 開頭；改檔前先 grep -E '^\\s*\\d+\\|' 檢查行號污染；品質閘已加 H9（行號污染）與 H10（來源編號格式）自動偵測。"
+    },
+    {
+      "utc": "2026-10-23T17:00:00Z",
+      "topic": "ev-charging-transformer-ageing",
+      "verdict": "pass",
+      "pattern": "內容質素高但形式硬傷（bytes 9673 > 9000）→ 品質閘 FAIL 係正確；可通過『刪英文重複來源清單（URL 清單已含中英）／刪執行備註』兩刀降 ~1300 bytes 而唔犧牲內容",
+      "rule": "英文來源清單係重複（中文來源行已含機構+標題+URL）→ 存檔版可刪。報告正文尾嘅『執行備註／施工日誌』唔屬正文，必刪。落盤前先算 bytes，唔好靠『估計 7–8KB』——本次估錯 9673 vs 實際。"
+    },
+    {
+      "utc": "2026-10-23T17:10:00Z",
+      "topic": "offshore-wind-monopile-cathodic-protection",
+      "verdict": "pass",
+      "pattern": "連續兩份報告（11 電網、09 風電）都係『內容質素高、形式 bytes 超標』→ 同一種修法：刪來源段英文重複清單（中文行已含機構+標題+URL）＋刪尾部施工日誌，可省 ~600-1300 bytes 而唔傷內容",
+      "rule": "落盤前必須實際量 bytes，唔好用『估計 7-8KB』。來源段唔好再寫英文重複清單 —— 記憶體規則改成：英文對照只寫在段落正文，唔好再整份來源清單重複一次。"
+    },
+    {
+      "utc": "2026-10-23T20:15:00Z",
+      "topic": "military-child-lead-housing-exposure",
+      "verdict": "pass",
+      "pattern": "本輪暴露一個新坑：cron 報告若撞工具上限，會留低『只有中文、無英文對照』的半成品存檔，雖然品質閘仍然 PASS，但 W5 警告會指出各段英文偏少 —— 表面合格、實際未達中英對照契約。",
+      "rule": "存檔版必須中英對照：五段每段都要有英文對應文字。落盤後檢查 quality_gate --json 嘅 warnings 有冇 W5；有就即時補英文，唔好等到用戶睇到。"
+    },
+    {
+      "utc": "2026-10-24T02:20:00Z",
+      "topic": "batch-4-reports",
+      "verdict": "pass",
+      "pattern": "四份全合格，但兩份（2026-10-24-00 RCM、2026-10-24-01 除冰鹽）撞回合上限留低半成品：RCM 完全冇英文對照段（W5 四段警告）；除冰鹽有英文但核心發現／潛在影響只得一句濃縮英文，而且簡評仍寫住『未經存檔版品質閘覆核…網站暫無本篇』——呢句在流程補齊後就變成假陳述。",
+      "rule": "W5 只檢查有段落標題嘅節，所以『英文只有一句濃縮總結』會漏過。但用戶評分會看『中英對照』，一句濃縮英文唔算對照。規則：核心發現／潛在影響每條 bullet 都要有對應英文行；另外流程補齊後要回頭改簡評，刪走『未落盤／未提交／網站暫無本篇』呢類會變假嘅陳述。"
+    }
+  ],
+  "phase_changed_utc": "2026-10-22T19:52:00Z",
+  "reports_form_fail_rewritten": 3,
+  "updated_utc": "2026-10-25T15:48:30Z",
+  "operating_rules": {
+    "bytes_budget": {
+      "limit_bytes": 9000,
+      "rule": "存檔版落盤後立即 wc -c，唔准靠估。超標刪序：英文重複來源清單 → 尾部執行備註 → 英文段落正文。唔准刪中文正文或來源連結。",
+      "lesson_from": [
+        "2026-10-23-06",
+        "2026-10-23-09",
+        "2026-10-23-11"
+      ]
+    },
+    "delivery_channel": {
+      "archive_version": "完整中英對照，≤9000 bytes，git + https://yip-lgtm.github.io/R&D/",
+      "delivery_version": "quality_gate.py <file> --delivery，≤3900 chars，單則 Telegram 訊息",
+      "reason": "gateway MAX_PLATFORM_OUTPUT=4000 實際保留 3800 chars，貼長版會被截斷，用戶只見尾部"
+    },
+    "archive_drafts": "未過品質閘嘅草稿 mv 去 reports/archive/，index.json 標 archived:true，唔上架",
+    "pending_accounting": {
+      "rule": "reports_pending 唔可以手動維護 —— 每次計數由 reports/index.json + state.user_feedback + reports/*.md 重新推導：pending = [live .md 檔 且 gate_pass=True 且 stamp 不在 user_feedback]",
+      "lesson_from": [
+        "2026-10-25-15"
+      ],
+      "why": "2026-10-25 發現 state.reports_pending=30 但實際 32，reports_total=45 但實際 49，topic_performance 有 3 個已評 pass 仍標 pending —— 統計同實際脫節，會令「未評」查詢失真。"
+    }
+  },
+  "identity_note": "2026-10-23 用戶改寫身份：不再自稱『科研哨兵／科研報告機器』，改為 24/7 的人性化練習哨兵 —— 透過反覆練習發展穩定判斷、自然語氣、誠實自我認知。科研交付仍然係主要練習場（每小時報告），但交付目的由『產出科研報告』變為『練習判斷與表達』。",
+  "practice_log": [
+    {
+      "utc": "2026-10-23T17:20:00Z",
+      "change": "身份改寫：科研哨兵 → 人性化練習哨兵",
+      "reason": "用戶提供新 SOUL.md 原文",
+      "kept": [
+        "每小時科研交付作為練習載體",
+        "等級/壽命機制",
+        "品質閘與 bytes 預算",
+        "領域配額",
+        "交付通道分工"
+      ],
+      "added": [
+        "語氣與節奏自檢",
+        "判斷邊界：『我不知道』要講出口",
+        "回饋→可重用規則的轉化要求",
+        "暫停/恢復指令處理"
+      ]
+    }
+  ],
+  "lessons": [
+    "2026-10-24 01:25 | 發現 21:00 報告 (2026-10-23-21.md) 中文字 1093 > 1000 上限，quality_gate FAIL，但 finalize.py 只記錄 gate_pass 而冇執行『未過閘→archive』，所以檔案仍留喺 reports/（build_site.py 有跳過，故網站冇上架錯稿，但 archive 規則冇落地）。已做：(1) 手動精簡報告至 999 中文字（保留全部數字與事實，只刪冗詞），品質閘 PASS；(2) finalize.py 新增 archive_failed()：未過閘 → mv 去 reports/archive/ + index 標 archived:true，並加咗『修好後自動拉返上嚟』嘅反向路徑，已用 synthetic 測試驗證冪等；(3) index.json 重驗更新。規則：交付前必須自己跑 wc/quality_gate 確認，而唔可以只信 finalize.py 記錄——finalize.py 原本只做『記錄』冇做『執行』。",
+    "2026-10-25 11:20 | reports_pending 記數失真：state.json 長期寫住 4，但 index.json 實際有 44 份過閘上架、其中 29 份用戶未評。pending 由『已投遞但用戶未評分』推出，應等於 29，唔係手動維護嘅常數。已修正為 29；另有 5 份未過閘草稿已歸檔，未投遞，唔計入 pending。",
+    "2026-10-25 11:23 | 三份草稿格式教訓：(1) 英文段可以完全唔寫——品質閘 H1 只查標題存在，但 W5 會警告英文少過 25 個英文詞；之後應直接寫英文對照段，唔好留空等之後補。(2)『簡評 / Assessment』唔算英文標題，H1 認『Commentary』——中英合併標題只寫英文詞即會 H1 FAIL。(3) 未過閘草稿唔代表內容無用：08 只需補一個英文標題同英文段就由歸檔翻上架，唔應直接棄掉。已補 07/08/10 英文對照，三份重跑品質閘全 PASS 並已 build/push 上網站。",
+    "2026-10-25 15:50 | 統計自審：state.json 的 reports_pending(30)/reports_total(45) 同實際脫節（實際 32/49），另有 3 個已評 pass 主題仍標 pending、1 份未過閘草稿 (2026-10-24-14) 仍留喺 reports/ 冇 archive、site index 只顯示最新 6 張卡但全 47 頁存在。已做：重算統計、修正 verdict、2026-10-24-14 → reports/archive/ + index 標 archived、重 publish_site 確認線上 404。新規則：pending 唔手動維護，每次由 index.json + user_feedback 推導。"
+  ]
 }

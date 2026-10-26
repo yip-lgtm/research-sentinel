@@ -1,61 +1,60 @@
-# PFAS 污染与美国军事基地 — 可核查证据档案 (Skeleton)
+# PFAS 污染与美国军事基地：可验证证据档案
+（研究子代理档案，供中文报告引用；所有数字均附 URL）
 
-**研究主题**：PFAS（AFFF 泡沫）污染在美国军事基地的规模、测量方法与修复成本
-**日期**：2026-10-26
-**状态**：SKELETON — 增量填充中
+## 0. 档案状态
+- 建立时间：2026-10-26 18:40 UTC
+- 方法：直接抓取原始文档（GAO、DOD、USGS、ACS/ES&T、EPA），非二手转述
+- 每一条数字必须有 URL；不可验证者归入 §9 GAPS
 
----
+## 1. 问题的规模（footprint）
+- 1.1 DoD 认定的需评估设施数（718 / 723 / 727 等不同口径）
+- 1.2 AFFF 使用史与停用时间线
+- 1.3 地下水/地表水检出率（USGS 研究）
+- 1.4 私人水井受影响数量（DoD 检出 / EWG 分析）
 
-## 0. 研究范围与方法 (Scope & Method)
-- 目标问题：军事设施在 PFAS 问题中的"足迹"有多大？如何测量？修复要花多少钱？
-- 证据标准：每个数字必须有可访问 URL；主源优先（USGS / EPA / DoD / 国会 / 同行评议论文）。
-- 已知屏蔽域名：不重试。
+## 2. 测量方法（how is it measured）
+- 2.1 采样设计：Precautionary Screening Program / DoD 采样方法
+- 2.2 分析方法：EPA 1633、1632，目标物清单
+- 2.3 检出限与健康基准：70 ppt（DoD）、4 ppt（EPA MCL）、HI
+- 2.4 统计：检出频率、空间统计、升树模型
 
-## A. 基地层面的测量结果 (A. MEASUREMENT AT BASES)
-- A1. Clausen et al. 2022 USGS 全国地下水研究：基地数、井数、检出率、超标比例
-- A2. 各 PFAS 单体检出频率；PFOA/PFOS vs 其他化合物
-- A3. 消防训练区 (fire-training area) 与源归因
-- A4. 采样偏差与井位分布
+## 3. 机制链条（mechanism）
+- 3.1 AFFF 化学与 C–F 键
+- 3.2 消防训练场 → 土壤 → 地下水
+- 3.3 前体物转化（sulfonamide → terminal PFAS）
+- 3.4 持久性（半衰期）
+- 3.5 为何修复困难（无破坏技术；P&T / 泡沫移除 / MNA）
 
-## B. 机理链 (B. MECHANISM — the "why")
-- B1. AFFF 组成与化学（氟表面活性剂、PFAS 家族）
-- B2. C–F 键强度 → 无自然降解
-- B3. 消防训练区 → 土壤 → 地下水/地表水羽流
-- B4. 人体半衰期（PFOA / PFOS）
-- B5. 修复为何困难（无销毁技术；P&T / 泡沫移除 / MNA）
+## 4. 修复成本（cost）
+- 4.1 DoD 总体支出与未来估算（GAO 表 4）
+- 4.2 BRAC 追加估算
+- 4.3 单基地成本
+- 4.4 其他联邦/州成本对照
 
-## C. 成本 (C. COST)
-- C1. 空军自报成本（4 个基地，约 $2B）— 原始文件与日期
-- C2. 其他联邦/州层面 PFAS 修复成本
-- C3. 单位成本（每井 / 每羽流 / 每基地）
-- C4. 成本区间 (spread)
+## 5. 监管与时间表
+- 5.1 EPA 2024 NPDWR（PFOA/PFOS MCL、HI）
+- 5.2 合规期限 2027/2029
+- 5.3 DoD 的立场与诉讼
+- 5.4 5 年展期提案
 
-## D. 监管与时间表 (D. REGULATION + DEADLINES)
-- D1. EPA 2024 NPDWR：PFOA/PFOS MCL + Hazard Index
-- D2. 合规期限 2027/2029
-- D3. DoD 立场文件与诉讼
-- D4. 5 年宽限期提案/决定
+## 6. 具名案例（named case）
+- 6.1 候选：Eielson AFB / Wells AFB / Mountain Home / F.E. Warren
+- 6.2 硬数字：浓度、人群、成本、时间表
 
-## E. 具体案例 (E. ONE NAMED CASE)
-- E1. 基地名、PFAS 水平、成本、日期
+## 7. 暴露与健康（exposure/health）
+- 7.1 暴露路径：私人水井、基地自供水
+- 7.2 健康基准数字：血清、癌症风险、半衰期
 
-## F. 暴露与健康 (F. EXPOSURE/HEALTH)
-- F1. 私人井/社区暴露路径
-- F2. 血清水平、癌症风险 (EPA/ATSDR)
-- F3. 暴露人口规模
+## 8. 敏感性与替代情景（sensitivity）
+- 8.1 情景 A：成本口径宽/窄
+- 8.2 情景 B：检出率依赖井位
+- 8.3 情景 C：合规期限滑移
 
-## G. 敏感性与替代情景 (G. SENSITIVITY / ALTERNATIVE SCENARIOS)
-- G1. 场景 1：成本估算范围（4 基地 vs 更广）
-- G2. 场景 2：检出率对井位/消防训练区距离的依赖
-- G3. 场景 3：合规期限滑移
+## 9. 冲突与空白（GAPS/CONFLICTS）
+- 9.1 USGS "无明确来源" vs DoD 归因
+- 9.2 成本估算冲突
+- 9.3 采样偏倚
+- 9.4 未验证数字
 
-## H. 缺口与冲突 (H. GAPS/CONFLICTS)
-- H1. USGS "无明确源" vs DoD 归因
-- H2. 冲突的成本估算
-- H3. 采样偏差
-
-## I. 来源清单 (I. SOURCES)
-- sources.md
-- sources.json
-
-## J. 未证实/缺口 (J. UNVERIFIED / GAPS)
+## 10. 来源清单
+（见 sources.md / sources.json）

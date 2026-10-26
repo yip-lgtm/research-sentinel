@@ -870,7 +870,23 @@
       "archived": true,
       "archived_utc": "2026-10-25T23:59:47Z",
       "archived_from": "/root/.hermes/sentinel/reports/2026-10-25-23.md"
+    },
+    "2026-10-26-01": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-26_01-34-43.md",
+      "bytes": 5576,
+      "cjk": 1107,
+      "sources": 6,
+      "gate_pass": false,
+      "fails": [
+        "H1 結構: missing English heading 「Key Findings」; missing English heading 「Commentary」",
+        "H3 中文字數 1107 超過上限 1000"
+      ],
+      "warnings": [],
+      "archived_by": "finalize.py",
+      "archived": true,
+      "archived_utc": "2026-10-26T01:36:01Z",
+      "archived_from": "/root/.hermes/sentinel/reports/2026-10-26-01.md"
     }
   },
-  "updated_utc": "2026-10-25T23:59:47Z"
+  "updated_utc": "2026-10-26T01:36:01Z"
 }

@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "org": "ICBL / Cluster Munition Coalition",
+      "title": "Landmine Monitor 2025",
+      "date": "2025-12-01",
+      "url": "https://icblcmc.org/assets/reports/Landmine-Monitors/LMM2025/Downloads/Landmine-Monitor-2025-Final-Online.pdf",
+      "supports": "6,279 recorded casualties in 2024 (1,945 killed, 4,325 injured); 90% civilians; 46% children (1,701); 2,077 victim-activated improvised mines; 1,540 manufactured AP mines; underreporting of casualties; 2024 mine action funding US$1.07bn; Ukraine received $252.4m",
+      "kind": "primary"
+    },
+    {
+      "org": "Mines Advisory Group (MAG)",
+      "title": "2025 Landmine Monitor out now",
+      "date": "2025-12-01",
+      "url": "https://www.maginternational.org/whats-happening/2025-landmine-monitor-out-now/",
+      "supports": "6,279 killed or injured in 2024, highest since 2020; 17 per day, almost half children; Myanmar 2,029, Syria 1,015, Afghanistan 624, Ukraine 293; 1,114 km2 land released and 105,640 AP mines destroyed in 2024; 166 treaty members",
+      "kind": "primary"
+    },
+    {
+      "org": "The HALO Trust",
+      "title": "Landmine Monitor 2025",
+      "date": "2025-12-01",
+      "url": "https://www.halotrust.org/press-releases/landmine-monitor-2025/",
+      "supports": "Children account for nearly half of all landmine victims; global casualties at four-year high",
+      "kind": "secondary"
+    },
+    {
+      "org": "Mine Action Review",
+      "title": "Clearing the Mines 2025 (report for the 22nd Meeting of States Parties to the Anti-Personnel Mine Ban Convention)",
+      "date": "2025-11-01",
+      "url": "https://www.mineactionreview.org",
+      "supports": "175.39 km2 of AP mined area cleared globally in 2024 (vs 237.85 km2 in 2023, -26%); 131,190 AP mines destroyed in 2024 (-33%); 57 states/areas contaminated as of 1 Nov 2025; Afghanistan, Cambodia, Iraq, Ukraine massively contaminated (>100 km2)",
+      "kind": "primary"
+    },
+    {
+      "org": "Mines Advisory Group",
+      "title": "Pathways to Completion: Achieving A Common Goal Through Article 5 in Context",
+      "date": "2024-10",
+      "url": "https://www.maginternational.org",
+      "supports": "33 States completed clearance since 1997 (as at 1 Nov 2024); stages of Article 5 implementation; survey vs clearance vs land release",
+      "kind": "primary"
+    }
+  ]
+}

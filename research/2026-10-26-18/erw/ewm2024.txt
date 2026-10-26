@@ -1,0 +1,2346 @@
+          The Explosive Weapons Monitor is a civil
+          society initiative that conducts research
+          and analysis on harms from and practices
+          of explosive weapon use in populated areas
+          for the International Network on Explosive
+          Weapons (INEW).
+
+
+
+
+EXPLOSIVE
+WEAPONS
+MONITOR 2024
+2 | Explosive Weapons Monitor
+
+
+
+
+© EXPLOSIVE WEAPONS MONITOR
+MAY 2025
+This report was produced and edited by Katherine Young of
+the Explosive Weapons Monitor. Data and research were also
+contributed by Loren Persi Vicentic of the Explosive Weapons
+Monitor; Niamh Gillen of Action on Armed Violence; Christa
+Callus and Christina Wille of Insecurity Insight; the White
+Helmets; and the Armed Conflict Event & Data Project.
+The Explosive Weapons Monitor gratefully acknowledges tthe
+generous support from the governments of Austria, Norway
+and the United Kingdom. This report was produced with the
+generous support of the European Union. The views expressed
+herein should in no way be taken to reflect the official opinion
+of the European Union.
+
+
+
+
+The Explosive Weapons Monitor is a civil society initiative that
+conducts research and analysis on harms from and practices
+of explosive weapon use and monitors the universalisation and
+implementation of the Political Declaration on Strengthening
+the Protection of Civilians from the Humanitarian Consequences
+Arising from the Use of Explosive Weapons in Populated Areas.
+This research aims to:
+• Advance the global recognition and understanding of the
+  impact on civilians of the use of explosive weapons;
+• Strengthen research and monitoring on civilian harm from
+  the use of explosive weapons;
+• Promote endorsement and support implementation of the
+  Political Declaration; and                                       Cover photo:
+
+• Strengthen collaboration and information sharing between         Smoke billowing in the background after an
+  all stakeholders to the Political Declaration process of work.   Israeli strike in the north of the Gaza City
+                                                                   on 29 December 29 2024.
+WWW.EXPLOSIVEWEAPONSMONITOR.ORG                                    © Omar Al-Qattaa / AFP / STR via
+@WEAPONSMONITOR.BSKY.SOCIAL                                        Getty Images
+                                                                                                                           Explosive Weapons Monitor | 3
+
+
+
+
+TABLE OF   KEY FINDINGS.......................................................................................................................3
+
+
+CONTENTS
+           INTRODUCTION.....................................................................................................................6
+
+           HARM TO CIVILIANS AND CIVILIAN INFRASTRUCTURE FROM THE USE
+           OF EXPLOSIVE WEAPONS IN 2024
+               1 Methodology Note............................................................................................................ 7
+               2. Global Overview................................................................................................................8
+               3. Fatalities: Civilian Deaths from the Use of Explosive Weapons.................................... 11
+               4. Healthcare: Incidents of Explosive Weapons Use Affecting Civilian Access
+                  to Healthcare..................................................................................................................20
+               5.	Education: Incidents of Explosive Weapons Use Affecting Civilian Access
+                   to Education.................................................................................................................... 26
+               6.	Humanitarian Aid: Incidents of Explosive Weapons Use Affecting Civilian
+                   Access to Aid...................................................................................................................30
+               7.	Food Security: Incidents of Explosive Weapons Use Affecting Civilian
+                   Access to Food................................................................................................................ 34
+
+           USE OF EXPLOSIVE WEAPONS BY STATE ARMED FORCES AND NON-STATE
+           ARMED ACTORS
+               1. Methodology Note..........................................................................................................38
+               2.	Use of Explosive Weapons by State Armed Forces that Reportedly
+                   Caused Harm to Civilians in 2024.................................................................................. 39
+               3.	Countries and Territories where the Use of Explosive Weapons by
+                   Non-State Actors Reportedly Caused Harm to Civilians in 2024................................ 42
+
+           CONCLUSION.......................................................................................................................45
+
+           RECOMMENDATIONS......................................................................................................... 46
+
+           ANNEXES – METHODOLOGY
+               ANNEX 1 – Harm to Civilians from the Use of Explosive Weapons.................................47
+               ANNEX 2 – Use of Explosive Weapons by State and Non-State Actors..........................49
+4 | Explosive Weapons Monitor
+
+
+
+
+KEY FINDINGS                    1.	Harm to civilians and civilian infrastructure from the use of explosive weapons occurred in
+                                    at least 74 countries and territories around the world in 2024.
+                                      • Civilians in at least 74 countries and territories were affected by incidents of explosive
+                                        weapons use that caused at least one civilian death or injury or damaged or destroyed civilian
+                                        infrastructure in 2024.
+
+                                      • Civilians in 11 countries and territories were heavily impacted by the use of explosive weapons
+                                        – Democratic Republic of Congo, Ethiopia, Lebanon, Mali, Myanmar, Nigeria, Palestine, Sudan,
+                                        Syria, Ukraine and Yemen.
+
+                                      • Twenty-six countries and territories affected by the use of explosive weapons in 2024 have
+                                        endorsed the Political Declaration. Palestine was the only endorser to be heavily impacted
+                                        by the use of explosive weapons.
+
+                                2.	Civilian deaths caused by the use of explosive weapons remained alarmingly high in
+                                    Palestine and increased elsewhere across the globe in 2024.
+                                      • Civilian fatalities from explosive weapons in Palestine represented almost two-thirds of all
+                                        those reported across the globe in 2024, remaining persistently high following a year of
+                                        unprecedented civilian death and injury in 2023.
+
+                                      • In the rest of the world, civilian fatalities from explosive weapons rose by more than
+                                        half compared to the previous year, with notable increases in Lebanon, Myanmar,
+                                        Syria and Ukraine.
+
+                                      • Civilian fatalities from explosive weapons in ten additional countries contributed to the high
+                                        numbers of deaths recorded across the globe – Afghanistan, Democratic Republic of Congo,
+                                        Ethiopia, Iran, Mali, Nigeria, Pakistan, Russia, Somalia and Yemen.
+
+                                3. The use of explosive weapons in attacks on healthcare increased by 64 percent in 2024.
+                                      • At least 1,857 incidents in which explosive weapons damaged or destroyed health facilities
+                                        and ambulances or killed health workers were recorded by Insecurity Insight. The number of
+                                        attacks increased by 64 percent from 2023, in which 1,133 attacks were recorded.
+
+                                      • Attacks on healthcare with explosive weapons were recorded in 26 countries and territories
+                                        in 2024. About 90 percent of all incidents were recorded in four countries – Lebanon,
+                                        Myanmar, Palestine and Ukraine.
+
+                                4. The use of explosive weapons in attacks on education more than doubled in 2024.
+                                      • At least 861 incidents in which explosive weapons damaged or destroyed education facilities
+                                        or killed teachers or students were recorded by Insecurity Insight in 2024. The number of
+                                        attacks more than doubled from 2023, in which 415 attacks were recorded.
+
+                                      • Attacks on education with explosive weapons were recorded in 22 countries and territories in
+                                        2024. The highest numbers of incidents were recorded in Ukraine, Palestine and Myanmar.
+                                                                         Explosive Weapons Monitor | 5
+
+
+
+
+5.	The use of explosive weapons in attacks on humanitarian aid occurred nearly five times
+    more frequently in 2024.
+      • At least 1,631 incidents of explosive weapons use affecting humanitarian aid operations,
+        aid workers and camps were recorded by Insecurity Insight in 2024. Numbers of incidents
+        affecting aid operations were almost five times higher in 2024 than in 2023, in which 357
+        incidents were recorded.
+
+      • Attacks on humanitarian aid with explosive weapons were recorded in 16 countries and
+        territories in 2024. About 90 percent of all incidents were recorded in Palestine.
+
+6.	The use of explosive weapons contributed to food insecurity for civilians in at least nine
+   countries and territories in 2024.
+      • Where data was available, Insecurity Insight documented at least 300 incidents in which
+        explosive weapons affected communities’ ability to produce and access food in nine countries
+        and territories in 2024.
+
+7.	The use of explosive weapons by armed forces of 28 states caused harm to civilians and
+    civilian infrastructure in 30 countries and territories in 2024.
+      • Armed forces of 28 states reportedly used explosive weapons that caused harm to civilians
+        or civilian infrastructure in 30 countries and territories in 2024.
+
+      • There were four contexts of use in which state armed forces reportedly caused harm to
+        civilians from the use of explosive weapons in more than 1,000 incidents – Israeli armed
+        forces in Palestine, Israeli armed forces in Lebanon, Russian armed forces in Ukraine, and
+        Myanmar armed forces in Myanmar.
+
+      • The use of explosive weapons by armed forces of five states that have endorsed the Political
+        Declaration – Jordan, Somalia, Togo, Türkiye and the United States – reportedly caused harm
+        to civilians in five countries and territories – Burkina Faso, Iran, Iraq, Somalia and Syria.
+
+8.	Non-state actors used explosive weapons that caused harm to civilians and civilian
+   infrastructure in 65 countries and territories in 2024.
+      • Non-state actors reportedly used explosive weapons that caused harm to civilians or civilian
+        infrastructure in 65 countries and territories in 2024.
+
+      • Seven countries were affected by explosive weapons use by non-state armed actors that
+        reportedly caused harm to civilians in more than 100 incidents – Israel, Myanmar, Pakistan,
+        Somalia, Sudan, Syria and Yemen.
+
+9.	It remains a critical humanitarian priority to bring the 2022 Political Declaration on
+    Strengthening the Protection of Civilians from the Humanitarian Consequences of the Use
+    of Explosive Weapons in Populated Areas into effect to prevent and reduce harm to civilians.
+      • States should endorse and implement the Political Declaration to prevent and reduce harm to
+        civilians from the use of explosive weapons. Developing new policies and practices that place
+        limits on the use of explosive weapons in populated areas and facilitate assistance to conflict-
+        affected communities are crucial elements of implementation.
+6 | Explosive Weapons Monitor
+
+
+
+
+INTRODUCTION                                                                            “I did not immediately comprehend what had happened. My head was shaking, and
+                                                                                        my eyes were only seeing shadows. After a while, I saw them pulling a woman from
+                                                                                        under the rubble and brought her into our house. It was Fatima, the mother of the
+                                                                                        two killed children. She was delirious and asking, ‘Where are my children? Where are
+                                                                                        my children? I can’t hear their voices.’ She was covered in dust and covered in her
+                                                                                        own blood. It was heartbreaking.” 1
+
+                                                                           In towns and cities across the world in 2024, civilians experienced devastating levels of harm from
+                                                                           the use of explosive weapons. As civilian deaths caused by the use of explosive weapons remained
+                                                                           alarmingly high in Palestine, they increased elsewhere across the globe in 2024. More civilians were
+                                                                           impacted by impeded access to healthcare, education and humanitarian aid – across contexts such
+                                                                           as Democratic Republic of Congo, Ethiopia, Lebanon, Mali, Myanmar, Nigeria, Palestine, Sudan,
+                                                                           Syria, Ukraine and Yemen – than in 2023.
+
+                                                                                                                On 18 November 2022, 83 states endorsed the Political Declaration
+                                                                                                                on Strengthening the Protection of Civilians from the Humanitarian
+         IN TOWNS AND CITIES ACROSS THE                                                                         Consequences of the Use of Explosive Weapons in Populated Areas – the
+         WORLD IN 2024, CIVILIANS EXPERIENCED                                                                   first formal international recognition that the use of explosive weapons
+         DEVASTATING LEVELS OF HARM FROM THE                                                                    in populated areas has severe humanitarian consequences that must be
+                                                                                                                urgently addressed. To date, 87 states have endorsed the Declaration,
+         USE OF EXPLOSIVE WEAPONS. AS CIVILIAN                                                                  and in doing so have recognised the harms experienced by civilians from
+         DEATHS CAUSED BY THE USE OF EXPLOSIVE                                                                  the use of explosive weapons in populated areas and committed to work
+         WEAPONS REMAINED ALARMINGLY                                                                            to prevent and address these harms together with the United Nations
+         HIGH IN PALESTINE, THEY INCREASED                                                                      (UN), the International Committee of the Red Cross (ICRC), and civil
+                                                                                                                society, both during and after conflict.
+         ELSEWHERE ACROSS THE GLOBE IN
+         2024. MORE CIVILIANS WERE IMPACTED                                                                     This report takes stock of harm to civilians from the use of explosive
+         BY IMPEDED ACCESS TO HEALTHCARE,                                                                       weapons across the globe in 2024 and identifies state and non-state
+                                                                                                                actors reportedly responsible for this use. With this report, the
+         EDUCATION AND HUMANITARIAN AID –                                                                       Explosive Weapons Monitor continues its efforts to report on harm to
+         ACROSS CONTEXTS SUCH AS DEMOCRATIC                                                                     civilians and civilian infrastructure across a fuller spectrum of harm and
+         REPUBLIC OF CONGO, ETHIOPIA, LEBANON,                                                                  drawing on a wider range of data sources.
+         MALI, MYANMAR, NIGERIA, PALESTINE,
+         SUDAN, SYRIA, UKRAINE AND YEMEN –
+         THAN IN 2023.
+
+
+
+
+1	Amnesty International (2024). ‘Lebanon: “The Sky Rained Missiles”: Israeli airstrikes in Lebanon must be investigated as war crimes‘.
+   12 December 2024. https://www.amnesty.org/en/documents/mde18/8835/2024/en/.
+                                                                                                                                                                                Explosive Weapons Monitor | 7
+
+
+
+
+HARM TO        1. Methodology Note
+
+CIVILIANS      The Explosive Weapons Monitor reports on civilian harm from the use of explosive weapons across four
+               thematic areas using data shared by partner organisations. These include incidents in which civilian
+
+AND CIVILIAN   casualties were reported, as recorded by Action on Armed Violence (AOAV) and the Armed Conflict
+               Location & Event Data Project (ACLED), as well as incidents that affected civilian access to healthcare,
+INFRASTRUCTURE education,  and humanitarian aid, as recorded by Insecurity Insight. For a select number of countries and
+               territories for which data is available, the Explosive Weapons Monitor also reports on food insecurity, as
+FROM THE USE   recorded by Insecurity Insight.
+
+OF EXPLOSIVE   This report includes global data on civilian fatalities recorded by AOAV and ACLED. In instances involving the
+               deaths of health, education, and aid workers, data from Insecurity Insight is also included. Data on damage
+WEAPONS        and destruction of civilian infrastructure, particularly health, education and camps for internally displaced
+               persons and refugees, were also recorded by Insecurity Insight. For full methodologies, please see Annex 1.
+IN 2024        The data presented in this report do not capture every casualty or incident of explosive weapons use
+                                                                          that occurred in 2024. They also do not capture the many additional ways in which civilians are impacted
+                                                                          by the use of explosive weapons, such as displacement, psychosocial trauma and impeded economic
+                                                                          development. The impact of explosive weapons use is much greater than is presented here. Instead, this
+                                                                          report aims to identify patterns of harm from the use of explosive weapons around the globe and to
+                                                                          demonstrate a clear need to mitigate risk to civilians, take steps to prevent the harm to civilians caused
+                                                                          by the use of explosive weapons, and to provide necessary, lifesaving and longer-term assistance to
+                                                                          victims and survivors.
+
+
+      Box 1 – Reporting on explosive weapons use in populated areas
+      The Explosive Weapons Monitor defines populated areas as “any concentration of civilians, be it permanent or temporary, such as in inhabited
+      parts of cities, or inhabited towns or villages, or as in camps or columns of refugees or evacuees, or groups of nomads,” synonymous with the
+      term “concentration of civilians” which appears in existing international humanitarian law (IHL). The references to refugees, evacuees and nomads
+      and the use of the term “inhabited” suggest that the presence of civilians and civilian objects – which need not be in great numbers – is a defining
+      characteristic of populated areas.2
+      While the data presented here do not distinguish between the use of explosive weapons in populated and unpopulated areas, the indicators of
+      harm – civilian casualties, damage and destruction of civilian infrastructure, and impeded access to essential services – suggest that the majority of
+      incidents recorded by each data source above likely occurred in populated areas.
+
+
+                                                                          Identifying the numbers of civilian fatalities from explosive weapons presents numerous challenges,
+                                                                          including data availability, verification and accuracy. In conflict situations, there is often limited media
+                                                                          access and a lack of infrastructure and resources for data collection, hindering the ability to gather
+                                                                          comprehensive information. Underreporting of casualties can be due to a combination of factors, such
+                                                                          as changing media focus on conflicts and inaccessible areas. Data or reporting can be biased according
+                                                                          to specific aims, narratives or outlooks. Distinguishing civilian deaths from available information can also
+                                                                          be challenging, especially when reporting sources use unclear terminology and terms to identify civilians.
+                                                                          As such, numbers of casualties presented here are almost certainly an underrepresentation of civilian
+                                                                          casualties in 2024. Additionally, civilian casualties caused by explosive weapons may have occurred
+                                                                          in countries and territories not identified in this report.
+
+
+
+2	See Article 1(2), Protocol on Prohibitions and Restrictions on the Use of Incendiary Weapons (1980). See also ICRC (2016). ‘Explosive Weapons in Populated Areas – Factsheet’; Human Rights Watch and Harvard Law
+   School International Human Rights Clinic (2022). ‘Safeguarding Civilians: A Humanitarian Interpretation of the Political Declaration on the Use of Explosive Weapons in Populated Areas’, pp.8-9.
+8 | Explosive Weapons Monitor
+
+
+
+
+                                                                              2. Global Overview
+                                                                              Harm to civilians and civilian infrastructure from the use of explosive weapons occurred in at
+                                                                              least 74 countries and territories in 2024 (see Figure 1). This harm occurred in incidents that
+                                                                              caused civilian death or injury, or affected access to healthcare, education, humanitarian aid or
+                                                                              food security, including the damage and destruction of the civilian infrastructure necessary to
+                                                                              deliver these essential services.
+
+                                                                              Of these 74 affected countries and territories, 26 have endorsed the Political Declaration:
+
+                                                                                       • Brazil, Central African Republic, Colombia, Côte d’Ivoire, Croatia, Cyprus, Ecuador,
+                                                                                         Germany, Greece, Guatemala, Italy, Jordan, Kenya, Kosovo, Madagascar, Mexico,
+                                                                                         Montenegro, Morocco, Palestine, Peru, Philippines, Somalia, Thailand, Togo, Türkiye
+                                                                                         and United States
+
+                                                                              Civilians in 11 countries and territories were heavily impacted by the use of explosive weapons,
+                                                                              as they experienced harm across all reported areas in which global data was available:3
+
+                                                                                       • Democratic Republic of Congo, Ethiopia, Lebanon, Mali, Myanmar, Nigeria, Palestine,
+                                                                                         Sudan, Syria, Ukraine and Yemen
+
+
+Figure 1 – Countries and territories in which civilians were affected by the use of explosive weapons in 2024
+
+
+
+
+                Guatemala
+
+
+
+
+        Affected countries and territories
+
+
+
+
+3	This includes incidents that caused civilian death or injury, or affected access to healthcare, education, or humanitarian aid. Incidents affecting food security are also an indicator of harm to civilians and civilian
+   infrastructure, though at present this data is not recorded for all countries and territories across the globe by Insecurity Insight.
+                                                                                                                                                                                   Explosive Weapons Monitor | 9
+
+
+
+
+Figure 2 – Areas of harm in countries and territories in which civilians were affected by the use of explosive weapons in 20244
+
+
+  Country                                                                                                           Country
+
+  Afghanistan                                                                                                       Cyprus
+
+  Albania                                                                                                           Democratic Republic
+                                                                                                                    of Congo
+  Algeria
+                                                                                                                    Denmark
+  Argentina
+                                                                                                                    Ecuador
+  Armenia
+                                                                                                                    Egypt
+  Azerbaijan
+                                                                                                                    Ethiopia
+  Bangladesh
+                                                                                                                    Germany
+  Benin
+                                                                                                                    Greece
+  Brazil
+                                                                                                                    Guatemala
+  Burkina Faso
+                                                                                                                    Haiti
+  Burundi
+                                                                                                                    India
+  Cameroon
+                                                                                                                    Iran
+  Central African Republic
+                                                                                                                    Iraq
+  Chad
+                                                                                                                    Ireland
+  Chile
+                                                                                                                    Israel
+  China
+                                                                                                                    Italy
+  Colombia
+                                                                                                                    Jordan
+  Congo
+                                                                                                                    Kazakhstan
+  Côte d'Ivoire
+                                                                                                                    Kenya
+  Croatia
+
+
+
+
+        Casualties                 Healthcare                  Aid access                    Education                       Food Security
+
+
+
+4	Insecurity Insight monitored incidents of explosive weapons use that affected food security in nine countries and territories in 2024. As a result, the absence of data does not imply that civilians in other countries and
+   territories were not impacted in this way in 2024.
+10 | Explosive Weapons Monitor
+
+
+
+
+Figure 2 – Areas of harm in countries and territories in which civilians were affected by the use of explosive weapons in 2024 (continued)
+
+
+ Country                                                                    Country
+
+ Kosovo                                                                     Philippines
+
+ Lebanon                                                                    Russia
+
+ Libya                                                                      Somalia
+
+ Madagascar                                                                 South Africa
+
+ Mali                                                                       South Sudan
+
+ Mauritania                                                                 Sri Lanka
+
+ Mexico                                                                     Sudan
+
+ Montenegro                                                                 Syria
+
+ Morocco                                                                    Thailand
+
+ Mozambique                                                                 Togo
+
+ Myanmar                                                                    Tunisia
+
+ Namibia                                                                    Turkey
+
+ Nepal                                                                      Uganda
+
+ Niger                                                                      Ukraine
+
+ Nigeria                                                                    United States
+
+ Pakistan                                                                   Venezuela
+
+ Palestine                                                                  Yemen
+
+ Peru
+
+
+
+
+        Casualties     Healthcare        Aid access         Education               Food Security
+                                                                                                                                                                                         Explosive Weapons Monitor | 11
+
+
+
+
+                                                                              3.	Fatalities: Civilian Deaths from the Use of Explosive Weapons
+                                                                              Civilian deaths from the use of explosive weapons remained alarmingly high in Palestine in 2024,
+                                                                              following a year with unprecedented civilian death and injury in 2023. This was due primarily to
+                                                                              the use of explosive weapons by Israeli armed forces during military operations in Gaza that began
+                                                                              in October 2023 and continued throughout 2024.
+
+                                                                              Global civilian deaths in all affected countries and territories - excluding Palestine - increased by
+                                                                              more than half in 2024 compared to 2023, most notably in Lebanon, Myanmar, Syria and Ukraine.5
+                                                                              The use of explosive weapons by Israeli armed forces in Lebanon was a key driver of this increase,
+                                                                              as well as the continued use of explosive weapons by Russian armed forces in Ukraine and both
+                                                                              state and non-state armed actors in Myanmar and Sudan (see Figure 3).
+
+
+Figure 3 – Global civilian fatalities from the use of explosive weapons recorded by AOAV and ACLED in 2023 and 2024
+
+12000
+
+10000
+
+ 8000
+
+ 6000
+
+ 4000
+
+ 2000
+
+       0
+              Jan 23
+                       Feb 23
+                                Mar 23
+                                         Apr 23
+                                                  May 23
+                                                           Jun 23
+                                                                    Jul 23
+                                                                             Aug 23
+                                                                                      Sep 23
+                                                                                               Oct 23
+                                                                                                        Nov 23
+                                                                                                                 Dec 23
+                                                                                                                          Jan 24
+                                                                                                                                   Feb 24
+                                                                                                                                            Mar 24
+                                                                                                                                                     Apr 24
+                                                                                                                                                              May 24
+                                                                                                                                                                       Jun 24
+                                                                                                                                                                                Jul 24
+                                                                                                                                                                                         Aug 24
+                                                                                                                                                                                                  Sep 24
+                                                                                                                                                                                                           Oct 24
+                                                                                                                                                                                                                    Nov 24
+                                                                                                                                                                                                                             Dec 24
+
+
+                                                                                                        AOAV                        ACLED
+
+
+
+                                                                              3.1. Civilian fatalities in Palestine
+                                                                              Identifying numbers of civilian casualties, either from the use of explosive weapons or in conflict
+                                                                              more broadly, presents numerous challenges, especially in areas affected by high levels of conflict
+                                                                              (for more information, see the methodology note in section 1). While these challenges almost
+                                                                              certainly result in under-reporting of civilian fatalities across the globe, they have been especially
+                                                                              compounded by the pace and intensity of conflict in Gaza.
+
+
+
+
+5	Excluding Palestine, in all other countries and territories across the world in 2024, ACLED recorded a 58 percent increase in civilian fatalities compared to 2023, and AOAV recorded a 63 percent increase in the same
+   time period.
+12 | Explosive Weapons Monitor
+
+
+
+
+                                                                          3.1.1. Background on data sources
+                                                                          The intensity of the conflict in Gaza since October 2023, and the challenges faced by journalists
+                                                                          and humanitarian operators seeking to report on civilian harm from within Gaza, have made
+                                                                          it difficult for data collection organisations relying on incident- or event-based reporting
+                                                                          on civilian casualties to keep up with the pace of the conflict in real time. Instead, real-time
+                                                                          figures used by international organisations such as the United Nations, media sources, and
+                                                                          non-governmental organisations often rely on the casualty figures reported regularly by
+                                                                          the Palestinian Ministry of Health (MoH) in Gaza. As with many health organisations, these
+                                                                          numbers do not distinguish between civilians and armed actors or specify if the cause of death
+                                                                          is due to the use of explosive weapons.6
+                                                                          A number of organisations have been working on in-depth, incident-based recording of
+                                                                          civilian casualties in Gaza, including local organisation Al Mezan and civilian casualty recording
+                                                                          organisation Airwars. These organisations undergo a process of investigating, documenting and
+                                                                          verifying information from civilian casualty incidents. The data sources used here, ACLED and
+                                                                          AOAV, collect reported information on incidents or events. AOAV relies on English-language
+                                                                          media sources and data therefore reflects the aggregate casualty estimate provided by English-
+                                                                          language reporting for a given incident. ACLED uses a combination of traditional media sources
+                                                                          in numerous languages, reports from international and non-governmental organisations, local
+                                                                          partner data, and targeted and verified ‘new media’ (or social media) sources.
+
+                                                                          3.1.2. Aggregated casualty data
+                                                                          ACLED compared MoH fatality figures with its own data collected for Gaza in October 2023
+                                                                          and, as a result, estimated that only half of all reported fatalities had been recorded by ACLED
+                                                                          in relevant events. Though ACLED noted that sources other than the MoH reporting fatality
+                                                                          figures in Gaza became gradually more comprehensive throughout 2024, it was not until May
+                                                                          2024 that it found its own fatality counts, based on its standard methodology, began to align
+                                                                          with or exceed data released by the MoH.7
+                                                                          AOAV data on civilian fatalities from the use of explosive weapons in Gaza from October 2023
+                                                                          – May 2024 reflects the same challenges noted by ACLED (see Figure 4).8 In October 2023,
+                                                                          AOAV estimated that English-language media sources were only capturing around a third of
+                                                                          civilian deaths in Gaza, noting also that the situation on the ground in both Gaza and the West
+                                                                          Bank resulted in media reports that did not include specific casualty tolls or locations, both
+                                                                          requirements for AOAV’s methodology for recording casualty data.9
+
+
+
+
+6	Debre, I. (2023). ‘What is Gaza’s Ministry of Health and how does it calculate the war’s death toll?’. AP News. 6 November 2023. https://apnews.com/article/israel-hamas-war-gaza-health-ministry-health-death-toll-
+   59470820308b31f1faf73c703400b033; see also the https://www.thelancet.com/action/showPdf?pii=S0140-6736%2824%2902678-3.
+7	ACLED (2024). ‘Coding of fatalities in Gaza since 7 October 2023’. Last updated 30 September 2024. https://acleddata.com/knowledge-base/coding-of-fatalities-in-gaza-since-7-october-2023/. For information on
+   sourcing, see also ACLED (2024). ‘Sourcing: Reliability, quality control, and accounting for bias’. 20 September 2024. https://acleddata.com/knowledge-base/faqs-acled-sourcing-methodology/.
+8	Monthly civilian fatality numbers reported by the MoH were collected from the Occupied Palestinian Territories Country Dashboard updated by the Global Health Cluster of the World Health Organization. It can be
+   accessed at: https://healthcluster.who.int/countries-and-regions/occupied-palestinian-territory/
+9	AOAV (2023). ‘Media coverage of individual Gaza strikes only capturing one third of all deaths, AOAV finds’. 31 October 2023. https://aoav.org.uk/2023/only-a-third-of-casualties-following-specific-reported-incidents-
+   of-explosive-violence-in-gaza-are-being-captured-by-english-language-media-aoav-finds/#:~:text=An%20analysis%20of%20English%20language,tolls%20claimed%20by%20official%20sources.
+                                                                                                                                                                                 Explosive Weapons Monitor | 13
+
+
+
+
+Figure 4 – Fatalities reported by AOAV, ACLED and the MoH from October 2023 through December 202410
+
+10000
+
+ 9000
+
+ 8000
+
+ 7000
+
+ 6000
+
+ 5000
+
+ 4000
+
+ 3000
+
+ 2000
+
+ 1000
+
+       0
+                Oct 23
+
+
+                              Nov 23
+
+
+                                            Dec 23
+
+
+                                                         Jan 24
+
+
+                                                                       Feb 24
+
+
+                                                                                     Mar 24
+
+
+                                                                                                     Apr 24
+
+
+                                                                                                                May 24
+
+
+                                                                                                                              Jun 24
+
+
+                                                                                                                                            Jul 24
+
+
+                                                                                                                                                         Aug 24
+
+
+                                                                                                                                                                       Sep 24
+
+
+                                                                                                                                                                                     Oct 24
+
+
+                                                                                                                                                                                                   Nov 24
+
+
+                                                                                                                                                                                                                Dec 24
+                                                                                              AOAV            ACLED                GAZA MOH
+
+
+
+                                                                           To avoid this significant undercount of fatalities in Gaza since October 2023, ACLED adopted
+                                                                           a methodology through which it incorporates MoH-reported fatalities into its dataset, along
+                                                                           with reports from the Israeli Defense Forces (IDF) to account for armed-actor fatalities.
+                                                                           As above, contributions from both these sources have become less significant over time.11
+                                                                           AOAV’s methodology remained consistent throughout 2023 and 2024, indicating that civilian
+                                                                           fatality numbers in English-language media sources also continued to underrepresent the
+                                                                           scope of civilian deaths from the use of explosive weapons until media reporting became
+                                                                           increasingly comprehensive in mid-2024.
+
+
+
+
+10	While figures here from AOAV and ACLED represent civilian fatalities from the use of explosive weapons, data reported by the MoH does not distinguish between civilians and armed actors and includes all deaths and
+    injuries of Palestinians recorded by hospitals throughout Gaza, not only those casualties caused by explosive weapons.
+11	For more detailed information on this methodology, and for noted limitations and biases associated with ACLED’s fatality figures in Gaza, see ACLED (2024). ‘Coding of fatalities in Gaza since 7 October 2023’. Last
+    updated 30 September 2024. https://acleddata.com/knowledge-base/coding-of-fatalities-in-gaza-since-7-october-2023/.
+14 | Explosive Weapons Monitor
+
+
+
+
+      Box 2 – Estimating direct and indirect fatalities in Gaza
+      An analysis by epidemiologists at the London School of Hygiene and Tropical Medicine, published in the Lancet, found that direct deaths and
+      injuries during the first nine months of conflict in Gaza may have been underreported by the Gaza MoH by at least 40 percent. As is the case in
+      areas of prolonged conflict throughout the world where casualty tracking faces additional challenges, the MoH likely turned to less structured
+      data collection efforts when hospitals were under siege or without telecommunications capacities during escalating attacks. Researchers used a
+      capture-recapture method – analysing overlaps between independent data sources to estimate mortality where no single source is complete – to
+      estimate total direct deaths in the Gaza Strip using official hospital lists, an MoH survey, and social media obituaries. The study found that deaths
+      from traumatic injury, or direct deaths, between 7 October and 30 June 2024 were estimated to be more than 64,000, about 40 percent higher
+      than the over 41,900 deaths reported by the MoH at that time.12
+
+      Indirect deaths, which include deaths that result from a loss of access to essential goods and services in conflict, are even more challenging to
+      record and estimate, as civilian harm continues beyond direct attacks, resulting in death and injury months and years later.13 Another analysis
+      published in the Lancet, which estimates that in recent conflicts such indirect deaths range from three to 15 times the number of direct deaths,
+      applied this estimate to conflict in Gaza through June 2024. Researchers estimated that up to 186,000 or more additional indirect deaths could be
+      attributable to the conflict in Gaza, applying an estimate of four indirect deaths per one direct death to the 37,396 deaths reported by the MoH
+      at the time, representing nearly 8 percent of the total population of the Gaza Strip.14
+
+
+
+                                                                            ACLED data on civilian fatalities included in this report incorporates only data that is relevant to
+                                                                            explosive weapons, including air/drone strikes, suicide bombs, shelling/artillery/missile attacks,
+                                                                            remote explosives/landmines/IEDs, and grenades. Conflict in Gaza has been marked by frequent
+                                                                            use of air- and ground-launched explosive weapons by Israeli armed forces and Palestinian
+                                                                            armed groups, and it is therefore likely that most but not all casualties reported by the MoH
+                                                                            occurred as a result of the use of explosive weapons.
+                                                                            Differences in reporting between ACLED and AOAV further highlight the challenges in producing
+                                                                            real-time casualty estimates. As such, figures in this report should be taken as indications of
+                                                                            patterns of harm to civilians rather than final or comprehensive casualty estimates.
+
+                                                                            3.1.3. Analysis
+                                                                            In 2024, civilian fatalities in Palestine from the use of explosive weapons (including those
+                                                                            reportedly occurring in both Gaza and the West Bank) represented over 60 percent of all civilian
+                                                                            deaths from explosive weapons recorded across the globe by ACLED. Similarly, in 2023, civilian
+                                                                            fatalities in Palestine represented over 70 percent of all civilian deaths recorded in all countries
+                                                                            and territories across the world (see Figure 5).
+
+
+
+
+12	Jamaluddine, Z., Abukmail, H., et. al. (2025). ‘Traumatic injury mortality in the Gaza Strip from Oct 7, 2023, to June 30, 2024: a capture-recapture analysis’. Lancet 2025; 405: 469-77.
+    https://www.thelancet.com/action/showPdf?pii=S0140-6736%2824%2902678-3.
+13	See Morais, B. and Young, K. (2024). ‘Understanding Civilian Harm from the Indirect or Reverberating Effects of the Use of Explosive Weapons in Populated Areas: Strengthening Data Collection to Implement the
+    Political Declaration’. UNIDIR and Explosive Weapons Monitor. https://explosiveweaponsmonitor.org/reports/4/understanding-civilian-harm-from-the-indirect-or-reverberating-effects-of-the-use-of-explosive-
+    weapons-in-populated-areas-strengthening-data-collection-to-implement-the-political-declaration/.
+14    Khatib, R., McKee, M., et. al. (2024). ‘Counting the dead in Gaza: difficult but essential.’ Lancet 2024: 404: 237-238. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01169-3/fulltext.
+                                                                                                                               Explosive Weapons Monitor | 15
+
+
+
+
+        Figure 5 – Civilian fatalities from the use of explosive weapons recorded by ACLED in Palestine and outside of Palestine in 2023 and 2024
+
+
+
+
+2024                                           19561                                                                     12292
+
+
+
+
+2023                                                    20858                                                                     7778
+
+
+
+       0%          10%           20%           30%            40%            50%            60%           70%            80%             90%          100%
+
+                                                       Palestine          All other countries and territories
+
+
+
+
+                                                     Civilian deaths in Palestine from the use of explosive weapons in 2024 remained alarmingly high
+                                                     following an unprecedented year of civilian death and injury in 2023. While the MoH reported
+                                                     an increase in fatalities in Palestine in 2024 (about 8 percent), numbers of civilian fatalities
+                                                     from explosive weapons recorded by ACLED in 2024 decreased slightly (about 6 percent). (Due
+                                                     to the period of underreporting, AOAV shows a 45 percent increase in civilian casualties from
+                                                     explosive weapons in Palestine from 2023 to 2024.)
+                                                     It took 12 months in 2024 for the number of civilian fatalities from explosive weapons to reach
+                                                     a similar level as the last three months of 2023, highlighting the intensity of the first three
+                                                     months of conflict in Gaza from October – December 2023, as well as the unprecedented
+                                                     civilian harm caused by the use of explosive weapons by Israeli armed forces in Gaza during
+                                                     those three months.
+                                                     Civilian harm in Palestine nonetheless increased in 2024, as the indirect or reverberating effects
+                                                     on civilians from prolonged conflict use of explosive weapons in conflict damaged and destroyed
+                                                     civilian infrastructure and impeded access to essential services. This is further explored below.
+
+                                                     3.2. Civilian fatalities from the use of explosive weapons across the globe
+                                                     Global civilian deaths in all affected countries and territories other than Palestine increased by
+                                                     more than half in 2024 compared to 2023 (see Figure 6). ACLED recorded a 58 percent increase
+                                                     in civilian fatalities compared to 2023, and AOAV recorded a 63 percent increase in the same
+                                                     time period.
+16 | Explosive Weapons Monitor
+
+
+
+
+Figure 6 – Civilian fatalities from the use of explosive weapons in affected countries other than Palestine in 2023 and 2024
+2000
+1800
+1600
+1400
+1200
+1000
+ 800
+ 600
+ 400
+ 200
+   0
+          Jan 23
+                   Feb 23
+                            Mar 23
+                                     Apr 23
+                                              May 23
+                                                       Jun 23
+                                                                Jul 23
+                                                                         Aug 23
+                                                                                   Sep 23
+                                                                                            Oct 23
+                                                                                                     Nov 23
+                                                                                                              Dec 23
+                                                                                                                       Jan 24
+                                                                                                                                Feb 24
+                                                                                                                                         Mar 24
+                                                                                                                                                  Apr 24
+                                                                                                                                                           May 24
+                                                                                                                                                                    Jun 24
+                                                                                                                                                                             Jul 24
+                                                                                                                                                                                      Aug 24
+                                                                                                                                                                                               Sep 24
+                                                                                                                                                                                                        Oct 24
+                                                                                                                                                                                                                 Nov 24
+                                                                                                                                                                                                                          Dec 24
+                                                                                                      AOAV                       ACLED
+
+Figure 7 – Annual increases in civilian fatalities reported by both ACLED and AOAV in 2023 and 2024
+
+                                       ACLED FATALITIES                                                                                                        AOAV FATALITIES
+ Country                    2023                       2024                       Increase                             Country                     2023                      2024                       Increase
+ Lebanon                    30                         2910                       2880                                 Lebanon                     44                        2168                       2124
+ Myanmar                    1109                       2372                       1263                                 Myanmar                     745                       1494                       749
+ Sudan                      1211                       2160                       949                                  Sudan                       1226                      2018                       792
+ Syria                      609                        727                        118                                  Syria                       523                       781                        258
+ Ukraine                    1639                       1742                       103                                  Ukraine                     1778                      2027                       249
+
+Figure 8 – Additional countries and territories that experienced high numbers of civilian fatalities reported by ACLED and AOAV in 2024
+
+                                       ACLED FATALITIES                                                                                                        AOAV FATALITIES
+ Country                                                                          Fatalities                           Country                                                                          Fatalities
+ Afghanistan                                                                      53                                   Afghanistan                                                                      128
+ Democratic Republic of Congo                                                     165                                  Democratic Republic of Congo                                                     44
+ Ethiopia                                                                         303                                  Ethiopia                                                                         44
+ Iran                                                                             124                                  Iran                                                                             114
+ Mali                                                                             287                                  Mali                                                                             21
+ Nigeria                                                                          179                                  Nigeria                                                                          200
+ Pakistan                                                                         187                                  Pakistan                                                                         210
+ Russia                                                                           325                                  Russia                                                                           192
+ Somalia                                                                          155                                  Somalia                                                                          137
+ Yemen                                                                            158                                  Yemen                                                                            96
+                                                                                                                                                                                       Explosive Weapons Monitor | 17
+
+
+
+
+                                                                             Civilian fatalities most notably increased in:15
+
+                                                                                      • Lebanon, Myanmar, Sudan, Syria and Ukraine
+
+                                                                             The use of explosive weapons by Israeli armed forces in Lebanon was a key driver of this increase, as
+                                                                             well as continued use of explosive weapons by Russian armed forces in Ukraine and both state and
+                                                                             non-state armed actors in Myanmar and Sudan (see Figure 7).
+
+                                                                             Other countries and territories experienced high levels of civilian fatalities, with at least 100 civilian
+                                                                             fatalities reported by either ACLED, AOAV, or both in (see also Figure 8):
+
+                                                                                      • Afghanistan, Democratic Republic of Congo, Ethiopia, Iran, Mali, Nigeria, Pakistan, Russia,
+                                                                                        Somalia, and Yemen
+
+                                                                             3.3. Civilian fatalities by weapons categories
+                                                                             In data recorded by both ACLED and AOAV, the majority of civilian deaths in 2024 were the result
+                                                                             of the use of air-launched explosive weapons (78 percent and 65 percent, respectively). This includes
+                                                                             any weapon fired or dropped from a rotary of fixed-wing aircraft, while also including unmanned
+                                                                             aerial vehicles or drones. These include air-dropped bombs (bombs reported as being delivered by
+                                                                             air), airstrikes (attacks from a helicopter, drone, or plane), and missiles or rockets launched from an
+                                                                             aircraft, while also including attacks by drones that themselves contain an explosive charge, as in the
+                                                                             case of loitering munitions.
+
+                                                                             About 16 percent (ACLED) and 18 percent (AOAV) of civilian fatalities in 2024 were the result of
+                                                                             ground-launched explosive weapons. This includes munitions launched from any surface-level platform,
+                                                                             including weapons thrown by a person, or fired from warships or vehicles. These include artillery
+                                                                             shells (projectiles fired from a gun, cannon, howitzer, or recoilless rifle), tank shells, ground-launched
+                                                                             missiles, mortars, rockets (typically missiles which do not contain guidance systems), non-specific
+                                                                             shelling, rocket-propelled grenades, and hand grenades.
+
+                                                                             About 6 percent (ACLED) and 4 percent (AOAV of civilian fatalities in 2024 were the result of directly-
+                                                                             emplaced explosive weapons, which encompass weapons that are physically placed in the location at
+                                                                             which they detonate. These include anti-personnel mines, anti-vehicle mines, landmines, non-specific
+                                                                             IEDs (including so-called ‘suicide vests’), car bombs and roadside bombs.
+
+
+                                                                             Figure 10 – Civilian fatalities recorded by ACLED by weapons categories in 2024
+
+
+                                                                                                 6%
+                                                                                    16%
+                                                                                                                                                      Air-launched
+
+                                                                                                                                                      Ground-launched
+
+                                                                                                                                                      Directly-emplaced
+                                                                                                                78%
+
+
+
+
+15   At least one data source recorded at least 500 civilian fatalities in these countries and territories, and both data sources reported that civilian fatalities had increased since 2023.
+18 | Explosive Weapons Monitor
+
+
+
+
+      Box 3 – Civilian fatalities in Lebanon in September 2024
+      Since 7 October 2023, the use of air- and ground-launched explosive weapons by Israeli
+      armed forces in densely populated areas in Lebanon, in response to rocket fire from
+      Hezbollah and other armed groups, has caused civilian death and injury, damaged critical
+      civilian infrastructure, forced waves of displacement and impeded access to essential services.
+      Extensive airstrikes carried out by Israeli armed forces since conflict escalated on
+      23 September 2024 have been particularly devastating for civilians in Lebanon. As a result
+      of these airstrikes, 558 people were killed in one day, a death toll that took 18 days to
+      reach in Gaza when conflict began on 7 October 2023,16 marking the deadliest day for
+      civilians from the use of explosive weapons in 2024. Of those who were killed, 50 were
+      children and 94 were women, according to the Lebanese Ministry of Public Health. These
+      strikes also damaged hospitals, medical centers and ambulances, and ultimately displaced
+      tens of thousands of people, according to the United Nations High Commissioner for
+      Refugees (UNHCR).17
+      While the majority of Israeli airstrikes occurred in southern Lebanon, where about a million
+      people lived before conflict escalated in October 2023, some strikes hit close to central Beirut
+      and in the city’s suburbs, heavily populated areas with hundreds of thousands of civilians.18
+      In northern Lebanon, where villages accommodated those displaced from southern Lebanon
+      and elsewhere, Israeli armed forces also conducted airstrikes. In the village of Aitou, for
+      example, a strike in October 2024 on a house rented to people fleeing conflict in southern
+      Lebanon killed 23 civilians, including a five-month-old infant.19
+      Between 22 and 25 September, Hezbollah reportedly launched more than 200 rockets,
+      cruise missiles and drones into towns in northern Israel, injuring six people. In one incident
+      on 22 September, a Hezbollah rocket struck a residential neighbourhood near Haifa while
+      targeting an Israeli military base and weapons manufacturing location.20
+      In the weeks that followed the escalation of Israeli airstrikes at the end of September
+      2024, more than one million people were displaced in the largest wave of displacement
+      in Lebanon in decades. According to the United Nations Office for the Coordination
+      of Humanitarian Affairs (UNOCHA), entire communities were uprooted, civilian
+      infrastructure was heavily damaged or destroyed, and the displacement situation
+      escalated so rapidly that accurate reporting became challenging.21
+
+
+
+
+16	Kingsley, P. and Ward, E. (2024). ‘Israel’s Strikes on Lebanon Are Some of the Deadliest in Decades’. New York Times. 24 September 2024.
+    https://www.nytimes.com/2024/09/24/world/middleeast/israel-lebanon-strikes-deaths.html.
+17	L’Orient Today (2024). ‘Tens of thousands of people fled southern Lebanon and Bekaa since Monday: UN’. 24 September 2024.
+    https://today.lorientlejour.com/article/1428346/tens-of-thousands-of-people-fled-southern-lebanon-and-bekaa-since-monday-un.html.
+18	BBC News (2024). ‘Israel-Hezbollah conflict in maps: Ceasefire in effect in Lebanon’. 27 November 2024.
+    https://www.bbc.com/news/articles/c9vp7dg3ml1o.
+19	Amnesty International (2024). ‘Lebanon: “The Sky Rained Missiles”: Israeli airstrikes in Lebanon must be investigated as war crimes‘.
+    12 December 2024. https://www.amnesty.org/en/documents/mde18/8835/2024/en/.
+20	Varghese, S. and Browne, M. (2024). ‘Videos Show Hezbollah Missile Hit Residential Area in Northern Israel’. New York Times. 23 September
+    2024. https://www.nytimes.com/2024/09/22/world/middleeast/hezbollah-kiryat-bialik-israel-videos.html, and Human Rights Watch (2024).
+    ‘Lebanon: Israeli Strikes Kill Hundreds as Hostilities Escalate’. 25 September 2024. https://www.hrw.org/news/2024/09/25/lebanon-israeli-
+    strikes-kill-hundreds-hostilities-escalate.
+21	UNOCHA (2024). ‘Lebanon: Flash Update #31 - Escalation of hostilities in Lebanon, as of 1 October 2024’. 1 October 2024.
+    https://reliefweb.int/report/lebanon/lebanon-flash-update-31-escalation-hostilities-lebanon-1-october-2024-1000-pm.
+                                        Explosive Weapons Monitor | 19
+
+
+
+
+Rubble of the Melkite Greek Catholic church that was hit by an Israeli
+airstrike in Derdghaya, Lebanon, on 9 October 2024.
+© Marwan Naamani / DPA via Getty Images
+20 | Explosive Weapons Monitor
+
+
+
+
+                                                 4.	Healthcare: Incidents of Explosive Weapons Use Affecting
+                                                     Civilian Access to Healthcare
+                                                 Insecurity Insight recorded at least 1,857 incidents of attacks in which explosive weapons
+                                                 damaged or destroyed health facilities or killed health workers in 25 countries and territories
+                                                 in 2024. The number of attacks increased by 64 percent from 2023, in which 1,133 incidents
+                                                 of attacks occurred.
+
+
+Figure 10 – Incidents of explosive weapons use affecting healthcare reported by Insecurity Insight in 2024
+
+
+ Country or territory      Number of healthcare incidents in 2024             Country or territory       Number of healthcare incidents in 2024
+
+ Afghanistan               1                                                  Mali                       2
+
+ Burkina Faso              2                                                  Mexico                     1
+
+ Cameroon                  1                                                  Myanmar                    130
+
+ Colombia                  2                                                  Niger                      1
+
+ Cyprus                    1                                                  Nigeria                    1
+
+ Democratic Republic                                                          Palestine                  566
+                           4
+ of Congo
+                                                                              Pakistan                   8
+ Ethiopia                  7
+                                                                              Russia                     5
+ India                     3
+                                                                              Somalia                    1
+ Iran                      1
+                                                                              Sudan                      84
+ Israel                    11
+                                                                              Syria                      40
+ Kenya                     1
+                                                                              Ukraine                    506
+ Lebanon                   477
+                                                                              Yemen                      1
+                                                                                                                                                                                  Explosive Weapons Monitor | 21
+
+
+
+
+Figure 11 – Attacks on healthcare with explosive weapons reported by Insecurity Insight by month in 2023 and 2024
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+ 50
+
+  0
+       Jan 23
+                Feb 23
+                         Mar 23
+                                  Apr 23
+                                           May 23
+                                                    Jun 23
+                                                             Jul 23
+                                                                      Aug 23
+                                                                               Sep 23
+                                                                                        Oct 23
+                                                                                                 Nov 23
+                                                                                                          Dec 23
+                                                                                                                   Jan 24
+                                                                                                                            Feb 24
+                                                                                                                                     Mar 24
+                                                                                                                                              Apr 24
+                                                                                                                                                       May 24
+                                                                                                                                                                Jun 24
+                                                                                                                                                                         Jul 24
+                                                                                                                                                                                  Aug 24
+                                                                                                                                                                                           Sep 24
+                                                                                                                                                                                                    Oct 24
+                                                                                                                                                                                                             Nov 24
+                                                                                                                                                                                                                      Dec 24
+                                                                          In 2024, incidents of explosive weapons use affecting healthcare continued to increase, with 90
+                                                                          percent of incidents reported in just four countries:
+
+                                                                                   • Lebanon, Myanmar, Palestine and Ukraine
+
+                                                                          In Ukraine, incidents involving explosive weapons which affected healthcare almost doubled in
+                                                                          2024 compared to the previous year. About 95 percent of these incidents resulted from attacks
+                                                                          reportedly carried out by Russian forces who used air- and drone-dropped, as well as ground-
+                                                                          launched explosive weapons, that damaged and destroyed health facilities and ambulances.
+
+                                                                          In Syria, there was an increase in reported incidents affecting healthcare in 2024, primarily due to
+                                                                          an escalation in conflict in December 2024 following a surprise military offensive by Hayat Tahrir
+                                                                          Al-Sham (HTS), which led to increased air-launched explosives by Syrian and Russian forces in
+                                                                          Aleppo and Idlib governorates.
+
+                                                                          4.1. Attacks on health facilities
+                                                                          In 2024, attacks on health facilities with explosive weapons increased by 88 percent compared
+                                                                          to the previous year. Health centres, hospitals, children’s hospitals, pharmacies and mobile health
+                                                                          units were all affected by explosive weapons that directly hit the facilities, damaging or destroying
+                                                                          its infrastructure and killing and injuring health workers and patients. In some instances, explosive
+                                                                          weapons used in the vicinity of the facilities also caused damage and destruction.
+
+                                                                          4.2. Attacks on ambulances
+                                                                          Attacks on ambulances with explosive weapons also continued to increase in 2024 compared to
+                                                                          the previous year. More than half, about 57 percent, of these incidents were reported in Lebanon
+                                                                          mainly between September and October 2024 where, on average, 12 ambulances were hit every
+                                                                          week. Incidents were also reported in Israel, Kenya, Myanmar, Palestine, Pakistan, Russia, Sudan,
+                                                                          Syria and Ukraine.
+22 | Explosive Weapons Monitor
+
+
+
+
+                                                       4.3. Health workers killed
+                                                       In 2024, the number of health workers killed by explosive weapons almost doubled.
+                                                       Incidents were reported in:
+
+                                                             • Ethiopia, India, Iran, Lebanon, Mali, Myanmar, Palestine, Russia, Sudan, Syria
+                                                               and Ukraine
+
+                                                       In these countries and territories, health workers were killed inside health facilities,
+                                                       while travelling in ambulances and whilst assisting wounded individuals. Health workers
+                                                       were also killed inside their homes, sometimes alongside their families.
+
+                                                       About 84 percent of health worker deaths were linked to explosive weapons used by
+                                                       Israeli armed forces in Lebanon and Palestine where, on average, 46 health workers were
+                                                       killed every month from the use of explosive weapons. Additionally, the number of health
+                                                       workers killed by explosives weapons in Myanmar increased from four in 2023 to 10 in
+                                                       2024. These incidents were linked to explosive weapons use by the Myanmar Armed
+                                                       Forces as well as to the People’s Defence Forces and various ethnic armed groups.
+
+
+
+
+                                               Figure 12 – Attacks on healthcare with explosive weapons in 2024
+
+
+                      1143                                                    270                                                  662
+
+       Incidents affecting health facilities                    Incidents affecting ambulances                      Incidents affecting health workers
+                                                             Explosive Weapons Monitor | 23
+
+
+
+
+An official from the Kanyabayonga town hall displays
+shrapnel from an artillery projectile that fell around the
+town, in southern Lubero territory, eastern Democratic
+Republic of Congo, on 4 May 2024.
+© Alexis Huguet / AFP via Getty Images
+24 | Explosive Weapons Monitor
+
+
+
+
+      Box 4 - Attacks on healthcare in Ukraine and their reverberating effects
+      Since Russia launched its full-scale invasion of Ukraine on 24 February 2022, the use of explosive weapons has featured prominently throughout
+      the conflict, with use by Russian armed forces largely responsible for the devastating impacts the conflict has had on Ukrainian civilians. This
+      includes the deployment of airstrikes, MLRS Grad rockets, missiles and mortars, including in major cities and other populated areas.22
+
+      More than three years of conflict have had devastating impacts on Ukraine’s healthcare system. As of April 2025, there have been at least
+      1,887 attacks on Ukraine’s health system documented since the beginning of the full-scale invasion.23 This includes 996 attacks that have
+      damaged or destroyed hospitals and clinics, and more attacks that have killed at least 267 health workers.
+
+      Of these, 506 attacks occurred in 2024, killing at least 51 health workers, two of whom worked within the aid sector, and at least one aid
+      worker, as recorded by Insecurity Insight. Ninety-five of these incidents were reportedly attributed to Russian armed forces who used both
+      air- and ground-launched explosive weapons, impacting the health system.
+
+      The use of armed drones in attacks on healthcare in Ukraine increased in 2024 and were deployed by both Russian and Ukrainian forces.
+      Although Russian drones contributed to the vast majority of incidents recorded by Insecurity Insight, Ukrainian armed forces were linked to at
+      least eight incidents. In these, Ukrainian forces used drones to attack Russian forces who were stationed inside hospitals, whilst in one incident
+      an ambulance was struck by a Ukrainian drone.
+
+      Damage and destruction of civilian infrastructure in Ukraine, particularly those impacting Ukraine’s power grid, have had dire impacts on the
+      provision of healthcare. Physicians for Human Rights identifies this as a clear pattern – widespread attacks on Ukraine’s energy grid by Russian
+      armed forces have harmed healthcare workers and patients, while the reverberating impacts of these attacks has impeded civilian access to
+      healthcare and endangered health workers and patients in Ukraine.24
+
+      Many health facilities have faced multiple attacks since the start of the full-scale invasion. The Okhmatdyt National Specialized Children’s
+      Hospital, for example, had its windows shattered by airstrikes in March 2022, forcing patients underground for treatment despite the risks
+      posed to those most vulnerable.25 In October 2022, when Russia intensified attacks on Ukrainian energy infrastructure, frequent power outages
+      began. According to Physicians for Human Rights, these energy cuts “jeopardized patient health by interrupting or delaying surgeries, forcing
+      surgeons to operate in darkness illuminated only by headlamps, discontinuing flow of water to the hospital, creating unhygienic conditions, and
+      rendering diagnostic and treatment equipment unusable.”26
+
+      In a survey of health workers across Ukraine, medical personnel consistently reported delays in elective surgeries, malfunctions in diagnostic
+      equipment such as X-ray machines, disrupted communications systems, medication storage issues, and increased stress and burnout.27
+
+      As conflict continues, Ukraine’s healthcare system will be further strained. The UN Human Rights Monitoring Mission in Ukraine reported
+      that civilian casualties rose by 30 percent in 2024 compared to 2023, attributing this to increased use of aerial bombs, short-range drones,
+      long-range missiles and loitering munitions by Russian armed forces. Additionally, landmines and explosive remnants of war contaminate an
+      estimated 139,000 square kilometres throughout Ukraine.
+
+
+
+
+22	INEW (2023). ‘Ukraine – A year of civilian suffering from bombing and shelling in towns and cities’. 24 February 2023.
+    https://www.inew.org/ukraine-a-year-of-civilian-suffering-from-bombing-and-shelling-in-towns-and-cities/.
+23    Insecurity Insight, et. al. (2025). ‘Attacks on Healthcare in Ukraine’. Accessed on 1 May 2025. https://www.attacksonhealthukraine.org/.
+24	Physicians for Human Rights and Truth Hound (2024). ‘Health Care in the Dark: The Impacts of Russian Attacks on Energy in Ukraine’. 4 December 2024.
+    https://phr.org/our-work/resources/health-care-in-the-dark-attacks-on-energy-in-ukraine/.
+25    Ibid.
+26    Ibid.
+27    Ibid.
+                                      Explosive Weapons Monitor | 25
+
+
+
+
+Rescuers clear the rubble of the destroyed Ohmatdyt Children’s Hospital
+following a missile attack in Kyiv, Ukraine, on 8 July 2024.
+© Roman PILIPEY / AFP via Getty Images
+26 | Explosive Weapons Monitor
+
+
+
+
+                                                 5. Education: Incidents of Explosive Weapons Use Affecting
+                                                     Civilian Access to Education
+                                                 At least 861 incidents of attacks in which explosive weapons damaged or destroyed
+                                                 education facilities or killed teachers or students were recorded in 22 countries and
+                                                 territories by Insecurity Insight in 2024. The number of attacks involving explosive
+                                                 weapons more than doubled from 2023, in which 415 incidents of attacks were recorded.
+
+
+Figure 13 – Incidents of explosive weapons use affecting education reported by Insecurity Insight in 2024
+
+
+ Country or territory      Number of education incidents in 2024            Country or territory     Number of education incidents in 2024
+
+ Afghanistan               2                                                Mali                     1
+
+ Bangladesh                2                                                Mexico                   1
+
+ Burkina Faso              1                                                Myanmar                  167
+
+ Côte d’Ivoire             1                                                Nigeria                  1
+
+ Colombia                  1                                                Palestine                247
+
+ Democratic Republic of                                                     Pakistan                 12
+                           1
+ Congo
+                                                                            Russia                   16
+ Ethiopia                  29
+                                                                            Sudan                    25
+ India                     4
+                                                                            Syria                    27
+ Iraq                      1
+                                                                            Ukraine                  297
+ Israel                    9
+                                                                            Yemen                    6
+ Lebanon                   10
+                                                                                                                                                                                        Explosive Weapons Monitor | 27
+
+
+
+
+Figure 14 – Attacks on education with explosive weapons reported by Insecurity Insight by month in 2023 and 2024
+
+140
+
+120
+
+100
+
+ 80
+
+ 60
+
+ 40
+
+ 20
+
+     0
+             Jan 23
+                      Feb 23
+                               Mar 23
+                                        Apr 23
+                                                 May 23
+                                                          Jun 23
+                                                                   Jul 23
+                                                                            Aug 23
+                                                                                     Sep 23
+                                                                                              Oct 23
+                                                                                                       Nov 23
+                                                                                                                Dec 23
+                                                                                                                         Jan 24
+                                                                                                                                  Feb 24
+                                                                                                                                           Mar 24
+                                                                                                                                                    Apr 24
+                                                                                                                                                             May 24
+                                                                                                                                                                      Jun 24
+                                                                                                                                                                               Jul 24
+                                                                                                                                                                                        Aug 24
+                                                                                                                                                                                                 Sep 24
+                                                                                                                                                                                                          Oct 24
+                                                                                                                                                                                                                   Nov 24
+                                                                                                                                                                                                                            Dec 24
+                                                                                In 2024, Insecurity Insight recorded the highest numbers of incidents affecting education in:
+
+                                                                                         • Ukraine, Palestine and Myanmar
+
+                                                                                The use of explosive weapons by Russian armed forces in Ukraine, Israeli armed forces in Palestine and
+                                                                                Lebanon, and Myanmar armed forces in Myanmar, all accounted for over 70 percent of incidents in
+                                                                                which the use of explosive weapons affected education services in 2024.
+
+                                                                                To a lesser extent, non-state actors in Myanmar and Sudan, as well as Ethiopian, Syrian, Sudanese and
+                                                                                Ukrainian armed forces, also used explosive weapons that affected education.28
+
+                                                                                In Palestine, recorded incidents in which explosive weapons affected educational facilities increased
+                                                                                from 75 incidents in 2023 to 247 in 2024. About 98 percent of these incidents were reported in Gaza
+                                                                                where, on average, 20 schools were struck by explosive weapons used by Israeli armed forces every
+                                                                                month. At the time of these attacks, all schools were being used as temporary shelters by displaced
+                                                                                families, and therefore these incidents not only resulted in the damage and destruction of the schools
+                                                                                but also injured and killed hundreds of Palestinians, often women and children.
+
+                                                                                Incidents in which explosive weapons affected education also increased in Ethiopia, where schools were
+                                                                                damaged or destroyed by air- and drone-launched explosive weapons. All but one of these incidents
+                                                                                were attributed to the Ethiopian Armed Forces.
+
+                                                                                5.1. Attacks on education facilities
+                                                                                In 2024, at least 89 kindergartens, 34 primary schools, 41 secondary schools and 34 universities
+                                                                                were reported as damaged or destroyed by explosive weapons. Like the previous year, air-launched
+                                                                                explosive weapons were reportedly used in most of these incidents. The specific use of drones to
+                                                                                launch explosive weapons that affected education increased from 30 incidents in 2023 to 163 in 2024.
+
+
+
+
+28       These named perpetrators reportedly had the highest reported use of explosive weapons affecting education programmes.
+28 | Explosive Weapons Monitor
+
+
+
+
+                                                     Figure 15 – Attacks on education with explosive weapons in 2024
+
+
+                                                     826                                                          25
+
+                                     Incidents affecting schools                                      Incidents affecting teachers
+
+
+
+
+   A house in Loikaw, Kayah (Karenni) State in Myanmar,
+   bombarded by Myanmar armed forces on 19 February 2024.
+   © Thierry Falise / LightRocket via Getty Images
+                                                                                                                                                                       Explosive Weapons Monitor | 29
+
+
+
+
+      Box 5 – Attacks on education in Myanmar and their reverberating effects
+      Since the Myanmar military staged a coup and seized control of the country on 1 February 2021, Myanmar armed forces have used explosive
+      weapons causing death and injury to civilians and damage to civilian infrastructure. Armed forces have attacked villages with both ground- and
+      air-launched explosive weapons, damaging homes, schools, hospitals, and religious buildings.29 Non-state armed groups have also conducted attacks
+      using explosive weapons in response to violence from the military.
+
+      More than four years later, conflict in Myanmar continues to pose challenges to civilian protection. Internal displacement is estimated to have
+      reached a record high of more than 3.5 million, and multiple crises have compounded the impacts on civilians of disease, food insecurity, and
+      impeded access to essential services.30
+
+      As a result, education services have been severely disrupted. In 2024, Insecurity Insight recorded at least 167 attacks on education in which
+      explosive weapons were used in Myanmar. In these incidents, at least 166 education facilities, including kindergartens, primary and secondary
+      schools and universities, were struck by artillery, airstrikes, drones strikes, missiles and shelling. In at least six incidents, mines were planted inside
+      schools which had been previously occupied by conflict actors. In at least one of these incidents, in Tanintharyi region, a student stepped on a mine
+      planted inside a primary school which killed three children and injured 25 others. Additionally, at least seven teachers and 15 students were killed
+      by explosive weapons in 2024, almost all of whom were killed on school premises.
+
+      In recent years, Myanmar has been one of the countries in the world most heavily affected by attacks on education, according to the Global
+      Coalition to Protect Education from Attack (GCPEA). The majority of incidents affecting education have involved the use of explosive weapons.
+      GCPEA has reported that the “widespread targeted attacks on, and military use of, schools, universities and education infrastructure in Myanmar
+      have created a hostile educational context for students, parents and educators, who have found it increasingly challenging to make safe choices
+      with regard to their learning, their children and their jobs.” 31 This has caused learning interruptions from pre-primary to higher education and will
+      have immediate long-term impacts not only on civilians’ access to education but on job prospects, livelihoods, mental health and beyond.
+
+      A kindergarten teacher in Daw Si Ei village who witnessed an airstrike on her school in February 2024 told Al Jazeera about the deafening
+      explosion that shook the building and ultimately killed four students and injured 40 more. She recalled the sound of the fighter jet before the
+      explosion and the images of children bleeding and unconscious after the attack.32
+
+      She and other teachers shared that they had been “incapacitated by fear” after the strike, which has resulted in her inability to return to the
+      school. Children in the village become startled at the sound of a car engine, and only a few have returned to school. A Loyola University expert
+      on trauma told Al Jazeera, “The more prolonged the conflict, the more that social relations and institutions that we depend on for healing and
+      connection erode[.] Especially for children, trauma experienced during key developmental phases can alter the very structures of our neurological
+      systems that are quite literally how we connect to the world.”33
+
+
+
+
+29	Amnesty International (2022). ‘Bullets Rained from the Sky: War Crimes and Displacement in Eastern Myanmar’.
+    https://www.amnesty.org/en/documents/asa16/5629/2022/en/?utm_source=annual_report&utm_medium=epub&utm_campaign=2021.
+30    UNOCHA (2025). ‘Myanmar Humanitarian Update No. 44 | 19 February 2025’. 19 February 2025. https://www.unocha.org/publications/report/myanmar/myanmar-humanitarian-update-no-44-19-february-2025.
+31	GCPEA (2024). ‘Country Profiles 2024: Myanmar’. https://protectingeducation.org/wp-content/uploads/eua_2024_myanmar.pdf.; GCPEA (2022). ‘The Impacts of Attacks on Education and Military Use in Myanmar’.
+    September 2022. https://protectingeducation.org/wp-content/uploads/ImpactofAttacksMyanmar2022.pdf.
+32	Fishbein, E. (2024). ‘Scarred by war, Myanmar children ‘cannot have the life they used to have’. Al Jazeera. 27 May 2024.
+    https://www.aljazeera.com/features/2024/5/27/scarred-by-war-children-in-myanmar-cannot-have-the-life-they-used-to-have.
+33    Ibid.
+30 | Explosive Weapons Monitor
+
+
+
+
+                                                 6. Humanitarian Aid: Incidents of Explosive Weapons Use
+                                                     Affecting Civilian Access to Aid
+                                                 Insecurity Insight recorded at least 1,631 incidents of attacks in which explosive weapons affected
+                                                 humanitarian aid operations in 16 countries and territories in 2024.34 The number of reported
+                                                 incidents where the use of explosive weapons affected aid operations was almost five times higher
+                                                 in 2024 than in 2023, in which 357 incidents of attacks were recorded.
+
+
+
+Figure 16 – Incidents of explosive weapons use affecting aid access reported by Insecurity Insight in 2024
+
+
+ Country or territory      Number of aid access incidents in 2024                      Country or territory                 Number of aid access incidents in 2024
+
+ Chad                      1                                                           Myanmar                              9
+
+ Democratic Republic                                                                   Niger                                1
+                           6
+ of Congo
+                                                                                       Nigeria                              1
+ Ethiopia                  2
+                                                                                       Palestine                            1460
+ Haiti                     1
+                                                                                       Somalia                              4
+ Iraq                      2
+                                                                                       Sudan                                64
+ Lebanon                   21
+                                                                                       Syria                                14
+
+ Mali                      3                                                           Ukraine                              40
+
+                                                                                       Yemen                                2
+
+
+
+
+                                                 34   These incidents exclude those incidents which also affected education and health care programmes in order to prevent double counting.
+                                                                                                                                                                                  Explosive Weapons Monitor | 31
+
+
+
+
+Figure 17 – Attacks on humanitarian aid with explosive weapons reported by Insecurity Insight by month in 2023 and 2024
+
+400
+
+300
+
+250
+
+200
+
+150
+
+100
+
+ 50
+
+  0
+      Jan 23
+
+               Feb 23
+
+                        Mar 23
+
+                                 Apr 23
+
+                                          May 23
+
+                                                   Jun 23
+
+                                                            Jul 23
+
+                                                                     Aug 23
+
+                                                                              Sep 23
+
+                                                                                       Oct 23
+
+                                                                                                Nov 23
+
+                                                                                                         Dec 23
+
+                                                                                                                  Jan 24
+
+                                                                                                                           Feb 24
+
+                                                                                                                                    Mar 24
+
+                                                                                                                                             Apr 24
+
+                                                                                                                                                      May 24
+
+                                                                                                                                                               Jun 24
+
+                                                                                                                                                                        Jul 24
+
+                                                                                                                                                                                 Aug 24
+
+                                                                                                                                                                                          Sep 24
+
+                                                                                                                                                                                                   Oct 24
+
+                                                                                                                                                                                                            Nov 24
+
+                                                                                                                                                                                                                     Dec 24
+                                                                         6.1. Attacks on aid infrastructure
+                                                                         In 2024, aid offices, vehicles and accommodations were damaged or destroyed by air- and
+                                                                         ground-launched explosive weapons in:
+
+                                                                                   • Lebanon, Niger, Nigeria, Palestine, Somalia, Sudan, Syria and Ukraine
+
+                                                                         In addition, aid supplies were also damaged or destroyed by airstrikes in Lebanon, Palestine and
+                                                                         Ukraine, and by ground-launched explosive weapons in Ukraine and Sudan.
+
+                                                                         6.2. Aid workers killed
+                                                                         In 2024, the number of aid workers killed by explosive weapons increased from 36 in 2023 to 115.
+                                                                         Sixty-three aid workers were killed in Gaza by air- and ground-launched explosive weapons used
+                                                                         by Israeli armed forces. Aid workers were killed whilst travelling in aid convoys, inside warehouses
+                                                                         and in displacement camps, as well as whilst distributing aid. Aid workers were also killed by
+                                                                         explosive weapons in:
+
+                                                                                   • Democratic Republic of Congo, Iraq, Lebanon, Niger, Somalia, South Sudan, Sudan,
+                                                                                     Syria and Ukraine
+
+                                                                         These incidents have compounding effects on the population and may affect an aid agency’s
+                                                                         ability to distribute relief to communities. For example, in 2024, at least 18 incidents were
+                                                                         recorded by Insecurity Insight which affected aid distribution sites in Lebanon, Palestine, Sudan,
+                                                                         Syria, Ukraine and Yemen.
+32 | Explosive Weapons Monitor
+
+
+
+
+                                                   6.3. Attacks on camps for internally displaced persons and refugees
+                                                   Camps for internally displaced persons (IDPs) were reportedly damaged, and programmes related
+                                                   to IDPs were suspended, due to the use of explosive weapons in:
+
+                                                         • Chad, Democratic Republic of Congo, Ethiopia, Iraq, Lebanon, Mali, Myanmar, Palestine,
+                                                           Sudan, Syria, Ukraine and Yemen
+
+                                                   Duty of care responsibilities increasingly force aid agencies not to send international staff into
+                                                   areas affected by explosive weapons. Risk transfer from international aid agencies to local partner
+                                                   agencies is particularly common in areas where explosive weapons use affects aid operations.
+
+
+
+
+                                       Figure 18 – Attacks on humanitarian aid with explosive weapons in 2024
+
+
+                      115                                                 62                                                      1479
+
+     Aid workers killed by explosive weapons             Incidents affecting aid infrastructure               Incidents affecting IDP/Refugee camps
+
+
+
+
+                                                                                                      People walk past a damaged hospital in Khartoum,
+                                                                                                      Sudan, on 28 April 2025.
+                                                                                                      © AFP via Getty Images
+                                                                                                                                                                              Explosive Weapons Monitor | 33
+
+
+
+
+      Box 6 – Attacks on humanitarian aid in Sudan
+      Fighting erupted in Sudan in April 2023 between its military, the Sudan Armed Forces (SAF) and a paramilitary group known as the Rapid Support
+      Forces (RSF). The fighting, led by rival military leaders who had jointly overthrown Sudan’s transitional government at the end of 2021, spread
+      quickly from Khartoum, the capital, to other parts of the country, including the Darfur region and the Kordofan states.35
+
+      The resulting conflict has taken place largely in Sudan’s towns and cities and has had severe impacts on the provision of essential services and
+      access to much-needed humanitarian aid. The United Nations Secretary-General described the situation as a catastrophe of “staggering scale and
+      brutality,” as about 30.4 million people, or over two-thirds of the total population, are in need of assistance. As acute hunger grows, and more
+      than half the population faces high levels of food insecurity and famine conditions, humanitarian efforts have been severely hampered by the
+      conflict, putting severe constraints on humanitarian access and the movement of supplies, as well as endangering aid workers.36
+
+      In 2024, Insecurity Insight recorded at least 64 incidents in which explosive weapons affected humanitarian aid operations. Artillery, shelling and
+      airstrikes damaged or destroyed warehouses and distribution centres, as well as housing for aid staff. IDP and refugee camps were hit by artillery,
+      shelling or airstrikes at least 56 times, affecting the ability of the aid sector to protect and provide for displaced people. Food aid was affected
+      by the use of explosive weapons when World Food Program (WFP) compounds, field offices and convoys were hit and when local volunteers and
+      users of food kitchens were killed and their supplies destroyed. Access to healthcare was also impeded by the use of explosive weapons after
+      programmes run or supported by international non-governmental organisations were directly affected at least 21 times in 2024.
+
+      This follows a year that was particularly devastating for humanitarian aid in Sudan. In 2023, more than 6.1 million people left their homes and
+      fled to other parts of Sudan or to neighbouring countries, including the Central African Republic, Chad, Egypt and South Sudan. More than 4.85
+      million people were displaced within Sudan, the majority of whom were originally from Khartoum, while more than 1.3 million people crossed into
+      neighbouring countries.37 By the end of 2023, Sudan faced the largest internal displacement crisis in the world as well as the most significant child
+      displacement crisis, with 3 million children displaced.38
+
+      As the number of people in Sudan in need of humanitarian assistance increased to nearly 25 million at the end of 2023,39 the ability of agencies to
+      deliver this much-needed aid decreased. As a result of increased insecurity and risk of harm, aid agencies in Sudan scaled down programmes and
+      evacuated staff into safer parts of the country.40 Risks of explosive weapons use are a known impediment to aid access, as they cause aid agencies
+      to act to protect their staff and therefore limit the provision of food aid, healthcare and other vital services to vulnerable populations.
+
+
+
+
+35    Amnesty International (2023). ‘Death came to our home: war crimes and civilian suffering in Sudan’. https://www.amnesty.org/en/documents/afr54/7037/2023/en/.
+36    Lennon, C. (2025). ‘Sudan, ‘the most devastating humanitarian and displacement crisis in the world’’. 14 February 2025. https://news.un.org/en/story/2025/02/1160161.
+37    International Organization for Migration (IOM) (2023). ‘Regional Sudan Response Situation Update’. 12 September 2023. https://www.iom.int/crisis-sudan.
+38    Ibid.
+39    UN OCHA (2023). ‘Sudan Humanitarian Needs and Response Plan 2024’. 21 December 2023. https://reliefweb.int/report/sudan/sudan-humanitarian-needs-and-response-plan-2024-december-2023.
+40	Kleinfeld, P., and Francis, O. (2023). ‘Aid agencies in Sudan face massive reboot as war takes hold’. New Humanitarian. 26 April 2023.
+    https://www.thenewhumanitarian.org/analysis/2023/04/26/aid-agencies-sudan-war.
+34 | Explosive Weapons Monitor
+
+
+
+
+                                                 7. Food Security: Incidents of Explosive Weapons Use Affecting
+                                                 Civilian Access to Food
+                                                 Insecurity Insight recorded at least 562 incidents in which explosive weapons affected food security
+                                                 in nine countries and territories in 2024 for which Insecurity Insight monitored incidents.
+
+                                                 At present, Insecurity Insight only monitors incidents affecting food security in these nine countries
+                                                 and territories. As a result, the absence of data does not imply that civilians in other countries and
+                                                 territories were not impacted in this way in 2024.
+
+Figure 19 – Incidents of explosive weapons use affecting food insecurity reported by Insecurity Insight in 2024
+
+
+ Country                                           Number of food insecurity incidents in 2024
+
+ Democratic Republic of Congo                      5
+
+ Lebanon                                           5
+
+ Mali                                              13
+
+ Niger                                             3
+
+ Palestine                                         205
+
+ Somalia                                           26
+
+ Sudan                                             109
+
+ Syria                                             152
+
+ Yemen                                             44
+
+
+                                                 These incidents included damage and destruction to the food system in affected countries, such
+                                                 as food production sites and markets, as well as buildings, warehouses, convoys and distribution
+                                                 points aid agencies used to try to alleviate food insecurity in conflict-affected areas where the
+                                                 food system was severely disrupted.
+
+                                                 Insecurity Insight documented at least 300 incidents which affected communities’ ability to
+                                                 produce and access food. These incidents involved the use of explosive weapons which damaged
+                                                 or destroyed markets, supermarkets, food production sites (including bakeries), agricultural land
+                                                 and water infrastructure.
+                                                                                                                        Explosive Weapons Monitor | 35
+
+
+
+
+                                                Figure 20 – Attacks on food structures with explosive weapons in 2024
+
+
+                    117                                         37                                 81                            58
+
+         Attacks on markets                               Attacks on food                      Agricultural                    Water
+          and supermarkets                                production sites                        land                     infrastructure
+
+
+
+
+Rescue workers on an aerial platform operate at the
+site of a Russian aerial bomb’s hitting a nine-story
+residential building in Kharkiv’s Saltivskyi district,
+Ukraine, 31 October.
+© Yevhen Titov / Global Images Ukraine via Getty Images
+36 | Explosive Weapons Monitor
+
+
+
+
+     Box 7 – Explosive remnants of war and food insecurity in Syria41
+     The fall of the Assad regime at the close of 2024 presents significant opportunities and challenges for the rebuilding of Syria. The potential
+     of many of these opportunities, such as the return of refugees and IDPs to their homes, the restoration of food security and livelihoods, and
+     economic recovery, is severely stunted by the widespread contamination of the country by landmines and explosive remnants of war.
+
+     Since 2011, tens of thousands of tons of munitions were used to bomb cities and towns, including cluster munitions, as well as heavy contamination
+     with landmines. Explosive hazard contamination is present across all of Syria, particularly in the north of Syria along former frontlines, in
+     Hama, Aleppo, Idlib, Latakia and Deir Ezzor. Nearly half of Syria’s population lives in these affected regions, and they have the highest levels of
+     displacement in the country. The Mine Action Area of Responsibility of the UN’s Global Protection Cluster estimates that 15.4 million Syrians are at
+     immediate risk of death and injury from explosive remnants of war. This contamination also undermines community resilience and threatens food
+     security, as many farmers are unable to use their war-polluted lands.The full level of contamination across Syria is unknown due to insufficient
+     funding and lack of coordination for a nationwide survey.
+
+     The International NGO Safety Organisation (INSO) reported 85 incidents involving detonations of explosive remnants of war in 2024 in northwest
+     Syria alone. The White Helmets reported that 24 people were killed by incidents involving explosive remnants of war and landmines in northwest
+     Syria throughout 2024, and 54 were injured. According to White Helmets’ data, nearly fifty percent of those injured during this period were
+     children.
+
+     The end of 2023 and through 2024 saw a rise in attacks on populations in northwest Syria by the Syrian regime and Russian armed forces that
+     had not been seen since 2020. This left large amounts of unexploded munitions in agricultural areas, including in previously cleared regions. The
+     military escalation posed a serious threat to the lives of farmers, affecting their ability to feed their families and work the land.
+
+     Youssef Reda Khamees, a farmer from rural Idlib, faces constant fear when working on his land due to unexploded ordnance left by intense
+     bombing at the end of 2023. His family relies on farming as their main income source, but Youssef was forced to abandon parts of his land, leaving
+     his olive crop unharvested.
+
+                 “The land and olive trees are our only livelihood. After the heavy shelling, this land has become a source of fear. Last winter and
+                 spring, we couldn’t water or tend to the trees. Our economic situation is getting worse. Last year, I couldn’t afford my children’s
+                 school supplies because securing food became our priority.”
+
+     Youssef’s experience is one of thousands of farmers trying to secure their livelihoods. Alarmingly, the frequency of incidents related to unexploded
+     ordnance has risen steeply after the fall of the Assad regime on 8 December 2024. At the end of 2024, military bases were left unguarded and
+     open, with stockpiles of missiles, chemical agents and other remnants of war within the reach of the general public. Previous frontlines also
+     became newly accessible, riddled with mines and other remnants of war.
+
+     The White Helmets responded to 20 landmine explosions in December 2024 which led to the deaths of 18 civilians. This represents 75 percent of
+     all fatalities reported by the civil defence organisation for 2024. This upward trend is confirmed by reports from INSO, which reported 93 incidents
+     between 8 December 2024 and 30 January 2025, resulting in 77 deaths and 112 injuries.
+
+     The sudden rise in incidents was in part due to attempts by civilian farmers to return to agricultural lands that were previously inaccessible due to
+     the existence of military positions or ongoing hostilities. Indeed, INSO reported that 71 percent of incidents after the fall of the regime happened
+     in farmlands near previous frontlines.
+
+
+
+
+41   All information in this case study was collected and drafted by the White Helmets for the Explosive Weapons Monitor.
+                                                                                                                                   Explosive Weapons Monitor | 37
+
+
+
+
+Another reason for the increased numbers of incidents is the flux of return of IDPs from camps in northwest Syria to their villages and towns
+across Syria. These unprepared returns have increased the incidents of death and injuries from explosive remnants of war exponentially.
+
+Despite the severe risks posed by explosive remnants of war, current clearance and destruction efforts are underfunded, uncoordinated and
+under-resourced. As of yet, there is no national coordination body tasked with dealing with these deadly legacies of war, and precise data on
+contamination levels is limited.
+
+In addition to the immediate risk to lives and livelihoods and safe return, explosive remnants of war also present long-term risks to the
+environment and human health. Unexploded bombs contain toxic substances such as arsenic, octogen and chromium, which can leak and persist in
+the soil and water depending on the conditions and the environment. More research is needed in Syria to determine the health and environmental
+issues related to exposure to toxics as a result of military activities.
+
+These hazards are likely to persist for years. Continued support for ordnance disposal efforts in Syria is essential to ensure residents can live in
+peace and safety, free from these dangers.
+
+
+
+
+                                                                                            An unexploded cluster bomb in the city of Ariha in Idlib Governorate,
+                                                                                            Syria, on 27 March 2024.
+                                                                                            © Anas Alkharboutli / DPA via Getty Images
+38 | Explosive Weapons Monitor
+
+
+
+
+USE OF                                                                    1. Methodology Note
+
+EXPLOSIVE                                                                 The Explosive Weapons Monitor reports on harm to civilians from incidents in which the use of
+                                                                          explosive weapons caused civilian deaths and injuries, as reported by Action on Armed Violence
+
+WEAPONS BY                                                                (AOAV) and the Armed Conflict Location & Event Data Project (ACLED), as well as damage and
+                                                                          destruction of civilian infrastructure in incidents that affected civilian access to healthcare,
+STATE ARMED                                                               education, humanitarian aid and food security, as reported by Insecurity Insight. For full
+                                                                          methodologies, see Annex 1.
+FORCES AND                                                                Identification of responsible state armed forces and non-state armed actors, and all additional
+NON-STATE                                                                 information provided in this chapter, is from these three organisations unless otherwise indicated.
+                                                                          The Explosive Weapons Monitor cannot determine with certainty which actors are responsible for
+ARMED ACTORS                                                              the use of explosive weapons in specific incidents, as much of the recorded data are unverified.
+                                                                          Each organisation has similar but varied methodologies for the attribution of incidents to
+                                                                          particular state and non-state actors.42 In all cases, non-state armed actors, referenced below,
+                                                                          include all non-state actors that reportedly perpetrated explosive violence and are not limited to
+                                                                          non-state armed groups. This includes criminal organisations and individually perpetrated use of
+                                                                          explosive weapons.
+
+                                                                          Numbers of incidents are meant to be indicative of contexts and patterns of use, as the
+                                                                          complexity of the information environment does not allow for the determination of a precise
+                                                                          number of incidents that can be attributed to use by each actor. To identify these contexts and
+                                                                          patterns, the Explosive Weapons Monitor developed ranges of numbers of incidents, as below:
+
+
+                                                                              Numbers of incidents                      1-9
+                                                                              in which explosive
+                                                                              weapons use                               10 - 99
+                                                                              reportedly caused
+                                                                              harm to civilians                         100 - 199
+
+                                                                                                                        200 - 499
+
+                                                                                                                        500 - 999
+
+                                                                                                                        1,000 +
+
+
+
+
+42	For full methodologies on attribution of responsibility to state and non-state actors by each organization, see AOAV (2021). ‘Methodology’. Available at: https://aoav.org.uk/explosiveviolence/methodology/; ACLED
+    (2024). ‘ACLED Codebook’. Available at: https://acleddata.com/knowledge-base/codebook/; and Insecurity Insight (2022). ‘Definitions and Methodologies’. Available at: https://insecurityinsight.org/methodology-
+    and-definitions.
+                                                                                                                          Explosive Weapons Monitor | 39
+
+
+
+
+                                                 2. U
+                                                     se of Explosive Weapons by State Armed Forces that
+                                                    Reportedly Caused Harm to Civilians in 2024
+                                                 The table below identifies the use of explosive weapons by the armed forces of 28 states that
+                                                 reportedly caused harm to civilians in 30 countries and territories in 2024.
+
+                                                 The use of explosive weapons by armed forces of five states that have endorsed the Political
+                                                 Declaration reportedly caused harm to civilians in 2024:
+
+                                                       • Jordan, Somalia, Togo, Türkiye and the United States
+
+                                                 Armed forces of these five states reportedly caused harm to civilians in five countries and territories:
+
+                                                       • Burkina Faso, Iran, Iraq, Somalia and Syria
+
+                                                 There were four contexts of use in which state armed forces reportedly caused harm to civilians from
+                                                 the use of explosive weapons in more than 1,000 incidents. This includes explosive weapons use by:
+
+                                                       • Israeli armed forces in Palestine
+
+                                                       • Israeli armed forces in Lebanon
+
+                                                       • Russian armed forces in Ukraine
+
+                                                       • Myanmar armed forces in Myanmar
+
+                                                 Additionally, the armed forces of six states were reportedly responsible for harm to civilians in more
+                                                 than 100 incidents in 2024:
+
+                                                       • Israel, Myanmar, Russia, Sudan, Syria and Ukraine
+
+                                                 Armed forces from 11 states were reportedly responsible for civilian harm from the use of explosive
+                                                 weapons in multiple countries and territories:
+
+                                                       • Democratic Republic of Congo, Iran, Israel, Myanmar, Pakistan, Russia, Sudan, Syria, Türkiye,
+                                                         Ukraine and the United States
+
+
+Figure 21 – Use of explosive weapons that caused harm to civilians by state armed forces in 2024
+
+ State armed forces             Countries in which explosive     Incident      Weapons categories                       Source(s)
+                                weapons were reportedly          range
+                                used
+
+ Armenia                        Azerbaijan                       1-9           Ground-launched                          ACLED, AOAV
+ Burkina Faso                   Burkina Faso                     1-9           Air-launched                             ACLED
+ Cameroon                       Cameroon                         1-9           Air-launched                             ACLED
+ Democratic Republic of Congo   Congo                            1-9           Ground-launched                          ACLED
+                                Democratic Republic of Congo     1-9           Air-launched, ground-launched            Insecurity Insight
+ Ethiopia                       Ethiopia                         10 - 99       Air-launched, ground-launched            ACLED, AOAV, Insecurity Insight
+ India                          India                            1-9           Ground-launched, directly-emplaced       ACLED, AOAV
+40 | Explosive Weapons Monitor
+
+
+
+
+ State armed forces              Countries in which explosive   Incident   Weapons categories               Source(s)
+                                 weapons were reportedly        range
+                                 used
+
+ Iran                            Iran                           1-9        Directly-emplaced                AOAV
+                                 Iraq                           1-9        Air-launched                     ACLED, AOAV
+                                 Israel                         1-9        Ground-launched                  ACLED
+                                 Jordan                         1-9        Air-launched                     AOAV
+                                 Pakistan                       1-9        Air-launched                     AOAV
+                                 Palestine                      1-9        Air-launched, ground-launched    ACLED, AOAV
+                                 Syria                          1-9        Ground-launched                  ACLED, Insecurity Insight
+ Iraq                            Iraq                           1-9        Directly-emplaced                AOAV
+ Israel                          Egypt                          1-9        Air-launched                     ACLED
+                                 Iran                           1-9        Directly-emplaced                ACLED
+                                 Lebanon                        1,000 +    Air-launched, ground-launched,   ACLED, AOAV, Insecurity Insight
+                                                                           directly-emplaced
+                                 Palestine                      1,000 +    Air-launched, ground-launched    ACLED, AOAV, Insecurity Insight
+                                 Syria                          10 - 99    Air-launched, ground-launched    ACLED, AOAV, Insecurity Insight
+                                 Yemen                          10 - 99    Air-launched                     ACLED, AOAV
+ Jordan                          Syria                          1-9        Air-launched, ground-launched    ACLED, AOAV
+ Mali                            Mali                           10 - 99    Air-launched, ground-launched,   ACLED, AOAV, Insecurity Insight
+                                                                           directly-emplaced
+ Mozambique                      Mozambique                     1-9        Air-launched                     ACLED
+ Myanmar                         Bangladesh                     1-9        Ground-launched                  ACLED
+                                 China                          1-9        Ground-launched                  ACLED
+                                 Myanmar                        1,000 +    Air-launched, ground-launched,   ACLED, AOAV, Insecurity Insight
+                                                                           directly-emplaced
+ Niger                           Niger                          1-9        Air-launched                     ACLED, Insecurity Insight
+ Nigeria                         Nigeria                        1-9        Air-launched                     ACLED, AOAV
+ Pakistan                        Afghanistan                    1-9        Air-launched, ground-launched    ACLED, AOAV
+                                 Iran                           1-9        Air-launched                     ACLED, AOAV
+                                 Pakistan                       10 - 99    Air-launched, ground-launched    ACLED, AOAV
+                                                                                                      Explosive Weapons Monitor | 41
+
+
+
+
+State armed forces   Countries in which explosive   Incident   Weapons categories                   Source(s)
+                     weapons were reportedly        range
+                     used
+
+Russia               Russia                         1-9        Air-launched, ground-launched        ACLED, AOAV, Insecurity Insight
+                     Syria                          10 - 99    Air-launched                         ACLED, AOAV, Insecurity Insight
+                     Ukraine                        1,000 +    Air-launched, ground-launched,       ACLED, AOAV, Insecurity Insight
+                                                               directly-emplaced
+Rwanda               Democratic Republic of Congo   1-9        Air-launched                         AOAV
+Saudi Arabia         Yemen                          10 - 99    Air-launched, ground-launched        ACLED, AOAV, Insecurity Insight
+Somalia              Somalia                        1-9        Ground-launched, directly-emplaced   ACLED, AOAV, Insecurity Insight
+South Sudan          South Sudan                    1-9        Ground-launched                      AOAV
+Sudan                Sudan                          200 -      Air-launched, ground-launched,       ACLED, AOAV, Insecurity Insight
+                                                    499        directly-emplaced
+                     South Sudan                    1-9        Air-launched                         ACLED, AOAV
+Syria                Lebanon                        1-9        Ground-launched                      ACLED
+                     Syria                          200 -      Air-launched, ground-launched,       AOAV, Insecurity Insight
+                                                    499        directly-emplaced
+Togo                 Burkina Faso                   1-9        Air-launched                         ACLED
+Türkiye              Iran                           1-9        Air-launched                         AOAV
+                     Iraq                           10 - 99    Air-launched, ground-launched        ACLED, AOAV
+                     Somalia                        10 - 99    Air-launched                         AOAV, Insecurity Insight
+                     Syria                          10 - 99    Air-launched, ground-launched        ACLED, AOAV, Insecurity Insight
+Ukraine              Russia                         500 -      Air-launched, ground-launched        ACLED, AOAV
+                                                    999
+                     Ukraine                        10 - 99    Air-launched, ground-launched        Insecurity Insight
+United States        Iraq                           1-9        Air-launched                         AOAV
+                     Somalia                        1-9        Air-launched                         ACLED, AOAV
+                     Syria                          1-9        Air-launched                         AOAV
+Yemen                Yemen                          1-9        Ground-launched                      ACLED
+42 | Explosive Weapons Monitor
+
+
+
+
+                                                3. Countries and Territories Where the Use of Explosive Weapons
+                                                    by Non-State Armed Forces Reportedly Caused Harm to
+                                                    Civilians in 2024
+                                                The table below identifies the 65 countries and territories in which non-state armed actors
+                                                reportedly used explosive weapons that caused harm to civilians in 2024.
+
+                                                Seven countries were affected by explosive weapons use by non-state armed actors that reportedly
+                                                caused harm to civilians in more than 100 incidents:
+
+                                                      • Sudan, Syria, Irael, Myanmar, Pakistan, Somalia and Yemen
+
+                                                Though the numbers of countries and territories reportedly affected by explosive weapons use
+                                                by non-state armed actors is greater than those affected by use by state actors, the numbers
+                                                of incidents are fewer and the intensity of use lower.
+
+
+Figure 22 – Use of explosive weapons that caused harm to civilians by state armed forces in 2024
+
+ Countries in which explosive weapons were        Incident range        Weapons categories                       Source(s)
+ reportedly used by non-state armed actors
+
+ Sudan                                            200 - 499             Air-launched, ground-launched,           ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Syria                                            200 - 499             Air-launched, ground-launched,           ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Israel                                           100 - 199             Air-launched, ground-launched,           ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Myanmar                                          100 - 199             Air-launched, ground-launched,           ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Pakistan                                         100 - 199             Air-launched, ground-launched,           ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Somalia                                          100 - 199             Air-launched, directly-emplaced          ACLED, AOAV, Insecurity Insight
+ Yemen                                            100 - 199             Air-launched, ground-launched,           ACLED, Insecurity Insight
+                                                                        directly-emplaced
+ Afghanistan                                      10 - 99               Ground-launched, directly-emplaced       ACLED, AOAV, Insecurity Insight
+ Burkina Faso                                     10 - 99               Ground-launched, directly-emplaced       ACLED, Insecurity Insight
+ Cameroon                                         10 - 99               Directly-emplaced, ground-launched       ACLED, AOAV, Insecurity Insight
+ Colombia                                         10 - 99               Air-launched, ground-launched            ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Democratic Republic of Congo                     10 - 99               Air-launched, ground-launched,           ACLED, AOAV, Insecurity Insight
+                                                                        directly-emplaced
+ Ethiopia                                         10 - 99               Ground-launched, directly-emplaced       ACLED, AOAV, Insecurity Insight
+                                                                                                        Explosive Weapons Monitor | 43
+
+
+
+
+Countries in which explosive weapons were   Incident range   Weapons categories                   Source(s)
+reportedly used by non-state armed actors
+
+India                                       10 - 99          Air-launched, ground-launched,       ACLED, AOAV, Insecurity Insight
+                                                             directly-emplaced
+Iraq                                        10 - 99          Air-launched, ground-launched,       ACLED
+                                                             directly-emplaced
+Mali                                        10 - 99          Ground-launched, directly-emplaced   ACLED, Insecurity Insight
+Mexico                                      10 - 99          Air-launched, ground-launched,       ACLED, AOAV
+                                                             directly-emplaced
+Niger                                       10 - 99          Air-launched, directly-emplaced      ACLED, Insecurity Insight
+Nigeria                                     10 - 99          Air-launched, ground-launched,       ACLED, AOAV, Insecurity Insight
+                                                             directly-emplaced
+Palestine                                   10 - 99          Air-launched, ground-launched,       ACLED, AOAV, Insecurity Insight
+                                                             directly-emplaced
+Turkey                                      10 - 99          Ground-launched, directly-emplaced   ACLED, AOAV
+Ukraine                                     10 - 99          Ground-launched, directly-emplaced   ACLED, AOAV, Insecurity Insight
+Albania                                     1-9              Directly-emplaced                    ACLED
+Argentina                                   1-9              Directly-emplaced                    ACLED, AOAV
+Bangladesh                                  1-9              Directly-emplaced                    ACLED, AOAV, Insecurity Insight
+Benin                                       1-9              Directly-emplaced                    ACLED
+Bosnia and Herzegovina                      1-9              Ground-launched                      ACLED
+Brazil                                      1-9              Directly-emplaced                    ACLED
+Burundi                                     1-9              Ground-launched, directly-emplaced   ACLED, AOAV
+Central African Republic                    1-9              Ground-launched, directly-emplaced   ACLED
+Chad                                        1-9              Ground-launched                      ACLED
+Cyprus                                      1-9              Directly-emplaced                    ACLED
+Denmark                                     1-9              Directly-emplaced                    ACLED
+Ecuador                                     1-9              Directly-emplaced                    ACLED
+Germany                                     1-9              Directly-emplaced                    ACLED
+Ghana                                       1-9              Ground-launched                      ACLED
+Greece                                      1-9              Ground-launched, directly-emplaced   ACLED
+Guatemala                                   1-9              Ground-launched                      ACLED
+Haiti                                       1-9              Air-launched, directly-emplaced      ACLED, Insecurity Insight
+Indonesia                                   1-9              Ground-launched                      ACLED
+44 | Explosive Weapons Monitor
+
+
+
+
+ Countries in which explosive weapons were   Incident range   Weapons categories                   Source(s)
+ reportedly used by non-state armed actors
+
+ Iran                                        1-9              Directly-emplaced                    ACLED, AOAV, Insecurity Insight
+ Ireland                                     1-9              Directly-emplaced                    AOAV
+ Italy                                       1-9              Directly-emplaced                    ACLED, AOAV
+ Kenya                                       1-9              Ground-launched, directly-emplaced   ACLED, AOAV
+ Kosovo                                      1-9              Ground-launched, directly-emplaced   ACLED, AOAV
+ Lebanon                                     1-9              Ground-launched                      ACLED, AOAV
+ Libya                                       1-9              Ground-launched, directly-emplaced   ACLED
+ Madagascar                                  1-9              Ground-launched                      ACLED
+ Mauritania                                  1-9              Ground-launched, directly-emplaced   ACLED
+ Montenegro                                  1-9              Directly-emplaced                    AOAV
+ Morocco                                     1-9              Ground-launched                      ACLED
+ Mozambique                                  1-9              Directly-emplaced                    ACLED
+ Namibia                                     1-9              Ground-launched                      ACLED
+ Nepal                                       1-9              Directly-emplaced                    ACLED, AOAV
+ Peru                                        1-9              Ground-launched                      ACLED
+ Philippines                                 1-9              Ground-launched, directly-emplaced   ACLED, AOAV
+ Russia                                      1-9              Air-launched, ground-launched,       ACLED, AOAV
+                                                              directly-emplaced
+ South Africa                                1-9              Directly-emplaced                    AOAV
+ Sri Lanka                                   1-9              Directly-emplaced                    ACLED
+ Thailand                                    1-9              Ground-launched, directly-emplaced   ACLED, AOAV
+ Togo                                        1-9              Ground-launched, directly-emplaced   ACLED
+ Uganda                                      1-9              Directly-emplaced                    ACLED
+ United Kingdom                              1-9              Directly-emplaced                    ACLED
+ United States                               1-9              Directly-emplaced                    AOAV
+ Venezuela                                   1-9              Ground-launched                      ACLED
+                                                                                                                                                                                Explosive Weapons Monitor | 45
+
+
+
+
+CONCLUSION                                                                 In 2024, civilians experienced staggering levels of harm from the use of explosive weapons. As
+                                                                           civilian deaths caused by the use of explosive weapons remained alarmingly high in Palestine, they
+                                                                           increased elsewhere across the globe in 2024. More civilians were impacted by impeded access
+                                                                           to healthcare, education and humanitarian aid across contexts such as the Democratic Republic
+                                                                           of Congo, Ethiopia, Lebanon, Mali, Myanmar, Nigeria, Palestine, Sudan, Syria, Ukraine and Yemen
+                                                                           than in 2023.
+
+                                                                           Each year, the use of explosive weapons in populated areas kills and injures tens of thousands
+                                                                           of civilians. It destroys civilian infrastructure, such as hospitals, schools and power and water
+                                                                           systems, which impacts the provision of essential services and leads to long-term civilian suffering
+                                                                           far beyond direct attacks. When the bombing stops, communities are tasked with rebuilding
+                                                                           homes, hospitals, schools and other infrastructure, often while facing long-lasting injuries,
+                                                                           psychosocial trauma, food insecurity, and impeded economic development.
+
+                                                                                                                 The 2022 Political Declaration on Strengthening the Protection of
+                                                                                                                 Civilians from the Humanitarian Consequences Arising from the Use
+         EACH YEAR, THE USE OF EXPLOSIVE                                                                         of Explosive Weapons in Populated Areas43 is an international political
+         WEAPONS IN POPULATED AREAS KILLS                                                                        commitment developed to address these humanitarian consequences
+                                                                                                                 and to strengthen the protection of civilians in armed conflict. It is the
+         AND INJURES TENS OF THOUSANDS
+                                                                                                                 first formal international recognition that the use of explosive weapons
+         OF CIVILIANS. IT DESTROYS CIVILIAN                                                                      in populated areas has severe humanitarian consequences that must be
+         INFRASTRUCTURE, SUCH AS HOSPITALS,                                                                      addressed by states, and it serves as a framework for action through
+         SCHOOLS AND POWER AND WATER                                                                             its commitments.
+         SYSTEMS, WHICH IMPACTS THE PROVISION                                                                    It remains a critical humanitarian priority to bring the Political
+         OF ESSENTIAL SERVICES AND LEADS TO                                                                      Declaration into greater effect to prevent and reduce harm to civilians
+         LONG-TERM CIVILIAN SUFFERING FAR                                                                        by placing limits on the use of explosive weapons in populated areas
+         BEYOND DIRECT ATTACKS. WHEN THE                                                                         and by facilitating assistance to conflict-affected communities. The
+                                                                                                                 Declaration is a practical tool that, to reach its potential and be
+         BOMBING STOPS, COMMUNITIES ARE                                                                          effective in its goal to reduce harm and strengthen the protection of
+         TASKED WITH REBUILDING HOMES,                                                                           civilians, relies upon effective national-level implementation of the
+         HOSPITALS, SCHOOLS AND OTHER                                                                            commitments by endorser states.
+         INFRASTRUCTURE, OFTEN WHILE FACING                                                                      Policy review, development and adoption across all areas of the
+         LONG-LASTING INJURIES, PSYCHOSOCIAL                                                                     Declaration – including, most critically, military policies aimed
+         TRAUMA, FOOD INSECURITY, AND IMPEDED                                                                    at changing current practice – is crucial. Universalisation of the
+         ECONOMIC DEVELOPMENT.                                                                                   Declaration is also necessary to promote the norms and standards
+                                                                                                                 under the Declaration in order to promote adherence by the highest
+                                                                                                                 possible number of states.
+
+
+
+
+43	For the full text of the declaration, see Ireland Department of Foreign Affairs (2022). Political Declaration on Strengthening the Protection of Civilians from the Humanitarian Consequences Arising from the Use of
+    Explosive Weapons in Populated Areas.
+46 | Explosive Weapons Monitor
+
+
+
+
+RECOMMEND-                       To address and mitigate harm to civilians from the use of explosive weapons in populated areas and
+                                 to promote universalisation and implementation of the Political Declaration, the Explosive Weapons
+
+ATIONS                           Monitor recommends that states:
+
+                                       • Publicly acknowledge and call for action to address the harm to civilians and
+                                         communities resulting from the use of explosive weapons in populated areas. This use
+                                         remains widespread and has severe and devastating consequences on civilians and across the
+                                         world – to an alarming degree. All stakeholders should commit to promoting the principles
+                                         and norms of the Political Declaration and call for states to avoid the use of explosive
+                                         weapons in populated areas, particularly those with wide area effects.
+
+                                       • Endorse the Declaration and encourage endorsement by other states in order to
+                                         ensure its adoption and implementation by the greatest number of states. Various
+                                         opportunities exist and should be taken by states to promote and call for endorsement and
+                                         implementation of the Declaration by other states, including in the context of statements
+                                         made at key diplomatic meetings throughout the year, regional and bilateral meetings with
+                                         non-endorser states, partnerships with civil society, and military cooperation, partnerships
+                                         and security assistance programmes involving the armed forces of non-endorser states.
+
+                                       • Review, revise or develop new national policy and practice. States and their armed
+                                         forces should not assume that their existing policies and practices are sufficient to implement
+                                         the Declaration and should review, revise, or develop new policy and practice which
+                                         establishes clear limits on the use of explosive weapons in populated areas in order to avoid
+                                         civilian harm. Such policies should include a process for determining when it is appropriate to
+                                         either restrict or refrain from such use.
+
+                                       • Promote, support and utilise the diversity of stakeholders engaged in work around
+                                         the Declaration. Working in a partnership of states, armed forces, civil society and other
+                                         international organisations engages a diversity of approaches that is beneficial to improving
+                                         understandings and developing responses that will reduce harm to civilians – whether in
+                                         the military or the humanitarian space. This approach can also help to foster a culture of
+                                         collaboration and mutual support, including sharing of good policies and practices, reviewing
+                                         and continuously working to strengthen the protection of civilians.
+
+                                 The Explosive Weapons Monitor aims to continue efforts to document harm to civilians from the use
+                                 of explosive weapons through data collection, research and analysis. In doing so, it looks forward to
+                                 working with all stakeholders to strengthen the protection of civilians and support universalisation and
+                                 implementation of the Declaration’s commitments.
+                                                                                       Explosive Weapons Monitor | 47
+
+
+
+
+ANNEXES –     ANNEX 1 – Harm to Civilians from the Use of Explosive Weapons
+
+METHODOLOGY   The Explosive Weapons Monitor is a civil society initiative that conducts research and analysis
+              on harms from and practices of explosive weapons use in populated areas for the International
+              Network on Explosive Weapons (INEW). It works with partner organisations to collect and publish
+              data on incidents of explosive weapons use around the world as reported in open sources, including
+              data from Action on Armed Violence (incidents of explosive weapons use and casualties, including
+              deaths and injuries), Insecurity Insight (incidents of explosive weapons use affecting aid access,
+              education, healthcare and food security), and the Armed Conflict Location & Event Data Project on
+              incidents of explosive weapons use and casualties, including deaths and injuries.
+
+              Action on Armed Violence
+              Action on Armed Violence (AOAV) has been recording data on incidents of explosive weapons use
+              that cause casualties since October 2010. Data on casualties caused by the use of explosive weapons
+              is gathered by AOAV from English-language media reports and a specific selection of organisations
+              that report on incidents of explosive weapons use in key conflict areas. Additional sources are
+              included in an effort to identify incident-specific data of explosive weapons use in conflicts that
+              are underreported in English-language media. These include incident reports from the Iraq Security
+              and Humanitarian Monitor (ISHM) for Iraq, and the Syrian Observatory of Human Rights (SOHR) for
+              Syria. Additionally, AOAV supplements its data with incident reports on airstrikes from Airwars.
+
+              AOAV codes for launch method, which includes explosive weapons that are air- and ground-
+              launched, as well as types of landmines and IEDs that, collectively, are categorised by the Explosive
+              Weapons Monitor as directly-emplaced weapons. AOAV also identifies the specific types of
+              explosive weapons used in recorded incidents, including airstrikes, air-dropped bombs, anti-
+              personnel mines, anti-vehicle mines, artillery shells, car bombs, grenades, landmines, missiles,
+              mortars, non-specific IEDs, roadside bombs, rockets, rocket-propelled grenades, tank shells, and
+              combinations of explosive weapons. AOAV also codes for the status of casualties (civilian or armed
+              actor) as well as their circumstances (killed or injured), the status of the perpetrators (state or
+              non-state), and the age and gender of civilians harmed, where reported. AOAV codes for events
+              reported to have occurred in populated versus unpopulated areas, as well as location types, for
+              example ‘urban residential areas’, ‘schools’, ‘humanitarian infrastructure’, etc.
+
+              AOAV does not attempt to comprehensively capture all incidents of explosive weapons use around
+              the world but to serve as an indicator of the scale and pattern of deaths and injuries. As such, no
+              claims are made that this data captures every incident or casualty of explosive weapons use. This
+              methodology is subject to a number of limitations and biases, many relating to the nature of the
+              source material on which it is dependent and the lack of a mechanism to follow up reports with
+              in-depth investigation. It is recognised that there are different levels of reporting across regions
+              and countries, and under-reporting is likely in some contexts. In addition, only English-language
+              media reports are used, which does not provide a comprehensive picture of explosive weapons use
+              around the world.
+
+              For more information about AOAV’s methodologies, please see https://aoav.org.uk/.
+48 | Explosive Weapons Monitor
+
+
+
+
+                                 Insecurity Insight
+                                 Insecurity Insight has been documenting a wide range of violence affecting the aid sector since 2008.
+                                 Datasets on violence against healthcare and education go back to 2016 and 2017, respectively. For the
+                                 Explosive Weapons Monitor, Insecurity Insight contributes information on global incidents of explosive
+                                 weapons use affecting aid access, education or healthcare services. Information is compiled from
+                                 Arabic, Burmese, English, French and Spanish media reports. The following elements are recorded: the
+                                 date and location of the reported incident, weapon type, reported user and target, detonation method
+                                 and whether the incident affected aid, education or health by specifying whether health facilities,
+                                 schools or project sites were damaged or destroyed and/or whether medical, teaching or aid staff
+                                 were injured or killed.
+
+                                 Data also includes some incidents where the explosive weapon device did not detonate and when there
+                                 were no civilian casualties, but when the presence of explosive weapons affected access to health,
+                                 education or food aid, usually because areas are cordoned off and access to services is interrupted.
+                                 This includes incidents where historical items such as unexploded ordnance were found, and which
+                                 affected the provision of these services.
+
+                                 Reported incidents are neither complete nor a representative list of all incidents and are subject to the
+                                 limitations inherent in the data sources. In some countries, the media frequently reports a wide range
+                                 of incidents, while in others, hardly any incidents are reported by media outlets. In some countries,
+                                 there are active networks of organisations that report information, while in others, no such networks
+                                 exist. In some areas, important and trusted interest groups have an active social media presence,
+                                 while in other contexts, social media is deliberately used to promote false information. The content of
+                                 other data collection processes that are made available via databases is also influenced by the nature
+                                 of public discourse and the networks the data collector maintains. In some cases, incidents can overlap
+                                 and impact more than one sector (for example, both ‘aid access’ and ‘education’). This occurs when the
+                                 health or education service is delivered by a humanitarian or development aid agency. Most incidents
+                                 have not been independently verified and have not undergone verification by Insecurity Insight.
+
+                                 For more information about Insecurity Insight’s methodologies, please see https://insecurityinsight.org/.
+
+
+                                 Armed Conflict Location & Event Data Project
+                                 ACLED collects reported information on the type, agents, location, date, and other characteristics
+                                 of political violence events, demonstration events, and other select non-violent, politically relevant
+                                 developments in every country and territory in the world. ACLED focuses on tracking a range of violent
+                                 and non-violent actions by or affecting political agents, including governments, rebels, militias, identity
+                                 groups, political parties, external forces, rioters, protesters, and civilians.
+
+                                 All data was downloaded from ACLED and incorporated into the analysis presented in this report
+                                 from 16 March 2024 for calendar 2023 (as used in the Explosive Weapons Monitor 2023) and 4 April
+                                 2025 for calendar year 2024. For this report, the Explosive Weapons Monitor accessed all ACLED
+                                 data relevant to Explosions/Remote violence events recorded for calendar years 2022 and 2023. This
+                                 included only subevents in which the incidents were coded to the following: air/drone strike, suicide
+                                 bomb, shelling/artillery/missile attack, remote explosive/landmine/IED, and grenades. All subevents,
+                                 in the case of analysis involving the use of weapon types, were categorised in line with the Explosive
+                                 Weapons Monitor definitions of air-launched, ground-launched and directly-emplaced explosive
+                                 weapons (these definitions are provided below). Incidents involving unexploded ordnance identified
+                                 (UXO) were removed when analysing the use of explosive weapons by state and non-state actors.
+                                                                                                                                                                               Explosive Weapons Monitor | 49
+
+
+
+
+                                                                          The Explosive Weapons Monitor identified incidents in which fatalities and injuries involving civilians
+                                                                          were recorded were primarily determined through filters and analysis of the field ‘actor2,’ filtering
+                                                                          of events in which civilians were the main or only target of an event in the field ‘civilian_targeting’,
+                                                                          and analysis of ‘notes’. Incidents indicating the use of explosive weapons by states were primarily
+                                                                          determined through filters and analysis of the field ‘actor1,’ and analysis of ‘notes’.
+
+                                                                          For more information about ACLED’s methodologies, please see https://acleddata.com/knowledge-
+                                                                          base/codebook/ and https://acleddata.com/knowledge-base/faqs-acled-sourcing-methodology/.
+
+
+
+                                                                          ANNEX 2 – Use of Explosive Weapons by State and
+                                                                          Non-State Actors
+                                                                          The Explosive Weapons Monitor reports on harm to civilians from incidents in which the use of
+                                                                          explosive weapons caused civilian deaths and injuries, as reported by Action on Armed Violence (AOAV)
+                                                                          and the Armed Conflict Location & Event Data Project (ACLED), as well as incidents that affected
+                                                                          civilian access to healthcare, education, and humanitarian aid, as reported by Insecurity Insight. This
+                                                                          section continues efforts by the Explosive Weapons Monitor to combine and synthesise multiple data
+                                                                          sources to show a more nuanced picture of the frequency and severity of the use of explosive weapons
+                                                                          around the globe.
+
+                                                                          Identification of responsible state armed forces and non-state armed actors and all additional
+                                                                          information provided in this section is as recorded by these three organisations with the following
+                                                                          exceptions:
+
+                                                                                   • Country and territory names may have been adapted by the Explosive Weapons Monitor
+                                                                                     according to names designated by the UN Statistics Division.
+
+                                                                                   • The Explosive Weapons Monitor excluded events recorded by ACLED that involved unexploded
+                                                                                     ordnance (UXO) associated with both state armed forces and non-state armed actors.
+
+                                                                                   • When use of explosive weapons was attributed to coalition forces by AOAV or ACLED, the
+                                                                                     Explosive Weapons Monitor did not use these incidents to identify reported use of explosive
+                                                                                     weapons by individual state armed forces.
+
+                                                                                   • ACLED records the use of explosive weapons by Houthi forces in Yemen as those of the
+                                                                                     armed forces of Yemen. For this report, the Explosive Weapons Monitor has instead
+                                                                                     designated the use of explosive weapons by Houthi forces to be that of non-state armed
+                                                                                     actors, in line with AOAV methodology and its ongoing reporting on civilian harm.
+
+                                                                          The Explosive Weapons Monitor cannot determine with total certainty which actors are responsible
+                                                                          for the use of explosive weapons in specific incidents, as much of the recorded data are unverified.
+                                                                          Each organisation has similar but varied methodologies for attribution of incidents to state and non-
+                                                                          state actors.44 In all cases, non-state armed actors referenced below include all non-state actors that
+                                                                          reportedly perpetrated explosive violence and are not limited to non-state armed groups.
+
+
+
+
+44	For full methodologies on attribution of responsibility to state and non-state actors by each organization, see AOAV (2021). ‘Methodology’. Available at: https://aoav.org.uk/explosiveviolence/methodology/; ACLED
+    (2024). ‘ACLED Codebook’. Available at: https://acleddata.com/knowledge-base/codebook/; and Insecurity Insight (2022). ‘Definitions and Methodologies’. Available at: https://insecurityinsight.org/methodology-
+    and-definitions.
+50 | Explosive Weapons Monitor
+
+
+
+
+                                                                         As above, the Explosive Weapons Monitor defines populated areas as “any concentration
+                                                                         of civilians, be it permanent or temporary, such as in inhabited parts of cities, or inhabited
+                                                                         towns or villages, or as in camps or columns of refugees or evacuees, or groups of nomads,”
+                                                                         synonymous with the term “concentration of civilians” which appears in existing international
+                                                                         humanitarian law (IHL). The references to refugees, evacuees and nomads and the use of the
+                                                                         term “inhabited” suggest that the presence of civilians and civilian objects – which need not be
+                                                                         in great numbers – is a defining characteristic of populated areas.45 While the data presented
+                                                                         here does not distinguish between the use of explosive weapons in populated and unpopulated
+                                                                         areas, the indicators of harm – civilian casualties and civilian infrastructure and services –
+                                                                         suggest that the majority of incidents recorded by each data source above likely occurred in
+                                                                         populated areas.
+
+                                                                         Identifying ranges of incidents
+                                                                         Numbers of incidents are meant to be indicative of contexts and patterns of use as the
+                                                                         complexity of the information environment does not allow for the determination of a precise
+                                                                         number of incidents that can be attributed to use by each actor. To identify these contexts and
+                                                                         patterns, the Explosive Weapons Monitor developed ranges of numbers of incidents, as below:
+
+                                                                                                                 To determine which range is relevant for each actor and/
+                      Ranges of numbers of incidents                         1-9                                 or country in which explosive weapons use was reported, the
+                      in which explosive weapons                                                                 Explosive Weapons Monitor first determined the numbers of
+                      use reportedly caused harm to                          10 - 99
+                                                                                                                 incidents in which civilian deaths or injuries were recorded by
+                      civilian casualties                                                                        AOAV and ACLED. When incidents recorded by both AOAV and
+                                                                             100 - 199
+                                                                                                                 ACLED were less than ten, the Explosive Weapons Monitor
+                                                                             200 - 499                           cross-checked the data sources to remove duplicate incidents
+                                                                                                                 and determined the total number of incidents of reported use.
+                                                                             500 - 999                           When incidents recorded by either AOAV or ACLED (or both) were
+                                                                             1,000 +                             greater than ten, the Explosive Weapons Monitor used the highest
+                                                                                                                 number of incidents recorded by either data source.
+
+                                                                         The Explosive Weapons Monitor then determined the numbers of incidents in which civilian
+                                                                         access to healthcare, education and humanitarian aid were recorded by Insecurity Insight. To
+                                                                         ensure incidents recorded by Insecurity Insight were not duplicates of incidents recorded by
+                                                                         ACLED or AOAV, the Explosive Weapons Monitor disregarded incidents in which health, medical
+                                                                         or aid workers were killed or injured and determined only the numbers of incidents in which
+                                                                         health, education and aid infrastructure were damaged or destroyed. These numbers were then
+                                                                         added to the relevant numbers of incidents in which casualties occurred in order to develop the
+                                                                         figure used to determine the correct ranges, as above.
+
+
+
+
+45	See Article 1(2), Protocol on Prohibitions and Restrictions on the Use of Incendiary Weapons (1980). See also ICRC (2016). ‘Explosive Weapons in Populated Areas – Factsheet’; Human Rights Watch and Harvard Law
+    School International Human Rights Clinic (2022). ‘Safeguarding Civilians: A Humanitarian Interpretation of the Political Declaration on the Use of Explosive Weapons in Populated Areas’, pp.8-9.
+                                                                            Explosive Weapons Monitor | 51
+
+
+
+
+Identifying categories of explosive weapons
+AOAV, ACLED and Insecurity Insight record the use of explosive weapons across a range of weapons
+categories that correspond with weapons categories used in the Explosive Weapons Monitor’s
+analysis. These definitions include:
+
+Ground-launched explosive weapons – Ground-launched explosive weapons are launched from any
+surface-level platform, including weapons thrown by a person or fired from warships or vehicles.
+These include artillery shells (projectiles fired from a gun, cannon, howitzer, or recoilless rifle), tank
+shells, ground-launched missiles, mortars, rockets (typically missiles which do not contain guidance
+systems), non-specific shelling, rocket-propelled grenades, and hand grenades.
+
+Air-launched explosive weapons – Air-launched explosive weapons include any weapon fired or
+dropped from a rotary of fixed-wing aircraft, while also including unmanned aerial vehicles or
+drones. These include air-dropped bombs (bombs reported as being delivered by air), airstrikes
+(attacks from a helicopter, drone, or plane), and missiles or rockets launched from an aircraft, while
+also including attacks by drones that themselves contain an explosive charge, as in the case of
+loitering munitions.
+
+Directly-emplaced explosive weapons – Directly-emplaced explosive weapons encompass weapons
+that are physically placed in the location at which they detonate. These include anti-personnel mines,
+anti-vehicle mines, landmines, non-specific IEDs (including so-called ‘suicide vests’), car bombs and
+roadside bombs.
+© EXPLOSIVE WEAPONS MONITOR
+MAY 2025
+
+WWW.EXPLOSIVEWEAPONSMONITOR.ORG
+@WEAPONSMONITOR.BSKY.SOCIAL
+

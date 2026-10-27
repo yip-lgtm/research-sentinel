@@ -79,20 +79,6 @@
       "fail": 0,
       "notes": "2026-10-22 20:07 報告（抗藥性死亡年齡分化）已投遞，用戶未評分。優點：三條【機制】鏈（兒童分母效應／老年雙效應／新藥槓桿弱）＋【敏感度】替代情境區間＋丹麥黃卡國家級實測案例；口徑陷阱段落明確區分 associated vs attributable。"
     },
-    "hearing-loss-cognitive-intervention": {
-      "pass": 1,
-      "full": 0,
-      "fail": 0,
-      "level": 2,
-      "verdict": "pass"
-    },
-    "perovskite-tandem": {
-      "pass": 1,
-      "full": 0,
-      "fail": 0,
-      "level": 2,
-      "verdict": "pass"
-    },
     "malaria-vaccine-mortality-mechanism": {
       "pass": 0,
       "full": 0,
@@ -245,9 +231,311 @@
       "coverage_after": 0.5,
       "verdict": "pass",
       "notes": "2026-10-23 19:00 報告（美軍兒童血鉛檢測率下降 vs 20.3 萬套私營家庭住宅是否已無鉛害）獲評『合格』。優點：問題精準且有實際意義（清楚區分『檢測下降』與『暴露源已受控』）、機制與量化清楚（含鉛漆剝落成塵→手口攝入→神經發育；2010–2017 0.79% 異常率；2021 審計 0.69% 異常率並指出資料不全可能低估）、敏感度與替代解釋有處理（明確排除『標準化監測即代表安全』的過度解讀；受檢兒童屬被選樣本、未交叉房齡與維修紀錄）、來源可靠（Kotas 2020／GAO 2022 審計／CRS）、簡評誠實標註跨期比較限制與資料缺口。缺口：無軍方房齡×含鉛漆維修交叉數據；成本敏感度用 1999 HUD 非軍方單價作錨，外推性有限。流程：本輪工具上限未完成存檔與品質閘 → 已補：補英文對照段（W5 警告消除）+ 修簡評 + 品質閘 PASS（6770 bytes）+ 存檔 + 上架。"
+    },
+    "hearing-cognition-risk-stratified": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "verdict": "pass"
+    },
+    "perovskite-tandem-lcoe-warranty": {
+      "pass": 1,
+      "full": 0,
+      "fail": 0,
+      "level": 2,
+      "verdict": "pass"
+    },
+    "nitrogen-nue-loss-reduction": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-00 報告自動登記：5 條來源、672 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "pm25-low-exposure-mortality-burden": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-06 報告自動登記：7 條來源、635 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "ai-datacentre-grid-power-quality": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.45,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-08 報告自動登記：4 條來源、752 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "am-fatigue-surface-vs-porosity": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.4,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-13 報告自動登記：3 條來源、497 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "metalworking-fluid-mist-oel-gap": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-12 報告自動登記：8 條來源、997 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "antivehicle-mine-farmland-safety": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-14 報告自動登記：4 條來源、593 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "ob-od-perchlorate-drinking-water": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-16 報告自動登記：7 條來源、950 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "gnss-spoofing-civil-aviation": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-23-17 報告自動登記：6 條來源、719 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "ai-training-energy-carbon-estimates": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-03 報告自動登記：8 條來源、778 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "ai-code-sa-scanner-divergence": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-04 報告自動登記：4 條來源、610 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "sepsis-ai-model-outcome-benefit": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-05 報告自動登記：8 條來源、719 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "ev-tyre-wear-non-exhaust-pm": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-08 報告自動登記：4 條來源、527 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "industrial-robot-nonroutine-injury": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-09 報告自動登記：8 條來源、872 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "saf-fuel-specification-limit": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-13 報告自動登記：8 條來源、853 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "perchlorate-national-mcl-conflict": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-15 報告自動登記：4 條來源、954 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "demining-funding-output-concentration": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-16 報告自動登記：4 條來源、641 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "nij-44mm-backface-deformation": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-17 報告自動登記：8 條來源、592 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "tungsten-vs-uranium-armor-penetration": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-19 報告自動登記：3 條來源、701 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "ammonium-perchlorate-mcl-thyroid": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-20 報告自動登記：11 條來源、838 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "burn-pit-compliance-gap": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-21 報告自動登記：7 條來源、564 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "military-pfas-foam-phaseout-gap": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-24-22 報告自動登記：6 條來源、652 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "antivehicle-mine-survivability": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-02 報告自動登記：2 條來源、636 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "push-pull-g-force-indisposition": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-03 報告自動登記：5 條來源、631 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "low-intensity-blast-cumulative-dose": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-07 報告自動登記：5 條來源、846 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "underbody-blast-foot-injury": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-08 報告自動登記：6 條來源、512 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "arctic-permafrost-military-foundations": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-10 報告自動登記：5 條來源、638 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "deep-submergence-hull-certification": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-14 報告自動登記：2 條來源、687 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "naval-hull-fouling-fuel-cost": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-15 報告自動登記：3 條來源、998 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "perchlorate-military-groundwater-detachment": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-17 報告自動登記：8 條來源、851 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "perchlorate-groundwater-remediation": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-18 報告自動登記：8 條來源、941 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "undersea-munitions-bivalve-bioaccumulation": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-25-20 報告自動登記：6 條來源、802 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "erw-clearance-engineering": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.5,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-26-20 報告自動登記：6 條來源、659 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
     }
   },
-  "last_report_utc": "",
+  "last_report_utc": "2026-10-26T20:00:00Z",
   "history": [
     {
       "report": "2026-10-22-14",

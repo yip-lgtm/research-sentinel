@@ -257,7 +257,12 @@ def sync_state() -> None:
     reps = idx.get("reports", {}) if isinstance(idx.get("reports"), dict) else {}
     tot = len(reps)
     pend = sum(1 for r in reps.values() if not r.get("gate_pass") or r.get("archived"))
-    last = max((r.get("stamp", "") for r in reps.values() if r.get("stamp")), default="")
+    # stamp 係 entry key（格式 YYYY-MM-DD-HH），唔係 entry 內嘅欄位
+    stamps = sorted(k for k in reps if re.fullmatch(r"\d{4}-\d{2}-\d{2}-\d{2}", k))
+    last = ""
+    if stamps:
+        d, hh = stamps[-1].rsplit("-", 1)
+        last = f"{d}T{int(hh):02d}:00:00Z"
 
     st = json.loads(STATE.read_text())
     before = (st.get("reports_total"), st.get("reports_pending"), st.get("last_report_utc"))
@@ -269,7 +274,6 @@ def sync_state() -> None:
     # topic_performance key 對齊 topics.json id
     tp = json.loads(TOPICS.read_text())
     valid = {t["id"] for t in tp["topics"]}
-    tp_map = {t["last_report"]: t["id"] for t in tp["topics"] if t.get("last_report")}
     perf = st.get("topic_performance", {})
     # 合併同名 id（-exposure 之類多餘 suffix）
     for k in list(perf.keys()):
@@ -278,6 +282,34 @@ def sync_state() -> None:
         base = k.removesuffix("-exposure")
         if base in valid:
             perf.setdefault(base, {}).update(perf.pop(k))
+    # id 改名 → perf key 一齊改名（唔會斷指標）
+    for old, new in ID_RENAMES.items():
+        if old in perf and new not in perf:
+            perf[new] = perf.pop(old)
+            log(f"  ~ perf key 改名 {old} → {new}")
+
+    # 為未有 perf 記錄嘅 topic 由報告推導一條（deterministic，唔虛構評分）
+    for t in tp["topics"]:
+        sid = t["id"]
+        if sid in perf:
+            continue
+        stamp = t.get("last_report")
+        if not stamp or not (REPORTS / f"{stamp}.md").exists():
+            continue
+        info = parse_report(stamp)
+        cov = float(t.get("coverage", 0.0))
+        perf[sid] = {
+            "reports": 1,
+            "coverage_before": 0.0,
+            "coverage_after": round(cov, 2),
+            "verdict": "pending",
+            "pass": 0,
+            "fail": 0,
+            "notes": (f"由 sync_state.py 由 {stamp} 報告自動登記："
+                      f"{info['sources']} 條來源、{info['cjk']} 中文字。"
+                      f"用戶評分未記錄，故 verdict=pending（唔當作合格）。"),
+        }
+
     st["topic_performance"] = perf
 
     STATE.write_text(json.dumps(st, ensure_ascii=False, indent=2))

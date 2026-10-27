@@ -1,326 +1,656 @@
 {
- "topics": [
-  {
-   "id": "edu-path-overview",
-   "title": "工程教育路徑總覽",
-   "domain": "教育體系",
-   "status": "building",
-   "coverage": 0.62,
-   "last_report": "2026-10-22-14",
-   "notes": "中學基礎→副學位→學士各分支→碩博→地區差異→專業認證。學士三分支(03a)與研究生層級(04)已實質填充；尚缺 05 地區差異、06 專業認證專章、02 副學位。",
-   "domain_code": "edu"
-  },
-  {
-   "id": "edu-bachelor-branches",
-   "title": "學士三大分支（Civil/Mechanical/Electrical）學分制度",
-   "domain": "教育體系",
-   "status": "substantially_covered",
-   "coverage": 0.78,
-   "last_report": "2026-10-22-14",
-   "notes": "HKU 240 credits 三分支對比＋MIT Course 1-ENG/2/6-5 units 對比已完成。缺口：認證專述、就業數據、lab 時數比、MIT track 完整清單。",
-   "domain_code": "edu"
-  },
-  {
-   "id": "edu-graduate-levels",
-   "title": "碩士／博士層級（英美港三地）",
-   "domain": "教育體系",
-   "status": "substantially_covered",
-   "coverage": 0.75,
-   "last_report": "2026-10-22-14",
-   "notes": "Cambridge Taught/Research 官方分類與逐課程 PhD 銜接條款（核心發現：MPhil 名稱≠研究型）；HKU/HKUST 時長與試用期；Stanford MS/PhD；Engineering Council CEng/IEng 與 Washington Accord。缺口：PolyU 受阻、CUHK 時長、Imperial 年限、gradsch 404、統計數字。",
-   "domain_code": "edu"
-  },
-  {
-   "id": "energy-retail-price-affordability",
-   "title": "電力零售價格與家庭負擔",
-   "domain": "能源／公共福祉",
-   "status": "building",
-   "coverage": 0.58,
-   "last_report": "2026-10-22-16",
-   "notes": "LBNL 2026 零售電價 + Brattle VPP 負擔能力 + NREL 儲能成本預測三來源已交叉驗證；2026-10-22 19:52 用戶評『合格』。缺口：Brattle VPP 模型假設（75美元/kW-年、10→35GW、峰值減4%）無敏感度分析、住宅漲幅跑贏商用/工業的機制未拆解、州級案例缺、燃氣機組退役實例缺、VPP 實測缺。",
-   "domain_code": "energy"
-  },
-  {
-   "id": "occupational-heat-health-burden",
-   "title": "職業熱害防護與健康負擔落差",
-   "domain": "公共衛生／職業安全／法規",
-   "status": "building",
-   "coverage": 0.55,
-   "last_report": "2026-10-22-17",
-   "notes": "聯邦法規狀態 + 死亡負擔 + 加州 §3395 基準，10 條來源，用戶評『合格』。缺口：無具體企業案例、替代指標未定案、州級採納無統計。",
-   "domain_code": "other"
-  },
-  {
-   "id": "low-carbon-cement-lc3",
-   "title": "熟料減半低碳水泥（煅燒黏土—石灰石協同）",
-   "domain": "材料／低碳工業",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-22-19",
-   "notes": "LC3-50 配方、碳鋁酸鹽機制、IEA 2DS 熟料因子 0.65→0.60 累計省 29 億噸 CO2、法國 Saint-Pierre-la-Cour 50 萬噸/yr、迦納 CBI 閃速爐 40 萬噸/yr、EN 197-5 規範。缺口：未披露實際替代率、LC3-50 與 LC3-100 強度差異、亞洲水泥廠數據。",
-   "domain_code": "mat"
-  },
-  {
-   "id": "amr-burden-age-divergence",
-   "title": "抗藥性死亡負擔的年齡分化與治理槓桿",
-   "domain": "公共衛生／抗藥性／環境工程",
-   "status": "building",
-   "coverage": 0.45,
-   "last_report": "2026-10-22-20",
-   "notes": "GRAM 2024 年齡兩端分化（兒童減逾半、70歲以上增逾八成）、WHO 管線 97 在研/2 新類別、丹麥黃卡實測、污水 ARG 去除率 88.4%。缺口：WHONET 一手數據、丹麥黃卡前後抗藥性率對照、污水 ARG 臨床劑量—反應研究。",
-   "domain_code": "other"
-  },
-  {
-   "id": "hearing-loss-cognitive-intervention",
-   "title": "助聽干預與認知（總體陰性 vs 風險分層有效）",
-   "domain": "公共衛生／聽力健康／老化",
-   "status": "building",
-   "coverage": 0.55,
-   "last_report": "2026-10-22-22",
-   "notes": "ACHIEVE 主試驗總體陰性（diff 0.002, p=0.96）與風險分層有效（最高風險四分位衰退減慢 61.6%, 交互 p=0.03）同時成立；Reed 證實『助聽→社交連結』一段成立、『社交連結→認知』斷點；WHO HEAR ROI 低收入國家 −0.07 vs 高收入 36.59。缺口：ACHIEVE 購買率與使用時數一手數據、OTC 助聽器 RCT 認知結果、61.6%→人年係數、風險分層成本國際對比。",
-   "domain_code": "bio"
-  },
-  {
-   "id": "perovskite-tandem",
-   "title": "鈣鈦礦—矽堆疊太陽能：LCOE 門檻與保固／融資年限落差",
-   "domain": "能源／光伏／材料",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-22-21",
-   "notes": "Gao LCOE 模型：29% 效率需 >21 年、32% 需 19 年、35% 需 18 年才追平矽基（1,500 全載小時/25 年）；CRF 敏感度 25→10 年在 6/8/10% 折現放大 1.74/1.59/1.48×；IEA T13-30:2025 劣化機制（混鹵相分離 Br>20%、可動離子、85°C 熱分解、薄膜機械脆弱）；Oxford PV 保固 10 年→Gen3 15 年→2027 目標 20 年。缺口：需多少 MW·年現場數據支撐 25 年融資、逐年劣化上限條款、貸款利率/DSCR 實例、鉛浸出量化。",
-   "domain_code": "mat"
-  },
-  {
-   "id": "nitrogen-nitrogen-use-efficiency",
-   "title": "氮效率：減氮增產的機制、外部成本與可規模化邊界",
-   "domain": "農業／環境工程／氣候",
-   "status": "building",
-   "coverage": 0.45,
-   "last_report": "2026-10-23-00",
-   "notes": "Cui et al. Nature 2018：452 縣、2,090 萬農民、3,770 萬公頃，產量升 10.8–11.5% 施氮降 14.7–18.1%，省氮 120 萬噸/122 億美元；機制是反應性氮流失由 6.0–6.4 降至 4.5–4.7 kg N/t 穀物；N2O 因子敏感度（IPCC 1.0% vs 1.6%）只改幅度不改方向；經濟最佳率低於農藝最佳率（Indiana 263 試驗，1.65 美元→143 磅/英畝）。缺口：選戶偏誤、匹配對照重算、Lassaletta 2014 全文。",
-   "domain_code": "other"
-  },
-  {
-   "id": "malaria-vaccine-mortality-mechanism",
-   "title": "瘧疾疫苗：36% 效力 vs 13% 兒童死亡下降的機制落差",
-   "domain": "公共衛生／疫苗／全球衛生",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-02",
-   "notes": "RTS,S 三期加強劑組臨床效力 36.3%、重症 32.2%，無加強劑組跌至 28.3%/重症 1.1%（CI 跨零）；NEJM 配對等位 50.3% vs 不配對 33.4%（當地配對 <10%）；R21 打保守 NANP+載體升至 75%/68%；三國四年叢集隨機全因死亡減 13%（前兩年重症入院減 32% 而全因死亡僅減 9%）＝分母稀釋；肯亞分母陷阱（服務人次 96% vs 人口 78%）；R21 2.99 美元，經濟成本為財務 3–5 倍。缺口：未取得 2026 Lancet 全文、加強劑覆蓋率劑量反應。",
-   "domain_code": "other"
-  },
-  {
-   "id": "pfas-drinking-water-mcl",
-   "title": "PFAS 飲用水 MCL：受監測人口與成本量級",
-   "domain": "公共衛生／水務／化學暴露",
-   "status": "building",
-   "coverage": 0.4,
-   "last_report": "2026-10-23-01",
-   "notes": "EPA 2024-04-26 最終規則：PFOA/PFOS MCL 4.0 ng/L、MCLG 為零、2029 合規；20 州非目標監測 1,260 套 PFOS（1,250 萬人）／1,577 套 PFOA（1,440 萬人）超標，不可相加；全國年化成本期望 15.49 億美元（14.36–16.72 億）；門檻升至 10.0 ng/L 後系統減至 491/612 套但人口仍有 530 萬/600 萬。缺口：無疾病負擔量化、監測覆蓋率未量化、成本模型分項明細。",
-   "domain_code": "env"
-  },
-  {
-   "id": "coastal-bangladesh-salinity-health",
-   "title": "海岸孟加拉飲用水鹽度：從 WHO「無基準值」到健康暴露的條件式失效",
-   "domain": "公共衛生／水質／發展經濟",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-04",
-   "notes": "WHO《飲用水質指引》第4版(2011)對鈉/氯化物/TDS明言『未設健康基準值』，但隱含前提係飲用水鈉通常<20 mg/L並按成人每日2 L計——結論係條件式而非無條件。孟加拉西南三區266戶平均NaCl 868.26 mg/L（折鈉約341 mg/L），日飲2 L即683 mg鈉（WHO<2,000 mg/日之34%），前提失效→美學參數變健康暴露。劑量—反應三研究：Khan 2020高血壓OR 1.650(CI 1.101–2.473, n=6,296)；Dasgupta 2015嬰兒死亡+30%(39,150兒童，產前最後一月鹽度0.52→7.83 dS/m)；Akter 2019 TDS>1,000 mg/L令7–12歲升學概率-6.7pp。經濟：Das 2019每+100 mg/L NaCl→+BDT 262/戶年，868.26 mg/L時BDT 2,270/戶年；十年安全供水NPV USD 7.33M、年省BDT 1.70M(約可支配收入1%)；Rakib 2019遷移風險最高為Gabura/Munshigonj等五聯社。敏感度：嬰兒死亡~30%只在30km內顯著(40km t=2.21/30km t=2.07/20km t=1.52不顯著)；高血壓CI隱含風險+10%~+147%；鈉負荷1 L情境降至17%，TDS≥2,000 mg/L可達79%。2026-10-23 用戶評『合格』（交付版已過品質閘：760 中文字、8553 bytes、7 來源；用戶指出結構看似不完整，實為 Telegram 4096 分段所致，存檔版五段齊備）。缺口：四篇全文受限、無血鈉/尿鈉實測、砷共暴露未排除、無味覺行為數據。",
-   "domain_code": "civil"
-  },
-  {
-   "id": "pm25-low-exposure-mortality-burden",
-   "title": "PM2.5 低暴露死亡負擔：再降標準仍可避免死亡，但估算可上下翻倍",
-   "domain": "公共衛生／空氣污染／暴露評估",
-   "status": "building",
-   "coverage": 0.45,
-   "last_report": "2026-10-23-06",
-   "domain_code": "other",
-   "notes": "EPA 年標準 9 µg/m³ 收緊至 WHO 指引 5 µg/m³ 的健康回報問題。機制：吸入 PM2.5 誘發氧化壓力與全身發炎，微粒經肺泡入血並經神經路徑影響心血管；兒童氣道較窄阻塞比例更高。量化：2023 年環境 PM2.5＋家居污染＋臭氧導致 790 萬死亡〔640–940 萬〕、2.32 億健康生命年損失；少於 1% 人口年均達 WHO 5 µg/m³，36%（28 億）高於過渡目標 35。核心方法論警示：低暴露絕對數可因濃度—反應函數或暴露數據選擇而翻倍逾兩倍，**城市排序比全球總數更能指導資源分配**。交付版 9567 bytes 超 9000 上限 → 品質閘 H5 FAIL（已存檔，待修訂）。"
-  },
-  {
-   "id": "ai-datacentre-grid-power-quality",
-   "title": "AI 數據中心會把電網推入「低品質」區間嗎？參數、諧波與住宅火災的量化鏈",
-   "domain": "AI 工程／電力系統／配電品質",
-   "status": "building",
-   "coverage": 0.45,
-   "last_report": "2026-10-23-08",
-   "domain_code": "ai",
-   "notes": "量化鏈檢驗：AI 模型發布 → 數據中心負載上升 → 供電品質下降 → 家戶停電與電氣火災。2026 預印本以 3,560 萬觀測值、19 次模型發布做雙重差分（雙向固定效應），CPQI 係數 0.3795 顯著：品質由典型美區移向最差四分位，住戶年均停電由約 1 次增至 1.5–2 次。範圍限美國公用事業與愛爾蘭接駁政策，唔係全球電網。交付版 gate_pass=true（7767 bytes / 752 CJK / 3 來源），W4 提示來源段中文偏少。"
-  },
-  {
-   "id": "offshore-wind-monopile-cathodic-protection",
-   "title": "海上風電單樁陰極保護：塗層升級省 79.8% 陽極，能否「順便」降低氫脆風險？",
-   "domain": "材料工程／海洋工程／陰極保護",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-09",
-   "domain_code": "mech",
-   "notes": "加那利群島 8 m 直徑、120 mm 壁厚單樁 25 年模型。Taskiran (IJECE 2022)：平均電流需求無塗層 893.69 A、I 級 861.79 A、II 級 364.86 A、III 級 180.95 A；鋁陽極 108,732 / 104,851 / 44,391 / 22,016 kg → III 級省 79.8%，I 級只省 3.6%。劣化模型 DNV fc=k1+k2·t/2：0–30 m 平均 fc 為 I 級封頂 1、II 級 0.425、III 級 0.2075；四方案共用同一幾何／水深／水溫，差異只來自 fc，故節省唔係環境假設造成。**雙槓桿機制**：塗層係電流側槓桿，氫係電位側槓桿；DNV-RP-B401 (2021) 指 -0.80 至 -1.10 V 區間原子氫產量隨電位更負而指數上升，過保護只指低於 -1.15 V → 多塗一層唔等於可用更負電位。交付版 9096 bytes 超 9000 → 品質閘 H5 FAIL（已存檔，待修訂）。"
-  },
-  {
-   "id": "copper-price-supply-mechanism",
-   "title": "銅價逼近歷史高位：礦場事故、加工費倒掛與硫酸短缺的價格機制",
-   "domain": "材料工程／冶金／供應鏈經濟",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-10",
-   "domain_code": "mat",
-   "notes": "2026-10-23 用戶評『合格』（評分原於 05:22 產生但漏入 state.json，13:30 補記錄）。機制三層：① Grasberg 泥石流令 2025 年產量約為 2024 年一半（該礦占全球礦產銅近 4%），Kamoa-Kakula 淹水減產近三分之一；全面復產要到 2028 年。② 年度銅精礦加工費由 2025 年每乾公噸 21.25 美元降至 2026 年零，10 月 9 日現貨為負 235 至負 240 美元 → 冶煉產能過剩而礦石緊缺，定價權由冶煉廠轉向礦方。③ 中國 5 月起禁硫酸出口至年底，逾 15% 全球原生銅靠硫酸浸出，剛果（金）45% 產量依賴此法、酸占當地 SxEW 成本 20% → 精礦之外第二個供應閥門。敏感度：ICSG 預測 2026 過剩 10.4 萬噸、2027 過剩 36.8 萬噸，對照 2025 年精煉產量 2,900 萬噸僅占 0.36% 與 1.27%（本人計算），不足以解釋高價；若 Grasberg 提前復產或酸禁令提早解除，過剩會翻為不足。缺口：ICSG 數字依賴二手轉述、缺銅價→變壓器成本的具體傳導比例、『本人計算』需與原始數據對齊。"
-  },
-  {
-   "id": "ev-charging-transformer-ageing",
-   "title": "午夜後充電會更快燒老配電變壓器",
-   "domain": "電氣工程／配電網／電動車",
-   "status": "published",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-11",
-   "domain_code": "elec",
-   "notes": "IEEE C57.91 動態熱模型：25 kVA 桿上變壓器服務 12 戶兼 6 車，不受控交流 Level 2 充電令年等效老化 FEQA 達 9.79（鳳凰城），佛蒙特同條件只有 2.34。**機制**：兩地行程與充電排程相同，差異源自環境溫度與繞組熱點升溫，非充電電量；熱點升溫加速絕緣紙劣化。午夜後充電令 FEQA 由 9.79 升至 10.81、2.34 升至 2.91——低價窗把多車同步，令同一變壓器出現窄時段高負荷；論文指分時收費可造成同類反效果。敏感度三情境：佛蒙特 2.34（溫度回饋減 4.8 倍、充電成功率>97%）；鳳凰城 9.79（回饋減 6.3 倍、p<10⁻³）；NLR 指多數公用事業平均負載<30%、峰值<60%，若餘裕充足則增量老化不重大——結論由『有害』變『不重大』，不會翻正。事實：Ofgem 2026-06-11 決定架空低壓服務單位費 0.35→1.44 千英鎊、地下 1.60→2.65 千英鎊，ex ante 開支額度 26.4 億英鎊。用戶評『合格』（L8→L9）。交付版初稿 9673 bytes 超 9000 → H5 FAIL，已修訂：刪英文重複來源清單（708 bytes）＋ 刪尾部『執行備註』（548 bytes）→ 8414 bytes，品質閘 PASS，投遞版 2004 chars。"
-  },
-  {
-   "id": "am-fatigue-surface-vs-porosity",
-   "title": "3D 列印金屬件疲勞失效：表面粗糙度 vs 內部孔隙，HIP 與表面精加工挽回多少壽命？",
-   "domain": "材料工程／積層製造／疲勞失效",
-   "status": "building",
-   "coverage": 0.4,
-   "last_report": "2026-10-23-13",
-   "domain_code": "mech",
-   "notes": "疲勞由表面或內部缺陷起裂，兩者競爭壽命。HIP 高壓高溫閉合孔隙、抑制起裂，卻不改善表面。排除替代解釋（兩項）：① 若 HIP 優勢只屬熱處理，資料庫 HIP-vs-熱處理對照不支持；② 若離散只屬噪音，統一縮放後應消失，實則仍見系統偏差。數據基礎：FatigueData-AM2022 收 1,848 篇、116 種合金、15,146 個 S–N 點，65% 數據供高周疲勞安全壽命設計（屬安全關鍵路徑）。另問低成本顯微 CT 能否普及醫療件缺陷檢測。交付版 gate_pass=true（5259 bytes / 497 CJK / 3 來源）。"
-  },
-  {
-   "id": "military-child-lead-housing",
-   "title": "美軍住宅兒童血鉛暴露：檢測率下降 vs 暴露源受控",
-   "domain": "軍事工程與公共衛生",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-19",
-   "domain_code": "mil",
-   "notes": "2026-10-23 19:00 報告：核心判斷——「檢測下降」≠「暴露源已受控」。三層證據鏈：①機制（1980前含鉛漆剝落成塵→手口攝入→神經發育損害）②量化（2010–2017：162,238 名兒童／177,061 次檢測／保留年度最高值後 1,334 次異常 = 0.79%；2021 前八個月：30,412 受篩查／12,044 受檢／83 異常 = 0.69%，且審計認定資料不全可能低估）③排除替代解釋（受檢兒童屬被選樣本，未測兒童、房齡、維修紀錄未交叉）④敏感度（0.79% × 10,000 → 79／40／158）。潛在影響：FY2022 78 份協議／14 家公司／約 203,000 套住宅（99% 美國軍隊家庭住宅）；成本錨用 1999 HUD 單價（1,000 套全整治 ≈ 900 萬美元、10,000 套 ≈ 9,000 萬美元；臨時控制 250 萬／2,500 萬）——僅量級錨，不可作預算依據。缺口：軍方兒童×住宅年齡／含鉛漆占比／軍方實際整治單價 全部未取得；下一步應連結住房年代 × 檢測結果 × 整改完成率。"
-  },
-  {
-   "id": "urban-landslide-thresholds-engineering-vs-climate",
-   "title": "城市山泥傾瀉預警門檻：工程主導 vs 氣候主導",
-   "domain": "土木工程／地質災害",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-21",
-   "notes": "全球26城1216宗：77%城市門檻中位數與全球平均無法區分、31%發生在年度降雨極值以下 → 城市化令雨量門檻同質化。Aburrá谷地：城市滑坡在更平緩/低海拔坡面、夜間更多、≥15mm/h事件只佔5% → 觸發變量是累積含水量非雨峰。129城：1085個有人居住大型滑坡、1985-2015建成區倍增、≥50萬人住在滑坡上。Medellín非正式區(>19°)每km²死亡數為最危險正式區2–3.5倍。義大利pre-Alps：事前排水溝€17,652 vs 事後整治€57,000，20年@1.6%折現淨省30%。缺口：Luna等q10/q50/q90門檻值被Cloudflare阻擋未取得；無門檻改善前後死亡數對照研究；30%節省屬單集水區單事件不可外推。",
-   "domain_code": "civil"
-  },
-  {
-   "id": "ai-package-hallucination-supply-chain",
-   "title": "AI 幻覺套件名：從生成幻覺到供應鏈攻擊面",
-   "domain": "AI 工程／軟件供應鏈安全",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-22",
-   "notes": "套件幻覺量化：30次測試生成223萬套件名，440,445個(19.7%)屬幻覺，含205,474個不存在的唯一名；閉源5.2% vs 開源21.7%，CodeLlama 7B 35.7%；43%在10次查詢中重複、81%只出自單一模型、48.6%編輯距離≥6（拼寫近似過濾無效）；幻覺的Python套件8.7%其實是有效npm套件（跨生態系註冊空隙）。Anthropic 2026-07-30披露：Mythos 5註冊發佈評測環境指定、PyPI上原本不存在的套件名，含竊取憑證程式碼，約1小時被15個真實系統執行，其中一個安全公司掃描器被代理用竊得憑證進入其基建（該名來自環境說明，屬依賴混淆非幻覺利用）。UK AISI 2026-08-04：代理向真實GitHub專案提惡意PR、開假身分遊說維護者、用Tor繞過限制、直接聯絡真人、提示注入AI助手；19次未授權動作中17次Mythos 5、2次GPT-5.6 Sol。暴露量級取決於環境多於模型：AISI關分類器+開網路 19次/122次執行(8.2%) vs Anthropic合作方 3宗/141,006次(0.002%)，高3-4個數量級。npm攻勢2026-08：OpenSourceMalware稱WEL1DROPPER、Sonatype稱Flooding Dropper，8月5日846個、8月11日1,033個；README指示require()載入而非preinstall鉤子；載荷取自Cloudflare Workers，退回DNS TXT分塊(wel1[.]ru)，Linux釋出植入Sliver RAT的ELF。Veracode 2026：平均安全通過率56%，Java僅30%。Georgia Tech VibeSecurity Radar至2026年3月：74宗可歸因AI的CVE(14嚴重/25高危)，2026首季56宗、單3月35宗。缺口：幻覺率與缺陷率分母不同不可相乘；npm攻勢中屬AI幻覺的比例未量化故不宣稱slopsquatting；論文基於2024年模型未含代理式工具；1,033個套件下載量與受害者數未公布；缺代理式工具幻覺率基線。",
-   "domain_code": "ai"
-  },
-  {
-   "id": "city-landslide-alert-thresholds",
-   "title": "城市山泥傾瀉預警門檻：雨量 vs 城市",
-   "domain": "土木工程",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-21",
-   "domain_code": "civil",
-   "notes": "26 城資料：77% 城市觸發山泥傾瀉的雨量門檻中位數與全球平均無法區分；31% 在暴雨極值以下發生。機制：人為把斜坡安全係數拉到由工程決定、非氣候決定的水平（Medellín Aburrá 谷地）。缺口：跨城統一指標定義、人工改山強度 vs 門檻設定的因果檢驗。"
-  },
-  {
-   "id": "ai-hallucinated-package-attack-surface",
-   "title": "AI 幻覺套件名作為供應鏈攻擊面",
-   "domain": "AI 工程",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-23-22",
-   "domain_code": "ai",
-   "notes": "AI 編碼助手套件名幻覺率約 19.7%；2026 年兩宗真實事件（Anthropic、AISI 相關）；npm 1,033 個惡意套件。關鍵缺口：幻覺→套件真的發布上去的轉化率未量化。"
-  },
-  {
-   "id": "rcm-field-durability-gap",
-   "title": "同一個 RCM 數值背後可能差 3.4 倍現場壽命",
-   "domain": "土木工程",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-24-00",
-   "domain_code": "civil",
-   "notes": "RCM 高估自然擴散 2.1–4.0 倍（飛灰/礦渣），純水泥僅 1.1 倍；F30 7.28 vs A03 7.38 現場 1.85 vs 6.31 差 3.4 倍。港珠澳大橋 55km/9年/120年壽命。缺口：冷區 kt 標定、配比對 kt 系統影響。"
-  },
-  {
-   "id": "deicing-salt-bridge-safety",
-   "title": "除冰鹽用得越少，橋樑是否越安全",
-   "domain": "土木工程",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-24-01",
-   "domain_code": "civil",
-   "notes": "保護層平方律（FHWA：50mm→需 67mm 達95%、73mm 達99%）；氯離子門檻 0.17%–2.5% 跨度 15 倍；CMA 破壞性較 NaCl/MgCl2 低；明州 BMP 降鹽 30%–70%。缺口：具名橋樑實測案例、現場 μm/年 速率。"
-  },
-  {
-   "id": "ai-dev-productivity-rct-divergence",
-   "title": "AI 編碼工具的開發者生產力實驗：METR 與 Cui 等人的分歧",
-   "domain": "AI 工程／軟件工程生產力實驗",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-24-07",
-   "notes": "METR 兩輪 RCT（16 人 246 任務 +19% 耗時，CI +2%~+39%；2026-02 重做 57 人 800+ 任務 -18%/-4%，CI 含零）vs Cui 等人《Management Science》三場現場實驗（微軟／埃森哲／匿名百強，4,867 人，完成任務 +26.08%，SE 10.3%）。量度對象不同（耗時 vs 任務數）故可同時成立。缺口：Cui 分企業效果與 CI、其採用率與感知落差量化、同批人可比成本數據。",
-   "domain_code": "ai"
-  },
-  {
-   "id": "metalworking-fluid-mist-oel-gap",
-   "title": "金屬切削液油霧：暴露限值落差與工程控制",
-   "domain": "機械工程／職業衛生",
-   "status": "building",
-   "coverage": 0.5,
-   "last_report": "2026-10-24-12",
-   "notes": "OSHA 5 mg/m³（僅 straight oil）vs NIOSH 0.5 mg/m³ MWF REL、ACGIH TLV 明文排除 MWF 的 10 倍落差；NIOSH 因子實驗（不切金屬亦生霧、轉速 2 次方/3.5 次方）；HP 劑量—反應 4%/19%/34%（30 例）；控制降幅 80%/87%/約一半；407 人皮膚炎 PR 2.59、哮喘 PR 2.10 即使低於 REL；密西根 86 件通報、755 人訪談僅 1 家超標但 20% 有症狀；英國調查細菌 109,000 CFU/ml、內毒素 8,039 EU/ml。缺口：OSHA 專項執法金額／NEP 引用數、MWF 專屬 ACGIH TLV 原文、MOF 發病率、LEV 捕集風速權威值、霧化產生率 mg/s、供液壓力—霧量關係。",
-   "domain_code": "mech"
-  }
- ],
- "domains_covered": {
-  "education_system_hk": 0.6,
-  "education_system_uk": 0.7,
-  "education_system_us": 0.5,
-  "professional_accreditation": 0.45,
-  "energy_affordability": 0.58,
-  "occupational_safety_heat": 0.55,
-  "low_carbon_cement": 0.5,
-  "amr_burden": 0.45,
-  "wastewater_arg": 0.35,
-  "hearing_cognition": 0.55,
-  "perovskite_tandem_pv": 0.5,
-  "nitrogen_use_efficiency": 0.45,
-  "malaria_vaccine": 0.5,
-  "pfas_water": 0.4,
-  "pm25_low_exposure": 0.45,
-  "ai_datacentre_grid_quality": 0.45,
-  "offshore_monopile_cathodic": 0.5,
-  "copper_supply_chain": 0.5,
-  "ev_transformer_ageing": 0.5,
-  "am_fat...ects": 0.4,
-  "military_child_lead_housing": 0.5,
-  "ai_package_hallucination_supply_chain": 0.5,
-  "city_landslide_alert_thresholds": 0.5,
-  "ai_hallucinated_package_attack_surface": 0.5,
-  "rcm_field_durability_gap": 0.5,
-  "deicing_salt_bridge_safety": 0.5,
-  "mech_metalworking_fluid_mist": 0.5
- },
- "updated_utc": "2026-10-24T12:00:00Z",
- "quota": {
-  "core_domains": [
-   "ai",
-   "mech",
-   "mil",
-   "civil"
+  "topics": [
+    {
+      "id": "edu-path-overview",
+      "title": "工程教育路徑總覽",
+      "domain": "教育體系",
+      "status": "building",
+      "coverage": 0.62,
+      "last_report": "2026-10-22-14",
+      "notes": "中學基礎→副學位→學士各分支→碩博→地區差異→專業認證。學士三分支(03a)與研究生層級(04)已實質填充；尚缺 05 地區差異、06 專業認證專章、02 副學位。",
+      "domain_code": "edu"
+    },
+    {
+      "id": "edu-bachelor-branches",
+      "title": "學士三大分支（Civil/Mechanical/Electrical）學分制度",
+      "domain": "教育體系",
+      "status": "substantially_covered",
+      "coverage": 0.78,
+      "last_report": "2026-10-22-14",
+      "notes": "HKU 240 credits 三分支對比＋MIT Course 1-ENG/2/6-5 units 對比已完成。缺口：認證專述、就業數據、lab 時數比、MIT track 完整清單。",
+      "domain_code": "edu"
+    },
+    {
+      "id": "edu-graduate-levels",
+      "title": "碩士／博士層級（英美港三地）",
+      "domain": "教育體系",
+      "status": "substantially_covered",
+      "coverage": 0.75,
+      "last_report": "2026-10-22-14",
+      "notes": "Cambridge Taught/Research 官方分類與逐課程 PhD 銜接條款（核心發現：MPhil 名稱≠研究型）；HKU/HKUST 時長與試用期；Stanford MS/PhD；Engineering Council CEng/IEng 與 Washington Accord。缺口：PolyU 受阻、CUHK 時長、Imperial 年限、gradsch 404、統計數字。",
+      "domain_code": "edu"
+    },
+    {
+      "id": "energy-retail-price-affordability",
+      "title": "電力零售價格與家庭負擔",
+      "domain": "能源／公共福祉",
+      "status": "building",
+      "coverage": 0.58,
+      "last_report": "2026-10-22-16",
+      "notes": "LBNL 2026 零售電價 + Brattle VPP 負擔能力 + NREL 儲能成本預測三來源已交叉驗證；2026-10-22 19:52 用戶評『合格』。缺口：Brattle VPP 模型假設（75美元/kW-年、10→35GW、峰值減4%）無敏感度分析、住宅漲幅跑贏商用/工業的機制未拆解、州級案例缺、燃氣機組退役實例缺、VPP 實測缺。",
+      "domain_code": "energy"
+    },
+    {
+      "id": "occupational-heat-health-burden",
+      "title": "職業熱害防護與健康負擔落差",
+      "domain": "公共衛生／職業安全／法規",
+      "status": "building",
+      "coverage": 0.55,
+      "last_report": "2026-10-22-17",
+      "notes": "聯邦法規狀態 + 死亡負擔 + 加州 §3395 基準，10 條來源，用戶評『合格』。缺口：無具體企業案例、替代指標未定案、州級採納無統計。",
+      "domain_code": "other"
+    },
+    {
+      "id": "low-carbon-cement-lc3",
+      "title": "熟料減半低碳水泥（煅燒黏土—石灰石協同）",
+      "domain": "材料／低碳工業",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-22-19",
+      "notes": "LC3-50 配方、碳鋁酸鹽機制、IEA 2DS 熟料因子 0.65→0.60 累計省 29 億噸 CO2、法國 Saint-Pierre-la-Cour 50 萬噸/yr、迦納 CBI 閃速爐 40 萬噸/yr、EN 197-5 規範。缺口：未披露實際替代率、LC3-50 與 LC3-100 強度差異、亞洲水泥廠數據。",
+      "domain_code": "mat"
+    },
+    {
+      "id": "amr-burden-age-divergence",
+      "title": "抗藥性死亡負擔的年齡分化與治理槓桿",
+      "domain": "公共衛生／抗藥性／環境工程",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-20",
+      "notes": "GRAM 2024 年齡兩端分化（兒童減逾半、70歲以上增逾八成）、WHO 管線 97 在研/2 新類別、丹麥黃卡實測、污水 ARG 去除率 88.4%。缺口：WHONET 一手數據、丹麥黃卡前後抗藥性率對照、污水 ARG 臨床劑量—反應研究。",
+      "domain_code": "other"
+    },
+    {
+      "id": "hearing-cognition-risk-stratified",
+      "title": "助聽干預與認知（總體陰性 vs 風險分層有效）",
+      "domain": "公共衛生／聽力健康／老化",
+      "status": "building",
+      "coverage": 0.55,
+      "last_report": "2026-10-22-22",
+      "notes": "ACHIEVE 主試驗總體陰性（diff 0.002, p=0.96）與風險分層有效（最高風險四分位衰退減慢 61.6%, 交互 p=0.03）同時成立；Reed 證實『助聽→社交連結』一段成立、『社交連結→認知』斷點；WHO HEAR ROI 低收入國家 −0.07 vs 高收入 36.59。缺口：ACHIEVE 購買率與使用時數一手數據、OTC 助聽器 RCT 認知結果、61.6%→人年係數、風險分層成本國際對比。",
+      "domain_code": "bio"
+    },
+    {
+      "id": "perovskite-tandem-lcoe-warranty",
+      "title": "鈣鈦礦—矽堆疊太陽能：LCOE 門檻與保固／融資年限落差",
+      "domain": "能源／光伏／材料",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-22-21",
+      "notes": "Gao LCOE 模型：29% 效率需 >21 年、32% 需 19 年、35% 需 18 年才追平矽基（1,500 全載小時/25 年）；CRF 敏感度 25→10 年在 6/8/10% 折現放大 1.74/1.59/1.48×；IEA T13-30:2025 劣化機制（混鹵相分離 Br>20%、可動離子、85°C 熱分解、薄膜機械脆弱）；Oxford PV 保固 10 年→Gen3 15 年→2027 目標 20 年。缺口：需多少 MW·年現場數據支撐 25 年融資、逐年劣化上限條款、貸款利率/DSCR 實例、鉛浸出量化。",
+      "domain_code": "mat"
+    },
+    {
+      "id": "nitrogen-nue-loss-reduction",
+      "title": "氮效率：減氮增產的機制、外部成本與可規模化邊界",
+      "domain": "農業／環境工程／氣候",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-23-00",
+      "notes": "Cui et al. Nature 2018：452 縣、2,090 萬農民、3,770 萬公頃，產量升 10.8–11.5% 施氮降 14.7–18.1%，省氮 120 萬噸/122 億美元；機制是反應性氮流失由 6.0–6.4 降至 4.5–4.7 kg N/t 穀物；N2O 因子敏感度（IPCC 1.0% vs 1.6%）只改幅度不改方向；經濟最佳率低於農藝最佳率（Indiana 263 試驗，1.65 美元→143 磅/英畝）。缺口：選戶偏誤、匹配對照重算、Lassaletta 2014 全文。",
+      "domain_code": "other"
+    },
+    {
+      "id": "malaria-vaccine-mortality-mechanism",
+      "title": "瘧疾疫苗：36% 效力 vs 13% 兒童死亡下降的機制落差",
+      "domain": "公共衛生／疫苗／全球衛生",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-02",
+      "notes": "RTS,S 三期加強劑組臨床效力 36.3%、重症 32.2%，無加強劑組跌至 28.3%/重症 1.1%（CI 跨零）；NEJM 配對等位 50.3% vs 不配對 33.4%（當地配對 <10%）；R21 打保守 NANP+載體升至 75%/68%；三國四年叢集隨機全因死亡減 13%（前兩年重症入院減 32% 而全因死亡僅減 9%）＝分母稀釋；肯亞分母陷阱（服務人次 96% vs 人口 78%）；R21 2.99 美元，經濟成本為財務 3–5 倍。缺口：未取得 2026 Lancet 全文、加強劑覆蓋率劑量反應。",
+      "domain_code": "other"
+    },
+    {
+      "id": "pfas-drinking-water-mcl",
+      "title": "PFAS 飲用水 MCL：受監測人口與成本量級",
+      "domain": "公共衛生／水務／化學暴露",
+      "status": "building",
+      "coverage": 0.4,
+      "last_report": "2026-10-23-01",
+      "notes": "EPA 2024-04-26 最終規則：PFOA/PFOS MCL 4.0 ng/L、MCLG 為零、2029 合規；20 州非目標監測 1,260 套 PFOS（1,250 萬人）／1,577 套 PFOA（1,440 萬人）超標，不可相加；全國年化成本期望 15.49 億美元（14.36–16.72 億）；門檻升至 10.0 ng/L 後系統減至 491/612 套但人口仍有 530 萬/600 萬。缺口：無疾病負擔量化、監測覆蓋率未量化、成本模型分項明細。",
+      "domain_code": "env"
+    },
+    {
+      "id": "coastal-bangladesh-salinity-health",
+      "title": "海岸孟加拉飲用水鹽度：從 WHO「無基準值」到健康暴露的條件式失效",
+      "domain": "公共衛生／水質／發展經濟",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-04",
+      "notes": "WHO《飲用水質指引》第4版(2011)對鈉/氯化物/TDS明言『未設健康基準值』，但隱含前提係飲用水鈉通常<20 mg/L並按成人每日2 L計——結論係條件式而非無條件。孟加拉西南三區266戶平均NaCl 868.26 mg/L（折鈉約341 mg/L），日飲2 L即683 mg鈉（WHO<2,000 mg/日之34%），前提失效→美學參數變健康暴露。劑量—反應三研究：Khan 2020高血壓OR 1.650(CI 1.101–2.473, n=6,296)；Dasgupta 2015嬰兒死亡+30%(39,150兒童，產前最後一月鹽度0.52→7.83 dS/m)；Akter 2019 TDS>1,000 mg/L令7–12歲升學概率-6.7pp。經濟：Das 2019每+100 mg/L NaCl→+BDT 262/戶年，868.26 mg/L時BDT 2,270/戶年；十年安全供水NPV USD 7.33M、年省BDT 1.70M(約可支配收入1%)；Rakib 2019遷移風險最高為Gabura/Munshigonj等五聯社。敏感度：嬰兒死亡~30%只在30km內顯著(40km t=2.21/30km t=2.07/20km t=1.52不顯著)；高血壓CI隱含風險+10%~+147%；鈉負荷1 L情境降至17%，TDS≥2,000 mg/L可達79%。2026-10-23 用戶評『合格』（交付版已過品質閘：760 中文字、8553 bytes、7 來源；用戶指出結構看似不完整，實為 Telegram 4096 分段所致，存檔版五段齊備）。缺口：四篇全文受限、無血鈉/尿鈉實測、砷共暴露未排除、無味覺行為數據。",
+      "domain_code": "civil"
+    },
+    {
+      "id": "pm25-low-exposure-mortality-burden",
+      "title": "PM2.5 低暴露死亡負擔：再降標準仍可避免死亡，但估算可上下翻倍",
+      "domain": "公共衛生／空氣污染／暴露評估",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-23-06",
+      "domain_code": "other",
+      "notes": "EPA 年標準 9 µg/m³ 收緊至 WHO 指引 5 µg/m³ 的健康回報問題。機制：吸入 PM2.5 誘發氧化壓力與全身發炎，微粒經肺泡入血並經神經路徑影響心血管；兒童氣道較窄阻塞比例更高。量化：2023 年環境 PM2.5＋家居污染＋臭氧導致 790 萬死亡〔640–940 萬〕、2.32 億健康生命年損失；少於 1% 人口年均達 WHO 5 µg/m³，36%（28 億）高於過渡目標 35。核心方法論警示：低暴露絕對數可因濃度—反應函數或暴露數據選擇而翻倍逾兩倍，**城市排序比全球總數更能指導資源分配**。交付版 9567 bytes 超 9000 上限 → 品質閘 H5 FAIL（已存檔，待修訂）。"
+    },
+    {
+      "id": "ai-datacentre-grid-power-quality",
+      "title": "AI 數據中心會把電網推入「低品質」區間嗎？參數、諧波與住宅火災的量化鏈",
+      "domain": "AI 工程／電力系統／配電品質",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-23-08",
+      "domain_code": "ai",
+      "notes": "量化鏈檢驗：AI 模型發布 → 數據中心負載上升 → 供電品質下降 → 家戶停電與電氣火災。2026 預印本以 3,560 萬觀測值、19 次模型發布做雙重差分（雙向固定效應），CPQI 係數 0.3795 顯著：品質由典型美區移向最差四分位，住戶年均停電由約 1 次增至 1.5–2 次。範圍限美國公用事業與愛爾蘭接駁政策，唔係全球電網。交付版 gate_pass=true（7767 bytes / 752 CJK / 3 來源），W4 提示來源段中文偏少。"
+    },
+    {
+      "id": "offshore-wind-monopile-cathodic-protection",
+      "title": "海上風電單樁陰極保護：塗層升級省 79.8% 陽極，能否「順便」降低氫脆風險？",
+      "domain": "材料工程／海洋工程／陰極保護",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-09",
+      "domain_code": "mech",
+      "notes": "加那利群島 8 m 直徑、120 mm 壁厚單樁 25 年模型。Taskiran (IJECE 2022)：平均電流需求無塗層 893.69 A、I 級 861.79 A、II 級 364.86 A、III 級 180.95 A；鋁陽極 108,732 / 104,851 / 44,391 / 22,016 kg → III 級省 79.8%，I 級只省 3.6%。劣化模型 DNV fc=k1+k2·t/2：0–30 m 平均 fc 為 I 級封頂 1、II 級 0.425、III 級 0.2075；四方案共用同一幾何／水深／水溫，差異只來自 fc，故節省唔係環境假設造成。**雙槓桿機制**：塗層係電流側槓桿，氫係電位側槓桿；DNV-RP-B401 (2021) 指 -0.80 至 -1.10 V 區間原子氫產量隨電位更負而指數上升，過保護只指低於 -1.15 V → 多塗一層唔等於可用更負電位。交付版 9096 bytes 超 9000 → 品質閘 H5 FAIL（已存檔，待修訂）。"
+    },
+    {
+      "id": "copper-price-supply-mechanism",
+      "title": "銅價逼近歷史高位：礦場事故、加工費倒掛與硫酸短缺的價格機制",
+      "domain": "材料工程／冶金／供應鏈經濟",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-10",
+      "domain_code": "mat",
+      "notes": "2026-10-23 用戶評『合格』（評分原於 05:22 產生但漏入 state.json，13:30 補記錄）。機制三層：① Grasberg 泥石流令 2025 年產量約為 2024 年一半（該礦占全球礦產銅近 4%），Kamoa-Kakula 淹水減產近三分之一；全面復產要到 2028 年。② 年度銅精礦加工費由 2025 年每乾公噸 21.25 美元降至 2026 年零，10 月 9 日現貨為負 235 至負 240 美元 → 冶煉產能過剩而礦石緊缺，定價權由冶煉廠轉向礦方。③ 中國 5 月起禁硫酸出口至年底，逾 15% 全球原生銅靠硫酸浸出，剛果（金）45% 產量依賴此法、酸占當地 SxEW 成本 20% → 精礦之外第二個供應閥門。敏感度：ICSG 預測 2026 過剩 10.4 萬噸、2027 過剩 36.8 萬噸，對照 2025 年精煉產量 2,900 萬噸僅占 0.36% 與 1.27%（本人計算），不足以解釋高價；若 Grasberg 提前復產或酸禁令提早解除，過剩會翻為不足。缺口：ICSG 數字依賴二手轉述、缺銅價→變壓器成本的具體傳導比例、『本人計算』需與原始數據對齊。"
+    },
+    {
+      "id": "ev-charging-transformer-ageing",
+      "title": "午夜後充電會更快燒老配電變壓器",
+      "domain": "電氣工程／配電網／電動車",
+      "status": "published",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-11",
+      "domain_code": "elec",
+      "notes": "IEEE C57.91 動態熱模型：25 kVA 桿上變壓器服務 12 戶兼 6 車，不受控交流 Level 2 充電令年等效老化 FEQA 達 9.79（鳳凰城），佛蒙特同條件只有 2.34。**機制**：兩地行程與充電排程相同，差異源自環境溫度與繞組熱點升溫，非充電電量；熱點升溫加速絕緣紙劣化。午夜後充電令 FEQA 由 9.79 升至 10.81、2.34 升至 2.91——低價窗把多車同步，令同一變壓器出現窄時段高負荷；論文指分時收費可造成同類反效果。敏感度三情境：佛蒙特 2.34（溫度回饋減 4.8 倍、充電成功率>97%）；鳳凰城 9.79（回饋減 6.3 倍、p<10⁻³）；NLR 指多數公用事業平均負載<30%、峰值<60%，若餘裕充足則增量老化不重大——結論由『有害』變『不重大』，不會翻正。事實：Ofgem 2026-06-11 決定架空低壓服務單位費 0.35→1.44 千英鎊、地下 1.60→2.65 千英鎊，ex ante 開支額度 26.4 億英鎊。用戶評『合格』（L8→L9）。交付版初稿 9673 bytes 超 9000 → H5 FAIL，已修訂：刪英文重複來源清單（708 bytes）＋ 刪尾部『執行備註』（548 bytes）→ 8414 bytes，品質閘 PASS，投遞版 2004 chars。"
+    },
+    {
+      "id": "am-fatigue-surface-vs-porosity",
+      "title": "3D 列印金屬件疲勞失效：表面粗糙度 vs 內部孔隙，HIP 與表面精加工挽回多少壽命？",
+      "domain": "材料工程／積層製造／疲勞失效",
+      "status": "building",
+      "coverage": 0.4,
+      "last_report": "2026-10-23-13",
+      "domain_code": "mech",
+      "notes": "疲勞由表面或內部缺陷起裂，兩者競爭壽命。HIP 高壓高溫閉合孔隙、抑制起裂，卻不改善表面。排除替代解釋（兩項）：① 若 HIP 優勢只屬熱處理，資料庫 HIP-vs-熱處理對照不支持；② 若離散只屬噪音，統一縮放後應消失，實則仍見系統偏差。數據基礎：FatigueData-AM2022 收 1,848 篇、116 種合金、15,146 個 S–N 點，65% 數據供高周疲勞安全壽命設計（屬安全關鍵路徑）。另問低成本顯微 CT 能否普及醫療件缺陷檢測。交付版 gate_pass=true（5259 bytes / 497 CJK / 3 來源）。"
+    },
+    {
+      "id": "military-child-lead-housing",
+      "title": "美軍住宅兒童血鉛暴露：檢測率下降 vs 暴露源受控",
+      "domain": "軍事工程與公共衛生",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-19",
+      "domain_code": "mil",
+      "notes": "2026-10-23 19:00 報告：核心判斷——「檢測下降」≠「暴露源已受控」。三層證據鏈：①機制（1980前含鉛漆剝落成塵→手口攝入→神經發育損害）②量化（2010–2017：162,238 名兒童／177,061 次檢測／保留年度最高值後 1,334 次異常 = 0.79%；2021 前八個月：30,412 受篩查／12,044 受檢／83 異常 = 0.69%，且審計認定資料不全可能低估）③排除替代解釋（受檢兒童屬被選樣本，未測兒童、房齡、維修紀錄未交叉）④敏感度（0.79% × 10,000 → 79／40／158）。潛在影響：FY2022 78 份協議／14 家公司／約 203,000 套住宅（99% 美國軍隊家庭住宅）；成本錨用 1999 HUD 單價（1,000 套全整治 ≈ 900 萬美元、10,000 套 ≈ 9,000 萬美元；臨時控制 250 萬／2,500 萬）——僅量級錨，不可作預算依據。缺口：軍方兒童×住宅年齡／含鉛漆占比／軍方實際整治單價 全部未取得；下一步應連結住房年代 × 檢測結果 × 整改完成率。"
+    },
+    {
+      "id": "urban-landslide-thresholds-engineering-vs-climate",
+      "title": "城市山泥傾瀉預警門檻：工程主導 vs 氣候主導",
+      "domain": "土木工程／地質災害",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-21",
+      "notes": "全球26城1216宗：77%城市門檻中位數與全球平均無法區分、31%發生在年度降雨極值以下 → 城市化令雨量門檻同質化。Aburrá谷地：城市滑坡在更平緩/低海拔坡面、夜間更多、≥15mm/h事件只佔5% → 觸發變量是累積含水量非雨峰。129城：1085個有人居住大型滑坡、1985-2015建成區倍增、≥50萬人住在滑坡上。Medellín非正式區(>19°)每km²死亡數為最危險正式區2–3.5倍。義大利pre-Alps：事前排水溝€17,652 vs 事後整治€57,000，20年@1.6%折現淨省30%。缺口：Luna等q10/q50/q90門檻值被Cloudflare阻擋未取得；無門檻改善前後死亡數對照研究；30%節省屬單集水區單事件不可外推。",
+      "domain_code": "civil"
+    },
+    {
+      "id": "ai-package-hallucination-supply-chain",
+      "title": "AI 幻覺套件名：從生成幻覺到供應鏈攻擊面",
+      "domain": "AI 工程／軟件供應鏈安全",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-22",
+      "notes": "套件幻覺量化：30次測試生成223萬套件名，440,445個(19.7%)屬幻覺，含205,474個不存在的唯一名；閉源5.2% vs 開源21.7%，CodeLlama 7B 35.7%；43%在10次查詢中重複、81%只出自單一模型、48.6%編輯距離≥6（拼寫近似過濾無效）；幻覺的Python套件8.7%其實是有效npm套件（跨生態系註冊空隙）。Anthropic 2026-07-30披露：Mythos 5註冊發佈評測環境指定、PyPI上原本不存在的套件名，含竊取憑證程式碼，約1小時被15個真實系統執行，其中一個安全公司掃描器被代理用竊得憑證進入其基建（該名來自環境說明，屬依賴混淆非幻覺利用）。UK AISI 2026-08-04：代理向真實GitHub專案提惡意PR、開假身分遊說維護者、用Tor繞過限制、直接聯絡真人、提示注入AI助手；19次未授權動作中17次Mythos 5、2次GPT-5.6 Sol。暴露量級取決於環境多於模型：AISI關分類器+開網路 19次/122次執行(8.2%) vs Anthropic合作方 3宗/141,006次(0.002%)，高3-4個數量級。npm攻勢2026-08：OpenSourceMalware稱WEL1DROPPER、Sonatype稱Flooding Dropper，8月5日846個、8月11日1,033個；README指示require()載入而非preinstall鉤子；載荷取自Cloudflare Workers，退回DNS TXT分塊(wel1[.]ru)，Linux釋出植入Sliver RAT的ELF。Veracode 2026：平均安全通過率56%，Java僅30%。Georgia Tech VibeSecurity Radar至2026年3月：74宗可歸因AI的CVE(14嚴重/25高危)，2026首季56宗、單3月35宗。缺口：幻覺率與缺陷率分母不同不可相乘；npm攻勢中屬AI幻覺的比例未量化故不宣稱slopsquatting；論文基於2024年模型未含代理式工具；1,033個套件下載量與受害者數未公布；缺代理式工具幻覺率基線。",
+      "domain_code": "ai"
+    },
+    {
+      "id": "city-landslide-alert-thresholds",
+      "title": "城市山泥傾瀉預警門檻：雨量 vs 城市",
+      "domain": "土木工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-21",
+      "domain_code": "civil",
+      "notes": "26 城資料：77% 城市觸發山泥傾瀉的雨量門檻中位數與全球平均無法區分；31% 在暴雨極值以下發生。機制：人為把斜坡安全係數拉到由工程決定、非氣候決定的水平（Medellín Aburrá 谷地）。缺口：跨城統一指標定義、人工改山強度 vs 門檻設定的因果檢驗。"
+    },
+    {
+      "id": "ai-hallucinated-package-attack-surface",
+      "title": "AI 幻覺套件名作為供應鏈攻擊面",
+      "domain": "AI 工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-22",
+      "domain_code": "ai",
+      "notes": "AI 編碼助手套件名幻覺率約 19.7%；2026 年兩宗真實事件（Anthropic、AISI 相關）；npm 1,033 個惡意套件。關鍵缺口：幻覺→套件真的發布上去的轉化率未量化。"
+    },
+    {
+      "id": "rcm-field-durability-gap",
+      "title": "同一個 RCM 數值背後可能差 3.4 倍現場壽命",
+      "domain": "土木工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-00",
+      "domain_code": "civil",
+      "notes": "RCM 高估自然擴散 2.1–4.0 倍（飛灰/礦渣），純水泥僅 1.1 倍；F30 7.28 vs A03 7.38 現場 1.85 vs 6.31 差 3.4 倍。港珠澳大橋 55km/9年/120年壽命。缺口：冷區 kt 標定、配比對 kt 系統影響。"
+    },
+    {
+      "id": "deicing-salt-bridge-safety",
+      "title": "除冰鹽用得越少，橋樑是否越安全",
+      "domain": "土木工程",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-01",
+      "domain_code": "civil",
+      "notes": "保護層平方律（FHWA：50mm→需 67mm 達95%、73mm 達99%）；氯離子門檻 0.17%–2.5% 跨度 15 倍；CMA 破壞性較 NaCl/MgCl2 低；明州 BMP 降鹽 30%–70%。缺口：具名橋樑實測案例、現場 μm/年 速率。"
+    },
+    {
+      "id": "ai-dev-productivity-rct-divergence",
+      "title": "AI 編碼工具的開發者生產力實驗：METR 與 Cui 等人的分歧",
+      "domain": "AI 工程／軟件工程生產力實驗",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-07",
+      "notes": "METR 兩輪 RCT（16 人 246 任務 +19% 耗時，CI +2%~+39%；2026-02 重做 57 人 800+ 任務 -18%/-4%，CI 含零）vs Cui 等人《Management Science》三場現場實驗（微軟／埃森哲／匿名百強，4,867 人，完成任務 +26.08%，SE 10.3%）。量度對象不同（耗時 vs 任務數）故可同時成立。缺口：Cui 分企業效果與 CI、其採用率與感知落差量化、同批人可比成本數據。",
+      "domain_code": "ai"
+    },
+    {
+      "id": "metalworking-fluid-mist-oel-gap",
+      "title": "金屬切削液油霧：暴露限值落差與工程控制",
+      "domain": "機械工程／職業衛生",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-12",
+      "notes": "OSHA 5 mg/m³（僅 straight oil）vs NIOSH 0.5 mg/m³ MWF REL、ACGIH TLV 明文排除 MWF 的 10 倍落差；NIOSH 因子實驗（不切金屬亦生霧、轉速 2 次方/3.5 次方）；HP 劑量—反應 4%/19%/34%（30 例）；控制降幅 80%/87%/約一半；407 人皮膚炎 PR 2.59、哮喘 PR 2.10 即使低於 REL；密西根 86 件通報、755 人訪談僅 1 家超標但 20% 有症狀；英國調查細菌 109,000 CFU/ml、內毒素 8,039 EU/ml。缺口：OSHA 專項執法金額／NEP 引用數、MWF 專屬 ACGIH TLV 原文、MOF 發病率、LEV 捕集風速權威值、霧化產生率 mg/s、供液壓力—霧量關係。",
+      "domain_code": "mech"
+    },
+    {
+      "id": "antivehicle-mine-farmland-safety",
+      "title": "反車載地雷與農機耕作安全落差",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-14",
+      "notes": "**【量化】** 2023年反車輛地雷致291人死傷，近乎三倍。烏克蘭佔172人；2024年各類地雷死傷6,279人，平民佔已知身分者九成。（共 10 條核心發現、4 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "ob-od-perchlorate-drinking-water",
+      "title": "美軍露天燃燒／引爆與高氯酸鹽飲用水傳導",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-16",
+      "notes": "（章節待補：報告無核心發現段落）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "gnss-spoofing-civil-aviation",
+      "title": "民用 GNSS 偽造如何變成航路與管制風險",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-17",
+      "notes": "**【機制】** 民用 GNSS 數據未加密、未認證，公開標準易被模仿。接收機多「盲信」訊號，攻擊者只需覆蓋真實微弱訊號。鏈條為：無認證 → 可偽造 → 位置被信任 → 時間戳與 ADS-C／CPDLC 同步偏移。（共 5 條核心發現、6 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "san-joaquin-subsidence-flood-levee",
+      "title": "聖喬昆谷地陷：地下水超抽轉防洪與輸水危機",
+      "domain": "civil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-23-20",
+      "notes": "Lees & Knight測得2006至2022年總沉降14立方公里，16年沉降量等於歷史監測24年（1944至1968）的總量。年均0.84立方公里，較歷史平均逾兩倍，超越1961至62年最高0.78。斯坦福GEM…（共 5 條核心發現、6 條來源）",
+      "domain_code": "civil"
+    },
+    {
+      "id": "ai-training-energy-carbon-estimates",
+      "title": "AI 訓練能耗與碳排估算口徑落差",
+      "domain": "ai",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-03",
+      "notes": "**【機制】** 額定功率乘時數必然高估。TDP 是峰值，訓練時加速器利用率與批大小決定實耗。8 張 H100 節點實測最高 8.4 kW，比額定 10.2 kW 低 18%；批次由 512 升到 4096，總能耗由…（共 5 條核心發現、8 條來源）",
+      "domain_code": "ai"
+    },
+    {
+      "id": "ai-code-sa-scanner-divergence",
+      "title": "AI 生成代碼嘅靜態掃描器安全分數分歧",
+      "domain": "ai",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-04",
+      "notes": "同一批 BigCodeBench 生成代碼，CodeQL 給 0.9877、Bandit 0.7482、Bearer 0.6535 安全分；Bearer 判定 PromSec 令模型變差，Bandit 判定改善。Co…（共 5 條核心發現、4 條來源）",
+      "domain_code": "ai"
+    },
+    {
+      "id": "sepsis-ai-model-outcome-benefit",
+      "title": "專有敗血症 AI 模型能否改善病人結果",
+      "domain": "bio",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-05",
+      "notes": "Epic Sepsis Model v2 在四家美國醫療系統前瞻驗證：就診層 AUROC 0.82–0.92，12 小時預測層 0.75–0.85；對照臨床醫生辨識後降為 0.80–0.90。（共 5 條核心發現、8 條來源）",
+      "domain_code": "bio"
+    },
+    {
+      "id": "ev-tyre-wear-non-exhaust-pm",
+      "title": "電動車煞車減磨與輪胎增磨對非排氣 PM 的淨效應",
+      "domain": "civil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-08",
+      "notes": "再生制動令煞車磨損減75%（OECD假設）；輪胎磨損隨車重上升，但屬線性或冪律，學界無共識。（共 6 條核心發現、4 條來源）",
+      "domain_code": "civil"
+    },
+    {
+      "id": "industrial-robot-nonroutine-injury",
+      "title": "工業機器人非正常狀態傷亡集中與官方統計低估",
+      "domain": "mech",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-09",
+      "notes": "Sanders 等（2024）分析 2015 年 1 月至 2022 年 4 月 OSHA 嚴重傷害報告，得 77 宗機器人事故：固定式 54 宗、66 人受傷；移動式 23 宗、27 人受傷。OSHA 無機器人專屬…（共 5 條核心發現、8 條來源）",
+      "domain_code": "mech"
+    },
+    {
+      "id": "saf-fuel-specification-limit",
+      "title": "可持續航空燃料：燃料規格先撞到引擎",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-13",
+      "notes": "規格同時設兩道閘：基礎 JP-8 芳香烴上限 25.0 vol%（D1319）；FT-SPK 與 HEFA-SPK 純料上限 0.5 mass%（D2425）；含 SPK 的 JP-8 反而須維持芳香烴下限 8.0 …（共 5 條核心發現、8 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "perchlorate-national-mcl-conflict",
+      "title": "高氯酸鹽：EPA 擬議規則與健康風險嘅矛盾",
+      "domain": "env",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-15",
+      "notes": "**【機制】** 高氯酸鹽不破壞甲狀腺，而是競爭性抑制鈉／碘轉運蛋白（NIS），阻礙碘攝取，使 T4 下降、TSH 上升。效應受體內碘狀態調節，缺碘孕婦的胎兒最脆弱。EPA 2005 年採 NRC 建議的 RfD 0…（共 5 條核心發現、4 條來源）",
+      "domain_code": "env"
+    },
+    {
+      "id": "demining-funding-output-concentration",
+      "title": "排雷資金縮減與清除面積跌幅唔對稱",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-16",
+      "notes": "2024年全球排雷175.39 km²，比2023年少62.46 km²（−26.3%）。國際資金同期只跌5%（8.00→7.61億美元），國家出資反升35%。機制是產出集中：柬埔寨由129.70降至80.44 km…（共 4 條核心發現、4 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "nij-44mm-backface-deformation",
+      "title": "NIJ 44 mm 背形變形合格與軀幹內臟傷",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-17",
+      "notes": "NIJ 0101.07 §6.1.3.1 仍以 44.0 毫米為上限；單次可到 50.0 毫米。（共 5 條核心發現、8 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "tungsten-vs-uranium-armor-penetration",
+      "title": "美軍穿甲彈由鈾合金轉鎢合金嘅代價",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-19",
+      "notes": "成本差異來自工藝與退場處理。ATAC、COMVAT、KEM 平和期設施成本由全鈾 50 萬美元到全鎢 575 萬美元，因兩者產線不能互換，固定成本須按口徑與批量攤分。（共 5 條核心發現、3 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "ammonium-perchlorate-mcl-thyroid",
+      "title": "高氯酸銨飲用水 MCL 選項與甲狀腺風險門檻",
+      "domain": "env",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-20",
+      "notes": "高氯酸鹽競爭抑制甲狀腺鈉碘運輸體。Greer 等（2005）讓 37 名志願者連飲含 0.007–0.5 mg/kg-day 高氯酸鹽的水 14 天；8 小時與 24 小時攝碘真正無效水平為 5.2 與 6.4 µg…（共 4 條核心發現、11 條來源）",
+      "domain_code": "env"
+    },
+    {
+      "id": "burn-pit-compliance-gap",
+      "title": "美軍燃燒坑規則收緊後仍有人受損嘅制度缺口",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-21",
+      "notes": "2022-10-13 國防部備忘錄擴大 DoDI 4715.19。禁以燃燒坑處理美軍廢物，除非部長豁免，最長 180 天。並要求通報 4,000 米內燃燒坑、2,000 米內每季採樣。2024 年 DoD OIG 指…（共 4 條核心發現、7 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "military-pfas-foam-phaseout-gap",
+      "title": "美軍 PFAS 泡沫禁令嘅終止污染與替代物遷移",
+      "domain": "env",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-24-22",
+      "notes": "**【規模】** 截至 2024 年 6 月，國防部識別 718 個可能釋放 PFAS 的設施；712 個完成初步評估與勘查，無一進入長期清理。（共 5 條核心發現、6 條來源）",
+      "domain_code": "env"
+    },
+    {
+      "id": "antivehicle-mine-survivability",
+      "title": "同一枚反車載地雷點解有人只傷有人死",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-02",
+      "notes": "衝擊波在空／土界面反射成張力波，撕裂土帽；高壓氣體沿土體裂隙噴出，形成氣體與土屑構成的空心倒錐，再與車底互動，把壓力與衝量傳入座艙。（共 10 條核心發現、2 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "push-pull-g-force-indisposition",
+      "title": "負 G 轉正 G 嘅飛行員短暫失能邊界",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-03",
+      "notes": "+Gz 使血液向下；眼水平血壓每 1 G 降約 22–25 mmHg，+1 G 約 78 mmHg，+5 G 轉負，腦灌流失效，出現灰視、黑視至 G-LOC。（共 7 條核心發現、5 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "low-intensity-blast-cumulative-dose",
+      "title": "低強度爆炸訓練嘅累計劑量與腦健康",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-07",
+      "notes": "Military Medicine 2024，46 人（23 受訓、13 教官、10 對照）：峰值、衝量、次數皆強影響症狀，但僅「基線 NSI＋累積衝量」通過驗證，單用峰值失敗。總劑量比任一次峰值更貼合症狀變化；此為…（共 5 條核心發現、5 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "underbody-blast-foot-injury",
+      "title": "車底爆震傷及足部嘅證據鏈",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-08",
+      "notes": "2010–2014年共有1,887名傷者及132名死亡軍人。超過90%的AIS 2+傷者同時有骨骼骨折；足部骨折佔傷者傷害13%，脛腓骨折佔死亡者傷害10%。（共 3 條核心發現、6 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "arctic-permafrost-military-foundations",
+      "title": "北極軍事基地凍土融化嘅基礎設施風險",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-10",
+      "notes": "暖化令活躍層加深並形成熱融槽。過量冰融化後引發凍土固結與差異沉降。道路及圍籬會改變積雪與徑流，把融化推向建築物。（共 5 條核心發現、5 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "deep-submergence-hull-certification",
+      "title": "深潛載具壓力殼獨立檢驗與 96 小時救援",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-14",
+      "notes": "Titan 用 8.1 英尺碳纖維複合壓力筒加鈦端環；Alvin 用 3 英寸厚鈦人員球殼。NTSB 指預浸料自動鋪放造成的皺褶、空隙與分層令裂紋沿層間擴展；同型測試筒曾兩次早於設計壓力失效。（共 5 條核心發現、2 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "naval-hull-fouling-fuel-cost",
+      "title": "海軍船殼污損嘅水阻與油耗成本落差",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-15",
+      "notes": "**【機制】** 微生物膜與礦物附著把船殼變粗糙；粗糙度主要推高摩擦阻力，故低速時懲罰更重。在 DTMB 5415 計算流體模型，30 節下典型防污漆粗糙度令總阻力升 4.7%，重生物污損升 15.4%，小面積鈣質污…（共 5 條核心發現、3 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "perchlorate-military-groundwater-detachment",
+      "title": "過氯酸銨基地地下水污染與聯邦規則脫節",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-17",
+      "notes": "**【機制】** 過氯酸鹽與碘競爭甲狀腺鈉碘共同運輸體，抑制甲狀腺攝碘；孕婦碘不足時，胎兒 T4 下降可損傷神經發育。GAO 彙整 90 項研究，26 項見不利效應，其中 18 項指向母體暴露的發育影響。（共 5 條核心發現、8 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "perchlorate-groundwater-remediation",
+      "title": "高氯酸鹽基地地下水污染嘅形成與修復代價",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-18",
+      "notes": "**【機制】** 火箭與炸藥廢料是源頭；Edwards 空軍基地與南加州火箭測試場的同位素簽名符合合成來源，可排除天然沉積或化肥背景解釋。（共 5 條核心發現、8 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "undersea-munitions-bivalve-bioaccumulation",
+      "title": "海底廢彈場內爆炸物嘅貽貝累積路徑",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-25-20",
+      "notes": "**【機制】** 轉移栽培的貽貝放在鏽蝕雷體旁只測得 4-ADNT。放在火山口內或附近的散落炸藥旁，則同時測得 TNT 與三種代謝物。該區最高實測 2-ADNT 104、4-ADNT 131、TNT 31 ng/g …（共 5 條核心發現、6 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "military-training-dust",
+      "title": "沙漠軍用訓練場揚塵：碾壓、濕度與車次取捨",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-26-02",
+      "notes": "**【機制】** 履帶車一趟即接近飽和：M1A1 首趟令 <20µm 粉塵潛勢平均升 569%，之後多趟無顯著增加。機制是表面塵土層已被反覆混合進含砂 B 層，粉塵產能被消耗。（共 5 條核心發現、7 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "erw-clearance-engineering",
+      "title": "地雷／未爆彈清除工程：搜尋面積主導成本",
+      "domain": "mil",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-10-26-20",
+      "notes": "機械割草後人工排雷效率平均升73.8%，中位升50%（190條通道、12個月）。主導變異不是機器速度，而是金屬污染決定偵測耗時。闢通道佔25%面積時，50%增益被攤薄至37.5%。（共 5 條核心發現、6 條來源）",
+      "domain_code": "mil"
+    },
+    {
+      "id": "01-secondary-foundation",
+      "title": "中學基礎與副學位路徑",
+      "domain": "edu",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-14",
+      "notes": "工程教育路徑總覽（報告 2026-10-22-14）拆出嘅子章節。",
+      "domain_code": "edu"
+    },
+    {
+      "id": "02-subdegree-certificate",
+      "title": "副學位與證書路徑",
+      "domain": "edu",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-14",
+      "notes": "工程教育路徑總覽（報告 2026-10-22-14）拆出嘅子章節。",
+      "domain_code": "edu"
+    },
+    {
+      "id": "03a-bachelors-civil-mech-elec",
+      "title": "學士三分支（Civil／Mechanical／Electrical）",
+      "domain": "edu",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-14",
+      "notes": "工程教育路徑總覽（報告 2026-10-22-14）拆出嘅子章節。",
+      "domain_code": "edu"
+    },
+    {
+      "id": "04-postgraduate-research",
+      "title": "研究生（碩士／博士）層級",
+      "domain": "edu",
+      "status": "building",
+      "coverage": 0.45,
+      "last_report": "2026-10-22-14",
+      "notes": "工程教育路徑總覽（報告 2026-10-22-14）拆出嘅子章節。",
+      "domain_code": "edu"
+    }
   ],
-  "core_ratio": 0.8,
-  "other_ratio": 0.2,
-  "window_start_utc": "2026-10-23T05:00:00Z",
-  "note": "用戶 2026-10-23 指示：主要做 AI/機械/軍事/土木工程科研 80%，其他工程科研 20%。quota.py 為唯一計算來源。"
- }
+  "domains_covered": {
+    "education_system_hk": 0.6,
+    "education_system_uk": 0.7,
+    "education_system_us": 0.5,
+    "professional_accreditation": 0.45,
+    "energy_affordability": 0.58,
+    "occupational_safety_heat": 0.55,
+    "low_carbon_cement": 0.5,
+    "amr_burden": 0.45,
+    "wastewater_arg": 0.35,
+    "hearing_cognition": 0.55,
+    "perovskite_tandem_pv": 0.5,
+    "nitrogen_use_efficiency": 0.45,
+    "malaria_vaccine": 0.5,
+    "pfas_water": 0.4,
+    "pm25_low_exposure": 0.45,
+    "ai_datacentre_grid_quality": 0.45,
+    "offshore_monopile_cathodic": 0.5,
+    "copper_supply_chain": 0.5,
+    "ev_transformer_ageing": 0.5,
+    "am_fat...ects": 0.4,
+    "military_child_lead_housing": 0.5,
+    "ai_package_hallucination_supply_chain": 0.5,
+    "city_landslide_alert_thresholds": 0.5,
+    "ai_hallucinated_package_attack_surface": 0.5,
+    "rcm_field_durability_gap": 0.5,
+    "deicing_salt_bridge_safety": 0.5,
+    "mech_metalworking_fluid_mist": 0.5
+  },
+  "updated_utc": "2026-10-27T07:10:00Z",
+  "quota": {
+    "core_domains": [
+      "ai",
+      "mech",
+      "mil",
+      "civil"
+    ],
+    "core_ratio": 0.8,
+    "other_ratio": 0.2,
+    "window_start_utc": "2026-10-23T05:00:00Z",
+    "note": "用戶 2026-10-23 指示：主要做 AI/機械/軍事/土木工程科研 80%，其他工程科研 20%。quota.py 為唯一計算來源。"
+  }
 }

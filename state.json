@@ -535,7 +535,7 @@
       "notes": "由 sync_state.py 由 2026-10-26-20 報告自動登記：6 條來源、659 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
     }
   },
-  "last_report_utc": "2026-10-26T20:00:00Z",
+  "last_report_utc": "2026-10-26T20:00Z",
   "history": [
     {
       "report": "2026-10-22-14",

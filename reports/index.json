@@ -899,19 +899,16 @@
     },
     "2026-10-26-20": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-26_20-49-34.md",
-      "bytes": 3488,
-      "cjk": 651,
+      "bytes": 3532,
+      "cjk": 659,
       "sources": 6,
-      "gate_pass": false,
-      "fails": [
-        "H1 結構: missing English heading 「Key Findings」"
-      ],
+      "gate_pass": true,
+      "fails": [],
       "warnings": [],
       "archived_by": "finalize.py",
-      "archived": true,
-      "archived_utc": "2026-10-26T20:51:02Z",
-      "archived_from": "/root/.hermes/sentinel/reports/2026-10-26-20.md"
+      "reverified_utc": "2026-10-27T02:27:51Z",
+      "archived": true
     }
   },
-  "updated_utc": "2026-10-26T20:51:02Z"
+  "updated_utc": "2026-10-27T02:27:51Z"
 }

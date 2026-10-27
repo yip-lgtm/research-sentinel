@@ -186,11 +186,13 @@ def main() -> None:
             target = REPORTS / f"{stamp}.md"
             archived_path = ARCHIVE / f"{stamp}.md"
             # 之前未過閘被 archive 咗，但可能已經人手修好 → 試下拉返上嚟
+            pulled_back = False
             if not target.exists() and archived_path.exists():
                 cand = run_gate(archived_path)
                 if cand.get("pass"):
                     target.parent.mkdir(parents=True, exist_ok=True)
                     archived_path.rename(target)
+                    pulled_back = True
                     log(f"finalize: {stamp} 已修正過閘，從 archive 拉回 reports/")
                 else:
                     target = archived_path
@@ -208,8 +210,17 @@ def main() -> None:
                     "archived_by": "finalize.py",
                     "reverified_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 }
-                if old.get("archived"):
+                # archived 只應該標「未過閘而存檔喺 archive/」嘅草稿。
+                # 2026-10-27 實測 bug：檔案由 archive 拉返 reports/（已過閘）之後，
+                # 舊邏輯無條件把 archived 旗標帶埋落去 → build_site.py 見 archived 就 skip
+                # → 呢份報告永遠上架唔到網站，但正文仲寫住「已上架」。
+                # 判斷依據應該係「當前檔案喺邊度」而唔係「歷史上曾經被 archive 過」。
+                if pulled_back:
+                    new_entry.pop("archived", None)
+                elif target.parent.resolve() == ARCHIVE.resolve():
                     new_entry["archived"] = True
+                else:
+                    new_entry.pop("archived", None)
                 # 未過閘 → 移去 archive（人手修正咗就唔好搬走）
                 if not gate.get("pass") and not old.get("archived"):
                     new_entry = archive_failed(stamp, target, new_entry)

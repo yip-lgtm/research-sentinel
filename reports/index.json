@@ -196,13 +196,13 @@
     },
     "2026-10-23-13": {
       "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-23_13-10-49.md",
-      "bytes": 5291,
+      "bytes": 5345,
       "cjk": 506,
       "sources": 3,
       "gate_pass": true,
       "fails": [],
       "warnings": [
-        "W11 存檔版 4021 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+        "W11 存檔版 4075 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
       ],
       "archived_by": "finalize.py"
     },
@@ -834,5 +834,5 @@
       "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-27T17:15:19Z"
+  "updated_utc": "2026-10-27T08:05:00Z"
 }

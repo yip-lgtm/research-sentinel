@@ -845,7 +845,17 @@
         "W9 核心發現提到模型／預測數字但冇敏感度或替代情境：須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動"
       ],
       "archived_by": "finalize.py"
+    },
+    "2026-10-29-22": {
+      "source": "/root/.hermes/cron/output/a1d898e84805/2026-10-29_22-00-48.md",
+      "bytes": 3849,
+      "cjk": 754,
+      "sources": 4,
+      "gate_pass": true,
+      "fails": [],
+      "warnings": [],
+      "archived_by": "finalize.py"
     }
   },
-  "updated_utc": "2026-10-28T21:29:39Z"
+  "updated_utc": "2026-10-29T22:03:24Z"
 }

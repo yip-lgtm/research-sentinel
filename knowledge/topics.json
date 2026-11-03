@@ -619,6 +619,16 @@
       "coverage": 0.55,
       "last_report": "2026-10-27-17",
       "notes": " 重啟可借用既有廠址、輸電接入與持牌人力。EIA 估算新建核電（brownfield 2×AP1000、2,156 MW）夜間資本成本 7,861 美元/kW，開發許可 32 個月加建造 52 個月，（共 6 條核心發現）"
+    },
+    {
+      "id": "drinking-water-dbp-bladder-cancer-attributable",
+      "title": "飲用水消毒副產物：8,000 例膀胱癌歸因數字的量化鏈與換消毒劑代價",
+      "domain": "化學／化工",
+      "domain_code": "chem",
+      "status": "building",
+      "coverage": 0.5,
+      "last_report": "2026-11-03-21",
+      "notes": "THM4 斜率 0.00427（6 個 case-control 合併，2,806 病例/5,254 對照）→ 套 SYR3 2011 實測分布 → 每年約 8,000 例可歸因（美國 79,000 例新發中 10%），74% 落在服務逾 10,000 人的地表水廠；THM4 40–80 µg/L 段服務 7,570 萬人、≤40 µg/L 段 1.154 億人。機制：Cl₂→HOCl→HOBr 鹵化 NOM 生成 THM/HAA，溴碘比越高越偏溴代（毒性更高）。敏感度：斜率下限 0.00164 → OR 1.016、歸因回落；EPA 自家 PAF 由 17.1%（Stage 1 前）降至 11.5%（Stage 1 後）；溴化副產物與 THM4 反向相關，低暴露組可能已帶更高毒性溴系暴露。替代假設：Stage 2 經濟分析——年成本平均 +$0.62、需增設處理的 1,016 萬戶平均 $5.53/P90 $10.04、小廠平均 $43.05/P90 $173.53；改氯胺＝THM 換 NDMA（IRIS 0.7 ng/L、加州目標 3 ng/L、無聯邦限值，UCMR2 10% 樣本檢出）。案例：1993 密爾沃基 Crypto 爆發 40.3 萬人腹瀉、總成本 9,620 萬美元；臭氧消毒淨約 1 DALY／百萬人年（風險降 7 倍 vs bromate 損失 >10 倍）。口徑陷阱：AML pooled OR 1.98 只來自單一研究且暴露代理係環境空氣，唔可與膀胱癌並列。缺口：全美 THM4/HAA5 median 與 P90、20,000 例 AML 數字、UV 反事實、換氯胺總成本、full-scale THM 降幅。來源 9 條（EHP/Epidemiology/OEM/Federal Register/PMC/NEJM/EID/ESWRT）。"
     }
   ],
   "domains_covered": {
@@ -648,9 +658,10 @@
     "ai_hallucinated_package_attack_surface": 0.5,
     "rcm_field_durability_gap": 0.5,
     "deicing_salt_bridge_safety": 0.5,
-    "mech_metalworking_fluid_mist": 0.5
+    "mech_metalworking_fluid_mist": 0.5,
+    "drinking_water_dbp": 0.5
   },
-  "updated_utc": "2026-10-27T07:55:00Z",
+  "updated_utc": "2026-11-03T21:00:00Z",
   "quota": {
     "core_domains": [
       "ai",

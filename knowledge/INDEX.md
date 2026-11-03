@@ -2,7 +2,7 @@
 
 科研哨兵的持久化知識體系。所有內容寫入磁碟，不依賴單次對話記憶。
 
-（自動生成 · 62 個章節 · 62 條主題登記 · 同步於 2026-10-27T07:55:00Z）
+（自動生成 · 63 個章節 · 63 條主題登記 · 同步於 2026-11-03T21:00:00Z）
 
 ## 目錄
 
@@ -64,6 +64,7 @@
 | `military-pfas-foam-phaseout-gap` | 美軍 PFAS 泡沫禁令嘅終止污染與替代物遷移 | `2026-10-24-22` | [章節](sections/military-pfas-foam-phaseout-gap.md) |
 | `ammonium-perchlorate-mcl-thyroid` | 高氯酸銨飲用水 MCL 選項與甲狀腺風險門檻 | `2026-10-24-20` | [章節](sections/ammonium-perchlorate-mcl-thyroid.md) |
 | `perchlorate-national-mcl-conflict` | 高氯酸鹽：EPA 擬議規則與健康風險嘅矛盾 | `2026-10-24-15` | [章節](sections/perchlorate-national-mcl-conflict.md) |
+| `drinking-water-dbp-bladder-cancer-attributable` | 飲用水消毒副產物：8,000 例膀胱癌歸因數字的量化鏈與換消毒劑代價 | `2026-11-03-21` | [章節](sections/drinking-water-dbp-bladder-cancer-attributable.md) |
 | **醫療／生物工程** | | | |
 | `hearing-cognition-risk-stratified` | 助聽干預與認知（總體陰性 vs 風險分層有效） | `2026-10-22-22` | [章節](sections/hearing-cognition-risk-stratified.md) |
 | `sepsis-ai-model-outcome-benefit` | 專有敗血症 AI 模型能否改善病人結果 | `2026-10-24-05` | [章節](sections/sepsis-ai-model-outcome-benefit.md) |
@@ -84,7 +85,7 @@
 
 ## 覆蓋登記
 
-已登記主題共 62 條（`knowledge/topics.json`），章節檔 62 個（`knowledge/sections/`）。
+已登記主題共 63 條（`knowledge/topics.json`），章節檔 63 個（`knowledge/sections/`）。
 防重複機制依賴 topics.json 嘅 domain_code 分佈；配額由 `quota.py` 即時推導，唔手寫。
 
 ## 原則
@@ -98,3 +99,4 @@
 - `2026-10-27`：INDEX.md 由舊版 13 章節表重生成為全量（56+ 章節），格式改為 slug/報告/章節三欄。
 - `2026-10-27`：`state.json` 統計改為由 `reports/index.json` 推導（`sync_state.py`）。
 - `2026-10-27`：9 份過閘報告內「未存檔／未過閘」自述已改為實際完成狀態（假陳述清理）。
+- `2026-11-03`：新增 `drinking-water-dbp-bladder-cancer-attributable`（化學／化工，消毒副產物 → 膀胱癌歸因 → 換消毒劑成本）。

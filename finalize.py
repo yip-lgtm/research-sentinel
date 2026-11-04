@@ -82,6 +82,64 @@ def looks_like_report(body: str) -> bool:
     return all(k in body for k in need)
 
 
+def looks_like_error(body: str) -> bool:
+    """判斷 Response 係咪「上游失敗」而唔係真報告。
+
+    2026-11-01~03 實測 bug：cron 個 LLM 步驟撞 Token Plan 429，Response 變成
+    「API call failed after 3 retries: HTTP 429 ...」錯誤字串。但報告本身其實
+    已經喺磁碟寫好、過咗品質閘、commit 咗 —— finalize.py 只見到 Response 唔似
+    報告就直接跳過，令 index.json 冇條目、build_site 唔上架、用戶只收到錯誤訊息。
+    """
+    markers = (
+        "API call failed",
+        "HTTP 429",
+        "HTTP 4\d\d",
+        "HTTP 5\d\d",
+        "Traceback (most recent call last)",
+        "usage limit has been reached",
+    )
+    return any(re.search(p, body[:2000]) for p in markers)
+
+
+def rescue_disk_report(stamp: str, src: Path, body: str, idx: dict) -> bool:
+    """Response 係錯誤字串，但磁碟已有同時間戳嘅過閘報告 → 補返 index 條目。
+
+    呢個分支解掉「報告生成咗但投遞死咗」：LLM 尾段撞 429，報告檔已經落盤
+    （agent 自己寫嘅），但 finalize.py 唔識認。於是補 index → build_site
+    上架 → 用戶喺網站見到報告。而 Telegram 投遞由 sentinel/deliver.py 補發。
+    """
+    target = REPORTS / f"{stamp}.md"
+    archived_path = ARCHIVE / f"{stamp}.md"
+    if not target.exists():
+        if archived_path.exists():
+            target = archived_path
+        else:
+            return False
+    gate = run_gate(target)
+    if not gate.get("pass"):
+        # 磁碟有稿但過唔到閘 → 照舊 archive 語意，唔當救援成功
+        log(f"finalize: 磁碟有 {stamp} 但品質閘 FAIL，唔補 index")
+        return False
+    entry = {
+        "source": str(src),
+        "bytes": gate.get("bytes", target.stat().st_size),
+        "cjk": gate.get("cjk"),
+        "sources": gate.get("sources"),
+        "gate_pass": True,
+        "fails": [],
+        "warnings": gate.get("warnings", []),
+        "archived_by": "finalize.py",
+        "rescued_from_error_response": True,
+        "error_response_head": body[:200],
+        "reverified_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+    }
+    if target.parent.resolve() == ARCHIVE.resolve():
+        entry["archived"] = True
+    idx["reports"][stamp] = entry
+    save_index(idx)
+    log(f"finalize: 救援 — Response 係錯誤字串，但磁碟有過閘報告 {stamp}，已補 index")
+    return True
+
 def run_gate(path: Path) -> dict:
     r = run([sys.executable, str(GATE), str(path), "--json"])
     try:
@@ -180,7 +238,14 @@ def main() -> None:
             log(f"finalize: 品質閘 {stamp} -> {'PASS' if gate.get('pass') else 'FAIL'}"
                 + ("" if gate.get("pass") else f" {gate.get('fails')}"))
         elif stamp not in idx["reports"]:
-            log(f"finalize: {stamp} Response 不似完整報告（五段缺漏），只做 git 同步")
+            if looks_like_error(body):
+                # 上游失敗（429/5xx）但磁碟可能已經有過閘報告 → 試救援
+                if rescue_disk_report(stamp, src, body, idx):
+                    pass
+                else:
+                    log(f"finalize: {stamp} Response 係錯誤字串（上游失敗），磁碟亦無過閘報告 → 只做 git 同步")
+            else:
+                log(f"finalize: {stamp} Response 不似完整報告（五段缺漏），只做 git 同步")
         else:
             # 已存檔但可能被人手修正（例如修 H6 項目符號、切 bytes）→ 重跑品質閘更新 index
             target = REPORTS / f"{stamp}.md"

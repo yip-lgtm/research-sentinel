@@ -4,22 +4,12 @@
    "ok": true,
    "chars": 3425,
    "mdv2_chars": 3513,
-   "delivered_utc": "2026-11-04T18:03:57Z",
+   "delivered_utc": "2026-11-04T18:07:03Z",
    "chat_id": "8475453959",
-   "dry_run": true,
+   "dry_run": false,
    "source_file": "/root/.hermes/sentinel/reports/2026-11-03-21.md",
-   "fallback_plain": false
-  },
-  "2026-10-29-22": {
-   "ok": true,
-   "chars": 2036,
-   "mdv2_chars": 2110,
-   "delivered_utc": "2026-11-04T18:03:58Z",
-   "chat_id": "8475453959",
-   "dry_run": true,
-   "source_file": "/root/.hermes/sentinel/reports/2026-10-29-22.md",
    "fallback_plain": false
   }
  },
- "updated_utc": "2026-11-04T18:03:58Z"
+ "updated_utc": "2026-11-04T18:07:03Z"
 }

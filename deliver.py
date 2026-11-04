@@ -146,6 +146,10 @@ def deliver_stamp(stamp: str, chat_id: str, force: bool = False, dry_run: bool =
     if not res.get("ok"):
         return {"ok": False, "reason": f"telegram 失敗: {res.get('description')}", "stamp": stamp}
 
+    if dry_run:
+        log(f"[dry-run] {stamp} 會投遞 {len(delivery)} chars（冇真送，冇寫 ledger）")
+        return {"ok": True, "stamp": stamp, "chars": len(delivery), "dry_run": True}
+
     led["delivered"][stamp] = {
         "ok": True,
         "chars": len(delivery),

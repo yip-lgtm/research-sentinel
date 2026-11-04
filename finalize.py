@@ -201,6 +201,30 @@ def sync_git(message: str) -> str:
     return out[:300] or f"push_rc={r.returncode}"
 
 
+def deliver_pending() -> None:
+    """自動補投遞「過咗閘但從未送到 Telegram」嘅報告。
+
+    2026-11-04 實測 bug：cron 個 LLM 步驟撞 Token Plan 429 → Response 變成
+    「API call failed」錯誤字串 → 用戶只收到錯誤訊息，報告本身就算喺磁碟寫好
+    都冇人見到。finalize.py 有 send_to_channel() 但係死碼，從來冇被呼叫。
+
+    呢個鉤子每輪（keepalive 每 3 分鐘觸發）都會行，用 sentinel/deliver.py：
+      - 品質閘重驗 → 過閘先生成投遞版（≤3900 chars）
+      - 冇投遞過先送（delivery.json ledger 記錄，冪等）
+      - 送完更新 index.json 嘅 delivered_utc
+    """
+    script = REPO / "deliver.py"
+    if not script.exists():
+        return
+    try:
+        r = run([sys.executable, str(script), "--rescue-missing"], timeout=180)
+        out = (r.stdout or "").strip().replace("\n", " | ")
+        if out:
+            log(f"finalize: 補投遞 -> {out[:300]}")
+    except Exception as exc:  # noqa: BLE001
+        log(f"finalize: 補投遞失敗 {type(exc).__name__}: {exc}")
+
+
 def main() -> None:
     idx = load_index()
 

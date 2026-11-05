@@ -264,6 +264,10 @@ def rescue_missing(chat_id: str, force: bool = False, dry_run: bool = False) -> 
 
 
 def main() -> int:
+    # load_env() 一定要喺 argparse 之前叫：--chat-id 嘅 default 會讀
+    # TELEGRAM_HOME_CHANNEL，而 supervisord 起嘅 process 環境冇呢個 var
+    #（只有 HERMES_HOME + PATH）。唔 load 就會跌落 hardcode fallback。
+    load_env()
     ap = argparse.ArgumentParser(description="哨兵 Telegram 確定性投遞器")
     ap.add_argument("--report", help="報告檔路徑")
     ap.add_argument("--stamp", help="報告時間戳，例如 2026-11-03-21")

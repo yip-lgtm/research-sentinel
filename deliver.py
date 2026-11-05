@@ -13,8 +13,14 @@
 用法：
   python3 deliver.py --report reports/2026-11-03-21.md
   python3 deliver.py --stamp 2026-11-03-21
-  python3 deliver.py --rescue-missing     # 補所有「過閘但從未投遞」嘅報告
   python3 deliver.py --list               # 睇投遞狀態
+
+⚠️ 刻意冇 --rescue-missing 全量掃描（2026-11-05 實測教訓）：
+  index.json 入面 60+ 份舊報告嘅 delivered_utc 都係 None，但嗰啲報告實際上
+  由 gateway 正常投遞咗（cron Response → Telegram）。ledger 只記錄 deliver.py
+  自己送過嘅，所以全量掃描會令用戶一次過收到幾十份舊報告。
+  補投遞只可以精準打一個 stamp（finalize.py 喺「Response 係錯誤字串」分支
+  呼叫 --stamp），唔可以全量。
 
 投遞版一律用 quality_gate.py --delivery 產生（≤3900 chars），唔可以直接貼
 存檔版 —— gateway 只保留 3800 chars，貼長版用戶只見尾部（用戶投訴過）。
@@ -38,6 +44,30 @@ API = "https://api.telegram.org/bot{token}/{method}"
 
 def log(msg: str) -> None:
     print(f"{time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())} deliver: {msg}", flush=True)
+
+
+def load_env() -> None:
+    """由 /root/.hermes/.env 載入 TELEGRAM_BOT_TOKEN。
+
+    2026-11-05 實測 bug：keepalive 由 supervisord  起，環境只有 HERMES_HOME
+    同 PATH，冇 TELEGRAM_BOT_TOKEN → telegram_send() 直接 RuntimeError，
+    補投遞永遠失敗。token 其實喺 /root/.hermes/.env，要自己讀。
+    """
+    env_file = HERMES_HOME / ".env"
+    if not env_file.exists():
+        return
+    try:
+        for line in env_file.read_text(encoding="utf-8", errors="ignore").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, _, v = line.partition("=")
+            k = k.strip()
+            v = v.strip().strip('"').strip("'")
+            if k and v and not os.environ.get(k):
+                os.environ[k] = v
+    except Exception as exc:  # noqa: BLE001
+        log(f"讀 .env 失敗（{type(exc).__name__}: {exc}）")
 
 
 def load_ledger() -> dict:
@@ -85,9 +115,10 @@ def to_mdv2(text: str) -> str:
 
 
 def telegram_send(text: str, chat_id: str, dry_run: bool = False) -> dict:
+    load_env()
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
-        raise RuntimeError("TELEGRAM_BOT_TOKEN 未設定")
+        raise RuntimeError("TELEGRAM_BOT_TOKEN 未設定（.env 都搵唔到）")
     if dry_run:
         return {"ok": True, "dry_run": True, "chars": len(text)}
     import requests
@@ -138,6 +169,15 @@ def deliver_stamp(stamp: str, chat_id: str, force: bool = False, dry_run: bool =
         return {"ok": True, "reason": "已投遞過（冪等跳過）", "stamp": stamp,
                 "delivered_utc": rec.get("delivered_utc")}
 
+    # 第二重冪等：index.json 嘅 delivered_utc 都係投遞證據。
+    # 2026-11-05 實測：2026-10-29-22 index 有 delivered_utc 但 ledger 冇
+    # （當時用 deliver.py 送過但 ledger 格式未更新），單靠 ledger 會重複發。
+    if not force:
+        idx_rec = index_entry(stamp)
+        if idx_rec.get("delivered_utc"):
+            return {"ok": True, "reason": "index 已記錄投遞（冪等跳過）", "stamp": stamp,
+                    "delivered_utc": idx_rec.get("delivered_utc")}
+
     delivery = make_delivery(path)
     if len(delivery) > 3900:
         return {"ok": False, "reason": f"投遞版 {len(delivery)} chars > 3900"}
@@ -184,7 +224,19 @@ def save_index_delivery(stamp: str, rec: dict) -> None:
 
 
 def rescue_missing(chat_id: str, force: bool = False, dry_run: bool = False) -> list:
-    """補投遞所有「過閘但從未投遞」嘅報告（由舊到新，唔會打亂順序）。"""
+    """補投遞「過咗閘但從未送到 Telegram」嘅報告。
+
+    ⚠️ 2026-11-05：呢個全量掃描已被刻意廢棄（只保留 --rescue-missing 作
+    人工／一次性用途，唔會喺自動化流程裡面行）。
+
+    原因：index.json 入面 60+ 份舊報告嘅 delivered_utc 都係 None，但嗰啲報告
+    實際上係由 gateway 正常投遞咗（cron Response → Telegram）。delivery.json
+    ledger 只記錄 deliver.py 自己送過嘅，所以用 ledger 做「未投遞」判據會
+    造成大量重複投遞。
+
+    自動化流程只會精準打一個 stamp（--stamp），由 finalize.py 喺「Response 係
+    錯誤字串」嗰個分支觸發。
+    """
     led = load_ledger()
     out = []
     candidates = sorted(

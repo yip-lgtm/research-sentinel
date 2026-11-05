@@ -58,7 +58,8 @@ def save_index(idx: dict) -> None:
     idx["updated_utc"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     INDEX.parent.mkdir(parents=True, exist_ok=True)
     tmp = INDEX.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(idx, ensure_ascii=False, indent=2))
+    # indent=1 + 尾 newline：同 deliver.py / build_site.py 一致，唔好整個檔案重排
+    tmp.write_text(json.dumps(idx, ensure_ascii=False, indent=1) + "\n")
     os.replace(tmp, INDEX)
 
 
@@ -138,6 +139,9 @@ def rescue_disk_report(stamp: str, src: Path, body: str, idx: dict) -> bool:
     idx["reports"][stamp] = entry
     save_index(idx)
     log(f"finalize: 救援 — Response 係錯誤字串，但磁碟有過閘報告 {stamp}，已補 index")
+    # 精準補投遞：Response 係錯誤字串 → 用戶收唔到報告正文，必須補送。
+    # 只送呢一個 stamp，唔做全量掃描（避免重複投遞舊報告）。
+    deliver_stamp(stamp)
     return True
 
 def run_gate(path: Path) -> dict:
@@ -201,28 +205,29 @@ def sync_git(message: str) -> str:
     return out[:300] or f"push_rc={r.returncode}"
 
 
-def deliver_pending() -> None:
-    """自動補投遞「過咗閘但從未送到 Telegram」嘅報告。
+def deliver_stamp(stamp: str) -> None:
+    """精準補投遞一個指定報告（只有「Response 係錯誤字串」時先會叫）。
 
-    2026-11-04 實測 bug：cron 個 LLM 步驟撞 Token Plan 429 → Response 變成
-    「API call failed」錯誤字串 → 用戶只收到錯誤訊息，報告本身就算喺磁碟寫好
-    都冇人見到。finalize.py 有 send_to_channel() 但係死碼，從來冇被呼叫。
+    2026-11-04~05 實測 bug（兩層）：
+      1. cron 個 LLM 步驟撞 Token Plan 429 → Response 變成「API call failed」
+         錯誤字串 → 用戶只收到錯誤訊息，報告本身就算喺磁碟寫好都冇人見到。
+         finalize.py 有 send_to_channel() 但係死碼，從來冇被呼叫。
+      2. 原本打算行 deliver.py --rescue-missing 全量掃描，但 index.json 入面
+         60+ 份舊報告 delivered_utc 都係 None —— 嗰啲實際上由 gateway 正常
+         投遞咗。全量掃描會令用戶一次過收到幾十份舊報告。
 
-    呢個鉤子每輪（keepalive 每 3 分鐘觸發）都會行，用 sentinel/deliver.py：
-      - 品質閘重驗 → 過閘先生成投遞版（≤3900 chars）
-      - 冇投遞過先送（delivery.json ledger 記錄，冪等）
-      - 送完更新 index.json 嘅 delivered_utc
+    所以：只喺 rescue_disk_report() 成功（Response 係錯誤字串 + 磁碟有過閘
+    報告）之後，精準補投遞嗰一個 stamp。正常投遞路徑唔會經過呢度。
     """
     script = REPO / "deliver.py"
     if not script.exists():
         return
     try:
-        r = run([sys.executable, str(script), "--rescue-missing"], timeout=180)
+        r = run([sys.executable, str(script), "--stamp", stamp], timeout=180)
         out = (r.stdout or "").strip().replace("\n", " | ")
-        if out:
-            log(f"finalize: 補投遞 -> {out[:300]}")
+        log(f"finalize: 補投遞 {stamp} -> rc={r.returncode} {out[:300]}")
     except Exception as exc:  # noqa: BLE001
-        log(f"finalize: 補投遞失敗 {type(exc).__name__}: {exc}")
+        log(f"finalize: 補投遞 {stamp} 失敗 {type(exc).__name__}: {exc}")
 
 
 def main() -> None:
@@ -274,6 +279,16 @@ def main() -> None:
             # 已存檔但可能被人手修正（例如修 H6 項目符號、切 bytes）→ 重跑品質閘更新 index
             target = REPORTS / f"{stamp}.md"
             archived_path = ARCHIVE / f"{stamp}.md"
+
+            # 補投遞缺口（2026-11-05 實測）：呢個 else 分支原本只做重驗，
+            # 唔會補投遞。上一輪已經 rescue 咗（index 有條目）但 Telegram 投遞
+            # 死咗嘅話，就永遠冇人見到報告正文 —— 冇 deadline 嘅死檔。
+            # 所以：Response 係錯誤字串 + index 有過閘報告 + 未記錄投遞 → 補送。
+            if looks_like_error(body):
+                entry0 = idx["reports"].get(stamp, {})
+                if entry0.get("gate_pass") and not entry0.get("delivered_utc"):
+                    log(f"finalize: {stamp} 已 rescue 但未見投遞記錄 → 補投遞")
+                    deliver_stamp(stamp)
             # 之前未過閘被 archive 咗，但可能已經人手修好 → 試下拉返上嚟
             pulled_back = False
             if not target.exists() and archived_path.exists():

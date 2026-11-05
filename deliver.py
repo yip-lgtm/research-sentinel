@@ -206,6 +206,17 @@ def deliver_stamp(stamp: str, chat_id: str, force: bool = False, dry_run: bool =
     return {"ok": True, "stamp": stamp, "chars": len(delivery)}
 
 
+def index_entry(stamp: str) -> dict:
+    """讀 index.json 入面某個報告嘅條目（讀唔到就回空 dict）。"""
+    if not INDEX.exists():
+        return {}
+    try:
+        idx = json.loads(INDEX.read_text())
+    except Exception:
+        return {}
+    return idx.get("reports", {}).get(stamp, {}) or {}
+
+
 def save_index_delivery(stamp: str, rec: dict) -> None:
     """喺 index.json 記低投遞時間，方便網站顯示。"""
     if not INDEX.exists():

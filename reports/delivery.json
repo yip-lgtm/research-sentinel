@@ -9,7 +9,17 @@
    "dry_run": false,
    "source_file": "/root/.hermes/sentinel/reports/2026-11-03-21.md",
    "fallback_plain": false
+  },
+  "2026-11-05-21": {
+   "ok": true,
+   "chars": 3492,
+   "mdv2_chars": 3596,
+   "delivered_utc": "2026-11-06T00:50:42Z",
+   "chat_id": "8475453959",
+   "dry_run": false,
+   "source_file": "/root/.hermes/sentinel/reports/2026-11-05-21.md",
+   "fallback_plain": false
   }
  },
- "updated_utc": "2026-11-04T18:07:03Z"
+ "updated_utc": "2026-11-06T00:50:42Z"
 }

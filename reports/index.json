@@ -877,23 +877,17 @@
   },
   "2026-11-05-21": {
    "source": "/root/.hermes/cron/output/a1d898e84805/2026-11-05_21-23-00.md",
-   "bytes": 8466,
-   "cjk": 995,
+   "bytes": 8346,
+   "cjk": 996,
    "sources": 10,
    "gate_pass": true,
    "fails": [],
    "warnings": [
-    "W9 核心發現提到模型／預測數字但冇敏感度或替代情境：須加【敏感度】或【替代假設】條目，說明假設改變後結論如何變動",
-    "W10 潛在影響冇任何具體案例（州／城市／示範／實測）：須至少給一個可核查的具體傳導路徑或案例",
-    "W11 存檔版 6115 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+    "W11 存檔版 5995 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
    ],
    "archived_by": "finalize.py",
-   "rescued_from_error_response": true,
-   "error_response_head": "API call failed after 3 retries: HTTP 429: The Token Plan usage limit has been reached. To avoid interruption, please upgrade your plan or buy credits and turn on auto consumption. (2067)",
-   "reverified_utc": "2026-11-06T00:50:40Z",
-   "delivered_utc": "2026-11-06T00:50:42Z",
-   "delivery_chars": 3492
+   "reverified_utc": "2026-11-06T00:53:39Z"
   }
  },
- "updated_utc": "2026-11-06T00:50:42Z"
+ "updated_utc": "2026-11-06T00:53:39Z"
 }

@@ -82,10 +82,11 @@
 | `nitrogen-nue-loss-reduction` | 氮效率：減氮增產的機制、外部成本與可規模化邊界 | `2026-10-23-00` | [章節](sections/nitrogen-nue-loss-reduction.md) |
 | `malaria-vaccine-mortality-mechanism` | 瘧疾疫苗：36% 效力 vs 13% 兒童死亡下降的機制落差 | `2026-10-23-02` | [章節](sections/malaria-vaccine-mortality-mechanism.md) |
 | `occupational-heat-health-burden` | 職業熱害防護與健康負擔落差 | `2026-10-22-17` | [章節](sections/occupational-heat-health-burden.md) |
+| `ai-model-collapse-synthetic-data` | 模型崩壞與合成資料回灌：1% 門檻、累加與替換的量化差、WildAI 算力稅 | `2026-11-06-21` | [章節](sections/ai-model-collapse-synthetic-data.md) |
 
 ## 覆蓋登記
 
-已登記主題共 63 條（`knowledge/topics.json`），章節檔 63 個（`knowledge/sections/`）。
+已登記主題共 64 條（`knowledge/topics.json`），章節檔 64 個（`knowledge/sections/`）。
 防重複機制依賴 topics.json 嘅 domain_code 分佈；配額由 `quota.py` 即時推導，唔手寫。
 
 ## 原則

@@ -4,7 +4,7 @@
   "level": 17,
   "lifespan_hours": 99,
   "lifespan_hours_max": 99,
-  "reports_total": 65,
+  "reports_total": 66,
   "reports_qualified": 16,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -544,9 +544,16 @@
       "fail": 0,
       "level": 1,
       "notes": "2026-11-03 21:00 報告（飲用水消毒副產物：8,000 例膀胱癌歸因數字的量化鏈）已投遞，用戶未評分。優點：劑量→風險兩段鏈清楚（合併斜率 0.00427 → SYR3 實測分布 → 74% 集中於大型地表水廠）；機制解釋溴碘比改變產物毒性組成；敏感度用斜率下限與 EPA 自家 PAF 17.1%→11.5% 兩把尺；替代假設有 Stage 2 成本分層（$0.62 / $5.53 / $43.05 / P90 $173.53）與氯胺 NDMA 置換；案例為 1993 密爾沃基 40.3 萬人腹瀉、9,620 萬美元。口徑陷阱主動標註 AML 端只靠單一研究且暴露代理係環境空氣。缺口：全美 THM4/HAA5 分位數、20,000 例 AML 數字、UV 反事實、換氯胺總成本、full-scale THM 降幅未取得。"
+    },
+    "ai-model-collapse-synthetic-data": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.6,
+      "verdict": "pending",
+      "notes": "2026-11-06 21:00 報告：模型崩壞／合成資料回灌。6 條一手來源（Nature 630 + 5 篇 arXiv），全部數字逐條核對原文；含【機制】【量化】【敏感度】及兩個具體案例。待用戶評分。"
     }
   },
-  "last_report_utc": "2026-11-03T21:00:00Z",
+  "last_report_utc": "2026-11-06T21:00:00Z",
   "history": [
     {
       "report": "2026-10-22-14",

@@ -1,0 +1,109 @@
+{
+ "topic_id": "ai-model-collapse-synthetic-data",
+ "report": "2026-11-06-21",
+ "report_utc": "2026-11-06T21:00:00Z",
+ "domain": "AI 工程",
+ "domain_code": "ai",
+ "title": "AI 內容回灌訓練集：崩潰門檻與一個已量化的臨界點",
+ "section_file": "knowledge/sections/ai-model-collapse-synthetic-data.md",
+ "quality_gate": {
+  "pass": true,
+  "cjk": 1000,
+  "bytes": 7629,
+  "chars": 5255,
+  "sources": 6,
+  "warnings": [
+   "W11 存檔版 5255 chars 超過投遞上限 3900（已用 --delivery 投遞版處理）"
+  ]
+ },
+ "gaps": [
+  "未找到醫療／科學檢索等高風險下游的崩潰量化實測",
+  "未找到稀有知識稀釋度的跨領域量化關係",
+  "未找到真實網絡混合污染下累加真實資料策略的量化驗證",
+  "未找到模型崩壞對人類福祉終端影響（資訊真確性／選舉／醫療誤診）的估計"
+ ],
+ "sources": [
+  {
+   "institution": "Nature",
+   "title": "AI models collapse when trained on recursively generated data",
+   "authors": "Shumailov et al.",
+   "date": "2024-07-24",
+   "venue": "Nature 630",
+   "url": "https://www.nature.com/articles/s41586-024-07566-y",
+   "supports": [
+    "崩潰源自取樣步驟統計誤差，尾部先消失",
+    "狀態機率 q≤1/M 時期望出現 qM≤1 次",
+    "分佈支撐集隨代數收縮"
+   ]
+  },
+  {
+   "institution": "arXiv",
+   "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+   "authors": "Gerstgrasser et al.",
+   "date": "2024-04-29",
+   "venue": "arXiv:2404.01413v2",
+   "url": "https://arxiv.org/abs/2404.01413",
+   "supports": [
+    "GPT-2(9M) t=1 1.82 / t=4 累加 1.74 替換 2.39 / t=10 替換 2.91",
+    "溫度 0.3 時 t=10 替換 9.85",
+    "Llama-2(126M) 1.71→1.59 vs 2.23",
+    "GeoDiff GEOM-Drugs 4 萬構象同結論"
+   ]
+  },
+  {
+   "institution": "arXiv",
+   "title": "Strong Model Collapse",
+   "authors": "Dohmatob et al.",
+   "date": "2024-10-08",
+   "venue": "arXiv:2410.04840",
+   "url": "https://arxiv.org/abs/2410.04840",
+   "supports": [
+    "合成資料佔 1% 即令更大數據集不再提升性能",
+    "更大模型反而放大崩潰",
+    "模型規模不是保險"
+   ]
+  },
+  {
+   "institution": "arXiv (Pangram Labs)",
+   "title": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
+   "authors": "Russell et al.",
+   "date": "2026-09-30",
+   "venue": "arXiv:2609.40295",
+   "url": "https://arxiv.org/abs/2609.40295",
+   "supports": [
+    "2026-06 網絡 token 27.5% 為 AI 生成、2026-08 31.1%、2024-06 10.1%",
+    "800 模型 19.9M–973M 參數",
+    "算力稅 1.6 倍（2026-08）/2.1 倍（2027）/3.0 倍（2028）",
+    "FineWeb 2.3 倍、DCLM 9.8 倍偏選 AI 文件",
+    "22.3% AI 比例混合驗證集掩蓋 95.5% 有害實驗",
+    "AI 比例 r>0.08 後收益轉負"
+   ]
+  },
+  {
+   "institution": "arXiv",
+   "title": "AI Slop is DDoSing Open Source",
+   "authors": "Afroz et al.",
+   "date": "2026-07-04",
+   "venue": "arXiv:2607.04003",
+   "url": "https://arxiv.org/abs/2607.04003",
+   "supports": [
+    "294 個倉庫、逾 200 萬個 PR/issue",
+    "一次性貢獻者合併率相對反事實 -18.18%"
+   ]
+  },
+  {
+   "institution": "arXiv",
+   "title": "Drowning in AI Slop: How Social Media Platforms Label AI and Deepfake Content",
+   "authors": "Rijsbosch et al.",
+   "date": "2026-09-29",
+   "venue": "arXiv:2609.38571",
+   "url": "https://arxiv.org/abs/2609.38571",
+   "supports": [
+    "10,722 帖、500 帖專家標註、控制上傳 10 款工具",
+    "系統性風險語境深偽僅 33% 帶平台自動標籤",
+    "中位觀看量 16 萬",
+    "帶 AI 溯源訊號上傳僅 61% 被標籤"
+   ]
+  }
+ ]
+}

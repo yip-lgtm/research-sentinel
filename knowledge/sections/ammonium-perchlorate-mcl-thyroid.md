@@ -1,6 +1,8 @@
 # 高氯酸銨飲用水 MCL 選項與甲狀腺風險門檻
 
-領域：health ｜ 主題 slug：`ammonium-perchlorate-mcl-thyroid` ｜ 對應報告：`2026-10-24-20`
+- domain：健康暴露（health）
+
+領域：健康暴露｜ 主題 slug：`ammonium-perchlorate-mcl-thyroid` ｜ 對應報告：`2026-10-24-20`
 
 ## 核心事實
 

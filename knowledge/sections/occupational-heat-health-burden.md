@@ -1,8 +1,11 @@
 # 領域筆記：職業熱害防護與健康負擔落差 (Occupational Heat Protection & Health Burden Gap)
 
+領域：公共政策與基礎設施 ｜ 主題 slug：`occupational-heat-health-burden`
+
 首次寫入：2026-10-22 17:00 UTC（用戶評分「合格」）
 主題 id：`occupational-heat-health-burden`
 狀態：building
+- domain：公共政策與基礎設施（pubpol）
 
 ## 已驗證核心事實（附來源）
 

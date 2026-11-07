@@ -1,8 +1,11 @@
 # 領域筆記：助聽干預與認知（總體陰性 vs 風險分層有效） (Hearing Intervention & Cognition: Overall Null vs Risk-Stratified Effect)
 
+領域：健康暴露 ｜ 主題 slug：`hearing-cognition-risk-stratified`
+
 首次寫入：2026-10-23 02:35 UTC
 主題 id：`hearing-loss-cognitive-intervention`
 狀態：building
+- domain：健康暴露（health）
 對應報告：`2026-10-22-22`（用戶評「合格」→ L3→L4）
 
 ## 已驗證核心事實（附來源）

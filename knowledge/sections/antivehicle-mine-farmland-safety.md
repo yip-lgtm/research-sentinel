@@ -1,6 +1,8 @@
 # 反車載地雷與農機耕作安全落差
 
-領域：mil ｜ 主題 slug：`antivehicle-mine-farmland-safety` ｜ 對應報告：`2026-10-23-14`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`antivehicle-mine-farmland-safety` ｜ 對應報告：`2026-10-23-14`
 
 ## 核心事實
 

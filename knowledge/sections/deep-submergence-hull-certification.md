@@ -1,6 +1,8 @@
 # 深潛載具壓力殼獨立檢驗與 96 小時救援
 
-領域：mil ｜ 主題 slug：`deep-submergence-hull-certification` ｜ 對應報告：`2026-10-25-14`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`deep-submergence-hull-certification` ｜ 對應報告：`2026-10-25-14`
 
 ## 核心事實
 

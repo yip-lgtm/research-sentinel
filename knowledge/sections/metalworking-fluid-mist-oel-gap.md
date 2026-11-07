@@ -1,8 +1,11 @@
 # 金屬切削液油霧：暴露限值落差與工程控制（metalworking-fluid-mist-oel-gap）
 
+領域：機械工程 ｜ 主題 slug：`metalworking-fluid-mist-oel-gap`
+
 首次寫入時間：2026-10-24T12:00:00Z
 主題 id：metalworking-fluid-mist-oel-gap
 狀態：building（coverage 0.5）
+- domain：機械工程（mech）
 
 ## 已驗證核心事實（附來源）
 

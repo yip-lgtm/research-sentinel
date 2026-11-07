@@ -1,6 +1,8 @@
 # 美軍露天燃燒／引爆與高氯酸鹽飲用水傳導
 
-領域：mil ｜ 主題 slug：`ob-od-perchlorate-drinking-water` ｜ 對應報告：`2026-10-23-16`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`ob-od-perchlorate-drinking-water` ｜ 對應報告：`2026-10-23-16`
 
 ## 核心事實
 

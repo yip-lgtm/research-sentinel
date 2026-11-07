@@ -1,6 +1,8 @@
 # 海軍船殼污損嘅水阻與油耗成本落差
 
-領域：mil ｜ 主題 slug：`naval-hull-fouling-fuel-cost` ｜ 對應報告：`2026-10-25-15`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`naval-hull-fouling-fuel-cost` ｜ 對應報告：`2026-10-25-15`
 
 ## 核心事實
 

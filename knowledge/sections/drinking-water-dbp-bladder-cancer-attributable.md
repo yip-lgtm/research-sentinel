@@ -1,9 +1,11 @@
 # 飲用水消毒副產物（DBP）：劑量鏈、可歸因病例與換消毒劑的代價
 
+領域：健康暴露 ｜ 主題 slug：`drinking-water-dbp-bladder-cancer-attributable`
+
 - 首次寫入：2026-11-03 21:00 UTC
 - 主題 id：drinking-water-dbp-bladder-cancer-attributable
 - 狀態：building（coverage 0.5）
-- domain：化學／化工（chem）— 公共衛生環境化學交叉
+- domain：健康暴露（health）
 
 ## 已驗證核心事實
 

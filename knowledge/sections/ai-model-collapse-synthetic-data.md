@@ -1,8 +1,11 @@
 # 模型崩壞與合成資料回灌：門檻、機制與量化代價
 
+領域：AI 機械人工程 ｜ 主題 slug：`ai-model-collapse-synthetic-data`
+
 首次寫入時間：2026-11-06T21:00:00Z
 主題 id：ai-model-collapse-synthetic-data
 狀態：covered（coverage 0.6）
+- domain：AI 機械人工程（ai）
 
 ## 已驗證核心事實（附來源）
 

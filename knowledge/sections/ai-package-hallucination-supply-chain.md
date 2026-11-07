@@ -1,9 +1,11 @@
 # AI 幻覺套件名：從生成幻覺到供應鏈攻擊面
 
+領域：AI 機械人工程 ｜ 主題 slug：`ai-package-hallucination-supply-chain`
+
 - 首次寫入：2026-10-23 22:05 UTC
 - 主題 id：ai-package-hallucination-supply-chain
 - 狀態：building（coverage 0.5）
-- domain：AI 工程／軟件供應鏈安全（ai）
+- domain：AI 機械人工程（ai）
 
 ## 已驗證核心事實
 

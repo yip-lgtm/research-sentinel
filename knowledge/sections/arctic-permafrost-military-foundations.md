@@ -1,6 +1,8 @@
 # 北極軍事基地凍土融化嘅基礎設施風險
 
-領域：mil ｜ 主題 slug：`arctic-permafrost-military-foundations` ｜ 對應報告：`2026-10-25-10`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`arctic-permafrost-military-foundations` ｜ 對應報告：`2026-10-25-10`
 
 ## 核心事實
 

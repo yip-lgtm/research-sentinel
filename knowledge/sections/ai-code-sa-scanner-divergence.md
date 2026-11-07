@@ -1,6 +1,8 @@
 # AI 生成代碼嘅靜態掃描器安全分數分歧
 
-領域：ai ｜ 主題 slug：`ai-code-sa-scanner-divergence` ｜ 對應報告：`2026-10-24-04`
+- domain：AI 機械人工程（ai）
+
+領域：AI 機械人工程｜ 主題 slug：`ai-code-sa-scanner-divergence` ｜ 對應報告：`2026-10-24-04`
 
 ## 核心事實
 

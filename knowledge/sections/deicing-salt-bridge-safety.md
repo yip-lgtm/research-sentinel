@@ -1,8 +1,10 @@
 # 除冰鹽用得越少，橋樑是否越安全
 
+領域：土木工程 ｜ 主題 slug：`deicing-salt-bridge-safety`
+
 - 首次寫入：2026-10-24（來源報告 2026-10-24-01）
 - 狀態：building
-- domain：土木工程
+- domain：土木工程（civil）
 
 ## 已驗證核心事實
 

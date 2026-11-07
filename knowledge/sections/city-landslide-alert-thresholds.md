@@ -1,8 +1,10 @@
 # 城市山泥傾瀉預警門檻：雨量 vs 城市
 
+領域：土木工程 ｜ 主題 slug：`city-landslide-alert-thresholds`
+
 - 首次寫入：2026-10-24（來源報告 2026-10-23-21）
 - 狀態：building
-- domain：土木工程
+- domain：土木工程（civil）
 
 ## 已驗證核心事實
 

@@ -1,8 +1,11 @@
 # 領域筆記：AI 編碼工具的開發者生產力實驗（Developer Productivity Field Experiments）
 
+領域：AI 機械人工程 ｜ 主題 slug：`ai-dev-productivity-rct-divergence`
+
 首次寫入：2026-10-24 07:08 UTC
 主題 id：`ai-dev-productivity-rct-divergence`
 狀態：building
+- domain：AI 機械人工程（ai）
 
 ## 已驗證核心事實（附來源）
 

@@ -1,6 +1,8 @@
 # 3D 列印金屬件疲勞失效：表面粗糙度 vs 內部孔隙，HIP 與表面精加工挽回多少壽命？
 
-領域：mech ｜ 主題 slug：`am-fatigue-surface-vs-porosity` ｜ 對應報告：`2026-10-23-13`
+- domain：機械工程（mech）
+
+領域：機械工程｜ 主題 slug：`am-fatigue-surface-vs-porosity` ｜ 對應報告：`2026-10-23-13`
 
 ## 核心事實
 

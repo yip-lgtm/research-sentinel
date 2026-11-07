@@ -1,6 +1,8 @@
 # NIJ 44 mm 背形變形合格與軀幹內臟傷
 
-領域：mil ｜ 主題 slug：`nij-44mm-backface-deformation` ｜ 對應報告：`2026-10-24-17`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`nij-44mm-backface-deformation` ｜ 對應報告：`2026-10-24-17`
 
 ## 核心事實
 

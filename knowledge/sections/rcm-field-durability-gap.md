@@ -1,8 +1,10 @@
 # 同一個 RCM 數值背後可能差 3.4 倍現場壽命
 
+領域：土木工程 ｜ 主題 slug：`rcm-field-durability-gap`
+
 - 首次寫入：2026-10-24（來源報告 2026-10-24-00）
 - 狀態：building
-- domain：土木工程
+- domain：土木工程（civil）
 
 ## 已驗證核心事實
 

@@ -1,6 +1,8 @@
 # 美軍燃燒坑規則收緊後仍有人受損嘅制度缺口
 
-領域：mil ｜ 主題 slug：`burn-pit-compliance-gap` ｜ 對應報告：`2026-10-24-21`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`burn-pit-compliance-gap` ｜ 對應報告：`2026-10-24-21`
 
 ## 核心事實
 

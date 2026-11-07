@@ -1,6 +1,8 @@
 # 沙漠軍用訓練場揚塵：碾壓、濕度與車次取捨
 
-領域：mil ｜ 主題 slug：`military-training-dust` ｜ 對應報告：`2026-10-26-02`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`military-training-dust` ｜ 對應報告：`2026-10-26-02`
 
 ## 核心事實
 

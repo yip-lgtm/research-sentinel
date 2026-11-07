@@ -1,6 +1,8 @@
 # 可持續航空燃料：燃料規格先撞到引擎
 
-領域：mil ｜ 主題 slug：`saf-fuel-specification-limit` ｜ 對應報告：`2026-10-24-13`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`saf-fuel-specification-limit` ｜ 對應報告：`2026-10-24-13`
 
 ## 核心事實
 

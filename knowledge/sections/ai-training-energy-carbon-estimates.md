@@ -1,6 +1,8 @@
 # AI 訓練能耗與碳排估算口徑落差
 
-領域：ai ｜ 主題 slug：`ai-training-energy-carbon-estimates` ｜ 對應報告：`2026-10-24-03`
+- domain：AI 機械人工程（ai）
+
+領域：AI 機械人工程｜ 主題 slug：`ai-training-energy-carbon-estimates` ｜ 對應報告：`2026-10-24-03`
 
 ## 核心事實
 

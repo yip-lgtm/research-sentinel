@@ -1,6 +1,8 @@
 # 車底爆震傷及足部嘅證據鏈
 
-領域：mil ｜ 主題 slug：`underbody-blast-foot-injury` ｜ 對應報告：`2026-10-25-08`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`underbody-blast-foot-injury` ｜ 對應報告：`2026-10-25-08`
 
 ## 核心事實
 

@@ -1,6 +1,8 @@
 # 電動車煞車減磨與輪胎增磨對非排氣 PM 的淨效應
 
-領域：civil ｜ 主題 slug：`ev-tyre-wear-non-exhaust-pm` ｜ 對應報告：`2026-10-24-08`
+- domain：土木工程（civil）
+
+領域：土木工程｜ 主題 slug：`ev-tyre-wear-non-exhaust-pm` ｜ 對應報告：`2026-10-24-08`
 
 ## 核心事實
 

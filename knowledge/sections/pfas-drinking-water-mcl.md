@@ -1,8 +1,11 @@
 # 領域筆記：PFAS 飲用水 MCL 的受監測人口與成本量級 (PFAS Drinking-Water MCL: Monitored Population and Cost Scale)
 
+領域：健康暴露 ｜ 主題 slug：`pfas-drinking-water-mcl`
+
 首次寫入：2026-10-23 03:00 UTC
 主題 id：`pfas-drinking-water-mcl`
 狀態：building
+- domain：健康暴露（health）
 對應報告：`2026-10-23-01`（品質閘 PASS，用戶未評分）
 
 ## 已驗證核心事實（附來源）

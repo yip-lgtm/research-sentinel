@@ -1,6 +1,8 @@
 # 低強度爆炸訓練嘅累計劑量與腦健康
 
-領域：mil ｜ 主題 slug：`low-intensity-blast-cumulative-dose` ｜ 對應報告：`2026-10-25-07`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`low-intensity-blast-cumulative-dose` ｜ 對應報告：`2026-10-25-07`
 
 ## 核心事實
 

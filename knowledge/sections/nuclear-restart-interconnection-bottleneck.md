@@ -1,6 +1,8 @@
 # 退役核電廠重啟 vs 新建：接網權先係樽頸
 
-領域：energy ｜ 主題 slug：`nuclear-restart-interconnection-bottleneck` ｜ 對應報告：`2026-10-27-17`
+- domain：能源（energy）
+
+領域：能源｜ 主題 slug：`nuclear-restart-interconnection-bottleneck` ｜ 對應報告：`2026-10-27-17`
 
 ## 核心事實
 

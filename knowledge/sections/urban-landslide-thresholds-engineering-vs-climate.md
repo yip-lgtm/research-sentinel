@@ -1,9 +1,11 @@
 # 城市山泥傾瀉預警門檻：工程主導 vs 氣候主導
 
+領域：土木工程 ｜ 主題 slug：`urban-landslide-thresholds-engineering-vs-climate`
+
 - 首次寫入：2026-10-23 21:30 UTC
 - 主題 id：urban-landslide-thresholds-engineering-vs-climate
 - 狀態：building（coverage 0.5）
-- domain：土木工程／地質災害（civil）
+- domain：土木工程（civil）
 
 ## 已驗證核心事實
 

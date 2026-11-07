@@ -1,6 +1,8 @@
 # 工業機器人非正常狀態傷亡集中與官方統計低估
 
-領域：mech ｜ 主題 slug：`industrial-robot-nonroutine-injury` ｜ 對應報告：`2026-10-24-09`
+- domain：機械工程（mech）
+
+領域：機械工程｜ 主題 slug：`industrial-robot-nonroutine-injury` ｜ 對應報告：`2026-10-24-09`
 
 ## 核心事實
 

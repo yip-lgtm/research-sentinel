@@ -1,8 +1,11 @@
 # 領域筆記：瘧疾疫苗的效力—死亡落差機制 (Malaria Vaccine: Efficacy vs Mortality Gap)
 
+領域：公共政策與基礎設施 ｜ 主題 slug：`malaria-vaccine-mortality-mechanism`
+
 首次寫入：2026-10-23 02:55 UTC
 主題 id：`malaria-vaccine-mortality-mechanism`
 狀態：building
+- domain：公共政策與基礎設施（pubpol）
 對應報告：`2026-10-23-02`（品質閘 PASS，用戶未評分）
 
 ## 已驗證核心事實（附來源）

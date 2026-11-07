@@ -1,8 +1,11 @@
 # 領域筆記：海岸孟加拉飲用水鹽度的健康—經濟傳導鏈 (Coastal Bangladesh: Salinity as a Health Exposure)
 
+領域：土木工程 ｜ 主題 slug：`coastal-bangladesh-salinity-health`
+
 首次寫入：2026-10-23 05:05 UTC
 主題 id：`coastal-bangladesh-salinity-health`
 狀態：building
+- domain：土木工程（civil）
 對應報告：`2026-10-23-04`（品質閘 PASS，用戶評「合格」）
 
 ## 已驗證核心事實（附來源）

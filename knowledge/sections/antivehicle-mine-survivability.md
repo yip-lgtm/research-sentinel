@@ -1,6 +1,8 @@
 # 同一枚反車載地雷點解有人只傷有人死
 
-領域：mil ｜ 主題 slug：`antivehicle-mine-survivability` ｜ 對應報告：`2026-10-25-02`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`antivehicle-mine-survivability` ｜ 對應報告：`2026-10-25-02`
 
 ## 核心事實
 

@@ -1,6 +1,8 @@
 # 銅價逼近歷史高位：礦場事故、加工費倒掛與硫酸短缺的價格機制
 
-領域：材料工程／冶金／供應鏈經濟 ｜ 主題 slug：`copper-price-supply-mechanism` ｜ 對應報告：`2026-10-23-10`
+- domain：機械工程（mech）
+
+領域：機械工程｜ 主題 slug：`copper-price-supply-mechanism` ｜ 對應報告：`2026-10-23-10`
 
 ## 核心事實
 

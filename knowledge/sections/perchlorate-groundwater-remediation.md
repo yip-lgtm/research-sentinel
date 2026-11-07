@@ -1,6 +1,8 @@
 # 高氯酸鹽基地地下水污染嘅形成與修復代價
 
-領域：mil ｜ 主題 slug：`perchlorate-groundwater-remediation` ｜ 對應報告：`2026-10-25-18`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`perchlorate-groundwater-remediation` ｜ 對應報告：`2026-10-25-18`
 
 ## 核心事實
 

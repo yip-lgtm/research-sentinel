@@ -1,6 +1,9 @@
 # 04 碩士／博士：研究生教育層級（Postgraduate / Research Degrees）
 
+領域：公共政策與基礎設施 ｜ 主題 slug：`04-postgraduate-research`
+
 > 狀態：首輪內容填充完成（2026-10-22 14:xx UTC）。
+- domain：公共政策與基礎設施（pubpol）
 > 資料來源學校／機構：香港大學（HKU）、香港科技大學（HKUST）、香港中文大學（CUHK）、麻省理工學院（MIT）、史丹佛大學（Stanford）、剑桥大学（Cambridge）、帝國理工學院（Imperial College London）、Engineering Council、GOV.UK、QAA。
 
 ## 0. 本章導覽與範圍界定

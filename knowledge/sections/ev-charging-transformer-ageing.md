@@ -1,6 +1,8 @@
 # 午夜後充電會更快燒老配電變壓器
 
-領域：電氣工程／配電網／電動車 ｜ 主題 slug：`ev-charging-transformer-ageing` ｜ 對應報告：`2026-10-23-11`
+- domain：機械工程（mech）
+
+領域：機械工程｜ 主題 slug：`ev-charging-transformer-ageing` ｜ 對應報告：`2026-10-23-11`
 
 ## 核心事實
 

@@ -1,6 +1,9 @@
 # 03a 學士三大分支：Civil / Mechanical / Electrical（工程學士）
 
+領域：公共政策與基礎設施 ｜ 主題 slug：`03a-bachelors-civil-mech-elec`
+
 > 狀態：骨架已落盤，內容增量填充中。
+- domain：公共政策與基礎設施（pubpol）
 > 資料來源學校：香港大學（HKU）、麻省理工學院（MIT），補充 Stanford / Purdue / Cambridge。
 
 ## 0. 本節導覽與範圍界定

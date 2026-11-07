@@ -1,8 +1,11 @@
 # 領域筆記：鈣鈦礦—矽堆疊太陽能的 LCOE 門檻與保固／融資年限落差 (Perovskite–Silicon Tandem: LCOE Threshold vs Warranty & Financing Tenor)
 
+領域：機械工程 ｜ 主題 slug：`perovskite-tandem-lcoe-warranty`
+
 首次寫入：2026-10-23 02:30 UTC
 主題 id：`perovskite-tandem`
 狀態：building
+- domain：機械工程（mech）
 對應報告：`2026-10-22-21`（用戶評「合格」）
 
 ## 已驗證核心事實（附來源）

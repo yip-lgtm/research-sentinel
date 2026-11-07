@@ -1,6 +1,8 @@
 # AI 數據中心會把電網推入「低品質」區間嗎？參數、諧波與住宅火災的量化鏈
 
-領域：AI 工程／電力系統／配電品質 ｜ 主題 slug：`ai-datacentre-grid-power-quality` ｜ 對應報告：`2026-10-23-08`
+- domain：AI 機械人工程（ai）
+
+領域：AI 機械人工程｜ 主題 slug：`ai-datacentre-grid-power-quality` ｜ 對應報告：`2026-10-23-08`
 
 ## 核心事實
 

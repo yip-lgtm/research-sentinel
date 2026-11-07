@@ -1,6 +1,8 @@
 # 高氯酸鹽：EPA 擬議規則與健康風險嘅矛盾
 
-領域：health ｜ 主題 slug：`perchlorate-national-mcl-conflict` ｜ 對應報告：`2026-10-24-15`
+- domain：健康暴露（health）
+
+領域：健康暴露｜ 主題 slug：`perchlorate-national-mcl-conflict` ｜ 對應報告：`2026-10-24-15`
 
 ## 核心事實
 

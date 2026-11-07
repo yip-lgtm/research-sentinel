@@ -1,9 +1,11 @@
 # 地雷與未爆彈清除：成本由「搜尋面積」決定，不由「排爆」決定
 
+領域：軍工科技 ｜ 主題 slug：`erw-clearance-engineering`
+
 - 首次寫入：2026-10-26 20:00 UTC（來源報告 2026-10-26-20）
 - 主題 id：erw-clearance-engineering
 - 狀態：building（coverage 0.5）
-- domain：軍事工程（mil）
+- domain：軍工科技（mil）
 
 ## 已驗證核心事實
 

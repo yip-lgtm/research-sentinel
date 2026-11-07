@@ -1,8 +1,11 @@
 # 領域筆記：氮效率（NUE）——減氮增產的機制、外部成本與可規模化邊界 (Nitrogen Use Efficiency: Less Fertiliser, More Yield)
 
+領域：公共政策與基礎設施 ｜ 主題 slug：`nitrogen-nue-loss-reduction`
+
 首次寫入：2026-10-23 02:40 UTC
 主題 id：`nitrogen-nitrogen-use-efficiency`
 狀態：building
+- domain：公共政策與基礎設施（pubpol）
 對應報告：`2026-10-23-00`（用戶未評分；內容已投遞）
 
 ## 已驗證核心事實（附來源）

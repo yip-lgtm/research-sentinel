@@ -1,8 +1,11 @@
 # 領域筆記：電力零售價格與家庭負擔 (Retail Power Prices & Household Affordability)
 
+領域：能源 ｜ 主題 slug：`energy-retail-price-affordability`
+
 首次寫入：2026-10-22 16:00 UTC
 主題 id：`energy-retail-price-affordability`
 狀態：building
+- domain：能源（energy）
 
 ## 已驗證核心事實（附來源）
 

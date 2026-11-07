@@ -1,6 +1,8 @@
 # 美軍穿甲彈由鈾合金轉鎢合金嘅代價
 
-領域：mil ｜ 主題 slug：`tungsten-vs-uranium-armor-penetration` ｜ 對應報告：`2026-10-24-19`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`tungsten-vs-uranium-armor-penetration` ｜ 對應報告：`2026-10-24-19`
 
 ## 核心事實
 

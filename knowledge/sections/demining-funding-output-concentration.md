@@ -1,6 +1,8 @@
 # 排雷資金縮減與清除面積跌幅唔對稱
 
-領域：mil ｜ 主題 slug：`demining-funding-output-concentration` ｜ 對應報告：`2026-10-24-16`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`demining-funding-output-concentration` ｜ 對應報告：`2026-10-24-16`
 
 ## 核心事實
 

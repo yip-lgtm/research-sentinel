@@ -1,6 +1,8 @@
 # 海底廢彈場內爆炸物嘅貽貝累積路徑
 
-領域：mil ｜ 主題 slug：`undersea-munitions-bivalve-bioaccumulation` ｜ 對應報告：`2026-10-25-20`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`undersea-munitions-bivalve-bioaccumulation` ｜ 對應報告：`2026-10-25-20`
 
 ## 核心事實
 

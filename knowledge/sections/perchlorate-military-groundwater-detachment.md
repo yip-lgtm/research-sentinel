@@ -1,6 +1,8 @@
 # 過氯酸銨基地地下水污染與聯邦規則脫節
 
-領域：mil ｜ 主題 slug：`perchlorate-military-groundwater-detachment` ｜ 對應報告：`2026-10-25-17`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`perchlorate-military-groundwater-detachment` ｜ 對應報告：`2026-10-25-17`
 
 ## 核心事實
 

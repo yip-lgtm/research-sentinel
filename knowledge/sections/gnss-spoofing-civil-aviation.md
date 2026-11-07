@@ -1,6 +1,8 @@
 # 民用 GNSS 偽造如何變成航路與管制風險
 
-領域：mil ｜ 主題 slug：`gnss-spoofing-civil-aviation` ｜ 對應報告：`2026-10-23-17`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`gnss-spoofing-civil-aviation` ｜ 對應報告：`2026-10-23-17`
 
 ## 核心事實
 

@@ -1,8 +1,11 @@
 # 領域筆記：抗藥性死亡負擔的年齡分化與治理槓桿 (AMR Burden Age Divergence & Governance Levers)
 
+領域：公共政策與基礎設施 ｜ 主題 slug：`amr-burden-age-divergence`
+
 首次寫入：2026-10-22 20:07 UTC
 主題 id：`amr-burden-age-divergence`
 狀態：building
+- domain：公共政策與基礎設施（pubpol）
 
 ## 已驗證核心事實（附來源）
 

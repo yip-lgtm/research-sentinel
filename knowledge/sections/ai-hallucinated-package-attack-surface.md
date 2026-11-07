@@ -1,8 +1,10 @@
 # AI 幻覺套件名作為供應鏈攻擊面
 
+領域：AI 機械人工程 ｜ 主題 slug：`ai-hallucinated-package-attack-surface`
+
 - 首次寫入：2026-10-24（來源報告 2026-10-23-22）
 - 狀態：building
-- domain：AI 工程
+- domain：AI 機械人工程（ai）
 
 ## 已驗證核心事實
 

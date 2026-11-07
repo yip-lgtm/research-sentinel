@@ -1,6 +1,8 @@
 # 海上風電單樁陰極保護：塗層升級省 79.8% 陽極，能否「順便」降低氫脆風險？
 
-領域：材料工程／海洋工程／陰極保護 ｜ 主題 slug：`offshore-wind-monopile-cathodic-protection` ｜ 對應報告：`2026-10-23-09`
+- domain：機械工程（mech）
+
+領域：機械工程｜ 主題 slug：`offshore-wind-monopile-cathodic-protection` ｜ 對應報告：`2026-10-23-09`
 
 ## 核心事實
 

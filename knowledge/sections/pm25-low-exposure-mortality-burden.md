@@ -1,6 +1,8 @@
 # PM2.5 低暴露死亡負擔：再降標準仍可避免死亡，但估算可上下翻倍
 
-領域：公共衛生／空氣污染／暴露評估 ｜ 主題 slug：`pm25-low-exposure-mortality-burden` ｜ 對應報告：`2026-10-23-06`
+- domain：公共政策與基礎設施（pubpol）
+
+領域：公共政策與基礎設施｜ 主題 slug：`pm25-low-exposure-mortality-burden` ｜ 對應報告：`2026-10-23-06`
 
 ## 核心事實
 

@@ -1,6 +1,8 @@
 # 聖喬昆谷地陷：地下水超抽轉防洪與輸水危機
 
-領域：civil ｜ 主題 slug：`san-joaquin-subsidence-flood-levee` ｜ 對應報告：`2026-10-23-20`
+- domain：土木工程（civil）
+
+領域：土木工程｜ 主題 slug：`san-joaquin-subsidence-flood-levee` ｜ 對應報告：`2026-10-23-20`
 
 ## 核心事實
 

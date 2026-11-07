@@ -1,6 +1,8 @@
 # 負 G 轉正 G 嘅飛行員短暫失能邊界
 
-領域：mil ｜ 主題 slug：`push-pull-g-force-indisposition` ｜ 對應報告：`2026-10-25-03`
+- domain：軍工科技（mil）
+
+領域：軍工科技｜ 主題 slug：`push-pull-g-force-indisposition` ｜ 對應報告：`2026-10-25-03`
 
 ## 核心事實
 

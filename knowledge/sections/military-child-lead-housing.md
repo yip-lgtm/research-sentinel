@@ -1,9 +1,11 @@
 # 美軍住宅兒童血鉛暴露：檢測率下降 vs 暴露源受控
 
+領域：軍工科技 ｜ 主題 slug：`military-child-lead-housing`
+
 - 首次寫入：2026-10-23 19:00 UTC
 - 主題 id：military-child-lead-housing
 - 狀態：building（coverage 0.5）
-- domain：軍事工程與公共衛生（mil）
+- domain：軍工科技（mil）
 
 ## 已驗證核心事實
 

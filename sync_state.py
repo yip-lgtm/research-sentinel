@@ -39,17 +39,17 @@ SLUGS: dict[str, tuple[str, str, str]] = {
     "2026-10-23-20": ("san-joaquin-subsidence-flood-levee", "聖喬昆谷地陷：地下水超抽轉防洪與輸水危機", "civil"),
     "2026-10-24-03": ("ai-training-energy-carbon-estimates", "AI 訓練能耗與碳排估算口徑落差", "ai"),
     "2026-10-24-04": ("ai-code-sa-scanner-divergence", "AI 生成代碼嘅靜態掃描器安全分數分歧", "ai"),
-    "2026-10-24-05": ("sepsis-ai-model-outcome-benefit", "專有敗血症 AI 模型能否改善病人結果", "bio"),
+    "2026-10-24-05": ("sepsis-ai-model-outcome-benefit", "專有敗血症 AI 模型能否改善病人結果", "health"),
     "2026-10-24-08": ("ev-tyre-wear-non-exhaust-pm", "電動車煞車減磨與輪胎增磨對非排氣 PM 的淨效應", "civil"),
     "2026-10-24-09": ("industrial-robot-nonroutine-injury", "工業機器人非正常狀態傷亡集中與官方統計低估", "mech"),
     "2026-10-24-13": ("saf-fuel-specification-limit", "可持續航空燃料：燃料規格先撞到引擎", "mil"),
-    "2026-10-24-15": ("perchlorate-national-mcl-conflict", "高氯酸鹽：EPA 擬議規則與健康風險嘅矛盾", "env"),
+    "2026-10-24-15": ("perchlorate-national-mcl-conflict", "高氯酸鹽：EPA 擬議規則與健康風險嘅矛盾", "health"),
     "2026-10-24-16": ("demining-funding-output-concentration", "排雷資金縮減與清除面積跌幅唔對稱", "mil"),
     "2026-10-24-17": ("nij-44mm-backface-deformation", "NIJ 44 mm 背形變形合格與軀幹內臟傷", "mil"),
     "2026-10-24-19": ("tungsten-vs-uranium-armor-penetration", "美軍穿甲彈由鈾合金轉鎢合金嘅代價", "mil"),
-    "2026-10-24-20": ("ammonium-perchlorate-mcl-thyroid", "高氯酸銨飲用水 MCL 選項與甲狀腺風險門檻", "env"),
+    "2026-10-24-20": ("ammonium-perchlorate-mcl-thyroid", "高氯酸銨飲用水 MCL 選項與甲狀腺風險門檻", "health"),
     "2026-10-24-21": ("burn-pit-compliance-gap", "美軍燃燒坑規則收緊後仍有人受損嘅制度缺口", "mil"),
-    "2026-10-24-22": ("military-pfas-foam-phaseout-gap", "美軍 PFAS 泡沫禁令嘅終止污染與替代物遷移", "env"),
+    "2026-10-24-22": ("military-pfas-foam-phaseout-gap", "美軍 PFAS 泡沫禁令嘅終止污染與替代物遷移", "health"),
     "2026-10-25-02": ("antivehicle-mine-survivability", "同一枚反車載地雷點解有人只傷有人死", "mil"),
     "2026-10-25-03": ("push-pull-g-force-indisposition", "負 G 轉正 G 嘅飛行員短暫失能邊界", "mil"),
     "2026-10-25-07": ("low-intensity-blast-cumulative-dose", "低強度爆炸訓練嘅累計劑量與腦健康", "mil"),
@@ -73,10 +73,10 @@ ID_RENAMES = {
 
 # edu 主題下嘅四個子章節檔（無獨立報告，掛喺 2026-10-22-14 之下）
 EDU_SUBCHAPTERS = [
-    ("01-secondary-foundation", "中學基礎與副學位路徑", "edu"),
-    ("02-subdegree-certificate", "副學位與證書路徑", "edu"),
-    ("03a-bachelors-civil-mech-elec", "學士三分支（Civil／Mechanical／Electrical）", "edu"),
-    ("04-postgraduate-research", "研究生（碩士／博士）層級", "edu"),
+    ("01-secondary-foundation", "中學基礎與副學位路徑", "pubpol"),
+    ("02-subdegree-certificate", "副學位與證書路徑", "pubpol"),
+    ("03a-bachelors-civil-mech-elec", "學士三分支（Civil／Mechanical／Electrical）", "pubpol"),
+    ("04-postgraduate-research", "研究生（碩士／博士）層級", "pubpol"),
 ]
 
 CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")

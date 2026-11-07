@@ -1,6 +1,6 @@
 # 碩士／博士層級（英美港三地）
 
-領域：edu ｜ 主題 slug：`edu-graduate-levels` ｜ 對應報告：`2026-10-22-14`
+領域：pubpol ｜ 主題 slug：`edu-graduate-levels` ｜ 對應報告：`2026-10-22-14`
 
 ## 核心事實
 

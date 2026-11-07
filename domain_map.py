@@ -1,4 +1,4 @@
-"""報告 → 領域分類。
+"""報告 → 領域分類（2026-11-07 setup 改版：7 域）。
 
 用戶要求：網站報告索引要有工程分類分頁（機械／土木／軍事／生技…）。
 
@@ -8,6 +8,7 @@
   3. 標題關鍵詞啟發式（中文 + 英文）
 
 分類碼沿用 quota.py 嘅 ALL_DOMAINS，避免兩套 vocab 打架。
+舊碼（elec/mat/bio/env/chem/agri/edu/other）會經 LEGACY_DOMAIN_MAP 收斂到新 7 域。
 """
 
 from __future__ import annotations
@@ -19,29 +20,31 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent
 TOPICS = REPO / "knowledge" / "topics.json"
 
-# 沿用 quota.py 定義
+# 沿用 quota.py 定義（2026-11-07 setup 改版：7 域）
 CORE = {
-    "ai": "AI 工程",
+    "ai": "AI 機械人工程",
     "mech": "機械工程",
-    "mil": "軍事工程",
     "civil": "土木工程",
+    "mil": "軍工科技",
 }
 OTHER = {
-    "elec": "電子／電氣工程",
-    "mat": "材料工程",
-    "energy": "能源／動力工程",
-    "env": "環境工程",
-    "chem": "化學／化工",
-    "bio": "醫療／生物工程",
-    "agri": "農業／食品工程",
-    "edu": "工程教育",
-    "other": "公共政策／其他",
+    "energy": "能源",
+    "health": "健康暴露",
+    "pubpol": "公共政策與基礎設施",
 }
 ALL_DOMAINS = {**CORE, **OTHER}
 
 # 顯示順序：核心優先，然後其他
-DOMAIN_ORDER = ["ai", "mech", "civil", "mil", "elec", "mat", "energy", "env",
-                "chem", "bio", "agri", "edu", "other"]
+DOMAIN_ORDER = ["ai", "mech", "civil", "mil", "energy", "health", "pubpol"]
+
+# 舊域 → 新域 收斂（歷史 topics.json / 報告 metadata 仍可能帶舊碼）
+LEGACY_DOMAIN_MAP = {
+    "ai": "ai", "mech": "mech", "civil": "civil", "mil": "mil",
+    "energy": "energy",
+    "elec": "mech", "mat": "mech",
+    "bio": "health", "env": "health", "chem": "health", "agri": "health",
+    "edu": "pubpol", "other": "pubpol", "policy": "pubpol",
+}
 
 # 標題關鍵詞 → domain code。
 # ⚠️ 順序即優先度：越專門嘅 domain 越要排前面。
@@ -59,13 +62,24 @@ KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
              "defense", "naval", "radar", "soldier", "battlefield",
              "explosive", "ordnance", "demining", "drone", "warfighter",
              "鉛檢測", "私營家庭住宅已無鉛害", "軍宅")),
-    # --- 醫療／生技：疾病、臨床、藥物名先於通用健康詞 ---
-    ("bio", ("疫苗", "瘧疾", "抗藥性", "抗生素", "抗藥", "敗血症", "臨床",
+    # --- 健康暴露：疾病、臨床、藥物、環境暴露、化學、農業 ---
+    ("health", ("疫苗", "瘧疾", "抗藥性", "抗生素", "抗藥", "敗血症", "臨床",
              "失智", "認知障礙", "助聽", "聽力", "糖尿病", "癌症", "腫瘤",
              "感染", "病人", "死亡率", "死亡人數", "臨床試驗",
+             "環境", "污染", "空氣質", "PM2.5", "水質", "廢水", "塑膠",
+             "回收", "重金屬", "噪音", "環境健康", "職業熱害", "熱死亡",
+             "PFAS 泡沫", "化學", "化工", "催化劑", "反應釜", "溶劑",
+             "合成", "電解質", "perchlorate", "chemical", "catalys",
+             "solvent", "synthesis", "electrochem", "electrolyte",
+             "農業", "作物", "氮肥", "氮效率", "土壤", "灌溉", "畜牧",
+             "農藥", "化肥", "agricultur", "crop", "nitrogen", "soil",
+             "irrigat", "livestock", "farm", "fertiliz", "農場",
              "epidemiolog", "mortality", "clinical", "vaccine", "cancer",
              "antibiotic", "infection", "dementia", "cognitive", "hearing",
-             "malaria", "sepsis", "patient", "disease", "trial")),
+             "malaria", "sepsis", "patient", "disease", "trial",
+             "environment", "pollution", "air quality", "PM2.5", "water quality",
+             "wastewater", "recycl", "plastic", "emission", "contaminant",
+             "heat illness", "occupational")),
     ("ai", ("AI ", "AI，", "AI數據", "AI 數據", "AI 訓練", "AI 生成", "AI 模型",
             "AI 編碼", "AI 編碼工具", "幻覺", "npm", "大模型", "神經網絡", "深度學",
             "LLM", "GPT", "Transformer", "token", "prompt", "inference", "neural",
@@ -77,7 +91,19 @@ KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
               "鍛造", "鑄造", "表面精加工", "3D 列印", "HIP", "RCM",
               "機油", "油霧", "磨損", "車重", "輪胎", "machin", "turbine",
               "engine", "bearing", "tool wear", "fatigue", "robot", "surface",
-              "lubricant", "coolant")),
+              "lubricant", "coolant",
+              "電網", "電路", "變壓器", "配電", "半導體", "晶片", "諧波",
+              "功率品質", "電容", "感測器", "PCB", "充電樁", "電動車充電",
+              "電氣", "電訊", "電站", "輸電",
+              "材料", "水泥", "銅價", "銅礦", "礦場", "冶煉", "合金", "鈣鈦礦",
+              "太陽能電池", "矽堆疊", "鈦", "稀土", "石墨烯", "陶瓷",
+              "鋁", "鈾", "鎢", "樹脂",
+              "electric", "circuit", "transformer", "power quality",
+              "semiconductor", "chip", "harmonic", "voltage", "sensor",
+              "charging", "battery", "capacitor", "PCB",
+              "material", "cement", "copper", "mining", "smelting", "alloy",
+              "perovskite", "tandem", "ceramic", "polymer", "composite",
+              "steel", "uranium", "tungsten", "battery material", "casting")),
     ("civil", ("土木", "橋樑", "橋", "隧道", "公路", "鐵路", "水利", "防洪",
                "堤", "沉降", "地陷", "排水", "污水", "建築", "結構工程",
                "混凝土", "鋼筋", "岩土", "滑坡", "山泥傾瀉", "崩塌", "地震", "水庫",
@@ -87,38 +113,17 @@ KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
                "building", "infrastructure", "construction", "hydraulic",
                "sanitation", "water treatment", "climate adapt", "salinity",
                "groundwater", "landfill", "slope")),
-    ("elec", ("電網", "電路", "變壓器", "配電", "半導體", "晶片", "諧波",
-              "功率品質", "電容", "感測器", "PCB", "充電樁", "電動車充電",
-              "電氣", "電訊", "電站", "輸電",
-              "electric", "circuit", "transformer", "power quality",
-              "semiconductor", "chip", "harmonic", "voltage", "sensor",
-              "charging", "battery", "capacitor", "PCB")),
-    ("mat", ("材料", "水泥", "銅價", "銅礦", "礦場", "冶煉", "合金", "鈣鈦礦",
-             "太陽能電池", "矽堆疊", "鈦", "稀土", "石墨烯", "陶瓷",
-             "鋁", "鈾", "鎢", "樹脂",
-             "material", "cement", "copper", "mining", "smelting", "alloy",
-             "perovskite", "tandem", "ceramic", "polymer", "composite",
-             "steel", "uranium", "tungsten", "battery material", "casting")),
     ("energy", ("能源", "電力", "發電", "風電", "核能", "核電", "儲能",
-                "電池儲", "油氣", "天然氣", "氫能", "生物質", "電價", "能源",
+                "電池儲", "油氣", "天然氣", "氫能", "生物質", "電價",
                 "energy", "power market", "nuclear", "storage", "hydrogen",
                 "coal", "retail price", "tariff", "VPP", "electricity",
                 "renewable", "hydroelectric", "核電站")),
-    ("env", ("環境", "污染", "空氣質", "PM2.5", "水質", "廢水", "塑膠",
-             "回收", "重金屬", "噪音", "環境健康", "職業熱害", "熱死亡",
-             "PFAS 泡沫", "環境",
-             "environment", "pollution", "air quality", "PM2.5", "water quality",
-             "wastewater", "recycl", "plastic", "emission", "contaminant",
-             "heat illness", "occupational")),
-    ("chem", ("化學", "化工", "催化劑", "反應釜", "溶劑", "合成", "電解質",
-              "perchlorate", "chemical", "catalys", "solvent", "synthesis",
-              "electrochem", "electrolyte", "反應", "酸")),
-    ("agri", ("農業", "作物", "氮肥", "氮效率", "土壤", "灌溉", "畜牧",
-              "農藥", "化肥", "agricultur", "crop", "nitrogen", "soil",
-              "irrigat", "livestock", "farm", "fertiliz", "農場")),
-    ("edu", ("教育", "課程", "學士", "碩士", "博士", "學分", "大學", "培訓",
+    ("pubpol", ("教育", "課程", "學士", "碩士", "博士", "學分", "大學", "培訓",
+             "政策", "法規", "監管", "標準", "融資", "基建", "投資",
              "educat", "curricul", "course", "degree", "university", "student",
-             "pedagog", "accredit", "畢業", "入學", "升學")),
+             "pedagog", "accredit", "畢業", "入學", "升學",
+             "regulat", "policy", "standard", "financ", "infrastructure",
+             "investment", "due diligence")),
 ]
 
 
@@ -169,7 +174,7 @@ def classify_title(title: str, body: str = "") -> str:
     （例如 PFAS、Solar）誤觸發。body 只留作最後 fallback。
     """
     if not title:
-        return "other"
+        return "pubpol"
     t = title.lower()
 
     # 1. topics.json 精確標題匹配
@@ -194,7 +199,7 @@ def classify_title(title: str, body: str = "") -> str:
             for w in words:
                 if w.lower() in bt:
                     return code
-    return "other"
+    return "pubpol"
 
 
 def classify_report(text: str, title: str) -> dict:
@@ -207,6 +212,7 @@ def classify_report(text: str, title: str) -> dict:
                   text, re.M | re.I)
     if m:
         code = m.group(1).lower()
+        code = LEGACY_DOMAIN_MAP.get(code, code)
         if code in ALL_DOMAINS:
             return {"code": code, "name": ALL_DOMAINS[code], "source": "meta"}
 
@@ -219,5 +225,5 @@ def classify_report(text: str, title: str) -> dict:
     return {
         "code": code,
         "name": ALL_DOMAINS.get(code, code),
-        "source": "keywords" if code != "other" else "fallback",
+        "source": "keywords" if code != "pubpol" else "fallback",
     }

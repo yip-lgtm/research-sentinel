@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""人性化練習哨兵 — 領域配額計算器 (Domain Quota)
+"""Research Sentinel — 領域配額計算器 (Domain Quota)
 
-用戶 2026-10-23 指示：主要做 (AI工程/機械工程/軍事工程/土木工程) 科研 80%，
-其他工程科研 20%。同日補充：AI 題目勝率最高，核心域內部對 AI 加權。
+用戶 2026-11-07 指示：setup 改為 Research Sentinel（雙軌：Research + Investment），
+領域重整為 7 域：
+  AI 機械人工程 / 機械工程 / 土木工程 / 能源 / 健康暴露 / 公共政策與基礎設施 / 軍工科技
 
 本模組：
-  1. 為每個已報告主題計算 domain_code 歸屬（核心 4 域 vs 其他）
+  1. 為每個已報告主題計算 domain_code 歸屬（核心 4 域 vs 其他 3 域）
   2. 以 4:1 循環帳本決定「下一題必須屬於邊個領域」
   3. 核心域內按勝率加權選域（AI 權重最高）
   4. 輸出一行「配額行」供 cron prompt 直接引用，避免 LLM 靠感覺選題
@@ -43,24 +44,36 @@ QUOTA_START_UTC = "2026-10-23T05:00:00Z"
 
 # 核心 4 域（80%）
 CORE = {
-    "ai": "AI 工程",
+    "ai": "AI 機械人工程",
     "mech": "機械工程",
-    "mil": "軍事工程",
     "civil": "土木工程",
+    "mil": "軍工科技",
 }
 # 其他領域（20%）
 OTHER = {
-    "elec": "電子／電氣工程",
-    "mat": "材料工程",
-    "energy": "能源／動力工程",
-    "env": "環境工程",
-    "chem": "化學／化工",
-    "bio": "醫療／生物工程",
-    "agri": "農業／食品工程",
-    "edu": "工程教育",
-    "other": "公共政策／其他",
+    "energy": "能源",
+    "health": "健康暴露",
+    "pubpol": "公共政策與基礎設施",
 }
 ALL_DOMAINS = {**CORE, **OTHER}
+
+# 舊域 → 新域 收斂映射（2026-11-07 setup 改版用）
+LEGACY_DOMAIN_MAP = {
+    "ai": "ai",
+    "mech": "mech",
+    "civil": "civil",
+    "mil": "mil",
+    "energy": "energy",
+    "elec": "mech",     # 電子／電氣工程 → 機械工程
+    "mat": "mech",      # 材料工程 → 機械工程
+    "bio": "health",    # 醫療／生物工程 → 健康暴露
+    "env": "health",    # 環境工程 → 健康暴露
+    "chem": "health",   # 化學／化工 → 健康暴露
+    "agri": "health",   # 農業／食品工程 → 健康暴露
+    "edu": "pubpol",    # 工程教育 → 公共政策與基礎設施
+    "other": "pubpol",  # 公共政策／其他 → 公共政策與基礎設施
+    "policy": "pubpol",
+}
 
 # 核心域內加權：用戶反饋 AI 題目勝率最高 → AI 權重最高，
 # 揀域時用 count/weight 最低者（權重高 → 分母大 → 更容易被揀）。
@@ -73,24 +86,24 @@ CORE_WEIGHTS = {
 
 # 歷史主題 → 領域歸屬（topics.json 有 domain_code 時以嗰個為準）
 DOMAIN_MAP = {
-    "edu-path-overview": "edu",
-    "edu-bachelor-branches": "edu",
-    "edu-graduate-levels": "edu",
+    "edu-path-overview": "pubpol",
+    "edu-bachelor-branches": "pubpol",
+    "edu-graduate-levels": "pubpol",
     "energy-retail-price-affordability": "energy",
-    "occupational-heat-health-burden": "other",
-    "low-carbon-cement-lc3": "mat",
-    "amr-burden-age-divergence": "other",
-    "hearing-loss-cognitive-intervention": "bio",
-    "perovskite-tandem": "mat",
-    "nitrogen-nitrogen-use-efficiency": "other",
-    "malaria-vaccine-mortality-mechanism": "other",
-    "pfas-drinking-water-mcl": "env",
+    "occupational-heat-health-burden": "health",
+    "low-carbon-cement-lc3": "mech",
+    "amr-burden-age-divergence": "health",
+    "hearing-loss-cognitive-intervention": "health",
+    "perovskite-tandem": "mech",
+    "nitrogen-nitrogen-use-efficiency": "health",
+    "malaria-vaccine-mortality-mechanism": "health",
+    "pfas-drinking-water-mcl": "health",
     "coastal-bangladesh-salinity-health": "civil",
-    "pm25-low-exposure-mortality-burden": "other",
+    "pm25-low-exposure-mortality-burden": "health",
     "ai-datacentre-grid-power-quality": "ai",
     "offshore-wind-monopile-cathodic-protection": "mech",
-    "copper-price-supply-mechanism": "mat",
-    "ev-charging-transformer-ageing": "elec",
+    "copper-price-supply-mechanism": "mech",
+    "ev-charging-transformer-ageing": "mech",
     "am-fatigue-surface-vs-porosity": "mech",
 }
 
@@ -126,7 +139,10 @@ def compute(topics_doc):
     counts = Counter()
     legacy = Counter()
     for t in topics:
-        dc = t.get("domain_code") or DOMAIN_MAP.get(t.get("id", ""), "other")
+        dc = t.get("domain_code") or DOMAIN_MAP.get(t.get("id", ""), "pubpol")
+        dc = LEGACY_DOMAIN_MAP.get(dc, dc)
+        if dc not in ALL_DOMAINS:
+            dc = "pubpol"
         t["domain_code"] = dc
         if in_window(t.get("last_report", "")):
             counts[dc] += 1

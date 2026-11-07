@@ -1,6 +1,6 @@
 # 專有敗血症 AI 模型能否改善病人結果
 
-領域：bio ｜ 主題 slug：`sepsis-ai-model-outcome-benefit` ｜ 對應報告：`2026-10-24-05`
+領域：health ｜ 主題 slug：`sepsis-ai-model-outcome-benefit` ｜ 對應報告：`2026-10-24-05`
 
 ## 核心事實
 

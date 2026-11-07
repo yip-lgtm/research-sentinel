@@ -1,6 +1,6 @@
 # 美軍 PFAS 泡沫禁令嘅終止污染與替代物遷移
 
-領域：env ｜ 主題 slug：`military-pfas-foam-phaseout-gap` ｜ 對應報告：`2026-10-24-22`
+領域：health ｜ 主題 slug：`military-pfas-foam-phaseout-gap` ｜ 對應報告：`2026-10-24-22`
 
 ## 核心事實
 

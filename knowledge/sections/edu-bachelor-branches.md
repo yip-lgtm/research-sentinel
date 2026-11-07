@@ -1,6 +1,6 @@
 # 學士三大分支（Civil/Mechanical/Electrical）學分制度
 
-領域：edu ｜ 主題 slug：`edu-bachelor-branches` ｜ 對應報告：`2026-10-22-14`
+領域：pubpol ｜ 主題 slug：`edu-bachelor-branches` ｜ 對應報告：`2026-10-22-14`
 
 ## 核心事實
 

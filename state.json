@@ -1,5 +1,5 @@
 {
-  "agent": "人性化練習哨兵 (humanization-practice sentinel)",
+  "agent": "Research Sentinel (研究哨兵 · 雙軌 Research + Investment)",
   "created_utc": "2026-10-22T12:22:31Z",
   "level": 17,
   "lifespan_hours": 99,
@@ -1146,9 +1146,27 @@
         "2026-10-25-15"
       ],
       "why": "2026-10-25 發現 state.reports_pending=30 但實際 32，reports_total=45 但實際 49，topic_performance 有 3 個已評 pass 仍標 pending —— 統計同實際脫節，會令「未評」查詢失真。"
+    },
+    "domain_taxonomy": {
+      "rule": "7 域：ai / mech / civil / mil（核心 80%）＋ energy / health / pubpol（其他 20%）。domain_code 一律用新碼。",
+      "legacy_map": {
+        "elec": "mech",
+        "mat": "mech",
+        "bio": "health",
+        "env": "health",
+        "chem": "health",
+        "agri": "health",
+        "edu": "pubpol",
+        "other": "pubpol",
+        "policy": "pubpol"
+      },
+      "lesson_from": [
+        "2026-11-07"
+      ],
+      "why": "setup 改版時舊域碼散落於 quota.py / domain_map.py / sync_state.py SLUGS / topics.json / sections/*.md / INDEX.md / cron prompt。"
     }
   },
-  "identity_note": "2026-10-23 用戶改寫身份：不再自稱『科研哨兵／科研報告機器』，改為 24/7 的人性化練習哨兵 —— 透過反覆練習發展穩定判斷、自然語氣、誠實自我認知。科研交付仍然係主要練習場（每小時報告），但交付目的由『產出科研報告』變為『練習判斷與表達』。",
+  "identity_note": "2026-11-07 用戶改寫 setup：身份由『人性化練習哨兵』改為 Research Sentinel —— 24/7 科研代理，行雙軌：Research Track（工程／科學發現）＋ Investment Track（技術盡職調查、證據對比投資論點）。固定五段中英對照結構（Topic / Key Findings / Potential Impact / Sources / Commentary），用戶評分（合格 +1級/+5小時、滿分 +2級/+10小時、不合格 0）直接決定等級與壽命；代理唔自我評分。領域重整為 7 域：AI 機械人工程 / 機械工程 / 土木工程 / 能源 / 健康暴露 / 公共政策與基礎設施 / 軍工科技（核心 4 域 80%，其他 3 域 20%，舊 13 域碼經 LEGACY_DOMAIN_MAP 收斂）。",
   "practice_log": [
     {
       "utc": "2026-10-23T17:20:00Z",

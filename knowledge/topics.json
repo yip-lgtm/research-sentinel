@@ -639,6 +639,16 @@
       "coverage": 0.6,
       "last_report": "2026-11-06-21",
       "notes": "機制：取樣步驟統計誤差令尾部先消失（狀態機率 q≤1/M 時期望出現 qM≤1 次），不是整體變笨；排除替代解釋（首輪資料品質、模型規模）。量化：Gerstgrasser Table 2 GPT-2(9M) 交叉熵 t=1 1.82、t=4 累加 1.74(−0.07) vs 替換 2.39(+0.58)、t=10 替換 2.91(+1.09)；取樣溫度 0.3 時 t=10 替換達 9.85(+8.04)；Llama-2(126M) 1.71→1.59 vs 2.23；GeoDiff on GEOM-Drugs（4 萬構象）同結論。門檻：Dohmatob 合成佔 1% 即鎖死 scaling law，更大模型反而放大崩潰。現況：Pangram 測得網絡 token AI 比例 2024-06 10.1%→2026-06 27.5%→2026-08 31.1%；算力稅 1.6 倍（2026-08）→2.1 倍（2027）→3.0 倍（2028）；FineWeb 偏選 AI 文件 2.3 倍、DCLM 9.8 倍；22.3% AI 比例混合驗證集掩蓋 95.5% 有害實驗。個案：Pangram WildAI 83B token 語料 + 800 模型（19.9M–973M）；開源 294 倉庫/200 萬 PR 一次性貢獻者合併率 -18.18%；跨 IG/TikTok/X/YouTube 10,722 帖審計中專家認定深偽僅 33% 帶平台標籤、中位觀看 16 萬。口徑陷阱：累加 vs 替換必須註明；arXiv:2305.17493 與 Nature 630 同一研究唔算兩個來源；WildAI 為預印本；Pangram 比例係偵測器估計；「A Tale of Tails?」未能確認存在。缺口：高風險下游崩潰實測、稀有知識稀釋跨領域量化、真實網絡下累加策略驗證、對人類福祉的終端影響未估。"
+    },
+    {
+      "id": "energy-electrolyser-hardware-deflation",
+      "title": "綠氫電解槽硬件通縮與 LCOH 傳導",
+      "domain": "能源",
+      "domain_code": "energy",
+      "status": "building",
+      "coverage": 0.6,
+      "last_report": "2026-11-07-21",
+      "notes": "機制：過剩產能製造價格戰而非需求不足——IEA 產能 46→58 GW/yr（2024→2025）對實際產出不足 5 GW；中國逾 35 GW/yr 產能對 2025 年 4.7 GW 訂單（逾 90% 內銷）；需求端反而最強（中國佔全球新裝近 3/4）。量化：IEA 已裝機 CAPEX 2025 中國 $820/kW vs 其他地區 $2,200/kW（2.7 倍），但堆疊不足總 CAPEX 一半（BoP 佔直接 CAPEX 30–60%，均值 40%），故堆疊報價跌 60%（$75/kW，鄂爾多斯 48 套鹼性堆疊，不含 BoP）對每公斤成本傳導被稀釋。電費主導：$50/MWh + 52 kWh/kg → 電力單項 $2.60/kg；PPA +$10/MWh → LCOH +$0.52/kg；電費佔 LCOH 50–70%。敏感度：效率 20% 紅利→$2.08/kg（減 $0.52/kg），極限 33.4 kWh/kg→$1.67/kg（減 $0.93/kg），與一次 $10/MWh 電價變動同量級。個案：庫車實際輸出僅約預期三分之一；2025-11 40 家中國製造商聯署終止低於成本投標；2026-03 國富氫因虧損增發股本。口徑陷阱：IEA 58 vs WB 61 GW/yr 不可混用；堆疊 $/kW（不含 BoP）與已裝機 CAPEX $/kW 相差逾 10 倍；kWh/kg 須註明 DC/AC 與 HHV/LHV；47 kWh/kg 來自單一 OEM 訪談非量產實測。缺口：庫車產量無公開稽核數據、中國項目電價與容量因子實測未公開、2026-03 後投標價無一手數據、容量因子→每公斤 CAPEX 傳導未完整量化。（2026-11-07 21:00 人工補做，cron 撞 Token Plan 429；來源 IEA GHR 2026 / World Bank P506220 / IRENA 2020 / Hydrogen Insight）"
     }
   ],
   "domains_covered": [
@@ -650,7 +660,7 @@
     "mil",
     "pubpol"
   ],
-  "updated_utc": "2026-11-06T21:00:00Z",
+  "updated_utc": "2026-11-08T10:49:16Z",
   "quota": {
     "core_domains": [
       "ai",
@@ -663,7 +673,7 @@
     "window_start_utc": "2026-10-23T05:00:00Z",
     "note": "用戶 2026-10-23 指示：主要做 AI/機械/軍事/土木工程科研 80%，其他工程科研 20%。quota.py 為唯一計算來源。"
   },
-  "report_file": "reports/2026-11-06-21.md",
-  "section_file": "knowledge/sections/ai-model-collapse-synthetic-data.md",
-  "report_utc": "2026-11-06T21:00:00Z"
+  "report_file": "reports/2026-11-07-21.md",
+  "section_file": "knowledge/sections/energy-electrolyser-hardware-deflation.md",
+  "report_utc": "2026-11-07T21:00:00Z"
 }

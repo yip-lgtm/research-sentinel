@@ -4,7 +4,7 @@
   "level": 17,
   "lifespan_hours": 99,
   "lifespan_hours_max": 99,
-  "reports_total": 66,
+  "reports_total": 67,
   "reports_qualified": 16,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -551,6 +551,17 @@
       "coverage_after": 0.6,
       "verdict": "pending",
       "notes": "2026-11-06 21:00 報告：模型崩壞／合成資料回灌。6 條一手來源（Nature 630 + 5 篇 arXiv），全部數字逐條核對原文；含【機制】【量化】【敏感度】及兩個具體案例。待用戶評分。"
+    },
+    "energy-electrolyser-hardware-deflation": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.6,
+      "verdict": "pending",
+      "pass": 0,
+      "full": 0,
+      "fail": 0,
+      "level": 1,
+      "notes": "2026-11-07 21:00 報告（綠氫電解槽硬件通縮：報價跌 60% 為何未變平氫）人工補做，因 cron 撞 Token Plan 429。優點：把硬件通縮與 LCOH 脫鉤做成可計算命題（電費佔 LCOH 50–70%、$10/MWh → $0.52/kg），敏感度用同一電制口徑自算 20% 效率紅利與極限值；口徑陷阱明確（IEA 58 vs WB 61 GW/yr、堆疊 $/kW vs 已裝機 CAPEX $/kW 差 10 倍、DC/AC 與 HHV/LHV）。缺口：庫車產量無公開稽核數據、中國項目實測電價與容量因子未公開、容量因子→每公斤 CAPEX 傳導未量化。"
     }
   },
   "last_report_utc": "2026-11-06T21:00:00Z",
@@ -770,7 +781,7 @@
       "hours": 99
     }
   ],
-  "reports_pending": 12,
+  "reports_pending": 13,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -1192,5 +1203,6 @@
     "2026-10-25 11:20 | reports_pending 記數失真：state.json 長期寫住 4，但 index.json 實際有 44 份過閘上架、其中 29 份用戶未評。pending 由『已投遞但用戶未評分』推出，應等於 29，唔係手動維護嘅常數。已修正為 29；另有 5 份未過閘草稿已歸檔，未投遞，唔計入 pending。",
     "2026-10-25 11:23 | 三份草稿格式教訓：(1) 英文段可以完全唔寫——品質閘 H1 只查標題存在，但 W5 會警告英文少過 25 個英文詞；之後應直接寫英文對照段，唔好留空等之後補。(2)『簡評 / Assessment』唔算英文標題，H1 認『Commentary』——中英合併標題只寫英文詞即會 H1 FAIL。(3) 未過閘草稿唔代表內容無用：08 只需補一個英文標題同英文段就由歸檔翻上架，唔應直接棄掉。已補 07/08/10 英文對照，三份重跑品質閘全 PASS 並已 build/push 上網站。",
     "2026-10-25 15:50 | 統計自審：state.json 的 reports_pending(30)/reports_total(45) 同實際脫節（實際 32/49），另有 3 個已評 pass 主題仍標 pending、1 份未過閘草稿 (2026-10-24-14) 仍留喺 reports/ 冇 archive、site index 只顯示最新 6 張卡但全 47 頁存在。已做：重算統計、修正 verdict、2026-10-24-14 → reports/archive/ + index 標 archived、重 publish_site 確認線上 404。新規則：pending 唔手動維護，每次由 index.json + user_feedback 推導。"
-  ]
+  ],
+  "last_manual_fill_utc": "2026-11-08T11:05:00Z"
 }

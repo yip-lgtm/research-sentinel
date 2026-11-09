@@ -912,7 +912,24 @@
    ],
    "archived_by": "finalize.py",
    "reverified_utc": "2026-11-08T10:48:30Z"
+  },
+  "2026-11-08-21": {
+   "source": "/root/.hermes/cron/output/a1d898e84805/2026-11-08_21-20-18.md",
+   "bytes": 7918,
+   "cjk": 1000,
+   "sources": 3,
+   "gate_pass": true,
+   "fails": [],
+   "warnings": [
+    "W11 存檔版 5529 chars 超過投遞上限 3900：投遞時必須用 quality_gate.py --delivery 產生投遞版，否則 gateway 截斷成 3800 chars，用戶只見尾部"
+   ],
+   "archived_by": "finalize.py",
+   "rescued_from_error_response": true,
+   "error_response_head": "API call failed after 3 retries: HTTP 429: The Token Plan usage limit has been reached. To avoid interruption, please upgrade your plan or buy credits and turn on auto consumption. (2067)",
+   "reverified_utc": "2026-11-09T02:22:50Z",
+   "delivered_utc": "2026-11-09T02:22:51Z",
+   "delivery_chars": 2972
   }
  },
- "updated_utc": "2026-11-08T10:48:30Z"
+ "updated_utc": "2026-11-09T02:22:51Z"
 }

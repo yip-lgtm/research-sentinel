@@ -4,7 +4,7 @@
   "level": 17,
   "lifespan_hours": 99,
   "lifespan_hours_max": 99,
-  "reports_total": 67,
+  "reports_total": 72,
   "reports_qualified": 16,
   "reports_full_score": 0,
   "reports_rejected": 2,
@@ -562,9 +562,27 @@
       "fail": 0,
       "level": 1,
       "notes": "2026-11-07 21:00 報告（綠氫電解槽硬件通縮：報價跌 60% 為何未變平氫）人工補做，因 cron 撞 Token Plan 429。優點：把硬件通縮與 LCOH 脫鉤做成可計算命題（電費佔 LCOH 50–70%、$10/MWh → $0.52/kg），敏感度用同一電制口徑自算 20% 效率紅利與極限值；口徑陷阱明確（IEA 58 vs WB 61 GW/yr、堆疊 $/kW vs 已裝機 CAPEX $/kW 差 10 倍、DC/AC 與 HHV/LHV）。缺口：庫車產量無公開稽核數據、中國項目實測電價與容量因子未公開、容量因子→每公斤 CAPEX 傳導未量化。"
+    },
+    "nuclear-restart-interconnection-bottleneck": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.55,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-10-27-17 報告自動登記：8 條來源、890 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
+    },
+    "california-wildfire-liability-funding-gap": {
+      "reports": 1,
+      "coverage_before": 0.0,
+      "coverage_after": 0.6,
+      "verdict": "pending",
+      "pass": 0,
+      "fail": 0,
+      "notes": "由 sync_state.py 由 2026-11-08-21 報告自動登記：3 條來源、1000 中文字。用戶評分未記錄，故 verdict=pending（唔當作合格）。"
     }
   },
-  "last_report_utc": "2026-11-06T21:00:00Z",
+  "last_report_utc": "2026-11-08T21:00:00Z",
   "history": [
     {
       "report": "2026-10-22-14",
@@ -781,7 +799,7 @@
       "hours": 99
     }
   ],
-  "reports_pending": 13,
+  "reports_pending": 12,
   "user_feedback": [
     {
       "utc": "2026-10-22T17:45:00Z",
@@ -1134,7 +1152,7 @@
   ],
   "phase_changed_utc": "2026-10-22T19:52:00Z",
   "reports_form_fail_rewritten": 3,
-  "updated_utc": "2026-11-03T21:00:00Z",
+  "updated_utc": "2026-10-27T07:10:00Z",
   "operating_rules": {
     "bytes_budget": {
       "limit_bytes": 9000,
